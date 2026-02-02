@@ -1,0 +1,10 @@
+On Wed, Feb 27, 2013 at 5:17 PM, Greg KH <greg () kroah com> wrote:
+
+Are you willing to do it?
+
+
+
+If it's a patch for an issue sent to security@, then it is, in fact, a
+"trivial task" as to whether or not it was a security fix. There's no
+issue of responsibility of judgement, at all.
+

@@ -1,0 +1,163 @@
+{
+    "4": {
+        "title": "linuxptp: Fixes published for CVE-2021-3570 and CVE-2021-3571",
+        "CVE_id": "CVE-2021-3570",
+        "no_subthreads": 0,
+        "date": ": Mon, 5 Jul 2021 15:30:14 -0700",
+        "author": ": Richard Cochran <richardcochran () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q3/4.txt",
+        "subthreads": []
+    },
+    "6": {
+        "title": "CVE-2021-35039: Linux kernel loading unsigned kernel modules via init_module syscall",
+        "CVE_id": "CVE-2021-35039",
+        "no_subthreads": 0,
+        "date": ": Tue, 6 Jul 2021 19:16:00 -0400",
+        "author": ": Nayna <nayna () linux vnet ibm com>",
+        "File_path": "seclist_thread_messages/2021_Q3/6.txt",
+        "subthreads": []
+    },
+    "19": {
+        "title": "CVE-2021-33909: size_t-to-int vulnerability in Linux's filesystem layer",
+        "CVE_id": "CVE-2021-33909",
+        "no_subthreads": 3,
+        "date": ": Tue, 20 Jul 2021 12:36:11 +0000",
+        "author": ": Qualys Security Advisory <qsa () qualys com>",
+        "File_path": "seclist_thread_messages/2021_Q3/19.txt",
+        "subthreads": [
+            {
+                "id": "21",
+                "no_subthreads": 0,
+                "date": ": Tue, 20 Jul 2021 14:52:19 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2021_Q3/21.txt",
+                "subthreads": []
+            },
+            {
+                "id": "34",
+                "no_subthreads": 1,
+                "date": ": Thu, 22 Jul 2021 22:30:45 +0000",
+                "author": ": Qualys Security Advisory <qsa () qualys com>",
+                "File_path": "seclist_thread_messages/2021_Q3/34.txt",
+                "subthreads": [
+                    {
+                        "id": "128",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 25 Aug 2021 21:52:26 +0000",
+                        "author": ": Qualys Security Advisory <qsa () qualys com>",
+                        "File_path": "seclist_thread_messages/2021_Q3/128.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "28": {
+        "title": "CVE-2021-3640: Linux kernel: UAF in sco_send_frame function",
+        "CVE_id": "CVE-2021-3640",
+        "no_subthreads": 0,
+        "date": ": Thu, 22 Jul 2021 14:28:05 +0800",
+        "author": ": Lin Horse <kylin.formalin () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q3/28.txt",
+        "subthreads": []
+    },
+    "63": {
+        "title": "[CVE-2021-34556,CVE-2021-35477] Linux kernel BPF protection against Speculative Store Bypass can be bypassed to disclose arbitrary kernel memory",
+        "CVE_id": "CVE-2021-34556",
+        "no_subthreads": 0,
+        "date": ": Sun, 1 Aug 2021 20:40:13 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q3/63.txt",
+        "subthreads": []
+    },
+    "107": {
+        "title": "[OSSA-2021-004] Neutron: Linuxbridge ARP filter bypass on Netfilter platforms (CVE-2021-38598)",
+        "CVE_id": "CVE-2021-38598",
+        "no_subthreads": 2,
+        "date": ": Tue, 17 Aug 2021 15:17:17 +0000",
+        "author": ": Jeremy Stanley <fungi () yuggoth org>",
+        "File_path": "seclist_thread_messages/2021_Q3/107.txt",
+        "subthreads": [
+            {
+                "id": "108",
+                "no_subthreads": 1,
+                "date": ": Tue, 17 Aug 2021 19:30:21 +0200 (CEST)",
+                "author": ": Jan Engelhardt <jengelh () inai de>",
+                "File_path": "seclist_thread_messages/2021_Q3/108.txt",
+                "subthreads": [
+                    {
+                        "id": "109",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 17 Aug 2021 18:02:51 +0000",
+                        "author": ": Jeremy Stanley <fungi () yuggoth org>",
+                        "File_path": "seclist_thread_messages/2021_Q3/109.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "146": {
+        "title": "CVE-2021-3753: A out-of-bounds caused by the race of KDSETMODE in vt for latest Linux",
+        "CVE_id": "CVE-2021-3753",
+        "no_subthreads": 0,
+        "date": ": Wed, 1 Sep 2021 17:15:57 +0800",
+        "author": ": Minh Yuan <yuanmingbuaa () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q3/146.txt",
+        "subthreads": []
+    },
+    "154": {
+        "title": "CVE-2021-3715 Linux kernel: use-after-free in route4_change() in net/sched/cls_route.c",
+        "CVE_id": "CVE-2021-3715",
+        "no_subthreads": 2,
+        "date": ": Tue, 7 Sep 2021 14:09:52 +0530",
+        "author": ": Rohit Keshri <rkeshri () redhat com>",
+        "File_path": "seclist_thread_messages/2021_Q3/154.txt",
+        "subthreads": [
+            {
+                "id": "155",
+                "no_subthreads": 1,
+                "date": ": Tue, 7 Sep 2021 12:16:58 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2021_Q3/155.txt",
+                "subthreads": [
+                    {
+                        "id": "157",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 8 Sep 2021 13:15:34 +0530",
+                        "author": ": Rohit Keshri <rkeshri () redhat com>",
+                        "File_path": "seclist_thread_messages/2021_Q3/157.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "159": {
+        "title": "CVE-2021-3773: Lack of port sanity checking in natd and Netfilter leads to exploit of OpenVPN clients on Linux and FreeBSD platforms",
+        "CVE_id": "CVE-2021-3773",
+        "no_subthreads": 0,
+        "date": ": Wed, 8 Sep 2021 14:37:17 -0400",
+        "author": ": Ben <ben () breakpointingbad com>",
+        "File_path": "seclist_thread_messages/2021_Q3/159.txt",
+        "subthreads": []
+    },
+    "169": {
+        "title": "CVE-2021-3752: Linux kernel: a uaf bug in bluetooth",
+        "CVE_id": "CVE-2021-3752",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Sep 2021 14:54:43 +0800",
+        "author": ": \"Luo Likang\" <luolikang () nsfocus com>",
+        "File_path": "seclist_thread_messages/2021_Q3/169.txt",
+        "subthreads": []
+    },
+    "170": {
+        "title": "[CVE-2021-38300] Linux kernel cBPF JIT compiler for MIPS emits incorrect branches leading to execution of arbitrary Kernel code",
+        "CVE_id": "CVE-2021-38300",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Sep 2021 18:47:16 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q3/170.txt",
+        "subthreads": []
+    }
+}

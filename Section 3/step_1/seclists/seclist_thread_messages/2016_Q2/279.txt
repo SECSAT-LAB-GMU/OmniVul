@@ -1,0 +1,16 @@
+Hello,
+
+In file sound/core/timer.c of the latest mainline Linux kernel, the stack
+object “tread” has a total size of 32 bytes. It contains a 8-bytes padding,
+which is not initialized but sent to user via copy_to_user, resulting a
+kernel leak.
+
+Fix info:
+http://comments.gmane.org/gmane.linux.kernel/2214250
+
+
+Please help assign a CVE to this vulnerability.
+
+
+Thanks,
+Kangjie Lu

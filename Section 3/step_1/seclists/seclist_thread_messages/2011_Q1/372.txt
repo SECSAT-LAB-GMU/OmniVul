@@ -1,0 +1,12 @@
+http://git.kernel.org/linus/1362fa078dae16776cd439791c6605b224ea6171 has 
+
+very detailed explanation about the issue.
+
+
+
+net/dns_resolver/dns_key.c was added in 1a4240f4 (v2.6.36-rc1).
+
+Eugene
+--
+Eugene Teo / Red Hat Security Response Team
+

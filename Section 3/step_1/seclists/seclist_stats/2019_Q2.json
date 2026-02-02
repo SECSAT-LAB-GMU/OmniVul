@@ -1,0 +1,74 @@
+{
+    "6": {
+        "title": "CVE-2019-3882: Linux kernel: DoS through vfio/type1 DMA mappings",
+        "CVE_id": "CVE-2019-3882",
+        "no_subthreads": 0,
+        "date": ": Wed, 3 Apr 2019 07:46:52 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q2/6.txt",
+        "subthreads": []
+    },
+    "12": {
+        "title": "CVE-2019-3887 Kernel: KVM: nVMX: guest accesses L0 MSR causes potential DoS",
+        "CVE_id": "CVE-2019-3887",
+        "no_subthreads": 0,
+        "date": ": Mon, 8 Apr 2019 10:07:52 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q2/12.txt",
+        "subthreads": []
+    },
+    "63": {
+        "title": "CVE-2019-3900 Kernel: vhost_net: infinite loop while receiving packets leads to DoS",
+        "CVE_id": "CVE-2019-3900",
+        "no_subthreads": 0,
+        "date": ": Thu, 25 Apr 2019 14:39:18 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q2/63.txt",
+        "subthreads": []
+    },
+    "86": {
+        "title": "CVE-2019-11683: \"GRO packet of death\" issue in the Linux kernel",
+        "CVE_id": "CVE-2019-11683",
+        "no_subthreads": 1,
+        "date": ": Thu, 2 May 2019 19:14:30 +0200",
+        "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+        "File_path": "seclist_thread_messages/2019_Q2/86.txt",
+        "subthreads": [
+            {
+                "id": "93",
+                "no_subthreads": 0,
+                "date": ": Sun, 5 May 2019 15:18:23 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2019_Q2/93.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "126": {
+        "title": "CVE-2019-10142 linux kernel: integer overflow in ioctl handling of fsl hypervisor",
+        "CVE_id": "CVE-2019-10142",
+        "no_subthreads": 1,
+        "date": ": Thu, 23 May 2019 00:52:17 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q2/126.txt",
+        "subthreads": [
+            {
+                "id": "127",
+                "no_subthreads": 0,
+                "date": ": Wed, 22 May 2019 18:31:25 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2019_Q2/127.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "200": {
+        "title": "CVE-2019-12817: Linux kernel: powerpc: Unrelated processes may be able to read/write to each other's virtual memory",
+        "CVE_id": "CVE-2019-12817",
+        "no_subthreads": 0,
+        "date": ": Tue, 25 Jun 2019 00:44:31 +1000",
+        "author": ": Michael Ellerman <mpe () ellerman id au>",
+        "File_path": "seclist_thread_messages/2019_Q2/200.txt",
+        "subthreads": []
+    }
+}

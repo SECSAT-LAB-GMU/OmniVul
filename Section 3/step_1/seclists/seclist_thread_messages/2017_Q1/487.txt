@@ -1,0 +1,23 @@
+On Thu, Feb 23, 2017 at 05:08:48PM +0100, Hanno Böck wrote:
+
+On Thu, 23 Feb 2017 07:56:51 -0500
+Assaf Gordon <assafgordon () gmail com> wrote:
+
+
+GNU Coreutils stopped installing 'su' by default in 2007,
+and completely removed 'su' (including the 'su.c' source file)
+in 2012.
+
+
+
+That's good to know, so now there are only 2 competing versions of su
+instead of 3 in major packages :-)
+
+Anyone have a good idea who is using shadow vs. util-linux su? Do they
+have specific advantages/disadvantages, would it be reasonable to try
+to get all distros to use them same one?
+
+
+
+There is a debian bug to switch over to the util-linux version of su.
+

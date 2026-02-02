@@ -1,0 +1,474 @@
+{
+    "79": {
+        "title": "CVE-2017-10810 Kernel: virtio-gpu: memory leakage while creating gpu object",
+        "CVE_id": "CVE-2017-10810",
+        "no_subthreads": 0,
+        "date": ": Fri, 7 Jul 2017 14:50:25 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/79.txt",
+        "subthreads": []
+    },
+    "208": {
+        "title": "CVE-2017-7541: Linux kernel: Memory corruption due to a buffer overflow in brcmf_cfg80211_mgmt_tx()",
+        "CVE_id": "CVE-2017-7541",
+        "no_subthreads": 0,
+        "date": ": Mon, 24 Jul 2017 09:53:39 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/208.txt",
+        "subthreads": []
+    },
+    "240": {
+        "title": "[CVE-2017-7533] kernel: inotify: a race between inotify_handle_event() and sys_rename()",
+        "CVE_id": "CVE-2017-7533",
+        "no_subthreads": 6,
+        "date": ": Thu, 3 Aug 2017 10:00:02 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/240.txt",
+        "subthreads": [
+            {
+                "id": "241",
+                "no_subthreads": 1,
+                "date": ": Thu, 3 Aug 2017 17:01:22 +0100",
+                "author": ": John Haxby <john.haxby () oracle com>",
+                "File_path": "seclist_thread_messages/2017_Q3/241.txt",
+                "subthreads": [
+                    {
+                        "id": "258",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 7 Aug 2017 09:52:49 -0400 (EDT)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q3/258.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "248",
+                "no_subthreads": 2,
+                "date": ": Sat, 5 Aug 2017 07:04:17 -0400",
+                "author": ": Brad Spengler <spender () grsecurity net>",
+                "File_path": "seclist_thread_messages/2017_Q3/248.txt",
+                "subthreads": [
+                    {
+                        "id": "259",
+                        "no_subthreads": 1,
+                        "date": ": Mon, 7 Aug 2017 09:55:36 -0400 (EDT)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q3/259.txt",
+                        "subthreads": [
+                            {
+                                "id": "278",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 11 Aug 2017 00:01:25 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/278.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "257",
+                "no_subthreads": 0,
+                "date": ": Mon, 7 Aug 2017 09:51:30 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q3/257.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "274": {
+        "title": "CVE-2017-12762: buffer overflow in ISDN linux driver",
+        "CVE_id": "CVE-2017-12762",
+        "no_subthreads": 0,
+        "date": ": Thu, 10 Aug 2017 09:24:16 -0600",
+        "author": ": Annie Cherkaev <annie.cherk () gmail com>",
+        "File_path": "seclist_thread_messages/2017_Q3/274.txt",
+        "subthreads": []
+    },
+    "277": {
+        "title": "Linux kernel: CVE-2017-1000112: Exploitable memory corruption due to UFO to non-UFO path switch",
+        "CVE_id": "CVE-2017-1000112",
+        "no_subthreads": 3,
+        "date": ": Thu, 10 Aug 2017 22:55:29 +0200",
+        "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+        "File_path": "seclist_thread_messages/2017_Q3/277.txt",
+        "subthreads": [
+            {
+                "id": "286",
+                "no_subthreads": 2,
+                "date": ": Sun, 13 Aug 2017 18:21:55 +0200",
+                "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+                "File_path": "seclist_thread_messages/2017_Q3/286.txt",
+                "subthreads": [
+                    {
+                        "id": "287",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 14 Aug 2017 00:07:02 +0200",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2017_Q3/287.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "456",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 14 Sep 2017 14:45:44 +0200",
+                        "author": ": Thomas Jarosch <thomas.jarosch () intra2net com>",
+                        "File_path": "seclist_thread_messages/2017_Q3/456.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "279": {
+        "title": "Linux kernel: CVE-2017-1000111: heap out-of-bounds in AF_PACKET sockets",
+        "CVE_id": "CVE-2017-1000111",
+        "no_subthreads": 0,
+        "date": ": Thu, 10 Aug 2017 15:25:20 -0700",
+        "author": ": Willem de Bruijn <willemdebruijn.kernel () gmail com>",
+        "File_path": "seclist_thread_messages/2017_Q3/279.txt",
+        "subthreads": []
+    },
+    "294": {
+        "title": "Xen Security Advisory 229 (CVE-2017-12134) - linux: Fix Xen block IO merge-ability calculation",
+        "CVE_id": "CVE-2017-12134",
+        "no_subthreads": 0,
+        "date": ": Tue, 15 Aug 2017 12:05:57 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2017_Q3/294.txt",
+        "subthreads": []
+    },
+    "338": {
+        "title": "CVE-2017-7558: Linux kernel: sctp: out-of-bounds read in inet_diag_msg_sctp{,l}addr_fill() and sctp_get_sctp_info()",
+        "CVE_id": "CVE-2017-7558",
+        "no_subthreads": 0,
+        "date": ": Wed, 23 Aug 2017 07:47:02 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/338.txt",
+        "subthreads": []
+    },
+    "389": {
+        "title": "CVE-2017-14106 kernel: net/ipv4: divide by 0 in __tcp_select_window()",
+        "CVE_id": "CVE-2017-14106",
+        "no_subthreads": 0,
+        "date": ": Fri, 1 Sep 2017 19:20:54 +0300",
+        "author": ": Vasily Averin <vvs () virtuozzo com>",
+        "File_path": "seclist_thread_messages/2017_Q3/389.txt",
+        "subthreads": []
+    },
+    "407": {
+        "title": "CVE-2017-14167 Qemu: i386: multiboot OOB access while loading guest kernel image",
+        "CVE_id": "CVE-2017-14167",
+        "no_subthreads": 0,
+        "date": ": Thu, 7 Sep 2017 15:43:37 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/407.txt",
+        "subthreads": []
+    },
+    "436": {
+        "title": "CVE-2017-14340: Linux kernel: xfs: unprivileged user kernel oops",
+        "CVE_id": "CVE-2017-14340",
+        "no_subthreads": 0,
+        "date": ": Wed, 13 Sep 2017 16:04:19 +1000",
+        "author": ": Dave Chinner <david () fromorbit com>",
+        "File_path": "seclist_thread_messages/2017_Q3/436.txt",
+        "subthreads": []
+    },
+    "437": {
+        "title": "CVE-2017-12153 Linux kernel: nl80211: null pointer dereference in nl80211_set_rekey_data()",
+        "CVE_id": "CVE-2017-12153",
+        "no_subthreads": 0,
+        "date": ": Wed, 13 Sep 2017 15:06:51 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/437.txt",
+        "subthreads": []
+    },
+    "465": {
+        "title": "CVE-2017-1000252: KVM denial of service with posted interrupts on Intel systems (since Linux 4.4)",
+        "CVE_id": "CVE-2017-1000252",
+        "no_subthreads": 0,
+        "date": ": Fri, 15 Sep 2017 18:36:59 +0200",
+        "author": ": \"Jan H. Sch\u00f6nherr\" <jschoenh () amazon de>",
+        "File_path": "seclist_thread_messages/2017_Q3/465.txt",
+        "subthreads": []
+    },
+    "476": {
+        "title": "CVE-2017-14497: Linux kernel: packet: buffer overflow in tpacket_rcv()",
+        "CVE_id": "CVE-2017-14497",
+        "no_subthreads": 1,
+        "date": ": Mon, 18 Sep 2017 05:09:51 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/476.txt",
+        "subthreads": [
+            {
+                "id": "478",
+                "no_subthreads": 0,
+                "date": ": Mon, 18 Sep 2017 11:18:13 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q3/478.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "506": {
+        "title": "CVE-2017-14489: Linux kernel: scsi: nlmsg is not properly parsed in iscsi_if_rx()",
+        "CVE_id": "CVE-2017-14489",
+        "no_subthreads": 1,
+        "date": ": Fri, 22 Sep 2017 10:14:26 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/506.txt",
+        "subthreads": [
+            {
+                "id": "520",
+                "no_subthreads": 0,
+                "date": ": Mon, 25 Sep 2017 07:04:25 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q3/520.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "526": {
+        "title": "Linux kernel CVEs not mentioned on oss-security",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 25,
+        "date": ": Mon, 25 Sep 2017 21:50:59 +0000",
+        "author": ": \"Priedhorsky, Reid\" <reidpr () lanl gov>",
+        "File_path": "seclist_thread_messages/2017_Q3/526.txt",
+        "subthreads": [
+            {
+                "id": "527",
+                "no_subthreads": 1,
+                "date": ": Mon, 25 Sep 2017 19:41:20 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q3/527.txt",
+                "subthreads": [
+                    {
+                        "id": "542",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 26 Sep 2017 16:55:24 +0000",
+                        "author": ": \"Priedhorsky, Reid\" <reidpr () lanl gov>",
+                        "File_path": "seclist_thread_messages/2017_Q3/542.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "529",
+                "no_subthreads": 0,
+                "date": ": Tue, 26 Sep 2017 07:55:56 +0100",
+                "author": ": Simon McVittie <smcv () debian org>",
+                "File_path": "seclist_thread_messages/2017_Q3/529.txt",
+                "subthreads": []
+            },
+            {
+                "id": "530",
+                "no_subthreads": 0,
+                "date": ": Tue, 26 Sep 2017 09:01:10 +0200",
+                "author": ": Moritz Muehlenhoff <jmm () debian org>",
+                "File_path": "seclist_thread_messages/2017_Q3/530.txt",
+                "subthreads": []
+            },
+            {
+                "id": "532",
+                "no_subthreads": 19,
+                "date": ": Tue, 26 Sep 2017 09:08:20 +0200",
+                "author": ": Agostino Sarubbo <ago () gentoo org>",
+                "File_path": "seclist_thread_messages/2017_Q3/532.txt",
+                "subthreads": [
+                    {
+                        "id": "533",
+                        "no_subthreads": 11,
+                        "date": ": Tue, 26 Sep 2017 09:32:14 +0200",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2017_Q3/533.txt",
+                        "subthreads": [
+                            {
+                                "id": "536",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 07:23:14 -0600",
+                                "author": ": Nicholas Luedtke <nicholas.luedtke () hpe com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/536.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "537",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 16:50:10 +0200",
+                                "author": ": Agostino Sarubbo <ago () gentoo org>",
+                                "File_path": "seclist_thread_messages/2017_Q3/537.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "538",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 17:04:46 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/538.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "550",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Sep 2017 10:14:04 +0100",
+                                "author": ": Muhammed Mustapha Abiola <1 () mustapha org>",
+                                "File_path": "seclist_thread_messages/2017_Q3/550.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "552",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Sep 2017 14:51:49 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/552.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "553",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Sep 2017 15:04:24 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/553.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "555",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Sep 2017 16:57:13 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/555.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "566",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Sep 2017 16:33:13 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/566.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "562",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Sep 2017 09:35:33 +0200",
+                                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                                "File_path": "seclist_thread_messages/2017_Q3/562.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "567",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Sep 2017 16:34:20 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/567.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "576",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Sep 2017 17:37:21 -0400",
+                                "author": ": Brad Spengler <spender () grsecurity net>",
+                                "File_path": "seclist_thread_messages/2017_Q3/576.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "543",
+                        "no_subthreads": 6,
+                        "date": ": Tue, 26 Sep 2017 12:31:38 -0500 (CDT)",
+                        "author": ": Bob Friesenhahn <bfriesen () simple dallas tx us>",
+                        "File_path": "seclist_thread_messages/2017_Q3/543.txt",
+                        "subthreads": [
+                            {
+                                "id": "544",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 12:18:38 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/544.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "545",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 21:07:37 +0200",
+                                "author": ": Agostino Sarubbo <ago () gentoo org>",
+                                "File_path": "seclist_thread_messages/2017_Q3/545.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "547",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 14:03:30 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/547.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "549",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Sep 2017 10:46:51 +0200",
+                                "author": ": Marcus Meissner <meissner () suse de>",
+                                "File_path": "seclist_thread_messages/2017_Q3/549.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "546",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 14:40:44 -0500 (CDT)",
+                                "author": ": Bob Friesenhahn <bfriesen () simple dallas tx us>",
+                                "File_path": "seclist_thread_messages/2017_Q3/546.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "548",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Sep 2017 14:08:51 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2017_Q3/548.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "556",
+                "no_subthreads": 0,
+                "date": ": Wed, 27 Sep 2017 17:09:18 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2017_Q3/556.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "528": {
+        "title": "CVE-2017-12154 Kernel: kvm: nVMX: L2 guest could access hardware(L0) CR8 register",
+        "CVE_id": "CVE-2017-12154",
+        "no_subthreads": 0,
+        "date": ": Tue, 26 Sep 2017 10:26:27 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q3/528.txt",
+        "subthreads": []
+    },
+    "541": {
+        "title": "Qualys Security Advisory - Linux PIE/stack corruption (CVE-2017-1000253)",
+        "CVE_id": "CVE-2017-1000253",
+        "no_subthreads": 1,
+        "date": ": Tue, 26 Sep 2017 08:08:25 -0700",
+        "author": ": Qualys Security Advisory <qsa () qualys com>",
+        "File_path": "seclist_thread_messages/2017_Q3/541.txt",
+        "subthreads": [
+            {
+                "id": "559",
+                "no_subthreads": 0,
+                "date": ": Wed, 27 Sep 2017 20:12:38 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2017_Q3/559.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

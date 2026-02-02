@@ -1,0 +1,12 @@
+Pavel Emelyanov <xemul () parallels com> writes:
+
+
+I'm talking about the call to pid_ns_prepare_proc which does kern_mount
+thus bringing the proc sb in memory and pinning the init's pid on it.
+
+
+
+My apologies I hadn't realized what you were thinking about.
+
+Eric
+

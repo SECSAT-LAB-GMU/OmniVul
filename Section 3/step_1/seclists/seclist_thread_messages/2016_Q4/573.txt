@@ -1,0 +1,12 @@
+Hi!
+
+There's a bug in SO_{SND|RCV}BUFFORCE setsockopt() implementation,
+which allows CAP_NET_ADMIN users to cause memory corruption.
+
+The fix is upstream:
+https://github.com/torvalds/linux/commit/b98b0bc8c431e3ceb4b26b0dfc8db509518fb290
+
+Could you assign a CVE for this?
+
+Thanks!
+

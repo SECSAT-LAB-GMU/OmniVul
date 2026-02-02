@@ -1,0 +1,9 @@
+
+An out-of-bounds memory read was found, affecting kernels from 4.3-rc1 onwards.
+This vulnerability was caused by incorrect X.509 time validation in x509_decode_time() function in x509_cert_parser.c.
+
+https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=cc25b994acfbc901429da682d0f73c190e960206
+
+--
+Adam Maris / Red Hat Product Security
+

@@ -1,0 +1,17 @@
+This requires a CVE name. Please assign one. Thanks.
+
+Alan Cox reported that libata needs to enforce sensible minimum
+timeouts on SG_IO requests otherwise a local, unprivileged user can
+trigger long spews of errors and forces the drives into PIO run as any
+user.
+
+To trigger this problem, you need to be able to open the cdrom device
+(i.e. login as a normal user from the console and then access it via
+ssh) or access to /dev/sg* which is root only in all sane systems.
+
+Upstream commit: f2f1fa78a155524b849edf359e42a3001ea652c0
+
+Reference: https://bugzilla.redhat.com/show_bug.cgi?id=474495
+
+Thanks, Eugene
+

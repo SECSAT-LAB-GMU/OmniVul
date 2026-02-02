@@ -1,0 +1,20 @@
+On mar., 2013-02-26 at 14:05 -0700, Kurt Seifried wrote:
+
+The problem with security is you have to basically do it 100%
+correctly 100% of the time
+
+
+
+You can also look at other, more proactives approaches (hardening the
+memory layout, enforcing W^X etc.). Even hardening userland might help
+here.
+
+This is basically what's done in hardening patches like PaX/Grsecurity
+(with active exploit response on top). And yes, it comes at a cost, like
+everything.
+
+Regards,
+-- 
+Yves-Alexis
+
+signature.asc

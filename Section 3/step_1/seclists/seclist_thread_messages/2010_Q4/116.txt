@@ -1,0 +1,29 @@
+
+
+----- "Nelson Elhage" <nelhage () ksplice com> wrote:
+
+
+INET_DIAG is inconsistent about how it looks up the bytecode contained
+in a
+netlink message, making it possible for a user to cause the kernel to
+execute
+unaudited INET_DIAG bytecode.
+
+This can be abused to make the kernel enter an infinite loop, and
+possibly other
+consequences, although I haven't thought of anything else
+interesting.
+
+Reference:
+http://www.spinics.net/lists/netdev/msg145899.html
+
+
+
+
+Please use CVE-2010-3880.
+
+Thanks.
+
+-- 
+    JB
+

@@ -1,0 +1,18 @@
+Eugene Teo wrote:
+
+Hi Steve,
+
+[...]
+
+and this one:
+
+  http://marc.info/?l=linux-sctp&m=121988176932559&w=2
+
+
+
+This patch is for CVE-2008-3526.
+
+Thanks, Eugene
+-- 
+Eugene Teo / Red Hat Security Response Team
+

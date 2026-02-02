@@ -1,0 +1,12 @@
+I reported some bogus capability checks in the SBNI WAN driver. Proper
+capability checks are required for the privileged operations.
+
+This affects both 2.4 and 2.6 kernels. The proposed upstream commit is:
+f2455eb176ac87081bbfc9a44b21c7cd2bc1967e.
+
+I have allocated this CVE-2008-3525.
+
+Thanks, Eugene
+-- 
+Eugene Teo / Red Hat Security Response Team
+

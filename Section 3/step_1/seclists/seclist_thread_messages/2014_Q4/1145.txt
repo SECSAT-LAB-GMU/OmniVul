@@ -1,0 +1,13 @@
+2014-12-17 12:02 GMT+01:00 P J P <ppandit () redhat com>:
+
+Upstream fix:
+- -------------
+  -> https://git.kernel.org/linus/f54e18f1b831c92f6512d2eedb224cd63d607d3d
+
+
+
+if (++rs->cont_loops > RR_MAX_CE_ENTRIES)
+Shouldn't it be like this, instead of >=?
+
+Lukas
+

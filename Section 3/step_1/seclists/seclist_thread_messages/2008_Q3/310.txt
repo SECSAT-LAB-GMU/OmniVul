@@ -1,0 +1,24 @@
+This old issue needs a CVE name.
+
+"[PATCH] Input: atkbd - throttle LED switching
+
+On some boxes keyboard controllers are too slow to withstand
+continuous flow of requests to turn keyboard LEDs on and off
+and start losing some keypresses or even all of them.
+
+Delay executing of LED switching request if we had another one
+within 50 ms thus easing load on the controller."
+
+Upstream commit:
+da4249c99fd59c4e224e4f9acaf07669d205bb1d
+
+Reproducer:
+while true; do setleds +num; setleds -num; done
+
+Reference:
+http://lkml.org/lkml/2007/6/15/22
+
+Thanks, Eugene
+-- 
+Eugene Teo / Red Hat Security Response Team
+

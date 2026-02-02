@@ -1,0 +1,22 @@
+On Sun, Mar 20, 2011 at 16:43 +0300, Vasiliy Kulikov wrote:
+
+Steven,
+
+On Wed, Feb 23, 2011 at 16:23 -0500, Josh Bressers wrote:
+
+Thanks for the list. I don't have enough CVE ids for this, I've grouped
+them by type and version for MITRE to assign IDs.
+
+
+
+Any update on this?
+
+
+
+Ping.
+
+-- 
+Vasiliy Kulikov
+http://www.openwall.com - bringing security into open computing environments
+
+signature.asc

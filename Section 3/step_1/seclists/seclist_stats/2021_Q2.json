@@ -1,0 +1,226 @@
+{
+    "10": {
+        "title": "CVE-2021-3483: Linux kernel: a use-after-free bug in nosy driver",
+        "CVE_id": "CVE-2021-3483",
+        "no_subthreads": 0,
+        "date": ": Wed, 7 Apr 2021 19:16:07 +0800",
+        "author": ": \u9a6c\u54f2\u5b87 <zheyuma97 () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/10.txt",
+        "subthreads": []
+    },
+    "12": {
+        "title": "[CVE-2021-29154] Linux kernel incorrect computation of branch displacements in BPF JIT compiler can be abused to execute arbitrary code in Kernel mode",
+        "CVE_id": "CVE-2021-29154",
+        "no_subthreads": 0,
+        "date": ": Thu, 8 Apr 2021 16:24:26 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/12.txt",
+        "subthreads": []
+    },
+    "24": {
+        "title": "[CVE-2021-3493] Ubuntu Linux kernel overlayfs fs caps privilege escalation",
+        "CVE_id": "CVE-2021-3493",
+        "no_subthreads": 2,
+        "date": ": Thu, 15 Apr 2021 14:31:14 -0700",
+        "author": ": Steve Beattie <steve.beattie () canonical com>",
+        "File_path": "seclist_thread_messages/2021_Q2/24.txt",
+        "subthreads": [
+            {
+                "id": "27",
+                "no_subthreads": 1,
+                "date": ": Fri, 16 Apr 2021 16:53:50 +0200",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2021_Q2/27.txt",
+                "subthreads": [
+                    {
+                        "id": "28",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 16 Apr 2021 08:04:50 -0700",
+                        "author": ": Steve Beattie <steve.beattie () canonical com>",
+                        "File_path": "seclist_thread_messages/2021_Q2/28.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "25": {
+        "title": "[CVE-2021-3492] Ubuntu shiftfs Linux kernel file system double free vulnerability",
+        "CVE_id": "CVE-2021-3492",
+        "no_subthreads": 0,
+        "date": ": Thu, 15 Apr 2021 14:33:06 -0700",
+        "author": ": Steve Beattie <steve.beattie () canonical com>",
+        "File_path": "seclist_thread_messages/2021_Q2/25.txt",
+        "subthreads": []
+    },
+    "32": {
+        "title": "CVE-2021-23133: Linux kernel: race condition in sctp sockets",
+        "CVE_id": "CVE-2021-23133",
+        "no_subthreads": 4,
+        "date": ": Sun, 18 Apr 2021 11:41:06 +0300",
+        "author": ": Or Cohen <orcohen () paloaltonetworks com>",
+        "File_path": "seclist_thread_messages/2021_Q2/32.txt",
+        "subthreads": [
+            {
+                "id": "110",
+                "no_subthreads": 3,
+                "date": ": Mon, 10 May 2021 06:24:43 +0200",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2021_Q2/110.txt",
+                "subthreads": [
+                    {
+                        "id": "112",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 10 May 2021 15:28:02 +0930",
+                        "author": ": Alex Murray <alex.murray () canonical com>",
+                        "File_path": "seclist_thread_messages/2021_Q2/112.txt",
+                        "subthreads": [
+                            {
+                                "id": "111",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 10 May 2021 08:10:53 +0200",
+                                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                                "File_path": "seclist_thread_messages/2021_Q2/111.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "113",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 10 May 2021 16:22:20 +0930",
+                                "author": ": Alex Murray <alex.murray () canonical com>",
+                                "File_path": "seclist_thread_messages/2021_Q2/113.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "34": {
+        "title": "[CVE-2021-29155] Linux kernel protection for sequences of pointer arithmetic operations against speculatively out-of-bounds loads can be bypassed to leak content of kernel memory",
+        "CVE_id": "CVE-2021-29155",
+        "no_subthreads": 0,
+        "date": ": Sun, 18 Apr 2021 13:16:39 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/34.txt",
+        "subthreads": []
+    },
+    "92": {
+        "title": "[CVE-2021-31829] Linux kernel protection of stack pointer against speculative pointer arithmetic can be bypassed to leak content of kernel memory",
+        "CVE_id": "CVE-2021-31829",
+        "no_subthreads": 0,
+        "date": ": Tue, 4 May 2021 11:06:52 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/92.txt",
+        "subthreads": []
+    },
+    "116": {
+        "title": "CVE-2021-32399 Linux device detach race condition",
+        "CVE_id": "CVE-2021-32399",
+        "no_subthreads": 0,
+        "date": ": Tue, 11 May 2021 13:28:17 +0800",
+        "author": ": Lin Horse <kylin.formalin () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/116.txt",
+        "subthreads": []
+    },
+    "118": {
+        "title": "CVE-2021-23134: Linux kernel: UAF in nfc sockets",
+        "CVE_id": "CVE-2021-23134",
+        "no_subthreads": 0,
+        "date": ": Tue, 11 May 2021 12:01:24 +0300",
+        "author": ": Nadav Markus <nmarkus () paloaltonetworks com>",
+        "File_path": "seclist_thread_messages/2021_Q2/118.txt",
+        "subthreads": []
+    },
+    "124": {
+        "title": "CVE-2021-3489 - Linux kernel eBPF RINGBUF map oversized allocation",
+        "CVE_id": "CVE-2021-3489",
+        "no_subthreads": 0,
+        "date": ": Tue, 11 May 2021 14:55:49 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2021_Q2/124.txt",
+        "subthreads": []
+    },
+    "125": {
+        "title": "CVE-2021-3490 - Linux kernel eBPF bitwise ops ALU32 bounds tracking",
+        "CVE_id": "CVE-2021-3490",
+        "no_subthreads": 0,
+        "date": ": Tue, 11 May 2021 14:56:47 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2021_Q2/125.txt",
+        "subthreads": []
+    },
+    "127": {
+        "title": "CVE-2021-3491 - Linux kernel io_uring PROVIDE_BUFFERS MAX_RW_COUNT bypass",
+        "CVE_id": "CVE-2021-3491",
+        "no_subthreads": 0,
+        "date": ": Tue, 11 May 2021 15:13:46 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2021_Q2/127.txt",
+        "subthreads": []
+    },
+    "160": {
+        "title": "CVE-2021-3564 Linux Bluetooth device initialization implementation bug",
+        "CVE_id": "CVE-2021-3564",
+        "no_subthreads": 1,
+        "date": ": Tue, 25 May 2021 15:18:22 +0800",
+        "author": ": Mart111n <mmmart11nnnnn () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/160.txt",
+        "subthreads": [
+            {
+                "id": "178",
+                "no_subthreads": 0,
+                "date": ": Tue, 1 Jun 2021 09:17:12 +0800",
+                "author": ": Mart111n <mmmart11nnnnn () gmail com>",
+                "File_path": "seclist_thread_messages/2021_Q2/178.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "171": {
+        "title": "[CVE-2021-33200] Linux kernel enforcing incorrect limits for pointer arithmetic operations by BPF verifier can be abused to perform out-of-bounds reads and writes in kernel memory",
+        "CVE_id": "CVE-2021-33200",
+        "no_subthreads": 0,
+        "date": ": Wed, 26 May 2021 23:09:05 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q2/171.txt",
+        "subthreads": []
+    },
+    "192": {
+        "title": "Xen Security Advisory 374 v2 (CVE-2021-28691) - Guest triggered use-after-free in Linux xen-netback",
+        "CVE_id": "CVE-2021-28691",
+        "no_subthreads": 0,
+        "date": ": Tue, 08 Jun 2021 17:04:30 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2021_Q2/192.txt",
+        "subthreads": []
+    },
+    "218": {
+        "title": "CVE-2021-34693: Infoleak in CAN BCM protocol in Linux kernel",
+        "CVE_id": "CVE-2021-34693",
+        "no_subthreads": 0,
+        "date": ": Tue, 15 Jun 2021 22:33:18 +0200",
+        "author": ": Norbert Slusarek <nslusarek () gmx net>",
+        "File_path": "seclist_thread_messages/2021_Q2/218.txt",
+        "subthreads": []
+    },
+    "226": {
+        "title": "[CVE-2021-33624] Linux kernel BPF protection against speculative execution attacks can be bypassed to read arbitrary kernel memory",
+        "CVE_id": "CVE-2021-33624",
+        "no_subthreads": 0,
+        "date": ": Mon, 21 Jun 2021 17:47:27 +0300",
+        "author": ": Adam Morrison <mad () cs tau ac il>",
+        "File_path": "seclist_thread_messages/2021_Q2/226.txt",
+        "subthreads": []
+    },
+    "228": {
+        "title": "CVE-2021-3600 - Linux kernel eBPF 32-bit source register truncation on div/mod",
+        "CVE_id": "CVE-2021-3600",
+        "no_subthreads": 0,
+        "date": ": Wed, 23 Jun 2021 13:07:42 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2021_Q2/228.txt",
+        "subthreads": []
+    }
+}

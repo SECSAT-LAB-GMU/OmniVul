@@ -1,0 +1,879 @@
+{
+    "127": {
+        "CVE ID": "CVE-2016-4794",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2016/4/17/125"
+        ]
+    },
+    "416": {
+        "CVE ID": "CVE-2020-10942",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/2/15/125"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/2/15/125"
+        ]
+    },
+    "441": {
+        "CVE ID": "CVE-2020-12464",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/3/23/52"
+        ]
+    },
+    "456": {
+        "CVE ID": "CVE-2020-12769",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/2/3/559"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/2/3/559"
+        ]
+    },
+    "457": {
+        "CVE ID": "CVE-2020-12770",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/4/13/870"
+        ],
+        "Exploit Links": []
+    },
+    "458": {
+        "CVE ID": "CVE-2020-12771",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/4/26/87"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/4/26/87"
+        ]
+    },
+    "475": {
+        "CVE ID": "CVE-2020-13974",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/3/22/482"
+        ]
+    },
+    "531": {
+        "CVE ID": "CVE-2020-26541",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/9/15/1871"
+        ]
+    },
+    "545": {
+        "CVE ID": "CVE-2020-15436",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/6/7/379"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/6/7/379"
+        ]
+    },
+    "546": {
+        "CVE ID": "CVE-2020-15437",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/7/21/80"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/7/21/80"
+        ]
+    },
+    "557": {
+        "CVE ID": "CVE-2020-25656",
+        "Patch Links": [
+            "https://lkml.org/lkml/2020/10/29/528"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2020/10/16/84"
+        ]
+    },
+    "863": {
+        "CVE ID": "CVE-2017-5576",
+        "Patch Links": [
+            "https://lkml.org/lkml/2017/1/17/761"
+        ],
+        "Exploit Links": []
+    },
+    "864": {
+        "CVE ID": "CVE-2017-5577",
+        "Patch Links": [
+            "https://lkml.org/lkml/2017/1/17/759"
+        ],
+        "Exploit Links": []
+    },
+    "1021": {
+        "CVE ID": "CVE-2017-10810",
+        "Patch Links": [
+            "https://lkml.org/lkml/2017/4/6/668"
+        ],
+        "Exploit Links": []
+    },
+    "1256": {
+        "CVE ID": "CVE-2010-0727",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/3/11/269"
+        ],
+        "Exploit Links": []
+    },
+    "1279": {
+        "CVE ID": "CVE-2010-1446",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/5/10/458"
+        ],
+        "Exploit Links": []
+    },
+    "1282": {
+        "CVE ID": "CVE-2010-2071",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/5/17/544"
+        ],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2010/5/17/544"
+        ]
+    },
+    "1295": {
+        "CVE ID": "CVE-2010-2955",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/8/27/413",
+            "http://lkml.org/lkml/2010/8/30/127",
+            "http://lkml.org/lkml/2010/8/30/146",
+            "http://lkml.org/lkml/2010/8/30/351"
+        ],
+        "Exploit Links": []
+    },
+    "1309": {
+        "CVE ID": "CVE-2010-3296",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/11/170"
+        ],
+        "Exploit Links": []
+    },
+    "1310": {
+        "CVE ID": "CVE-2010-3297",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/11/168"
+        ],
+        "Exploit Links": []
+    },
+    "1311": {
+        "CVE ID": "CVE-2010-3298",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/11/167"
+        ],
+        "Exploit Links": []
+    },
+    "1314": {
+        "CVE ID": "CVE-2010-2653",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2010/3/3/207"
+        ]
+    },
+    "1343": {
+        "CVE ID": "CVE-2010-4072",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/10/6/454"
+        ],
+        "Exploit Links": []
+    },
+    "1344": {
+        "CVE ID": "CVE-2010-4073",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/10/6/492"
+        ],
+        "Exploit Links": []
+    },
+    "1345": {
+        "CVE ID": "CVE-2010-4074",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/15/392"
+        ],
+        "Exploit Links": []
+    },
+    "1347": {
+        "CVE ID": "CVE-2010-4076",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/15/389"
+        ],
+        "Exploit Links": []
+    },
+    "1350": {
+        "CVE ID": "CVE-2010-4079",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/15/393"
+        ],
+        "Exploit Links": []
+    },
+    "1351": {
+        "CVE ID": "CVE-2010-4249",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/11/23/450"
+        ],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2010/11/23/395",
+            "http://lkml.org/lkml/2010/11/25/8"
+        ]
+    },
+    "1354": {
+        "CVE ID": "CVE-2010-4080",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/25/41"
+        ],
+        "Exploit Links": []
+    },
+    "1355": {
+        "CVE ID": "CVE-2010-4081",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/9/25/41"
+        ],
+        "Exploit Links": []
+    },
+    "1365": {
+        "CVE ID": "CVE-2010-4346",
+        "Patch Links": [
+            "https://lkml.org/lkml/2010/12/9/222"
+        ],
+        "Exploit Links": []
+    },
+    "1378": {
+        "CVE ID": "CVE-2010-4258",
+        "Patch Links": [
+            "https://lkml.org/lkml/2010/12/1/543"
+        ],
+        "Exploit Links": []
+    },
+    "1442": {
+        "CVE ID": "CVE-2006-4538",
+        "Patch Links": [
+            "http://lkml.org/lkml/2006/9/4/116"
+        ],
+        "Exploit Links": []
+    },
+    "1443": {
+        "CVE ID": "CVE-2006-4623",
+        "Patch Links": [
+            "http://lkml.org/lkml/2006/8/20/278"
+        ],
+        "Exploit Links": []
+    },
+    "1524": {
+        "CVE ID": "CVE-2007-4573",
+        "Patch Links": [
+            "http://lkml.org/lkml/2007/9/21/512"
+        ],
+        "Exploit Links": []
+    },
+    "1550": {
+        "CVE ID": "CVE-2010-4668",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/11/29/68"
+        ],
+        "Exploit Links": []
+    },
+    "1563": {
+        "CVE ID": "CVE-2010-4243",
+        "Patch Links": [
+            "http://lkml.org/lkml/2010/8/27/429",
+            "http://lkml.org/lkml/2010/8/29/206",
+            "http://lkml.org/lkml/2010/8/30/138"
+        ],
+        "Exploit Links": []
+    },
+    "1587": {
+        "CVE ID": "CVE-2011-1020",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2011/2/7/368"
+        ]
+    },
+    "1598": {
+        "CVE ID": "CVE-2011-1082",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/2/5/220"
+        ],
+        "Exploit Links": []
+    },
+    "1606": {
+        "CVE ID": "CVE-2011-1494",
+        "Patch Links": [
+            "http://lkml.org/lkml/2011/4/5/327"
+        ],
+        "Exploit Links": []
+    },
+    "1607": {
+        "CVE ID": "CVE-2011-1495",
+        "Patch Links": [
+            "http://lkml.org/lkml/2011/4/5/327"
+        ],
+        "Exploit Links": []
+    },
+    "1616": {
+        "CVE ID": "CVE-2011-1745",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/4/14/293"
+        ],
+        "Exploit Links": []
+    },
+    "1617": {
+        "CVE ID": "CVE-2011-1746",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/4/14/294"
+        ],
+        "Exploit Links": []
+    },
+    "1618": {
+        "CVE ID": "CVE-2011-2022",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/4/14/293"
+        ],
+        "Exploit Links": []
+    },
+    "1644": {
+        "CVE ID": "CVE-2010-4655",
+        "Patch Links": [
+            "https://lkml.org/lkml/2010/10/7/297"
+        ],
+        "Exploit Links": []
+    },
+    "1646": {
+        "CVE ID": "CVE-2011-0726",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/3/11/380"
+        ],
+        "Exploit Links": []
+    },
+    "1675": {
+        "CVE ID": "CVE-2011-2184",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/5/25/265"
+        ],
+        "Exploit Links": []
+    },
+    "1700": {
+        "CVE ID": "CVE-2008-0007",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/2/6/457"
+        ]
+    },
+    "1709": {
+        "CVE ID": "CVE-2008-1367",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/3/5/207"
+        ]
+    },
+    "1730": {
+        "CVE ID": "CVE-2008-3534",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/7/26/71"
+        ]
+    },
+    "1731": {
+        "CVE ID": "CVE-2008-3535",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.lkml.org/lkml/2008/7/30/446"
+        ]
+    },
+    "1732": {
+        "CVE ID": "CVE-2008-3275",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/7/2/83"
+        ]
+    },
+    "1734": {
+        "CVE ID": "CVE-2008-3686",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/8/7/230",
+            "http://lkml.org/lkml/2008/8/8/7"
+        ]
+    },
+    "1737": {
+        "CVE ID": "CVE-2007-6716",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2007/7/30/448"
+        ]
+    },
+    "1738": {
+        "CVE ID": "CVE-2008-3911",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/8/30/140"
+        ]
+    },
+    "1741": {
+        "CVE ID": "CVE-2008-3528",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2008/9/13/98",
+            "http://lkml.org/lkml/2008/9/13/99"
+        ]
+    },
+    "1743": {
+        "CVE ID": "CVE-2008-4302",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2007/7/20/168"
+        ]
+    },
+    "4456": {
+        "CVE ID": "CVE-2011-2203",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2011/6/8/154"
+        ]
+    },
+    "4458": {
+        "CVE ID": "CVE-2011-4110",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2011/11/15/363"
+        ]
+    },
+    "4627": {
+        "CVE ID": "CVE-2013-0913",
+        "Patch Links": [
+            "https://lkml.org/lkml/2013/3/11/501"
+        ],
+        "Exploit Links": []
+    },
+    "4763": {
+        "CVE ID": "CVE-2005-0937",
+        "Patch Links": [
+            "http://lkml.org/lkml/2005/2/22/123"
+        ],
+        "Exploit Links": []
+    },
+    "4811": {
+        "CVE ID": "CVE-2005-2553",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2005/1/5/245"
+        ]
+    },
+    "4833": {
+        "CVE ID": "CVE-2005-3273",
+        "Patch Links": [
+            "http://lkml.org/lkml/2005/5/23/169"
+        ],
+        "Exploit Links": []
+    },
+    "4834": {
+        "CVE ID": "CVE-2005-3274",
+        "Patch Links": [
+            "http://lkml.org/lkml/2005/6/23/249",
+            "http://lkml.org/lkml/2005/6/24/173"
+        ],
+        "Exploit Links": []
+    },
+    "4888": {
+        "CVE ID": "CVE-2009-1338",
+        "Patch Links": [
+            "http://lkml.org/lkml/2008/7/23/148"
+        ],
+        "Exploit Links": []
+    },
+    "4900": {
+        "CVE ID": "CVE-2009-1389",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2009/6/8/194"
+        ]
+    },
+    "4907": {
+        "CVE ID": "CVE-2009-1897",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2009/7/6/19"
+        ]
+    },
+    "4908": {
+        "CVE ID": "CVE-2009-2584",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2009/7/20/348"
+        ]
+    },
+    "4913": {
+        "CVE ID": "CVE-2009-2691",
+        "Patch Links": [
+            "http://lkml.org/lkml/2009/6/23/653"
+        ],
+        "Exploit Links": []
+    },
+    "4915": {
+        "CVE ID": "CVE-2009-2767",
+        "Patch Links": [
+            "http://lkml.org/lkml/2009/8/4/28",
+            "http://lkml.org/lkml/2009/8/4/40"
+        ],
+        "Exploit Links": []
+    },
+    "4916": {
+        "CVE ID": "CVE-2009-2768",
+        "Patch Links": [
+            "http://lkml.org/lkml/2009/6/22/91"
+        ],
+        "Exploit Links": []
+    },
+    "4926": {
+        "CVE ID": "CVE-2009-3043",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2009/8/20/21",
+            "http://lkml.org/lkml/2009/8/20/27"
+        ]
+    },
+    "4932": {
+        "CVE ID": "CVE-2009-3288",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2009/9/3/1",
+            "http://lkml.org/lkml/2009/9/3/107"
+        ]
+    },
+    "4941": {
+        "CVE ID": "CVE-2009-2910",
+        "Patch Links": [
+            "http://lkml.org/lkml/2009/10/1/164"
+        ],
+        "Exploit Links": []
+    },
+    "4946": {
+        "CVE ID": "CVE-2009-3547",
+        "Patch Links": [
+            "http://lkml.org/lkml/2009/10/21/42"
+        ],
+        "Exploit Links": [
+            "http://lkml.org/lkml/2009/10/14/184"
+        ]
+    },
+    "4956": {
+        "CVE ID": "CVE-2009-4131",
+        "Patch Links": [
+            "http://lkml.org/lkml/2009/12/9/255"
+        ],
+        "Exploit Links": []
+    },
+    "5014": {
+        "CVE ID": "CVE-2014-2568",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2014/3/20/421"
+        ]
+    },
+    "5018": {
+        "CVE ID": "CVE-2014-2678",
+        "Patch Links": [
+            "https://lkml.org/lkml/2014/3/29/188"
+        ],
+        "Exploit Links": []
+    },
+    "5025": {
+        "CVE ID": "CVE-2014-2851",
+        "Patch Links": [
+            "https://lkml.org/lkml/2014/4/10/736"
+        ],
+        "Exploit Links": []
+    },
+    "5103": {
+        "CVE ID": "CVE-2014-8086",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2014/10/8/545",
+            "https://lkml.org/lkml/2014/10/9/129"
+        ]
+    },
+    "5118": {
+        "CVE ID": "CVE-2014-8369",
+        "Patch Links": [
+            "https://lkml.org/lkml/2014/10/24/460"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2014/10/24/460"
+        ]
+    },
+    "5121": {
+        "CVE ID": "CVE-2014-8559",
+        "Patch Links": [
+            "https://lkml.org/lkml/2014/10/25/179",
+            "https://lkml.org/lkml/2014/10/25/180"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2014/10/25/171",
+            "https://lkml.org/lkml/2014/10/26/116"
+        ]
+    },
+    "5211": {
+        "CVE ID": "CVE-2018-7755",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2018/3/7/1116"
+        ]
+    },
+    "5214": {
+        "CVE ID": "CVE-2018-7995",
+        "Patch Links": [
+            "https://lkml.org/lkml/2018/3/2/970"
+        ],
+        "Exploit Links": []
+    },
+    "5287": {
+        "CVE ID": "CVE-2018-1000199",
+        "Patch Links": [
+            "https://lkml.org/lkml/2018/4/6/813"
+        ],
+        "Exploit Links": []
+    },
+    "5512": {
+        "CVE ID": "CVE-2018-19406",
+        "Patch Links": [
+            "https://lkml.org/lkml/2018/11/20/411"
+        ],
+        "Exploit Links": []
+    },
+    "5513": {
+        "CVE ID": "CVE-2018-19407",
+        "Patch Links": [
+            "https://lkml.org/lkml/2018/11/20/580"
+        ],
+        "Exploit Links": []
+    },
+    "5572": {
+        "CVE ID": "CVE-2018-20511",
+        "Patch Links": [
+            "https://lkml.org/lkml/2018/9/27/480"
+        ],
+        "Exploit Links": []
+    },
+    "5582": {
+        "CVE ID": "CVE-2021-4032",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2021/9/8/587"
+        ]
+    },
+    "5637": {
+        "CVE ID": "CVE-2021-4148",
+        "Patch Links": [
+            "https://lkml.org/lkml/2021/9/12/323",
+            "https://lkml.org/lkml/2021/9/17/1037"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2021/9/12/323",
+            "https://lkml.org/lkml/2021/9/17/1037"
+        ]
+    },
+    "5638": {
+        "CVE ID": "CVE-2021-4149",
+        "Patch Links": [
+            "https://lkml.org/lkml/2021/10/18/885"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2021/10/18/885",
+            "https://lkml.org/lkml/2021/9/13/2565"
+        ]
+    },
+    "5639": {
+        "CVE ID": "CVE-2021-4150",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2021/10/18/485",
+            "https://lkml.org/lkml/2021/9/6/781"
+        ]
+    },
+    "5662": {
+        "CVE ID": "CVE-2011-4917",
+        "Patch Links": [
+            "https://lkml.org/lkml/2011/11/7/340"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2011/11/7/340"
+        ]
+    },
+    "5706": {
+        "CVE ID": "CVE-2011-4916",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2011/11/7/355"
+        ]
+    },
+    "5726": {
+        "CVE ID": "CVE-2021-4028",
+        "Patch Links": [
+            "https://lkml.org/lkml/2021/10/4/697"
+        ],
+        "Exploit Links": []
+    },
+    "5918": {
+        "CVE ID": "CVE-2023-23039",
+        "Patch Links": [
+            "https://lkml.org/lkml/2023/1/1/169"
+        ],
+        "Exploit Links": []
+    },
+    "5928": {
+        "CVE ID": "CVE-2023-26544",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2023/2/20/128"
+        ]
+    },
+    "5931": {
+        "CVE ID": "CVE-2023-26605",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2023/2/22/3"
+        ]
+    },
+    "5932": {
+        "CVE ID": "CVE-2023-26606",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2023/2/20/860"
+        ]
+    },
+    "5933": {
+        "CVE ID": "CVE-2023-26607",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2023/2/21/1353"
+        ]
+    },
+    "6173": {
+        "CVE ID": "CVE-2023-40791",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2023/8/3/323"
+        ]
+    },
+    "6174": {
+        "CVE ID": "CVE-2023-45898",
+        "Patch Links": [
+            "https://lkml.org/lkml/2023/8/13/477"
+        ],
+        "Exploit Links": []
+    },
+    "6301": {
+        "CVE ID": "CVE-2019-12378",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/5/25/229"
+        ],
+        "Exploit Links": []
+    },
+    "6304": {
+        "CVE ID": "CVE-2019-12381",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/5/25/230"
+        ],
+        "Exploit Links": []
+    },
+    "6305": {
+        "CVE ID": "CVE-2019-12382",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/5/24/843"
+        ],
+        "Exploit Links": []
+    },
+    "6306": {
+        "CVE ID": "CVE-2019-12454",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/5/29/705"
+        ],
+        "Exploit Links": []
+    },
+    "6309": {
+        "CVE ID": "CVE-2019-12614",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/6/3/526"
+        ],
+        "Exploit Links": []
+    },
+    "6411": {
+        "CVE ID": "CVE-2019-16229",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ],
+        "Exploit Links": []
+    },
+    "6412": {
+        "CVE ID": "CVE-2019-16230",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ],
+        "Exploit Links": []
+    },
+    "6413": {
+        "CVE ID": "CVE-2019-16231",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ],
+        "Exploit Links": []
+    },
+    "6414": {
+        "CVE ID": "CVE-2019-16232",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ]
+    },
+    "6415": {
+        "CVE ID": "CVE-2019-16233",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ],
+        "Exploit Links": []
+    },
+    "6416": {
+        "CVE ID": "CVE-2019-16234",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/9/9/487"
+        ],
+        "Exploit Links": []
+    },
+    "6440": {
+        "CVE ID": "CVE-2019-17666",
+        "Patch Links": [
+            "https://lkml.org/lkml/2019/10/16/1226"
+        ],
+        "Exploit Links": []
+    },
+    "6444": {
+        "CVE ID": "CVE-2019-18680",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2019/9/18/337"
+        ]
+    },
+    "6599": {
+        "CVE ID": "CVE-2013-7421",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2013/3/4/70"
+        ]
+    },
+    "6660": {
+        "CVE ID": "CVE-2015-4004",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2015/5/13/739"
+        ]
+    },
+    "6909": {
+        "CVE ID": "CVE-2013-7446",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://lkml.org/lkml/2013/10/14/424",
+            "https://lkml.org/lkml/2014/5/15/532",
+            "https://lkml.org/lkml/2015/9/13/195"
+        ]
+    }
+}

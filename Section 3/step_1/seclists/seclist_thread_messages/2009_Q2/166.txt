@@ -1,0 +1,12 @@
+Eugene Teo wrote:
+
+Frank Filz reported: the problem is that permission checking is skipped
+if atomic open is possible, but when exec opens a file, it just opens it
+O_READONLY which means EXEC permission will not be checked at that time.
+
+
+
+Upstream commit: 7ee2cb7f32b299c2b06a31fde155457203e4b7dd
+
+Thanks, Eugene
+

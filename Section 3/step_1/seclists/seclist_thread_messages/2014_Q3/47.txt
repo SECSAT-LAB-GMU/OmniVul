@@ -1,0 +1,17 @@
+On sam., 2014-07-05 at 22:25 +0400, Solar Designer wrote:
+
+So far, we're aware that the problem is definitely triggerable on recent
+kernels (at least mainline and recent Ubuntu) running on Intel CPUs
+(including in guest kernels in some VMs that run on Intel CPU hosts).
+
+
+
+For what it's worth, we managed to reproduce the crash on Debian 3.14.9-1
+kernel (from sid), but not on the stable 3.2.57-3+deb7u2 (there's a
+double faute but no panic), on Intel CPUs.
+
+Regards,
+-- 
+Yves-Alexis
+
+signature.asc

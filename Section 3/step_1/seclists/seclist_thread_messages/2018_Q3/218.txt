@@ -1,0 +1,14 @@
+I've sent the fixes to the stable kernel list but I don't yet see my
+submissions in the list archive on Spinics.
+
+
+
+For the sake of completeness:
+
+https://www.spinics.net/lists/stable/msg255033.html - [STABLE <= 4.13][PATCH 0/2] IRDA fixes
+
+https://www.spinics.net/lists/stable/msg255029.html - [STABLE 4.14+][PATCH 0/2] IRDA fixes
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

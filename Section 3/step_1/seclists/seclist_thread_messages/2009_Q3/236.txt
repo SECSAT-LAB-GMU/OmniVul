@@ -1,0 +1,28 @@
+
+So for now, we have:
+
+  CVE-2009-3228 - tc_fill_tclass()
+
+
+
+Fixed in v2.6.31-rc9, v2.4.37.6 (096ed17f).
+
+
+
+  CVE-2005-4881 - tc_fill_qdisc()  (at least)
+
+
+
+Fixed in v2.6.13-rc1, v2.4.37.6 too (all three patches).
+
+
+
+So, let's go with these two numbers.  I'll fill them out later.  (My head
+hurts.)
+
+
+
+Wow, my head hurts too... ;)
+
+Eugene
+

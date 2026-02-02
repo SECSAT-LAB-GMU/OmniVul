@@ -1,0 +1,21 @@
+On Wed, Feb 16, 2011 at 08:44:08AM -0500, Josh Bressers wrote:
+
+
+(2.6.34-rc1), the check was removed in 8ef2a9a5 (v2.6.35-rc1), and
+subsequently restored in 7f285fa78d (v2.6.35-rc5).
+
+
+
+
+Please use CVE-2011-0709.
+
+
+
+I don't think it makes sense to assign CVE IDs to issues, which only
+occured in development snapshots?
+
+This wasn't done in the past and it creates needless overhead.
+
+Cheers,
+        Moritz
+

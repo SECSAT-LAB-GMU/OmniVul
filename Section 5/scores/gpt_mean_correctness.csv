@@ -1,0 +1,24 @@
+,Mean Correctness
+Localization_Function_name,3.67
+Localization_File_name,3.85
+Localization_Vulnerable_OS_component,3.96
+CWE_Weakness_Type,3.02
+Reasoning_root_cause,4.22
+Reasoning_secure_coding_violation,3.57
+Reasoning_mitigation,2.11
+Reasoning_cia_impact,3.92
+Reasoning_exploit_expl,2.69
+Exploit_Exploit_Code,3.7
+Exploit_exploited_versions,2.94
+Exploit_abusable_interfaces,3.61
+Exploit_exploit_steps,3.4
+Exploit_privs_req,3.77
+Exploit_exploit_privs,3.03
+Exploit_remote_exploitability,4.39
+Exploit_crash_dump,3.09
+Patch_patch_expl,3.5
+Patch_patch_date,1.31
+Patch_patched_versions,1.84
+Patch_Code_diff,2.53
+Patch_Patch_code,1.5
+SCORES_score_explain,2.78

@@ -1,0 +1,19 @@
+
+Use CVE-2010-3015
+
+What does an attacker have to do to exploit this? Mount a crafted file
+system?
+
+
+
+
+To trigger this, the attacker needs to write to the last block of a file 
+
+(of max file size) and sync it.
+
+
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

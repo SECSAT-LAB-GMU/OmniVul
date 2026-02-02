@@ -1,0 +1,41 @@
+Eugene Teo <eugeneteo () kernel sg> writes:
+
+
+So we know what is holding the pid namespace reference.
+
+Additional thoughts.
+
+Does echo 3 > /proc/sys/vm/drop_caches clear up the issue?
+
+
+
+No.
+
+
+Is there a corresponding task_struct leak?
+
+
+
+Yes.
+
+
+
+Hmm.  The zombies are reaped? 
+
+I am scratching my head perhaps because I am looking at the current code
+but I don't seem to see how a task that pins a pid can get past
+release_task (the zombie reaper) and in particular past in release
+__exit_signal() which calls unhash_process().
+
+The simple test to see if we have made it past unhash_process is to see
+if you can see the zombie processes.
+
+
+I'm helping to provide more information.
+
+
+
+You are.  Thank you for looking to see what the symptoms are.
+
+Eric
+

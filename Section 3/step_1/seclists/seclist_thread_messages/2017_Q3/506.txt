@@ -1,0 +1,28 @@
+Heololo,
+
+It was found that the iscsi_if_rx() function in 'drivers/scsi/scsi_transport_iscsi.c'
+in the Linux kernel since v2.6.24-rc1 through 4.13.2 allows local users to cause
+a denial of service (a system panic) by making a number of certain syscalls by
+leveraging incorrect length validation in the kernel code.
+
+Our tests show that indeed an unprivileged local user can easily cause (i.e. run a binary)
+a system panic or a compete lock up. A wide range of kernel versions is affected, from
+v2.6.24-rc1 till the latest ones.
+
+References:
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1490421
+
+https://www.suse.com/security/cve/CVE-2017-14489/
+
+https://nvd.nist.gov/vuln/detail/CVE-2017-14489
+
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14489
+
+A suggested upstream patch:
+
+https://patchwork.kernel.org/patch/9923803/
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

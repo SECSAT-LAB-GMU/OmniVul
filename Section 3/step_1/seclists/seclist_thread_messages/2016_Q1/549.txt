@@ -1,0 +1,7 @@
+Use CVE-2016-2847.
+
+Thank you, we'll use this.
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

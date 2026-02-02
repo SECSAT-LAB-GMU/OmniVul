@@ -1,0 +1,9 @@
+
+Reported by Thomas Pollet, more info can be found at:
+http://www.spinics.net/lists/netdev/msg145359.html
+https://bugzilla.redhat.com/show_bug.cgi?id=647416
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

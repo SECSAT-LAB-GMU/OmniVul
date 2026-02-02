@@ -1,0 +1,32 @@
+
+Eugene Teo wrote:
+
+The check for the ipddpN device in the handle_ip_over_ddp() function 
+
+returns -NODEV to the atalk_rcv() function when the device does not 
+
+exist. The atalk_rcv() function then directly returns that value to its 
+
+caller. There is a missing call to kfree_skb() in these unaccepted 
+
+IP-DDP datagram that can exhaust the kernel memory eventually. It 
+
+affects Linux hosts with appletalk and ipddp modules loaded, that are 
+
+attached to the same link. Thanks to Mark Smith for reporting this issue 
+
+to us.
+
+
+
+
+Some updates and a quick analysis at: 
+
+https://bugzilla.redhat.com/CVE-2009-2903#c0 and 
+
+http://kbase.redhat.com/faq/docs/DOC-19069
+
+
+
+Thanks, Eugene
+

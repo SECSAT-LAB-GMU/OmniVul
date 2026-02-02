@@ -1,0 +1,537 @@
+{
+    "83": {
+        "title": "CVE request: assorted kernel infoleak security fixes",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 14 Jan 2014 12:24:09 +0100",
+        "author": ": Salva Peir\u00f3 <speiro () ai2 upv es>",
+        "File_path": "seclist_thread_messages/2014_Q1/83.txt",
+        "subthreads": [
+            {
+                "id": "92",
+                "no_subthreads": 0,
+                "date": ": Wed, 15 Jan 2014 07:28:22 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/92.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "154": {
+        "title": "CVE request Linux kernel: netfilter: nf_nat: leakage of uninitialized buffer in IRC NAT helper",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 28 Jan 2014 19:00:06 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/154.txt",
+        "subthreads": [
+            {
+                "id": "155",
+                "no_subthreads": 0,
+                "date": ": Tue, 28 Jan 2014 15:14:39 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/155.txt",
+                "subthreads": []
+            },
+            {
+                "id": "157",
+                "no_subthreads": 1,
+                "date": ": Tue, 28 Jan 2014 13:48:10 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2014_Q1/157.txt",
+                "subthreads": [
+                    {
+                        "id": "158",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 28 Jan 2014 13:49:41 -0700",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/158.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "187": {
+        "title": "Linux 3.4+: arbitrary write with CONFIG_X86_X32 (CVE-2014-0038)",
+        "CVE_id": "CVE-2014-0038",
+        "no_subthreads": 22,
+        "date": ": Fri, 31 Jan 2014 04:11:16 +0400",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2014_Q1/187.txt",
+        "subthreads": [
+            {
+                "id": "190",
+                "no_subthreads": 0,
+                "date": ": Thu, 30 Jan 2014 17:20:33 -0800",
+                "author": ": Kees Cook <kees () ubuntu com>",
+                "File_path": "seclist_thread_messages/2014_Q1/190.txt",
+                "subthreads": []
+            },
+            {
+                "id": "198",
+                "no_subthreads": 4,
+                "date": ": Fri, 31 Jan 2014 17:34:05 +0100",
+                "author": ": rf () q-leap de",
+                "File_path": "seclist_thread_messages/2014_Q1/198.txt",
+                "subthreads": [
+                    {
+                        "id": "200",
+                        "no_subthreads": 2,
+                        "date": ": Fri, 31 Jan 2014 21:20:39 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/200.txt",
+                        "subthreads": [
+                            {
+                                "id": "202",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 31 Jan 2014 18:54:17 +0100",
+                                "author": ": rf () q-leap de",
+                                "File_path": "seclist_thread_messages/2014_Q1/202.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "203",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 31 Jan 2014 22:06:23 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q1/203.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "213",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 31 Jan 2014 17:27:22 -0700",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/213.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "201",
+                "no_subthreads": 3,
+                "date": ": Fri, 31 Jan 2014 21:36:10 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2014_Q1/201.txt",
+                "subthreads": [
+                    {
+                        "id": "204",
+                        "no_subthreads": 2,
+                        "date": ": Fri, 31 Jan 2014 19:18:33 +0100",
+                        "author": ": rf () q-leap de",
+                        "File_path": "seclist_thread_messages/2014_Q1/204.txt",
+                        "subthreads": [
+                            {
+                                "id": "206",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 31 Jan 2014 22:48:01 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q1/206.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "209",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 31 Jan 2014 20:47:46 +0100",
+                                "author": ": rf () q-leap de",
+                                "File_path": "seclist_thread_messages/2014_Q1/209.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "210",
+                "no_subthreads": 3,
+                "date": ": Sat, 1 Feb 2014 11:24:37 +1300",
+                "author": ": Matthew Daley <mattd () bugfuzz com>",
+                "File_path": "seclist_thread_messages/2014_Q1/210.txt",
+                "subthreads": [
+                    {
+                        "id": "211",
+                        "no_subthreads": 2,
+                        "date": ": Sat, 1 Feb 2014 03:02:32 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/211.txt",
+                        "subthreads": [
+                            {
+                                "id": "214",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 01 Feb 2014 03:45:14 +0100",
+                                "author": ": \"PaX Team\" <pageexec () freemail hu>",
+                                "File_path": "seclist_thread_messages/2014_Q1/214.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "216",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 1 Feb 2014 10:27:47 +0100",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2014_Q1/216.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "218",
+                "no_subthreads": 4,
+                "date": ": Sun, 2 Feb 2014 08:14:44 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2014_Q1/218.txt",
+                "subthreads": [
+                    {
+                        "id": "223",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 3 Feb 2014 03:16:13 +0000 (UTC)",
+                        "author": ": mancha <mancha1 () hush com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/223.txt",
+                        "subthreads": [
+                            {
+                                "id": "224",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 3 Feb 2014 07:45:20 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q1/224.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "225",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 3 Feb 2014 03:45:02 +0000 (UTC)",
+                                "author": ": mancha <mancha1 () hush com>",
+                                "File_path": "seclist_thread_messages/2014_Q1/225.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "229",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 3 Feb 2014 10:10:46 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/229.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "227",
+                "no_subthreads": 2,
+                "date": ": Mon, 03 Feb 2014 03:55:35 +0000",
+                "author": ": \"mancha\" <mancha1 () hush com>",
+                "File_path": "seclist_thread_messages/2014_Q1/227.txt",
+                "subthreads": [
+                    {
+                        "id": "232",
+                        "no_subthreads": 1,
+                        "date": ": Mon, 3 Feb 2014 09:12:16 +0000 (UTC)",
+                        "author": ": mancha <mancha1 () hush com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/232.txt",
+                        "subthreads": [
+                            {
+                                "id": "241",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 3 Feb 2014 20:55:35 +0000 (UTC)",
+                                "author": ": mancha <mancha1 () hush com>",
+                                "File_path": "seclist_thread_messages/2014_Q1/241.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "188": {
+        "title": "Linux kernel: fs: fix get_dumpable() incorrect tests (CVE-2013-2929)",
+        "CVE_id": "CVE-2013-2929",
+        "no_subthreads": 1,
+        "date": ": Fri, 31 Jan 2014 04:51:55 +0400",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2014_Q1/188.txt",
+        "subthreads": [
+            {
+                "id": "189",
+                "no_subthreads": 0,
+                "date": ": Fri, 31 Jan 2014 05:07:44 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2014_Q1/189.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "269": {
+        "title": "CVE Request: Linux kernel: SELinux local DoS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 6 Feb 2014 23:14:23 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/269.txt",
+        "subthreads": [
+            {
+                "id": "270",
+                "no_subthreads": 0,
+                "date": ": Thu, 06 Feb 2014 19:33:21 +0100",
+                "author": ": Florian Weimer <fweimer () redhat com>",
+                "File_path": "seclist_thread_messages/2014_Q1/270.txt",
+                "subthreads": []
+            },
+            {
+                "id": "273",
+                "no_subthreads": 0,
+                "date": ": Thu, 6 Feb 2014 23:40:15 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/273.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "370": {
+        "title": "CVE-2014-0069 -- kernel: cifs: incorrect handling of bogus user pointers during uncached writes",
+        "CVE_id": "CVE-2014-0069",
+        "no_subthreads": 0,
+        "date": ": Mon, 17 Feb 2014 09:58:58 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/370.txt",
+        "subthreads": []
+    },
+    "404": {
+        "title": "CVE request: Linux kernel: nfs: information leakage",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 20 Feb 2014 15:04:11 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/404.txt",
+        "subthreads": [
+            {
+                "id": "412",
+                "no_subthreads": 1,
+                "date": ": Thu, 20 Feb 2014 12:42:02 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/412.txt",
+                "subthreads": [
+                    {
+                        "id": "415",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 21 Feb 2014 00:20:36 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/415.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "409": {
+        "title": "CVE Request: Linux kernel: s390: crash due to linkage stack instruction",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 20 Feb 2014 21:48:53 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/409.txt",
+        "subthreads": [
+            {
+                "id": "413",
+                "no_subthreads": 1,
+                "date": ": Thu, 20 Feb 2014 12:44:28 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/413.txt",
+                "subthreads": [
+                    {
+                        "id": "416",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 21 Feb 2014 00:24:00 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/416.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "468": {
+        "title": "CVE-2014-0049 -- Linux kernel: kvm: mmio_fragments out-of-the-bounds access",
+        "CVE_id": "CVE-2014-0049",
+        "no_subthreads": 0,
+        "date": ": Mon, 3 Mar 2014 10:38:50 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/468.txt",
+        "subthreads": []
+    },
+    "477": {
+        "title": "CVE-2014-0100 -- Linux kernel: net: inet frag code race condition leading to user-after-free",
+        "CVE_id": "CVE-2014-0100",
+        "no_subthreads": 0,
+        "date": ": Tue, 4 Mar 2014 11:58:48 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/477.txt",
+        "subthreads": []
+    },
+    "479": {
+        "title": "CVE-2014-0101 -- Linux kernel: net: sctp: null pointer dereference when processing authenticated cookie_echo chunk",
+        "CVE_id": "CVE-2014-0101",
+        "no_subthreads": 0,
+        "date": ": Tue, 4 Mar 2014 12:00:13 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/479.txt",
+        "subthreads": []
+    },
+    "494": {
+        "title": "CVE-2014-0102 -- Linux kernel: security: keyring cycle detector DoS",
+        "CVE_id": "CVE-2014-0102",
+        "no_subthreads": 0,
+        "date": ": Tue, 4 Mar 2014 17:59:56 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/494.txt",
+        "subthreads": []
+    },
+    "500": {
+        "title": "CVE Request: staging/cxt1e1/linux.c: Correct arbitrary memory write in c4_ioctl()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Wed, 05 Mar 2014 08:23:53 +0100",
+        "author": ": Salva Peir\u00f3 <speiro () ai2 upv es>",
+        "File_path": "seclist_thread_messages/2014_Q1/500.txt",
+        "subthreads": [
+            {
+                "id": "502",
+                "no_subthreads": 1,
+                "date": ": Wed, 5 Mar 2014 17:30:22 +0100",
+                "author": ": Moritz Muehlenhoff <jmm () debian org>",
+                "File_path": "seclist_thread_messages/2014_Q1/502.txt",
+                "subthreads": [
+                    {
+                        "id": "503",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 5 Mar 2014 09:04:34 -0800",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/503.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "516",
+                "no_subthreads": 1,
+                "date": ": Thu, 6 Mar 2014 15:27:20 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/516.txt",
+                "subthreads": [
+                    {
+                        "id": "518",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 6 Mar 2014 13:47:38 -0800",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/518.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "524": {
+        "title": "CVE Request: Linux kernel: IPv6: crash due to router advertisement flooding",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 7 Mar 2014 13:45:10 +0100",
+        "author": ": Sabrina Dubroca <sd () queasysnail net>",
+        "File_path": "seclist_thread_messages/2014_Q1/524.txt",
+        "subthreads": [
+            {
+                "id": "526",
+                "no_subthreads": 0,
+                "date": ": Fri, 7 Mar 2014 19:23:20 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/526.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "539": {
+        "title": "CVE-2014-0131 -- kernel: net: use-after-free during segmentation with zerocopy",
+        "CVE_id": "CVE-2014-0131",
+        "no_subthreads": 2,
+        "date": ": Mon, 10 Mar 2014 17:40:36 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/539.txt",
+        "subthreads": [
+            {
+                "id": "551",
+                "no_subthreads": 1,
+                "date": ": Tue, 11 Mar 2014 09:50:45 -0700",
+                "author": ": Chris Palmer <snackypants () gmail com>",
+                "File_path": "seclist_thread_messages/2014_Q1/551.txt",
+                "subthreads": [
+                    {
+                        "id": "552",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 11 Mar 2014 18:09:32 +0100",
+                        "author": ": Petr Matousek <pmatouse () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q1/552.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "627": {
+        "title": "CVE request -- kernel: net: potential information leak when ubuf backed skbs are skb_zerocopy()ied",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 20 Mar 2014 19:20:32 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q1/627.txt",
+        "subthreads": [
+            {
+                "id": "630",
+                "no_subthreads": 0,
+                "date": ": Thu, 20 Mar 2014 15:45:36 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/630.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "628": {
+        "title": "CVE-2013-7339 Linux kernel - rds: prevent dereference of a NULL device",
+        "CVE_id": "CVE-2013-7339",
+        "no_subthreads": 0,
+        "date": ": Thu, 20 Mar 2014 15:36:57 -0400 (EDT)",
+        "author": ": cve-assign () mitre org",
+        "File_path": "seclist_thread_messages/2014_Q1/628.txt",
+        "subthreads": []
+    },
+    "697": {
+        "title": "CVE request: Linux Kernel, two security issues",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sun, 30 Mar 2014 14:03:36 +0200",
+        "author": ": Agostino Sarubbo <ago () gentoo org>",
+        "File_path": "seclist_thread_messages/2014_Q1/697.txt",
+        "subthreads": [
+            {
+                "id": "701",
+                "no_subthreads": 0,
+                "date": ": Sun, 30 Mar 2014 17:42:52 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q1/701.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "711": {
+        "title": "CVE-2013-7348 CVE-2014-2678 Linux kernel aio and rds issues",
+        "CVE_id": "CVE-2013-7348",
+        "no_subthreads": 0,
+        "date": ": Mon, 31 Mar 2014 12:02:28 -0400 (EDT)",
+        "author": ": cve-assign () mitre org",
+        "File_path": "seclist_thread_messages/2014_Q1/711.txt",
+        "subthreads": []
+    }
+}

@@ -1,0 +1,20 @@
+
+
+----- "Eugene Teo" <eugene () redhat com> wrote:
+
+
+Reported by Thomas Pollet, more info can be found at:
+http://www.spinics.net/lists/netdev/msg145359.html
+https://bugzilla.redhat.com/show_bug.cgi?id=647416
+
+
+
+
+
+Please use CVE-2010-3865
+
+Thanks.
+
+-- 
+    JB
+

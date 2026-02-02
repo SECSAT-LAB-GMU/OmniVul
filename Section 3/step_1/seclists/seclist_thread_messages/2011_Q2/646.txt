@@ -1,0 +1,18 @@
+Also make sure each instruction is aligned on 4 bytes boundary, to avoid
+unaligned accesses.
+
+
+
+Should this get a seperate ID?
+
+
+
+
+AFAIK, on some architectures, unaligned accesses will generate a
+fault, which will be handled by emulating the access via byte-size
+loads and stores (for example).  So while unaligned accesses like this
+should be avoided, I don't think there's a security impact.  Anyone
+who knows better, please correct me if I'm wrong.
+
+-Dan
+

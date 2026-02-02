@@ -1,0 +1,494 @@
+{
+    "82": {
+        "title": "CVE-2017-2584 Kernel: kvm: use after free in complete_emulated_mmio",
+        "CVE_id": "CVE-2017-2584",
+        "no_subthreads": 0,
+        "date": ": Fri, 13 Jan 2017 17:09:40 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/82.txt",
+        "subthreads": []
+    },
+    "118": {
+        "title": "CVE request -- linux kernel: crash by spawning mcrypt(alg) with incompatible algorithm",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Tue, 17 Jan 2017 09:21:11 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/118.txt",
+        "subthreads": [
+            {
+                "id": "120",
+                "no_subthreads": 0,
+                "date": ": Tue, 17 Jan 2017 20:25:19 +0530",
+                "author": ": Lokesh Ubuntu <lokesh.ubuntu () gmail com>",
+                "File_path": "seclist_thread_messages/2017_Q1/120.txt",
+                "subthreads": []
+            },
+            {
+                "id": "127",
+                "no_subthreads": 0,
+                "date": ": Wed, 18 Jan 2017 00:55:40 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2017_Q1/127.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "134": {
+        "title": "CVE request Kernel: kvm: use-after-free issue while creating devices",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 18 Jan 2017 23:10:19 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/134.txt",
+        "subthreads": [
+            {
+                "id": "141",
+                "no_subthreads": 0,
+                "date": ": Thu, 19 Jan 2017 16:50:29 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2017_Q1/141.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "137": {
+        "title": "CVE-2017-2583 Kernel: Kvm: vmx/svm potential privilege escalation inside guest",
+        "CVE_id": "CVE-2017-2583",
+        "no_subthreads": 0,
+        "date": ": Thu, 19 Jan 2017 16:42:09 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/137.txt",
+        "subthreads": []
+    },
+    "145": {
+        "title": "CVE REQUEST: linux kernel: process with pgid zero able to crash kernel",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Fri, 20 Jan 2017 13:41:52 +1100",
+        "author": ": Harshula <harshula () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/145.txt",
+        "subthreads": [
+            {
+                "id": "149",
+                "no_subthreads": 5,
+                "date": ": Fri, 20 Jan 2017 09:26:35 +0100",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2017_Q1/149.txt",
+                "subthreads": [
+                    {
+                        "id": "151",
+                        "no_subthreads": 1,
+                        "date": ": Fri, 20 Jan 2017 21:39:41 +1100",
+                        "author": ": Harshula <harshula () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q1/151.txt",
+                        "subthreads": [
+                            {
+                                "id": "152",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 20 Jan 2017 12:14:38 +0100",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q1/152.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "154",
+                        "no_subthreads": 2,
+                        "date": ": Fri, 20 Jan 2017 09:01:17 -0500",
+                        "author": ": Brad Spengler <spender () grsecurity net>",
+                        "File_path": "seclist_thread_messages/2017_Q1/154.txt",
+                        "subthreads": [
+                            {
+                                "id": "156",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 20 Jan 2017 15:51:35 +0100",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q1/156.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "161",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 20 Jan 2017 22:24:00 -0500",
+                                "author": ": <cve-assign () mitre org>",
+                                "File_path": "seclist_thread_messages/2017_Q1/161.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "160",
+                "no_subthreads": 0,
+                "date": ": Fri, 20 Jan 2017 22:22:43 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2017_Q1/160.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "165": {
+        "title": "CVE request: Linux kernel: vc4: int overflow leading to heap-based buffer overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sun, 22 Jan 2017 10:26:36 +1300",
+        "author": ": Murray McAllister <murray.mcallister () insomniasec com>",
+        "File_path": "seclist_thread_messages/2017_Q1/165.txt",
+        "subthreads": [
+            {
+                "id": "174",
+                "no_subthreads": 0,
+                "date": ": Tue, 24 Jan 2017 03:12:09 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2017_Q1/174.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "203": {
+        "title": "Re: OpenSSH: CVE-2015-6565 (pty issue in 6.8-6.9) can lead to\tlocal  privesc on Linux",
+        "CVE_id": "CVE-2015-6565",
+        "no_subthreads": 3,
+        "date": ": Thu, 26 Jan 2017 10:07:24 +0100",
+        "author": ": up201407890 () alunos dcc fc up pt",
+        "File_path": "seclist_thread_messages/2017_Q1/203.txt",
+        "subthreads": [
+            {
+                "id": "204",
+                "no_subthreads": 2,
+                "date": ": Thu, 26 Jan 2017 18:35:12 +0100",
+                "author": ": Noryungi <noryungi () gmail com>",
+                "File_path": "seclist_thread_messages/2017_Q1/204.txt",
+                "subthreads": [
+                    {
+                        "id": "206",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 26 Jan 2017 21:52:43 +0100",
+                        "author": ": up201407890 () alunos dcc fc up pt",
+                        "File_path": "seclist_thread_messages/2017_Q1/206.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "246",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 31 Jan 2017 16:56:09 +0100",
+                        "author": ": Sebastian Krahmer <krahmer () suse com>",
+                        "File_path": "seclist_thread_messages/2017_Q1/246.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "211": {
+        "title": "Re: Re: CVE request: linux kernel - local DoS with cgroup offline code",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Fri, 27 Jan 2017 16:01:25 +0100",
+        "author": ": Andreas Stieger <astieger () suse com>",
+        "File_path": "seclist_thread_messages/2017_Q1/211.txt",
+        "subthreads": []
+    },
+    "237": {
+        "title": "CVE-2017-2596 Kernel: kvm: page reference leakage in handle_vmon",
+        "CVE_id": "CVE-2017-2596",
+        "no_subthreads": 0,
+        "date": ": Tue, 31 Jan 2017 13:23:56 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/237.txt",
+        "subthreads": []
+    },
+    "323": {
+        "title": "CVE Request: Linux: ip6_gre: invalid reads in ip6gre_err()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 6 Feb 2017 13:02:34 +0100",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2017_Q1/323.txt",
+        "subthreads": [
+            {
+                "id": "327",
+                "no_subthreads": 0,
+                "date": ": Tue, 7 Feb 2017 01:54:17 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2017_Q1/327.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "445": {
+        "title": "Re: CVE request: sunxi-debug (root privilege escalation in Allwinner kernel)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Feb 2017 17:20:31 -0500",
+        "author": ": David Manouchehri <david.manouchehri () riseup net>",
+        "File_path": "seclist_thread_messages/2017_Q1/445.txt",
+        "subthreads": []
+    },
+    "446": {
+        "title": "Linux: CVE-2017-6001: Incomplete fix for CVE-2016-6786: perf/core: Fix concurrent sys_perf_event_open() vs. 'move_group' race",
+        "CVE_id": "CVE-2017-6001",
+        "no_subthreads": 0,
+        "date": ": Thu, 16 Feb 2017 05:46:08 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/446.txt",
+        "subthreads": []
+    },
+    "471": {
+        "title": "Linux kernel: CVE-2017-6074: DCCP double-free vulnerability (local root)",
+        "CVE_id": "CVE-2017-6074",
+        "no_subthreads": 1,
+        "date": ": Wed, 22 Feb 2017 14:28:35 +0100",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2017_Q1/471.txt",
+        "subthreads": [
+            {
+                "id": "503",
+                "no_subthreads": 0,
+                "date": ": Sun, 26 Feb 2017 01:45:54 +0100",
+                "author": ": Andrey Konovalov <andreyknvl () google com>",
+                "File_path": "seclist_thread_messages/2017_Q1/503.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "474": {
+        "title": "util-linux 2.29.2 fixes CVE-2017-2616",
+        "CVE_id": "CVE-2017-2616",
+        "no_subthreads": 9,
+        "date": ": Thu, 23 Feb 2017 08:46:30 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2017_Q1/474.txt",
+        "subthreads": [
+            {
+                "id": "477",
+                "no_subthreads": 8,
+                "date": ": Thu, 23 Feb 2017 10:40:54 +0100",
+                "author": ": Hanno B\u00f6ck <hanno () hboeck de>",
+                "File_path": "seclist_thread_messages/2017_Q1/477.txt",
+                "subthreads": [
+                    {
+                        "id": "478",
+                        "no_subthreads": 7,
+                        "date": ": Thu, 23 Feb 2017 11:01:48 +0100",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2017_Q1/478.txt",
+                        "subthreads": [
+                            {
+                                "id": "481",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 07:56:51 -0500",
+                                "author": ": Assaf Gordon <assafgordon () gmail com>",
+                                "File_path": "seclist_thread_messages/2017_Q1/481.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "483",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 17:08:48 +0100",
+                                "author": ": Hanno B\u00f6ck <hanno () hboeck de>",
+                                "File_path": "seclist_thread_messages/2017_Q1/483.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "485",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 17:31:42 +0100",
+                                "author": ": B\u00e1lint R\u00e9czey <balint () balintreczey hu>",
+                                "File_path": "seclist_thread_messages/2017_Q1/485.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "486",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 17:17:28 +0100",
+                                "author": ": Emilio Pozuelo Monfort <pochu () debian org>",
+                                "File_path": "seclist_thread_messages/2017_Q1/486.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "487",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 10:20:28 -0600",
+                                "author": ": \"Serge E. Hallyn\" <serge () hallyn com>",
+                                "File_path": "seclist_thread_messages/2017_Q1/487.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "488",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 11:51:39 -0500",
+                                "author": ": Leo Famulari <leo () famulari name>",
+                                "File_path": "seclist_thread_messages/2017_Q1/488.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "490",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 23 Feb 2017 19:10:51 +0100",
+                                "author": ": Tobias St\u00f6ckmann <tobias () stoeckmann org>",
+                                "File_path": "seclist_thread_messages/2017_Q1/490.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "491": {
+        "title": "Linux: CVE-2017-6214: ipv4/tcp: infinite loop in tcp_splice_read()",
+        "CVE_id": "CVE-2017-6214",
+        "no_subthreads": 0,
+        "date": ": Thu, 23 Feb 2017 19:36:58 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/491.txt",
+        "subthreads": []
+    },
+    "518": {
+        "title": "Linux: CVE-2017-6353: sctp: deny peeloff operation on asocs with threads sleeping on it",
+        "CVE_id": "CVE-2017-6353",
+        "no_subthreads": 0,
+        "date": ": Mon, 27 Feb 2017 13:07:06 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/518.txt",
+        "subthreads": []
+    },
+    "524": {
+        "title": "Linux: irda: Fix lockdep annotations in hashbin_delete() (CVE-2017-6348)",
+        "CVE_id": "CVE-2017-6348",
+        "no_subthreads": 0,
+        "date": ": Tue, 28 Feb 2017 17:20:34 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/524.txt",
+        "subthreads": []
+    },
+    "525": {
+        "title": "Linux: ip: fix IP_CHECKSUM handling (CVE-2017-6347)",
+        "CVE_id": "CVE-2017-6347",
+        "no_subthreads": 0,
+        "date": ": Tue, 28 Feb 2017 17:23:09 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/525.txt",
+        "subthreads": []
+    },
+    "526": {
+        "title": "Linux: packet: fix races in fanout_add() (CVE-2017-6346)",
+        "CVE_id": "CVE-2017-6346",
+        "no_subthreads": 0,
+        "date": ": Tue, 28 Feb 2017 17:25:24 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/526.txt",
+        "subthreads": []
+    },
+    "527": {
+        "title": "Linux: net/llc: avoid BUG_ON() in skb_orphan() (CVE-2017-6345)",
+        "CVE_id": "CVE-2017-6345",
+        "no_subthreads": 0,
+        "date": ": Tue, 28 Feb 2017 17:28:02 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2017_Q1/527.txt",
+        "subthreads": []
+    },
+    "569": {
+        "title": "Linux kernel: CVE-2017-2636: local privilege escalation flaw in n_hdlc",
+        "CVE_id": "CVE-2017-2636",
+        "no_subthreads": 2,
+        "date": ": Tue, 7 Mar 2017 20:45:48 +0300",
+        "author": ": Alexander Popov <alex.popov () linux com>",
+        "File_path": "seclist_thread_messages/2017_Q1/569.txt",
+        "subthreads": [
+            {
+                "id": "572",
+                "no_subthreads": 0,
+                "date": ": Thu, 9 Mar 2017 00:51:03 +0300",
+                "author": ": Alexander Popov <alex.popov () linux com>",
+                "File_path": "seclist_thread_messages/2017_Q1/572.txt",
+                "subthreads": []
+            },
+            {
+                "id": "693",
+                "no_subthreads": 0,
+                "date": ": Thu, 30 Mar 2017 14:55:42 +0300",
+                "author": ": Alexander Popov <alex.popov () linux com>",
+                "File_path": "seclist_thread_messages/2017_Q1/693.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "684": {
+        "title": "CVE: kernel: drm/vmwgfx: check that number of mip levels is above zero in in vmw_surface_define_ioctl()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Mon, 27 Mar 2017 12:06:49 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/684.txt",
+        "subthreads": []
+    },
+    "688": {
+        "title": "CVE-2017-7294: kernel: drm/vmwgfx: limit mip levels in vmw_surface_define_ioctl()",
+        "CVE_id": "CVE-2017-7294",
+        "no_subthreads": 0,
+        "date": ": Wed, 29 Mar 2017 07:10:35 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/688.txt",
+        "subthreads": []
+    },
+    "689": {
+        "title": "CVE-2017-7184: kernel: Local privilege escalation in XFRM framework",
+        "CVE_id": "CVE-2017-7184",
+        "no_subthreads": 2,
+        "date": ": Wed, 29 Mar 2017 16:43:28 -0500",
+        "author": ": Tyler Hicks <tyhicks () canonical com>",
+        "File_path": "seclist_thread_messages/2017_Q1/689.txt",
+        "subthreads": [
+            {
+                "id": "692",
+                "no_subthreads": 1,
+                "date": ": Thu, 30 Mar 2017 08:48:21 +0530",
+                "author": ": Lokesh Ubuntu <lokesh.ubuntu () gmail com>",
+                "File_path": "seclist_thread_messages/2017_Q1/692.txt",
+                "subthreads": [
+                    {
+                        "id": "694",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 30 Mar 2017 09:17:45 -0500",
+                        "author": ": Tyler Hicks <tyhicks () canonical com>",
+                        "File_path": "seclist_thread_messages/2017_Q1/694.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "696": {
+        "title": "CVE-2017-7346: kernel: drm/vmwgfx: limit the number of mip levels in vmw_gb_surface_define_ioctl()",
+        "CVE_id": "CVE-2017-7346",
+        "no_subthreads": 0,
+        "date": ": Fri, 31 Mar 2017 06:39:03 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q1/696.txt",
+        "subthreads": []
+    },
+    "697": {
+        "title": "CVE-2017-7308: Linux kernel: integer overflow in packet_set_ring",
+        "CVE_id": "CVE-2017-7308",
+        "no_subthreads": 1,
+        "date": ": Fri, 31 Mar 2017 14:03:09 +0200",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2017_Q1/697.txt",
+        "subthreads": [
+            {
+                "id": "698",
+                "no_subthreads": 0,
+                "date": ": Fri, 31 Mar 2017 19:20:20 +0200",
+                "author": ": Andrey Konovalov <andreyknvl () google com>",
+                "File_path": "seclist_thread_messages/2017_Q1/698.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

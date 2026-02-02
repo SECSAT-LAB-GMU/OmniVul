@@ -1,0 +1,12 @@
+On Wed, Mar 18, 2015 at 10:39 AM, Shachar Raindel <raindel () mellanox com> wrote:
+
+Date: Sun, 04 Jan 2015 18:30:32 +0200
+Subject: [PATCH] IB/core: Prevent integer overflow in ib_umem_get address arithmetic
+
+
+
+Just so we're clear, this bug has been known since January 4, and it's
+getting sent upstream now?
+
+I assume we want it in 4.0 and -stable?
+

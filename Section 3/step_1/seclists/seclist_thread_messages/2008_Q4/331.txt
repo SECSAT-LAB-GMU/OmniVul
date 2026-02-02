@@ -1,0 +1,30 @@
+On Wed, Dec 17, 2008 at 10:14:27AM +0800, Eugene Teo wrote:
+
+On Wed, Dec 17, 2008 at 10:00 AM, Steven M. Christey
+<coley () linus mitre org> wrote:
+
+
+
+On Wed, 10 Dec 2008, Eugene Teo wrote:
+
+
+Steve, here's another one that needs a CVE name. Thanks!
+
+http://bugzilla.kernel.org/show_bug.cgi?id=11399
+
+
+
+Similar to the other issue, is this IOCTL reachable by anyone malicious?
+
+
+
+From what I can see in ibwdt_ioctl(), it does not restrict access to
+unprivileged users.
+
+
+
+Again, depends on how the device node is created I think. Not sure
+what mode udev hands out for those.
+
+Ciao, Marcus
+

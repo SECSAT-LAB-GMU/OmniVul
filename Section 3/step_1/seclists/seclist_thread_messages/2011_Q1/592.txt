@@ -1,0 +1,44 @@
+On Tue, Mar 22, 2011 at 4:03 PM, Josh Bressers <bressers () redhat com> wrote:
+
+
+
+
+----- Original Message -----
+
+Both are reported by Dan Rosenberg. Description of the issues can be
+found in the following links:-
+
+irda: validate peer name and attribute lengths
+http://marc.info/?l=linux-netdev&m=130067113628164&w=2
+
+
+
+Use CVE-2011-1180
+
+
+
+
+
+DECnet: need to validate user data and access data?
+http://marc.info/?l=linux-netdev&m=130075091711143&w=2
+
+
+
+
+Use CVE-2011-1181
+
+
+
+
+There is no DECnet security issue:
+http://marc.info/?l=linux-netdev&m=130078511604840&w=2
+
+
+Thanks.
+
+--
+   JB
+
+
+
+

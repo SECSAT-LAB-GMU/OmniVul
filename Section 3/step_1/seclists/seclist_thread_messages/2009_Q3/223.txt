@@ -1,0 +1,14 @@
+
+kernel/perf_counter.c was introduced in commit 0793a61d (v2.6.31-rc1).
+
+
+"If we pass a big size data over perf_counter_open() syscall, the kernel 
+
+will copy this data to a small buffer, it will cause kernel crash."
+
+
+
+Upstream commit: b3e62e35058fc744ac794611f4e79bcd1c5a4b83
+
+Thanks, Eugene
+

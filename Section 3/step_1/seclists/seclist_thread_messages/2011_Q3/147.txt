@@ -1,0 +1,10 @@
+Not sure if any distributions support xtensa, but regardless:
+
+Due to a failure to check user pointers passed to a ptrace_setxregs
+request, it is possible for a local unprivileged user to read
+arbitrary kernel memory [1].
+
+-Dan
+
+[1] http://marc.info/?l=linux-kernel&m=131008344912672&w=2
+

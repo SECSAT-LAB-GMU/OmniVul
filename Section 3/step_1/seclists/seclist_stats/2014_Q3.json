@@ -1,0 +1,416 @@
+{
+    "40": {
+        "title": "CVE-2014-4699: Linux ptrace bug",
+        "CVE_id": "CVE-2014-4699",
+        "no_subthreads": 20,
+        "date": ": Fri, 4 Jul 2014 14:05:08 -0700",
+        "author": ": Andy Lutomirski <luto () amacapital net>",
+        "File_path": "seclist_thread_messages/2014_Q3/40.txt",
+        "subthreads": [
+            {
+                "id": "41",
+                "no_subthreads": 0,
+                "date": ": Sat, 5 Jul 2014 01:33:28 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2014_Q3/41.txt",
+                "subthreads": []
+            },
+            {
+                "id": "46",
+                "no_subthreads": 17,
+                "date": ": Sat, 5 Jul 2014 22:25:47 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2014_Q3/46.txt",
+                "subthreads": [
+                    {
+                        "id": "47",
+                        "no_subthreads": 5,
+                        "date": ": Sat, 05 Jul 2014 20:41:20 +0200",
+                        "author": ": Yves-Alexis Perez <corsac () debian org>",
+                        "File_path": "seclist_thread_messages/2014_Q3/47.txt",
+                        "subthreads": [
+                            {
+                                "id": "48",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 5 Jul 2014 22:51:59 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/48.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "50",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 05 Jul 2014 21:58:15 +0200",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2014_Q3/50.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "51",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 6 Jul 2014 00:20:14 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/51.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "52",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 05 Jul 2014 22:25:50 +0200",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2014_Q3/52.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "53",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 6 Jul 2014 00:36:27 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/53.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "49",
+                        "no_subthreads": 2,
+                        "date": ": Sat, 5 Jul 2014 23:35:37 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2014_Q3/49.txt",
+                        "subthreads": [
+                            {
+                                "id": "100",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 08 Jul 2014 15:15:47 -0700",
+                                "author": ": Andy Lutomirski <luto () amacapital net>",
+                                "File_path": "seclist_thread_messages/2014_Q3/100.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "109",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 9 Jul 2014 10:38:13 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/109.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54",
+                        "no_subthreads": 4,
+                        "date": ": Sat, 05 Jul 2014 23:22:36 +0200",
+                        "author": ": Yves-Alexis Perez <corsac () debian org>",
+                        "File_path": "seclist_thread_messages/2014_Q3/54.txt",
+                        "subthreads": [
+                            {
+                                "id": "55",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 05 Jul 2014 20:37:42 -0400",
+                                "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/55.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "57",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 06 Jul 2014 04:06:12 -0400",
+                                "author": ": John Johansen <john.johansen () canonical com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/57.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "58",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 6 Jul 2014 12:20:03 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/58.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "60",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 06 Jul 2014 19:55:41 -0400",
+                                "author": ": John Johansen <john.johansen () canonical com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/60.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "89",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 8 Jul 2014 16:52:43 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2014_Q3/89.txt",
+                        "subthreads": [
+                            {
+                                "id": "94",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 8 Jul 2014 22:24:40 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2014_Q3/94.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "90",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 8 Jul 2014 18:23:42 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2014_Q3/90.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "101",
+                "no_subthreads": 0,
+                "date": ": Tue, 08 Jul 2014 15:22:36 -0700",
+                "author": ": Andy Lutomirski <luto () amacapital net>",
+                "File_path": "seclist_thread_messages/2014_Q3/101.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "93": {
+        "title": "Re: CVE-2014-4171 - Linux kernel mm/shmem.c denial of service",
+        "CVE_id": "CVE-2014-4171",
+        "no_subthreads": 1,
+        "date": ": Tue, 8 Jul 2014 22:43:39 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q3/93.txt",
+        "subthreads": [
+            {
+                "id": "99",
+                "no_subthreads": 0,
+                "date": ": Tue, 8 Jul 2014 21:44:16 +0200",
+                "author": ": yersinia <yersinia.spiros () gmail com>",
+                "File_path": "seclist_thread_messages/2014_Q3/99.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "159": {
+        "title": "CVE request: libressl before 2.0.2 under linux PRNG failure",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Wed, 16 Jul 2014 11:13:44 +0200",
+        "author": ": Hanno B\u00f6ck <hanno () hboeck de>",
+        "File_path": "seclist_thread_messages/2014_Q3/159.txt",
+        "subthreads": [
+            {
+                "id": "167",
+                "no_subthreads": 5,
+                "date": ": Wed, 16 Jul 2014 13:32:02 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q3/167.txt",
+                "subthreads": [
+                    {
+                        "id": "178",
+                        "no_subthreads": 4,
+                        "date": ": Fri, 18 Jul 2014 21:01:27 +0100",
+                        "author": ": Stuart Henderson <stu () spacehopper org>",
+                        "File_path": "seclist_thread_messages/2014_Q3/178.txt",
+                        "subthreads": [
+                            {
+                                "id": "179",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 18 Jul 2014 17:48:01 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2014_Q3/179.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "262",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 30 Jul 2014 20:08:45 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2014_Q3/262.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "268",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 31 Jul 2014 10:59:07 +0100",
+                                "author": ": Stuart Henderson <stu () spacehopper org>",
+                                "File_path": "seclist_thread_messages/2014_Q3/268.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "298",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 6 Aug 2014 23:07:10 +0100",
+                                "author": ": Stuart Henderson <stu () spacehopper org>",
+                                "File_path": "seclist_thread_messages/2014_Q3/298.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "172",
+                "no_subthreads": 0,
+                "date": ": Thu, 17 Jul 2014 13:58:13 -0400",
+                "author": ": Rich Felker <dalias () libc org>",
+                "File_path": "seclist_thread_messages/2014_Q3/172.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "170": {
+        "title": "CVE-2014-4943: Linux privilege escalation in ppp over l2tp sockets",
+        "CVE_id": "CVE-2014-4943",
+        "no_subthreads": 0,
+        "date": ": Wed, 16 Jul 2014 22:50:37 -0700",
+        "author": ": Kees Cook <kees () outflux net>",
+        "File_path": "seclist_thread_messages/2014_Q3/170.txt",
+        "subthreads": []
+    },
+    "189": {
+        "title": "Status of CVE-2012-4542/Linux?",
+        "CVE_id": "CVE-2012-4542",
+        "no_subthreads": 0,
+        "date": ": Sun, 20 Jul 2014 10:23:59 +0200",
+        "author": ": Moritz Muehlenhoff <jmm () debian org>",
+        "File_path": "seclist_thread_messages/2014_Q3/189.txt",
+        "subthreads": []
+    },
+    "233": {
+        "title": "CVE request: kernel: vfs: refcount issues during unmount on symlink",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 23 Jul 2014 18:40:12 +0400",
+        "author": ": Vasily Averin <vvs () parallels com>",
+        "File_path": "seclist_thread_messages/2014_Q3/233.txt",
+        "subthreads": [
+            {
+                "id": "237",
+                "no_subthreads": 0,
+                "date": ": Wed, 23 Jul 2014 22:36:15 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q3/237.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "240": {
+        "title": "CVE request Linux Kernel: net: SCTP: NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 24 Jul 2014 19:30:10 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q3/240.txt",
+        "subthreads": [
+            {
+                "id": "246",
+                "no_subthreads": 1,
+                "date": ": Fri, 25 Jul 2014 22:21:43 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q3/246.txt",
+                "subthreads": [
+                    {
+                        "id": "247",
+                        "no_subthreads": 0,
+                        "date": ": Sat, 26 Jul 2014 11:12:35 +0200",
+                        "author": ": Daniel Borkmann <dborkman () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q3/247.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "409": {
+        "title": "incomplete fix for CVE-2014-4611: kernel: integer overflow in lz4_uncompress",
+        "CVE_id": "CVE-2014-4611",
+        "no_subthreads": 1,
+        "date": ": Tue, 19 Aug 2014 15:08:32 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2014_Q3/409.txt",
+        "subthreads": [
+            {
+                "id": "434",
+                "no_subthreads": 0,
+                "date": ": Fri, 22 Aug 2014 01:04:26 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2014_Q3/434.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "450": {
+        "title": "CVE Request: Linux Kernel unbound recursion in ISOFS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 26 Aug 2014 10:33:08 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2014_Q3/450.txt",
+        "subthreads": [
+            {
+                "id": "452",
+                "no_subthreads": 0,
+                "date": ": Wed, 27 Aug 2014 01:12:35 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q3/452.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "577": {
+        "title": "Multiple Linux USB driver CVE assignment",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 11 Sep 2014 13:32:27 -0700",
+        "author": ": Ben Hawkes <hawkes () inertiawar com>",
+        "File_path": "seclist_thread_messages/2014_Q3/577.txt",
+        "subthreads": [
+            {
+                "id": "578",
+                "no_subthreads": 0,
+                "date": ": Thu, 11 Sep 2014 14:26:12 -0700",
+                "author": ": Ben Hawkes <hawkes () inertiawar com>",
+                "File_path": "seclist_thread_messages/2014_Q3/578.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "599": {
+        "title": "CVE request Linux kernel: net: guard tcp_set_keepalive against crash",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Sep 2014 17:03:47 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q3/599.txt",
+        "subthreads": [
+            {
+                "id": "605",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 Sep 2014 13:23:30 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q3/605.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "600": {
+        "title": "CVE request for Linux kernel: udf: Avoid infinite loop when processing indirect ICBs",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Sep 2014 15:39:39 +0400",
+        "author": ": Loganaden Velvindron <loganaden () gmail com>",
+        "File_path": "seclist_thread_messages/2014_Q3/600.txt",
+        "subthreads": [
+            {
+                "id": "606",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 Sep 2014 13:31:09 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q3/606.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

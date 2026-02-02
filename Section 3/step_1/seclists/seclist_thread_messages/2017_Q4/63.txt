@@ -1,0 +1,20 @@
+
+
+Gday,
+
+A vulnerability in the Key Management sub component was found in the Linux
+kernel. Trying to KEYTCL_READ on negative key would lead to a NULL pointer
+dereference. A local attacker could use this flaw to crash the kernel.
+
+It looks as though the read primitive is limited to a fixed address so this
+has very limited use as an arbitrary read primitive to leverage for another
+exploit.
+
+Fixed by:
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=37863c43b2c6464f252862bf2e9768264e961678
+
+Introduced by:
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=61ea0c0ba904a55f55317d850c1072ff7835ac92
+
+Wade Mealing
+

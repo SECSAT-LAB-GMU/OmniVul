@@ -1,0 +1,23 @@
+On Tue, Apr 18, 2023 at 02:57:41AM +0200, Solar Designer wrote:
+
+
+On Sun, Apr 16, 2023 at 10:57:27PM +0200, Steffen Nurpmeso wrote:
+
+
+
+
+You have to do some things, and if you give up privileges
+thereafter, extended capabilities are gone.
+
+
+
+
+POSIX saved IDs should help retain/regain the capabilities.
+
+
+
+Another (simpler?) way is to fork before giving up privilege.
+
+-- 
+Ian
+

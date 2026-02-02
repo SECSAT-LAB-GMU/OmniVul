@@ -1,0 +1,14 @@
+
+On 03/15/2011 04:53 AM, Josh Bressers wrote:
+
+
+I'm not able to properly parse this. Should this get one CVE id or three?
+
+
+
+Three.
+
+Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

@@ -1,0 +1,13 @@
+A flaw was found in the way Xen hypervisor checked for upper boundary
+when getting a new event channel port. A privileged DomU user could use
+this flaws to cause denial of service or, possibly, increase his privileges.
+
+AFAIK, upstream xen is not affected.
+
+https://bugzilla.redhat.com/CVE-2011-1763
+
+fix: xen-unstable c/s 19365:
+http://xenbits.xensource.com/hg/xen-unstable.hg/rev/2dcdd2fcb945
+
+Thanks, Eugene
+

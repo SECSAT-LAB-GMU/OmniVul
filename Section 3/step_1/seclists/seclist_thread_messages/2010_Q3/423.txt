@@ -1,0 +1,18 @@
+
+On 09/25/2010 12:27 AM, dann frazier wrote:
+
+
+Please assign a CVE for the remote DoS issue described here:
+   http://marc.info/?l=linux-netdev&m=128453869227715&w=3
+
+Upstream fix:
+   http://git.kernel.org/4bdab43323b459900578b200a4b8cf9713ac8fab
+
+
+
+Please use CVE-2010-3432.
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

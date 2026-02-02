@@ -1,0 +1,14 @@
+FYI given upstream discussions we gave CVE-2009-2695 to 'a system with 
+
+SELinux enabled with the default targeted policy is more permissive for 
+
+unconfined domains, allowing local users to map low memory areas even if 
+
+mmap_min_addr protection is enabled.  This could allow the exploitation of 
+
+NULL pointer dereference flaws'. See also http://kbase.redhat.com/faq/docs/DOC-18042
+
+
+
+Mark
+

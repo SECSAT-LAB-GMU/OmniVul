@@ -1,0 +1,14 @@
+Gday,
+
+I'd like to request a CVE for a denial of service attack found here here 
+https://bugzilla.kernel.org/show_bug.cgi?id=91441.
+
+A remote attacker with the NET_CAP_ADMIN capability could use this to panic (denial of service) a system if they were 
+able to flush a chain with a jump target.
+
+More info: https://bugzilla.redhat.com/show_bug.cgi?id=1190966
+
+Thanks
+
+Wade Mealing
+

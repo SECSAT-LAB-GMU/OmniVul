@@ -1,0 +1,12 @@
+On 01/19/2012 04:43 AM, Kees Cook wrote:
+
+What's the problem with the old logic in the mem handling? (Why does this
+need a CVE?)
+
+
+
+This is a possible local privilege escalation issue on a system with
+ASLR disabled, combined with other exploitation techniques.
+
+Eugene
+

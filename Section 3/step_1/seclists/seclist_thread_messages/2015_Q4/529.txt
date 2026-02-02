@@ -1,0 +1,5 @@
+libpng-1.0.66, 1.2.56, 1.4.19, and 1.5.26 were released today Dec 17th to
+fix CVE-2015-8540.
+
+Glenn Randers-Pehrson
+libpng custodian

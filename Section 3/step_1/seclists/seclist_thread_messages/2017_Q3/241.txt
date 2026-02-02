@@ -1,0 +1,14 @@
+On 03/08/17 15:00, Vladis Dronov wrote:
+
+https://access.redhat.com/security/vulnerabilities/3112931
+
+
+
+I suspect there's nothing in this that's not repeated elsewhere, but
+that page says "Access Denied".
+
+jch
+
+
+
+signature.asc

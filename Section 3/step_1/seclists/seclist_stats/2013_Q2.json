@@ -1,0 +1,527 @@
+{
+    "27": {
+        "title": "CVE Request: kernel information leak in fs/compat_ioctl.c\tVIDEO_SET_SPU_PALETTE",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 11,
+        "date": ": Fri, 5 Apr 2013 16:05:16 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2013_Q2/27.txt",
+        "subthreads": [
+            {
+                "id": "30",
+                "no_subthreads": 0,
+                "date": ": Fri, 05 Apr 2013 18:07:47 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/30.txt",
+                "subthreads": []
+            },
+            {
+                "id": "39",
+                "no_subthreads": 9,
+                "date": ": Mon, 8 Apr 2013 18:30:02 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/39.txt",
+                "subthreads": [
+                    {
+                        "id": "44",
+                        "no_subthreads": 8,
+                        "date": ": Mon, 8 Apr 2013 16:49:30 +0300",
+                        "author": ": Dan Carpenter <dan.carpenter () oracle com>",
+                        "File_path": "seclist_thread_messages/2013_Q2/44.txt",
+                        "subthreads": [
+                            {
+                                "id": "40",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 8 Apr 2013 22:18:30 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/40.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "46",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 8 Apr 2013 21:44:33 +0300",
+                                "author": ": Dan Carpenter <dan.carpenter () oracle com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/46.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "47",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 8 Apr 2013 21:49:05 +0300",
+                                "author": ": Dan Carpenter <dan.carpenter () oracle com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/47.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "55",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 9 Apr 2013 11:48:12 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/55.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "56",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 9 Apr 2013 12:01:04 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/56.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "54",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 9 Apr 2013 11:47:10 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/54.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "57",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 9 Apr 2013 09:41:19 +0300",
+                                "author": ": Dan Carpenter <dan.carpenter () oracle com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/57.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "58",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 9 Apr 2013 12:33:44 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/58.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "35": {
+        "title": "cve request: util-linux",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sun, 7 Apr 2013 20:28:48 -0400",
+        "author": ": Michael Gilbert <mgilbert () debian org>",
+        "File_path": "seclist_thread_messages/2013_Q2/35.txt",
+        "subthreads": [
+            {
+                "id": "37",
+                "no_subthreads": 0,
+                "date": ": Mon, 08 Apr 2013 08:19:52 +0100",
+                "author": ": \"Adam D. Barratt\" <adam () adam-barratt org uk>",
+                "File_path": "seclist_thread_messages/2013_Q2/37.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "86": {
+        "title": "CVE request - Linux kernel: tracing NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Apr 2013 17:00:52 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/86.txt",
+        "subthreads": [
+            {
+                "id": "217",
+                "no_subthreads": 0,
+                "date": ": Mon, 29 Apr 2013 01:53:22 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2013_Q2/217.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "87": {
+        "title": "CVE request: Linux kernel: cifs: NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Apr 2013 19:26:50 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/87.txt",
+        "subthreads": [
+            {
+                "id": "218",
+                "no_subthreads": 0,
+                "date": ": Mon, 29 Apr 2013 01:54:18 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2013_Q2/218.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "207": {
+        "title": "CVE request: Linux kernel: ext4: hang during mount(8)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 26 Apr 2013 17:33:51 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/207.txt",
+        "subthreads": [
+            {
+                "id": "208",
+                "no_subthreads": 0,
+                "date": ": Fri, 26 Apr 2013 11:07:01 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/208.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "221": {
+        "title": "CVE request -- Linux kernel: veth: double-free in case of congestion",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 29 Apr 2013 13:06:09 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/221.txt",
+        "subthreads": [
+            {
+                "id": "224",
+                "no_subthreads": 0,
+                "date": ": Mon, 29 Apr 2013 13:22:08 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/224.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "273": {
+        "title": "CVE request: Linux kernel: chipidea: allow disabling streaming in host mode",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Fri, 3 May 2013 16:52:36 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/273.txt",
+        "subthreads": [
+            {
+                "id": "280",
+                "no_subthreads": 2,
+                "date": ": Sun, 05 May 2013 00:37:44 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/280.txt",
+                "subthreads": [
+                    {
+                        "id": "283",
+                        "no_subthreads": 1,
+                        "date": ": Mon, 6 May 2013 17:40:24 +0200",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2013_Q2/283.txt",
+                        "subthreads": [
+                            {
+                                "id": "284",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 6 May 2013 08:48:07 -0700",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/284.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "300": {
+        "title": "CVE request: Linux kernel: tuntap refuse to re-attach to different tun_struct",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 10 May 2013 17:33:37 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/300.txt",
+        "subthreads": [
+            {
+                "id": "301",
+                "no_subthreads": 0,
+                "date": ": Fri, 10 May 2013 16:25:55 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/301.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "320": {
+        "title": "CVE Request: linux kernel perf out-of-bounds access",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Tue, 14 May 2013 08:25:54 -0400",
+        "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+        "File_path": "seclist_thread_messages/2013_Q2/320.txt",
+        "subthreads": [
+            {
+                "id": "321",
+                "no_subthreads": 0,
+                "date": ": Tue, 14 May 2013 14:32:35 +0200",
+                "author": ": Raphael Geissert <geissert () debian org>",
+                "File_path": "seclist_thread_messages/2013_Q2/321.txt",
+                "subthreads": []
+            },
+            {
+                "id": "322",
+                "no_subthreads": 0,
+                "date": ": Tue, 14 May 2013 14:37:22 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/322.txt",
+                "subthreads": []
+            },
+            {
+                "id": "328",
+                "no_subthreads": 4,
+                "date": ": Wed, 15 May 2013 09:26:30 +0800",
+                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                "File_path": "seclist_thread_messages/2013_Q2/328.txt",
+                "subthreads": [
+                    {
+                        "id": "329",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 15 May 2013 00:02:38 -0400",
+                        "author": ": Michael Gilbert <mgilbert () debian org>",
+                        "File_path": "seclist_thread_messages/2013_Q2/329.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "330",
+                        "no_subthreads": 2,
+                        "date": ": Wed, 15 May 2013 00:47:33 -0400",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2013_Q2/330.txt",
+                        "subthreads": [
+                            {
+                                "id": "331",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 15 May 2013 08:08:47 +0200",
+                                "author": ": sd <sd () fucksheep org>",
+                                "File_path": "seclist_thread_messages/2013_Q2/331.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "339",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 15 May 2013 19:48:19 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/339.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "433": {
+        "title": "CVE request: Linux kernel: net: oops from tcp_collapse() when using splice(2)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 30 May 2013 00:40:49 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/433.txt",
+        "subthreads": [
+            {
+                "id": "434",
+                "no_subthreads": 0,
+                "date": ": Wed, 29 May 2013 13:54:34 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/434.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "448": {
+        "title": "CVE-2013-2850: Linux kernel iSCSI target heap overflow",
+        "CVE_id": "CVE-2013-2850",
+        "no_subthreads": 0,
+        "date": ": Sat, 1 Jun 2013 09:54:01 -0700",
+        "author": ": Kees Cook <keescook () chromium org>",
+        "File_path": "seclist_thread_messages/2013_Q2/448.txt",
+        "subthreads": []
+    },
+    "449": {
+        "title": "CVE Request: kernel info leak in tkill/tgkill",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sun, 2 Jun 2013 19:56:09 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2013_Q2/449.txt",
+        "subthreads": [
+            {
+                "id": "467",
+                "no_subthreads": 0,
+                "date": ": Tue, 04 Jun 2013 12:55:22 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/467.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "471": {
+        "title": "CVE request: kernel: cpqarray/c: info leak in ida_locked_ioctl()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 5 Jun 2013 12:53:33 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/471.txt",
+        "subthreads": [
+            {
+                "id": "473",
+                "no_subthreads": 0,
+                "date": ": Wed, 5 Jun 2013 13:24:53 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/473.txt",
+                "subthreads": []
+            },
+            {
+                "id": "495",
+                "no_subthreads": 0,
+                "date": ": Wed, 05 Jun 2013 13:29:43 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/495.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "472": {
+        "title": "CVE Request: Linux kernel: fanotify: info leak in copy_event_to_user",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 5 Jun 2013 13:23:02 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/472.txt",
+        "subthreads": [
+            {
+                "id": "496",
+                "no_subthreads": 0,
+                "date": ": Wed, 05 Jun 2013 13:29:57 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/496.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "500": {
+        "title": "CVE Request: Linux Kernel - Leak information in cdrom driver.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 6 Jun 2013 10:19:22 +0200",
+        "author": ": Jonathan Salwan <jonathan.salwan () gmail com>",
+        "File_path": "seclist_thread_messages/2013_Q2/500.txt",
+        "subthreads": [
+            {
+                "id": "538",
+                "no_subthreads": 0,
+                "date": ": Mon, 10 Jun 2013 14:39:16 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/538.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "577": {
+        "title": "CVE Request: Linux - ext4 support",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Mon, 17 Jun 2013 22:12:34 +0200",
+        "author": ": Jonathan Salwan <jonathan.salwan () gmail com>",
+        "File_path": "seclist_thread_messages/2013_Q2/577.txt",
+        "subthreads": [
+            {
+                "id": "578",
+                "no_subthreads": 3,
+                "date": ": Mon, 17 Jun 2013 13:29:29 -0700",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2013_Q2/578.txt",
+                "subthreads": [
+                    {
+                        "id": "579",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 17 Jun 2013 23:52:47 +0200",
+                        "author": ": Jonathan Salwan <jonathan.salwan () gmail com>",
+                        "File_path": "seclist_thread_messages/2013_Q2/579.txt",
+                        "subthreads": [
+                            {
+                                "id": "580",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 17 Jun 2013 15:40:21 -0700",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/580.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "582",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 17 Jun 2013 20:13:46 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q2/582.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "604": {
+        "title": "Xen Security Advisory 55 (CVE-2013-2194,CVE-2013-2195,CVE-2013-2196) - Multiple vulnerabilities in libelf PV kernel handling",
+        "CVE_id": "CVE-2013-2194",
+        "no_subthreads": 0,
+        "date": ": Thu, 20 Jun 2013 10:26:41 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2013_Q2/604.txt",
+        "subthreads": []
+    },
+    "605": {
+        "title": "CVE Request -- Linux kernel: sctp: duplicate cookie handling NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 20 Jun 2013 22:16:33 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q2/605.txt",
+        "subthreads": [
+            {
+                "id": "606",
+                "no_subthreads": 0,
+                "date": ": Thu, 20 Jun 2013 20:44:33 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/606.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "637": {
+        "title": "CVE request: Kernel 2.6.32+ IP_RETOPTS Buffer Poisoning DoS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Sun, 30 Jun 2013 00:33:47 -0700",
+        "author": ": Steven Ciaburri <steve () rack911 com>",
+        "File_path": "seclist_thread_messages/2013_Q2/637.txt",
+        "subthreads": [
+            {
+                "id": "640",
+                "no_subthreads": 1,
+                "date": ": Sun, 30 Jun 2013 15:45:19 -0700",
+                "author": ": Steven Ciaburri <steve () rack911 com>",
+                "File_path": "seclist_thread_messages/2013_Q2/640.txt",
+                "subthreads": [
+                    {
+                        "id": "641",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 30 Jun 2013 16:58:08 -0600",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q2/641.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "643",
+                "no_subthreads": 0,
+                "date": ": Sun, 30 Jun 2013 17:01:15 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q2/643.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

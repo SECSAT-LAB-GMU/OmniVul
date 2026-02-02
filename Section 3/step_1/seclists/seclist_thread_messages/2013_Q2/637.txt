@@ -1,0 +1,4 @@
+There is a local DOS exploit in centos 6, openvz 6, cloudlinux 6 and others.
+
+https://www.rack911.com/poc/hemlock.c
+

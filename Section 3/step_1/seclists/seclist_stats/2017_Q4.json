@@ -1,0 +1,436 @@
+{
+    "4": {
+        "title": "Re: CVE-2017-1000252: KVM denial of service with posted interrupts on Intel systems (since Linux 4.4)",
+        "CVE_id": "CVE-2017-1000252",
+        "no_subthreads": 0,
+        "date": ": Mon, 2 Oct 2017 14:06:44 +0200",
+        "author": ": Greg KH <greg () kroah com>",
+        "File_path": "seclist_thread_messages/2017_Q4/4.txt",
+        "subthreads": []
+    },
+    "9": {
+        "title": "Re: Linux kernel CVEs not mentioned on oss-security",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 6,
+        "date": ": Tue, 3 Oct 2017 13:27:09 +0200",
+        "author": ": Greg KH <greg () kroah com>",
+        "File_path": "seclist_thread_messages/2017_Q4/9.txt",
+        "subthreads": [
+            {
+                "id": "10",
+                "no_subthreads": 0,
+                "date": ": Tue, 3 Oct 2017 15:17:58 +0200",
+                "author": ": Moritz Muehlenhoff <jmm () inutil org>",
+                "File_path": "seclist_thread_messages/2017_Q4/10.txt",
+                "subthreads": []
+            },
+            {
+                "id": "12",
+                "no_subthreads": 1,
+                "date": ": Tue, 3 Oct 2017 09:00:38 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q4/12.txt",
+                "subthreads": [
+                    {
+                        "id": "14",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 3 Oct 2017 17:33:40 +0200",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2017_Q4/14.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "20",
+                "no_subthreads": 0,
+                "date": ": Tue, 03 Oct 2017 22:04:13 +0200",
+                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                "File_path": "seclist_thread_messages/2017_Q4/20.txt",
+                "subthreads": []
+            },
+            {
+                "id": "44",
+                "no_subthreads": 1,
+                "date": ": Mon, 9 Oct 2017 13:11:18 +0200",
+                "author": ": Fabian Keil <fk () fabiankeil de>",
+                "File_path": "seclist_thread_messages/2017_Q4/44.txt",
+                "subthreads": [
+                    {
+                        "id": "48",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 09 Oct 2017 16:17:40 -0400",
+                        "author": ": Stiepan <stie@itk.swiss>",
+                        "File_path": "seclist_thread_messages/2017_Q4/48.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "11": {
+        "title": "CVE Request: FreeBSD kernel, double-fetch bug in smb_strdupin",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 3 Oct 2017 14:39:55 +0000",
+        "author": ": \"Xu, Meng\" <meng.xu () gatech edu>",
+        "File_path": "seclist_thread_messages/2017_Q4/11.txt",
+        "subthreads": [
+            {
+                "id": "13",
+                "no_subthreads": 0,
+                "date": ": Tue, 3 Oct 2017 17:22:13 +0200",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2017_Q4/13.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "16": {
+        "title": "Re: Qualys Security Advisory - Linux PIE/stack corruption (CVE-2017-1000253)",
+        "CVE_id": "CVE-2017-1000253",
+        "no_subthreads": 2,
+        "date": ": Tue, 3 Oct 2017 13:05:33 -0400",
+        "author": ": Jan Schaumann <jschauma () netmeister org>",
+        "File_path": "seclist_thread_messages/2017_Q4/16.txt",
+        "subthreads": [
+            {
+                "id": "18",
+                "no_subthreads": 0,
+                "date": ": Tue, 3 Oct 2017 11:37:07 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q4/18.txt",
+                "subthreads": []
+            },
+            {
+                "id": "17",
+                "no_subthreads": 0,
+                "date": ": Tue, 3 Oct 2017 10:08:20 -0700",
+                "author": ": Qualys Security Advisory <qsa () qualys com>",
+                "File_path": "seclist_thread_messages/2017_Q4/17.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "43": {
+        "title": "CVE-2017-14991 in the Linux Kernel: local infoleak via an SG_GET_REQUEST_TABLE ioctl call for /dev/sg0",
+        "CVE_id": "CVE-2017-14991",
+        "no_subthreads": 0,
+        "date": ": Mon, 9 Oct 2017 11:12:08 +0200",
+        "author": ": Alexander Potapenko <glider () google com>",
+        "File_path": "seclist_thread_messages/2017_Q4/43.txt",
+        "subthreads": []
+    },
+    "51": {
+        "title": "CVE-2017-1000255: Linux: powerpc: kernel memory overwrite in transactional memory handling",
+        "CVE_id": "CVE-2017-1000255",
+        "no_subthreads": 0,
+        "date": ": Tue, 10 Oct 2017 15:13:29 +1100",
+        "author": ": Michael Ellerman <mpe () ellerman id au>",
+        "File_path": "seclist_thread_messages/2017_Q4/51.txt",
+        "subthreads": []
+    },
+    "52": {
+        "title": "CVE-2017-12190: Linux kernel: block: memory leak when merging small consecutive buffers in SCSI IO vectors",
+        "CVE_id": "CVE-2017-12190",
+        "no_subthreads": 2,
+        "date": ": Tue, 10 Oct 2017 12:03:58 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/52.txt",
+        "subthreads": [
+            {
+                "id": "88",
+                "no_subthreads": 0,
+                "date": ": Tue, 17 Oct 2017 17:44:33 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q4/88.txt",
+                "subthreads": []
+            },
+            {
+                "id": "97",
+                "no_subthreads": 0,
+                "date": ": Wed, 18 Oct 2017 08:21:11 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q4/97.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "58": {
+        "title": "Linux kernel: alsa: use-after-free in /dev/snd/seq CVE-2017-15265",
+        "CVE_id": "CVE-2017-15265",
+        "no_subthreads": 1,
+        "date": ": Wed, 11 Oct 2017 15:03:53 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2017_Q4/58.txt",
+        "subthreads": [
+            {
+                "id": "85",
+                "no_subthreads": 0,
+                "date": ": Tue, 17 Oct 2017 12:54:24 +0200",
+                "author": ": Marcus Meissner <meissner () suse de>",
+                "File_path": "seclist_thread_messages/2017_Q4/85.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "63": {
+        "title": "CVE-2017-12192 kernel: NULL pointer dereference due to KEYCTL_READ on negative key",
+        "CVE_id": "CVE-2017-12192",
+        "no_subthreads": 0,
+        "date": ": Thu, 12 Oct 2017 14:47:14 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/63.txt",
+        "subthreads": []
+    },
+    "77": {
+        "title": "CVE-2017-12188 Kernel: KVM: MMU potential stack buffer overrun during page walks",
+        "CVE_id": "CVE-2017-12188",
+        "no_subthreads": 0,
+        "date": ": Thu, 12 Oct 2017 23:35:35 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/77.txt",
+        "subthreads": []
+    },
+    "78": {
+        "title": "CVE-2017-5123 Linux kernel v4.13 waitid() not calling access_ok()",
+        "CVE_id": "CVE-2017-5123",
+        "no_subthreads": 0,
+        "date": ": Thu, 12 Oct 2017 13:02:40 -0700",
+        "author": ": Kees Cook <keescook () chromium org>",
+        "File_path": "seclist_thread_messages/2017_Q4/78.txt",
+        "subthreads": []
+    },
+    "82": {
+        "title": "CVE-2017-15299: Linux kernel: incorrect update of uninstantiated keys can crash a kernel",
+        "CVE_id": "CVE-2017-15299",
+        "no_subthreads": 0,
+        "date": ": Mon, 16 Oct 2017 05:09:05 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/82.txt",
+        "subthreads": []
+    },
+    "134": {
+        "title": "Re: CVE-2017-5123 Linux kernel v4.13 waitid() not calling\taccess_ok()",
+        "CVE_id": "CVE-2017-5123",
+        "no_subthreads": 3,
+        "date": ": Wed, 25 Oct 2017 12:42:41 +0200",
+        "author": ": up201407890 () alunos dcc fc up pt",
+        "File_path": "seclist_thread_messages/2017_Q4/134.txt",
+        "subthreads": [
+            {
+                "id": "209",
+                "no_subthreads": 2,
+                "date": ": Sun, 05 Nov 2017 13:58:33 +0100",
+                "author": ": up201407890 () alunos dcc fc up pt",
+                "File_path": "seclist_thread_messages/2017_Q4/209.txt",
+                "subthreads": [
+                    {
+                        "id": "211",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 5 Nov 2017 16:35:58 +0100",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2017_Q4/211.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "232",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 07 Nov 2017 02:38:03 +0100",
+                        "author": ": up201407890 () alunos dcc fc up pt",
+                        "File_path": "seclist_thread_messages/2017_Q4/232.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "181": {
+        "title": "CVE-2017-12193 Linux kernel: Null pointer dereference due to incorrect node-splitting in assoc_array implementation",
+        "CVE_id": "CVE-2017-12193",
+        "no_subthreads": 0,
+        "date": ": Thu, 2 Nov 2017 13:09:21 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/181.txt",
+        "subthreads": []
+    },
+    "221": {
+        "title": "CVE-2017-15306: Linux kernel: KVM: PPC: Fix oops when checking KVM_CAP_PPC_HTM",
+        "CVE_id": "CVE-2017-15306",
+        "no_subthreads": 0,
+        "date": ": Mon, 06 Nov 2017 21:24:56 +1100",
+        "author": ": Michael Ellerman <mpe () ellerman id au>",
+        "File_path": "seclist_thread_messages/2017_Q4/221.txt",
+        "subthreads": []
+    },
+    "238": {
+        "title": "CVE-2017-15102: Linux kernel: usb: NULL-deref due to a race condition in [legousbtower] driver",
+        "CVE_id": "CVE-2017-15102",
+        "no_subthreads": 14,
+        "date": ": Tue, 7 Nov 2017 15:14:56 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/238.txt",
+        "subthreads": [
+            {
+                "id": "239",
+                "no_subthreads": 13,
+                "date": ": Tue, 7 Nov 2017 21:22:37 +0100",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2017_Q4/239.txt",
+                "subthreads": [
+                    {
+                        "id": "242",
+                        "no_subthreads": 5,
+                        "date": ": Tue, 7 Nov 2017 20:30:05 +0000",
+                        "author": ": \"Maier, Kurt H\" <kurt.maier () pnnl gov>",
+                        "File_path": "seclist_thread_messages/2017_Q4/242.txt",
+                        "subthreads": [
+                            {
+                                "id": "243",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 8 Nov 2017 10:15:17 +0100",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q4/243.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "257",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 09 Nov 2017 12:09:03 -0500 (EST)",
+                                "author": ": \"David A. Wheeler\" <dwheeler () dwheeler com>",
+                                "File_path": "seclist_thread_messages/2017_Q4/257.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "259",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 10 Nov 2017 14:29:15 -0500",
+                                "author": ": Stiepan <stie@itk.swiss>",
+                                "File_path": "seclist_thread_messages/2017_Q4/259.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "260",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 11 Nov 2017 16:02:09 +1300",
+                                "author": ": Amos Jeffries <squid3 () treenet co nz>",
+                                "File_path": "seclist_thread_messages/2017_Q4/260.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "261",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 11 Nov 2017 14:49:19 -0500",
+                                "author": ": Stuart Gathman <stuart () gathman org>",
+                                "File_path": "seclist_thread_messages/2017_Q4/261.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "263",
+                        "no_subthreads": 6,
+                        "date": ": Mon, 13 Nov 2017 10:07:00 -0500 (EST)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q4/263.txt",
+                        "subthreads": [
+                            {
+                                "id": "266",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 13 Nov 2017 16:15:24 +0100",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q4/266.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "274",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 13 Nov 2017 19:42:27 -0500 (EST)",
+                                "author": ": \"David A. Wheeler\" <dwheeler () dwheeler com>",
+                                "File_path": "seclist_thread_messages/2017_Q4/274.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "275",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 14 Nov 2017 08:37:20 +0100",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2017_Q4/275.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "277",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 14 Nov 2017 07:32:28 -0500",
+                                "author": ": Brad Spengler <spender () grsecurity net>",
+                                "File_path": "seclist_thread_messages/2017_Q4/277.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "280",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 14 Nov 2017 17:43:51 +0000",
+                                "author": ": Eddie Chapman <eddie () ehuk net>",
+                                "File_path": "seclist_thread_messages/2017_Q4/280.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "281",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 14 Nov 2017 18:21:56 +0000",
+                                "author": ": \"Maier, Kurt H\" <kurt.maier () pnnl gov>",
+                                "File_path": "seclist_thread_messages/2017_Q4/281.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "282": {
+        "title": "CVE-2017-15115: Linux kernel: sctp: use-after-free in sctp_cmp_addr_exact()",
+        "CVE_id": "CVE-2017-15115",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Nov 2017 06:55:47 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/282.txt",
+        "subthreads": []
+    },
+    "331": {
+        "title": "Information Leak in mincore() in the Linux Kernel CVE-2017-16994",
+        "CVE_id": "CVE-2017-16994",
+        "no_subthreads": 0,
+        "date": ": Mon, 27 Nov 2017 21:19:20 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2017_Q4/331.txt",
+        "subthreads": []
+    },
+    "348": {
+        "title": "CVE-2017-1000407 Kernel: KVM: DoS via write flood to I/O port 0x80",
+        "CVE_id": "CVE-2017-1000407",
+        "no_subthreads": 0,
+        "date": ": Mon, 4 Dec 2017 16:47:06 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/348.txt",
+        "subthreads": []
+    },
+    "350": {
+        "title": "CVE-2017-8824 linux: use-after-free in DCCP code",
+        "CVE_id": "CVE-2017-8824",
+        "no_subthreads": 0,
+        "date": ": Tue, 5 Dec 2017 00:11:41 +0000",
+        "author": ": Mohamed Ghannam <simo.ghannam () gmail com>",
+        "File_path": "seclist_thread_messages/2017_Q4/350.txt",
+        "subthreads": []
+    },
+    "422": {
+        "title": "CVE-2017-17741 kernel: kvm: stack-based out-of-bounds read via vmcall instruction",
+        "CVE_id": "CVE-2017-17741",
+        "no_subthreads": 0,
+        "date": ": Tue, 19 Dec 2017 14:15:43 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q4/422.txt",
+        "subthreads": []
+    }
+}

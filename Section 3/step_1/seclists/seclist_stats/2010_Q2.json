@@ -1,0 +1,446 @@
+{
+    "7": {
+        "title": "Re: CVE request: kernel: connector security bypass",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Thu, 1 Apr 2010 14:00:14 -0400 (EDT)",
+        "author": ": Josh Bressers <bressers () redhat com>",
+        "File_path": "seclist_thread_messages/2010_Q2/7.txt",
+        "subthreads": []
+    },
+    "19": {
+        "title": "CVE request: kernel: cifs: cifs_create() NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Mon, 05 Apr 2010 16:51:51 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/19.txt",
+        "subthreads": [
+            {
+                "id": "20",
+                "no_subthreads": 2,
+                "date": ": Mon, 05 Apr 2010 16:56:03 +0800",
+                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                "File_path": "seclist_thread_messages/2010_Q2/20.txt",
+                "subthreads": [
+                    {
+                        "id": "159",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 18 May 2010 08:50:34 -0700",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2010_Q2/159.txt",
+                        "subthreads": [
+                            {
+                                "id": "170",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 19 May 2010 09:10:13 +0800",
+                                "author": ": Eugene Teo <eugene () redhat com>",
+                                "File_path": "seclist_thread_messages/2010_Q2/170.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "no_subthreads": 0,
+                "date": ": Mon, 5 Apr 2010 21:03:02 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/25.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "42": {
+        "title": "CVE-2010-1146 kernel: reiserfs priv escalation",
+        "CVE_id": "CVE-2010-1146",
+        "no_subthreads": 1,
+        "date": ": Fri, 09 Apr 2010 11:12:57 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/42.txt",
+        "subthreads": [
+            {
+                "id": "43",
+                "no_subthreads": 0,
+                "date": ": Fri, 09 Apr 2010 15:23:46 +0800",
+                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                "File_path": "seclist_thread_messages/2010_Q2/43.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "82": {
+        "title": "Re: CVE-2010-0727 kernel: gfs/gfs2 locking code DoS\tflaw",
+        "CVE_id": "CVE-2010-0727",
+        "no_subthreads": 0,
+        "date": ": Wed, 21 Apr 2010 23:25:24 -0600",
+        "author": ": dann frazier <dannf () debian org>",
+        "File_path": "seclist_thread_messages/2010_Q2/82.txt",
+        "subthreads": []
+    },
+    "96": {
+        "title": "CVE request - gfs2 kernel issue",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 27 Apr 2010 10:37:07 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2010_Q2/96.txt",
+        "subthreads": [
+            {
+                "id": "103",
+                "no_subthreads": 0,
+                "date": ": Tue, 27 Apr 2010 20:09:26 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/103.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "97": {
+        "title": "CVE request - kernel: find_keyring_by_name() can gain the freed keyring",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 27 Apr 2010 10:51:35 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2010_Q2/97.txt",
+        "subthreads": [
+            {
+                "id": "104",
+                "no_subthreads": 0,
+                "date": ": Tue, 27 Apr 2010 20:11:10 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/104.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "107": {
+        "title": "CVE-2010-1173 kernel: skb_over_panic resulting from multiple invalid parameter errors",
+        "CVE_id": "CVE-2010-1173",
+        "no_subthreads": 3,
+        "date": ": Thu, 29 Apr 2010 09:08:53 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/107.txt",
+        "subthreads": [
+            {
+                "id": "108",
+                "no_subthreads": 0,
+                "date": ": Thu, 29 Apr 2010 10:03:28 +0800",
+                "author": ": Hui Zhu <hui.zhu () windriver com>",
+                "File_path": "seclist_thread_messages/2010_Q2/108.txt",
+                "subthreads": []
+            },
+            {
+                "id": "111",
+                "no_subthreads": 1,
+                "date": ": Thu, 29 Apr 2010 10:58:38 +0800",
+                "author": ": Hui Zhu <hui.zhu () windriver com>",
+                "File_path": "seclist_thread_messages/2010_Q2/111.txt",
+                "subthreads": [
+                    {
+                        "id": "112",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 29 Apr 2010 11:20:25 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2010_Q2/112.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "109": {
+        "title": "CVE request - Linux Kernel KGDB/ppc issue",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Thu, 29 Apr 2010 10:13:18 +0800",
+        "author": ": Hui Zhu <hui.zhu () windriver com>",
+        "File_path": "seclist_thread_messages/2010_Q2/109.txt",
+        "subthreads": [
+            {
+                "id": "110",
+                "no_subthreads": 1,
+                "date": ": Thu, 29 Apr 2010 10:44:16 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/110.txt",
+                "subthreads": [
+                    {
+                        "id": "113",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 29 Apr 2010 11:24:28 -0500",
+                        "author": ": Mark Hatle <mark.hatle () windriver com>",
+                        "File_path": "seclist_thread_messages/2010_Q2/113.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "115",
+                "no_subthreads": 0,
+                "date": ": Thu, 29 Apr 2010 15:23:37 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/115.txt",
+                "subthreads": []
+            },
+            {
+                "id": "117",
+                "no_subthreads": 0,
+                "date": ": Fri, 30 Apr 2010 08:44:55 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/117.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "126": {
+        "title": "CVE Request [was Re: [oss-security] kernel: execution possible in\tnon-executable mappings in recent 2.6 kernels (SPARC only)]",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 4 May 2010 21:04:42 -0600",
+        "author": ": dann frazier <dannf () debian org>",
+        "File_path": "seclist_thread_messages/2010_Q2/126.txt",
+        "subthreads": [
+            {
+                "id": "127",
+                "no_subthreads": 0,
+                "date": ": Wed, 5 May 2010 10:58:05 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/127.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "193": {
+        "title": "CVE request - kernel: GFS2: The setflags ioctl() doesn't check file ownership",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Tue, 25 May 2010 12:56:57 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/193.txt",
+        "subthreads": [
+            {
+                "id": "204",
+                "no_subthreads": 1,
+                "date": ": Tue, 25 May 2010 16:07:35 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/204.txt",
+                "subthreads": [
+                    {
+                        "id": "209",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 26 May 2010 08:00:30 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2010_Q2/209.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "210": {
+        "title": "CVE request - kernel: nfsd: fix vm overcommit crash",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 26 May 2010 11:08:30 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/210.txt",
+        "subthreads": [
+            {
+                "id": "214",
+                "no_subthreads": 1,
+                "date": ": Wed, 26 May 2010 14:45:34 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/214.txt",
+                "subthreads": [
+                    {
+                        "id": "216",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 27 May 2010 08:30:36 +0800",
+                        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                        "File_path": "seclist_thread_messages/2010_Q2/216.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "262": {
+        "title": "CVE request - kernel: ext4: Make sure the MOVE_EXT ioctl can't overwrite append-only files",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 07 Jun 2010 08:53:24 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2010_Q2/262.txt",
+        "subthreads": [
+            {
+                "id": "275",
+                "no_subthreads": 0,
+                "date": ": Wed, 9 Jun 2010 08:42:20 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/275.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "280": {
+        "title": "CVE-2010-2070 kernel-xen: ia64-xen: unset be from the task psr",
+        "CVE_id": "CVE-2010-2070",
+        "no_subthreads": 0,
+        "date": ": Fri, 11 Jun 2010 07:33:48 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/280.txt",
+        "subthreads": []
+    },
+    "283": {
+        "title": "CVE request - kernel: btrfs: prevent users from setting ACLs on files \tthey do not own",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 11 Jun 2010 16:32:41 -0400",
+        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+        "File_path": "seclist_thread_messages/2010_Q2/283.txt",
+        "subthreads": [
+            {
+                "id": "287",
+                "no_subthreads": 1,
+                "date": ": Mon, 14 Jun 2010 09:42:31 +0800",
+                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                "File_path": "seclist_thread_messages/2010_Q2/287.txt",
+                "subthreads": [
+                    {
+                        "id": "288",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 14 Jun 2010 10:00:56 +0800",
+                        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                        "File_path": "seclist_thread_messages/2010_Q2/288.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "303": {
+        "title": "CVE Request - kernel: put_tty_queue NULL pointer deref",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 15 Jun 2010 00:31:38 -0600",
+        "author": ": dann frazier <dannf () debian org>",
+        "File_path": "seclist_thread_messages/2010_Q2/303.txt",
+        "subthreads": [
+            {
+                "id": "304",
+                "no_subthreads": 2,
+                "date": ": Tue, 15 Jun 2010 14:53:36 +0800",
+                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                "File_path": "seclist_thread_messages/2010_Q2/304.txt",
+                "subthreads": [
+                    {
+                        "id": "305",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 15 Jun 2010 15:36:56 -0400 (EDT)",
+                        "author": ": Josh Bressers <bressers () redhat com>",
+                        "File_path": "seclist_thread_messages/2010_Q2/305.txt",
+                        "subthreads": [
+                            {
+                                "id": "306",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 15 Jun 2010 17:26:28 -0400 (EDT)",
+                                "author": ": \"Steven M. Christey\" <coley () linus mitre org>",
+                                "File_path": "seclist_thread_messages/2010_Q2/306.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "307": {
+        "title": "CVE request - kernel: xfs swapext ioctl issue",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 17 Jun 2010 18:42:03 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/307.txt",
+        "subthreads": [
+            {
+                "id": "310",
+                "no_subthreads": 0,
+                "date": ": Fri, 18 Jun 2010 11:27:15 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/310.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "317": {
+        "title": "CVE request: kernel: timekeeping: Prevent oops when GENERIC_TIME=n",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 23 Jun 2010 10:50:04 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/317.txt",
+        "subthreads": [
+            {
+                "id": "329",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Jun 2010 12:25:43 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/329.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "336": {
+        "title": "CVE request - kernel: cifs: Fix a kernel BUG with remote OS/2 server",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 5,
+        "date": ": Mon, 28 Jun 2010 16:41:51 +0800",
+        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+        "File_path": "seclist_thread_messages/2010_Q2/336.txt",
+        "subthreads": [
+            {
+                "id": "341",
+                "no_subthreads": 0,
+                "date": ": Mon, 28 Jun 2010 16:23:37 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2010_Q2/341.txt",
+                "subthreads": []
+            },
+            {
+                "id": "350",
+                "no_subthreads": 3,
+                "date": ": Tue, 29 Jun 2010 06:57:22 -1000",
+                "author": ": akuster <akuster () mvista com>",
+                "File_path": "seclist_thread_messages/2010_Q2/350.txt",
+                "subthreads": [
+                    {
+                        "id": "352",
+                        "no_subthreads": 2,
+                        "date": ": Wed, 30 Jun 2010 08:02:25 +0800",
+                        "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                        "File_path": "seclist_thread_messages/2010_Q2/352.txt",
+                        "subthreads": [
+                            {
+                                "id": "355",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 29 Jun 2010 20:43:39 -1000",
+                                "author": ": akuster <akuster () mvista com>",
+                                "File_path": "seclist_thread_messages/2010_Q2/355.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "356",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 30 Jun 2010 17:47:30 +0800",
+                                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                                "File_path": "seclist_thread_messages/2010_Q2/356.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

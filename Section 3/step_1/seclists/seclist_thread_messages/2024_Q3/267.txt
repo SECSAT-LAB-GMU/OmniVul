@@ -1,0 +1,28 @@
+Hello security team!
+
+I'm working on a medical product actually and have trouble about the CVE-2024-42154. It is regarding NETLINK socket 
+which can be used only locally, but it is classified with "NETWORK" flag. NETWORK flag is annoying because it means 
+more difficult to justify the CVE.
+
+I already ask the NIST why the NETWOKR flag was set for this CVE, they answer me that it's linked to socket and without 
+more public reference they are just setting the NETWORK flag, in case of.
+
+Can I ask you your opinion about this CVE and the pertinence of the NETWORK flag here?
+
+Thanks for any feedback,
+Regard
+Joel
+
+
+
+
+
+Witekio France is an SAS company registered in Lyon. Registered office: 14 rue Rhin et Danube - 69009 Lyon. Registered 
+company number: RCS 518 864 012 00035. VAT number FR 68 518 864 012
+This message contains confidential information and is intended only for the individual(s) addressed in the message. If 
+you aren't the named addressee, you should not disseminate, distribute, or copy this e-mail.
+
+We continuously commit to comply with the applicable data protection laws and ensure fair and transparent processing of 
+your personal data. Please read our privacy statement including an information notice and data protection policy for 
+detailed information on our website.
+

@@ -1,0 +1,19 @@
+Steve, can you please assign a CVE name. Thanks.
+
+http://bugzilla.kernel.org/show_bug.cgi?id=11408
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a7be18d
+
+---
+
+From a7be18d436f0c7007794965e5af29fa1ffff1e05 Mon Sep 17 00:00:00 2001
+
+From: Alan Cox <alan () redhat com>
+Date: Mon, 13 Oct 2008 10:45:17 +0100
+Subject: [PATCH] applicom: Fix an unchecked user ioctl range and an error return
+
+Closes bug #11408 by checking the card index range for command 0
+Fixes the ioctl to return ENOTTY which is correct for unknown ioctls
+
+Signed-off-by: Alan Cox <alan () redhat com>
+Signed-off-by: Linus Torvalds <torvalds () linux-foundation org>
+

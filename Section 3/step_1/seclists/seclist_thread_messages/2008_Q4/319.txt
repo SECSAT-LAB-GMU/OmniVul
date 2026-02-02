@@ -1,0 +1,34 @@
+On Wed, Dec 17, 2008 at 10:07 AM, Eugene Teo <eugeneteo () kernel sg> wrote:
+
+On Wed, Dec 17, 2008 at 9:55 AM, Steven M. Christey
+<coley () linus mitre org> wrote:
+
+
+
+On Wed, 10 Dec 2008, Eugene Teo wrote:
+
+
+Steve, can you please assign a CVE name. Thanks.
+
+http://bugzilla.kernel.org/show_bug.cgi?id=11408
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=a7be18d
+
+
+
+Can the affected IOCTL be accessed by malicious attackers?  If it's
+protected in some sense, maybe it doesn't cross privilege boundaries.
+Although Linus does mention an "unchecked user ioctl range."
+
+
+
+ac_ioctl() does not restrict access to only privileged users, and
+IndexCard is user-controllable.
+
+
+
+Hmm, there's a comment in the ac_ioctl() that the device for this is
+only accessible by root, so if out of range may not matter. Hmm. So,
+maybe, maybe not.
+
+Eugene
+

@@ -1,0 +1,32 @@
+
+  Hello,
+
+
+Linux kernel built with the Kernel-based Virtual Machine(CONFIG_KVM) support 
+
+is vulnerable to a use-after-free flaw. It could occur while creating devices, 
+
+via ioctl('/dev/kvm', ...) calls.
+
+
+
+
+A user/process could use this flaw to crash the host kernel resulting in DoS 
+
+or potentially escalate their privileges on a system.
+
+
+
+Upstream patch:
+---------------
+  -> https://git.kernel.org/linus/a0f1d21c1ccb1da66629627a74059dd7f5ac9c61
+
+Reference:
+----------
+  -> https://bugzilla.redhat.com/show_bug.cgi?id=1414506
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Product Security Team
+47AF CE69 3A90 54AA 9045 1053 DD13 3D32 FE5B 041F
+

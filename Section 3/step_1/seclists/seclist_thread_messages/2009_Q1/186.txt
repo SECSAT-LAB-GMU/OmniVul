@@ -1,0 +1,16 @@
+According to the upstream commit
+a68e61e8ff2d46327a37b69056998b47745db6fa, shm_get_stat() assumes that
+the inode is a "struct shmem_inode_info", which is incorrect for
+!CONFIG_SHMEM (see fs/ramfs/inode.c: ramfs_get_inode() vs.
+mm/shmem.c: shmem_get_inode()).
+
+This bad assumption can cause shmctl(SHM_INFO) to lockup when
+shm_get_stat() tries to spin_lock(&info->lock).  Users of
+!CONFIG_SHMEM may encounter this lockup simply by invoking the 'ipcs'
+command.
+
+Reported by Jiri Olsa back in February 2008:
+http://lkml.org/lkml/2008/2/29/74
+
+Thanks, Eugene
+

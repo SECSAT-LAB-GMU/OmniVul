@@ -1,0 +1,15 @@
+
+
+
+
+a out of bound read bug is found in   latest release version dwarf-20151114 by Xiao Qixue and Liuyue.
+ and we have tested the other version dwarf-20140805 which is also affected.
+
+
+Red Hat Bugzilla:
+https://bugzilla.redhat.com/show_bug.cgi?id=1289385
+
+
+Upstream patch applied in libdwarf-20151114-2.fc24 build.
+ 
+ 

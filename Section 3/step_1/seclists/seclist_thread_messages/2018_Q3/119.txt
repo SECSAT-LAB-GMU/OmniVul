@@ -1,0 +1,19 @@
+Heololo,
+
+A flaw named FragmentSmack was found in the way the Linux kernel handled
+reassembly of fragmented IPv4 and IPv6 packets. A remote attacker could
+use this flaw to trigger time and calculation expensive fragment reassembly
+algorithms by sending specially crafted packets which could lead to a CPU
+saturation and hence a denial of service on the system.
+
+External References:
+
+https://www.kb.cert.org/vuls/id/641765
+
+https://access.redhat.com/articles/3553061
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1609664
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

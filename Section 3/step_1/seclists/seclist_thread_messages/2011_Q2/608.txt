@@ -1,0 +1,22 @@
+
+
+
+----- Original Message -----
+
+Reported by Clement LECIGNE. The issue is described here:
+https://lkml.org/lkml/2011/6/8/154. No patch atm, but the impact is
+low.
+
+The relevant bug for this is:
+https://bugzilla.redhat.com/show_bug.cgi?id=712774
+
+
+
+
+Please use CVE-2011-2203.
+
+Thanks.
+
+-- 
+    JB
+

@@ -1,0 +1,19 @@
+On 21/04/15 11:09 PM, cve-assign () mitre org wrote:
+
+Yes; however, because your message is apparently specific to Debian
+and doesn't mention a Debian bug number, we would like to give the
+Debian security team an opportunity to comment in case (for example)
+someone reported the issue to them privately yesterday and they have
+already done a CVE assignment.
+
+
+
+
+At the moment, these packages are not included in the official Debian
+repository. The archive is maintained separately by ZFS on Linux at
+archive.zfsonlinux.org.
+
+-- 
+
+Kash Pande
+

@@ -1,0 +1,19 @@
+I came across this while reviewing some older upstream patches.
+
+Apparently, it was possible to run kill <sig> -1 to kill processes in
+all PID namespaces, and break the isolation of namespaces. The expected
+behaviour for this is to only kill processes in its own hierarchy. The
+fix uses task_pid_vnr() to check if the process is outside of the
+caller's namespace before killing.
+
+PID namespaces was merged in 2.6.24.
+
+References:
+http://lwn.net/Articles/259217/
+https://bugzilla.redhat.com/show_bug.cgi?id=496031
+http://git.kernel.org/linus/d25141a818383b3c3b09f065698c544a7a0ec6e7
+
+Thanks, Eugene
+-- 
+Eugene Teo / Red Hat Security Response Team
+

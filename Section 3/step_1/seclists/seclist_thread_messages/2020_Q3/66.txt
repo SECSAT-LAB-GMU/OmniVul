@@ -1,0 +1,10 @@
+Hi All,
+
+I update the patch as Zhang Xiao points out that the check should use >
+instead of >=,
+otherwise the last line will be skip.
+
+Regards,
+Yunhai Zhang / NSFOCUS Security Team
+
+0001-Fix-for-missing-check-in-vgacon-scrollback-handling.patch

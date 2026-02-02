@@ -1,0 +1,13 @@
+
+Reported by Taviso Ormandy.
+Patch at: http://www.spinics.net/lists/netdev/msg139404.html.
+References:
+https://bugzilla.redhat.com/CVE-2010-2954
+http://twitter.com/taviso/status/22635752128
+
+Quick check, introduced in 61e44b48 (v2.6.24 and above).
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

@@ -1,0 +1,15 @@
+On 30/05/12 10:44, John Haxby wrote:
+
+
+
+Recently we have a couple of queries relating to a Nessus "TCP/IP
+SYN+FIN Packet Filtering Weakness".   This has not been helped by the
+fact that [1] actually points (indrectly) to CVE-2002-2438 which is
+actually a SYN+RST problem.
+
+[snip]
+
+Sigh.   Enigmail seems to be unable to sign messages for me.   The
+references in the message are all independenty verifiable though.
+
+jch

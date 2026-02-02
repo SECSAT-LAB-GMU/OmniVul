@@ -1,0 +1,8 @@
+Ah...  Good point.  You've got me there.
+
+I don't know which arches are affected by this information leak or
+even if there are any.
+
+regards,
+dan carpenter
+

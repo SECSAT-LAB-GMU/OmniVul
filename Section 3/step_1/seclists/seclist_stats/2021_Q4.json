@@ -1,0 +1,107 @@
+{
+    "55": {
+        "title": "CVE-2021-3760: Linux kernel: Use-After-Free vulnerability of ndev->rf_conn_info object",
+        "CVE_id": "CVE-2021-3760",
+        "no_subthreads": 6,
+        "date": ": Tue, 26 Oct 2021 14:37:20 +0800",
+        "author": ": Lin Horse <kylin.formalin () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q4/55.txt",
+        "subthreads": [
+            {
+                "id": "56",
+                "no_subthreads": 5,
+                "date": ": Tue, 26 Oct 2021 13:59:47 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2021_Q4/56.txt",
+                "subthreads": [
+                    {
+                        "id": "57",
+                        "no_subthreads": 2,
+                        "date": ": Tue, 26 Oct 2021 20:14:20 +0800",
+                        "author": ": Lin Horse <kylin.formalin () gmail com>",
+                        "File_path": "seclist_thread_messages/2021_Q4/57.txt",
+                        "subthreads": [
+                            {
+                                "id": "58",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Oct 2021 14:30:18 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2021_Q4/58.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "59",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Oct 2021 10:11:12 -0300",
+                                "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+                                "File_path": "seclist_thread_messages/2021_Q4/59.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "61",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 26 Oct 2021 08:59:53 -0700",
+                        "author": ": Anthony Liguori <aliguori () amazon com>",
+                        "File_path": "seclist_thread_messages/2021_Q4/61.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "69",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 28 Oct 2021 02:23:10 +0000",
+                        "author": ": Roxana Bradescu <roxana.bradescu () oracle com>",
+                        "File_path": "seclist_thread_messages/2021_Q4/69.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "133": {
+        "title": "CVE-2021-4002: Linux kernel: Missing TLB flush on hugetlbfs",
+        "CVE_id": "CVE-2021-4002",
+        "no_subthreads": 0,
+        "date": ": Thu, 25 Nov 2021 19:15:19 +0000",
+        "author": ": Nadav Amit <namit () vmware com>",
+        "File_path": "seclist_thread_messages/2021_Q4/133.txt",
+        "subthreads": []
+    },
+    "157": {
+        "title": "CVE-2021-4095: kernel: KVM: NULL pointer dereference in kvm_dirty_ring_get() in virt/kvm/dirty_ring.c",
+        "CVE_id": "CVE-2021-4095",
+        "no_subthreads": 0,
+        "date": ": Tue, 14 Dec 2021 23:26:10 +0800",
+        "author": ": butt3rflyh4ck <butterflyhuangxx () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q4/157.txt",
+        "subthreads": []
+    },
+    "164": {
+        "title": "CVE-2021-39685 : Linux Kernel USB Gadget buffer overflow",
+        "CVE_id": "CVE-2021-39685",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Dec 2021 22:22:33 +0100",
+        "author": ": Szymon Heidrich <szymon.heidrich () gmail com>",
+        "File_path": "seclist_thread_messages/2021_Q4/164.txt",
+        "subthreads": []
+    },
+    "176": {
+        "title": "Xen Security Advisory 392 v4 (CVE-2021-28714,CVE-2021-28715) - Guest can force Linux netback driver to hog large amounts of kernel memory",
+        "CVE_id": "CVE-2021-28714",
+        "no_subthreads": 0,
+        "date": ": Mon, 20 Dec 2021 12:03:09 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2021_Q4/176.txt",
+        "subthreads": []
+    },
+    "179": {
+        "title": "CVE-2021-45469: Linux kernel: an out-of-bounds memory access in fs/f2fs/xattr.c __f2fs_setxattr",
+        "CVE_id": "CVE-2021-45469",
+        "no_subthreads": 0,
+        "date": ": Fri, 24 Dec 2021 22:20:14 -0500",
+        "author": ": Wenqing Liu <liu () cs fsu edu>",
+        "File_path": "seclist_thread_messages/2021_Q4/179.txt",
+        "subthreads": []
+    }
+}

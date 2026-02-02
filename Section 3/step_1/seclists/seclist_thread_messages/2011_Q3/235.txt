@@ -1,0 +1,13 @@
+Hi,
+
+This fixes a remote crasher under certain network device configurations:
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commitdiff;h=17dd759c67f21e34f2156abcf415e1f60605a188
+
+Thanks,
+
+-Kees
+
+-- 
+Kees Cook
+Ubuntu Security Team
+

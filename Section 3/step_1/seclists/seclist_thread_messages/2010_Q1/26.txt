@@ -1,0 +1,37 @@
+
+On 01/14/2010 08:54 AM, dann frazier wrote:
+
+
+Has a CVE been assigned for this issue yet?
+
+
+
+Please use CVE-2010-0007. Thanks.
+
+Eugene
+
+
+
+commit dce766af541f6605fa9889892c0280bab31c66ab
+Author: Florian Westphal<fwestphal () astaro com>
+Date:   Fri Jan 8 17:31:24 2010 +0100
+
+     netfilter: ebtables: enforce CAP_NET_ADMIN
+
+     normal users are currently allowed to set/modify ebtables rules.
+     Restrict it to processes with CAP_NET_ADMIN.
+
+     Note that this cannot be reproduced with unmodified ebtables
+     binary
+     because it uses SOCK_RAW.
+
+     Signed-off-by: Florian Westphal<fwestphal () astaro com>
+     Cc: stable () kernel org
+     Signed-off-by: Patrick McHardy<kaber () trash net>
+
+
+
+
+--
+Eugene Teo / Red Hat Security Response Team
+

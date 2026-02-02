@@ -1,0 +1,25 @@
+
+
+#define SIZE 0x10000029aUL
+
+...
+   volatile unsigned long t = SIZE;  // volatile so that it does not get optimised (error)
+
+   printk("nada: %lx\n", current_thread_info()->addr_limit.seg);
+   printk("nada2: %lx\n", access_ok(VERIFY_READ, 0, t));
+   printk("nada3: %lx\n", t);
+   printk("nada4: %lx\n", t > UINT_MAX);
+...
+
+nada: ffff810000000000
+nada2: 1
+nada3: 10000029a
+nada4: 1
+
+
+
+
+Huh.  Learn something new every day, I suppose.  I wonder if this is
+kernel version or architecture dependent?  In either case, ignore my
+previous statement, unless someone else sees anything fishy going on.
+

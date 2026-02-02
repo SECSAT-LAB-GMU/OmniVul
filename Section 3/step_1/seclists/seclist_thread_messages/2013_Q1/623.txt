@@ -1,0 +1,11 @@
+The sa_restorer field is not cleared across exec, allowing parent ASLR
+information to leak to children.
+
+https://lkml.org/lkml/2013/3/11/498
+
+-Kees
+
+-- 
+Kees Cook
+Chrome OS Security
+

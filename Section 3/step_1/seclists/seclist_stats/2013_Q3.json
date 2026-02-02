@@ -1,0 +1,340 @@
+{
+    "16": {
+        "title": "CVE Request: kernel: ipv6: using ipv4 vs ipv6 structure during\trouting lookup in sendmsg",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 2 Jul 2013 11:14:40 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2013_Q3/16.txt",
+        "subthreads": [
+            {
+                "id": "18",
+                "no_subthreads": 0,
+                "date": ": Tue, 02 Jul 2013 12:34:16 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/18.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "17": {
+        "title": "Re: CVE request: Kernel 2.6.32+ IP_RETOPTS Buffer Poisoning DoS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Tue, 2 Jul 2013 12:21:42 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/17.txt",
+        "subthreads": []
+    },
+    "61": {
+        "title": "Linux kernel libceph NULL function pointer dereference (CVE-2013-1059)",
+        "CVE_id": "CVE-2013-1059",
+        "no_subthreads": 0,
+        "date": ": Tue, 9 Jul 2013 12:03:40 -0700",
+        "author": ": Tyler Hicks <tyhicks () canonical com>",
+        "File_path": "seclist_thread_messages/2013_Q3/61.txt",
+        "subthreads": []
+    },
+    "106": {
+        "title": "CVE Request -- Linux kernel: ipv6: BUG_ON in fib6_add_rt2node()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Jul 2013 18:24:17 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/106.txt",
+        "subthreads": [
+            {
+                "id": "107",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 Jul 2013 10:53:31 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/107.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "109": {
+        "title": "CVE Request -- Linux kernel: vhost-net: use-after-free in vhost_net_flush",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Jul 2013 21:53:56 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/109.txt",
+        "subthreads": [
+            {
+                "id": "110",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 Jul 2013 13:58:05 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/110.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "111": {
+        "title": "CVE Request -- Linux kernel: bridge: BUG at kernel/timer.c:729",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 15 Jul 2013 23:12:47 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/111.txt",
+        "subthreads": [
+            {
+                "id": "114",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 Jul 2013 22:38:55 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/114.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "172": {
+        "title": "CVE Request: Linux kernel: panic while pushing pending data out of an IPv6 socket with UDP_CORK enabled.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 24 Jul 2013 00:48:02 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/172.txt",
+        "subthreads": [
+            {
+                "id": "175",
+                "no_subthreads": 0,
+                "date": ": Tue, 23 Jul 2013 13:52:42 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/175.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "173": {
+        "title": "CVE request: Linux kernel: panic while appending data to a corked IPv6 socket in ip6_append_data_mtu",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Wed, 24 Jul 2013 01:06:38 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/173.txt",
+        "subthreads": [
+            {
+                "id": "174",
+                "no_subthreads": 1,
+                "date": ": Tue, 23 Jul 2013 12:49:54 -0700",
+                "author": ": Seth Arnold <seth.arnold () canonical com>",
+                "File_path": "seclist_thread_messages/2013_Q3/174.txt",
+                "subthreads": [
+                    {
+                        "id": "177",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 24 Jul 2013 01:45:26 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q3/177.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "176",
+                "no_subthreads": 0,
+                "date": ": Tue, 23 Jul 2013 13:52:59 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/176.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "316": {
+        "title": "CVE Request: Linux kernel: arm64: unhandled el0 traps",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Thu, 8 Aug 2013 15:39:30 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/316.txt",
+        "subthreads": [
+            {
+                "id": "321",
+                "no_subthreads": 0,
+                "date": ": Thu, 08 Aug 2013 11:18:49 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/321.txt",
+                "subthreads": []
+            },
+            {
+                "id": "329",
+                "no_subthreads": 1,
+                "date": ": Thu, 8 Aug 2013 17:02:49 -0700",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2013_Q3/329.txt",
+                "subthreads": [
+                    {
+                        "id": "331",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 08 Aug 2013 19:22:20 -0600",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q3/331.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "376": {
+        "title": "CVE Request: Linux kernel: cifs: off-by-one bug in build_unc_path_to_root",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 15 Aug 2013 00:37:00 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/376.txt",
+        "subthreads": [
+            {
+                "id": "378",
+                "no_subthreads": 0,
+                "date": ": Wed, 14 Aug 2013 15:01:49 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/378.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "381": {
+        "title": "CVE Request: linux-kernel priviledge escalation on ARM/perf",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Wed, 14 Aug 2013 17:37:32 -0400 (EDT)",
+        "author": ": Vince Weaver <vincent.weaver () maine edu>",
+        "File_path": "seclist_thread_messages/2013_Q3/381.txt",
+        "subthreads": [
+            {
+                "id": "405",
+                "no_subthreads": 1,
+                "date": ": Fri, 16 Aug 2013 13:07:49 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/405.txt",
+                "subthreads": [
+                    {
+                        "id": "406",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 16 Aug 2013 10:22:08 -0600",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q3/406.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "425",
+                "no_subthreads": 0,
+                "date": ": Tue, 20 Aug 2013 13:47:38 -0400 (EDT)",
+                "author": ": Vince Weaver <vincent.weaver () maine edu>",
+                "File_path": "seclist_thread_messages/2013_Q3/425.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "422": {
+        "title": "Fix for CVE-2013-0343 queued up (linux-kernel/ipv6 temp. addresses)",
+        "CVE_id": "CVE-2013-0343",
+        "no_subthreads": 0,
+        "date": ": Tue, 20 Aug 2013 15:13:58 +0200",
+        "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+        "File_path": "seclist_thread_messages/2013_Q3/422.txt",
+        "subthreads": []
+    },
+    "491": {
+        "title": "CVE request: Linux Kernel: ARM: KVM: NULL pointer dereferences",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 26 Aug 2013 18:20:39 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/491.txt",
+        "subthreads": [
+            {
+                "id": "492",
+                "no_subthreads": 0,
+                "date": ": Mon, 26 Aug 2013 12:52:26 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2013_Q3/492.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "544": {
+        "title": "CVE request: Kernel PID Spoofing Privilege Escalation Vulnerability",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Wed, 04 Sep 2013 16:39:12 +0200",
+        "author": ": Agostino Sarubbo <ago () gentoo org>",
+        "File_path": "seclist_thread_messages/2013_Q3/544.txt",
+        "subthreads": [
+            {
+                "id": "551",
+                "no_subthreads": 3,
+                "date": ": Wed, 04 Sep 2013 20:30:05 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/551.txt",
+                "subthreads": [
+                    {
+                        "id": "554",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 5 Sep 2013 11:23:49 +0300",
+                        "author": ": Dan Carpenter <dan.carpenter () oracle com>",
+                        "File_path": "seclist_thread_messages/2013_Q3/554.txt",
+                        "subthreads": [
+                            {
+                                "id": "555",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 5 Sep 2013 10:30:52 +0200",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q3/555.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "557",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 05 Sep 2013 10:38:47 +0200",
+                        "author": ": Agostino Sarubbo <ago () gentoo org>",
+                        "File_path": "seclist_thread_messages/2013_Q3/557.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "600": {
+        "title": "CVE request -- Linux kernel: net: sctp: ipv6 ipsec encryption bug in sctp_v6_xmit",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 13 Sep 2013 15:38:19 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q3/600.txt",
+        "subthreads": [
+            {
+                "id": "601",
+                "no_subthreads": 0,
+                "date": ": Fri, 13 Sep 2013 13:14:22 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/601.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "682": {
+        "title": "linux kernel memory corruption with ipv6 udp offloading",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 28 Sep 2013 08:30:06 +0200",
+        "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+        "File_path": "seclist_thread_messages/2013_Q3/682.txt",
+        "subthreads": [
+            {
+                "id": "683",
+                "no_subthreads": 0,
+                "date": ": Sat, 28 Sep 2013 19:02:05 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q3/683.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

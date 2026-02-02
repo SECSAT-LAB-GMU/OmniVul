@@ -1,0 +1,15 @@
+Hi,
+
+There is a bug in the Linux kernel ipv6 implementation, which leads to
+an out-of-bounds write on ipv6 packet defragmentation.
+
+A fix was sent upstream:
+https://www.spinics.net/lists/netdev/msg407525.html
+
+More details here:
+https://groups.google.com/forum/#!topic/syzkaller/GFbGpX7nTEo
+
+Could you assign a CVE for this?
+
+Thanks!
+

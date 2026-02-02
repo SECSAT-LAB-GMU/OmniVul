@@ -1,0 +1,1107 @@
+{
+  "CVE-2021-45868": {
+    "find_tree_dqentry": 1,
+    "remove_tree": 1
+  },
+  "CVE-2019-9162": {
+    "fast_csum": 1
+  },
+  "CVE-2014-3601": {
+    "kvm_iommu_map_guest": 0,
+    "kvm_iommu_map_pages": 1,
+    "kvm_pin_pages": 1
+  },
+  "CVE-2013-1860": {
+    "wdm_in_callback": 0,
+    "wdm_out_callback": 0,
+    "wdm_pre_reset": 0
+  },
+  "CVE-2014-3610": {
+    "kvm_host.h": 0,
+    "wrmsr_interception": 0,
+    "handle_wrmsr": 0,
+    "kvm_enable_efer_bits": 1
+  },
+  "PCVE-2019-15924": {
+    "fm10k_main.c": 0
+  },
+  "CVE-2019-7221": {
+    "free_nested": 0
+  },
+  "CVE-2011-1160": {
+    "tpm_open": 0
+  },
+  "CVE-2021-38198": {
+    "paging_tmpl.h": 0
+  },
+  "PCVE-2014-2309": {
+    "route.c": 1
+  },
+  "CVE-2011-1759": {
+    "sys_oabi_semtimedop": 1
+  },
+  "CVE-2020-27152": {
+    "ioapic_lazy_update_eoi": 0
+  },
+  "CVE-2019-13272": {
+    "FileA.c": 0
+  },
+  "CVE-2020-28974": {
+    "con_font_default": 1
+  },
+  "CVE-2019-14816": {
+    "mwifiex_update_vs_ie": 1,
+    "mwifiex_set_uap_rates": 0,
+    "mwifiex_set_wmm_params": 1
+  },
+  "CVE-2022-45869": {
+    "__kvm_mmu_prepare_zap_page": 0,
+    "direct_page_fault": 0
+  },
+  "CVE-2018-8897": {
+    "entry_64.S": 0,
+    "do_general_protection": 0,
+    "do_int3": 0
+  },
+  "CVE-2020-12769": {
+    "dw_reader": 0,
+    "dw_spi_add_host": 0,
+    "dw_writer": 0,
+    "poll_transfer": 0,
+    "rx_max": 0,
+    "spi-dw.h": 0
+  },
+  "PCVE-2019-9162": {
+    "nf_nat_snmp_basic_main.c": 1
+  },
+  "CVE-2019-7222": {
+    "kvm_read_guest_virt": 0
+  },
+  "PCVE-2020-25669": {
+    "sunkbd.c": 0
+  },
+  "CVE-2022-42722": {
+    "ieee80211_rx_h_decrypt": 1
+  },
+  "CVE-2010-1173": {
+    "structs.h": 0,
+    "sctp_addto_chunk": 1,
+    "sctp_init_cause": 0,
+    "sctp_make_op_error_space": 0,
+    "sctp_process_unk_param": 1
+  },
+  "CVE-2014-2706": {
+    "ieee80211_sta_ps_deliver_wakeup": 0,
+    "sta_info_alloc": 0,
+    "sta_info.h": 0,
+    "ieee80211_tx_h_unicast_ps_buf": 0
+  },
+  "PCVE-2018-8897": {
+    "traps.c": 0
+  },
+  "CVE-2013-2232": {
+    "ip6_rt_check": 0
+  },
+  "PCVE-2013-4514": {
+    "wl_priv.c": 1
+  },
+  "CVE-2022-1043": {
+    "io_register_personality": 0
+  },
+  "PCVE-2011-1160": {
+    "tpm.c": 0
+  },
+  "CVE-2020-9391": {
+    "ksys_mmap_pgoff": 0
+  },
+  "CVE-2021-44879": {
+    "gc_data_segment": 0
+  },
+  "PCVE-2015-0239": {
+    "emulate.c": 1
+  },
+  "CVE-2021-37576": {
+    "kvmppc_rtas_hcall": 1
+  },
+  "CVE-2022-42720": {
+    "bss_ref_get": 0,
+    "cfg80211_bss_update": 0,
+    "cfg80211_inform_single_bss_data": 0
+  },
+  "CVE-2013-6380": {
+    "aac_send_raw_srb": 1
+  },
+  "CVE-2013-1929": {
+    "tg3_read_vpd": 1
+  },
+  "PCVE-2013-4247": {
+    "connect.c": 0
+  },
+  "CVE-2014-8369": {
+    "kvm_iommu_map_pages": 0
+  },
+  "CVE-2017-18344": {
+    "common_timer_get": 0,
+    "common_timer_set": 0,
+    "posix_timer_fn": 0
+  },
+  "CVE-2018-10879": {
+    "ext4_xattr_inode_lookup_create": 1,
+    "ext4_xattr_set_entry": 1
+  },
+  "CVE-2013-6367": {
+    "apic_get_tmcct": 0
+  },
+  "CVE-2020-12464": {
+    "usb_sg_cancel": 0
+  },
+  "CVE-2010-3437": {
+    "pkt_release_dev": 0
+  },
+  "CVE-2011-4112": {
+    "_isdn_setup": 0,
+    "bond_enslave": 0,
+    "bond_setup": 0,
+    "ifb_setup": 0,
+    "tun_net_init": 0,
+    "fr_add_pvc": 0,
+    "_init_airo_card": 0,
+    "hostap_setup_dev": 0,
+    "ar6000_create_ap_interface": 0,
+    "bnep_net_setup": 0
+  },
+  "CVE-2008-4302": {
+    "pipe_to_file": 0
+  },
+  "CVE-2011-1476": {
+    "dev_table.h": 0,
+    "midi_synth_hw_control": 0,
+    "midi_synth.h": 0,
+    "opl3_close": 0,
+    "sequencer_write": 1
+  },
+  "CVE-2013-4516": {
+    "mp_wait_modem_status": 1
+  },
+  "CVE-2013-4300": {
+    "scm_check_creds": 0
+  },
+  "CVE-2023-44466": {
+    "decode_preamble": 0,
+    "head_onwire_len": 0,
+    "padding_len": 0
+  },
+  "PCVE-2014-3610": {
+    "vmx.c": 0,
+    "x86.c": 0,
+    "mtrr.c": 0
+  },
+  "CVE-2024-1086": {
+    "nft_verdict_init": 0
+  },
+  "PCVE-2014-7283": {
+    "xfs_da_btree.c": 1
+  },
+  "CVE-2011-2189": {
+    "net_namespace.h": 0,
+    "cleanup_net": 1,
+    "copy_net_ns": 0,
+    "setup_net": 0,
+    "net_ns_init": 0,
+    "register_pernet_device": 0,
+    "register_pernet_operations": 0,
+    "unregister_netdevices": 0,
+    "unregister_pernet_device": 0,
+    "unregister_pernet_subsys": 0
+  },
+  "CVE-2012-3511": {
+    "madvise_remove": 1
+  },
+  "CVE-2022-0382": {
+    "__tipc_sendmsg": 0
+  },
+  "CVE-2021-43267": {
+    "tipc_crypto_key_rcv": 1
+  },
+  "CVE-2015-0239": {
+    "em_sysenter": 0
+  },
+  "CVE-2019-15922": {
+    "pf_detect": 1,
+    "pf_exit": 0,
+    "pf_init": 1
+  },
+  "CVE-2018-18397": {
+    "userfaultfd_register": 1,
+    "userfaultfd_unregister": 1,
+    "__mcopy_atomic": 1,
+    "__mcopy_atomic_hugetlb": 1
+  },
+  "CVE-2014-4699": {
+    "ptrace.h": 0
+  },
+  "CVE-2014-0155": {
+    "ioapic_service": 0
+  },
+  "CVE-2021-3640": {
+    "sco_connect": 0,
+    "sco_send_frame": 1,
+    "sco_sock_getname": 0,
+    "sco_sock_sendmsg": 0
+  },
+  "CVE-2013-4247": {
+    "build_unc_path_to_root": 1
+  },
+  "PCVE-2018-18955": {
+    "user_namespace.c": 0
+  },
+  "CVE-2011-4604": {
+    "bat_socket_read": 1
+  },
+  "CVE-2015-8953": {
+    "ovl_copy_up_locked": 1
+  },
+  "CVE-2013-1827": {
+    "ccid.h": 0
+  },
+  "PCVE-2012-2127": {
+    "root.c": 0
+  },
+  "CVE-2016-6828": {
+    "tcp.h": 0
+  },
+  "CVE-2011-1493": {
+    "rose_parse_ccitt": 1,
+    "rose_parse_facilities": 0,
+    "rose_parse_national": 1
+  },
+  "CVE-2013-4514": {
+    "wvlan_set_station_nickname": 1,
+    "wvlan_uil_put_info": 0
+  },
+  "CVE-2012-2390": {
+    "hugetlb_reserve_pages": 0,
+    "hugetlb_vm_op_close": 0,
+    "hugetlb_vm_op_open": 0
+  },
+  "PCVE-2015-8953": {
+    "copy_up.c": 1
+  },
+  "CVE-2019-15921": {
+    "genl_register_family": 0
+  },
+  "PCVE-2013-1798": {
+    "ioapic.c": 1
+  },
+  "CVE-2013-7027": {
+    "ieee80211_radiotap_iterator_init": 0
+  },
+  "CVE-2013-2234": {
+    "key_notify_policy_flush": 1,
+    "key_notify_sa_flush": 1
+  },
+  "CVE-2014-7283": {
+    "xfs_da3_fixhashpath": 1
+  },
+  "CVE-2022-42703": {
+    "rmap.h": 0,
+    "__anon_vma_prepare": 0,
+    "anon_vma_alloc": 0,
+    "anon_vma_clone": 0,
+    "anon_vma_fork": 0,
+    "unlink_anon_vmas": 0
+  },
+  "PCVE-2013-2234": {
+    "af_key.c": 0
+  },
+  "CVE-2023-40791": {
+    "extract_user_to_sg": 1
+  },
+  "PCVE-2014-3144": {
+    "filter.c": 0
+  },
+  "PCVE-2011-4604": {
+    "icmp_socket.c": 1
+  },
+  "CVE-2017-16994": {
+    "walk_hugetlb_range": 0
+  },
+  "CVE-2022-25636": {
+    "nf_tables.h": 0,
+    "nf_tables_offload.h": 0,
+    "nft_flow_rule_create": 0,
+    "nft_dup_netdev_offload": 0,
+    "nft_fwd_netdev_offload": 0,
+    "nft_immediate_offload": 0
+  },
+  "PCVE-2013-2596": {
+    "fbmem.c": 0
+  },
+  "CVE-2021-4032": {
+    "kvm_apic_update_apicv": 0,
+    "kvm_create_lapic": 0
+  },
+  "CVE-2013-4205": {
+    "create_user_ns": 0
+  },
+  "CVE-2021-3493": {
+    "setxattr": 0,
+    "vfs_setxattr": 0,
+    "capability.h": 0,
+    "cap_convert_nscap": 0,
+    "validheader": 0
+  },
+  "CVE-2013-6381": {
+    "qeth_snmp_command": 1,
+    "qeth_snmp_command_cb": 1
+  },
+  "CVE-2010-3081": {
+    "compat.h": 0,
+    "compat_sys_sysinfo": 0
+  },
+  "CVE-2021-27363": {
+    "iscsi_if_recv_msg": 1
+  },
+  "CVE-2020-10942": {
+    "get_raw_socket": 0,
+    "vhost_net_release": 0
+  },
+  "PCVE-2017-16994": {
+    "pagewalk.c": 0
+  },
+  "PCVE-2019-19807": {
+    "timer.c": 0
+  },
+  "PCVE-2013-2094": {
+    "core.c": 1
+  },
+  "PCVE-2012-3511": {
+    "madvise.c": 0
+  },
+  "CVE-2019-15030": {
+    "giveup_all": 0
+  },
+  "PCVE-2013-2237": {
+    "af_key.c": 1
+  },
+  "CVE-2010-1636": {
+    "btrfs_ioctl_clone": 0
+  },
+  "CVE-2022-47946": {
+    "io_sqpoll_wait_sq": 0
+  },
+  "CVE-2019-15031": {
+    "check_if_tm_restore_required": 0,
+    "enable_kernel_fp": 1,
+    "flush_altivec_to_thread": 0
+  },
+  "PCVE-2018-7492": {
+    "rdma.c": 1
+  },
+  "CVE-2022-41222": {
+    "move_page_tables": 0
+  },
+  "PCVE-2013-4563": {
+    "udp_offload.c": 1,
+    "skbuff.h": 0
+  },
+  "CVE-2022-30594": {
+    "ptrace_attach": 0,
+    "ptrace_may_access": 0,
+    "ptrace_writedata": 1
+  },
+  "CVE-2014-0196": {
+    "n_tty_write": 0
+  },
+  "CVE-2022-29581": {
+    "u32_change": 0,
+    "u32_init": 0
+  },
+  "CVE-2017-18509": {
+    "ip6_mroute_getsockopt": 0,
+    "ip6_mroute_setsockopt": 0
+  },
+  "CVE-2022-32250": {
+    "nft_expr_init": 0,
+    "nft_set_elem_expr_alloc": 0
+  },
+  "PCVE-2011-2482": {
+    "socket.c": 1
+  },
+  "CVE-2013-4299": {
+    "chunk_io": 1,
+    "persistent_prepare_exception": 0,
+    "persistent_read_metadata": 0,
+    "read_exceptions": 0
+  },
+  "PCVE-2013-2141": {
+    "signal.c": 1
+  },
+  "CVE-2021-3753": {
+    "vt_k_ioctl": 1,
+    "vt_kdsetmode": 0,
+    "vt_waitactive": 0
+  },
+  "PCVE-2011-4112": {
+    "isdn_net.c": 1
+  },
+  "PCVE-2010-4648": {
+    "wext.c": 1
+  },
+  "PCVE-2011-2906": {
+    "pmcraid.c": 1
+  },
+  "CVE-2011-2906": {
+    "pmcraid_ioctl_passthrough": 1
+  },
+  "PCVE-2016-7910": {
+    "genhd.c": 0
+  },
+  "CVE-2019-3701": {
+    "can_can_gw_rcv": 1
+  },
+  "PCVE-2011-3619": {
+    "lsm.c": 0
+  },
+  "CVE-2022-33981": {
+    "drive_name": 0,
+    "fd_locked_ioctl": 0,
+    "raw_cmd_ioctl": 0,
+    "valid_floppy_drive_params": 0
+  },
+  "PCVE-2011-2495": {
+    "base.c": 0
+  },
+  "CVE-2019-11599": {
+    "uverbs_user_mmap_disassociate": 0,
+    "clear_refs_write": 0,
+    "userfaultfd_event_wait_completion": 0,
+    "userfaultfd_register": 0,
+    "userfaultfd_release": 0,
+    "userfaultfd_unregister": 0,
+    "mm.h": 0,
+    "find_extend_vma": 0
+  },
+  "CVE-2022-0850": {
+    "ext4_ext_split": 0,
+    "ext4_ext_tree_init": 0
+  },
+  "CVE-2014-3145": {
+    "__skb_get_nlattr": 1,
+    "__skb_get_nlattr_nest": 1
+  },
+  "PCVE-2013-6380": {
+    "commctrl.c": 1
+  },
+  "PCVE-2018-10881": {
+    "inline.c": 0
+  },
+  "CVE-2011-2695": {
+    "ext4_extents.h": 0,
+    "ext4_ext_check_overlap": 1,
+    "ext4_ext_insert_extent": 1,
+    "ext4_ext_next_allocated_block": 0,
+    "ext4_ext_next_leaf_block": 0,
+    "ext4_ext_put_gap_in_cache": 1,
+    "ext4_ext_rm_leaf": 1,
+    "ext4_ext_search_right": 1,
+    "ext4_ext_truncate": 0,
+    "ext4_ext_walk_space": 1,
+    "ext4_fiemap": 0,
+    "mext_check_arguments": 0,
+    "ext4_max_size": 0,
+    "ext4_orphan_cleanup": 0
+  },
+  "CVE-2011-1593": {
+    "proc_pid_fill_cache": 0,
+    "pid.h": 0,
+    "alloc_pidmap": 1
+  },
+  "PCVE-2013-6432": {
+    "ping.c": 0
+  },
+  "CVE-2011-3619": {
+    "apparmor_setprocattr": 1
+  },
+  "CVE-2019-15923": {
+    "pcd_detect": 0,
+    "pcd_exit": 0,
+    "pcd_init": 0,
+    "pcd_init_units": 0
+  },
+  "PCVE-2019-19965": {
+    "sas_discover.c": 0
+  },
+  "CVE-2013-1848": {
+    "ext3_blkdev_get": 1,
+    "get_sb_block": 1
+  },
+  "CVE-2016-9313": {
+    "big_key_read": 1
+  },
+  "CVE-2020-25211": {
+    "ctnetlink_parse_tuple_filter": 0
+  },
+  "PCVE-2020-9391": {
+    "closures.c": 1,
+    "ffi.c": 0
+  },
+  "PCVE-2011-4087": {
+    "br_netfilter.c": 0
+  },
+  "CVE-2013-7339": {
+    "rds_ib_laddr_check": 0
+  },
+  "PCVE-2019-13272": {
+    "ptrace.c": 1
+  },
+  "PCVE-2013-4300": {
+    "scm.c": 1
+  },
+  "CVE-2010-2653": {
+    "hvc_close": 0
+  },
+  "CVE-2010-4160": {
+    "socket.h": 0,
+    "iov_from_user_compat_to_kern": 1,
+    "verify_iovec": 1
+  },
+  "CVE-2014-5045": {
+    "mountpoint_last.c": 1
+  },
+  "CVE-2021-33909": {
+    "seq_set_overflow": 0
+  },
+  "CVE-2021-3573": {
+    "hci_sock_dev_event": 0
+  },
+  "CVE-2011-2495": {
+    "proc_base_fill_cache": 0
+  },
+  "CVE-2012-1583": {
+    "xfrm6_tunnel_rcv": 0
+  },
+  "PCVE-2020-12464": {
+    "message.c": 0
+  },
+  "CVE-2023-1998": {
+    "mmio_stale_data_show_state": 0,
+    "spectre_v2_parse_user_cmdline": 1,
+    "spectre_v2_user_select_mitigation": 0
+  },
+  "CVE-2020-8835": {
+    "reg_set_min_max": 0,
+    "reg_set_min_max_inv": 0,
+    "__reg_bound_offset": 0
+  },
+  "PCVE-2014-2706": {
+    "sta_info.c": 0,
+    "tx.c": 1
+  },
+  "CVE-2019-19807": {
+    "snd_timer_open": 0
+  },
+  "CVE-2021-3609": {
+    "bcm_delete_rx_op": 0,
+    "bcm_release": 0
+  },
+  "PCVE-2011-2496": {
+    "mremap.c": 1
+  },
+  "CVE-2018-7492": {
+    "FileA.c": 1
+  },
+  "CVE-2010-4242": {
+    "hci_uart_tty_open": 0
+  },
+  "CVE-2016-7910": {
+    "disk_seqf_stop": 0
+  },
+  "CVE-2022-23222": {
+    "check_func_arg": 0
+  },
+  "CVE-2018-10881": {
+    "ext4_destroy_inline_data_nolock": 1
+  },
+  "PCVE-2019-16994": {
+    "sit.c": 1
+  },
+  "CVE-2022-24122": {
+    "alloc_ucounts": 1,
+    "put_ucounts": 0
+  },
+  "CVE-2011-4087": {
+    "br_parse_ip_options": 0
+  },
+  "PCVE-2013-4591": {
+    "nfs4proc.c": 0,
+    "nfs4xdr.c": 0
+  },
+  "CVE-2010-3904": {
+    "rds_page_copy_user": 1
+  },
+  "CVE-2011-1767": {
+    "ipgre_init": 0
+  },
+  "CVE-2012-2313": {
+    "dl2k.h": 0
+  },
+  "CVE-2021-3739": {
+    "btrfs_rm_device": 0
+  },
+  "PCVE-2012-1583": {
+    "xfrm6_tunnel.c": 1
+  },
+  "CVE-2013-4125": {
+    "fib6_add_1": 1,
+    "fib6_add_rt2node": 1
+  },
+  "CVE-2013-2596": {
+    "mm.h": 0,
+    "remap_pfn_range": 0,
+    "fb_compat_ioctl": 0,
+    "fb_mmap": 0
+  },
+  "CVE-2014-2309": {
+    "ip6_route_add": 1
+  },
+  "PCVE-2019-15920": {
+    "smb2pdu.c": 1
+  },
+  "CVE-2014-3144": {
+    "__skb_get_nlattr": 1,
+    "__skb_get_nlattr_nest": 1
+  },
+  "CVE-2019-19965": {
+    "sas_get_port_device": 0
+  },
+  "CVE-2022-1198": {
+    "sixpack_close": 0
+  },
+  "CVE-2013-6432": {
+    "ping_recvmsg": 1
+  },
+  "CVE-2020-36558": {
+    "vt_ioctl": 1
+  },
+  "PCVE-2013-7339": {
+    "ib.c": 0
+  },
+  "CVE-2021-27365": {
+    "iscsi_conn_get_addr_param": 0,
+    "iscsi_conn_get_param": 0,
+    "iscsi_host_get_param": 0,
+    "iscsi_session_get_param": 0,
+    "iscsi_session_attr": 0,
+    "iscsi_set_host_param": 0,
+    "iscsi_set_param": 0,
+    "show_conn_state": 0,
+    "show_priv_session_##field": 0,
+    "show_transport_handle": 0,
+    "iscsi_get_host_stats": 0,
+    "iscsi_if_recv_msg": 0
+  },
+  "CVE-2012-1146": {
+    "mem_cgroup_usage_unregister_event": 0
+  },
+  "CVE-2014-7826": {
+    "ftrace_syscall_enter": 0,
+    "ftrace_syscall_exit": 0,
+    "perf_syscall_enter": 0,
+    "perf_syscall_exit": 0
+  },
+  "PCVE-2012-2313": {
+    "dl2k.c": 1
+  },
+  "CVE-2011-1479": {
+    "inotify_free_group_priv": 0,
+    "inotify_fasync": 0,
+    "inotify_new_group": 0,
+    "inotify_update_watch": 0
+  },
+  "PCVE-2013-4205": {
+    "user_namespace.c": 1
+  },
+  "PCVE-2011-1833": {
+    "main.c": 0
+  },
+  "CVE-2021-23133": {
+    "sctp_close": 0,
+    "sctp_destroy_sock": 0,
+    "sctp_init_sock": 0
+  },
+  "CVE-2013-6431": {
+    "fib6_add": 0
+  },
+  "CVE-2019-18680": {
+    "rds_tcp_kill_sock": 1
+  },
+  "CVE-2011-4915": {
+    "proc_pid_fill_cache": 0,
+    "proc_pid_make_inode": 0,
+    "proc_pid_readdir": 0,
+    "proc_setattr": 0,
+    "proc_task_getattr": 0,
+    "proc_tgid_base_lookup": 0,
+    "proc_init_inodecache": 0,
+    "proc_parse_options": 1,
+    "proc_set_super": 0,
+    "pid_namespace.h": 0,
+    "proc_pid_permission": 0
+  },
+  "CVE-2021-43389": {
+    "detach_capi_ctr": 0
+  },
+  "CVE-2011-1833": {
+    "ecryptfs_init_mount_crypt_stat": 0,
+    "ecryptfs_mount": 0,
+    "ecryptfs_parse_options": 0
+  },
+  "PCVE-2013-1767": {
+    "shmem.c": 1
+  },
+  "PCVE-2013-6381": {
+    "qeth_core_main.c": 0
+  },
+  "CVE-2013-1798": {
+    "ioapic_read_indirect": 0
+  },
+  "PCVE-2013-4163": {
+    "ip6_output.c": 0
+  },
+  "PCVE-2011-1759": {
+    "sys_oabi-compat.c": 1
+  },
+  "CVE-2019-16994": {
+    "sit_init_net": 0
+  },
+  "PCVE-2021-43389": {
+    "kcapi.c": 1
+  },
+  "CVE-2020-27815": {
+    "jfs_dmap.h": 0
+  },
+  "PCVE-2011-2493": {
+    "super.c": 0
+  },
+  "PCVE-2014-5045": {
+    "namei.c": 0
+  },
+  "CVE-2019-15920": {
+    "SMB2_read": 0
+  },
+  "CVE-2013-7026": {
+    "do_shmat": 1,
+    "shm_open": 0
+  },
+  "CVE-2011-2482": {
+    "sctp_sock_migrate": 1,
+    "sctp_wait_for_close": 0
+  },
+  "PCVE-2021-3753": {
+    "vt_ioctl.c": 0
+  },
+  "PCVE-2014-3601": {
+    "iommu.c": 0
+  },
+  "CVE-2019-9213": {
+    "expand_upwards.c": 1
+  },
+  "CVE-2022-0286": {
+    "bond_ipsec_add_sa": 1
+  },
+  "CVE-2023-0210": {
+    "ksmbd_decode_ntlmssp_auth_blob": 1
+  },
+  "CVE-2018-10882": {
+    "ext4.h": 0,
+    "__ext4_get_inode_loc": 1,
+    "ext4_fill_super": 1
+  },
+  "PCVE-2013-1929": {
+    "tg3.c": 1
+  },
+  "CVE-2021-3744": {
+    "ccp_run_aes_gcm_cmd": 0
+  },
+  "PCVE-2014-0196": {
+    "n_tty.c": 0
+  },
+  "CVE-2011-4913": {
+    "rose_parse_ccitt": 1,
+    "rose_parse_facilities": 0,
+    "rose_parse_national": 1
+  },
+  "CVE-2023-2236": {
+    "io_install_fixed_file": 0
+  },
+  "CVE-2012-2375": {
+    "__nfs4_get_acl_uncached": 1
+  },
+  "CVE-2013-4591": {
+    "__nfs4_get_acl_uncached": 1
+  },
+  "PCVE-2012-2375": {
+    "nfs4proc.c": 1
+  },
+  "PCVE-2018-10879": {
+    "xattr.c": 0
+  },
+  "CVE-2018-1095": {
+    "ext4_xattr_check_entries": 0
+  },
+  "CVE-2022-28356": {
+    "llc_ui_autobind": 0,
+    "llc_ui_bind": 0
+  },
+  "PCVE-2018-12904": {
+    "vmx.c": 0
+  },
+  "CVE-2019-18198": {
+    "fib6_rule_suppress": 0
+  },
+  "PCVE-2011-4913": {
+    "rose_subr.c": 1
+  },
+  "CVE-2018-12904": {
+    "handle_vmon": 0,
+    "handle_vmptrst": 0,
+    "handle_vmread": 0
+  },
+  "PCVE-2022-0286": {
+    "bond_main.c": 0
+  },
+  "CVE-2022-34918": {
+    "nft_setelem_parse_key": 0
+  },
+  "CVE-2019-15924": {
+    "fm10k_init_module": 0
+  },
+  "CVE-2019-3459": {
+    "l2cap_conf_rfc_get": 0,
+    "l2cap_parse_conf_req": 0,
+    "l2cap_parse_conf_rsp": 0
+  },
+  "PCVE-2013-7027": {
+    "radiotap.c": 0
+  },
+  "PCVE-2013-6431": {
+    "ip6_fib.c": 0
+  },
+  "CVE-2020-12826": {
+    "setup_new_exec": 0,
+    "sched.h": 0,
+    "do_notify_parent": 0
+  },
+  "PCVE-2016-5696": {
+    "tcp_input.c": 0
+  },
+  "CVE-2021-33624": {
+    "check_cond_jmp_op": 0,
+    "sanitize_needed": 0,
+    "sanitize_ptr_alu": 0
+  },
+  "CVE-2022-29582": {
+    "io_flush_timeouts": 0,
+    "io_queue_deferred": 0,
+    "io_timeout_prep": 0
+  },
+  "CVE-2013-2094": {
+    "sw_perf_event_destroy": 0
+  },
+  "CVE-2021-3490": {
+    "scalar32_min_max_and": 0,
+    "scalar32_min_max_or": 0,
+    "scalar32_min_max_xor": 0
+  },
+  "CVE-2020-25669": {
+    "sunkbd_initialize": 0,
+    "sunkbd_interrupt": 1,
+    "sunkbd_reinit": 0
+  },
+  "PCVE-2019-9213": {
+    "mmap.c": 0
+  },
+  "PCVE-2019-3701": {
+    "gw.c": 0
+  },
+  "CVE-2016-5696": {
+    "tcp_send_challenge_ack": 1
+  },
+  "CVE-2010-2803": {
+    "drm_ioctl": 1,
+    "i810_ioctl": 0,
+    "i830_ioctl": 0,
+    "i915_driver_postclose": 0,
+    "nouveau_ioctl_fifo_free": 0,
+    "r128_driver_preclose": 0,
+    "radeon_driver_postclose": 0,
+    "savage_reclaim_buffers": 0,
+    "sis_reclaim_buffers_locked": 0,
+    "via_cmdbuf_size": 0,
+    "drmP.h": 0,
+    "i830_drm.h": 0,
+    "i915_drm.h": 0,
+    "mga_drm.h": 0,
+    "nouveau_drm.h": 0,
+    "radeon_drm.h": 0,
+    "savage_drm.h": 0
+  },
+  "PCVE-2019-15921": {
+    "genetlink.c": 0
+  },
+  "CVE-2010-4249": {
+    "inc_inflight_move_tail": 0
+  },
+  "PCVE-2013-4125": {
+    "ip6_fib.c": 1,
+    "route.c": 1
+  },
+  "CVE-2007-6716": {
+    "__blockdev_direct_IO": 0,
+    "direct_io_worker": 0
+  },
+  "PCVE-2012-1146": {
+    "memcontrol.c": 0
+  },
+  "CVE-2020-12659": {
+    "xdp_umem_reg": 0
+  },
+  "CVE-2013-5634": {
+    "kvm_arch_vcpu_ioctl": 0,
+    "vcpu_pause": 0
+  },
+  "CVE-2013-2141": {
+    "do_send_specific": 0
+  },
+  "CVE-2020-25668": {
+    "compat_fontx_ioctl": 1,
+    "do_fontx_ioctl": 1,
+    "vt_compat_ioctl": 0,
+    "vt_io_fontreset": 0,
+    "vt_io_ioctl": 1,
+    "vt_k_ioctl": 1
+  },
+  "CVE-2013-4163": {
+    "ip6_append_data": 1,
+    "ip6_append_data_mtu": 0,
+    "ip6_rthdr_dup": 0
+  },
+  "CVE-2013-2237": {
+    "key_notify_policy_flush": 1
+  },
+  "CVE-2012-0028": {
+    "do_exit": 0
+  },
+  "CVE-2013-4563": {
+    "udp6_ufo_fragment": 1
+  },
+  "PCVE-2014-8369": {
+    "iommu.c": 0
+  },
+  "CVE-2013-4348": {
+    "skb_flow_dissect": 1
+  },
+  "CVE-2013-6368": {
+    "apic_sync_pv_eoi_from_guest": 0,
+    "apic_sync_pv_eoi_to_guest": 0,
+    "kvm_lapic_sync_to_vapic": 0,
+    "lapic.h": 0,
+    "__vcpu_run": 0,
+    "kvm_arch_vcpu_ioctl": 0,
+    "post_kvm_run_save": 0
+  },
+  "CVE-2017-16939": {
+    "dump_one_policy": 0,
+    "xfrm_user_rcv_msg": 0
+  },
+  "CVE-2010-4648": {
+    "orinoco_ioctl_set_auth": 1
+  },
+  "CVE-2013-2058": {
+    "host_start.c": 0
+  },
+  "CVE-2012-2127": {
+    "pid_ns_prepare_proc": 0
+  },
+  "CVE-2018-18955": {
+    "map_write": 0
+  },
+  "PCVE-2013-1860": {
+    "cdc-wdm.c": 0
+  },
+  "CVE-2011-2496": {
+    "vma_to_resize": 0
+  },
+  "CVE-2022-41674": {
+    "cfg80211_update_notlisted_nontrans": 1
+  },
+  "CVE-2020-28097": {
+    "vgacon_scroll": 0,
+    "vgacon_scrolldelta": 0,
+    "vgacon_startup": 0,
+    "vgacon_switch": 0,
+    "write_vga": 0
+  },
+  "PCVE-2021-3640": {
+    "sco.c": 0
+  },
+  "CVE-2022-36123": {
+    "setup.h": 0,
+    "do_early_exception": 0,
+    "xen_domu_set_legacy_features": 0,
+    "xen-head.S": 0
+  },
+  "CVE-2013-4511": {
+    "au1100fb_fb_rotate": 0,
+    "au1200fb_fb_blank": 0
+  },
+  "CVE-2021-38300": {
+    "bpf_jit_compile": 0,
+    "build_body": 0,
+    "build_epilogue": 0
+  },
+  "CVE-2022-0185": {
+    "legacy_parse_param": 1
+  },
+  "CVE-2022-3303": {
+    "snd_pcm_oss_sync": 0
+  },
+  "CVE-2023-4921": {
+    "plug_change": 0,
+    "qfq_dequeue": 0,
+    "qfq_update_eligible": 0
+  },
+  "CVE-2011-2493": {
+    "ext4_fill_super": 0
+  },
+  "CVE-2021-38208": {
+    "llcp_sock_bind": 0
+  },
+  "CVE-2013-1767": {
+    "shmem_remount_fs": 0
+  },
+  "PCVE-2019-11599": {
+    "uverbs_main.c": 0,
+    "task_mmu.c": 1,
+    "userfaultfd.c": 0,
+    "mmap.c": 0
+  },
+  "CVE-2014-5471": {
+    "isofs_iget": 1,
+    "isofs_iget5_set": 0,
+    "isofs_put_super": 0,
+    "isofs_read_inode": 1,
+    "isofs_read_level3_size": 1,
+    "isofs.h": 0,
+    "get_rock_ridge_filename": 1,
+    "get_symlink_chunk": 1,
+    "parse_rock_ridge_inode_internal": 1
+  },
+  "PCVE-2014-0155": {
+    "ioapic.c": 0
+  },
+  "PCVE-2019-15030": {
+    "process.c": 0
+  }
+}

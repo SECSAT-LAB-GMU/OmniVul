@@ -1,0 +1,712 @@
+{
+    "6": {
+        "title": "Re: CVE-2014-8159 kernel: infiniband: uverbs: unprotected physical memory access",
+        "CVE_id": "CVE-2014-8159",
+        "no_subthreads": 16,
+        "date": ": Wed, 1 Apr 2015 10:28:27 -0700",
+        "author": ": Roland Dreier <roland () purestorage com>",
+        "File_path": "seclist_thread_messages/2015_Q2/6.txt",
+        "subthreads": [
+            {
+                "id": "9",
+                "no_subthreads": 2,
+                "date": ": Thu, 2 Apr 2015 07:52:17 +0000",
+                "author": ": Shachar Raindel <raindel () mellanox com>",
+                "File_path": "seclist_thread_messages/2015_Q2/9.txt",
+                "subthreads": [
+                    {
+                        "id": "25",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 2 Apr 2015 09:32:56 -0700",
+                        "author": ": Roland Dreier <roland () purestorage com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/25.txt",
+                        "subthreads": [
+                            {
+                                "id": "17",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 2 Apr 2015 16:39:05 +0000",
+                                "author": ": Shachar Raindel <raindel () mellanox com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/17.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "11",
+                "no_subthreads": 12,
+                "date": ": Thu, 02 Apr 2015 12:04:45 +0200",
+                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                "File_path": "seclist_thread_messages/2015_Q2/11.txt",
+                "subthreads": [
+                    {
+                        "id": "10",
+                        "no_subthreads": 11,
+                        "date": ": Thu, 2 Apr 2015 10:52:52 +0000",
+                        "author": ": Shachar Raindel <raindel () mellanox com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/10.txt",
+                        "subthreads": [
+                            {
+                                "id": "12",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 02 Apr 2015 15:30:31 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/12.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "26",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 2 Apr 2015 18:18:32 +0300",
+                                "author": ": Haggai Eran <haggaie () mellanox com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/26.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "16",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 02 Apr 2015 18:35:06 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/16.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "18",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 2 Apr 2015 16:44:07 +0000",
+                                "author": ": Shachar Raindel <raindel () mellanox com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/18.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "23",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 02 Apr 2015 22:40:08 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/23.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "28",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 2 Apr 2015 18:12:58 +0000",
+                                "author": ": Haggai Eran <haggaie () mellanox com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/28.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "29",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 3 Apr 2015 02:20:14 +0300",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/29.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "14",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 02 Apr 2015 17:15:52 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/14.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "15",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 2 Apr 2015 16:34:05 +0000",
+                                "author": ": Shachar Raindel <raindel () mellanox com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/15.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "75",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 08 Apr 2015 14:19:28 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/75.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "76",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 08 Apr 2015 14:44:03 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/76.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "8": {
+        "title": "CVE Request: Linux mishandles int80 fork from 64-bit tasks",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 1 Apr 2015 14:51:29 -0700",
+        "author": ": Andrew Lutomirski <luto () kernel org>",
+        "File_path": "seclist_thread_messages/2015_Q2/8.txt",
+        "subthreads": [
+            {
+                "id": "19",
+                "no_subthreads": 0,
+                "date": ": Thu,  2 Apr 2015 13:53:56 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/19.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "41": {
+        "title": "Request CVE for LinuxNode - DoS vulnerability",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 3 Apr 2015 18:22:23 +0100",
+        "author": ": \"Iain R. Learmonth\" <irl () fsfe org>",
+        "File_path": "seclist_thread_messages/2015_Q2/41.txt",
+        "subthreads": [
+            {
+                "id": "45",
+                "no_subthreads": 0,
+                "date": ": Fri,  3 Apr 2015 22:06:09 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/45.txt",
+                "subthreads": []
+            },
+            {
+                "id": "53",
+                "no_subthreads": 0,
+                "date": ": Mon,  6 Apr 2015 12:29:05 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/53.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "121": {
+        "title": "discourage \"CVE only\" use of (linux-)distros",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Mon, 13 Apr 2015 17:41:14 +0300",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2015_Q2/121.txt",
+        "subthreads": [
+            {
+                "id": "124",
+                "no_subthreads": 0,
+                "date": ": Mon, 13 Apr 2015 12:11:21 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2015_Q2/124.txt",
+                "subthreads": []
+            },
+            {
+                "id": "129",
+                "no_subthreads": 0,
+                "date": ": Tue, 14 Apr 2015 03:20:59 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/129.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "216": {
+        "title": "Linux: chown() was racy relative to execve()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 20 Apr 2015 02:34:57 +0200",
+        "author": ": Jann Horn <jann () thejh net>",
+        "File_path": "seclist_thread_messages/2015_Q2/216.txt",
+        "subthreads": [
+            {
+                "id": "220",
+                "no_subthreads": 0,
+                "date": ": Mon, 20 Apr 2015 12:22:48 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/220.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "235": {
+        "title": "CVE Request for ZFS on Linux",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 21 Apr 2015 21:58:17 -0400",
+        "author": ": Kash Pande <kash () tripleback net>",
+        "File_path": "seclist_thread_messages/2015_Q2/235.txt",
+        "subthreads": [
+            {
+                "id": "236",
+                "no_subthreads": 1,
+                "date": ": Tue, 21 Apr 2015 23:09:52 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/236.txt",
+                "subthreads": [
+                    {
+                        "id": "237",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 21 Apr 2015 23:11:41 -0400",
+                        "author": ": Kash Pande <kash () tripleback net>",
+                        "File_path": "seclist_thread_messages/2015_Q2/237.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "238",
+                "no_subthreads": 0,
+                "date": ": Wed, 22 Apr 2015 03:39:46 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/238.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "297": {
+        "title": "CVE request: kernel overestimates the available entropy in random pools",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 27 Apr 2015 22:02:10 -0400 (EDT)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/297.txt",
+        "subthreads": [
+            {
+                "id": "298",
+                "no_subthreads": 0,
+                "date": ": Tue, 28 Apr 2015 08:52:34 +0300",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2015_Q2/298.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "333": {
+        "title": "CVE request for a fixed bug existed in all versions of linux kernel from KeenTeam",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Sat, 2 May 2015 18:31:12 +0800",
+        "author": ": Wen Xu <hotdog3645 () gmail com>",
+        "File_path": "seclist_thread_messages/2015_Q2/333.txt",
+        "subthreads": [
+            {
+                "id": "334",
+                "no_subthreads": 5,
+                "date": ": Sat, 2 May 2015 15:53:30 +0300",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2015_Q2/334.txt",
+                "subthreads": [
+                    {
+                        "id": "335",
+                        "no_subthreads": 1,
+                        "date": ": Sat, 2 May 2015 21:18:23 +0800",
+                        "author": ": Wen Xu <hotdog3645 () gmail com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/335.txt",
+                        "subthreads": [
+                            {
+                                "id": "336",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 2 May 2015 16:40:14 +0300",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/336.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "379",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 6 May 2015 18:43:53 +0300",
+                        "author": ": Vasily Kulikov <segoon () openwall com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/379.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "382",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 7 May 2015 12:36:39 +0300",
+                        "author": ": Vasily Kulikov <segoon () openwall com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/382.txt",
+                        "subthreads": [
+                            {
+                                "id": "383",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 7 May 2015 12:37:51 +0300",
+                                "author": ": Vasily Kulikov <segoon () openwall com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/383.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "339",
+                "no_subthreads": 0,
+                "date": ": Sat,  2 May 2015 11:28:17 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/339.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "386": {
+        "title": "Re: CVE-Request: AMD Bulldozer Linux ASLR weakness: Reducing entropy by 87.5%.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Thu, 07 May 2015 16:47:16 +0200",
+        "author": ": Hector Marco-Gisbert <hecmargi () upv es>",
+        "File_path": "seclist_thread_messages/2015_Q2/386.txt",
+        "subthreads": []
+    },
+    "446": {
+        "title": "CVE requests: Remote packet-of-death vulnerabilities in Linux Kernel ozwpan driver",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Wed, 13 May 2015 21:44:04 +0200",
+        "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+        "File_path": "seclist_thread_messages/2015_Q2/446.txt",
+        "subthreads": []
+    },
+    "545": {
+        "title": "CVE request: vulnerability in the kernel tty subsystem.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Tue, 26 May 2015 02:18:53 -0400 (EDT)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/545.txt",
+        "subthreads": [
+            {
+                "id": "560",
+                "no_subthreads": 2,
+                "date": ": Tue, 26 May 2015 07:52:47 -0700",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2015_Q2/560.txt",
+                "subthreads": [
+                    {
+                        "id": "587",
+                        "no_subthreads": 1,
+                        "date": ": Sat, 30 May 2015 00:36:19 +0300",
+                        "author": ": Henri Salo <henri () nerv fi>",
+                        "File_path": "seclist_thread_messages/2015_Q2/587.txt",
+                        "subthreads": [
+                            {
+                                "id": "588",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 29 May 2015 15:04:30 -0700",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/588.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "613",
+                "no_subthreads": 0,
+                "date": ": Wed,  3 Jun 2015 01:44:57 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/613.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "572": {
+        "title": "CVE Request: Linux Kernel Ozwpan Driver - Remote packet-of-death vulnerabilities",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 27 May 2015 16:45:15 +0200",
+        "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+        "File_path": "seclist_thread_messages/2015_Q2/572.txt",
+        "subthreads": [
+            {
+                "id": "590",
+                "no_subthreads": 1,
+                "date": ": Sun, 31 May 2015 01:30:05 +0200",
+                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                "File_path": "seclist_thread_messages/2015_Q2/590.txt",
+                "subthreads": [
+                    {
+                        "id": "650",
+                        "no_subthreads": 0,
+                        "date": ": Fri,  5 Jun 2015 17:29:22 -0400 (EDT)",
+                        "author": ": cve-assign () mitre org",
+                        "File_path": "seclist_thread_messages/2015_Q2/650.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "584": {
+        "title": "CVE request Linux kernel: ns: user namespaces panic",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 11,
+        "date": ": Fri, 29 May 2015 22:05:26 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/584.txt",
+        "subthreads": [
+            {
+                "id": "589",
+                "no_subthreads": 0,
+                "date": ": Fri, 29 May 2015 16:19:30 -0700",
+                "author": ": Andy Lutomirski <luto () kernel org>",
+                "File_path": "seclist_thread_messages/2015_Q2/589.txt",
+                "subthreads": []
+            },
+            {
+                "id": "623",
+                "no_subthreads": 9,
+                "date": ": Wed,  3 Jun 2015 13:58:34 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/623.txt",
+                "subthreads": [
+                    {
+                        "id": "635",
+                        "no_subthreads": 8,
+                        "date": ": Thu, 4 Jun 2015 12:20:11 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/635.txt",
+                        "subthreads": [
+                            {
+                                "id": "636",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 04 Jun 2015 02:12:54 -0500",
+                                "author": ": ebiederm () xmission com (Eric W. Biederman)",
+                                "File_path": "seclist_thread_messages/2015_Q2/636.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "637",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 4 Jun 2015 13:25:19 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/637.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "640",
+                                "no_subthreads": 0,
+                                "date": ": Thu,  4 Jun 2015 09:57:44 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2015_Q2/640.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "647",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 5 Jun 2015 17:34:23 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/647.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "649",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 05 Jun 2015 12:31:23 -0500",
+                                "author": ": ebiederm () xmission com (Eric W. Biederman)",
+                                "File_path": "seclist_thread_messages/2015_Q2/649.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "655",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 7 Jun 2015 22:51:38 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/655.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "656",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 07 Jun 2015 12:25:31 -0500",
+                                "author": ": ebiederm () xmission com (Eric W. Biederman)",
+                                "File_path": "seclist_thread_messages/2015_Q2/656.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "658",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 8 Jun 2015 10:59:34 +0530 (IST)",
+                                "author": ": P J P <ppandit () redhat com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/658.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "609": {
+        "title": "CVE request Linux kernel: fs: udf kernel oops",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 2 Jun 2015 23:27:49 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/609.txt",
+        "subthreads": [
+            {
+                "id": "624",
+                "no_subthreads": 0,
+                "date": ": Wed,  3 Jun 2015 14:00:12 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/624.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "610": {
+        "title": "CVE request Linux kernel: fs: udf heap overflow in __udf_adinicb_readpage",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 2 Jun 2015 23:38:50 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/610.txt",
+        "subthreads": [
+            {
+                "id": "625",
+                "no_subthreads": 0,
+                "date": ": Wed,  3 Jun 2015 14:01:25 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/625.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "615": {
+        "title": "CVE request Linux kernel: udf: information leakage when reading symlink",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 3 Jun 2015 16:06:33 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/615.txt",
+        "subthreads": [
+            {
+                "id": "626",
+                "no_subthreads": 0,
+                "date": ": Wed,  3 Jun 2015 14:02:41 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/626.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "652": {
+        "title": "CVE-2015-1805 Linux kernel: pipe: iovec overrun leading to memory corruption",
+        "CVE_id": "CVE-2015-1805",
+        "no_subthreads": 2,
+        "date": ": Sat, 6 Jun 2015 14:30:57 +0300",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2015_Q2/652.txt",
+        "subthreads": [
+            {
+                "id": "654",
+                "no_subthreads": 0,
+                "date": ": Sat, 6 Jun 2015 21:32:07 +0300",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2015_Q2/654.txt",
+                "subthreads": []
+            },
+            {
+                "id": "668",
+                "no_subthreads": 0,
+                "date": ": Tue, 9 Jun 2015 14:26:39 +0300",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2015_Q2/668.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "680": {
+        "title": "CVE request -- Linux kernel - kvm: x86: NULL pointer dereference in kvm_apic_has_events function",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 10 Jun 2015 16:41:14 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/680.txt",
+        "subthreads": [
+            {
+                "id": "767",
+                "no_subthreads": 0,
+                "date": ": Sat, 20 Jun 2015 22:23:59 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/767.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "784": {
+        "title": "CVE request: Linux kernel - bpf jit optimization flaw can panic kenrel.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 22 Jun 2015 22:13:14 -0400 (EDT)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/784.txt",
+        "subthreads": [
+            {
+                "id": "785",
+                "no_subthreads": 0,
+                "date": ": Mon, 22 Jun 2015 23:06:52 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/785.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "797": {
+        "title": "CVE request -- Linux kernel - kvm: x86: out-of-bounds memory access in pit_ioport_read function",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Thu, 25 Jun 2015 11:16:09 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q2/797.txt",
+        "subthreads": [
+            {
+                "id": "798",
+                "no_subthreads": 3,
+                "date": ": Thu, 25 Jun 2015 05:47:26 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q2/798.txt",
+                "subthreads": [
+                    {
+                        "id": "799",
+                        "no_subthreads": 2,
+                        "date": ": Thu, 25 Jun 2015 11:54:33 +0200",
+                        "author": ": Petr Matousek <pmatouse () redhat com>",
+                        "File_path": "seclist_thread_messages/2015_Q2/799.txt",
+                        "subthreads": [
+                            {
+                                "id": "800",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 25 Jun 2015 06:42:41 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2015_Q2/800.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "801",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 25 Jun 2015 12:44:47 +0200",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2015_Q2/801.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "804": {
+        "title": "Linux-PAM 1.2.1 released to address CVE-2015-3238",
+        "CVE_id": "CVE-2015-3238",
+        "no_subthreads": 0,
+        "date": ": Thu, 25 Jun 2015 21:38:16 +0300",
+        "author": ": \"Dmitry V. Levin\" <ldv () altlinux org>",
+        "File_path": "seclist_thread_messages/2015_Q2/804.txt",
+        "subthreads": []
+    }
+}

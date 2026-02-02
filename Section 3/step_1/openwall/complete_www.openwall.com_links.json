@@ -1,0 +1,2934 @@
+{
+    "0": {
+        "CVE ID": "CVE-2015-7513",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/01/07/2"
+        ],
+        "Exploit Links": []
+    },
+    "1": {
+        "CVE ID": "CVE-2015-8539",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2015/12/09/1"
+        ],
+        "Exploit Links": []
+    },
+    "87": {
+        "CVE ID": "CVE-2015-1339",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/03/02/13"
+        ],
+        "Exploit Links": []
+    },
+    "98": {
+        "CVE ID": "CVE-2016-2545",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/01/19/1"
+        ],
+        "Exploit Links": []
+    },
+    "99": {
+        "CVE ID": "CVE-2016-2546",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/01/19/1"
+        ],
+        "Exploit Links": []
+    },
+    "100": {
+        "CVE ID": "CVE-2016-2547",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/01/19/1"
+        ],
+        "Exploit Links": []
+    },
+    "104": {
+        "CVE ID": "CVE-2016-2847",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/03/01/3"
+        ],
+        "Exploit Links": []
+    },
+    "120": {
+        "CVE ID": "CVE-2016-2853",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/02/24/9"
+        ]
+    },
+    "121": {
+        "CVE ID": "CVE-2016-2854",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/02/24/9"
+        ]
+    },
+    "127": {
+        "CVE ID": "CVE-2016-4794",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/05/12/6"
+        ]
+    },
+    "128": {
+        "CVE ID": "CVE-2016-4805",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/05/15/2"
+        ],
+        "Exploit Links": []
+    },
+    "129": {
+        "CVE ID": "CVE-2016-4913",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/05/18/3",
+            "http://www.openwall.com/lists/oss-security/2016/05/18/5"
+        ],
+        "Exploit Links": []
+    },
+    "146": {
+        "CVE ID": "CVE-2016-4997",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/09/29/10"
+        ]
+    },
+    "219": {
+        "CVE ID": "CVE-2016-6198",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/07/11/8"
+        ]
+    },
+    "280": {
+        "CVE ID": "CVE-2015-8952",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/08/25/4"
+        ],
+        "Exploit Links": []
+    },
+    "281": {
+        "CVE ID": "CVE-2015-8953",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/08/23/9"
+        ]
+    },
+    "283": {
+        "CVE ID": "CVE-2016-6828",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/08/15/1"
+        ]
+    },
+    "284": {
+        "CVE ID": "CVE-2016-7039",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/10/10/15"
+        ],
+        "Exploit Links": []
+    },
+    "316": {
+        "CVE ID": "CVE-2016-9313",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2016/07/22/1"
+        ]
+    },
+    "330": {
+        "CVE ID": "CVE-2016-9576",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/08/19"
+        ],
+        "Exploit Links": []
+    },
+    "331": {
+        "CVE ID": "CVE-2016-9588",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/15/3"
+        ],
+        "Exploit Links": []
+    },
+    "332": {
+        "CVE ID": "CVE-2016-9685",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/11/30/1"
+        ],
+        "Exploit Links": []
+    },
+    "334": {
+        "CVE ID": "CVE-2016-9756",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/01/1"
+        ],
+        "Exploit Links": []
+    },
+    "335": {
+        "CVE ID": "CVE-2016-9777",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/02/2"
+        ],
+        "Exploit Links": []
+    },
+    "336": {
+        "CVE ID": "CVE-2016-9793",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/03/1"
+        ],
+        "Exploit Links": []
+    },
+    "337": {
+        "CVE ID": "CVE-2016-9794",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/03/2"
+        ],
+        "Exploit Links": []
+    },
+    "338": {
+        "CVE ID": "CVE-2016-9806",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2016/12/03/4"
+        ],
+        "Exploit Links": []
+    },
+    "375": {
+        "CVE ID": "CVE-2019-19332",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2019/12/16/1"
+        ]
+    },
+    "386": {
+        "CVE ID": "CVE-2019-18634",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/02/05/5"
+        ]
+    },
+    "394": {
+        "CVE ID": "CVE-2012-1567",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/03/19/14"
+        ]
+    },
+    "401": {
+        "CVE ID": "CVE-2012-0055",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/01/17/11"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/01/17/11"
+        ]
+    },
+    "403": {
+        "CVE ID": "CVE-2011-4915",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2011/11/07/9"
+        ]
+    },
+    "405": {
+        "CVE ID": "CVE-2020-8793",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/02/24/4"
+        ]
+    },
+    "406": {
+        "CVE ID": "CVE-2020-9391",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/02/25/6"
+        ]
+    },
+    "419": {
+        "CVE ID": "CVE-2020-8835",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2020/03/30/3"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/07/20/1"
+        ]
+    },
+    "433": {
+        "CVE ID": "CVE-2020-11743",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/04/14/3"
+        ],
+        "Exploit Links": []
+    },
+    "444": {
+        "CVE ID": "CVE-2020-12114",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/05/04/2"
+        ],
+        "Exploit Links": []
+    },
+    "459": {
+        "CVE ID": "CVE-2020-12826",
+        "Patch Links": [
+            "https://www.openwall.com/lists/kernel-hardening/2020/03/25/1"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/kernel-hardening/2020/03/25/1"
+        ]
+    },
+    "463": {
+        "CVE ID": "CVE-2020-10711",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2020/05/12/2"
+        ],
+        "Exploit Links": []
+    },
+    "476": {
+        "CVE ID": "CVE-2020-10757",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2020/06/04/4"
+        ]
+    },
+    "480": {
+        "CVE ID": "CVE-2019-20892",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/06/25/4"
+        ]
+    },
+    "491": {
+        "CVE ID": "CVE-2019-19338",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2019/12/10/3"
+        ],
+        "Exploit Links": []
+    },
+    "496": {
+        "CVE ID": "CVE-2020-15780",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/07/20/7"
+        ],
+        "Exploit Links": []
+    },
+    "499": {
+        "CVE ID": "CVE-2020-14344",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2020/07/31/1"
+        ],
+        "Exploit Links": []
+    },
+    "512": {
+        "CVE ID": "CVE-2020-25221",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2020/09/08/4"
+        ],
+        "Exploit Links": []
+    },
+    "518": {
+        "CVE ID": "CVE-2020-14331",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2020/07/28/2"
+        ]
+    },
+    "524": {
+        "CVE ID": "CVE-2020-10781",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2020/06/18/1"
+        ],
+        "Exploit Links": []
+    },
+    "539": {
+        "CVE ID": "CVE-2020-27152",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/03/1"
+        ],
+        "Exploit Links": []
+    },
+    "542": {
+        "CVE ID": "CVE-2020-28941",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/19/5",
+            "https://www.openwall.com/lists/oss-security/2020/11/19/3"
+        ],
+        "Exploit Links": []
+    },
+    "549": {
+        "CVE ID": "CVE-2020-29369",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/02/10/6",
+            "http://www.openwall.com/lists/oss-security/2021/02/19/8"
+        ],
+        "Exploit Links": []
+    },
+    "563": {
+        "CVE ID": "CVE-2020-29660",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/12/10/1"
+        ],
+        "Exploit Links": []
+    },
+    "564": {
+        "CVE ID": "CVE-2020-29661",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/12/10/1"
+        ],
+        "Exploit Links": []
+    },
+    "582": {
+        "CVE ID": "CVE-2021-3347",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/02/01/4"
+        ]
+    },
+    "583": {
+        "CVE ID": "CVE-2021-3348",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/02/01/1",
+            "https://www.openwall.com/lists/oss-security/2021/01/28/3"
+        ],
+        "Exploit Links": []
+    },
+    "587": {
+        "CVE ID": "CVE-2021-26708",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/02/05/6",
+            "https://www.openwall.com/lists/oss-security/2021/02/04/5"
+        ],
+        "Exploit Links": []
+    },
+    "606": {
+        "CVE ID": "CVE-2021-28038",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/03/05/1"
+        ],
+        "Exploit Links": []
+    },
+    "607": {
+        "CVE ID": "CVE-2021-28039",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/03/05/2"
+        ],
+        "Exploit Links": []
+    },
+    "608": {
+        "CVE ID": "CVE-2021-27363",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/03/06/1"
+        ],
+        "Exploit Links": []
+    },
+    "623": {
+        "CVE ID": "CVE-2020-27170",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/03/19/2"
+        ],
+        "Exploit Links": []
+    },
+    "624": {
+        "CVE ID": "CVE-2020-27171",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/03/19/3"
+        ],
+        "Exploit Links": []
+    },
+    "644": {
+        "CVE ID": "CVE-2021-29154",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/04/08/1"
+        ],
+        "Exploit Links": []
+    },
+    "653": {
+        "CVE ID": "CVE-2021-3506",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/08/1",
+            "https://www.openwall.com/lists/oss-security/2021/03/28/2"
+        ],
+        "Exploit Links": []
+    },
+    "654": {
+        "CVE ID": "CVE-2021-29155",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/04/18/4"
+        ],
+        "Exploit Links": []
+    },
+    "655": {
+        "CVE ID": "CVE-2021-23133",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/10/1",
+            "http://www.openwall.com/lists/oss-security/2021/05/10/2",
+            "http://www.openwall.com/lists/oss-security/2021/05/10/3",
+            "http://www.openwall.com/lists/oss-security/2021/05/10/4",
+            "https://www.openwall.com/lists/oss-security/2021/04/18/2"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/04/18/2"
+        ]
+    },
+    "658": {
+        "CVE ID": "CVE-2021-31829",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/04/4"
+        ],
+        "Exploit Links": []
+    },
+    "661": {
+        "CVE ID": "CVE-2021-32399",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/11/2"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/11/2"
+        ]
+    },
+    "662": {
+        "CVE ID": "CVE-2020-26147",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/11/12"
+        ],
+        "Exploit Links": []
+    },
+    "663": {
+        "CVE ID": "CVE-2021-32606",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/28/1"
+        ],
+        "Exploit Links": []
+    },
+    "664": {
+        "CVE ID": "CVE-2021-23134",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/05/11/4"
+        ],
+        "Exploit Links": []
+    },
+    "669": {
+        "CVE ID": "CVE-2021-3483",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/04/07/1"
+        ],
+        "Exploit Links": []
+    },
+    "670": {
+        "CVE ID": "CVE-2002-2438",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/02/03/7",
+            "http://www.openwall.com/lists/oss-security/2012/05/29/8",
+            "http://www.openwall.com/lists/oss-security/2012/05/30/2",
+            "http://www.openwall.com/lists/oss-security/2012/05/31/3",
+            "https://www.openwall.com/lists/oss-security/2012/02/03/7"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/05/30/11"
+        ]
+    },
+    "674": {
+        "CVE ID": "CVE-2020-25672",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ],
+        "Exploit Links": []
+    },
+    "675": {
+        "CVE ID": "CVE-2020-25670",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "http://www.openwall.com/lists/oss-security/2021/05/11/4",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "http://www.openwall.com/lists/oss-security/2021/05/11/4",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ]
+    },
+    "676": {
+        "CVE ID": "CVE-2020-25671",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ]
+    },
+    "677": {
+        "CVE ID": "CVE-2020-25673",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/01/1",
+            "https://www.openwall.com/lists/oss-security/2020/11/01/1"
+        ]
+    },
+    "679": {
+        "CVE ID": "CVE-2020-25668",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/10/30/1",
+            "http://www.openwall.com/lists/oss-security/2020/11/04/3"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/10/30/1",
+            "http://www.openwall.com/lists/oss-security/2020/11/04/3"
+        ]
+    },
+    "680": {
+        "CVE ID": "CVE-2020-25669",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/05/2",
+            "http://www.openwall.com/lists/oss-security/2020/11/20/5"
+        ]
+    },
+    "681": {
+        "CVE ID": "CVE-2020-27815",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2020/12/28/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2020/11/30/5",
+            "http://www.openwall.com/lists/oss-security/2020/12/28/1"
+        ]
+    },
+    "683": {
+        "CVE ID": "CVE-2021-33200",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/05/27/1"
+        ],
+        "Exploit Links": []
+    },
+    "686": {
+        "CVE ID": "CVE-2021-3490",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/05/11/11"
+        ],
+        "Exploit Links": []
+    },
+    "687": {
+        "CVE ID": "CVE-2021-3491",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/05/11/13"
+        ],
+        "Exploit Links": []
+    },
+    "693": {
+        "CVE ID": "CVE-2021-3564",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/05/25/1",
+            "http://www.openwall.com/lists/oss-security/2021/06/01/2",
+            "https://www.openwall.com/lists/oss-security/2021/05/25/1"
+        ]
+    },
+    "697": {
+        "CVE ID": "CVE-2021-34693",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/06/15/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/06/15/1"
+        ]
+    },
+    "702": {
+        "CVE ID": "CVE-2021-33624",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/06/21/1"
+        ]
+    },
+    "717": {
+        "CVE ID": "CVE-2021-33909",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/07/20/1"
+        ]
+    },
+    "724": {
+        "CVE ID": "CVE-2021-37576",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/07/27/2"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/07/27/2"
+        ]
+    },
+    "745": {
+        "CVE ID": "CVE-2021-3573",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/06/08/2"
+        ]
+    },
+    "754": {
+        "CVE ID": "CVE-2021-38300",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/09/15/5"
+        ],
+        "Exploit Links": []
+    },
+    "757": {
+        "CVE ID": "CVE-2021-3653",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/08/16/1"
+        ],
+        "Exploit Links": []
+    },
+    "766": {
+        "CVE ID": "CVE-2021-43056",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2021/10/28/1"
+        ],
+        "Exploit Links": []
+    },
+    "769": {
+        "CVE ID": "CVE-2021-43267",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/02/10/1"
+        ]
+    },
+    "850": {
+        "CVE ID": "CVE-2010-5328",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/2"
+        ],
+        "Exploit Links": []
+    },
+    "851": {
+        "CVE ID": "CVE-2016-10150",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/18/10"
+        ],
+        "Exploit Links": []
+    },
+    "852": {
+        "CVE ID": "CVE-2016-10153",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "853": {
+        "CVE ID": "CVE-2016-10154",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "854": {
+        "CVE ID": "CVE-2016-10208",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/05/3"
+        ],
+        "Exploit Links": []
+    },
+    "856": {
+        "CVE ID": "CVE-2017-2596",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/31/4"
+        ],
+        "Exploit Links": []
+    },
+    "857": {
+        "CVE ID": "CVE-2017-5546",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "858": {
+        "CVE ID": "CVE-2017-5547",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "859": {
+        "CVE ID": "CVE-2017-5548",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "860": {
+        "CVE ID": "CVE-2017-5549",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "861": {
+        "CVE ID": "CVE-2017-5550",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "862": {
+        "CVE ID": "CVE-2017-5551",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/3"
+        ],
+        "Exploit Links": []
+    },
+    "863": {
+        "CVE ID": "CVE-2017-5576",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/7"
+        ],
+        "Exploit Links": []
+    },
+    "864": {
+        "CVE ID": "CVE-2017-5577",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/21/7"
+        ],
+        "Exploit Links": []
+    },
+    "868": {
+        "CVE ID": "CVE-2017-5970",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/12/3"
+        ],
+        "Exploit Links": []
+    },
+    "870": {
+        "CVE ID": "CVE-2017-5986",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/14/6"
+        ],
+        "Exploit Links": []
+    },
+    "871": {
+        "CVE ID": "CVE-2017-6001",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/16/1"
+        ],
+        "Exploit Links": []
+    },
+    "873": {
+        "CVE ID": "CVE-2016-8636",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/11/9"
+        ],
+        "Exploit Links": []
+    },
+    "876": {
+        "CVE ID": "CVE-2017-6345",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/28/7"
+        ],
+        "Exploit Links": []
+    },
+    "877": {
+        "CVE ID": "CVE-2017-6346",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/28/6"
+        ],
+        "Exploit Links": []
+    },
+    "878": {
+        "CVE ID": "CVE-2017-6347",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/28/5"
+        ],
+        "Exploit Links": []
+    },
+    "879": {
+        "CVE ID": "CVE-2017-6348",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/28/4"
+        ],
+        "Exploit Links": []
+    },
+    "880": {
+        "CVE ID": "CVE-2017-6353",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/02/27/2"
+        ],
+        "Exploit Links": []
+    },
+    "883": {
+        "CVE ID": "CVE-2017-2636",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/03/07/6"
+        ],
+        "Exploit Links": []
+    },
+    "890": {
+        "CVE ID": "CVE-2017-5206",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/01/07/5"
+        ],
+        "Exploit Links": []
+    },
+    "910": {
+        "CVE ID": "CVE-2017-7889",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "913": {
+        "CVE ID": "CVE-2017-8061",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "914": {
+        "CVE ID": "CVE-2017-8062",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "915": {
+        "CVE ID": "CVE-2017-8063",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "916": {
+        "CVE ID": "CVE-2017-8064",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "917": {
+        "CVE ID": "CVE-2017-8065",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "918": {
+        "CVE ID": "CVE-2017-8066",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "919": {
+        "CVE ID": "CVE-2017-8067",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "920": {
+        "CVE ID": "CVE-2017-8068",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "921": {
+        "CVE ID": "CVE-2017-8069",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "922": {
+        "CVE ID": "CVE-2017-8070",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "923": {
+        "CVE ID": "CVE-2017-8071",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "924": {
+        "CVE ID": "CVE-2017-8072",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/04/16/4"
+        ],
+        "Exploit Links": []
+    },
+    "938": {
+        "CVE ID": "CVE-2017-7495",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/05/15/2"
+        ],
+        "Exploit Links": []
+    },
+    "1017": {
+        "CVE ID": "CVE-2017-1000380",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/06/12/2"
+        ],
+        "Exploit Links": []
+    },
+    "1020": {
+        "CVE ID": "CVE-2017-8797",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/06/27/5"
+        ],
+        "Exploit Links": []
+    },
+    "1024": {
+        "CVE ID": "CVE-2017-9669",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2017/06/25/2"
+        ]
+    },
+    "1025": {
+        "CVE ID": "CVE-2017-9671",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2017/06/25/2"
+        ]
+    },
+    "1103": {
+        "CVE ID": "CVE-2017-1000252",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/09/15/4"
+        ],
+        "Exploit Links": []
+    },
+    "1114": {
+        "CVE ID": "CVE-2017-15265",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/10/11/3"
+        ],
+        "Exploit Links": []
+    },
+    "1212": {
+        "CVE ID": "CVE-2017-1000407",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/12/04/2"
+        ],
+        "Exploit Links": []
+    },
+    "1256": {
+        "CVE ID": "CVE-2010-0727",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2010/03/12/1"
+        ]
+    },
+    "1257": {
+        "CVE ID": "CVE-2010-0008",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/03/17/2"
+        ],
+        "Exploit Links": []
+    },
+    "1261": {
+        "CVE ID": "CVE-2010-1083",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/02/17/2"
+        ],
+        "Exploit Links": []
+    },
+    "1262": {
+        "CVE ID": "CVE-2010-1084",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/03/23/1"
+        ],
+        "Exploit Links": []
+    },
+    "1263": {
+        "CVE ID": "CVE-2010-1085",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/02/22/2"
+        ],
+        "Exploit Links": []
+    },
+    "1264": {
+        "CVE ID": "CVE-2010-1086",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/03/01/1"
+        ],
+        "Exploit Links": []
+    },
+    "1265": {
+        "CVE ID": "CVE-2010-1087",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/03/03/1"
+        ],
+        "Exploit Links": []
+    },
+    "1266": {
+        "CVE ID": "CVE-2010-1088",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/02/24/3"
+        ],
+        "Exploit Links": []
+    },
+    "1274": {
+        "CVE ID": "CVE-2010-1173",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2010/04/29/1",
+            "http://www.openwall.com/lists/oss-security/2010/04/29/6"
+        ]
+    },
+    "1276": {
+        "CVE ID": "CVE-2010-1451",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2010/02/24/1"
+        ]
+    },
+    "1281": {
+        "CVE ID": "CVE-2010-1636",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/05/18/2"
+        ],
+        "Exploit Links": []
+    },
+    "1289": {
+        "CVE ID": "CVE-2009-4895",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/06/15/2"
+        ],
+        "Exploit Links": []
+    },
+    "1290": {
+        "CVE ID": "CVE-2010-2066",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/06/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/06/09/1"
+        ],
+        "Exploit Links": []
+    },
+    "1293": {
+        "CVE ID": "CVE-2010-2798",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/08/02/1",
+            "http://www.openwall.com/lists/oss-security/2010/08/02/10"
+        ],
+        "Exploit Links": []
+    },
+    "1295": {
+        "CVE ID": "CVE-2010-2955",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/08/31/1"
+        ],
+        "Exploit Links": []
+    },
+    "1300": {
+        "CVE ID": "CVE-2010-2942",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/08/18/1",
+            "http://www.openwall.com/lists/oss-security/2010/08/19/4"
+        ],
+        "Exploit Links": []
+    },
+    "1302": {
+        "CVE ID": "CVE-2010-3301",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/16/1",
+            "http://www.openwall.com/lists/oss-security/2010/09/16/3"
+        ],
+        "Exploit Links": []
+    },
+    "1305": {
+        "CVE ID": "CVE-2010-2537",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/07/21/10",
+            "http://www.openwall.com/lists/oss-security/2010/07/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1306": {
+        "CVE ID": "CVE-2010-2538",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/07/21/10",
+            "http://www.openwall.com/lists/oss-security/2010/07/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1307": {
+        "CVE ID": "CVE-2010-2943",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/08/18/2",
+            "http://www.openwall.com/lists/oss-security/2010/08/19/5"
+        ],
+        "Exploit Links": []
+    },
+    "1310": {
+        "CVE ID": "CVE-2010-3297",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/14/2",
+            "http://www.openwall.com/lists/oss-security/2010/09/14/7"
+        ],
+        "Exploit Links": []
+    },
+    "1311": {
+        "CVE ID": "CVE-2010-3298",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/14/2",
+            "http://www.openwall.com/lists/oss-security/2010/09/14/7"
+        ],
+        "Exploit Links": []
+    },
+    "1313": {
+        "CVE ID": "CVE-2010-3442",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/29/2",
+            "http://www.openwall.com/lists/oss-security/2010/09/29/3",
+            "http://www.openwall.com/lists/oss-security/2010/09/29/4",
+            "http://www.openwall.com/lists/oss-security/2010/09/29/9"
+        ],
+        "Exploit Links": []
+    },
+    "1338": {
+        "CVE ID": "CVE-2010-4165",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/11/12/1",
+            "http://www.openwall.com/lists/oss-security/2010/11/12/4"
+        ],
+        "Exploit Links": []
+    },
+    "1344": {
+        "CVE ID": "CVE-2010-4073",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1345": {
+        "CVE ID": "CVE-2010-4074",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1346": {
+        "CVE ID": "CVE-2010-4075",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1347": {
+        "CVE ID": "CVE-2010-4076",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1348": {
+        "CVE ID": "CVE-2010-4077",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1349": {
+        "CVE ID": "CVE-2010-4078",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1350": {
+        "CVE ID": "CVE-2010-4079",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1351": {
+        "CVE ID": "CVE-2010-4249",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/11/24/10"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2010/11/24/10",
+            "http://www.openwall.com/lists/oss-security/2010/11/24/2"
+        ]
+    },
+    "1352": {
+        "CVE ID": "CVE-2010-3858",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/10/21/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/22/4"
+        ],
+        "Exploit Links": []
+    },
+    "1353": {
+        "CVE ID": "CVE-2010-4248",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/11/23/2",
+            "http://www.openwall.com/lists/oss-security/2010/11/24/9"
+        ],
+        "Exploit Links": []
+    },
+    "1354": {
+        "CVE ID": "CVE-2010-4080",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1355": {
+        "CVE ID": "CVE-2010-4081",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1356": {
+        "CVE ID": "CVE-2010-4082",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1357": {
+        "CVE ID": "CVE-2010-4083",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/25/2",
+            "http://www.openwall.com/lists/oss-security/2010/10/07/1",
+            "http://www.openwall.com/lists/oss-security/2010/10/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "1370": {
+        "CVE ID": "CVE-2010-4343",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/12/08/3",
+            "http://www.openwall.com/lists/oss-security/2010/12/09/15"
+        ],
+        "Exploit Links": []
+    },
+    "1553": {
+        "CVE ID": "CVE-2010-4175",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/11/17/8",
+            "http://www.openwall.com/lists/oss-security/2010/11/18/1"
+        ],
+        "Exploit Links": []
+    },
+    "1555": {
+        "CVE ID": "CVE-2010-4247",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/11/23/1",
+            "http://www.openwall.com/lists/oss-security/2010/11/24/8"
+        ],
+        "Exploit Links": []
+    },
+    "1556": {
+        "CVE ID": "CVE-2010-4526",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/01/04/13",
+            "http://www.openwall.com/lists/oss-security/2011/01/04/3"
+        ],
+        "Exploit Links": []
+    },
+    "1564": {
+        "CVE ID": "CVE-2010-3316",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/24/2"
+        ],
+        "Exploit Links": []
+    },
+    "1566": {
+        "CVE ID": "CVE-2010-3431",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2010/09/21/11"
+        ],
+        "Exploit Links": []
+    },
+    "1580": {
+        "CVE ID": "CVE-2011-0712",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/02/16/11",
+            "http://www.openwall.com/lists/oss-security/2011/02/16/12",
+            "http://www.openwall.com/lists/oss-security/2011/02/16/5"
+        ],
+        "Exploit Links": []
+    },
+    "1597": {
+        "CVE ID": "CVE-2011-0695",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/03/11/1"
+        ],
+        "Exploit Links": []
+    },
+    "1637": {
+        "CVE ID": "CVE-2011-1170",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/03/18/15",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/1",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1638": {
+        "CVE ID": "CVE-2011-1171",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/03/18/15",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/1",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1639": {
+        "CVE ID": "CVE-2011-1172",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/03/18/15",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/1",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1640": {
+        "CVE ID": "CVE-2011-1173",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/03/18/15",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/1",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1641": {
+        "CVE ID": "CVE-2011-2534",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/03/18/15",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/1",
+            "http://www.openwall.com/lists/oss-security/2011/03/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "1648": {
+        "CVE ID": "CVE-2011-2492",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/06/24/2",
+            "http://www.openwall.com/lists/oss-security/2011/06/24/3"
+        ],
+        "Exploit Links": []
+    },
+    "1649": {
+        "CVE ID": "CVE-2011-2689",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/07/13/1"
+        ],
+        "Exploit Links": []
+    },
+    "1651": {
+        "CVE ID": "CVE-2011-2697",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/07/13/3",
+            "http://www.openwall.com/lists/oss-security/2011/07/18/3",
+            "http://www.openwall.com/lists/oss-security/2011/07/28/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2011/07/13/3",
+            "http://www.openwall.com/lists/oss-security/2011/07/18/3",
+            "http://www.openwall.com/lists/oss-security/2011/07/28/1"
+        ]
+    },
+    "1667": {
+        "CVE ID": "CVE-2011-2928",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/19/1",
+            "http://www.openwall.com/lists/oss-security/2011/08/19/5"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/19/1",
+            "http://www.openwall.com/lists/oss-security/2011/08/19/5"
+        ]
+    },
+    "1669": {
+        "CVE ID": "CVE-2011-2497",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/06/24/9",
+            "http://www.openwall.com/lists/oss-security/2011/06/27/3"
+        ],
+        "Exploit Links": []
+    },
+    "1673": {
+        "CVE ID": "CVE-2011-1771",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/05/09/2"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2011/05/09/2"
+        ]
+    },
+    "1675": {
+        "CVE ID": "CVE-2011-2184",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/06/03/2",
+            "http://www.openwall.com/lists/oss-security/2011/06/06/2"
+        ],
+        "Exploit Links": []
+    },
+    "1722": {
+        "CVE ID": "CVE-2008-2365",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2008/06/26/1"
+        ],
+        "Exploit Links": []
+    },
+    "1727": {
+        "CVE ID": "CVE-2008-2812",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2008/07/03/2"
+        ],
+        "Exploit Links": []
+    },
+    "1737": {
+        "CVE ID": "CVE-2007-6716",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2008/09/04/1"
+        ],
+        "Exploit Links": []
+    },
+    "1744": {
+        "CVE ID": "CVE-2008-3832",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2008/10/02/1"
+        ]
+    },
+    "1802": {
+        "CVE ID": "CVE-2024-1086",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2024/04/10/22",
+            "http://www.openwall.com/lists/oss-security/2024/04/10/23"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2024/04/14/1",
+            "http://www.openwall.com/lists/oss-security/2024/04/17/5"
+        ]
+    },
+    "1805": {
+        "CVE ID": "CVE-2024-22365",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2024/01/18/3"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2024/01/18/3"
+        ]
+    },
+    "4457": {
+        "CVE ID": "CVE-2011-4077",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/10/26/1",
+            "http://www.openwall.com/lists/oss-security/2011/10/26/3"
+        ],
+        "Exploit Links": []
+    },
+    "4472": {
+        "CVE ID": "CVE-2011-3637",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/02/06/1"
+        ],
+        "Exploit Links": []
+    },
+    "4473": {
+        "CVE ID": "CVE-2011-4097",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2011/11/01/2"
+        ]
+    },
+    "4474": {
+        "CVE ID": "CVE-2011-4112",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/11/21/4"
+        ],
+        "Exploit Links": []
+    },
+    "4478": {
+        "CVE ID": "CVE-2011-4621",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/12/21/6"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2011/12/21/6"
+        ]
+    },
+    "4479": {
+        "CVE ID": "CVE-2012-0038",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/01/10/11"
+        ],
+        "Exploit Links": []
+    },
+    "4480": {
+        "CVE ID": "CVE-2012-0044",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/01/12/1"
+        ],
+        "Exploit Links": []
+    },
+    "4484": {
+        "CVE ID": "CVE-2012-1090",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/02/28/4"
+        ],
+        "Exploit Links": []
+    },
+    "4485": {
+        "CVE ID": "CVE-2012-1097",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/03/05/1"
+        ],
+        "Exploit Links": []
+    },
+    "4486": {
+        "CVE ID": "CVE-2012-1146",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/03/07/3"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/03/07/3"
+        ]
+    },
+    "4492": {
+        "CVE ID": "CVE-2011-2898",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/03/7"
+        ],
+        "Exploit Links": []
+    },
+    "4493": {
+        "CVE ID": "CVE-2011-2906",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/09/8"
+        ],
+        "Exploit Links": []
+    },
+    "4494": {
+        "CVE ID": "CVE-2011-2918",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/16/1"
+        ],
+        "Exploit Links": []
+    },
+    "4495": {
+        "CVE ID": "CVE-2011-3188",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/23/2"
+        ],
+        "Exploit Links": []
+    },
+    "4496": {
+        "CVE ID": "CVE-2011-3191",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/24/2"
+        ],
+        "Exploit Links": []
+    },
+    "4497": {
+        "CVE ID": "CVE-2011-3353",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/09/09/6"
+        ],
+        "Exploit Links": []
+    },
+    "4498": {
+        "CVE ID": "CVE-2011-3359",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/09/14/2"
+        ],
+        "Exploit Links": []
+    },
+    "4499": {
+        "CVE ID": "CVE-2011-3363",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/09/14/12"
+        ],
+        "Exploit Links": []
+    },
+    "4501": {
+        "CVE ID": "CVE-2011-4081",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/10/27/2"
+        ],
+        "Exploit Links": []
+    },
+    "4507": {
+        "CVE ID": "CVE-2011-2182",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/06/05/1"
+        ],
+        "Exploit Links": []
+    },
+    "4525": {
+        "CVE ID": "CVE-2010-4648",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/01/06/18"
+        ],
+        "Exploit Links": []
+    },
+    "4542": {
+        "CVE ID": "CVE-2012-2127",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/04/20/25"
+        ]
+    },
+    "4545": {
+        "CVE ID": "CVE-2012-0045",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/01/12/2"
+        ]
+    },
+    "4566": {
+        "CVE ID": "CVE-2012-3552",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/08/31/11"
+        ],
+        "Exploit Links": []
+    },
+    "4567": {
+        "CVE ID": "CVE-2012-3511",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2012/08/20/13"
+        ],
+        "Exploit Links": []
+    },
+    "4585": {
+        "CVE ID": "CVE-2012-0957",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2012/10/09/4"
+        ]
+    },
+    "4610": {
+        "CVE ID": "CVE-2011-2491",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/06/23/6"
+        ],
+        "Exploit Links": []
+    },
+    "4644": {
+        "CVE ID": "CVE-2013-1959",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2013/04/29/1"
+        ]
+    },
+    "4661": {
+        "CVE ID": "CVE-2013-2128",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/05/29/11"
+        ],
+        "Exploit Links": []
+    },
+    "4665": {
+        "CVE ID": "CVE-2011-2482",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2011/08/30/1"
+        ],
+        "Exploit Links": []
+    },
+    "4670": {
+        "CVE ID": "CVE-2013-2164",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/06/10/9"
+        ],
+        "Exploit Links": []
+    },
+    "4682": {
+        "CVE ID": "CVE-2013-4129",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/07/16/1"
+        ],
+        "Exploit Links": []
+    },
+    "4686": {
+        "CVE ID": "CVE-2013-4220",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/08/08/12"
+        ],
+        "Exploit Links": []
+    },
+    "4694": {
+        "CVE ID": "CVE-2013-4300",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/09/05/3"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2013/09/05/3"
+        ]
+    },
+    "4695": {
+        "CVE ID": "CVE-2013-4350",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/09/13/3"
+        ],
+        "Exploit Links": []
+    },
+    "4701": {
+        "CVE ID": "CVE-2013-2058",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/05/05/2"
+        ],
+        "Exploit Links": []
+    },
+    "4703": {
+        "CVE ID": "CVE-2013-4470",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/10/25/5"
+        ],
+        "Exploit Links": []
+    },
+    "4704": {
+        "CVE ID": "CVE-2013-4483",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/10/30/4"
+        ],
+        "Exploit Links": []
+    },
+    "4717": {
+        "CVE ID": "CVE-2013-4563",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/11/13/9"
+        ],
+        "Exploit Links": []
+    },
+    "4719": {
+        "CVE ID": "CVE-2013-4588",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/11/15/12"
+        ],
+        "Exploit Links": []
+    },
+    "4730": {
+        "CVE ID": "CVE-2013-6431",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/12/06/5"
+        ],
+        "Exploit Links": []
+    },
+    "4731": {
+        "CVE ID": "CVE-2013-6432",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2013/12/06/6"
+        ],
+        "Exploit Links": []
+    },
+    "4875": {
+        "CVE ID": "CVE-2009-0935",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/03/06/2"
+        ],
+        "Exploit Links": []
+    },
+    "4893": {
+        "CVE ID": "CVE-2009-1630",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2009/05/13/2"
+        ]
+    },
+    "4896": {
+        "CVE ID": "CVE-2009-1633",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/05/14/1",
+            "http://www.openwall.com/lists/oss-security/2009/05/14/4",
+            "http://www.openwall.com/lists/oss-security/2009/05/15/2"
+        ],
+        "Exploit Links": []
+    },
+    "4898": {
+        "CVE ID": "CVE-2009-1961",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/05/29/2",
+            "http://www.openwall.com/lists/oss-security/2009/05/30/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2009/05/30/1",
+            "http://www.openwall.com/lists/oss-security/2009/06/02/2",
+            "http://www.openwall.com/lists/oss-security/2009/06/03/1"
+        ]
+    },
+    "4903": {
+        "CVE ID": "CVE-2009-2287",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/06/30/1"
+        ],
+        "Exploit Links": []
+    },
+    "4914": {
+        "CVE ID": "CVE-2009-2692",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/08/14/1"
+        ],
+        "Exploit Links": []
+    },
+    "4916": {
+        "CVE ID": "CVE-2009-2768",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/08/13/1"
+        ],
+        "Exploit Links": []
+    },
+    "4917": {
+        "CVE ID": "CVE-2009-2844",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/08/17/1",
+            "http://www.openwall.com/lists/oss-security/2009/08/17/2"
+        ],
+        "Exploit Links": []
+    },
+    "4918": {
+        "CVE ID": "CVE-2009-2846",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/08/10/1",
+            "http://www.openwall.com/lists/oss-security/2009/08/18/6"
+        ],
+        "Exploit Links": []
+    },
+    "4919": {
+        "CVE ID": "CVE-2009-2847",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/08/04/1",
+            "http://www.openwall.com/lists/oss-security/2009/08/05/1"
+        ],
+        "Exploit Links": []
+    },
+    "4920": {
+        "CVE ID": "CVE-2009-2848",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2009/08/04/2",
+            "http://www.openwall.com/lists/oss-security/2009/08/05/10"
+        ]
+    },
+    "4932": {
+        "CVE ID": "CVE-2009-3288",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2009/09/03/4"
+        ]
+    },
+    "4936": {
+        "CVE ID": "CVE-2005-4881",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/09/05/2",
+            "http://www.openwall.com/lists/oss-security/2009/09/06/2",
+            "http://www.openwall.com/lists/oss-security/2009/09/07/2",
+            "http://www.openwall.com/lists/oss-security/2009/09/17/1",
+            "http://www.openwall.com/lists/oss-security/2009/09/17/9"
+        ],
+        "Exploit Links": []
+    },
+    "4937": {
+        "CVE ID": "CVE-2009-3228",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/09/03/1",
+            "http://www.openwall.com/lists/oss-security/2009/09/05/2",
+            "http://www.openwall.com/lists/oss-security/2009/09/06/2",
+            "http://www.openwall.com/lists/oss-security/2009/09/07/2",
+            "http://www.openwall.com/lists/oss-security/2009/09/17/1",
+            "http://www.openwall.com/lists/oss-security/2009/09/17/9"
+        ],
+        "Exploit Links": []
+    },
+    "4942": {
+        "CVE ID": "CVE-2009-3620",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/10/19/1",
+            "http://www.openwall.com/lists/oss-security/2009/10/19/3"
+        ],
+        "Exploit Links": []
+    },
+    "4943": {
+        "CVE ID": "CVE-2009-3621",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/10/19/2",
+            "http://www.openwall.com/lists/oss-security/2009/10/19/4"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2009/10/19/2",
+            "http://www.openwall.com/lists/oss-security/2009/10/19/4"
+        ]
+    },
+    "4958": {
+        "CVE ID": "CVE-2009-4138",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2009/12/15/1"
+        ],
+        "Exploit Links": []
+    },
+    "4990": {
+        "CVE ID": "CVE-2014-1444",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/01/15/3"
+        ],
+        "Exploit Links": []
+    },
+    "4991": {
+        "CVE ID": "CVE-2014-1445",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/01/15/3"
+        ],
+        "Exploit Links": []
+    },
+    "5002": {
+        "CVE ID": "CVE-2014-1690",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/01/28/3"
+        ],
+        "Exploit Links": []
+    },
+    "5005": {
+        "CVE ID": "CVE-2014-2039",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/02/20/14"
+        ],
+        "Exploit Links": []
+    },
+    "5006": {
+        "CVE ID": "CVE-2014-0049",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/03/1"
+        ],
+        "Exploit Links": []
+    },
+    "5007": {
+        "CVE ID": "CVE-2014-0100",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/04/4"
+        ],
+        "Exploit Links": []
+    },
+    "5008": {
+        "CVE ID": "CVE-2014-0101",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/04/6"
+        ],
+        "Exploit Links": []
+    },
+    "5009": {
+        "CVE ID": "CVE-2014-0102",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/04/21"
+        ],
+        "Exploit Links": []
+    },
+    "5011": {
+        "CVE ID": "CVE-2013-7339",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/20/14"
+        ],
+        "Exploit Links": []
+    },
+    "5013": {
+        "CVE ID": "CVE-2014-2523",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/17/7"
+        ],
+        "Exploit Links": []
+    },
+    "5014": {
+        "CVE ID": "CVE-2014-2568",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/20/16"
+        ],
+        "Exploit Links": []
+    },
+    "5016": {
+        "CVE ID": "CVE-2014-2672",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/30/5"
+        ],
+        "Exploit Links": []
+    },
+    "5017": {
+        "CVE ID": "CVE-2014-2673",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/30/5"
+        ],
+        "Exploit Links": []
+    },
+    "5018": {
+        "CVE ID": "CVE-2014-2678",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/03/31/10"
+        ],
+        "Exploit Links": []
+    },
+    "5022": {
+        "CVE ID": "CVE-2014-0155",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/04/07/2"
+        ],
+        "Exploit Links": []
+    },
+    "5023": {
+        "CVE ID": "CVE-2014-2706",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/04/01/8"
+        ],
+        "Exploit Links": []
+    },
+    "5024": {
+        "CVE ID": "CVE-2014-2739",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/04/10/9"
+        ],
+        "Exploit Links": []
+    },
+    "5025": {
+        "CVE ID": "CVE-2014-2851",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/04/11/4"
+        ],
+        "Exploit Links": []
+    },
+    "5030": {
+        "CVE ID": "CVE-2014-3122",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/05/01/7"
+        ],
+        "Exploit Links": []
+    },
+    "5031": {
+        "CVE ID": "CVE-2014-3144",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/05/09/6"
+        ],
+        "Exploit Links": []
+    },
+    "5032": {
+        "CVE ID": "CVE-2014-3145",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/05/09/6"
+        ],
+        "Exploit Links": []
+    },
+    "5045": {
+        "CVE ID": "CVE-2014-4027",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/06/11/1"
+        ],
+        "Exploit Links": []
+    },
+    "5093": {
+        "CVE ID": "CVE-2014-6416",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2014/09/15/7"
+        ]
+    },
+    "5101": {
+        "CVE ID": "CVE-2014-7970",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/08/21"
+        ],
+        "Exploit Links": []
+    },
+    "5108": {
+        "CVE ID": "CVE-2014-3610",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/24/9"
+        ],
+        "Exploit Links": []
+    },
+    "5109": {
+        "CVE ID": "CVE-2014-3611",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/24/9"
+        ],
+        "Exploit Links": []
+    },
+    "5111": {
+        "CVE ID": "CVE-2014-3646",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/24/9"
+        ],
+        "Exploit Links": []
+    },
+    "5112": {
+        "CVE ID": "CVE-2014-3647",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/24/9"
+        ],
+        "Exploit Links": []
+    },
+    "5115": {
+        "CVE ID": "CVE-2014-3690",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/21/4",
+            "http://www.openwall.com/lists/oss-security/2014/10/29/7"
+        ],
+        "Exploit Links": []
+    },
+    "5116": {
+        "CVE ID": "CVE-2014-7825",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/11/06/11"
+        ],
+        "Exploit Links": []
+    },
+    "5117": {
+        "CVE ID": "CVE-2014-7826",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/11/06/11"
+        ],
+        "Exploit Links": []
+    },
+    "5118": {
+        "CVE ID": "CVE-2014-8369",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/24/7"
+        ],
+        "Exploit Links": []
+    },
+    "5119": {
+        "CVE ID": "CVE-2014-8480",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/23/7"
+        ]
+    },
+    "5120": {
+        "CVE ID": "CVE-2014-8481",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2014/10/23/7"
+        ]
+    },
+    "5140": {
+        "CVE ID": "CVE-2010-5313",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/11/13/7"
+        ],
+        "Exploit Links": []
+    },
+    "5146": {
+        "CVE ID": "CVE-2014-9322",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2014/12/15/6"
+        ],
+        "Exploit Links": []
+    },
+    "5411": {
+        "CVE ID": "CVE-2017-7518",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2017/06/23/5"
+        ],
+        "Exploit Links": []
+    },
+    "5433": {
+        "CVE ID": "CVE-2018-10853",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2018/09/02/1"
+        ],
+        "Exploit Links": []
+    },
+    "5495": {
+        "CVE ID": "CVE-2018-14634",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2018/09/25/4"
+        ]
+    },
+    "5497": {
+        "CVE ID": "CVE-2018-18021",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2018/10/02/2"
+        ],
+        "Exploit Links": []
+    },
+    "5510": {
+        "CVE ID": "CVE-2018-18281",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2018/10/29/5"
+        ],
+        "Exploit Links": []
+    },
+    "5577": {
+        "CVE ID": "CVE-2022-23222",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/01/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/01/18/2"
+        ]
+    },
+    "5583": {
+        "CVE ID": "CVE-2022-24122",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/01/29/1"
+        ]
+    },
+    "5592": {
+        "CVE ID": "CVE-2022-0185",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/01/18/7"
+        ],
+        "Exploit Links": []
+    },
+    "5595": {
+        "CVE ID": "CVE-2022-0617",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/04/13/2"
+        ],
+        "Exploit Links": []
+    },
+    "5596": {
+        "CVE ID": "CVE-2021-3752",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/09/15/4"
+        ]
+    },
+    "5597": {
+        "CVE ID": "CVE-2021-3753",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/09/01/4"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/09/01/4"
+        ]
+    },
+    "5606": {
+        "CVE ID": "CVE-2022-25375",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/02/21/1"
+        ],
+        "Exploit Links": []
+    },
+    "5609": {
+        "CVE ID": "CVE-2022-25636",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/02/22/1"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/02/21/2"
+        ]
+    },
+    "5615": {
+        "CVE ID": "CVE-2021-4002",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/11/25/1"
+        ]
+    },
+    "5616": {
+        "CVE ID": "CVE-2021-3640",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/07/22/1"
+        ]
+    },
+    "5617": {
+        "CVE ID": "CVE-2021-3743",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/08/27/2"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2021/08/27/2"
+        ]
+    },
+    "5618": {
+        "CVE ID": "CVE-2021-3744",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2021/09/14/1"
+        ]
+    },
+    "5622": {
+        "CVE ID": "CVE-2021-3739",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2021/08/25/3"
+        ],
+        "Exploit Links": []
+    },
+    "5624": {
+        "CVE ID": "CVE-2021-4095",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/01/17/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/01/17/1"
+        ]
+    },
+    "5628": {
+        "CVE ID": "CVE-2022-26878",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/03/11/1"
+        ],
+        "Exploit Links": []
+    },
+    "5633": {
+        "CVE ID": "CVE-2021-45868",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/03/17/1",
+            "https://www.openwall.com/lists/oss-security/2022/03/17/2"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/03/17/1",
+            "https://www.openwall.com/lists/oss-security/2022/03/17/2"
+        ]
+    },
+    "5645": {
+        "CVE ID": "CVE-2022-0435",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/02/10/1"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/02/10/1"
+        ]
+    },
+    "5648": {
+        "CVE ID": "CVE-2022-27950",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/03/13/1"
+        ],
+        "Exploit Links": []
+    },
+    "5650": {
+        "CVE ID": "CVE-2022-0998",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/04/02/1"
+        ],
+        "Exploit Links": []
+    },
+    "5651": {
+        "CVE ID": "CVE-2022-28356",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/04/06/1"
+        ]
+    },
+    "5660": {
+        "CVE ID": "CVE-2022-28893",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/04/11/3",
+            "http://www.openwall.com/lists/oss-security/2022/04/11/4",
+            "http://www.openwall.com/lists/oss-security/2022/04/11/5"
+        ],
+        "Exploit Links": []
+    },
+    "5677": {
+        "CVE ID": "CVE-2022-29581",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/05/18/2"
+        ],
+        "Exploit Links": []
+    },
+    "5683": {
+        "CVE ID": "CVE-2022-1734",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/05/4",
+            "http://www.openwall.com/lists/oss-security/2022/06/09/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/05/4",
+            "http://www.openwall.com/lists/oss-security/2022/06/09/1"
+        ]
+    },
+    "5688": {
+        "CVE ID": "CVE-2022-32250",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/03/1",
+            "http://www.openwall.com/lists/oss-security/2022/06/04/1",
+            "http://www.openwall.com/lists/oss-security/2022/08/25/1",
+            "https://www.openwall.com/lists/oss-security/2022/05/31/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/03/1",
+            "https://www.openwall.com/lists/oss-security/2022/05/31/1"
+        ]
+    },
+    "5691": {
+        "CVE ID": "CVE-2022-31214",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/06/08/10"
+        ],
+        "Exploit Links": []
+    },
+    "5692": {
+        "CVE ID": "CVE-2022-32981",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/14/3"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/06/14/3"
+        ]
+    },
+    "5699": {
+        "CVE ID": "CVE-2022-34918",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/07/05/1",
+            "https://www.openwall.com/lists/oss-security/2022/07/02/3"
+        ]
+    },
+    "5700": {
+        "CVE ID": "CVE-2022-26365",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/07/05/6"
+        ],
+        "Exploit Links": []
+    },
+    "5701": {
+        "CVE ID": "CVE-2022-33740",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/07/05/6"
+        ],
+        "Exploit Links": []
+    },
+    "5702": {
+        "CVE ID": "CVE-2022-33741",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/07/05/6"
+        ],
+        "Exploit Links": []
+    },
+    "5703": {
+        "CVE ID": "CVE-2022-33742",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/07/05/6"
+        ],
+        "Exploit Links": []
+    },
+    "5704": {
+        "CVE ID": "CVE-2022-33743",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/07/05/5"
+        ],
+        "Exploit Links": []
+    },
+    "5706": {
+        "CVE ID": "CVE-2011-4916",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2011/12/28/3"
+        ]
+    },
+    "5729": {
+        "CVE ID": "CVE-2021-4204",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/01/11/4"
+        ],
+        "Exploit Links": []
+    },
+    "5742": {
+        "CVE ID": "CVE-2022-1198",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/04/02/3"
+        ]
+    },
+    "5744": {
+        "CVE ID": "CVE-2022-1204",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/04/02/2"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/04/02/2"
+        ]
+    },
+    "5747": {
+        "CVE ID": "CVE-2022-1205",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/04/02/4"
+        ]
+    },
+    "5753": {
+        "CVE ID": "CVE-2022-2153",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/06/22/1"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/06/22/1"
+        ]
+    },
+    "5757": {
+        "CVE ID": "CVE-2022-1729",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/05/20/2"
+        ],
+        "Exploit Links": []
+    },
+    "5783": {
+        "CVE ID": "CVE-2022-40768",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/09/19/1",
+            "https://www.openwall.com/lists/oss-security/2022/09/09/1"
+        ],
+        "Exploit Links": []
+    },
+    "5786": {
+        "CVE ID": "CVE-2022-41218",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/09/23/4",
+            "http://www.openwall.com/lists/oss-security/2022/09/24/1"
+        ]
+    },
+    "5796": {
+        "CVE ID": "CVE-2022-42719",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/10/13/2"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/10/13/5"
+        ]
+    },
+    "5797": {
+        "CVE ID": "CVE-2022-41674",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/10/13/2"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/10/13/5"
+        ]
+    },
+    "5798": {
+        "CVE ID": "CVE-2022-42720",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/10/13/5"
+        ]
+    },
+    "5799": {
+        "CVE ID": "CVE-2022-42721",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/10/13/5"
+        ]
+    },
+    "5800": {
+        "CVE ID": "CVE-2022-42722",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2022/10/13/5"
+        ]
+    },
+    "5839": {
+        "CVE ID": "CVE-2022-45063",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/11/10/1",
+            "http://www.openwall.com/lists/oss-security/2022/11/10/5",
+            "https://www.openwall.com/lists/oss-security/2022/11/10/1"
+        ],
+        "Exploit Links": []
+    },
+    "5855": {
+        "CVE ID": "CVE-2022-42328",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/12/08/2",
+            "http://www.openwall.com/lists/oss-security/2022/12/08/3",
+            "http://www.openwall.com/lists/oss-security/2022/12/09/2"
+        ],
+        "Exploit Links": []
+    },
+    "5856": {
+        "CVE ID": "CVE-2022-42329",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2022/12/08/2",
+            "http://www.openwall.com/lists/oss-security/2022/12/08/3",
+            "http://www.openwall.com/lists/oss-security/2022/12/09/2"
+        ],
+        "Exploit Links": []
+    },
+    "5883": {
+        "CVE ID": "CVE-2022-47946",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/12/22/2"
+        ]
+    },
+    "5889": {
+        "CVE ID": "CVE-2022-4382",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2022/12/14/5"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/12/14/5"
+        ]
+    },
+    "5891": {
+        "CVE ID": "CVE-2022-4543",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2022/12/16/3"
+        ]
+    },
+    "5907": {
+        "CVE ID": "CVE-2023-25012",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2023/02/02/1"
+        ]
+    },
+    "5979": {
+        "CVE ID": "CVE-2023-0210",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2023/01/04/1"
+        ]
+    },
+    "5982": {
+        "CVE ID": "CVE-2023-28464",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2023/03/28/2"
+        ],
+        "Exploit Links": []
+    },
+    "6013": {
+        "CVE ID": "CVE-2023-32233",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2023/05/08/4"
+        ],
+        "Exploit Links": []
+    },
+    "6023": {
+        "CVE ID": "CVE-2023-2002",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2023/04/16/3"
+        ]
+    },
+    "6034": {
+        "CVE ID": "CVE-2023-35788",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2023/06/17/1",
+            "https://www.openwall.com/lists/oss-security/2023/06/07/1"
+        ]
+    },
+    "6051": {
+        "CVE ID": "CVE-2023-3439",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2023/07/02/1"
+        ],
+        "Exploit Links": []
+    },
+    "6145": {
+        "CVE ID": "CVE-2023-4104",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2023/08/03/1"
+        ]
+    },
+    "6256": {
+        "CVE ID": "CVE-2018-20669",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/01/23/6"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2019/01/23/6"
+        ]
+    },
+    "6259": {
+        "CVE ID": "CVE-2019-7221",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/02/18/2"
+        ],
+        "Exploit Links": []
+    },
+    "6260": {
+        "CVE ID": "CVE-2019-7222",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/02/18/2"
+        ],
+        "Exploit Links": []
+    },
+    "6279": {
+        "CVE ID": "CVE-2019-11190",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2019/04/03/4",
+            "https://www.openwall.com/lists/oss-security/2019/04/03/4/1"
+        ]
+    },
+    "6280": {
+        "CVE ID": "CVE-2019-11191",
+        "Patch Links": [],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2019/04/03/4",
+            "https://www.openwall.com/lists/oss-security/2019/04/03/4/1"
+        ]
+    },
+    "6393": {
+        "CVE ID": "CVE-2019-15753",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/08/29/2"
+        ],
+        "Exploit Links": []
+    },
+    "6417": {
+        "CVE ID": "CVE-2019-15030",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/09/10/3"
+        ],
+        "Exploit Links": []
+    },
+    "6418": {
+        "CVE ID": "CVE-2019-15031",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/09/10/4"
+        ],
+        "Exploit Links": []
+    },
+    "6419": {
+        "CVE ID": "CVE-2019-14835",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2019/09/17/1"
+        ],
+        "Exploit Links": [
+            "https://www.openwall.com/lists/oss-security/2019/09/17/1"
+        ]
+    },
+    "6422": {
+        "CVE ID": "CVE-2019-14821",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/09/20/1"
+        ],
+        "Exploit Links": []
+    },
+    "6423": {
+        "CVE ID": "CVE-2019-14814",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/08/28/1",
+            "https://www.openwall.com/lists/oss-security/2019/08/28/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2019/08/28/1",
+            "https://www.openwall.com/lists/oss-security/2019/08/28/1"
+        ]
+    },
+    "6424": {
+        "CVE ID": "CVE-2019-14816",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/08/28/1",
+            "https://www.openwall.com/lists/oss-security/2019/08/28/1"
+        ],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2019/08/28/1",
+            "https://www.openwall.com/lists/oss-security/2019/08/28/1"
+        ]
+    },
+    "6445": {
+        "CVE ID": "CVE-2019-18683",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2019/11/05/1",
+            "https://www.openwall.com/lists/oss-security/2019/11/02/1"
+        ]
+    },
+    "6459": {
+        "CVE ID": "CVE-2010-2243",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2010/06/25/1"
+        ],
+        "Exploit Links": []
+    },
+    "6509": {
+        "CVE ID": "CVE-2019-14815",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2019/08/28/1"
+        ],
+        "Exploit Links": []
+    },
+    "6513": {
+        "CVE ID": "CVE-2019-18660",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2019/11/27/1",
+            "https://www.openwall.com/lists/oss-security/2019/11/27/1"
+        ],
+        "Exploit Links": []
+    },
+    "6517": {
+        "CVE ID": "CVE-2019-14895",
+        "Patch Links": [
+            "https://www.openwall.com/lists/oss-security/2019/11/22/2"
+        ],
+        "Exploit Links": []
+    },
+    "6564": {
+        "CVE ID": "CVE-2014-9529",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2015/01/06/10"
+        ],
+        "Exploit Links": []
+    },
+    "6566": {
+        "CVE ID": "CVE-2014-9585",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2014/12/09/10"
+        ]
+    },
+    "6600": {
+        "CVE ID": "CVE-2014-8160",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2015/01/14/3"
+        ],
+        "Exploit Links": []
+    },
+    "6602": {
+        "CVE ID": "CVE-2015-0239",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2015/01/27/6"
+        ]
+    },
+    "6658": {
+        "CVE ID": "CVE-2015-2922",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2015/04/04/2"
+        ]
+    },
+    "6752": {
+        "CVE ID": "CVE-2015-4036",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2015/05/13/4"
+        ]
+    },
+    "6803": {
+        "CVE ID": "CVE-2015-0275",
+        "Patch Links": [
+            "http://www.openwall.com/lists/oss-security/2015/02/23/14"
+        ],
+        "Exploit Links": []
+    },
+    "6807": {
+        "CVE ID": "CVE-2015-7613",
+        "Patch Links": [],
+        "Exploit Links": [
+            "http://www.openwall.com/lists/oss-security/2015/10/01/8"
+        ]
+    }
+}

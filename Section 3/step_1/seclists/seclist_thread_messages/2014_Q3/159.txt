@@ -1,0 +1,23 @@
+Hi,
+
+This has made the news lately:
+https://www.agwa.name/blog/post/libressls_prng_is_unsafe_on_linux
+
+Should get a CVE. Affected is portable libressl 2.0.0 and 2.0.1 on
+Linux. 2.0.2 has been released:
+https://marc.info/?l=openbsd-tech&m=140548206911600&w=2
+
+Under certain conditions forking a process can create repeated random
+numbers.
+
+LibreSSL 2.0.2 contains a workaround, although the reporter of this
+issue thinks this may not be the best approach.
+
+Please assign CVE.
+
+cu,
+-- 
+Hanno Böck - freier Journalist          https://hboeck.de/
+E-Mail/Jabber: hanno () hboeck de               PGP-Key: BBB51E42
+
+signature.asc

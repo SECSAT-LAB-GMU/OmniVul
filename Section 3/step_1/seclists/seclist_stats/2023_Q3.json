@@ -1,0 +1,196 @@
+{
+    "0": {
+        "title": "CVE-2023-3439: Linux MCTP use-after-free in mctp_sendmsg",
+        "CVE_id": "CVE-2023-3439",
+        "no_subthreads": 0,
+        "date": ": Sun, 2 Jul 2023 11:38:22 +0800 (GMT+08:00)",
+        "author": ": \"Lin Ma\" <linma () zju edu cn>",
+        "File_path": "seclist_thread_messages/2023_Q3/0.txt",
+        "subthreads": []
+    },
+    "4": {
+        "title": "StackRot (CVE-2023-3269): Linux kernel privilege escalation vulnerability",
+        "CVE_id": "CVE-2023-3269",
+        "no_subthreads": 2,
+        "date": ": Wed, 5 Jul 2023 20:12:01 +0800",
+        "author": ": Ruihan Li <lrh2000 () pku edu cn>",
+        "File_path": "seclist_thread_messages/2023_Q3/4.txt",
+        "subthreads": [
+            {
+                "id": "17",
+                "no_subthreads": 0,
+                "date": ": Fri, 7 Jul 2023 23:46:18 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2023_Q3/17.txt",
+                "subthreads": []
+            },
+            {
+                "id": "83",
+                "no_subthreads": 0,
+                "date": ": Fri, 28 Jul 2023 21:25:12 +0800",
+                "author": ": Ruihan Li <lrh2000 () pku edu cn>",
+                "File_path": "seclist_thread_messages/2023_Q3/83.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "5": {
+        "title": "CVE-2023-31248 - Linux kernel nf_tables UAF when using nft_chain_lookup_byid",
+        "CVE_id": "CVE-2023-31248",
+        "no_subthreads": 0,
+        "date": ": Wed, 5 Jul 2023 14:07:07 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2023_Q3/5.txt",
+        "subthreads": []
+    },
+    "6": {
+        "title": "CVE-2023-35001 - Linux kernel nf_tables nft_byteorder_eval OOB read/write",
+        "CVE_id": "CVE-2023-35001",
+        "no_subthreads": 0,
+        "date": ": Wed, 5 Jul 2023 14:09:08 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2023_Q3/6.txt",
+        "subthreads": []
+    },
+    "38": {
+        "title": "Re: Our learnings from 42 Linux kernel exploits, we are limiting io_uring",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Fri, 14 Jul 2023 20:06:56 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2023_Q3/38.txt",
+        "subthreads": [
+            {
+                "id": "42",
+                "no_subthreads": 2,
+                "date": ": Wed, 19 Jul 2023 09:47:15 +0200",
+                "author": ": Marcus Meissner <meissner () suse de>",
+                "File_path": "seclist_thread_messages/2023_Q3/42.txt",
+                "subthreads": [
+                    {
+                        "id": "69",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 25 Jul 2023 14:31:55 +0200",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2023_Q3/69.txt",
+                        "subthreads": [
+                            {
+                                "id": "71",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 25 Jul 2023 16:09:04 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2023_Q3/71.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "47",
+                "no_subthreads": 0,
+                "date": ": Wed, 19 Jul 2023 16:31:55 +0200",
+                "author": ": Tam\u00e1s Koczka <poprdi () chromium org>",
+                "File_path": "seclist_thread_messages/2023_Q3/47.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "89": {
+        "title": "Mozilla VPN: CVE-2023-4104: Privileged vpndaemon on Linux wrongly and incompletely implements Polkit authentication",
+        "CVE_id": "CVE-2023-4104",
+        "no_subthreads": 0,
+        "date": ": Thu, 3 Aug 2023 12:08:05 +0200",
+        "author": ": Matthias Gerstner <mgerstner () suse de>",
+        "File_path": "seclist_thread_messages/2023_Q3/89.txt",
+        "subthreads": []
+    },
+    "96": {
+        "title": "Xen Security Advisory 432 v2 (CVE-2023-34319) - Linux: buffer overrun in netback due to unusual packet",
+        "CVE_id": "CVE-2023-34319",
+        "no_subthreads": 0,
+        "date": ": Tue, 08 Aug 2023 17:00:04 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2023_Q3/96.txt",
+        "subthreads": []
+    },
+    "103": {
+        "title": "CVE-2023-3772: Linux kernel: xfrm_update_ae_params NULL pointer dereference",
+        "CVE_id": "CVE-2023-3772",
+        "no_subthreads": 1,
+        "date": ": Thu, 10 Aug 2023 10:13:54 +0800 (GMT+08:00)",
+        "author": ": \"Lin Ma\" <linma () zju edu cn>",
+        "File_path": "seclist_thread_messages/2023_Q3/103.txt",
+        "subthreads": [
+            {
+                "id": "105",
+                "no_subthreads": 0,
+                "date": ": Thu, 10 Aug 2023 18:09:37 +0000",
+                "author": ": Seth Arnold <seth.arnold () canonical com>",
+                "File_path": "seclist_thread_messages/2023_Q3/105.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "192": {
+        "title": "[CVE-2023-42752] integer overflow in Linux kernel leading to exploitable memory access",
+        "CVE_id": "CVE-2023-42752",
+        "no_subthreads": 0,
+        "date": ": Mon, 18 Sep 2023 13:54:03 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q3/192.txt",
+        "subthreads": []
+    },
+    "216": {
+        "title": "[CVE-2023-42753] Array Indexing error in Linux kernel",
+        "CVE_id": "CVE-2023-42753",
+        "no_subthreads": 0,
+        "date": ": Fri, 22 Sep 2023 13:15:43 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q3/216.txt",
+        "subthreads": []
+    },
+    "229": {
+        "title": "[CVE-2023-42755] Linux kernel wild pointer access <= v6.2",
+        "CVE_id": "CVE-2023-42755",
+        "no_subthreads": 3,
+        "date": ": Mon, 25 Sep 2023 13:13:19 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q3/229.txt",
+        "subthreads": [
+            {
+                "id": "231",
+                "no_subthreads": 0,
+                "date": ": Tue, 26 Sep 2023 11:50:37 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2023_Q3/231.txt",
+                "subthreads": []
+            },
+            {
+                "id": "232",
+                "no_subthreads": 0,
+                "date": ": Mon, 25 Sep 2023 15:26:01 -0700",
+                "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+                "File_path": "seclist_thread_messages/2023_Q3/232.txt",
+                "subthreads": []
+            },
+            {
+                "id": "233",
+                "no_subthreads": 0,
+                "date": ": Tue, 26 Sep 2023 06:58:45 +0200",
+                "author": ": Greg KH <gregkh () linuxfoundation org>",
+                "File_path": "seclist_thread_messages/2023_Q3/233.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "242": {
+        "title": "[CVE-2023-42756] Linux kernel race condition in netfilter",
+        "CVE_id": "CVE-2023-42756",
+        "no_subthreads": 0,
+        "date": ": Wed, 27 Sep 2023 13:44:48 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q3/242.txt",
+        "subthreads": []
+    }
+}

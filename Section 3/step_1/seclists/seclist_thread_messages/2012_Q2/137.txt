@@ -1,0 +1,14 @@
+Reported by Steve Grubb, if a process increases permissions using fcaps
+all of the dangerous personality flags which are cleared for suid apps
+should also be cleared. Thus programs given priviledge with fcaps will
+continue to have address space randomization enabled even if the parent
+tried to disable it to make it easier to attack.
+
+Upstream commit:
+http://git.kernel.org/linus/d52fc5dde171f030170a6cb78034d166b13c9445
+
+Reference:
+https://bugzilla.redhat.com/show_bug.cgi?id=806722
+
+Thanks, Eugene
+

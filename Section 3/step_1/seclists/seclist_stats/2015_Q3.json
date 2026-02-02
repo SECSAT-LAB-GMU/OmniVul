@@ -1,0 +1,243 @@
+{
+    "216": {
+        "title": "Security issue in Linux Kernel Keyring (CVE-2015-1333)",
+        "CVE_id": "CVE-2015-1333",
+        "no_subthreads": 1,
+        "date": ": Mon, 27 Jul 2015 09:18:55 -0500",
+        "author": ": Tyler Hicks <tyhicks () canonical com>",
+        "File_path": "seclist_thread_messages/2015_Q3/216.txt",
+        "subthreads": [
+            {
+                "id": "227",
+                "no_subthreads": 0,
+                "date": ": Tue, 28 Jul 2015 12:26:33 -0500",
+                "author": ": Tyler Hicks <tyhicks () canonical com>",
+                "File_path": "seclist_thread_messages/2015_Q3/227.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "221": {
+        "title": "CVE request: Linux kernel - information leak in md driver",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 28 Jul 2015 10:40:37 +0200",
+        "author": ": Benjamin Randazzo <benjamin () randazzo fr>",
+        "File_path": "seclist_thread_messages/2015_Q3/221.txt",
+        "subthreads": [
+            {
+                "id": "235",
+                "no_subthreads": 0,
+                "date": ": Wed, 29 Jul 2015 08:42:07 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/235.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "270": {
+        "title": "CVE request: Use-after-free in path lookup in Linux 3.11-4.0 inclusive",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 01 Aug 2015 17:37:42 +0100",
+        "author": ": Ben Hutchings <ben () decadent org uk>",
+        "File_path": "seclist_thread_messages/2015_Q3/270.txt",
+        "subthreads": [
+            {
+                "id": "277",
+                "no_subthreads": 0,
+                "date": ": Sun,  2 Aug 2015 09:33:01 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/277.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "271": {
+        "title": "CVE request: Integer overflow in SCSI generic driver in Linux <4.1",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 01 Aug 2015 18:16:39 +0100",
+        "author": ": Ben Hutchings <ben () decadent org uk>",
+        "File_path": "seclist_thread_messages/2015_Q3/271.txt",
+        "subthreads": [
+            {
+                "id": "278",
+                "no_subthreads": 0,
+                "date": ": Sun,  2 Aug 2015 09:34:48 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/278.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "371": {
+        "title": "CVE-2015-5706: kernel: Use-after-free in path lookup",
+        "CVE_id": "CVE-2015-5706",
+        "no_subthreads": 0,
+        "date": ": Mon, 17 Aug 2015 15:52:17 +0200",
+        "author": ": Jan Kara <jack () suse cz>",
+        "File_path": "seclist_thread_messages/2015_Q3/371.txt",
+        "subthreads": []
+    },
+    "381": {
+        "title": "CVE request: linux kernel:fd leak in vhost ioctl VHOST_SET_LOG_FD",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 17 Aug 2015 23:45:55 -0400 (EDT)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q3/381.txt",
+        "subthreads": [
+            {
+                "id": "382",
+                "no_subthreads": 0,
+                "date": ": Tue, 18 Aug 2015 01:29:53 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/382.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "383": {
+        "title": "CVE request - Linux kernel - perf on ppp64 - unbounded checks in perf_callchain_user_64 denial of service.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 18 Aug 2015 01:38:29 -0400 (EDT)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q3/383.txt",
+        "subthreads": [
+            {
+                "id": "410",
+                "no_subthreads": 0,
+                "date": ": Thu, 20 Aug 2015 12:23:51 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/410.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "429": {
+        "title": "CVE Request: Linux x86_64 NT flag issue",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Mon, 24 Aug 2015 17:27:54 -0700",
+        "author": ": Andy Lutomirski <luto () amacapital net>",
+        "File_path": "seclist_thread_messages/2015_Q3/429.txt",
+        "subthreads": [
+            {
+                "id": "430",
+                "no_subthreads": 2,
+                "date": ": Mon, 24 Aug 2015 23:21:15 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/430.txt",
+                "subthreads": [
+                    {
+                        "id": "456",
+                        "no_subthreads": 1,
+                        "date": ": Sat, 29 Aug 2015 09:34:47 -0700",
+                        "author": ": Andy Lutomirski <luto () amacapital net>",
+                        "File_path": "seclist_thread_messages/2015_Q3/456.txt",
+                        "subthreads": [
+                            {
+                                "id": "546",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 14 Sep 2015 15:37:07 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2015_Q3/546.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "482": {
+        "title": "OpenSSH: CVE-2015-6565 (pty issue in 6.8-6.9) can lead to local privesc on Linux",
+        "CVE_id": "CVE-2015-6565",
+        "no_subthreads": 0,
+        "date": ": Thu, 3 Sep 2015 03:19:31 +0200",
+        "author": ": Jann Horn <jann () thejh net>",
+        "File_path": "seclist_thread_messages/2015_Q3/482.txt",
+        "subthreads": []
+    },
+    "532": {
+        "title": "CVE request: Use-after-free in Linux kernel with aufs mmap patch",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Thu, 10 Sep 2015 20:26:30 +0100",
+        "author": ": Ben Hutchings <ben () decadent org uk>",
+        "File_path": "seclist_thread_messages/2015_Q3/532.txt",
+        "subthreads": [
+            {
+                "id": "533",
+                "no_subthreads": 1,
+                "date": ": Fri, 11 Sep 2015 04:44:06 +0900",
+                "author": ": sfjro () users sourceforge net",
+                "File_path": "seclist_thread_messages/2015_Q3/533.txt",
+                "subthreads": [
+                    {
+                        "id": "584",
+                        "no_subthreads": 0,
+                        "date": ": Sat, 19 Sep 2015 07:08:18 +0900",
+                        "author": ": sfjro () users sourceforge net",
+                        "File_path": "seclist_thread_messages/2015_Q3/584.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "602",
+                "no_subthreads": 0,
+                "date": ": Mon, 21 Sep 2015 17:50:17 +0200",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2015_Q3/602.txt",
+                "subthreads": []
+            },
+            {
+                "id": "620",
+                "no_subthreads": 0,
+                "date": ": Tue, 22 Sep 2015 16:51:17 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q3/620.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "545": {
+        "title": "CVE-2015-6937 - Linux kernel - NULL pointer dereference in net/rds/connection.c",
+        "CVE_id": "CVE-2015-6937",
+        "no_subthreads": 0,
+        "date": ": Mon, 14 Sep 2015 15:34:59 -0400 (EDT)",
+        "author": ": cve-assign () mitre org",
+        "File_path": "seclist_thread_messages/2015_Q3/545.txt",
+        "subthreads": []
+    },
+    "629": {
+        "title": "Vulnerability in WhiteHEAT Linux Driver-CVE-2015-5257",
+        "CVE_id": "CVE-2015-5257",
+        "no_subthreads": 2,
+        "date": ": Tue, 22 Sep 2015 17:49:53 -0700",
+        "author": ": Moein Ghasemzadeh <moein () istuary com>",
+        "File_path": "seclist_thread_messages/2015_Q3/629.txt",
+        "subthreads": [
+            {
+                "id": "630",
+                "no_subthreads": 1,
+                "date": ": Tue, 22 Sep 2015 20:17:06 -0700",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2015_Q3/630.txt",
+                "subthreads": [
+                    {
+                        "id": "633",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 23 Sep 2015 11:54:42 -0700",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2015_Q3/633.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+Hi Jason,
+
+Great, thanks for confirmation. Mitre already lists [1] so it seems we
+are fine.
+
+[1] http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-7477
+
+Best Regards,
+
+-- 
+Andrej Nemec, Red Hat Product Security
+3701 3214 E472 A9C3 EFBE 8A63 8904 44A1 D57B 6DDA
+
+
+
+On 04/25/2017 03:53 PM, Jason A. Donenfeld wrote:
+
+Hey Andrej,
+
+I actually didn't submit this to Mitre, just to you, so I don't think
+there'll be a duplicate.
+
+Jason
+
+
+
+
+
+signature.asc

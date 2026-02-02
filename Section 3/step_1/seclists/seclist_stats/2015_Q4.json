@@ -1,0 +1,568 @@
+{
+    "80": {
+        "title": "CVE Request - Linux kernel - securelevel/secureboot bypass.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Thu, 15 Oct 2015 02:35:02 -0400 (EDT)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/80.txt",
+        "subthreads": [
+            {
+                "id": "84",
+                "no_subthreads": 0,
+                "date": ": Thu, 15 Oct 2015 12:33:11 -0400 (EDT)",
+                "author": ": Wade Mealing <wmealing () redhat com>",
+                "File_path": "seclist_thread_messages/2015_Q4/84.txt",
+                "subthreads": []
+            },
+            {
+                "id": "85",
+                "no_subthreads": 1,
+                "date": ": Thu, 15 Oct 2015 12:58:50 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/85.txt",
+                "subthreads": [
+                    {
+                        "id": "86",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 15 Oct 2015 12:39:44 -0700",
+                        "author": ": Blibbet <blibbet () gmail com>",
+                        "File_path": "seclist_thread_messages/2015_Q4/86.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "82": {
+        "title": "CVE Request: Linux Kernel heap corruption on debug_read_tlb",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Thu, 15 Oct 2015 10:30:04 +0200",
+        "author": ": Salva Peir\u00f3 <speiro () ai2 upv es>",
+        "File_path": "seclist_thread_messages/2015_Q4/82.txt",
+        "subthreads": [
+            {
+                "id": "83",
+                "no_subthreads": 3,
+                "date": ": Thu, 15 Oct 2015 06:53:48 -0700",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2015_Q4/83.txt",
+                "subthreads": [
+                    {
+                        "id": "89",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 16 Oct 2015 08:56:46 +0200",
+                        "author": ": Salva Peir\u00f3 <speiro () ai2 upv es>",
+                        "File_path": "seclist_thread_messages/2015_Q4/89.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "90",
+                        "no_subthreads": 1,
+                        "date": ": Fri, 16 Oct 2015 11:24:53 +0200",
+                        "author": ": Florian Weimer <fweimer () redhat com>",
+                        "File_path": "seclist_thread_messages/2015_Q4/90.txt",
+                        "subthreads": [
+                            {
+                                "id": "94",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 16 Oct 2015 19:46:17 +0200",
+                                "author": ": Salva Peir\u00f3 <speiro () ai2 upv es>",
+                                "File_path": "seclist_thread_messages/2015_Q4/94.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "115": {
+        "title": "CVE Request: Linux Kernel ioctl infoleaks on vivid-osd and dgnc",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 21 Oct 2015 12:07:25 +0200",
+        "author": ": Salva Peir\u00f3 <speirofr () gmail com>",
+        "File_path": "seclist_thread_messages/2015_Q4/115.txt",
+        "subthreads": [
+            {
+                "id": "122",
+                "no_subthreads": 0,
+                "date": ": Wed, 21 Oct 2015 17:49:27 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/122.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "171": {
+        "title": "Re: CVE-2015-6937 - Linux kernel - NULL pointer dereference in net/rds/connection.c",
+        "CVE_id": "CVE-2015-6937",
+        "no_subthreads": 1,
+        "date": ": Tue, 27 Oct 2015 09:37:12 +0100",
+        "author": ": Quentin Casasnovas <quentin.casasnovas () oracle com>",
+        "File_path": "seclist_thread_messages/2015_Q4/171.txt",
+        "subthreads": [
+            {
+                "id": "179",
+                "no_subthreads": 0,
+                "date": ": Wed, 28 Oct 2015 00:57:16 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/179.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "177": {
+        "title": "CVE Request: Linux kernel: Buffer overflow when copying data from skbuff to userspace",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 27 Oct 2015 14:16:44 +0100",
+        "author": ": Sabrina Dubroca <sd () queasysnail net>",
+        "File_path": "seclist_thread_messages/2015_Q4/177.txt",
+        "subthreads": [
+            {
+                "id": "182",
+                "no_subthreads": 0,
+                "date": ": Thu, 29 Oct 2015 02:02:49 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/182.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "222": {
+        "title": "CVE request -- Linux kernel: selinux: rate-limit unrecognized netlink message warnings in selinux_nlmsg_perm()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 4 Nov 2015 10:11:16 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/222.txt",
+        "subthreads": [
+            {
+                "id": "225",
+                "no_subthreads": 0,
+                "date": ": Thu,  5 Nov 2015 10:27:32 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/225.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "248": {
+        "title": "CVE-2015-5307 kernel: kvm: guest to host DoS by triggering an infinite loop in microcode via #AC exception",
+        "CVE_id": "CVE-2015-5307",
+        "no_subthreads": 1,
+        "date": ": Tue, 10 Nov 2015 08:40:18 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/248.txt",
+        "subthreads": [
+            {
+                "id": "250",
+                "no_subthreads": 0,
+                "date": ": Tue, 10 Nov 2015 08:48:18 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2015_Q4/250.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "249": {
+        "title": "CVE-2015-8104 kernel: kvm: guest to host DoS by triggering an infinite loop in microcode via #DB exception",
+        "CVE_id": "CVE-2015-8104",
+        "no_subthreads": 0,
+        "date": ": Tue, 10 Nov 2015 08:46:26 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/249.txt",
+        "subthreads": []
+    },
+    "268": {
+        "title": "CVE request -- [media] usbvision: usbvision_probe() can trigger a kernel NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Fri, 13 Nov 2015 06:18:50 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/268.txt",
+        "subthreads": [
+            {
+                "id": "269",
+                "no_subthreads": 0,
+                "date": ": Fri, 13 Nov 2015 06:43:19 -0500 (EST)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2015_Q4/269.txt",
+                "subthreads": []
+            },
+            {
+                "id": "357",
+                "no_subthreads": 1,
+                "date": ": Mon, 23 Nov 2015 06:15:57 -0500 (EST)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2015_Q4/357.txt",
+                "subthreads": [
+                    {
+                        "id": "360",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 23 Nov 2015 16:27:48 -0500 (EST)",
+                        "author": ": cve-assign () mitre org",
+                        "File_path": "seclist_thread_messages/2015_Q4/360.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "314": {
+        "title": "CVE request - Linux kernel - Unix sockets use after free - peer_wait_queue prematurely freed",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 18 Nov 2015 02:57:37 -0500 (EST)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/314.txt",
+        "subthreads": [
+            {
+                "id": "315",
+                "no_subthreads": 0,
+                "date": ": Wed, 18 Nov 2015 10:14:52 +0100",
+                "author": ": Mathias Krause <minipli () googlemail com>",
+                "File_path": "seclist_thread_messages/2015_Q4/315.txt",
+                "subthreads": []
+            },
+            {
+                "id": "321",
+                "no_subthreads": 0,
+                "date": ": Wed, 18 Nov 2015 07:40:58 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/321.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "390": {
+        "title": "CVE-2015-5327 kernel: User triggerable out-of-bounds read",
+        "CVE_id": "CVE-2015-5327",
+        "no_subthreads": 0,
+        "date": ": Fri, 27 Nov 2015 15:12:18 +0100",
+        "author": ": Adam Maris <amaris () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/390.txt",
+        "subthreads": []
+    },
+    "391": {
+        "title": "CVE request: Linux kernel, information disclosure after file truncate on BTRFS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 27 Nov 2015 15:54:23 +0100",
+        "author": ": Johannes Segitz <jsegitz () suse com>",
+        "File_path": "seclist_thread_messages/2015_Q4/391.txt",
+        "subthreads": [
+            {
+                "id": "392",
+                "no_subthreads": 0,
+                "date": ": Fri, 27 Nov 2015 14:23:55 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/392.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "447": {
+        "title": "Xen Security Advisory 160 (CVE-2015-8341) - libxl leak of pv kernel and initrd on error",
+        "CVE_id": "CVE-2015-8341",
+        "no_subthreads": 0,
+        "date": ": Tue, 08 Dec 2015 12:02:21 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2015_Q4/447.txt",
+        "subthreads": []
+    },
+    "454": {
+        "title": "CVE request - Linux kernel - Fix handling of stored error in a negatively instantiated user key",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 9,
+        "date": ": Tue, 8 Dec 2015 20:32:03 -0500 (EST)",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/454.txt",
+        "subthreads": [
+            {
+                "id": "455",
+                "no_subthreads": 7,
+                "date": ": Wed, 9 Dec 2015 18:08:02 +0800 (CST)",
+                "author": ": xiaoqixue_1  <xiaoqixue_1 () 163 com>",
+                "File_path": "seclist_thread_messages/2015_Q4/455.txt",
+                "subthreads": [
+                    {
+                        "id": "462",
+                        "no_subthreads": 6,
+                        "date": ": Thu, 10 Dec 2015 09:13:38 +0800 (CST)",
+                        "author": ": xiaoqixue_1  <xiaoqixue_1 () 163 com>",
+                        "File_path": "seclist_thread_messages/2015_Q4/462.txt",
+                        "subthreads": [
+                            {
+                                "id": "464",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 10 Dec 2015 01:16:16 -0500 (EST)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2015_Q4/464.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "467",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 10 Dec 2015 22:04:02 +0800 (CST)",
+                                "author": ": xiaoqixue_1  <xiaoqixue_1 () 163 com>",
+                                "File_path": "seclist_thread_messages/2015_Q4/467.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "468",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 10 Dec 2015 09:23:04 -0500",
+                                "author": ": Glenn Randers-Pehrson <glennrp () gmail com>",
+                                "File_path": "seclist_thread_messages/2015_Q4/468.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "529",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 17 Dec 2015 11:39:16 -0500",
+                                "author": ": Glenn Randers-Pehrson <glennrp () gmail com>",
+                                "File_path": "seclist_thread_messages/2015_Q4/529.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "469",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 11 Dec 2015 10:36:02 -0500 (EST)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2015_Q4/469.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "470",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 11 Dec 2015 10:41:52 -0500",
+                                "author": ": Glenn Randers-Pehrson <glennrp () gmail com>",
+                                "File_path": "seclist_thread_messages/2015_Q4/470.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "465",
+                "no_subthreads": 0,
+                "date": ": Thu, 10 Dec 2015 01:19:34 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/465.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "456": {
+        "title": "CVE request - Android kernel - IPv6 connect cause a denial of service",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Wed, 9 Dec 2015 10:15:46 +0000",
+        "author": ": \u90ed\u6c38\u521a <guoyonggang () 360 cn>",
+        "File_path": "seclist_thread_messages/2015_Q4/456.txt",
+        "subthreads": [
+            {
+                "id": "457",
+                "no_subthreads": 0,
+                "date": ": Wed, 9 Dec 2015 15:31:32 +0100",
+                "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+                "File_path": "seclist_thread_messages/2015_Q4/457.txt",
+                "subthreads": []
+            },
+            {
+                "id": "458",
+                "no_subthreads": 0,
+                "date": ": Wed, 9 Dec 2015 16:37:26 +0100",
+                "author": ": Robert \u015awi\u0119cki <robert () swiecki net>",
+                "File_path": "seclist_thread_messages/2015_Q4/458.txt",
+                "subthreads": []
+            },
+            {
+                "id": "473",
+                "no_subthreads": 4,
+                "date": ": Fri, 11 Dec 2015 11:41:18 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/473.txt",
+                "subthreads": [
+                    {
+                        "id": "474",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 11 Dec 2015 18:47:35 +0100",
+                        "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+                        "File_path": "seclist_thread_messages/2015_Q4/474.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "494",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 14 Dec 2015 22:34:49 +0100",
+                        "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+                        "File_path": "seclist_thread_messages/2015_Q4/494.txt",
+                        "subthreads": [
+                            {
+                                "id": "501",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 15 Dec 2015 04:48:25 +0100",
+                                "author": ": Robert \u015awi\u0119cki <robert () swiecki net>",
+                                "File_path": "seclist_thread_messages/2015_Q4/501.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "502",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 15 Dec 2015 08:50:43 +0100",
+                                "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+                                "File_path": "seclist_thread_messages/2015_Q4/502.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "506": {
+        "title": "CVE Request: Linux Kernel: information leak from getsockname",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 15 Dec 2015 15:30:02 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2015_Q4/506.txt",
+        "subthreads": [
+            {
+                "id": "510",
+                "no_subthreads": 2,
+                "date": ": Tue, 15 Dec 2015 13:15:07 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/510.txt",
+                "subthreads": [
+                    {
+                        "id": "516",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 16 Dec 2015 12:44:30 +0100",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2015_Q4/516.txt",
+                        "subthreads": [
+                            {
+                                "id": "517",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 16 Dec 2015 10:30:19 -0500 (EST)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2015_Q4/517.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "523": {
+        "title": "Xen Security Advisory 157 (CVE-2015-8551,CVE-2015-8552) - Linux pciback missing sanity checks leading to crash",
+        "CVE_id": "CVE-2015-8551",
+        "no_subthreads": 0,
+        "date": ": Thu, 17 Dec 2015 12:42:15 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2015_Q4/523.txt",
+        "subthreads": []
+    },
+    "531": {
+        "title": "CVE Request: Linux kernel: privilege escalation in user namespaces",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 8,
+        "date": ": Thu, 17 Dec 2015 14:39:58 -0800",
+        "author": ": John Johansen <john.johansen () canonical com>",
+        "File_path": "seclist_thread_messages/2015_Q4/531.txt",
+        "subthreads": [
+            {
+                "id": "533",
+                "no_subthreads": 1,
+                "date": ": Fri, 18 Dec 2015 00:07:19 +0100",
+                "author": ": Jann Horn <jann () thejh net>",
+                "File_path": "seclist_thread_messages/2015_Q4/533.txt",
+                "subthreads": [
+                    {
+                        "id": "534",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 17 Dec 2015 23:54:03 +0000",
+                        "author": ": Serge Hallyn <serge.hallyn () ubuntu com>",
+                        "File_path": "seclist_thread_messages/2015_Q4/534.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "536",
+                "no_subthreads": 0,
+                "date": ": Fri, 18 Dec 2015 03:49:04 +0300",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2015_Q4/536.txt",
+                "subthreads": []
+            },
+            {
+                "id": "537",
+                "no_subthreads": 1,
+                "date": ": Fri, 18 Dec 2015 08:54:53 +0000",
+                "author": ": Fiedler Roman <Roman.Fiedler () ait ac at>",
+                "File_path": "seclist_thread_messages/2015_Q4/537.txt",
+                "subthreads": [
+                    {
+                        "id": "538",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 18 Dec 2015 07:11:35 -0500",
+                        "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+                        "File_path": "seclist_thread_messages/2015_Q4/538.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "593",
+                "no_subthreads": 0,
+                "date": ": Mon, 28 Dec 2015 07:44:39 +0100",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2015_Q4/593.txt",
+                "subthreads": []
+            },
+            {
+                "id": "614",
+                "no_subthreads": 0,
+                "date": ": Thu, 31 Dec 2015 14:43:50 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/614.txt",
+                "subthreads": []
+            },
+            {
+                "id": "546",
+                "no_subthreads": 0,
+                "date": ": Mon, 21 Dec 2015 09:05:27 +0000",
+                "author": ": Fiedler Roman <Roman.Fiedler () ait ac at>",
+                "File_path": "seclist_thread_messages/2015_Q4/546.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "571": {
+        "title": "CVE request -- linux kernel: overlay: fix permission checking for setattr",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 23 Dec 2015 11:55:14 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2015_Q4/571.txt",
+        "subthreads": [
+            {
+                "id": "575",
+                "no_subthreads": 0,
+                "date": ": Wed, 23 Dec 2015 16:46:03 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2015_Q4/575.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

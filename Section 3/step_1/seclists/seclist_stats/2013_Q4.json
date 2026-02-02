@@ -1,0 +1,350 @@
+{
+    "178": {
+        "title": "CVE request: Linux kernel: net: memory corruption with UDP_CORK and UFO",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 25 Oct 2013 19:41:24 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/178.txt",
+        "subthreads": [
+            {
+                "id": "179",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Oct 2013 14:07:31 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/179.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "194": {
+        "title": "CVE Request -- Linux kernel: ipc: ipc_rcu_putref refcount races",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 30 Oct 2013 15:52:31 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/194.txt",
+        "subthreads": [
+            {
+                "id": "195",
+                "no_subthreads": 0,
+                "date": ": Wed, 30 Oct 2013 10:03:20 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/195.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "275": {
+        "title": "CVE-2013-4563 -- Linux kernel: net: large udp packet over IPv6 over UFO-enabled device with TBF qdisc panic",
+        "CVE_id": "CVE-2013-4563",
+        "no_subthreads": 1,
+        "date": ": Wed, 13 Nov 2013 18:34:38 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/275.txt",
+        "subthreads": [
+            {
+                "id": "276",
+                "no_subthreads": 0,
+                "date": ": Wed, 13 Nov 2013 12:37:03 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/276.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "288": {
+        "title": "CVE-2013-6282 - linux kernel: missing access checks in get_user/put_user on ARM",
+        "CVE_id": "CVE-2013-6282",
+        "no_subthreads": 0,
+        "date": ": Thu, 14 Nov 2013 21:57:25 +0100",
+        "author": ": Nico Golde <oss-security+ml () ngolde de>",
+        "File_path": "seclist_thread_messages/2013_Q4/288.txt",
+        "subthreads": []
+    },
+    "301": {
+        "title": "CVE request: Linux kernel: net: ipvs stack buffer overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 15 Nov 2013 14:12:52 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/301.txt",
+        "subthreads": [
+            {
+                "id": "302",
+                "no_subthreads": 0,
+                "date": ": Fri, 15 Nov 2013 06:49:41 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/302.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "312": {
+        "title": "CVE-2013-4591 -- Linux kernel: kernel: nfs: missing check for buffer length in __nfs4_get_acl_uncached",
+        "CVE_id": "CVE-2013-4591",
+        "no_subthreads": 0,
+        "date": ": Mon, 18 Nov 2013 15:46:49 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/312.txt",
+        "subthreads": []
+    },
+    "313": {
+        "title": "CVE-2013-4592 -- Linux kernel: kvm: memory leak when memory slot is moved with assigned device",
+        "CVE_id": "CVE-2013-4592",
+        "no_subthreads": 0,
+        "date": ": Mon, 18 Nov 2013 16:17:29 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/313.txt",
+        "subthreads": []
+    },
+    "318": {
+        "title": "CVE requests for three Linux kernel issues",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 19 Nov 2013 21:14:14 +0100",
+        "author": ": Moritz Muehlenhoff <jmm () debian org>",
+        "File_path": "seclist_thread_messages/2013_Q4/318.txt",
+        "subthreads": [
+            {
+                "id": "319",
+                "no_subthreads": 2,
+                "date": ": Tue, 19 Nov 2013 21:58:50 +0100",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/319.txt",
+                "subthreads": [
+                    {
+                        "id": "320",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 20 Nov 2013 12:19:47 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q4/320.txt",
+                        "subthreads": [
+                            {
+                                "id": "321",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 20 Nov 2013 09:44:14 +0100",
+                                "author": ": Daniel Borkmann <dborkman () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q4/321.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "330": {
+        "title": "Linux kernel CVE fixes",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 22 Nov 2013 13:16:45 -0800",
+        "author": ": Kees Cook <keescook () chromium org>",
+        "File_path": "seclist_thread_messages/2013_Q4/330.txt",
+        "subthreads": [
+            {
+                "id": "352",
+                "no_subthreads": 0,
+                "date": ": Wed, 27 Nov 2013 09:41:32 +0100",
+                "author": ": Marcus Meissner <meissner () suse de>",
+                "File_path": "seclist_thread_messages/2013_Q4/352.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "332": {
+        "title": "CVE request: Kernel MSM - Memory leak in drivers/base/genlock.c",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Mon, 25 Nov 2013 12:12:16 +0000",
+        "author": ": Jonathan Salwan <jonathan.salwan () gmail com>",
+        "File_path": "seclist_thread_messages/2013_Q4/332.txt",
+        "subthreads": [
+            {
+                "id": "334",
+                "no_subthreads": 3,
+                "date": ": Mon, 25 Nov 2013 14:39:48 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/334.txt",
+                "subthreads": [
+                    {
+                        "id": "335",
+                        "no_subthreads": 2,
+                        "date": ": Tue, 26 Nov 2013 00:57:23 +0000",
+                        "author": ": \"Christey, Steven M.\" <coley () mitre org>",
+                        "File_path": "seclist_thread_messages/2013_Q4/335.txt",
+                        "subthreads": [
+                            {
+                                "id": "336",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Nov 2013 17:20:17 -0800",
+                                "author": ": Seth Arnold <seth.arnold () canonical com>",
+                                "File_path": "seclist_thread_messages/2013_Q4/336.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "337",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Nov 2013 17:17:18 -0800 (PST)",
+                                "author": ": Ramon de C Valle <rdecvalle () vmware com>",
+                                "File_path": "seclist_thread_messages/2013_Q4/337.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "367": {
+        "title": "CVE Request: Linux kernel: net: uninitialised memory leakage",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Thu, 28 Nov 2013 23:10:46 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/367.txt",
+        "subthreads": [
+            {
+                "id": "368",
+                "no_subthreads": 0,
+                "date": ": Thu, 28 Nov 2013 10:51:58 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/368.txt",
+                "subthreads": []
+            },
+            {
+                "id": "369",
+                "no_subthreads": 1,
+                "date": ": Thu, 28 Nov 2013 19:02:00 +0100",
+                "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+                "File_path": "seclist_thread_messages/2013_Q4/369.txt",
+                "subthreads": [
+                    {
+                        "id": "370",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 28 Nov 2013 23:56:26 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q4/370.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "424": {
+        "title": "CVE request: Kernel: ping: NULL pointer dereference on write to msg_name",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 6 Dec 2013 19:13:32 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/424.txt",
+        "subthreads": [
+            {
+                "id": "426",
+                "no_subthreads": 1,
+                "date": ": Fri, 6 Dec 2013 18:01:53 +0400",
+                "author": ": Vasily Kulikov <segoon () openwall com>",
+                "File_path": "seclist_thread_messages/2013_Q4/426.txt",
+                "subthreads": [
+                    {
+                        "id": "428",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 06 Dec 2013 11:43:55 -0700",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q4/428.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "425": {
+        "title": "CVE request: Linux kernel: net: fib: fib6_add: potential NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 6 Dec 2013 19:16:01 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/425.txt",
+        "subthreads": [
+            {
+                "id": "427",
+                "no_subthreads": 0,
+                "date": ": Fri, 06 Dec 2013 11:43:14 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/427.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "455": {
+        "title": "CVE request: Linux kernel: net: memory leak in recvmsg handler msg_name & msg_namelen logic",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 10 Dec 2013 13:00:43 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/455.txt",
+        "subthreads": [
+            {
+                "id": "456",
+                "no_subthreads": 2,
+                "date": ": Tue, 10 Dec 2013 10:30:37 +0100",
+                "author": ": Marcus Meissner <meissner () suse de>",
+                "File_path": "seclist_thread_messages/2013_Q4/456.txt",
+                "subthreads": [
+                    {
+                        "id": "472",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 11 Dec 2013 11:16:29 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q4/472.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "577",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 31 Dec 2013 12:09:24 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q4/577.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "578": {
+        "title": "CVE request - kernel: char: Int overflow in lp_do_ioctl()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 31 Dec 2013 14:33:57 +0800",
+        "author": ": Yongjian Xu <xuyongjiande () gmail com>",
+        "File_path": "seclist_thread_messages/2013_Q4/578.txt",
+        "subthreads": [
+            {
+                "id": "579",
+                "no_subthreads": 0,
+                "date": ": Mon, 30 Dec 2013 23:05:01 -0800",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2013_Q4/579.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "580": {
+        "title": "CVE request: Linux kernel: net: memory leak in recvmsg handlermsg_name & msg_namelen logic",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 31 Dec 2013 12:36:54 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q4/580.txt",
+        "subthreads": [
+            {
+                "id": "581",
+                "no_subthreads": 0,
+                "date": ": Tue, 31 Dec 2013 00:42:32 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q4/581.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

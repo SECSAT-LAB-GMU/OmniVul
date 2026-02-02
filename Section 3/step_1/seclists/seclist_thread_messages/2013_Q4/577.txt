@@ -1,0 +1,13 @@
+  Hello,
+
++-- On Tue, 10 Dec 2013, Marcus Meissner wrote --+
+| CVE-2013-6405 covers parts of that already I think and could be extended?
+
+So, do we use the same CVE for this issue too? Or does it qualify for a 
+separate one?? (just checking) I think a separate CVE would be good, but not 
+sure how such cases are handled previously.
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Security Response Team
+

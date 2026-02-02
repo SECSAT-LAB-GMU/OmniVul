@@ -1,0 +1,343 @@
+{
+    "9": {
+        "title": "Re: CVE-2018-1000204: Linux kernel 3.18 to 4.16 infoleak due to incorrect handling of SG_IO ioctl",
+        "CVE_id": "CVE-2018-1000204",
+        "no_subthreads": 0,
+        "date": ": Tue, 3 Jul 2018 17:13:14 +0200",
+        "author": ": Alexander Potapenko <glider () google com>",
+        "File_path": "seclist_thread_messages/2018_Q3/9.txt",
+        "subthreads": []
+    },
+    "35": {
+        "title": "CVE-2018-13405: Linux kernel: fs/inode.c:inode_init_owner() function mishandled a file creation in setgid directories",
+        "CVE_id": "CVE-2018-13405",
+        "no_subthreads": 0,
+        "date": ": Fri, 13 Jul 2018 09:25:48 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/35.txt",
+        "subthreads": []
+    },
+    "57": {
+        "title": "[CVE-2018-10906] libfuse: restriction bypass of the \"allow_other\" option when SELinux is active",
+        "CVE_id": "CVE-2018-10906",
+        "no_subthreads": 0,
+        "date": ": Tue, 24 Jul 2018 12:27:56 +0100",
+        "author": ": Nikolaus Rath <nikolaus () rath org>",
+        "File_path": "seclist_thread_messages/2018_Q3/57.txt",
+        "subthreads": []
+    },
+    "69": {
+        "title": "Xen Security Advisory 274 v2 (CVE-2018-14678) - Linux: Uninitialized state in x86 PV failsafe callback path",
+        "CVE_id": "CVE-2018-14678",
+        "no_subthreads": 0,
+        "date": ": Tue, 31 Jul 2018 10:14:04 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2018_Q3/69.txt",
+        "subthreads": []
+    },
+    "76": {
+        "title": "Linux kernel: CVE-2017-18344: arbitrary-read vulnerability in the timer subsystem",
+        "CVE_id": "CVE-2017-18344",
+        "no_subthreads": 2,
+        "date": ": Thu, 2 Aug 2018 20:57:07 +0200",
+        "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+        "File_path": "seclist_thread_messages/2018_Q3/76.txt",
+        "subthreads": [
+            {
+                "id": "93",
+                "no_subthreads": 1,
+                "date": ": Thu, 9 Aug 2018 16:21:03 +0200",
+                "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+                "File_path": "seclist_thread_messages/2018_Q3/93.txt",
+                "subthreads": [
+                    {
+                        "id": "94",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 9 Aug 2018 16:27:38 +0100",
+                        "author": ": Simon McVittie <smcv () debian org>",
+                        "File_path": "seclist_thread_messages/2018_Q3/94.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "86": {
+        "title": "Linux TCP implementation vulnerable to Denial of Service (CVE 2018-5390)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 12,
+        "date": ": Wed, 8 Aug 2018 08:44:28 -0700",
+        "author": ": Matthew Garrett <mjg59 () google com>",
+        "File_path": "seclist_thread_messages/2018_Q3/86.txt",
+        "subthreads": [
+            {
+                "id": "90",
+                "no_subthreads": 11,
+                "date": ": Thu, 09 Aug 2018 07:12:27 +0000",
+                "author": ": Stiepan <stie@itk.swiss>",
+                "File_path": "seclist_thread_messages/2018_Q3/90.txt",
+                "subthreads": [
+                    {
+                        "id": "91",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 9 Aug 2018 15:16:26 +0300",
+                        "author": ": \"Reinis Rozitis\" <r () roze lv>",
+                        "File_path": "seclist_thread_messages/2018_Q3/91.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "92",
+                        "no_subthreads": 7,
+                        "date": ": Thu, 9 Aug 2018 14:51:20 +0200",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2018_Q3/92.txt",
+                        "subthreads": [
+                            {
+                                "id": "95",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 09 Aug 2018 15:34:42 +0000",
+                                "author": ": Stiepan <stie@itk.swiss>",
+                                "File_path": "seclist_thread_messages/2018_Q3/95.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "97",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 9 Aug 2018 11:48:09 -0400",
+                                "author": ": \"David T.\" <davidmthomsen () gmail com>",
+                                "File_path": "seclist_thread_messages/2018_Q3/97.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "98",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 9 Aug 2018 18:17:54 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q3/98.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "100",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 9 Aug 2018 10:11:38 -0700",
+                                "author": ": Kurt H Maier <khm () sciops net>",
+                                "File_path": "seclist_thread_messages/2018_Q3/100.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "101",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 9 Aug 2018 19:22:52 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q3/101.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "102",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 09 Aug 2018 21:34:48 +0000",
+                                "author": ": Stiepan <stie () protonmail ch>",
+                                "File_path": "seclist_thread_messages/2018_Q3/102.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "99",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 9 Aug 2018 09:38:28 -0700",
+                                "author": ": Matthew Garrett <mjg59 () google com>",
+                                "File_path": "seclist_thread_messages/2018_Q3/99.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "103",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 10 Aug 2018 09:29:05 +1000 (EST)",
+                        "author": ": Dave Horsfall <dave () horsfall org>",
+                        "File_path": "seclist_thread_messages/2018_Q3/103.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "104",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 10 Aug 2018 15:14:46 +1200",
+                        "author": ": Amos Jeffries <squid3 () treenet co nz>",
+                        "File_path": "seclist_thread_messages/2018_Q3/104.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "119": {
+        "title": "CVE-2018-5391: Linux kernel: IP fragments with random offsets allow a remote denial of service (FragmentSmack)",
+        "CVE_id": "CVE-2018-5391",
+        "no_subthreads": 2,
+        "date": ": Tue, 14 Aug 2018 16:30:51 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/119.txt",
+        "subthreads": [
+            {
+                "id": "120",
+                "no_subthreads": 1,
+                "date": ": Tue, 14 Aug 2018 17:09:38 -0400",
+                "author": ": \"David T.\" <davidmthomsen () gmail com>",
+                "File_path": "seclist_thread_messages/2018_Q3/120.txt",
+                "subthreads": [
+                    {
+                        "id": "121",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 15 Aug 2018 12:06:54 +0200",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2018_Q3/121.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "123": {
+        "title": "Xen Security Advisory 274 v3 (CVE-2018-14678) - Linux: Uninitialized state in x86 PV failsafe callback path",
+        "CVE_id": "CVE-2018-14678",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Aug 2018 16:09:51 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2018_Q3/123.txt",
+        "subthreads": []
+    },
+    "140": {
+        "title": "Xen Security Advisory 270 v3 (CVE-2018-15471) - Linux netback driver OOB access in hash handling",
+        "CVE_id": "CVE-2018-15471",
+        "no_subthreads": 0,
+        "date": ": Mon, 20 Aug 2018 09:47:46 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2018_Q3/140.txt",
+        "subthreads": []
+    },
+    "141": {
+        "title": "CVE-2018-10902 - linux kernel - double free in midi subsystem",
+        "CVE_id": "CVE-2018-10902",
+        "no_subthreads": 0,
+        "date": ": Tue, 21 Aug 2018 13:29:34 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/141.txt",
+        "subthreads": []
+    },
+    "179": {
+        "title": "CVE-2018-10938: Linux kernel: net: infinite loop in net/ipv4/cipso_ipv4.c:cipso_v4_optptr() allows a remote DoS",
+        "CVE_id": "CVE-2018-10938",
+        "no_subthreads": 1,
+        "date": ": Mon, 27 Aug 2018 05:25:15 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/179.txt",
+        "subthreads": [
+            {
+                "id": "191",
+                "no_subthreads": 0,
+                "date": ": Tue, 28 Aug 2018 14:55:30 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2018_Q3/191.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "184": {
+        "title": "Linux kernel: CVE-2018-14619 kernel: crash (possible privesc) in kernel crypto subsystem.",
+        "CVE_id": "CVE-2018-14619",
+        "no_subthreads": 4,
+        "date": ": Tue, 28 Aug 2018 16:49:14 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/184.txt",
+        "subthreads": [
+            {
+                "id": "190",
+                "no_subthreads": 3,
+                "date": ": Tue, 28 Aug 2018 14:51:40 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2018_Q3/190.txt",
+                "subthreads": [
+                    {
+                        "id": "192",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 28 Aug 2018 15:08:18 +0200",
+                        "author": ": Florian Weimer <fweimer () redhat com>",
+                        "File_path": "seclist_thread_messages/2018_Q3/192.txt",
+                        "subthreads": [
+                            {
+                                "id": "193",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 28 Aug 2018 15:18:00 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2018_Q3/193.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "209",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 3 Sep 2018 19:26:53 +1000",
+                        "author": ": Wade Mealing <wmealing () redhat com>",
+                        "File_path": "seclist_thread_messages/2018_Q3/209.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "208": {
+        "title": "CVE-2018-10853 kernel: kvm: guest userspace to guest kernel write",
+        "CVE_id": "CVE-2018-10853",
+        "no_subthreads": 0,
+        "date": ": Mon, 3 Sep 2018 00:10:05 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/208.txt",
+        "subthreads": []
+    },
+    "212": {
+        "title": "CVE-2018-6554 and CVE-2018-6555: Linux kernel: irda memory leak and use after free",
+        "CVE_id": "CVE-2018-6554",
+        "no_subthreads": 1,
+        "date": ": Tue, 4 Sep 2018 11:47:06 -0500",
+        "author": ": Tyler Hicks <tyhicks () canonical com>",
+        "File_path": "seclist_thread_messages/2018_Q3/212.txt",
+        "subthreads": [
+            {
+                "id": "218",
+                "no_subthreads": 0,
+                "date": ": Wed, 5 Sep 2018 04:47:46 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2018_Q3/218.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "248": {
+        "title": "CVE-2018-14641: Linux kernel: a security flaw in the ip_frag_reasm()",
+        "CVE_id": "CVE-2018-14641",
+        "no_subthreads": 0,
+        "date": ": Tue, 18 Sep 2018 06:02:29 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/248.txt",
+        "subthreads": []
+    },
+    "270": {
+        "title": "CVE-2018-14633: Linux kernel: security flaw in iscsi target code",
+        "CVE_id": "CVE-2018-14633",
+        "no_subthreads": 0,
+        "date": ": Mon, 24 Sep 2018 06:03:44 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q3/270.txt",
+        "subthreads": []
+    },
+    "274": {
+        "title": "Integer overflow in Linux's create_elf_tables() (CVE-2018-14634)",
+        "CVE_id": "CVE-2018-14634",
+        "no_subthreads": 0,
+        "date": ": Tue, 25 Sep 2018 10:07:53 -0700",
+        "author": ": Qualys Security Advisory <qsa () qualys com>",
+        "File_path": "seclist_thread_messages/2018_Q3/274.txt",
+        "subthreads": []
+    }
+}

@@ -1,0 +1,8 @@
+http://pastebin.com/a9BrSGFY
+
+I'd guess some might find this useful, worked on every x86-64 Arch
+encountered since 3.3. Might be fun to port this to detect other
+distros (since arch is the only rolling kernel widely used, the need
+never arose).
+
+archer.c

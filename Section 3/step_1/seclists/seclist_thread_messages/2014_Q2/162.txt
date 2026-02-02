@@ -1,0 +1,11 @@
+It is possible to reconfigure the network on Linux by calling write(2)
+on an appropriately connected network socket.  By passing such a
+socket as stdout or stderr to a setuid program, anyone can reconfigure
+the network.
+
+Eric Biederman sent patches to netdev containing a possible fix.
+
+-- 
+Andy Lutomirski
+AMA Capital Management, LLC
+

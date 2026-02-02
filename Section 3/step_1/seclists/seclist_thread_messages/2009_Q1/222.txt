@@ -1,0 +1,11 @@
+According to the upstream commit 76a67ec6, an unprivileged client can,
+for example, create a device node on a filesystem exported with
+root_squash as CAP_MKNOD is not among the capabilities dropped when an
+nfsd thread handles a request from a non-root user. I believe this
+problem was introduced in upstream commit e338d263a (follows: v2.6.24;
+precedes: v2.6.25-rc1).
+
+http://groups.google.com/group/fa.linux.kernel/browse_thread/thread/665b99fdc970bee3
+
+Thanks, Eugene
+

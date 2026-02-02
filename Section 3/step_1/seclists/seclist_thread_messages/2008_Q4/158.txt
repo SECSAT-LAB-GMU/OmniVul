@@ -1,0 +1,22 @@
+Steven M. Christey wrote:
+
+On Mon, 10 Nov 2008, Eugene Teo wrote:
+
+
+Both patches validate the catalog name length.
+
+
+
+Thanks for the clarification.
+
+Is there any reference for this issue (say, a bug ID) besides your post to
+oss-security?
+
+
+
+Yes.
+
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-5025
+
+Thanks, Eugene
+

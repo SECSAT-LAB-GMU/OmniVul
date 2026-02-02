@@ -1,0 +1,18 @@
+On 11/08/2011 09:20 PM, Eugene Teo wrote:
+
+Also, security () kernel org is unavailable, is there any substitution of
+this email?
+
+
+
+I'm still finding out. Meanwhile, if you need help with coordination,
+ping me.
+
+
+
+Looks like it works now.
+
+Thanks, Eugene
+-- 
+Eugene Teo / Red Hat Security Response Team
+

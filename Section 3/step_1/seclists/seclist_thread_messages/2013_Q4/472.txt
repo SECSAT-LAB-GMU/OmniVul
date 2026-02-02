@@ -1,0 +1,15 @@
++-- On Tue, 10 Dec 2013, Marcus Meissner wrote --+
+| CVE-2013-6405 covers parts of that already I think and could be extended?
+
+  True, that one fixes the individual recvmsg handlers, whereas 'f3d3342602' 
+is one step before that.
+
+Small correction:
+
+  this is an information leak, not memory leak. Content of Kernel memory bytes 
+was inadvertently passed to user space.
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Security Response Team
+

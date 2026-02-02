@@ -1,0 +1,11 @@
+Please assign an id for a somewhat minor information disclosure in
+util-linux.  Details (including commit ids) about the problem can be
+found in the Debian bug report:
+http://bugs.debian.org/697464
+
+Based on the git commit log, the relevant commits appear to be first
+included with the v2.23 release.
+
+Thanks,
+Mike
+

@@ -1,0 +1,224 @@
+{
+    "14": {
+        "title": "CVE-2023-1281, CVE-2023-1829: Linux kernel: Vulnerabilities in the tcindex classifier",
+        "CVE_id": "CVE-2023-1281",
+        "no_subthreads": 0,
+        "date": ": Wed, 12 Apr 2023 01:03:04 +0200",
+        "author": ": valis <sec@valis.email>",
+        "File_path": "seclist_thread_messages/2023_Q2/14.txt",
+        "subthreads": []
+    },
+    "31": {
+        "title": "CVE-2023-2002: Linux Bluetooth: Unauthorized management command execution",
+        "CVE_id": "CVE-2023-2002",
+        "no_subthreads": 18,
+        "date": ": Sun, 16 Apr 2023 18:12:18 +0800",
+        "author": ": Ruihan Li <lrh2000 () pku edu cn>",
+        "File_path": "seclist_thread_messages/2023_Q2/31.txt",
+        "subthreads": [
+            {
+                "id": "32",
+                "no_subthreads": 10,
+                "date": ": Sun, 16 Apr 2023 22:57:27 +0200",
+                "author": ": Steffen Nurpmeso <steffen () sdaoden eu>",
+                "File_path": "seclist_thread_messages/2023_Q2/32.txt",
+                "subthreads": [
+                    {
+                        "id": "33",
+                        "no_subthreads": 1,
+                        "date": ": Mon, 17 Apr 2023 08:40:47 +0200",
+                        "author": ": Jakub Wilk <jwilk () jwilk net>",
+                        "File_path": "seclist_thread_messages/2023_Q2/33.txt",
+                        "subthreads": [
+                            {
+                                "id": "36",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 00:53:30 +0200",
+                                "author": ": Steffen Nurpmeso <steffen () sdaoden eu>",
+                                "File_path": "seclist_thread_messages/2023_Q2/36.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "37",
+                        "no_subthreads": 7,
+                        "date": ": Tue, 18 Apr 2023 02:57:41 +0200",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2023_Q2/37.txt",
+                        "subthreads": [
+                            {
+                                "id": "46",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 20:41:35 +0800",
+                                "author": ": Ruihan Li <lrh2000 () pku edu cn>",
+                                "File_path": "seclist_thread_messages/2023_Q2/46.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "48",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 08:27:16 -0600",
+                                "author": ": \"Todd C. Miller\" <Todd.Miller () sudo ws>",
+                                "File_path": "seclist_thread_messages/2023_Q2/48.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "53",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 19 Apr 2023 02:59:26 +0800",
+                                "author": ": Ruihan Li <lrh2000 () pku edu cn>",
+                                "File_path": "seclist_thread_messages/2023_Q2/53.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "54",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 13:24:21 -0600",
+                                "author": ": \"Todd C. Miller\" <Todd.Miller () sudo ws>",
+                                "File_path": "seclist_thread_messages/2023_Q2/54.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "58",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 22:12:29 +0200",
+                                "author": ": Steffen Nurpmeso <steffen () sdaoden eu>",
+                                "File_path": "seclist_thread_messages/2023_Q2/58.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "65",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 22:52:56 -0700",
+                                "author": ": nightmare.yeah27 () aceecat org",
+                                "File_path": "seclist_thread_messages/2023_Q2/65.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "75",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 20 Apr 2023 00:11:44 +0200",
+                                "author": ": Steffen Nurpmeso <steffen () sdaoden eu>",
+                                "File_path": "seclist_thread_messages/2023_Q2/75.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "49",
+                "no_subthreads": 6,
+                "date": ": Tue, 18 Apr 2023 17:40:16 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2023_Q2/49.txt",
+                "subthreads": [
+                    {
+                        "id": "51",
+                        "no_subthreads": 5,
+                        "date": ": Tue, 18 Apr 2023 20:13:24 +0300",
+                        "author": ": 0xef967c36 () gmail com",
+                        "File_path": "seclist_thread_messages/2023_Q2/51.txt",
+                        "subthreads": [
+                            {
+                                "id": "52",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 19 Apr 2023 02:37:35 +0800",
+                                "author": ": Ruihan Li <lrh2000 () pku edu cn>",
+                                "File_path": "seclist_thread_messages/2023_Q2/52.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "57",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 23:00:13 +0300",
+                                "author": ": 0xef967c36 () gmail com",
+                                "File_path": "seclist_thread_messages/2023_Q2/57.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "55",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 21:28:22 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2023_Q2/55.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "59",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 23:53:39 +0300",
+                                "author": ": 0xef967c36 () gmail com",
+                                "File_path": "seclist_thread_messages/2023_Q2/59.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "60",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 18 Apr 2023 23:27:20 +0200",
+                                "author": ": Steffen Nurpmeso <steffen () sdaoden eu>",
+                                "File_path": "seclist_thread_messages/2023_Q2/60.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "62": {
+        "title": "CVE-2023-2124: OOB access in the Linux kernel's XFS subsystem",
+        "CVE_id": "CVE-2023-2124",
+        "no_subthreads": 0,
+        "date": ": Wed, 19 Apr 2023 11:57:31 +0800",
+        "author": ": Kyle Zeng <yzeng56 () asu edu>",
+        "File_path": "seclist_thread_messages/2023_Q2/62.txt",
+        "subthreads": []
+    },
+    "133": {
+        "title": "[CVE-2023-32233] Linux kernel use-after-free in Netfilter nf_tables when processing batch requests can be abused to perform arbitrary reads and writes in kernel memory",
+        "CVE_id": "CVE-2023-32233",
+        "no_subthreads": 1,
+        "date": ": Mon, 8 May 2023 16:58:20 +0100",
+        "author": ": Piotr Krysiuk <piotras () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q2/133.txt",
+        "subthreads": [
+            {
+                "id": "159",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 May 2023 20:13:55 +0100",
+                "author": ": Piotr Krysiuk <piotras () gmail com>",
+                "File_path": "seclist_thread_messages/2023_Q2/159.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "235": {
+        "title": "Our learnings from 42 Linux kernel exploits, we are limiting io_uring",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Fri, 16 Jun 2023 11:43:49 +0200",
+        "author": ": Tam\u00e1s Koczka <poprdi () chromium org>",
+        "File_path": "seclist_thread_messages/2023_Q2/235.txt",
+        "subthreads": []
+    },
+    "276": {
+        "title": "CVE-2023-3338: Linux Kernel NULL Pointer Dereference in DECnet",
+        "CVE_id": "CVE-2023-3338",
+        "no_subthreads": 1,
+        "date": ": Sat, 24 Jun 2023 16:11:36 +0000",
+        "author": ": Ornaghi Davide - Betrusted <davide.ornaghi () betrusted it>",
+        "File_path": "seclist_thread_messages/2023_Q2/276.txt",
+        "subthreads": [
+            {
+                "id": "277",
+                "no_subthreads": 0,
+                "date": ": Sat, 24 Jun 2023 09:38:31 -0700",
+                "author": ": Peter Philip Pettersson <philip.pettersson () gmail com>",
+                "File_path": "seclist_thread_messages/2023_Q2/277.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

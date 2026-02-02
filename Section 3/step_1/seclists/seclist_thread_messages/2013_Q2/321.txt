@@ -1,0 +1,14 @@
+On 14 May 2013 14:25, Marc Deslauriers <marc.deslauriers () canonical com> wrote:
+[...]
+
+(BTW, there is currently an exploit for this going around...)
+
+
+
+It is in ycombinator, it can't be any more public:
+https://news.ycombinator.com/item?id=5703758
+
+--
+Raphael Geissert - Debian Developer
+www.debian.org - get.debian.net
+

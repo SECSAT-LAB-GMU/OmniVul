@@ -1,0 +1,15 @@
+Reported by Eugene Teo. While creating a file on a server which supports 
+
+Unix extensions such as Samba, if a file being created does not supply 
+
+nameidata (i.e. nd is NULL), cifs client can trigger a NULL pointer 
+
+dereference when calling cifs_posix_open().
+
+
+
+http://comments.gmane.org/gmane.linux.file-systems.cifs/5782
+https://bugzilla.redhat.com/579445
+
+Thanks, Eugene
+

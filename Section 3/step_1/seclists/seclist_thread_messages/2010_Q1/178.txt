@@ -1,0 +1,22 @@
+
+On 02/11/2010 01:08 PM, Eugene Teo wrote:
+
+
+ipv6: Fix OOPS in ip6_dst_lookup_tail().
+
+This fixes kernel bugzilla 11469: "TUN with 1024 neighbours:
+ip6_dst_lookup_tail NULL crash"
+
+dst->neighbour is not necessarily hooked up at this point in the
+processing path, so blindly dereferencing it is the wrong thing to do.
+This NULL check exists in other similar paths and this case was just an
+oversight.
+
+
+
+Steve, can you please assign a CVE name for this?
+
+Thanks, Eugene
+--
+Eugene Teo / Red Hat Security Response Team
+

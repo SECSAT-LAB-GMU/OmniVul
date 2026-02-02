@@ -1,0 +1,30 @@
+
+   Hello,
+
+
+Linux kernel built with the TCP/IP networking support(CONFIG_NET) is 
+
+vulnerable to a NULL pointer dereference flaw. It could occur via a plain 
+
+read(2) call on a ping socket. Usage of ping sockets is generally restricted 
+
+to privileged users.
+
+
+
+A user/program able to read from ping sockets could use this flaw to crash a
+system resulting in DoS.
+
+Upstream fix:
+-------------
+ -> https://git.kernel.org/linus/cf970c002d270c36202bd5b9c2804d3097a52da0
+
+Reference:
+----------
+ -> https://bugzilla.redhat.com/show_bug.cgi?id=1039046
+
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Security Response Team
+

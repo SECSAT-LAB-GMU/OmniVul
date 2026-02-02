@@ -1,0 +1,250 @@
+{
+    "21": {
+        "title": "Xen Security Advisory 405 v3 (CVE-2022-33743) - network backend may cause Linux netfront to use freed SKBs",
+        "CVE_id": "CVE-2022-33743",
+        "no_subthreads": 0,
+        "date": ": Tue, 05 Jul 2022 12:04:18 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2022_Q3/21.txt",
+        "subthreads": []
+    },
+    "22": {
+        "title": "Xen Security Advisory 403 v3 (CVE-2022-26365,CVE-2022-33740,CVE-2022-33741,CVE-2022-33742) - Linux disk/nic frontends data leaks",
+        "CVE_id": "CVE-2022-26365",
+        "no_subthreads": 0,
+        "date": ": Tue, 05 Jul 2022 12:04:14 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2022_Q3/22.txt",
+        "subthreads": []
+    },
+    "55": {
+        "title": "CVE-2021-33655: Linux kernel: When sending malicous data to kernel by ioctl cmd FBIOPUT_VSCREENINFO,kernel will write memory out of bounds.(5.18 5.19.0-rc1)",
+        "CVE_id": "CVE-2021-33655",
+        "no_subthreads": 0,
+        "date": ": Tue, 19 Jul 2022 02:10:42 +0000",
+        "author": ": \"Weigang (Jimmy)\" <weigang12 () huawei com>",
+        "File_path": "seclist_thread_messages/2022_Q3/55.txt",
+        "subthreads": []
+    },
+    "56": {
+        "title": "CVE-2021-33656: Linux kernel: When setting font with malicous data by ioctl cmd PIO_FONT,kernel will write memory out of bounds.(<5.10.127)",
+        "CVE_id": "CVE-2021-33656",
+        "no_subthreads": 0,
+        "date": ": Tue, 19 Jul 2022 02:14:27 +0000",
+        "author": ": \"Weigang (Jimmy)\" <weigang12 () huawei com>",
+        "File_path": "seclist_thread_messages/2022_Q3/56.txt",
+        "subthreads": []
+    },
+    "57": {
+        "title": "CVE-2022-21505: Kernel lockdown bypass bug",
+        "CVE_id": "CVE-2022-21505",
+        "no_subthreads": 0,
+        "date": ": Tue, 19 Jul 2022 17:02:12 +0000",
+        "author": ": John Haxby <john.haxby () oracle com>",
+        "File_path": "seclist_thread_messages/2022_Q3/57.txt",
+        "subthreads": []
+    },
+    "92": {
+        "title": "Re: CVE-2022-1972: out-of-bound write in Linux netfilter subsystem leads to local privilege escalation",
+        "CVE_id": "CVE-2022-1972",
+        "no_subthreads": 0,
+        "date": ": Sat, 6 Aug 2022 21:10:22 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2022_Q3/92.txt",
+        "subthreads": []
+    },
+    "99": {
+        "title": "CVE-2022-2590: Linux kernel: Modifying shmem/tmpfs files without write permissions",
+        "CVE_id": "CVE-2022-2590",
+        "no_subthreads": 5,
+        "date": ": Mon, 8 Aug 2022 09:18:27 +0200",
+        "author": ": David Hildenbrand <david () redhat com>",
+        "File_path": "seclist_thread_messages/2022_Q3/99.txt",
+        "subthreads": [
+            {
+                "id": "100",
+                "no_subthreads": 0,
+                "date": ": Mon, 8 Aug 2022 12:00:42 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2022_Q3/100.txt",
+                "subthreads": []
+            },
+            {
+                "id": "105",
+                "no_subthreads": 0,
+                "date": ": Mon, 8 Aug 2022 17:58:17 +0200",
+                "author": ": David Hildenbrand <david () redhat com>",
+                "File_path": "seclist_thread_messages/2022_Q3/105.txt",
+                "subthreads": []
+            },
+            {
+                "id": "106",
+                "no_subthreads": 1,
+                "date": ": Mon, 8 Aug 2022 15:51:34 -0400",
+                "author": ": Demi Marie Obenour <demi () invisiblethingslab com>",
+                "File_path": "seclist_thread_messages/2022_Q3/106.txt",
+                "subthreads": [
+                    {
+                        "id": "113",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 9 Aug 2022 10:44:28 +0200",
+                        "author": ": David Hildenbrand <david () redhat com>",
+                        "File_path": "seclist_thread_messages/2022_Q3/113.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "128",
+                "no_subthreads": 0,
+                "date": ": Mon, 15 Aug 2022 08:59:02 +0200",
+                "author": ": David Hildenbrand <david () redhat com>",
+                "File_path": "seclist_thread_messages/2022_Q3/128.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "114": {
+        "title": "CVE-2022-2586 - Linux kernel nf_tables cross-table reference UAF",
+        "CVE_id": "CVE-2022-2586",
+        "no_subthreads": 1,
+        "date": ": Tue, 9 Aug 2022 14:10:35 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2022_Q3/114.txt",
+        "subthreads": [
+            {
+                "id": "131",
+                "no_subthreads": 0,
+                "date": ": Wed, 17 Aug 2022 17:26:52 -0300",
+                "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+                "File_path": "seclist_thread_messages/2022_Q3/131.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "115": {
+        "title": "CVE-2022-2588 - Linux kernel cls_route UAF",
+        "CVE_id": "CVE-2022-2588",
+        "no_subthreads": 2,
+        "date": ": Tue, 9 Aug 2022 14:11:54 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2022_Q3/115.txt",
+        "subthreads": [
+            {
+                "id": "117",
+                "no_subthreads": 0,
+                "date": ": Tue, 9 Aug 2022 23:22:32 +0200",
+                "author": ": Vegard Nossum <vegard.nossum () oracle com>",
+                "File_path": "seclist_thread_messages/2022_Q3/117.txt",
+                "subthreads": []
+            },
+            {
+                "id": "132",
+                "no_subthreads": 0,
+                "date": ": Wed, 17 Aug 2022 17:27:57 -0300",
+                "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+                "File_path": "seclist_thread_messages/2022_Q3/132.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "116": {
+        "title": "CVE-2022-2585 - Linux kernel POSIX CPU timer UAF",
+        "CVE_id": "CVE-2022-2585",
+        "no_subthreads": 1,
+        "date": ": Tue, 9 Aug 2022 14:13:40 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2022_Q3/116.txt",
+        "subthreads": [
+            {
+                "id": "133",
+                "no_subthreads": 0,
+                "date": ": Wed, 17 Aug 2022 17:29:35 -0300",
+                "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+                "File_path": "seclist_thread_messages/2022_Q3/133.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "141": {
+        "title": "Re: Linux Kernel use-after-free write in netfilter",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 25 Aug 2022 15:20:21 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2022_Q3/141.txt",
+        "subthreads": [
+            {
+                "id": "176",
+                "no_subthreads": 0,
+                "date": ": Fri, 2 Sep 2022 11:49:46 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2022_Q3/176.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "142": {
+        "title": "Re: Linux kernel: CVE-2022-1015,CVE-2022-1016 in nf_tables cause privilege escalation, information leak",
+        "CVE_id": "CVE-2022-1015",
+        "no_subthreads": 0,
+        "date": ": Thu, 25 Aug 2022 15:28:56 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2022_Q3/142.txt",
+        "subthreads": []
+    },
+    "154": {
+        "title": "N-day exploit for CVE-2022-2586: Linux kernel nft_object UAF",
+        "CVE_id": "CVE-2022-2586",
+        "no_subthreads": 0,
+        "date": ": Mon, 29 Aug 2022 19:26:39 +0000",
+        "author": ": Alejandro Guerrero <aguerrero () qualys com>",
+        "File_path": "seclist_thread_messages/2022_Q3/154.txt",
+        "subthreads": []
+    },
+    "155": {
+        "title": "CVE-2022-2663: Linux netfilter: nf_conntrack_irc message handling",
+        "CVE_id": "CVE-2022-2663",
+        "no_subthreads": 1,
+        "date": ": Tue, 30 Aug 2022 12:27:44 +1000",
+        "author": ": David Leadbeater <dgl () dgl cx>",
+        "File_path": "seclist_thread_messages/2022_Q3/155.txt",
+        "subthreads": [
+            {
+                "id": "164",
+                "no_subthreads": 0,
+                "date": ": Thu, 1 Sep 2022 13:26:45 +1000",
+                "author": ": David Leadbeater <dgl () dgl cx>",
+                "File_path": "seclist_thread_messages/2022_Q3/164.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "233": {
+        "title": "CVE-2022-41218: Linux dvb-core: UAF in dvb-core/dmxdev",
+        "CVE_id": "CVE-2022-41218",
+        "no_subthreads": 0,
+        "date": ": Fri, 23 Sep 2022 11:51:34 -0700",
+        "author": ": Hyunwoo Kim <imv4bel () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q3/233.txt",
+        "subthreads": []
+    },
+    "234": {
+        "title": "[Report v2] CVE-2022-41218: Linux dvb-core: UAF in dvb-core/dmxdev",
+        "CVE_id": "CVE-2022-41218",
+        "no_subthreads": 1,
+        "date": ": Fri, 23 Sep 2022 12:06:01 -0700",
+        "author": ": Hyunwoo Kim <imv4bel () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q3/234.txt",
+        "subthreads": [
+            {
+                "id": "235",
+                "no_subthreads": 0,
+                "date": ": Fri, 23 Sep 2022 12:07:03 -0700",
+                "author": ": Hyunwoo Kim <imv4bel () gmail com>",
+                "File_path": "seclist_thread_messages/2022_Q3/235.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

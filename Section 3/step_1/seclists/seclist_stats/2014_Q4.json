@@ -1,0 +1,296 @@
+{
+    "18": {
+        "title": "CVE Request: linux kernel net_get_random_once bug",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 01 Oct 2014 14:04:36 -0400",
+        "author": ": Andrew Tappert <andrew () pikewerks com>",
+        "File_path": "seclist_thread_messages/2014_Q4/18.txt",
+        "subthreads": [
+            {
+                "id": "22",
+                "no_subthreads": 0,
+                "date": ": Wed, 01 Oct 2014 23:00:54 +0200",
+                "author": ": Hannes Frederic Sowa <hannes () stressinduktion org>",
+                "File_path": "seclist_thread_messages/2014_Q4/22.txt",
+                "subthreads": []
+            },
+            {
+                "id": "48",
+                "no_subthreads": 0,
+                "date": ": Wed,  1 Oct 2014 23:29:07 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/48.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "228": {
+        "title": "CVE-2014-7970: Linux VFS denial of service",
+        "CVE_id": "CVE-2014-7970",
+        "no_subthreads": 2,
+        "date": ": Wed, 8 Oct 2014 12:48:19 -0700",
+        "author": ": Andy Lutomirski <luto () amacapital net>",
+        "File_path": "seclist_thread_messages/2014_Q4/228.txt",
+        "subthreads": [
+            {
+                "id": "387",
+                "no_subthreads": 1,
+                "date": ": Fri, 17 Oct 2014 17:32:13 -0700",
+                "author": ": Andy Lutomirski <luto () amacapital net>",
+                "File_path": "seclist_thread_messages/2014_Q4/387.txt",
+                "subthreads": [
+                    {
+                        "id": "388",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 17 Oct 2014 23:13:28 -0400 (EDT)",
+                        "author": ": cve-assign () mitre org",
+                        "File_path": "seclist_thread_messages/2014_Q4/388.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "264": {
+        "title": "CVE-2014-8086 - Linux kernel ext4 race condition",
+        "CVE_id": "CVE-2014-8086",
+        "no_subthreads": 0,
+        "date": ": Thu,  9 Oct 2014 13:34:16 -0400 (EDT)",
+        "author": ": cve-assign () mitre org",
+        "File_path": "seclist_thread_messages/2014_Q4/264.txt",
+        "subthreads": []
+    },
+    "427": {
+        "title": "CVE Request: Linux 3.17 guest-triggerable KVM OOPS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 23 Oct 2014 10:44:42 -0700",
+        "author": ": Andy Lutomirski <luto () amacapital net>",
+        "File_path": "seclist_thread_messages/2014_Q4/427.txt",
+        "subthreads": [
+            {
+                "id": "430",
+                "no_subthreads": 0,
+                "date": ": Fri, 24 Oct 2014 03:48:32 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/430.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "436": {
+        "title": "CVE-2014-8369 - Linux kernel iommu.c excessive unpinning",
+        "CVE_id": "CVE-2014-8369",
+        "no_subthreads": 0,
+        "date": ": Fri, 24 Oct 2014 13:58:08 -0400 (EDT)",
+        "author": ": cve-assign () mitre org",
+        "File_path": "seclist_thread_messages/2014_Q4/436.txt",
+        "subthreads": []
+    },
+    "476": {
+        "title": "CVE-2014-8559 - Linux kernel fs/dcache.c incorrect use of rename_lock",
+        "CVE_id": "CVE-2014-8559",
+        "no_subthreads": 1,
+        "date": ": Thu, 30 Oct 2014 14:59:19 -0400 (EDT)",
+        "author": ": cve-assign () mitre org",
+        "File_path": "seclist_thread_messages/2014_Q4/476.txt",
+        "subthreads": [
+            {
+                "id": "1043",
+                "no_subthreads": 0,
+                "date": ": Sat, 13 Dec 2014 17:25:19 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2014_Q4/1043.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "488": {
+        "title": "CVE-2014-7207 assignment: Debian-specific Linux 3.2 backport issue",
+        "CVE_id": "CVE-2014-7207",
+        "no_subthreads": 0,
+        "date": ": Sun, 02 Nov 2014 12:57:45 +0100",
+        "author": ": Florian Weimer <fw () deneb enyo de>",
+        "File_path": "seclist_thread_messages/2014_Q4/488.txt",
+        "subthreads": []
+    },
+    "544": {
+        "title": "CVE Request: Linux kernel mac80211 plain text leak",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 6 Nov 2014 17:33:35 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2014_Q4/544.txt",
+        "subthreads": [
+            {
+                "id": "578",
+                "no_subthreads": 0,
+                "date": ": Sun,  9 Nov 2014 18:07:20 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/578.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "603": {
+        "title": "CVE-2014-7843 Linux kernel: aarch64: copying from /dev/zero causes local DoS",
+        "CVE_id": "CVE-2014-7843",
+        "no_subthreads": 0,
+        "date": ": Thu, 13 Nov 2014 16:19:52 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q4/603.txt",
+        "subthreads": []
+    },
+    "604": {
+        "title": "CVE-2014-7841 Linux kernel: net: sctp: NULL pointer dereference in af->from_addr_param on malformed packet",
+        "CVE_id": "CVE-2014-7841",
+        "no_subthreads": 0,
+        "date": ": Thu, 13 Nov 2014 16:20:56 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q4/604.txt",
+        "subthreads": []
+    },
+    "605": {
+        "title": "CVE-2014-7842 Linux kernel: kvm: reporting emulation failures to userspace",
+        "CVE_id": "CVE-2014-7842",
+        "no_subthreads": 0,
+        "date": ": Thu, 13 Nov 2014 16:22:09 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q4/605.txt",
+        "subthreads": []
+    },
+    "611": {
+        "title": "CVE Request: Linux kernel: ttusb-dec: overflow by descriptor",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 14 Nov 2014 13:37:45 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2014_Q4/611.txt",
+        "subthreads": [
+            {
+                "id": "615",
+                "no_subthreads": 0,
+                "date": ": Fri, 14 Nov 2014 14:39:36 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/615.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "777": {
+        "title": "CVE Request: Linux kernel LDT handling bugs",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sun, 23 Nov 2014 16:18:16 -0800",
+        "author": ": Andy Lutomirski <luto () amacapital net>",
+        "File_path": "seclist_thread_messages/2014_Q4/777.txt",
+        "subthreads": [
+            {
+                "id": "803",
+                "no_subthreads": 0,
+                "date": ": Wed, 26 Nov 2014 02:42:15 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/803.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "1068": {
+        "title": "CVE Request Linux kernel: fs: isofs: infinite loop in CE records",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Wed, 17 Dec 2014 16:32:56 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2014_Q4/1068.txt",
+        "subthreads": [
+            {
+                "id": "1143",
+                "no_subthreads": 0,
+                "date": ": Thu, 25 Dec 2014 11:24:04 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/1143.txt",
+                "subthreads": []
+            },
+            {
+                "id": "1145",
+                "no_subthreads": 2,
+                "date": ": Fri, 26 Dec 2014 01:12:49 +0100",
+                "author": ": Lukas Odzioba <lukas.odzioba () gmail com>",
+                "File_path": "seclist_thread_messages/2014_Q4/1145.txt",
+                "subthreads": [
+                    {
+                        "id": "1146",
+                        "no_subthreads": 1,
+                        "date": ": Fri, 26 Dec 2014 13:17:25 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2014_Q4/1146.txt",
+                        "subthreads": [
+                            {
+                                "id": "1148",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 26 Dec 2014 16:25:13 +0100",
+                                "author": ": Lukas Odzioba <lukas.odzioba () gmail com>",
+                                "File_path": "seclist_thread_messages/2014_Q4/1148.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "1096": {
+        "title": "CVE Request: Linux x86_64 userspace address leak",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Thu, 18 Dec 2014 11:35:01 -0800",
+        "author": ": Andy Lutomirski <luto () amacapital net>",
+        "File_path": "seclist_thread_messages/2014_Q4/1096.txt",
+        "subthreads": [
+            {
+                "id": "1140",
+                "no_subthreads": 0,
+                "date": ": Thu, 25 Dec 2014 02:28:32 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/1140.txt",
+                "subthreads": []
+            },
+            {
+                "id": "1147",
+                "no_subthreads": 1,
+                "date": ": Fri, 26 Dec 2014 19:19:27 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2014_Q4/1147.txt",
+                "subthreads": [
+                    {
+                        "id": "1153",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 28 Dec 2014 07:40:51 -0800",
+                        "author": ": Andy Lutomirski <luto () amacapital net>",
+                        "File_path": "seclist_thread_messages/2014_Q4/1153.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "1178": {
+        "title": "CVE Request: Linux: Remote crash via batman-adv module",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 31 Dec 2014 17:14:15 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2014_Q4/1178.txt",
+        "subthreads": [
+            {
+                "id": "1180",
+                "no_subthreads": 0,
+                "date": ": Wed, 31 Dec 2014 12:32:02 -0500 (EST)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2014_Q4/1180.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{nr,rose,x25}_sendmsg() functions need to have sanity checks on the
+packet size, otherwise the sizes can wrap and end up sending garbage.
+
+http://bugzilla.kernel.org/show_bug.cgi?id=10423
+http://git.kernel.org/linus/83e0bbcbe2145f160fbaa109b0439dae7f4a38a9
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-1265
+
+This affects both 2.4.x and 2.6.x if CONFIG_{NETROM,ROSE,X25} are enabled.
+
+Thanks, Eugene
+-- 
+Eugene Teo, RHCA, RHCSS / Red Hat Security Response Team
+

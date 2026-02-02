@@ -1,0 +1,15 @@
+A buffer overflow flaw was found in the Linux kernel's Auerswald
+PBX/System Telephone usb driver implementation. There's no upstream
+patch as the affected driver was removed from the kernel in 2.6.27.
+
+For more information, check out the references:
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-4067
+http://labs.mwrinfosecurity.com/files/Advisories/mwri_linux-usb-buffer-overflow_2009-10-29.pdf
+https://bugzilla.redhat.com/CVE-2009-4067
+
+(Attention Steve:) Looks like MITRE assigned this CVE to the reporter on
+Nov 24, 2009, but did not update their CVE database entry for this since
+then. Fortunately this is not a critical issue...
+
+Eugene
+

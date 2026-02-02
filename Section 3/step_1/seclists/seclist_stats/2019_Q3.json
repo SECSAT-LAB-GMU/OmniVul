@@ -1,0 +1,126 @@
+{
+    "81": {
+        "title": "CVE-2019-10207: linux kernel: bluetooth: hci_uart: 0x0 address execution as nonprivileged user",
+        "CVE_id": "CVE-2019-10207",
+        "no_subthreads": 4,
+        "date": ": Thu, 25 Jul 2019 08:31:29 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q3/81.txt",
+        "subthreads": [
+            {
+                "id": "82",
+                "no_subthreads": 2,
+                "date": ": Thu, 25 Jul 2019 14:46:19 +0200",
+                "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+                "File_path": "seclist_thread_messages/2019_Q3/82.txt",
+                "subthreads": [
+                    {
+                        "id": "83",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 25 Jul 2019 10:34:14 -0400 (EDT)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2019_Q3/83.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "84",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 25 Jul 2019 10:29:53 -0400",
+                        "author": ": Brad Spengler <spender () grsecurity net>",
+                        "File_path": "seclist_thread_messages/2019_Q3/84.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "109",
+                "no_subthreads": 0,
+                "date": ": Fri, 2 Aug 2019 05:35:54 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2019_Q3/109.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "101": {
+        "title": "CVE-2019-13648: Linux kernel: powerpc: kernel crash in TM handling triggerable by any local user",
+        "CVE_id": "CVE-2019-13648",
+        "no_subthreads": 0,
+        "date": ": Tue, 30 Jul 2019 15:01:52 +1000",
+        "author": ": Michael Neuling <mikey () neuling org>",
+        "File_path": "seclist_thread_messages/2019_Q3/101.txt",
+        "subthreads": []
+    },
+    "136": {
+        "title": "CVE-2019-10140 - linux kernel - system panic in overlayfs directory creation.",
+        "CVE_id": "CVE-2019-10140",
+        "no_subthreads": 0,
+        "date": ": Thu, 15 Aug 2019 13:37:57 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q3/136.txt",
+        "subthreads": []
+    },
+    "182": {
+        "title": "[OSSA-2019-004] Ageing time of 0 disables linuxbridge MAC learning (CVE-2019-15753)",
+        "CVE_id": "CVE-2019-15753",
+        "no_subthreads": 0,
+        "date": ": Thu, 29 Aug 2019 14:42:44 +0000",
+        "author": ": Jeremy Stanley <fungi () yuggoth org>",
+        "File_path": "seclist_thread_messages/2019_Q3/182.txt",
+        "subthreads": []
+    },
+    "209": {
+        "title": "CVE-2019-15030: Linux kernel: powerpc: data leak with FP/VMX  triggerable by unavailable exception in transaction",
+        "CVE_id": "CVE-2019-15030",
+        "no_subthreads": 0,
+        "date": ": Tue, 10 Sep 2019 23:16:48 +1000",
+        "author": ": Michael Neuling <mikey () neuling org>",
+        "File_path": "seclist_thread_messages/2019_Q3/209.txt",
+        "subthreads": []
+    },
+    "210": {
+        "title": "CVE-2019-15031: Linux kernel: powerpc: data leak with FP/VMX  triggerable by interrupt in transaction",
+        "CVE_id": "CVE-2019-15031",
+        "no_subthreads": 0,
+        "date": ": Tue, 10 Sep 2019 23:16:53 +1000",
+        "author": ": Michael Neuling <mikey () neuling org>",
+        "File_path": "seclist_thread_messages/2019_Q3/210.txt",
+        "subthreads": []
+    },
+    "233": {
+        "title": "CVE-2019-14835: QEMU-KVM Guest to Host Kernel Escape Vulnerability: vhost/vhost_net kernel buffer overflow",
+        "CVE_id": "CVE-2019-14835",
+        "no_subthreads": 1,
+        "date": ": Tue, 17 Sep 2019 08:19:33 +0000",
+        "author": ": cradminzhang(\u5f20\u535a) <cradminzhang () tencent com>",
+        "File_path": "seclist_thread_messages/2019_Q3/233.txt",
+        "subthreads": [
+            {
+                "id": "245",
+                "no_subthreads": 0,
+                "date": ": Tue, 24 Sep 2019 09:29:10 +0000",
+                "author": ": peterpi(\u76ae\u7f61) <peterpi () tencent com>",
+                "File_path": "seclist_thread_messages/2019_Q3/245.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "238": {
+        "title": "CVE-2019-14821 Kernel: KVM: OOB memory access via mmio ring buffer",
+        "CVE_id": "CVE-2019-14821",
+        "no_subthreads": 0,
+        "date": ": Fri, 20 Sep 2019 16:02:32 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q3/238.txt",
+        "subthreads": []
+    },
+    "247": {
+        "title": "CVE-2019-16714: Linux kernel net/rds: info leak vulnerability in rds6_inc_info_copy",
+        "CVE_id": "CVE-2019-16714",
+        "no_subthreads": 0,
+        "date": ": Wed, 25 Sep 2019 18:53:14 +0800",
+        "author": ": butt3rflyh4ck <butterflyhuangxx () gmail com>",
+        "File_path": "seclist_thread_messages/2019_Q3/247.txt",
+        "subthreads": []
+    }
+}

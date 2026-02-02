@@ -1,0 +1,20 @@
+Eugene Teo <eugene@...> writes:
+
+
+Fix this by making the name_len an unsigned value in CIFSFindNext.
+
+http://www.spinics.net/lists/linux-cifs/msg03950.html
+https://bugzilla.redhat.com/show_bug.cgi?id=732869
+
+Thanks, Eugene
+
+
+
+
+
+Please use CVE-2011-3191.
+
+Thanks
+--
+David Jorm / Red Hat Security Response Team
+

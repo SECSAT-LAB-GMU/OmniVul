@@ -1,0 +1,11 @@
+On Thu, Aug 9, 2018 at 5:51 AM Solar Designer <solar () openwall com> wrote:
+
+
+I agree that more detail must have been posted in here, especially given
+that such detail was on linux-distros.
+
+
+
+
+This is a completely reasonable objection, and also apologies regarding the
+length of time between CERT disclosure and my posting.

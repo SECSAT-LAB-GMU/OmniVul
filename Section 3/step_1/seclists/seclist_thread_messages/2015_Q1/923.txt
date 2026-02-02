@@ -1,0 +1,26 @@
+Windows users are also left out without this: they don't have GPG, and
+they don't have a secure way to obtain GPG.
+
+
+
+http://www.gpg4win.org/
+http://sourceforge.net/projects/msys2/
+
+Not even HTTPS *without* HSTS + HPKP. Gpg4win did get part of the way
+there but didn't grab a free certificate from GlobalSign or StartSSL.
+
+The official gnupg site uses ftp with... GPG signatures. I guess you're
+supposed to validate that the GPG installer you've downloaded is valid
+by running the GPG installer? :P
+
+https://www.gnupg.org/download/
+
+Is there actually a way for a Windows user to obtain it securely?
+
+GPG simply doesn't work here, even if you assume that users are going to
+take extra steps to verify the download. You have to rely on HTTPS (or
+HKPS) to obtain the GPG key anyway, so I don't see the point in pushing
+for it here. It's fantastic for package signing, sure :).
+
+
+signature.asc

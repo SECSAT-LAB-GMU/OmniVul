@@ -1,0 +1,18 @@
+When calculating the INIT/INIT-ACK chunk length, we should not only 
+
+account the length of parameters, but also the parameters zero padding 
+
+length, such as AUTH HMACS parameter and CHUNKS parameter. Without the 
+
+parameters zero padding length we may get oops.
+
+
+
+Commit: http://git.kernel.org/linus/a8170c35e738d62e9919ce5b109cf4ed66e9
+
+https://bugzilla.redhat.com/show_bug.cgi?id=695383
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

@@ -1,0 +1,7 @@
+The fix was accepted upstream as:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b36a1552d7319bbfd5cf7f08726c23c5c66d4f73
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | The Core Kernel | Senior Software Engineer
+

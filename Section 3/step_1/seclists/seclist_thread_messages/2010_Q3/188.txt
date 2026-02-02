@@ -1,0 +1,12 @@
+
+http://patchwork.ozlabs.org/patch/61857/
+https://bugzilla.redhat.com/show_bug.cgi?id=624903
+
+Memory leak issue was found numerous functions in net/sched/act_*.c.
+
+This was introduced since v2.6.9-rc2.
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

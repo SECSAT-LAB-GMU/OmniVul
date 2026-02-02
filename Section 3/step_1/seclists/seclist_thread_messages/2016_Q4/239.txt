@@ -1,0 +1,15 @@
+On Tue, 2016-10-25 at 12:51 -0400, cve-assign () mitre org wrote:
+
+
+
+The ID for the similar Firejail vulnerability is CVE-2016-9016.
+An additional reference is:
+
+  https://firejail.wordpress.com/download-2/release-notes/
+
+
+
+Thanks!
+-- 
+Yves-Alexis
+signature.asc

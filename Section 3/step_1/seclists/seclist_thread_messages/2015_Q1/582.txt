@@ -1,0 +1,14 @@
+Hello,
+
+This fixes a 1-byte NULL write past the end of allocated memory:
+
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=942080643bce061c3dd9d5718d3b745dcb39a8bc
+
+Thanks,
+
+-Kees
+
+-- 
+Kees Cook
+Chrome OS Security
+

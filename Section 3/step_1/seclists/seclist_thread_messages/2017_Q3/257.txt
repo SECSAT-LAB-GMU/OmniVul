@@ -1,0 +1,16 @@
+Hello,
+
+1) We would like to make an additional announcement that an important part of this flaw
+research was conducted by Leilei Lin <leilei.lin () alibaba-inc com> of Alibaba Group, who
+developed the initial patches:
+
+https://patchwork.kernel.org/patch/9755753/
+https://patchwork.kernel.org/patch/9755757/
+
+2) Unfortunately, the wording "in the wild" in this announcement is probably incorrect.
+The mentioned exploit was developed by the flaw researchers and we are not aware of it
+being available publicly or used by a wider audience. We are sorry for this misinformation.
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

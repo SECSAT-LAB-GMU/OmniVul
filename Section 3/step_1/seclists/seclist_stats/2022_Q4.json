@@ -1,0 +1,126 @@
+{
+    "30": {
+        "title": "CVE-2022-2602 - Linux kernel io_uring UAF",
+        "CVE_id": "CVE-2022-2602",
+        "no_subthreads": 4,
+        "date": ": Tue, 18 Oct 2022 13:59:51 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2022_Q4/30.txt",
+        "subthreads": [
+            {
+                "id": "35",
+                "no_subthreads": 0,
+                "date": ": Wed, 19 Oct 2022 20:10:13 +0200",
+                "author": ": David Bouman <dbouman03 () gmail com>",
+                "File_path": "seclist_thread_messages/2022_Q4/35.txt",
+                "subthreads": []
+            },
+            {
+                "id": "57",
+                "no_subthreads": 0,
+                "date": ": Thu, 27 Oct 2022 13:50:48 -0300",
+                "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+                "File_path": "seclist_thread_messages/2022_Q4/57.txt",
+                "subthreads": []
+            },
+            {
+                "id": "130",
+                "no_subthreads": 1,
+                "date": ": Mon, 7 Nov 2022 14:56:48 +0000",
+                "author": ": John Smith <smitchj013 () outlook com>",
+                "File_path": "seclist_thread_messages/2022_Q4/130.txt",
+                "subthreads": [
+                    {
+                        "id": "133",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 8 Nov 2022 11:47:40 -0800",
+                        "author": ": Adam Reynolds <adamajreynolds () gmail com>",
+                        "File_path": "seclist_thread_messages/2022_Q4/133.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "60": {
+        "title": "CVE-2022-3628: A USB-accessible buffer overflow in Linux kernel driver",
+        "CVE_id": "CVE-2022-3628",
+        "no_subthreads": 1,
+        "date": ": Sat, 29 Oct 2022 17:33:21 +0900",
+        "author": ": Dokyung Song <dokyungs () yonsei ac kr>",
+        "File_path": "seclist_thread_messages/2022_Q4/60.txt",
+        "subthreads": [
+            {
+                "id": "62",
+                "no_subthreads": 0,
+                "date": ": Sat, 29 Oct 2022 15:40:42 -0400",
+                "author": ": Demi Marie Obenour <demi () invisiblethingslab com>",
+                "File_path": "seclist_thread_messages/2022_Q4/62.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "171": {
+        "title": "Xen Security Advisory 424 v1 (CVE-2022-42328,CVE-2022-42329) - Guests can trigger deadlock in Linux netback driver",
+        "CVE_id": "CVE-2022-42328",
+        "no_subthreads": 3,
+        "date": ": Tue, 06 Dec 2022 15:17:42 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2022_Q4/171.txt",
+        "subthreads": [
+            {
+                "id": "176",
+                "no_subthreads": 2,
+                "date": ": Thu, 8 Dec 2022 16:59:44 +0100",
+                "author": ": Pratyush Yadav <ptyadav () amazon de>",
+                "File_path": "seclist_thread_messages/2022_Q4/176.txt",
+                "subthreads": [
+                    {
+                        "id": "177",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 8 Dec 2022 17:12:32 +0100",
+                        "author": ": Juergen Gross <jgross () suse com>",
+                        "File_path": "seclist_thread_messages/2022_Q4/177.txt",
+                        "subthreads": [
+                            {
+                                "id": "179",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 9 Dec 2022 16:54:41 +0000",
+                                "author": ": Ross Lagerwall <ross.lagerwall () cloud com>",
+                                "File_path": "seclist_thread_messages/2022_Q4/179.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "178": {
+        "title": "CVE-2022-4378: Linux kernel stack-based buffer overflow",
+        "CVE_id": "CVE-2022-4378",
+        "no_subthreads": 0,
+        "date": ": Fri, 9 Dec 2022 09:11:25 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q4/178.txt",
+        "subthreads": []
+    },
+    "185": {
+        "title": "CVE-2022-4379: Linux kernel: use-after-free in __nfs42_ssc_open",
+        "CVE_id": "CVE-2022-4379",
+        "no_subthreads": 0,
+        "date": ": Wed, 14 Dec 2022 16:31:25 +0800",
+        "author": ": Xingyuan Mo <hdthky0 () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q4/185.txt",
+        "subthreads": []
+    },
+    "206": {
+        "title": "systemd-coredump: CVE-2022-4415: local information leak due to systemd-coredump not respecting fs.suid_dumpable kernel setting",
+        "CVE_id": "CVE-2022-4415",
+        "no_subthreads": 0,
+        "date": ": Wed, 21 Dec 2022 12:51:24 +0100",
+        "author": ": Matthias Gerstner <mgerstner () suse de>",
+        "File_path": "seclist_thread_messages/2022_Q4/206.txt",
+        "subthreads": []
+    }
+}

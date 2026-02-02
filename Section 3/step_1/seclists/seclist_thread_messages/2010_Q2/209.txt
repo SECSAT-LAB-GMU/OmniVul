@@ -1,0 +1,13 @@
+
+On 05/26/2010 04:07 AM, Josh Bressers wrote:
+
+
+Please use CVE-2010-1641
+
+
+
+http://git.kernel.org/linus/7df0e0397b9a18358573274db9fdab991941062f
+
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

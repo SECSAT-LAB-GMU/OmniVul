@@ -1,0 +1,19 @@
+----- Original Message -----
+
+From: "Vasiliy Kulikov" <segoon () openwall com>
+To: "Petr Matousek" <pmatouse () redhat com>
+Cc: oss-security () lists openwall com
+Sent: Friday, April 22, 2011 5:32:51 PM
+Subject: Re: [oss-security] CVE request: kernel: buffer overflow and DoS issues in agp
+In https://bugzilla.redhat.com/show_bug.cgi?id=698999 it is said
+"Reference and patch:", but there is no patch for the issue (as I said
+in the patch description). I have no agp hardware and I cannot test
+whether forcing the requested pid to the current pid is a good idea
+(it might not).
+
+
+
+Right, copy and paste issue. Fixed.
+
+Petr
+

@@ -1,0 +1,19 @@
+On martedì 26 settembre 2017 09:32:14 CEST Greg KH wrote:
+
+I guess this would be benefit for all.
+
+
+
+Define "all" 
+
+
+
+You know, for example in Gentoo we are following the upstream releases. So 
+from time to time we stabilize a newer kernel that "syncs" with upstream.
+This does not happen for non-rolling (release) distros that may want to patch/
+backport the security fix.
+
+-- 
+Agostino Sarubbo
+Gentoo Linux Developer
+

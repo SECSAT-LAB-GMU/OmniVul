@@ -1,0 +1,25 @@
+On 7 September 2012 13:25, Kurt Seifried <kseifried () redhat com> wrote:
+
+
+
+*REJECT* CVE-2012-4410 - this has the wrong year. The issue was
+reported in 2010.
+
+Please use CVE-2010-5105 for this issue, it has the correct year.
+
+
+
+Thanks.
+
+On 6 September 2012 20:43, Kurt Seifried <kseifried () redhat com> wrote:
+
+Because sometimes I make mistakes and don't read so good =) Steven, is
+this worth fixing?
+
+
+
+:) You do really good work usually. Thanks for that!
+
+-- 
+Eitan Adler
+

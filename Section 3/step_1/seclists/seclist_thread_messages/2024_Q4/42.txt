@@ -1,0 +1,12 @@
+Hello,
+
+We would like to ask your advice about the CVE-2024-36905 (tcp shutdown vulnerability).
+NIST indicates a network vector while AWS and Red Hat indicates local attack vector.
+Our cybersecurity team has difficulties to justify that a local vector is appropriate here.
+Can you help us to understand this specific point for this CVE ? The hypothesis we have is that a TCP socket need to be 
+open/closed quickly, and maybe it's not possible remotely ? 
+
+Thanks for the feedback!
+
+Best Regards
+J. Guittet

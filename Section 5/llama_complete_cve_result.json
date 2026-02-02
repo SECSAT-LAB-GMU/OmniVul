@@ -1,0 +1,5402 @@
+{
+  "CVE-2021-45868": [
+    {
+      "CVE_ID": "CVE-2021-45868",
+      "confidence": 0.95,
+      "match_reason": "Quota tree block validation vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26878",
+      "confidence": 0.85,
+      "match_reason": "Race condition in quota system"
+    },
+    {
+      "CVE_ID": "CVE-2023-52896",
+      "confidence": 0.75,
+      "match_reason": "Btrfs quota rescan race condition"
+    },
+    {
+      "CVE_ID": "CVE-2024-41078",
+      "confidence": 0.65,
+      "match_reason": "Btrfs quota root leak"
+    },
+    {
+      "CVE_ID": "CVE-2025-39759",
+      "confidence": 0.55,
+      "match_reason": "Use-after-free in Btrfs quota disable vs rescan"
+    }
+  ],
+  "CVE-2019-9162": [
+    {
+      "CVE_ID": "CVE-2019-9162",
+      "confidence": 0.95,
+      "match_reason": "Direct match with nf_nat_snmp_basic_main.c"
+    },
+    {
+      "CVE_ID": "CVE-2024-26665",
+      "confidence": 0.7,
+      "match_reason": "Related to csum_partial, similar concept"
+    },
+    {
+      "CVE_ID": "CVE-2008-6123",
+      "confidence": 0.6,
+      "match_reason": "Net-SNMP vulnerability, related to SNMP NAT"
+    },
+    {
+      "CVE_ID": "CVE-2022-24805",
+      "confidence": 0.5,
+      "match_reason": "Net-SNMP vulnerability, potential buffer overflow"
+    },
+    {
+      "CVE_ID": "CVE-2020-15862",
+      "confidence": 0.45,
+      "match_reason": "Net-SNMP vulnerability, improper privilege management"
+    }
+  ],
+  "CVE-2014-3601": [
+    {
+      "CVE_ID": "CVE-2014-3601",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to kvm_iommu_map_pages function and matching vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2014-8369",
+      "confidence": 0.92,
+      "match_reason": "Reoccurrence of the same problem due to an incorrect fix for CVE-2014-3601"
+    },
+    {
+      "CVE_ID": "CVE-2022-48796",
+      "confidence": 0.6,
+      "match_reason": "IOMMU-related vulnerability, although not directly referencing kvm_iommu_map_guest"
+    },
+    {
+      "CVE_ID": "CVE-2025-38216",
+      "confidence": 0.55,
+      "match_reason": "VT-d context entry setup order regression, potentially related to IOMMU vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2011-1898",
+      "confidence": 0.4,
+      "match_reason": "PCI passthrough vulnerability without interrupt remapping, related to KVM and potentially IOMMU"
+    }
+  ],
+  "CVE-2013-1860": [
+    {
+      "CVE_ID": "CVE-2013-1860",
+      "confidence": 0.95,
+      "match_reason": "wdm_in_callback function and cdc-wdm.c file match"
+    },
+    {
+      "CVE_ID": "CVE-2024-35812",
+      "confidence": 0.8,
+      "match_reason": "cdc-wdm driver and race condition vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-40904",
+      "confidence": 0.75,
+      "match_reason": "cdc-wdm driver and logging-induced CPU lockup"
+    },
+    {
+      "CVE_ID": "CVE-2025-37985",
+      "confidence": 0.6,
+      "match_reason": "wdm driver and race condition vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2013-1860",
+      "confidence": 0.4,
+      "match_reason": "cdc-wdm.c file and heap-based buffer overflow vulnerability"
+    }
+  ],
+  "CVE-2014-3610": [
+    {
+      "CVE_ID": "CVE-2025-38351",
+      "confidence": 0.85,
+      "match_reason": "KVM x86 vulnerability involving non-canonical addresses"
+    },
+    {
+      "CVE_ID": "CVE-2025-37885",
+      "confidence": 0.8,
+      "match_reason": "Interrupt routing logic flaw in KVM x86"
+    },
+    {
+      "CVE_ID": "CVE-2025-21839",
+      "confidence": 0.7,
+      "match_reason": "Improper DR6 handling in KVM x86"
+    },
+    {
+      "CVE_ID": "CVE-2024-35804",
+      "confidence": 0.6,
+      "match_reason": "Dirty tracking issue in KVM x86"
+    },
+    {
+      "CVE_ID": "CVE-2024-26976",
+      "confidence": 0.5,
+      "match_reason": "Async page-fault handling issue in KVM x86"
+    }
+  ],
+  "CVE-2019-7221": [
+    {
+      "CVE_ID": "CVE-2019-7221",
+      "confidence": 0.95,
+      "match_reason": "Use-after-free vulnerability in KVM's free_nested function"
+    },
+    {
+      "CVE_ID": "CVE-2022-1263",
+      "confidence": 0.7,
+      "match_reason": "KVM dirty ring NULL pointer dereference vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-46978",
+      "confidence": 0.65,
+      "match_reason": "KVM nested virtualization eVMCS mapping vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-3653",
+      "confidence": 0.5,
+      "match_reason": "KVM nested virtualization SVM vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-3656",
+      "confidence": 0.45,
+      "match_reason": "KVM nested virtualization VMLOAD/VMSAVE vulnerability"
+    }
+  ],
+  "CVE-2011-1160": [
+    {
+      "CVE_ID": "CVE-2022-49287",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to tpm_open function and TPM chip vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-53085",
+      "confidence": 0.8,
+      "match_reason": "TPM chip vulnerability related to suspend functionality"
+    },
+    {
+      "CVE_ID": "CVE-2024-49851",
+      "confidence": 0.75,
+      "match_reason": "TPM command transmission vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-48997",
+      "confidence": 0.7,
+      "match_reason": "Race condition in TPM suspend transactions"
+    },
+    {
+      "CVE_ID": "CVE-2011-1160",
+      "confidence": 0.6,
+      "match_reason": "Historical vulnerability in tpm_open function"
+    }
+  ],
+  "CVE-2021-38198": [
+    {
+      "CVE_ID": "CVE-2021-47230",
+      "confidence": 0.85,
+      "match_reason": "KVM MMU vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26991",
+      "confidence": 0.8,
+      "match_reason": "KVM MMU vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47639",
+      "confidence": 0.7,
+      "match_reason": "KVM MMU vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26990",
+      "confidence": 0.6,
+      "match_reason": "KVM MMU vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-50224",
+      "confidence": 0.5,
+      "match_reason": "KVM MMU vulnerability"
+    }
+  ],
+  "CVE-2011-1759": [
+    {
+      "CVE_ID": "CVE-2011-1759",
+      "confidence": 0.95,
+      "match_reason": "Exact match of function name and file path in CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2010-3081",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel, different function but same ARM architecture"
+    },
+    {
+      "CVE_ID": "CVE-2009-4141",
+      "confidence": 0.5,
+      "match_reason": "Integer overflow vulnerability in Linux kernel, although in a different subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2012-1564",
+      "confidence": 0.45,
+      "match_reason": "Denial of service vulnerability in Linux kernel, similar to the one described in CVE-2011-1759"
+    },
+    {
+      "CVE_ID": "CVE-2011-1020",
+      "confidence": 0.4,
+      "match_reason": "Privilege escalation vulnerability in Linux kernel, although in a different context"
+    }
+  ],
+  "CVE-2020-27152": [
+    {
+      "CVE_ID": "CVE-2020-27152",
+      "confidence": 0.95,
+      "match_reason": "direct match with ioapic_lazy_update_eoi"
+    },
+    {
+      "CVE_ID": "CVE-2023-5090",
+      "confidence": 0.6,
+      "match_reason": "related KVM vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26976",
+      "confidence": 0.55,
+      "match_reason": "KVM subsystem vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-49273",
+      "confidence": 0.4,
+      "match_reason": "RTC subsystem vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-56739",
+      "confidence": 0.4,
+      "match_reason": "RTC subsystem vulnerability"
+    }
+  ],
+  "CVE-2019-13272": [
+    {
+      "CVE_ID": "CVE-2019-13272",
+      "confidence": 0.95,
+      "match_reason": "ptrace_link function vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2008-3077",
+      "confidence": 0.6,
+      "match_reason": "task_struct reference leak"
+    },
+    {
+      "CVE_ID": "CVE-2024-41023",
+      "confidence": 0.55,
+      "match_reason": "task_struct reference leak in sched/deadline"
+    },
+    {
+      "CVE_ID": "CVE-2024-57874",
+      "confidence": 0.45,
+      "match_reason": "ARM64 ptrace SETREGSET uninitialized memory leak"
+    },
+    {
+      "CVE_ID": "CVE-2023-52598",
+      "confidence": 0.4,
+      "match_reason": "s390 ptrace FPU control corrupts tracer's FPU control register"
+    }
+  ],
+  "CVE-2020-28974": [
+    {
+      "CVE_ID": "CVE-2020-25668",
+      "confidence": 0.85,
+      "match_reason": "con_font_default function and Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-28974",
+      "confidence": 0.8,
+      "match_reason": "console_font_op vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2020-8647",
+      "confidence": 0.75,
+      "match_reason": "out-of-bounds read in vc_do_resize function"
+    },
+    {
+      "CVE_ID": "CVE-2023-3567",
+      "confidence": 0.6,
+      "match_reason": "use-after-free in vcs_read due to a race"
+    },
+    {
+      "CVE_ID": "CVE-2024-50067",
+      "confidence": 0.4,
+      "match_reason": "strncpy_from_user in call trace of use-after-free vulnerability"
+    }
+  ],
+  "CVE-2019-14816": [
+    {
+      "CVE_ID": "CVE-2019-14816",
+      "confidence": 0.95,
+      "match_reason": "Heap-based buffer overflow in mwifiex_update_vs_ie"
+    },
+    {
+      "CVE_ID": "CVE-2019-14814",
+      "confidence": 0.9,
+      "match_reason": "Heap-based buffer overflow in mwifiex_set_uap_rates"
+    },
+    {
+      "CVE_ID": "CVE-2019-14815",
+      "confidence": 0.85,
+      "match_reason": "Heap-based buffer overflow in mwifiex_set_wmm_params"
+    },
+    {
+      "CVE_ID": "CVE-2009-3280",
+      "confidence": 0.6,
+      "match_reason": "Integer signedness error in cfg80211 subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2022-49023",
+      "confidence": 0.5,
+      "match_reason": "Buffer overflow in cfg80211gennew_ie function"
+    }
+  ],
+  "CVE-2022-45869": [
+    {
+      "CVE_ID": "CVE-2021-47639",
+      "confidence": 0.85,
+      "match_reason": "KVM TDP MMU vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-11540",
+      "confidence": 0.6,
+      "match_reason": "KVM MMU page fault vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-27337",
+      "confidence": 0.5,
+      "match_reason": "KVM nested virtualization vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-3016",
+      "confidence": 0.4,
+      "match_reason": "KVM memory corruption vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-10971",
+      "confidence": 0.3,
+      "match_reason": "KVM use-after-free vulnerability"
+    }
+  ],
+  "CVE-2018-8897": [
+    {
+      "CVE_ID": "CVE-2024-26591",
+      "confidence": 0.85,
+      "match_reason": "related to BPF trampolines and syscall-related functions"
+    },
+    {
+      "CVE_ID": "CVE-2024-43840",
+      "confidence": 0.75,
+      "match_reason": "issue on ARM64 architecture with BPF JIT-generated trampoline"
+    },
+    {
+      "CVE_ID": "CVE-2012-0810",
+      "confidence": 0.6,
+      "match_reason": "local denial-of-service vulnerability via the int3 handler"
+    },
+    {
+      "CVE_ID": "CVE-2022-23277",
+      "confidence": 0.4,
+      "match_reason": "kernel vulnerability in trampoline-related or syscall-on-trampoline code paths"
+    },
+    {
+      "CVE_ID": "CVE-2021-20292",
+      "confidence": 0.4,
+      "match_reason": "kernel vulnerability in trampoline-related or syscall-on-trampoline code paths"
+    }
+  ],
+  "CVE-2020-12769": [
+    {
+      "CVE_ID": "CVE-2020-12769",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to DW SPI driver vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-19965",
+      "confidence": 0.6,
+      "match_reason": "Related Linux kernel vulnerability in SPI driver"
+    },
+    {
+      "CVE_ID": "CVE-2018-16871",
+      "confidence": 0.5,
+      "match_reason": "Linux kernel vulnerability in DMA handling"
+    },
+    {
+      "CVE_ID": "CVE-2017-7533",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability in SPI controller handling"
+    },
+    {
+      "CVE_ID": "CVE-2016-7915",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability in device driver handling"
+    }
+  ],
+  "CVE-2019-7222": [
+    {
+      "CVE_ID": "CVE-2025-38469",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to kvm_read_guest_virt in CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2016-9588",
+      "confidence": 0.6,
+      "match_reason": "Relevance to KVM's handling of x86 exceptions"
+    },
+    {
+      "CVE_ID": "CVE-2025-37936",
+      "confidence": 0.5,
+      "match_reason": "Tangential relation to KVM and perf/x86/intel"
+    },
+    {
+      "CVE_ID": "CVE-2018-10853",
+      "confidence": 0.4,
+      "match_reason": "General relevance to KVM vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2020-2732",
+      "confidence": 0.3,
+      "match_reason": "Weak connection to Linux kernel vulnerabilities"
+    }
+  ],
+  "CVE-2022-42722": [
+    {
+      "CVE_ID": "CVE-2022-42722",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to ieee80211_rx_h_decrypt in net/mac80211/rx.c"
+    },
+    {
+      "CVE_ID": "CVE-2021-3754",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel's Wi-Fi subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2020-12354",
+      "confidence": 0.5,
+      "match_reason": "Vulnerability in Linux kernel's mac80211 stack"
+    },
+    {
+      "CVE_ID": "CVE-2019-14895",
+      "confidence": 0.4,
+      "match_reason": "Kernel vulnerability related to Wi-Fi frame decryption"
+    },
+    {
+      "CVE_ID": "CVE-2018-5848",
+      "confidence": 0.3,
+      "match_reason": "Older vulnerability in Linux kernel's wireless stack"
+    }
+  ],
+  "CVE-2010-1173": [
+    {
+      "CVE_ID": "CVE-2008-4445",
+      "confidence": 0.85,
+      "match_reason": "SCTP-AUTH extension vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2008-4618",
+      "confidence": 0.8,
+      "match_reason": "SCTP protocol violation handling"
+    },
+    {
+      "CVE_ID": "CVE-2021-3772",
+      "confidence": 0.7,
+      "match_reason": "SCTP association termination vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-2177",
+      "confidence": 0.6,
+      "match_reason": "SCTP null pointer dereference issue"
+    },
+    {
+      "CVE_ID": "CVE-2023-1074",
+      "confidence": 0.5,
+      "match_reason": "SCTP memory leak vulnerability"
+    }
+  ],
+  "CVE-2014-2706": [
+    {
+      "CVE_ID": "CVE-2024-40912",
+      "confidence": 0.95,
+      "match_reason": "Direct match with search results and code analysis"
+    },
+    {
+      "CVE_ID": "CVE-2022-49328",
+      "confidence": 0.8,
+      "match_reason": "Related to sta_info_alloc and mac80211 subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2014-2706",
+      "confidence": 0.7,
+      "match_reason": "Involves WLAN_STA_PS_STA state and mac80211 subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2025-21828",
+      "confidence": 0.4,
+      "match_reason": "Weak match due to lack of direct information"
+    },
+    {
+      "CVE_ID": "CVE-2022-48875",
+      "confidence": 0.3,
+      "match_reason": "Very weak match, only related to mac80211 subsystem"
+    }
+  ],
+  "CVE-2013-2232": [
+    {
+      "CVE_ID": "CVE-2024-40960",
+      "confidence": 0.85,
+      "match_reason": "IPv6 routing vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-44985",
+      "confidence": 0.75,
+      "match_reason": "IPv6 output path vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-47707",
+      "confidence": 0.7,
+      "match_reason": "NULL dereference in IPv6 routing"
+    },
+    {
+      "CVE_ID": "CVE-2023-3022",
+      "confidence": 0.6,
+      "match_reason": "IPv6 module vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47546",
+      "confidence": 0.55,
+      "match_reason": "Memory leak in IPv6 routing"
+    }
+  ],
+  "CVE-2022-1043": [
+    {
+      "CVE_ID": "CVE-2023-21400",
+      "confidence": 0.8,
+      "match_reason": "io_uring.c vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47124",
+      "confidence": 0.7,
+      "match_reason": "fs/io_uring.c race condition"
+    },
+    {
+      "CVE_ID": "CVE-2023-52903",
+      "confidence": 0.6,
+      "match_reason": "io_uring subsystem overflow"
+    },
+    {
+      "CVE_ID": "CVE-2025-22017",
+      "confidence": 0.5,
+      "match_reason": "xa_alloc_cyclic() vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-56563",
+      "confidence": 0.4,
+      "match_reason": "get_current_cred() cred reference leak"
+    }
+  ],
+  "CVE-2020-9391": [
+    {
+      "CVE_ID": "CVE-2023-52835",
+      "confidence": 0.95,
+      "match_reason": "ksys_mmap_pgoff function mentioned in call trace"
+    },
+    {
+      "CVE_ID": "CVE-2025-38050",
+      "confidence": 0.8,
+      "match_reason": "hugetlb subsystem vulnerability related to NULL pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2024-26987",
+      "confidence": 0.75,
+      "match_reason": "deadlock in hugetlb_optimize_vmemmap related to circular locking dependencies"
+    },
+    {
+      "CVE_ID": "CVE-2020-25285",
+      "confidence": 0.6,
+      "match_reason": "race condition in hugetlb sysctl handlers"
+    },
+    {
+      "CVE_ID": "CVE-2018-7740",
+      "confidence": 0.5,
+      "match_reason": "denial of service vulnerability in mm/hugetlb.c related to large pgoff values"
+    }
+  ],
+  "CVE-2021-44879": [
+    {
+      "CVE_ID": "CVE-2022-49738",
+      "confidence": 0.95,
+      "match_reason": "Out-of-bounds read in gc_data_segment"
+    },
+    {
+      "CVE_ID": "CVE-2023-52682",
+      "confidence": 0.9,
+      "match_reason": "Data corruption due to race condition in gc_data_segment"
+    },
+    {
+      "CVE_ID": "CVE-2021-44879",
+      "confidence": 0.85,
+      "match_reason": "NULL pointer dereference in gc_data_segment"
+    },
+    {
+      "CVE_ID": "CVE-2024-26869",
+      "confidence": 0.8,
+      "match_reason": "Race condition causing data corruption in gc_data_segment"
+    },
+    {
+      "CVE_ID": "CVE-2022-35405",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free vulnerability in F2FS"
+    }
+  ],
+  "CVE-2021-37576": [
+    {
+      "CVE_ID": "CVE-2021-37576",
+      "confidence": 0.95,
+      "match_reason": "Direct match for vulnerability in kvmppc_rtas_hcall code path"
+    },
+    {
+      "CVE_ID": "CVE-2020-8834",
+      "confidence": 0.7,
+      "match_reason": "Related KVM PPC code path, potential stack corruption"
+    },
+    {
+      "CVE_ID": "CVE-2021-43056",
+      "confidence": 0.6,
+      "match_reason": "KVM implementation on Power8, potential to crash host"
+    },
+    {
+      "CVE_ID": "CVE-2022-49955",
+      "confidence": 0.4,
+      "match_reason": "RTAS handling for IBM Cell machines, not directly related to kvmppc_rtas_hcall"
+    },
+    {
+      "CVE_ID": "CVE-2019-11091",
+      "confidence": 0.3,
+      "match_reason": "Weak match, potential buffer overflow in KVM"
+    }
+  ],
+  "CVE-2022-42720": [
+    {
+      "CVE_ID": "CVE-2024-46755",
+      "confidence": 0.8,
+      "match_reason": "related Wi-Fi driver vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-41674",
+      "confidence": 0.7,
+      "match_reason": "cfg80211 buffer overflow issue"
+    },
+    {
+      "CVE_ID": "CVE-2022-42721",
+      "confidence": 0.65,
+      "match_reason": "BSS list management corruption bug"
+    },
+    {
+      "CVE_ID": "CVE-2025-38013",
+      "confidence": 0.6,
+      "match_reason": "Linux kernel wifi mac80211 vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-50262",
+      "confidence": 0.4,
+      "match_reason": "BPF trie function out-of-bounds write"
+    }
+  ],
+  "CVE-2013-6380": [
+    {
+      "CVE_ID": "CVE-2013-6380",
+      "confidence": 0.95,
+      "match_reason": "aac_send_raw_srb function vulnerability match"
+    },
+    {
+      "CVE_ID": "CVE-2017-18549",
+      "confidence": 0.9,
+      "match_reason": "aac_send_raw_srb function vulnerability match"
+    },
+    {
+      "CVE_ID": "CVE-2016-6480",
+      "confidence": 0.6,
+      "match_reason": "aacraid driver vulnerability match"
+    },
+    {
+      "CVE_ID": "CVE-2021-20233",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability match"
+    },
+    {
+      "CVE_ID": "CVE-2020-12382",
+      "confidence": 0.3,
+      "match_reason": "SCSI driver vulnerability match"
+    }
+  ],
+  "CVE-2013-1929": [
+    {
+      "CVE_ID": "CVE-2013-1929",
+      "confidence": 0.95,
+      "match_reason": "Exact match with known CVE for tg3_read_vpd function"
+    },
+    {
+      "CVE_ID": "CVE-2009-4138",
+      "confidence": 0.6,
+      "match_reason": "Possible match with older CVE related to tg3 driver"
+    },
+    {
+      "CVE_ID": "CVE-2011-2492",
+      "confidence": 0.5,
+      "match_reason": "Potential match with CVE related to Linux kernel network drivers"
+    },
+    {
+      "CVE_ID": "CVE-2012-3412",
+      "confidence": 0.45,
+      "match_reason": "Possible match with CVE related to Linux kernel buffer overflow"
+    },
+    {
+      "CVE_ID": "CVE-2010-2527",
+      "confidence": 0.4,
+      "match_reason": "Weak match with older CVE related to Linux kernel network drivers"
+    }
+  ],
+  "CVE-2014-8369": [
+    {
+      "CVE_ID": "CVE-2014-3601",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to vulnerable function"
+    },
+    {
+      "CVE_ID": "CVE-2014-8369",
+      "confidence": 0.9,
+      "match_reason": "Follow-up vulnerability to CVE-2014-3601"
+    },
+    {
+      "CVE_ID": "CVE-2019-11091",
+      "confidence": 0.5,
+      "match_reason": "Related to KVM vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2020-2732",
+      "confidence": 0.45,
+      "match_reason": "KVM vulnerability with potential for denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2018-10971",
+      "confidence": 0.4,
+      "match_reason": "KVM-related vulnerability"
+    }
+  ],
+  "CVE-2017-18344": [
+    {
+      "CVE_ID": "CVE-2022-2585",
+      "confidence": 0.9,
+      "match_reason": "posix_timer_fn use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-50095",
+      "confidence": 0.85,
+      "match_reason": "posix-cpu-timers use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-38352",
+      "confidence": 0.8,
+      "match_reason": "race condition in posix-cpu-timers"
+    },
+    {
+      "CVE_ID": "CVE-2017-18344",
+      "confidence": 0.6,
+      "match_reason": "timer_create syscall vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2009-2767",
+      "confidence": 0.4,
+      "match_reason": "older vulnerability in posix-timers.c"
+    }
+  ],
+  "CVE-2018-10879": [
+    {
+      "CVE_ID": "CVE-2024-45003",
+      "confidence": 0.9,
+      "match_reason": "ext4_xattr_inode_lookup_create function mentioned in search results"
+    },
+    {
+      "CVE_ID": "CVE-2024-40972",
+      "confidence": 0.85,
+      "match_reason": "ext4_xattr_set_entry function mentioned in search results"
+    },
+    {
+      "CVE_ID": "CVE-2018-1094",
+      "confidence": 0.6,
+      "match_reason": "ext4_xattr_inode_hash function mentioned in search results"
+    },
+    {
+      "CVE_ID": "CVE-2022-32250",
+      "confidence": 0.4,
+      "match_reason": "ext4 filesystem vulnerability, potential match"
+    },
+    {
+      "CVE_ID": "CVE-2021-4149",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability, possible relation to ext4"
+    }
+  ],
+  "CVE-2013-6367": [
+    {
+      "CVE_ID": "CVE-2013-6367",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to apic_get_tmcct in NVD"
+    },
+    {
+      "CVE_ID": "CVE-2021-4032",
+      "confidence": 0.8,
+      "match_reason": "Vulnerability in lapic.c, related to KVM"
+    },
+    {
+      "CVE_ID": "CVE-2013-6376",
+      "confidence": 0.75,
+      "match_reason": "Denial-of-service vulnerability in lapic.c"
+    },
+    {
+      "CVE_ID": "CVE-2018-19406",
+      "confidence": 0.65,
+      "match_reason": "Null pointer dereference in lapic.c"
+    },
+    {
+      "CVE_ID": "CVE-2022-48765",
+      "confidence": 0.6,
+      "match_reason": "Preemption timer issue in lapic.c"
+    }
+  ],
+  "CVE-2020-12464": [
+    {
+      "CVE_ID": "CVE-2020-12464",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-19965",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel USB subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2019-15292",
+      "confidence": 0.55,
+      "match_reason": "Use-after-free vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2018-5750",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel vulnerability with potential for memory corruption"
+    },
+    {
+      "CVE_ID": "CVE-2017-16649",
+      "confidence": 0.4,
+      "match_reason": "USB-related vulnerability in Linux kernel"
+    }
+  ],
+  "CVE-2010-3437": [
+    {
+      "CVE_ID": "CVE-2005-1589",
+      "confidence": 0.85,
+      "match_reason": "pktcdvd.c file and ioctl handler vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2010-3437",
+      "confidence": 0.8,
+      "match_reason": "pktcdvd.c file and integer signedness error"
+    },
+    {
+      "CVE_ID": "CVE-2024-46681",
+      "confidence": 0.6,
+      "match_reason": "packet-related locking issue in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2023-52800",
+      "confidence": 0.55,
+      "match_reason": "locking issue in ath11k driver's packet logging code"
+    },
+    {
+      "CVE_ID": "CVE-2021-46990",
+      "confidence": 0.4,
+      "match_reason": "network-related kernel vulnerability"
+    }
+  ],
+  "CVE-2011-4112": [
+    {
+      "CVE_ID": "CVE-2023-52784",
+      "confidence": 0.85,
+      "match_reason": "Linux kernel bonding driver vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-48842",
+      "confidence": 0.75,
+      "match_reason": "Race condition in ice network driver"
+    },
+    {
+      "CVE_ID": "CVE-2025-22105",
+      "confidence": 0.65,
+      "match_reason": "XDP program attachment issue in bonding driver"
+    },
+    {
+      "CVE_ID": "CVE-2019-14816",
+      "confidence": 0.45,
+      "match_reason": "Bluetooth vulnerability in bnep module"
+    },
+    {
+      "CVE_ID": "CVE-2019-14814",
+      "confidence": 0.4,
+      "match_reason": "Bluetooth vulnerability in bnep module"
+    }
+  ],
+  "CVE-2008-4302": [
+    {
+      "CVE_ID": "CVE-2022-0847",
+      "confidence": 0.85,
+      "match_reason": "Dirty Pipe vulnerability in Linux kernel pipe operations"
+    },
+    {
+      "CVE_ID": "CVE-2016-0774",
+      "confidence": 0.6,
+      "match_reason": "Flaw in Linux kernel pipe_read and pipe_write implementations"
+    },
+    {
+      "CVE_ID": "CVE-2015-1805",
+      "confidence": 0.55,
+      "match_reason": "Issue with pipe_read and pipe_write in Linux kernel fs/pipe.c"
+    },
+    {
+      "CVE_ID": "CVE-2014-0196",
+      "confidence": 0.4,
+      "match_reason": "Vulnerability in Linux kernel keyring facility"
+    },
+    {
+      "CVE_ID": "CVE-2013-4314",
+      "confidence": 0.35,
+      "match_reason": "Buffer overflow vulnerability in Linux kernel pipe implementation"
+    }
+  ],
+  "CVE-2011-1476": [
+    {
+      "CVE_ID": "CVE-2025-37891",
+      "confidence": 0.85,
+      "match_reason": "MIDI buffer overflow vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-57893",
+      "confidence": 0.75,
+      "match_reason": "Sequencer handling of SysEx messages vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-33909",
+      "confidence": 0.65,
+      "match_reason": "Linux kernel sequencer file interface vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-27786",
+      "confidence": 0.55,
+      "match_reason": "Use-after-free in kernel MIDI subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2018-10902",
+      "confidence": 0.45,
+      "match_reason": "Double-free in raw MIDI driver"
+    }
+  ],
+  "CVE-2013-4516": [
+    {
+      "CVE_ID": "CVE-2025-38262",
+      "confidence": 0.7,
+      "match_reason": "Similar UART state structure vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-21820",
+      "confidence": 0.65,
+      "match_reason": "Related UART driver vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-15291",
+      "confidence": 0.4,
+      "match_reason": "Generic Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-12382",
+      "confidence": 0.35,
+      "match_reason": "Linux kernel UART vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2017-16649",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel driver vulnerability"
+    }
+  ],
+  "CVE-2013-4300": [
+    {
+      "CVE_ID": "CVE-2013-1958",
+      "confidence": 0.95,
+      "match_reason": "Strong match due to direct reference in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2013-4300",
+      "confidence": 0.92,
+      "match_reason": "Strong match due to direct reference in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000112",
+      "confidence": 0.6,
+      "match_reason": "Moderate match due to similar vulnerability type and affected component"
+    },
+    {
+      "CVE_ID": "CVE-2019-14284",
+      "confidence": 0.5,
+      "match_reason": "Weak match due to generic overlap in vulnerability type"
+    },
+    {
+      "CVE_ID": "CVE-2020-25211",
+      "confidence": 0.4,
+      "match_reason": "Weak match due to minimal corroboration from search results"
+    }
+  ],
+  "CVE-2023-44466": [
+    {
+      "CVE_ID": "CVE-2023-44466",
+      "confidence": 0.95,
+      "match_reason": "Integer signedness error in ceph_decode_32"
+    },
+    {
+      "CVE_ID": "CVE-2025-38223",
+      "confidence": 0.4,
+      "match_reason": "Unrelated CVE, but mentions Ceph"
+    },
+    {
+      "CVE_ID": "CVE-2020-10753",
+      "confidence": 0.3,
+      "match_reason": "Header injection in RadosGW, possible relation to Ceph messenger"
+    },
+    {
+      "CVE_ID": "CVE-2021-3524",
+      "confidence": 0.25,
+      "match_reason": "DoS in RGW and FS components, possible relation to Ceph"
+    },
+    {
+      "CVE_ID": "CVE-2019-0211",
+      "confidence": 0.2,
+      "match_reason": "Weak match, mentions Linux kernel and potential remote code execution"
+    }
+  ],
+  "CVE-2024-1086": [
+    {
+      "CVE_ID": "CVE-2024-1086",
+      "confidence": 0.95,
+      "match_reason": "Direct mention in search results and strong overlap with code"
+    },
+    {
+      "CVE_ID": "CVE-2024-26597",
+      "confidence": 0.8,
+      "match_reason": "Involves nla_parse_nested_deprecated function and netlink parsing bugs"
+    },
+    {
+      "CVE_ID": "CVE-2024-50128",
+      "confidence": 0.75,
+      "match_reason": "Similar issue with nla_parse_nested_deprecated and global OOB read"
+    },
+    {
+      "CVE_ID": "CVE-2023-31248",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free issue in nft_chain_lookup_byid() function"
+    },
+    {
+      "CVE_ID": "CVE-2023-3610",
+      "confidence": 0.5,
+      "match_reason": "Fix for chain binding transaction logic in nftables"
+    }
+  ],
+  "CVE-2011-2189": [
+    {
+      "CVE_ID": "CVE-2024-56661",
+      "confidence": 0.9,
+      "match_reason": "NULL pointer dereference in cleanup_bearer"
+    },
+    {
+      "CVE_ID": "CVE-2025-21677",
+      "confidence": 0.8,
+      "match_reason": "PFCP device cleanup vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-38181",
+      "confidence": 0.7,
+      "match_reason": "CALIPSO handling null pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2024-26865",
+      "confidence": 0.6,
+      "match_reason": "RDS/TCP use-after-free bug"
+    },
+    {
+      "CVE_ID": "CVE-2024-44991",
+      "confidence": 0.5,
+      "match_reason": "tcp_sk_exit_batch and setup_net interaction"
+    }
+  ],
+  "CVE-2012-3511": [
+    {
+      "CVE_ID": "CVE-2006-1524",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to madvise_remove vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2012-3511",
+      "confidence": 0.85,
+      "match_reason": "Race condition in madvise_remove function"
+    },
+    {
+      "CVE_ID": "CVE-2017-15127",
+      "confidence": 0.75,
+      "match_reason": "Improper error handling of VM_SHARED hugetlbfs mapping"
+    },
+    {
+      "CVE_ID": "CVE-2006-2071",
+      "confidence": 0.4,
+      "match_reason": "Related to Linux kernel vulnerabilities, potential overlap"
+    },
+    {
+      "CVE_ID": "CVE-2010-3881",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability, possible connection to madvise_remove"
+    }
+  ],
+  "CVE-2022-0382": [
+    {
+      "CVE_ID": "CVE-2023-52700",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in NVD and MITRE entries"
+    },
+    {
+      "CVE_ID": "CVE-2022-0382",
+      "confidence": 0.8,
+      "match_reason": "TIPC vulnerability related to tipc_sendmsg"
+    },
+    {
+      "CVE_ID": "CVE-2010-3859",
+      "confidence": 0.6,
+      "match_reason": "Historical TIPC heap overflow vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26663",
+      "confidence": 0.4,
+      "match_reason": "TIPC-related vulnerability, though not directly involving __tipc_sendmsg"
+    },
+    {
+      "CVE_ID": "CVE-2022-48865",
+      "confidence": 0.3,
+      "match_reason": "Weak match due to TIPC subsystem involvement, but no direct connection to __tipc_sendmsg"
+    }
+  ],
+  "CVE-2021-43267": [
+    {
+      "CVE_ID": "CVE-2024-0641",
+      "confidence": 0.85,
+      "match_reason": "Denial of Service in tipc_crypto_key_revoke"
+    },
+    {
+      "CVE_ID": "CVE-2022-49017",
+      "confidence": 0.7,
+      "match_reason": "Use-after-free vulnerability in tipc_crypto_rcv_complete"
+    },
+    {
+      "CVE_ID": "CVE-2024-40983",
+      "confidence": 0.65,
+      "match_reason": "Issue in the decryption path of the TIPC subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2025-38052",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free issue in tipc_aead_encrypt_done"
+    },
+    {
+      "CVE_ID": "CVE-2021-43267",
+      "confidence": 0.55,
+      "match_reason": "Heap overflow in MSG_CRYPTO messages"
+    }
+  ],
+  "CVE-2015-0239": [
+    {
+      "CVE_ID": "CVE-2015-0239",
+      "confidence": 0.95,
+      "match_reason": "Direct match with em_sysenter function and KVM emulation"
+    },
+    {
+      "CVE_ID": "CVE-2021-29650",
+      "confidence": 0.6,
+      "match_reason": "Related to KVM emulation and potential privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.55,
+      "match_reason": "KVM vulnerability with potential for denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2018-1091",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel vulnerability with potential for privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2017-5754",
+      "confidence": 0.4,
+      "match_reason": "Spectre vulnerability in Linux kernel with potential for information disclosure"
+    }
+  ],
+  "CVE-2019-15922": [
+    {
+      "CVE_ID": "CVE-2019-15922",
+      "confidence": 0.95,
+      "match_reason": "Null pointer dereference in pf.c"
+    },
+    {
+      "CVE_ID": "CVE-2025-37980",
+      "confidence": 0.6,
+      "match_reason": "Memory leak in block subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2025-21832",
+      "confidence": 0.55,
+      "match_reason": "Logic issue in blkdev_read_iter()"
+    },
+    {
+      "CVE_ID": "CVE-2025-38442",
+      "confidence": 0.5,
+      "match_reason": "Kernel panic during boot"
+    },
+    {
+      "CVE_ID": "CVE-2025-38073",
+      "confidence": 0.45,
+      "match_reason": "Race condition in block subsystem"
+    }
+  ],
+  "CVE-2018-18397": [
+    {
+      "CVE_ID": "CVE-2024-36881",
+      "confidence": 0.95,
+      "match_reason": "userfaultfd_unregister function"
+    },
+    {
+      "CVE_ID": "CVE-2021-47214",
+      "confidence": 0.8,
+      "match_reason": "hugetlb_mcopy_atomic_pte function"
+    },
+    {
+      "CVE_ID": "CVE-2021-47461",
+      "confidence": 0.75,
+      "match_reason": "race condition in userfaultfd"
+    },
+    {
+      "CVE_ID": "CVE-2018-18397",
+      "confidence": 0.6,
+      "match_reason": "userfaultfd ioctl access control bypass"
+    },
+    {
+      "CVE_ID": "CVE-2022-49991",
+      "confidence": 0.5,
+      "match_reason": "hugetlb_mcopy_atomic_pte function"
+    }
+  ],
+  "CVE-2014-4699": [
+    {
+      "CVE_ID": "CVE-2019-13272",
+      "confidence": 0.95,
+      "match_reason": "ptrace flags and kernel privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2018-1000199",
+      "confidence": 0.85,
+      "match_reason": "ptrace and register handling"
+    },
+    {
+      "CVE_ID": "CVE-2005-3783",
+      "confidence": 0.65,
+      "match_reason": "ptrace and thread group IDs"
+    },
+    {
+      "CVE_ID": "CVE-2005-0756",
+      "confidence": 0.55,
+      "match_reason": "ptrace and address validation"
+    },
+    {
+      "CVE_ID": "CVE-2005-3784",
+      "confidence": 0.45,
+      "match_reason": "ptrace and auto-reaping of child processes"
+    }
+  ],
+  "CVE-2014-0155": [
+    {
+      "CVE_ID": "CVE-2014-0155",
+      "confidence": 0.95,
+      "match_reason": "ioapic_service function and search results match"
+    },
+    {
+      "CVE_ID": "CVE-2020-27152",
+      "confidence": 0.8,
+      "match_reason": "kvm_ioapic component and search results match"
+    },
+    {
+      "CVE_ID": "CVE-2018-19407",
+      "confidence": 0.7,
+      "match_reason": "vcpu_scan_ioapic function and search results match"
+    },
+    {
+      "CVE_ID": "CVE-2016-9777",
+      "confidence": 0.6,
+      "match_reason": "kvm/ioapic VCPU index handling and search results match"
+    },
+    {
+      "CVE_ID": "CVE-2013-1798",
+      "confidence": 0.5,
+      "match_reason": "ioapic_read_indirect function and search results match"
+    }
+  ],
+  "CVE-2021-3640": [
+    {
+      "CVE_ID": "CVE-2021-3640",
+      "confidence": 0.95,
+      "match_reason": "sco_send_frame function and MTU check"
+    },
+    {
+      "CVE_ID": "CVE-2022-49474",
+      "confidence": 0.9,
+      "match_reason": "sco_connect function and use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-50125",
+      "confidence": 0.85,
+      "match_reason": "sco_sock_timeout function and use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-3564",
+      "confidence": 0.6,
+      "match_reason": "Bluetooth vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2020-12354",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability in Bluetooth subsystem"
+    }
+  ],
+  "CVE-2013-4247": [
+    {
+      "CVE_ID": "CVE-2013-4247",
+      "confidence": 0.95,
+      "match_reason": "Direct match with build_unc_path_to_root function"
+    },
+    {
+      "CVE_ID": "CVE-2022-23277",
+      "confidence": 0.6,
+      "match_reason": "Related to Linux kernel CIFS vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2020-25704",
+      "confidence": 0.55,
+      "match_reason": "Linux kernel CIFS vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2019-11501",
+      "confidence": 0.5,
+      "match_reason": "Linux kernel denial-of-service vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2018-11489",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel CIFS vulnerabilities"
+    }
+  ],
+  "CVE-2011-4604": [
+    {
+      "CVE_ID": "CVE-2011-4604",
+      "confidence": 0.95,
+      "match_reason": "Direct match with bat_socket_read function and icmp_socket.c file"
+    },
+    {
+      "CVE_ID": "CVE-2025-21781",
+      "confidence": 0.8,
+      "match_reason": "Related to batman-adv and interface removal issues"
+    },
+    {
+      "CVE_ID": "CVE-2025-21823",
+      "confidence": 0.75,
+      "match_reason": "Related to batman-adv and ELP metric worker issues"
+    },
+    {
+      "CVE_ID": "CVE-2024-40981",
+      "confidence": 0.7,
+      "match_reason": "Related to batman-adv and soft lockup issues"
+    },
+    {
+      "CVE_ID": "CVE-2021-47252",
+      "confidence": 0.6,
+      "match_reason": "Related to batman-adv and timing-related WARN_ON misuse"
+    }
+  ],
+  "CVE-2015-8953": [
+    {
+      "CVE_ID": "CVE-2025-21887",
+      "confidence": 0.95,
+      "match_reason": "Use-after-free in overlayfs copy-up path"
+    },
+    {
+      "CVE_ID": "CVE-2023-32629",
+      "confidence": 0.92,
+      "match_reason": "Privilege escalation via overlayfs copying"
+    },
+    {
+      "CVE_ID": "CVE-2022-48741",
+      "confidence": 0.85,
+      "match_reason": "NULL pointer dereference in overlayfs copy-up warning"
+    },
+    {
+      "CVE_ID": "CVE-2023-1252",
+      "confidence": 0.75,
+      "match_reason": "Use-after-free in struct ovl_aio_req"
+    },
+    {
+      "CVE_ID": "CVE-2019-10140",
+      "confidence": 0.6,
+      "match_reason": "NULL pointer dereference in ovl_posix_acl_create"
+    }
+  ],
+  "CVE-2013-1827": [
+    {
+      "CVE_ID": "CVE-2020-16119",
+      "confidence": 0.95,
+      "match_reason": "Use-after-free vulnerability in DCCP socket handling"
+    },
+    {
+      "CVE_ID": "CVE-2017-2634",
+      "confidence": 0.8,
+      "match_reason": "Improper handling of DCCP packets"
+    },
+    {
+      "CVE_ID": "CVE-2014-2523",
+      "confidence": 0.75,
+      "match_reason": "Header pointer misuse in DCCP connection tracking"
+    },
+    {
+      "CVE_ID": "CVE-2008-3276",
+      "confidence": 0.6,
+      "match_reason": "Integer overflow in dccp_setsockopt_change"
+    },
+    {
+      "CVE_ID": "CVE-2023-39197",
+      "confidence": 0.5,
+      "match_reason": "Out-of-bounds read in Netfilter connection tracking"
+    }
+  ],
+  "CVE-2016-6828": [
+    {
+      "CVE_ID": "CVE-2016-6828",
+      "confidence": 0.85,
+      "match_reason": "tcp_check_send_head function in include/net/tcp.h"
+    },
+    {
+      "CVE_ID": "CVE-2022-49330",
+      "confidence": 0.75,
+      "match_reason": "TCP MTU probing in include/net/tcp.h"
+    },
+    {
+      "CVE_ID": "CVE-2024-36904",
+      "confidence": 0.65,
+      "match_reason": "Use-after-free in TCP TIME_WAIT path"
+    },
+    {
+      "CVE_ID": "CVE-2025-37894",
+      "confidence": 0.55,
+      "match_reason": "Improper handling of TCP_TIME_WAIT sockets"
+    },
+    {
+      "CVE_ID": "CVE-2024-41007",
+      "confidence": 0.45,
+      "match_reason": "Excessive TCP retransmissions"
+    }
+  ],
+  "CVE-2011-1493": [
+    {
+      "CVE_ID": "CVE-2011-4913",
+      "confidence": 0.95,
+      "match_reason": "rose_parse_ccitt function vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2011-1493",
+      "confidence": 0.9,
+      "match_reason": "rose_parse_national function vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2016-4580",
+      "confidence": 0.6,
+      "match_reason": "X.25 facilities negotiation vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2010-3873",
+      "confidence": 0.55,
+      "match_reason": "Improper parsing of X.25 facilities"
+    },
+    {
+      "CVE_ID": "CVE-2023-51782",
+      "confidence": 0.4,
+      "match_reason": "Use-after-free vulnerability in rose_ioctl"
+    }
+  ],
+  "CVE-2013-4514": [
+    {
+      "CVE_ID": "CVE-2013-4514",
+      "confidence": 0.95,
+      "match_reason": "Exact match with vulnerable code block and search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.6,
+      "match_reason": "Partial match with kernel version and vulnerable function"
+    },
+    {
+      "CVE_ID": "CVE-2018-10953",
+      "confidence": 0.5,
+      "match_reason": "Similar vulnerability in related kernel module"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000112",
+      "confidence": 0.4,
+      "match_reason": "Generic overlap with kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2015-8660",
+      "confidence": 0.3,
+      "match_reason": "Weak match with older kernel version"
+    }
+  ],
+  "CVE-2012-2390": [
+    {
+      "CVE_ID": "CVE-2012-2390",
+      "confidence": 0.95,
+      "match_reason": "hugetlb_reserve_pages function match"
+    },
+    {
+      "CVE_ID": "CVE-2024-27022",
+      "confidence": 0.8,
+      "match_reason": "hugetlb_vm_op_open related vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26688",
+      "confidence": 0.7,
+      "match_reason": "hugetlbfs_fill_super NULL pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2024-36000",
+      "confidence": 0.6,
+      "match_reason": "hugetlb_lock missing in reservation uncharge"
+    },
+    {
+      "CVE_ID": "CVE-2025-38050",
+      "confidence": 0.5,
+      "match_reason": "mm/hugetlb NULL pointer dereference"
+    }
+  ],
+  "CVE-2019-15921": [
+    {
+      "CVE_ID": "CVE-2019-15921",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to genl_register_family"
+    },
+    {
+      "CVE_ID": "CVE-2023-0123",
+      "confidence": 0.6,
+      "match_reason": "Similar kernel memory leak vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-1115",
+      "confidence": 0.5,
+      "match_reason": "Netlink-related vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-3345",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability with potential memory leak"
+    },
+    {
+      "CVE_ID": "CVE-2020-1234",
+      "confidence": 0.3,
+      "match_reason": "Generic Linux kernel vulnerability"
+    }
+  ],
+  "CVE-2013-7027": [
+    {
+      "CVE_ID": "CVE-2013-7027",
+      "confidence": 0.95,
+      "match_reason": "Direct mention in search results and code block"
+    },
+    {
+      "CVE_ID": "CVE-2013-4921",
+      "confidence": 0.8,
+      "match_reason": "Mention in search results related to radiotap.c"
+    },
+    {
+      "CVE_ID": "CVE-2018-16057",
+      "confidence": 0.75,
+      "match_reason": "Association with radiotap dissector in Wireshark"
+    },
+    {
+      "CVE_ID": "CVE-2021-38206",
+      "confidence": 0.6,
+      "match_reason": "Related to mac80211 and radiotap parser"
+    },
+    {
+      "CVE_ID": "CVE-2021-47395",
+      "confidence": 0.55,
+      "match_reason": "Association with ieee80211_parse_tx_radiotap"
+    }
+  ],
+  "CVE-2013-2234": [
+    {
+      "CVE_ID": "CVE-2013-2237",
+      "confidence": 0.95,
+      "match_reason": "key_notify_policy_flush function match"
+    },
+    {
+      "CVE_ID": "CVE-2013-2234",
+      "confidence": 0.9,
+      "match_reason": "key_notify_sa_flush and key_notify_policy_flush functions match"
+    },
+    {
+      "CVE_ID": "CVE-2009-4536",
+      "confidence": 0.4,
+      "match_reason": "PF_KEY protocol vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2010-4346",
+      "confidence": 0.35,
+      "match_reason": "IPSec key management vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2011-4326",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel IPSec vulnerability"
+    }
+  ],
+  "CVE-2014-7283": [
+    {
+      "CVE_ID": "CVE-2014-7283",
+      "confidence": 0.95,
+      "match_reason": "Direct match with xfs_da3_fixhashpath function"
+    },
+    {
+      "CVE_ID": "CVE-2014-7209",
+      "confidence": 0.6,
+      "match_reason": "Similar XFS vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2013-0216",
+      "confidence": 0.5,
+      "match_reason": "XFS filesystem vulnerability in older Linux kernels"
+    },
+    {
+      "CVE_ID": "CVE-2012-6657",
+      "confidence": 0.45,
+      "match_reason": "Denial-of-service vulnerability in XFS"
+    },
+    {
+      "CVE_ID": "CVE-2011-4073",
+      "confidence": 0.4,
+      "match_reason": "XFS vulnerability in Linux kernel, possible weak match"
+    }
+  ],
+  "CVE-2022-42703": [
+    {
+      "CVE_ID": "CVE-2023-52935",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to anon_vma in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2022-42703",
+      "confidence": 0.85,
+      "match_reason": "Use-after-free vulnerability related to anon_vma"
+    },
+    {
+      "CVE_ID": "CVE-2025-37958",
+      "confidence": 0.75,
+      "match_reason": "Invalid access of PMD entries triggered by anon_vma lookups"
+    },
+    {
+      "CVE_ID": "CVE-2023-52490",
+      "confidence": 0.65,
+      "match_reason": "Improper handling of anon_vma pointer during page migration"
+    },
+    {
+      "CVE_ID": "CVE-2023-0123",
+      "confidence": 0.45,
+      "match_reason": "Weak match due to generic overlap with anon_vma-related vulnerabilities"
+    }
+  ],
+  "CVE-2023-40791": [
+    {
+      "CVE_ID": "CVE-2023-40791",
+      "confidence": 0.95,
+      "match_reason": "exact function and file match"
+    },
+    {
+      "CVE_ID": "CVE-2021-47580",
+      "confidence": 0.7,
+      "match_reason": "related function in same file"
+    },
+    {
+      "CVE_ID": "CVE-2021-47578",
+      "confidence": 0.65,
+      "match_reason": "related function in same file"
+    },
+    {
+      "CVE_ID": "CVE-2017-8065",
+      "confidence": 0.4,
+      "match_reason": "related kernel code"
+    },
+    {
+      "CVE_ID": "CVE-2021-20233",
+      "confidence": 0.3,
+      "match_reason": "weak match due to generic kernel vulnerability"
+    }
+  ],
+  "CVE-2017-16994": [
+    {
+      "CVE_ID": "CVE-2017-16994",
+      "confidence": 0.95,
+      "match_reason": "Direct match with walk_hugetlb_range function and mm/pagewalk.c file"
+    },
+    {
+      "CVE_ID": "CVE-2024-26987",
+      "confidence": 0.8,
+      "match_reason": "Related to hugetlb subsystem and potential deadlock issue"
+    },
+    {
+      "CVE_ID": "CVE-2024-36000",
+      "confidence": 0.75,
+      "match_reason": "Involves missing locking in hugetlb subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2021-47214",
+      "confidence": 0.6,
+      "match_reason": "Relates to hugetlb and userfaultfd, with memory leak issue"
+    },
+    {
+      "CVE_ID": "CVE-2024-47676",
+      "confidence": 0.5,
+      "match_reason": "Involves Use-After-Free condition in hugetlb fault pathway"
+    }
+  ],
+  "CVE-2022-25636": [
+    {
+      "CVE_ID": "CVE-2021-47312",
+      "confidence": 0.85,
+      "match_reason": "Null pointer dereference due to inappropriate cleanup when flow is NULL"
+    },
+    {
+      "CVE_ID": "CVE-2022-25636",
+      "confidence": 0.8,
+      "match_reason": "Heap out-of-bounds write in nf_dup_netdev.c"
+    },
+    {
+      "CVE_ID": "CVE-2024-26834",
+      "confidence": 0.6,
+      "match_reason": "Memory leak in nft_flow_offload"
+    },
+    {
+      "CVE_ID": "CVE-2024-27403",
+      "confidence": 0.5,
+      "match_reason": "Reset dst in route object after setting up flow"
+    },
+    {
+      "CVE_ID": "CVE-2024-27064",
+      "confidence": 0.4,
+      "match_reason": "Memory leak in nf_tables_updchain"
+    }
+  ],
+  "CVE-2021-4032": [
+    {
+      "CVE_ID": "CVE-2022-48765",
+      "confidence": 0.8,
+      "match_reason": "KVM LAPIC vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47255",
+      "confidence": 0.7,
+      "match_reason": "KVM LAPIC register access vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-4032",
+      "confidence": 0.6,
+      "match_reason": "KVM LAPIC crash vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2015-4692",
+      "confidence": 0.5,
+      "match_reason": "KVM APIC NULL pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2013-6376",
+      "confidence": 0.4,
+      "match_reason": "KVM x2APIC mode crash vulnerability"
+    }
+  ],
+  "CVE-2013-4205": [
+    {
+      "CVE_ID": "CVE-2013-1956",
+      "confidence": 0.95,
+      "match_reason": "create_user_ns function in kernel/user_namespace.c"
+    },
+    {
+      "CVE_ID": "CVE-2017-15129",
+      "confidence": 0.7,
+      "match_reason": "network namespaces vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-1086",
+      "confidence": 0.65,
+      "match_reason": "unprivileged user namespaces privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2022-0185",
+      "confidence": 0.6,
+      "match_reason": "container escape vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-6552",
+      "confidence": 0.5,
+      "match_reason": "Apport flaw related to PID namespaces"
+    }
+  ],
+  "CVE-2021-3493": [
+    {
+      "CVE_ID": "CVE-2018-14659",
+      "confidence": 0.85,
+      "match_reason": "setxattr system call vulnerability in GlusterFS"
+    },
+    {
+      "CVE_ID": "CVE-2018-14660",
+      "confidence": 0.83,
+      "match_reason": "setxattr system call vulnerability in GlusterFS"
+    },
+    {
+      "CVE_ID": "CVE-2018-12233",
+      "confidence": 0.8,
+      "match_reason": "memory corruption vulnerability in Linux kernel's JFS filesystem"
+    },
+    {
+      "CVE_ID": "CVE-2019-19319",
+      "confidence": 0.78,
+      "match_reason": "use-after-free vulnerability in Linux kernel's ext4 filesystem"
+    },
+    {
+      "CVE_ID": "CVE-2021-3493",
+      "confidence": 0.75,
+      "match_reason": "privilege escalation vulnerability in Linux kernel's OverlayFS implementation"
+    }
+  ],
+  "CVE-2013-6381": [
+    {
+      "CVE_ID": "CVE-2013-6381",
+      "confidence": 0.95,
+      "match_reason": "Direct match with qeth_snmp_command function"
+    },
+    {
+      "CVE_ID": "CVE-2024-36928",
+      "confidence": 0.6,
+      "match_reason": "Related vulnerability in s390/qeth driver"
+    },
+    {
+      "CVE_ID": "CVE-2022-48954",
+      "confidence": 0.55,
+      "match_reason": "Use-After-Free vulnerability in s390/qeth driver"
+    },
+    {
+      "CVE_ID": "CVE-2021-47369",
+      "confidence": 0.5,
+      "match_reason": "NULL dereference issue in qeth_clear_working_pool_list"
+    },
+    {
+      "CVE_ID": "CVE-2021-47382",
+      "confidence": 0.45,
+      "match_reason": "Deadlock during recovery in s390/qeth driver"
+    }
+  ],
+  "CVE-2010-3081": [
+    {
+      "CVE_ID": "CVE-2010-3081",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to compat.h in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2010-4073",
+      "confidence": 0.85,
+      "match_reason": "Involves compatibility syscall functions in the Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2024-26678",
+      "confidence": 0.6,
+      "match_reason": "Reference to .compat PE/COFF section in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000405",
+      "confidence": 0.4,
+      "match_reason": "Generic overlap with Linux kernel compatibility issues"
+    },
+    {
+      "CVE_ID": "CVE-2018-1000004",
+      "confidence": 0.2,
+      "match_reason": "Minimal corroboration with Linux kernel compatibility vulnerabilities"
+    }
+  ],
+  "CVE-2021-27363": [
+    {
+      "CVE_ID": "CVE-2021-27364",
+      "confidence": 0.95,
+      "match_reason": "Out-of-bounds read issue in the iSCSI subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2021-27363",
+      "confidence": 0.85,
+      "match_reason": "Kernel pointer leak vulnerability in the iSCSI transport subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2017-14489",
+      "confidence": 0.6,
+      "match_reason": "Denial-of-service vulnerability via improper length validation in the iSCSI subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2023-52975",
+      "confidence": 0.5,
+      "match_reason": "Use-after-free vulnerability in the iSCSI TCP implementation"
+    },
+    {
+      "CVE_ID": "CVE-2025-21993",
+      "confidence": 0.4,
+      "match_reason": "Vulnerability in the iSCSI Boot Firmware Table component"
+    }
+  ],
+  "CVE-2020-10942": [
+    {
+      "CVE_ID": "CVE-2020-10942",
+      "confidence": 0.95,
+      "match_reason": "get_raw_socket function in drivers/vhost/net.c matches CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2019-3900",
+      "confidence": 0.8,
+      "match_reason": "vhost_net_release function related to vhost_net kernel module matches CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2018-16880",
+      "confidence": 0.75,
+      "match_reason": "vhost_net driver vulnerability matches CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2023-1838",
+      "confidence": 0.7,
+      "match_reason": "vhost_net_set_backend function in drivers/vhost/net.c matches CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2024-4693",
+      "confidence": 0.65,
+      "match_reason": "vhost_net_stop function related to Virtio PCI bindings matches CVE description"
+    }
+  ],
+  "CVE-2019-15030": [
+    {
+      "CVE_ID": "CVE-2019-15031",
+      "confidence": 0.85,
+      "match_reason": "MSR_VSX and vector register handling"
+    },
+    {
+      "CVE_ID": "CVE-2019-15030",
+      "confidence": 0.83,
+      "match_reason": "MSR handling and vector register corruption"
+    },
+    {
+      "CVE_ID": "CVE-2016-5828",
+      "confidence": 0.78,
+      "match_reason": "Transactional state and process.c"
+    },
+    {
+      "CVE_ID": "CVE-2015-8845",
+      "confidence": 0.75,
+      "match_reason": "TM reclaim and process.c"
+    },
+    {
+      "CVE_ID": "CVE-2014-2673",
+      "confidence": 0.72,
+      "match_reason": "Fork/clone in TM and process.c"
+    }
+  ],
+  "CVE-2010-1636": [
+    {
+      "CVE_ID": "CVE-2010-1636",
+      "confidence": 0.95,
+      "match_reason": "btrfs_ioctl_clone function in fs/btrfs/ioctl.c"
+    },
+    {
+      "CVE_ID": "CVE-2010-2538",
+      "confidence": 0.85,
+      "match_reason": "Integer overflow in btrfs_ioctl_clone"
+    },
+    {
+      "CVE_ID": "CVE-2010-2537",
+      "confidence": 0.8,
+      "match_reason": "Overwriting append-only files via btrfs_ioctl_clone"
+    },
+    {
+      "CVE_ID": "CVE-2019-19535",
+      "confidence": 0.4,
+      "match_reason": "Btrfs filesystem vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-14678",
+      "confidence": 0.3,
+      "match_reason": "Btrfs filesystem vulnerability"
+    }
+  ],
+  "CVE-2022-47946": [
+    {
+      "CVE_ID": "CVE-2022-47946",
+      "confidence": 0.95,
+      "match_reason": "use-after-free vulnerability in io_sqpoll_wait_sq"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.6,
+      "match_reason": "related to io_uring and potential denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2020-0427",
+      "confidence": 0.5,
+      "match_reason": "kernel vulnerability with potential for denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2019-16714",
+      "confidence": 0.45,
+      "match_reason": "related to Linux kernel and potential security issue"
+    },
+    {
+      "CVE_ID": "CVE-2021-20265",
+      "confidence": 0.4,
+      "match_reason": "potential security issue in Linux kernel"
+    }
+  ],
+  "CVE-2019-15031": [
+    {
+      "CVE_ID": "CVE-2019-15031",
+      "confidence": 0.95,
+      "match_reason": "MSR_TM_ACTIVE misuse"
+    },
+    {
+      "CVE_ID": "CVE-2023-31315",
+      "confidence": 0.7,
+      "match_reason": "MSR and floating-point vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-35801",
+      "confidence": 0.65,
+      "match_reason": "FPU state restoration vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-20421",
+      "confidence": 0.4,
+      "match_reason": "PowerPC kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-10720",
+      "confidence": 0.35,
+      "match_reason": "Linux kernel vulnerability"
+    }
+  ],
+  "CVE-2022-41222": [
+    {
+      "CVE_ID": "CVE-2024-50066",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to move_page_tables() function and race condition vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-53111",
+      "confidence": 0.8,
+      "match_reason": "Integer overflow issue in move_page_tables() on 32-bit systems"
+    },
+    {
+      "CVE_ID": "CVE-2022-49077",
+      "confidence": 0.6,
+      "match_reason": "Off-by-one error in move_page_tables() causing unnecessary invalidation"
+    },
+    {
+      "CVE_ID": "CVE-2023-12345",
+      "confidence": 0.4,
+      "match_reason": "Generic overlap with memory management vulnerabilities in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2022-67890",
+      "confidence": 0.2,
+      "match_reason": "Weak correlation with page table management issues in Linux kernel"
+    }
+  ],
+  "CVE-2022-30594": [
+    {
+      "CVE_ID": "CVE-2009-1527",
+      "confidence": 0.95,
+      "match_reason": "ptrace_attach function and kernel/ptrace.c file match"
+    },
+    {
+      "CVE_ID": "CVE-2019-13272",
+      "confidence": 0.8,
+      "match_reason": "ptrace-related vulnerability with credential mishandling"
+    },
+    {
+      "CVE_ID": "CVE-2008-2365",
+      "confidence": 0.7,
+      "match_reason": "ptrace-related denial-of-service vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2005-3783",
+      "confidence": 0.6,
+      "match_reason": "ptrace-related vulnerability with thread group ID issue"
+    },
+    {
+      "CVE_ID": "CVE-2005-0756",
+      "confidence": 0.5,
+      "match_reason": "ptrace-related vulnerability with address validation issue"
+    }
+  ],
+  "CVE-2014-0196": [
+    {
+      "CVE_ID": "CVE-2014-0196",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to n_tty_write function and matching vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2022-50116",
+      "confidence": 0.8,
+      "match_reason": "Related to tty subsystem and potential deadlock issue, although not directly referencing n_tty_write"
+    },
+    {
+      "CVE_ID": "CVE-2020-8648",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free vulnerability in n_tty_receive_buf_common function within same drivers/tty/n_tty.c file"
+    },
+    {
+      "CVE_ID": "CVE-2025-37814",
+      "confidence": 0.4,
+      "match_reason": "Requires CAP_SYS_ADMIN for all usages of TIOCL_SELMOUSEREPORT, related to tty but not directly to n_tty_write"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.2,
+      "match_reason": "Although not directly related to n_tty_write, it's a Linux kernel vulnerability that could potentially be relevant given the context"
+    }
+  ],
+  "CVE-2022-29581": [
+    {
+      "CVE_ID": "CVE-2023-4208",
+      "confidence": 0.95,
+      "match_reason": "use-after-free vulnerability in net/sched: cls_u32"
+    },
+    {
+      "CVE_ID": "CVE-2022-29581",
+      "confidence": 0.8,
+      "match_reason": "use-after-free in cls_u32.c due to improper reference count update"
+    },
+    {
+      "CVE_ID": "CVE-2023-3609",
+      "confidence": 0.6,
+      "match_reason": "related vulnerability in net/sched"
+    },
+    {
+      "CVE_ID": "CVE-2023-4128",
+      "confidence": 0.5,
+      "match_reason": "related vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2022-32250",
+      "confidence": 0.4,
+      "match_reason": "vulnerability in Linux kernel related to net/sched"
+    }
+  ],
+  "CVE-2017-18509": [
+    {
+      "CVE_ID": "CVE-2017-18509",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results"
+    },
+    {
+      "CVE_ID": "CVE-2024-38612",
+      "confidence": 0.7,
+      "match_reason": "Related to IPv6 and initialization functions"
+    },
+    {
+      "CVE_ID": "CVE-2024-40960",
+      "confidence": 0.6,
+      "match_reason": "NULL-pointer dereference vulnerability in IPv6 routing"
+    },
+    {
+      "CVE_ID": "CVE-2024-57980",
+      "confidence": 0.5,
+      "match_reason": "High-severity issue in uvcvideo driver, potential double-free"
+    },
+    {
+      "CVE_ID": "CVE-2025-21719",
+      "confidence": 0.45,
+      "match_reason": "Bug in Linux kernel's IP multicast routing subsystem"
+    }
+  ],
+  "CVE-2022-32250": [
+    {
+      "CVE_ID": "CVE-2021-46915",
+      "confidence": 0.85,
+      "match_reason": "nft_expr_init mentioned in call trace"
+    },
+    {
+      "CVE_ID": "CVE-2021-46283",
+      "confidence": 0.8,
+      "match_reason": "nft_set_elem_expr_alloc affected by NULL pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2023-32233",
+      "confidence": 0.6,
+      "match_reason": "use-after-free flaw in Netfilter subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2021-4441",
+      "confidence": 0.4,
+      "match_reason": "kzalloc-related vulnerability in other subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2019-9816",
+      "confidence": 0.2,
+      "match_reason": "unrelated vulnerability in nf_tables subsystem"
+    }
+  ],
+  "CVE-2013-4299": [
+    {
+      "CVE_ID": "CVE-2013-4299",
+      "confidence": 0.95,
+      "match_reason": "Direct match with dm-snap-persistent.c and Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2014-0108",
+      "confidence": 0.6,
+      "match_reason": "Possible match with device-mapper and Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-19965",
+      "confidence": 0.5,
+      "match_reason": "Possible match with Linux kernel and device-mapper vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-25705",
+      "confidence": 0.4,
+      "match_reason": "Weak match with Linux kernel and potential device-mapper vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-3752",
+      "confidence": 0.3,
+      "match_reason": "Very weak match with Linux kernel and potential vulnerability"
+    }
+  ],
+  "CVE-2021-3753": [
+    {
+      "CVE_ID": "CVE-2021-3753",
+      "confidence": 0.95,
+      "match_reason": "Direct match with vt_k_ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2022-48804",
+      "confidence": 0.8,
+      "match_reason": "Related issue in vt_ioctl subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2019-14107",
+      "confidence": 0.4,
+      "match_reason": "Potential vulnerability in Linux kernel tty subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2018-1000870",
+      "confidence": 0.3,
+      "match_reason": "Possible vulnerability in Linux kernel vt subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2015-7566",
+      "confidence": 0.2,
+      "match_reason": "Older vulnerability in Linux kernel tty subsystem"
+    }
+  ],
+  "CVE-2011-2906": [
+    {
+      "CVE_ID": "CVE-2011-2906",
+      "confidence": 0.95,
+      "match_reason": "Integer signedness error in pmcraid_ioctl_passthrough"
+    },
+    {
+      "CVE_ID": "CVE-2022-23277",
+      "confidence": 0.6,
+      "match_reason": "Kernel vulnerability in scsi/pmcraid"
+    },
+    {
+      "CVE_ID": "CVE-2019-16769",
+      "confidence": 0.5,
+      "match_reason": "Local denial of service in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2020-25705",
+      "confidence": 0.4,
+      "match_reason": "Integer overflow in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2018-20836",
+      "confidence": 0.3,
+      "match_reason": "Denial of service in Linux kernel"
+    }
+  ],
+  "CVE-2019-3701": [
+    {
+      "CVE_ID": "CVE-2019-3701",
+      "confidence": 0.95,
+      "match_reason": "Exact match of vulnerable function can_can_gw_rcv in net/can/gw.c"
+    },
+    {
+      "CVE_ID": "CVE-2024-36929",
+      "confidence": 0.7,
+      "match_reason": "Related to skb_copy and skb_clone functions, potentially relevant to CAN frame handling"
+    },
+    {
+      "CVE_ID": "CVE-2021-47162",
+      "confidence": 0.6,
+      "match_reason": "Involves fraglist and shared SKBs, which might be related to CAN networking"
+    },
+    {
+      "CVE_ID": "CVE-2025-21925",
+      "confidence": 0.5,
+      "match_reason": "Concerns shared SKBs and transmit issues, potentially relevant to CAN"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.4,
+      "match_reason": "General Linux kernel vulnerability, potentially affecting CAN subsystem"
+    }
+  ],
+  "CVE-2022-33981": [
+    {
+      "CVE_ID": "CVE-2018-7755",
+      "confidence": 0.95,
+      "match_reason": "Direct match with fd_locked_ioctl function and floppy driver"
+    },
+    {
+      "CVE_ID": "CVE-2022-33981",
+      "confidence": 0.85,
+      "match_reason": "Relevant to raw_cmd_ioctl function and floppy driver"
+    },
+    {
+      "CVE_ID": "CVE-2019-14284",
+      "confidence": 0.75,
+      "match_reason": "Related to setup_format_params function and division-by-zero vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2014-1737",
+      "confidence": 0.6,
+      "match_reason": "Associated with raw_cmd_copyin function and potential privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2019-14283",
+      "confidence": 0.5,
+      "match_reason": "Connected to set_geometry function and integer overflow vulnerability"
+    }
+  ],
+  "CVE-2019-11599": [
+    {
+      "CVE_ID": "CVE-2024-57890",
+      "confidence": 0.8,
+      "match_reason": "Related vulnerability in RDMA/uverbs subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2017-15126",
+      "confidence": 0.7,
+      "match_reason": "Use-after-free issue in userfaultfd_event_wait_completion"
+    },
+    {
+      "CVE_ID": "CVE-2024-36881",
+      "confidence": 0.6,
+      "match_reason": "Issue in userfaultfd_register with wr-protect bits"
+    },
+    {
+      "CVE_ID": "CVE-2018-18397",
+      "confidence": 0.5,
+      "match_reason": "Improper access control in userfaultfd ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2021-46927",
+      "confidence": 0.4,
+      "match_reason": "Kernel assertion failure with find_extend_vma"
+    }
+  ],
+  "CVE-2022-0850": [
+    {
+      "CVE_ID": "CVE-2024-49881",
+      "confidence": 0.9,
+      "match_reason": "ext4 extent handling vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47117",
+      "confidence": 0.7,
+      "match_reason": "related ext4 extent splitting issue"
+    },
+    {
+      "CVE_ID": "CVE-2024-49882",
+      "confidence": 0.6,
+      "match_reason": "double-release issue in ext4 buffer handling"
+    },
+    {
+      "CVE_ID": "CVE-2022-49409",
+      "confidence": 0.5,
+      "match_reason": "ext4 extent tree searching vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-3428",
+      "confidence": 0.4,
+      "match_reason": "integer overflow in ext4 extent caching"
+    }
+  ],
+  "CVE-2014-3145": [
+    {
+      "CVE_ID": "CVE-2014-3144",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results and code block"
+    },
+    {
+      "CVE_ID": "CVE-2014-3145",
+      "confidence": 0.92,
+      "match_reason": "Related vulnerability in same code area"
+    },
+    {
+      "CVE_ID": "CVE-2024-39490",
+      "confidence": 0.6,
+      "match_reason": "Involves sk_buff, but different vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26921",
+      "confidence": 0.55,
+      "match_reason": "Involves sk_buff, but different vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-52845",
+      "confidence": 0.45,
+      "match_reason": "Netlink operations, but not directly related"
+    }
+  ],
+  "CVE-2011-2695": [
+    {
+      "CVE_ID": "CVE-2022-48631",
+      "confidence": 0.85,
+      "match_reason": "ext4 extent handling bug"
+    },
+    {
+      "CVE_ID": "CVE-2024-49881",
+      "confidence": 0.7,
+      "match_reason": "NULL pointer dereference in ext4_find_extent"
+    },
+    {
+      "CVE_ID": "CVE-2024-49882",
+      "confidence": 0.6,
+      "match_reason": "double-free in ext4_ext_try_to_merge_up"
+    },
+    {
+      "CVE_ID": "CVE-2025-22120",
+      "confidence": 0.5,
+      "match_reason": "hang in ext4_setattr due to missing unlock calls"
+    },
+    {
+      "CVE_ID": "CVE-2025-22121",
+      "confidence": 0.4,
+      "match_reason": "out-of-bounds read in ext4_xattr_inode_dec_ref_all"
+    }
+  ],
+  "CVE-2011-1593": [
+    {
+      "CVE_ID": "CVE-2019-20794",
+      "confidence": 0.8,
+      "match_reason": "PID namespace security issue"
+    },
+    {
+      "CVE_ID": "CVE-2018-6552",
+      "confidence": 0.7,
+      "match_reason": "Apport crash handling across PID namespaces"
+    },
+    {
+      "CVE_ID": "CVE-2013-1958",
+      "confidence": 0.6,
+      "match_reason": "UNIX domain socket capability bypass involving PID namespaces"
+    },
+    {
+      "CVE_ID": "CVE-2025-21999",
+      "confidence": 0.5,
+      "match_reason": "Use-after-free vulnerability in proc_get_inode"
+    },
+    {
+      "CVE_ID": "CVE-2016-5195",
+      "confidence": 0.4,
+      "match_reason": "Dirty COW vulnerability, although not directly related to PID"
+    }
+  ],
+  "CVE-2011-3619": [
+    {
+      "CVE_ID": "CVE-2016-6187",
+      "confidence": 0.95,
+      "match_reason": "Exact function and file match with high severity vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2011-3619",
+      "confidence": 0.85,
+      "match_reason": "Exact function and file match with medium severity vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-1015",
+      "confidence": 0.4,
+      "match_reason": "Related AppArmor vulnerability, though less specific match"
+    },
+    {
+      "CVE_ID": "CVE-2015-9261",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability with potential AppArmor implications"
+    },
+    {
+      "CVE_ID": "CVE-2020-10720",
+      "confidence": 0.2,
+      "match_reason": "General Linux kernel vulnerability, potential for AppArmor impact"
+    }
+  ],
+  "CVE-2019-15923": [
+    {
+      "CVE_ID": "CVE-2019-15922",
+      "confidence": 0.85,
+      "match_reason": "NULL pointer dereference vulnerability in the Linux kernel related to the pf.c file"
+    },
+    {
+      "CVE_ID": "CVE-2018-14435",
+      "confidence": 0.8,
+      "match_reason": "Memory leak vulnerability in the DecodeImage function within coders/pcd.c in ImageMagick"
+    },
+    {
+      "CVE_ID": "CVE-2017-8351",
+      "confidence": 0.75,
+      "match_reason": "Denial-of-service (DoS) vulnerability caused by a memory leak through the ReadPCDImage function in pcd.c"
+    },
+    {
+      "CVE_ID": "CVE-2019-7175",
+      "confidence": 0.7,
+      "match_reason": "Multiple memory leaks in DecodeImage in coders/pcd.c, impacting all ImageMagick versions prior to 7.0.8-25"
+    },
+    {
+      "CVE_ID": "CVE-2022-32266",
+      "confidence": 0.6,
+      "match_reason": "Critical vulnerability involving DMA attacks on a parameter buffer used by a software SMI handler, related to PcdSmmDxe driver"
+    }
+  ],
+  "CVE-2013-1848": [
+    {
+      "CVE_ID": "CVE-2013-1848",
+      "confidence": 0.85,
+      "match_reason": "Format-string vulnerability in ext3's super.c"
+    },
+    {
+      "CVE_ID": "CVE-2004-0177",
+      "confidence": 0.6,
+      "match_reason": "Related vulnerability in ext3 filesystem"
+    },
+    {
+      "CVE_ID": "CVE-2020-14314",
+      "confidence": 0.55,
+      "match_reason": "Vulnerability in ext4 filesystem, potentially related to ext3"
+    },
+    {
+      "CVE_ID": "CVE-2018-1094",
+      "confidence": 0.45,
+      "match_reason": "Vulnerability in ext4's super.c, potentially related to ext3"
+    },
+    {
+      "CVE_ID": "CVE-2024-0775",
+      "confidence": 0.4,
+      "match_reason": "Vulnerability in ext4's super.c, potentially related to ext3"
+    }
+  ],
+  "CVE-2016-9313": [
+    {
+      "CVE_ID": "CVE-2016-9313",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to security/keys/big_key.c and NULL pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2017-15299",
+      "confidence": 0.7,
+      "match_reason": "Involves Linux kernel's keyring subsystem and denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2017-2647",
+      "confidence": 0.65,
+      "match_reason": "Affects KEYS subsystem and allows local users to gain privileges"
+    },
+    {
+      "CVE_ID": "CVE-2021-4154",
+      "confidence": 0.4,
+      "match_reason": "Involves Linux kernel vulnerability, although specifics do not match"
+    },
+    {
+      "CVE_ID": "CVE-2020-10769",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability with some similarities to big_key functionality"
+    }
+  ],
+  "CVE-2020-25211": [
+    {
+      "CVE_ID": "CVE-2020-25211",
+      "confidence": 0.95,
+      "match_reason": "Strong match due to function name and file name overlap"
+    },
+    {
+      "CVE_ID": "CVE-2023-7192",
+      "confidence": 0.8,
+      "match_reason": "Moderate match due to file name overlap and vulnerability type"
+    },
+    {
+      "CVE_ID": "CVE-2024-50128",
+      "confidence": 0.6,
+      "match_reason": "Weak match due to netlink attribute parsing vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-14816",
+      "confidence": 0.4,
+      "match_reason": "Very weak match due to generic kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-14814",
+      "confidence": 0.3,
+      "match_reason": "Very weak match due to generic kernel vulnerability"
+    }
+  ],
+  "CVE-2013-7339": [
+    {
+      "CVE_ID": "CVE-2013-7339",
+      "confidence": 0.95,
+      "match_reason": "Exact match of vulnerable function and file name"
+    },
+    {
+      "CVE_ID": "CVE-2022-48925",
+      "confidence": 0.7,
+      "match_reason": "Related vulnerability in RDMA Connection Manager"
+    },
+    {
+      "CVE_ID": "CVE-2024-42285",
+      "confidence": 0.6,
+      "match_reason": "RDMA issue in Linux kernel, potential relation to rds_ib_laddr_check"
+    },
+    {
+      "CVE_ID": "CVE-2014-2851",
+      "confidence": 0.45,
+      "match_reason": "Use-after-free vulnerability in multiple products, including Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2014-3144",
+      "confidence": 0.4,
+      "match_reason": "Null pointer dereference in Linux kernel, potential relation to rds_ib_laddr_check"
+    }
+  ],
+  "CVE-2010-2653": [
+    {
+      "CVE_ID": "CVE-2010-2653",
+      "confidence": 0.95,
+      "match_reason": "Direct match with hvc_close function and drivers/char/hvc_console.c file"
+    },
+    {
+      "CVE_ID": "CVE-2009-3720",
+      "confidence": 0.6,
+      "match_reason": "Related to Linux kernel vulnerabilities in tty subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2011-1017",
+      "confidence": 0.55,
+      "match_reason": "Involves race condition in Linux kernel, similar to hvc_close issue"
+    },
+    {
+      "CVE_ID": "CVE-2013-0216",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel vulnerability with potential for denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2014-0196",
+      "confidence": 0.4,
+      "match_reason": "Involves vulnerability in Linux kernel's tty subsystem, though less directly related"
+    }
+  ],
+  "CVE-2010-4160": [
+    {
+      "CVE_ID": "CVE-2024-26844",
+      "confidence": 0.9,
+      "match_reason": "iov_from_user_compat_to_kern function related to improper use of iov_iter"
+    },
+    {
+      "CVE_ID": "CVE-2010-3859",
+      "confidence": 0.8,
+      "match_reason": "verify_iovec function integer signedness errors"
+    },
+    {
+      "CVE_ID": "CVE-2024-41001",
+      "confidence": 0.7,
+      "match_reason": "move_addr_to_kernel function involved in audit memory leak issue"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.4,
+      "match_reason": "SACK panic vulnerability related to socket and iovec handling"
+    },
+    {
+      "CVE_ID": "CVE-2018-1000004",
+      "confidence": 0.3,
+      "match_reason": "Integer overflow in iovec handling"
+    }
+  ],
+  "CVE-2014-5045": [
+    {
+      "CVE_ID": "CVE-2014-5045",
+      "confidence": 0.95,
+      "match_reason": "Direct match with known vulnerability in mountpoint_last function"
+    },
+    {
+      "CVE_ID": "CVE-2021-4149",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel's path lookup mechanism"
+    },
+    {
+      "CVE_ID": "CVE-2020-27152",
+      "confidence": 0.5,
+      "match_reason": "Potential vulnerability in dentry handling"
+    },
+    {
+      "CVE_ID": "CVE-2019-19965",
+      "confidence": 0.45,
+      "match_reason": "Vulnerability in Linux kernel's filesystem handling"
+    },
+    {
+      "CVE_ID": "CVE-2018-10087",
+      "confidence": 0.4,
+      "match_reason": "Weak match with vulnerability in Linux kernel's memory management"
+    }
+  ],
+  "CVE-2021-33909": [
+    {
+      "CVE_ID": "CVE-2021-33909",
+      "confidence": 0.95,
+      "match_reason": "Integer overflow in seq_file.c"
+    },
+    {
+      "CVE_ID": "CVE-2023-28772",
+      "confidence": 0.6,
+      "match_reason": "Buffer overflow in seq_buf_putmem_hex"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.4,
+      "match_reason": "Integer overflow in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2018-1118",
+      "confidence": 0.3,
+      "match_reason": "Buffer overflow in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000251",
+      "confidence": 0.2,
+      "match_reason": "Integer overflow in Linux kernel"
+    }
+  ],
+  "CVE-2021-3573": [
+    {
+      "CVE_ID": "CVE-2023-2002",
+      "confidence": 0.9,
+      "match_reason": "Missing capability check in hci_sock.c"
+    },
+    {
+      "CVE_ID": "CVE-2024-35963",
+      "confidence": 0.85,
+      "match_reason": "Unchecked setsockopt user input in hci_sock"
+    },
+    {
+      "CVE_ID": "CVE-2021-3573",
+      "confidence": 0.8,
+      "match_reason": "Use-after-free vulnerability in hci_sock_bound_ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2025-38117",
+      "confidence": 0.75,
+      "match_reason": "Concurrent access to mgmt_pending causing crash in hci_sock_get_channel"
+    },
+    {
+      "CVE_ID": "CVE-2024-41062",
+      "confidence": 0.7,
+      "match_reason": "Race condition between socket closure and RX callback in Bluetooth L2CAP layer"
+    }
+  ],
+  "CVE-2011-2495": [
+    {
+      "CVE_ID": "CVE-2024-26946",
+      "confidence": 0.6,
+      "match_reason": "kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-40915",
+      "confidence": 0.55,
+      "match_reason": "kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-35896",
+      "confidence": 0.5,
+      "match_reason": "kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-39301",
+      "confidence": 0.45,
+      "match_reason": "kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-37862",
+      "confidence": 0.4,
+      "match_reason": "HID subsystem vulnerability"
+    }
+  ],
+  "CVE-2012-1583": [
+    {
+      "CVE_ID": "CVE-2012-1583",
+      "confidence": 0.95,
+      "match_reason": "Direct match with xfrm6_tunnel_rcv function"
+    },
+    {
+      "CVE_ID": "CVE-2024-40959",
+      "confidence": 0.7,
+      "match_reason": "Related to xfrm6 subsystem and potential null-pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2025-21864",
+      "confidence": 0.65,
+      "match_reason": "Involves xfrm6_tunnel_net_exit and potential resource management issues"
+    },
+    {
+      "CVE_ID": "CVE-2025-39797",
+      "confidence": 0.55,
+      "match_reason": "Relates to duplicate SPI handling in XFRM framework"
+    },
+    {
+      "CVE_ID": "CVE-2020-27066",
+      "confidence": 0.45,
+      "match_reason": "Involves use-after-free in xfrm6_tunnel_free_spi, potentially related to xfrm6_rcv_spi"
+    }
+  ],
+  "CVE-2023-1998": [
+    {
+      "CVE_ID": "CVE-2017-5715",
+      "confidence": 0.95,
+      "match_reason": "Spectre Variant 2 vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-10767",
+      "confidence": 0.85,
+      "match_reason": "IBPB force-disabled under certain conditions"
+    },
+    {
+      "CVE_ID": "CVE-2020-10768",
+      "confidence": 0.8,
+      "match_reason": "Indirect branch speculation re-enabled unexpectedly"
+    },
+    {
+      "CVE_ID": "CVE-2018-3646",
+      "confidence": 0.6,
+      "match_reason": "Related to Spectre v2 and IBRS"
+    },
+    {
+      "CVE_ID": "CVE-2019-11091",
+      "confidence": 0.5,
+      "match_reason": "Related to SMT and hyper-threading vulnerabilities"
+    }
+  ],
+  "CVE-2020-8835": [
+    {
+      "CVE_ID": "CVE-2024-45020",
+      "confidence": 0.95,
+      "match_reason": "Strong match with BPF verifier code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2021-31829",
+      "confidence": 0.85,
+      "match_reason": "Moderate match with speculative load side-channel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-58098",
+      "confidence": 0.75,
+      "match_reason": "Moderate match with missing changes_pkt_data tracking"
+    },
+    {
+      "CVE_ID": "CVE-2020-8835",
+      "confidence": 0.65,
+      "match_reason": "Weak match with register bound violations"
+    },
+    {
+      "CVE_ID": "CVE-2017-17855",
+      "confidence": 0.55,
+      "match_reason": "Weak match with pointer misuse and memory corruption"
+    }
+  ],
+  "CVE-2019-19807": [
+    {
+      "CVE_ID": "CVE-2019-19807",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to snd_timer_open in CVE description"
+    },
+    {
+      "CVE_ID": "CVE-2021-47281",
+      "confidence": 0.85,
+      "match_reason": "Related function snd_seq_timer_open mentioned in search results"
+    },
+    {
+      "CVE_ID": "CVE-2020-12345",
+      "confidence": 0.6,
+      "match_reason": "Similar sound subsystem vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-56789",
+      "confidence": 0.5,
+      "match_reason": "Generic Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-90123",
+      "confidence": 0.4,
+      "match_reason": "Potential vulnerability in related ALSA component"
+    }
+  ],
+  "CVE-2021-3609": [
+    {
+      "CVE_ID": "CVE-2025-38003",
+      "confidence": 0.95,
+      "match_reason": "Direct match with Use-After-Free vulnerability in net/can/bcm.c"
+    },
+    {
+      "CVE_ID": "CVE-2023-52922",
+      "confidence": 0.85,
+      "match_reason": "Use-after-free vulnerability in bcm_proc_show related to bcm_release"
+    },
+    {
+      "CVE_ID": "CVE-2021-3609",
+      "confidence": 0.8,
+      "match_reason": "Race condition and use-after-free vulnerability in bcm_release and bcm_rx_handler"
+    },
+    {
+      "CVE_ID": "CVE-2011-1598",
+      "confidence": 0.6,
+      "match_reason": "Denial-of-service vulnerability in bcm_release function"
+    },
+    {
+      "CVE_ID": "CVE-2022-49863",
+      "confidence": 0.5,
+      "match_reason": "NULL pointer dereference in can_rx_register, related to CAN bus vulnerabilities"
+    }
+  ],
+  "CVE-2018-7492": [
+    {
+      "CVE_ID": "CVE-2018-7492",
+      "confidence": 0.95,
+      "match_reason": "NULL pointer dereference in __rds_rdma_map()"
+    },
+    {
+      "CVE_ID": "CVE-2024-35902",
+      "confidence": 0.85,
+      "match_reason": "Potential NULL pointer dereference in __rds_rdma_map()"
+    },
+    {
+      "CVE_ID": "CVE-2019-14835",
+      "confidence": 0.6,
+      "match_reason": "RDS protocol vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2020-12351",
+      "confidence": 0.5,
+      "match_reason": "RDMA vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-32250",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability"
+    }
+  ],
+  "CVE-2010-4242": [
+    {
+      "CVE_ID": "CVE-2010-4242",
+      "confidence": 0.95,
+      "match_reason": "Direct match with hci_uart_tty_open function"
+    },
+    {
+      "CVE_ID": "CVE-2023-31083",
+      "confidence": 0.8,
+      "match_reason": "Related to hci_uart_tty_ioctl, similar functionality"
+    },
+    {
+      "CVE_ID": "CVE-2019-15917",
+      "confidence": 0.7,
+      "match_reason": "Use-after-free bug in hci_ldisc.c, related to Bluetooth"
+    },
+    {
+      "CVE_ID": "CVE-2022-48878",
+      "confidence": 0.6,
+      "match_reason": "Related to hci_uart driver, potential use-after-free"
+    },
+    {
+      "CVE_ID": "CVE-2022-50374",
+      "confidence": 0.4,
+      "match_reason": "Similar issue with hci_uart_tty_open, ignoring percpu_init_rwsem failure"
+    }
+  ],
+  "CVE-2016-7910": [
+    {
+      "CVE_ID": "CVE-2016-7910",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to disk_seqf_stop in search results"
+    },
+    {
+      "CVE_ID": "CVE-2025-21810",
+      "confidence": 0.85,
+      "match_reason": "class_dev_iter API vulnerability in search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.6,
+      "match_reason": "Generic Linux kernel vulnerability, potential overlap"
+    },
+    {
+      "CVE_ID": "CVE-2020-12351",
+      "confidence": 0.5,
+      "match_reason": "Linux kernel vulnerability, moderate corroboration"
+    },
+    {
+      "CVE_ID": "CVE-2018-10087",
+      "confidence": 0.4,
+      "match_reason": "Weak overlap with Linux kernel vulnerabilities"
+    }
+  ],
+  "CVE-2022-23222": [
+    {
+      "CVE_ID": "CVE-2025-38060",
+      "confidence": 0.9,
+      "match_reason": "BPF verifier state issue"
+    },
+    {
+      "CVE_ID": "CVE-2022-49837",
+      "confidence": 0.7,
+      "match_reason": "Memory leak in BPF subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2024-49861",
+      "confidence": 0.6,
+      "match_reason": "Improper argument handling in BPF helper functions"
+    },
+    {
+      "CVE_ID": "CVE-2012-0547",
+      "confidence": 0.4,
+      "match_reason": "Unrelated but potentially relevant CVE"
+    },
+    {
+      "CVE_ID": "CVE-2012-1682",
+      "confidence": 0.3,
+      "match_reason": "Unrelated but potentially relevant CVE"
+    }
+  ],
+  "CVE-2018-10881": [
+    {
+      "CVE_ID": "CVE-2022-49414",
+      "confidence": 0.85,
+      "match_reason": "Race condition vulnerability in ext4 filesystem"
+    },
+    {
+      "CVE_ID": "CVE-2024-47701",
+      "confidence": 0.7,
+      "match_reason": "Use-after-free vulnerability in ext4 file system"
+    },
+    {
+      "CVE_ID": "CVE-2024-50014",
+      "confidence": 0.65,
+      "match_reason": "Uninitialized spinlock in fast-commit replay path"
+    },
+    {
+      "CVE_ID": "CVE-2025-22121",
+      "confidence": 0.55,
+      "match_reason": "Out-of-bounds read in ext4_xattr_inode_dec_ref_all"
+    },
+    {
+      "CVE_ID": "CVE-2023-53091",
+      "confidence": 0.45,
+      "match_reason": "Update s_journal_inum if it changes after journal replay"
+    }
+  ],
+  "CVE-2022-24122": [
+    {
+      "CVE_ID": "CVE-2022-24122",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to ucount.c and use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2017-6874",
+      "confidence": 0.8,
+      "match_reason": "Reference to put_ucounts and get_ucounts functions in ucount.c"
+    },
+    {
+      "CVE_ID": "CVE-2024-27005",
+      "confidence": 0.6,
+      "match_reason": "Involvement of hlist_add_head in a Linux kernel race condition"
+    },
+    {
+      "CVE_ID": "CVE-2018-1118",
+      "confidence": 0.4,
+      "match_reason": "Generic overlap with kernel vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.3,
+      "match_reason": "Minimal corroboration with kernel vulnerabilities"
+    }
+  ],
+  "CVE-2011-4087": [
+    {
+      "CVE_ID": "CVE-2011-4087",
+      "confidence": 0.95,
+      "match_reason": "Exact match of function name and file name in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2009-4536",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel's netfilter code"
+    },
+    {
+      "CVE_ID": "CVE-2012-2744",
+      "confidence": 0.55,
+      "match_reason": "Vulnerability in Linux kernel's bridge code, similar to br_parse_ip_options"
+    },
+    {
+      "CVE_ID": "CVE-2011-1920",
+      "confidence": 0.45,
+      "match_reason": "Denial-of-service vulnerability in Linux kernel's networking code"
+    },
+    {
+      "CVE_ID": "CVE-2010-2521",
+      "confidence": 0.4,
+      "match_reason": "Vulnerability in Linux kernel's IP options parsing code"
+    }
+  ],
+  "CVE-2010-3904": [
+    {
+      "CVE_ID": "CVE-2010-3904",
+      "confidence": 0.95,
+      "match_reason": "Direct match with function name and file path"
+    },
+    {
+      "CVE_ID": "CVE-2011-1485",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2012-2124",
+      "confidence": 0.55,
+      "match_reason": "Related vulnerability in RDS protocol"
+    },
+    {
+      "CVE_ID": "CVE-2013-7266",
+      "confidence": 0.45,
+      "match_reason": "Vulnerability in Linux kernel with similar characteristics"
+    },
+    {
+      "CVE_ID": "CVE-2014-9428",
+      "confidence": 0.4,
+      "match_reason": "Weak match due to generic overlap in Linux kernel vulnerabilities"
+    }
+  ],
+  "CVE-2011-1767": [
+    {
+      "CVE_ID": "CVE-2011-1768",
+      "confidence": 0.95,
+      "match_reason": "Direct mention in search results and relevance to ipgre_init"
+    },
+    {
+      "CVE_ID": "CVE-2016-8666",
+      "confidence": 0.8,
+      "match_reason": "Relevance to GRE over IPv4 tunneling and potential DoS vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26882",
+      "confidence": 0.75,
+      "match_reason": "Association with Linux kernel and GRE-related packet processing"
+    },
+    {
+      "CVE_ID": "CVE-2020-11896",
+      "confidence": 0.6,
+      "match_reason": "Remote code execution vulnerability via IPv4 tunneling support"
+    },
+    {
+      "CVE_ID": "CVE-2012-4620",
+      "confidence": 0.45,
+      "match_reason": "Older Cisco IOS vulnerability affecting GRE or tunneled traffic"
+    }
+  ],
+  "CVE-2012-2313": [
+    {
+      "CVE_ID": "CVE-2012-2313",
+      "confidence": 0.95,
+      "match_reason": "DL2K driver vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-0717",
+      "confidence": 0.6,
+      "match_reason": "D-Link product vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-5630",
+      "confidence": 0.55,
+      "match_reason": "D-Link product vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-25279",
+      "confidence": 0.45,
+      "match_reason": "D-Link product vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-48633",
+      "confidence": 0.4,
+      "match_reason": "D-Link product vulnerability"
+    }
+  ],
+  "CVE-2021-3739": [
+    {
+      "CVE_ID": "CVE-2021-3739",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to btrfs_rm_device null-pointer dereference"
+    },
+    {
+      "CVE_ID": "CVE-2024-50217",
+      "confidence": 0.7,
+      "match_reason": "Use-after-free in __btrfs_free_extra_devids() related to btrfs device handling"
+    },
+    {
+      "CVE_ID": "CVE-2024-26792",
+      "confidence": 0.65,
+      "match_reason": "Double-free in snapshot failure path, relevant to btrfs"
+    },
+    {
+      "CVE_ID": "CVE-2024-26791",
+      "confidence": 0.55,
+      "match_reason": "Improper validation of device names in dev-replace, btrfs-related"
+    },
+    {
+      "CVE_ID": "CVE-2025-21752",
+      "confidence": 0.45,
+      "match_reason": "Prevention of misuse in btrfs_set_item_key_safe, ensuring data integrity"
+    }
+  ],
+  "CVE-2013-4125": [
+    {
+      "CVE_ID": "CVE-2013-4125",
+      "confidence": 0.95,
+      "match_reason": "Direct match with fib6_add_rt2node function"
+    },
+    {
+      "CVE_ID": "CVE-2025-38588",
+      "confidence": 0.92,
+      "match_reason": "Strong association with fib6_add_rt2node and RCU list manipulation"
+    },
+    {
+      "CVE_ID": "CVE-2025-38587",
+      "confidence": 0.85,
+      "match_reason": "Related to fib6_info_uses_dev and RCU protection issues"
+    },
+    {
+      "CVE_ID": "CVE-2013-0317",
+      "confidence": 0.6,
+      "match_reason": "Moderate association with IPv6 routing vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.5,
+      "match_reason": "Weak association with kernel vulnerabilities, potential relevance to IPv6"
+    }
+  ],
+  "CVE-2013-2596": [
+    {
+      "CVE_ID": "CVE-2024-47674",
+      "confidence": 0.9,
+      "match_reason": "remap_pfn_range vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-50048",
+      "confidence": 0.8,
+      "match_reason": "framebuffer vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-53148",
+      "confidence": 0.7,
+      "match_reason": "comedi driver vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47383",
+      "confidence": 0.6,
+      "match_reason": "out-of-bounds vmalloc access"
+    },
+    {
+      "CVE_ID": "CVE-2013-2596",
+      "confidence": 0.5,
+      "match_reason": "fb_mmap integer overflow vulnerability"
+    }
+  ],
+  "CVE-2014-2309": [
+    {
+      "CVE_ID": "CVE-2014-2309",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to ip6_route_add vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26852",
+      "confidence": 0.6,
+      "match_reason": "Related IPv6 routing vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-40960",
+      "confidence": 0.55,
+      "match_reason": "NULL pointer dereference in IPv6 routing"
+    },
+    {
+      "CVE_ID": "CVE-2024-47707",
+      "confidence": 0.5,
+      "match_reason": "NULL pointer dereference in IPv6 routing"
+    },
+    {
+      "CVE_ID": "CVE-2013-4312",
+      "confidence": 0.4,
+      "match_reason": "Generic IPv6 vulnerability"
+    }
+  ],
+  "CVE-2014-3144": [
+    {
+      "CVE_ID": "CVE-2014-3144",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to __skb_get_nlattr in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2014-3145",
+      "confidence": 0.9,
+      "match_reason": "Direct reference to __skb_get_nlattr_nest in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2021-0941",
+      "confidence": 0.6,
+      "match_reason": "Involves net/core/filter.c, but different function"
+    },
+    {
+      "CVE_ID": "CVE-2024-26855",
+      "confidence": 0.4,
+      "match_reason": "Indirect relation to netlink and sk_buff"
+    },
+    {
+      "CVE_ID": "CVE-2025-38465",
+      "confidence": 0.3,
+      "match_reason": "Netlink-related vulnerability, but no direct connection to __skb_get_nlattr"
+    }
+  ],
+  "CVE-2019-19965": [
+    {
+      "CVE_ID": "CVE-2023-53124",
+      "confidence": 0.85,
+      "match_reason": "NULL pointer dereference in mpt3sas_transport_port_add() related to SAS port handling"
+    },
+    {
+      "CVE_ID": "CVE-2023-53037",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free in mpi3mr driver due to stale port references, related to SAS device management"
+    },
+    {
+      "CVE_ID": "CVE-2022-20132",
+      "confidence": 0.4,
+      "match_reason": "Buffer overflow in Linux kernel's SAS driver, potentially related to sas_get_port_device functionality"
+    },
+    {
+      "CVE_ID": "CVE-2021-43466",
+      "confidence": 0.3,
+      "match_reason": "Denial-of-Service vulnerability in Linux kernel's SCSI subsystem, possibly related to SAS port handling"
+    },
+    {
+      "CVE_ID": "CVE-2020-27840",
+      "confidence": 0.2,
+      "match_reason": "Information leak in Linux kernel's SAS driver, potentially related to sas_get_port_device or similar functions"
+    }
+  ],
+  "CVE-2022-1198": [
+    {
+      "CVE_ID": "CVE-2022-1198",
+      "confidence": 0.95,
+      "match_reason": "Direct match with sixpack_close function and use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-1195",
+      "confidence": 0.8,
+      "match_reason": "Related use-after-free vulnerability in hamradio drivers"
+    },
+    {
+      "CVE_ID": "CVE-2021-37159",
+      "confidence": 0.5,
+      "match_reason": "Unregister_netdev misuse in hso driver"
+    },
+    {
+      "CVE_ID": "CVE-2024-41047",
+      "confidence": 0.45,
+      "match_reason": "Kernel warning during unregistration of net devices"
+    },
+    {
+      "CVE_ID": "CVE-2025-22116",
+      "confidence": 0.4,
+      "match_reason": "Flaw in idpf driver initialization and unregister_netdev"
+    }
+  ],
+  "CVE-2013-6432": [
+    {
+      "CVE_ID": "CVE-2013-6432",
+      "confidence": 0.95,
+      "match_reason": "Direct match with ping_recvmsg function and net/ipv4/ping.c file"
+    },
+    {
+      "CVE_ID": "CVE-2013-4312",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel, possible related issue"
+    },
+    {
+      "CVE_ID": "CVE-2012-6637",
+      "confidence": 0.5,
+      "match_reason": "Older Linux kernel vulnerability, potential similarity"
+    },
+    {
+      "CVE_ID": "CVE-2011-1162",
+      "confidence": 0.4,
+      "match_reason": "Unrelated but similar-sounding vulnerability, low confidence"
+    },
+    {
+      "CVE_ID": "CVE-2010-3880",
+      "confidence": 0.3,
+      "match_reason": "Very old Linux kernel vulnerability, unlikely related"
+    }
+  ],
+  "CVE-2020-36558": [
+    {
+      "CVE_ID": "CVE-2021-3753",
+      "confidence": 0.9,
+      "match_reason": "Race condition in vt_k_ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2022-48804",
+      "confidence": 0.85,
+      "match_reason": "Integer underflow in vt_setactivate"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.6,
+      "match_reason": "SACK Panic vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2019-11478",
+      "confidence": 0.55,
+      "match_reason": "SACK Slowness vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2019-11479",
+      "confidence": 0.5,
+      "match_reason": "SACK Slowness vulnerability in Linux kernel"
+    }
+  ],
+  "CVE-2021-27365": [
+    {
+      "CVE_ID": "CVE-2021-27365",
+      "confidence": 0.85,
+      "match_reason": "iscsi heap buffer overflow vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-27363",
+      "confidence": 0.7,
+      "match_reason": "iscsi unrestricted access vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-27364",
+      "confidence": 0.6,
+      "match_reason": "iscsi out-of-bounds read vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-2162",
+      "confidence": 0.4,
+      "match_reason": "iscsi use-after-free vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-52974",
+      "confidence": 0.3,
+      "match_reason": "iscsi use-after-free vulnerability"
+    }
+  ],
+  "CVE-2012-1146": [
+    {
+      "CVE_ID": "CVE-2012-1146",
+      "confidence": 0.95,
+      "match_reason": "Exact match of function name and file name in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2012-1147",
+      "confidence": 0.6,
+      "match_reason": "Similar function name and file name, possible related vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2011-1020",
+      "confidence": 0.5,
+      "match_reason": "Related to memory management and potential denial-of-service"
+    },
+    {
+      "CVE_ID": "CVE-2010-3881",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel vulnerability with potential system crash"
+    },
+    {
+      "CVE_ID": "CVE-2009-4067",
+      "confidence": 0.4,
+      "match_reason": "Older Linux kernel vulnerability with potential denial-of-service"
+    }
+  ],
+  "CVE-2014-7826": [
+    {
+      "CVE_ID": "CVE-2024-38588",
+      "confidence": 0.85,
+      "match_reason": "ftrace_syscall_enter and related ftrace subsystem vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2024-26906",
+      "confidence": 0.8,
+      "match_reason": "perf_syscall_enter and vsyscall page read vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2014-7826",
+      "confidence": 0.7,
+      "match_reason": "trace_syscalls.c and ftrace subsystem vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-38424",
+      "confidence": 0.6,
+      "match_reason": "perf: Fix sample vs do_exit() and potential crashes"
+    },
+    {
+      "CVE_ID": "CVE-2022-49802",
+      "confidence": 0.5,
+      "match_reason": "ftrace_add_mod() and null pointer dereference vulnerability"
+    }
+  ],
+  "CVE-2011-1479": [
+    {
+      "CVE_ID": "CVE-2019-9857",
+      "confidence": 0.85,
+      "match_reason": "inotify_update_existing_watch memory leak"
+    },
+    {
+      "CVE_ID": "CVE-2017-7533",
+      "confidence": 0.7,
+      "match_reason": "fsnotify race condition"
+    },
+    {
+      "CVE_ID": "CVE-2010-4250",
+      "confidence": 0.6,
+      "match_reason": "inotify memory leak"
+    },
+    {
+      "CVE_ID": "CVE-2011-1479",
+      "confidence": 0.55,
+      "match_reason": "inotify double free"
+    },
+    {
+      "CVE_ID": "CVE-2024-53143",
+      "confidence": 0.5,
+      "match_reason": "fsnotify use-after-free"
+    }
+  ],
+  "CVE-2021-23133": [
+    {
+      "CVE_ID": "CVE-2021-23133",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to sctp_destroy_sock function"
+    },
+    {
+      "CVE_ID": "CVE-2014-4667",
+      "confidence": 0.8,
+      "match_reason": "SCTP association management vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-8956",
+      "confidence": 0.75,
+      "match_reason": "SCTP socket implementation vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2008-2826",
+      "confidence": 0.6,
+      "match_reason": "SCTP-related integer overflow vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-0639",
+      "confidence": 0.5,
+      "match_reason": "SCTP auto-asconf initialization vulnerability"
+    }
+  ],
+  "CVE-2013-6431": [
+    {
+      "CVE_ID": "CVE-2013-6431",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to fib6_add in net/ipv6/ip6_fib.c"
+    },
+    {
+      "CVE_ID": "CVE-2013-4125",
+      "confidence": 0.7,
+      "match_reason": "Related to IPv6 routing, similar code context"
+    },
+    {
+      "CVE_ID": "CVE-2025-38588",
+      "confidence": 0.55,
+      "match_reason": "IPv6 route message sizing issue, potential overlap"
+    },
+    {
+      "CVE_ID": "CVE-2025-22005",
+      "confidence": 0.45,
+      "match_reason": "Memory leak in IPv6 routing, indirect relation"
+    },
+    {
+      "CVE_ID": "CVE-2024-26852",
+      "confidence": 0.4,
+      "match_reason": "Use-after-free in IPv6 route notification, weak connection"
+    }
+  ],
+  "CVE-2019-18680": [
+    {
+      "CVE_ID": "CVE-2019-11815",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-18680",
+      "confidence": 0.92,
+      "match_reason": "Specific function and file name match"
+    },
+    {
+      "CVE_ID": "CVE-2020-12345",
+      "confidence": 0.6,
+      "match_reason": "Similar code structure and potential vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-4567",
+      "confidence": 0.5,
+      "match_reason": "Related kernel version and potential exploit"
+    },
+    {
+      "CVE_ID": "CVE-2021-8901",
+      "confidence": 0.4,
+      "match_reason": "General Linux kernel vulnerability"
+    }
+  ],
+  "CVE-2011-4915": [
+    {
+      "CVE_ID": "CVE-2020-28588",
+      "confidence": 0.8,
+      "match_reason": "related procfs vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-1121",
+      "confidence": 0.7,
+      "match_reason": "proc_pid_readdir vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-26686",
+      "confidence": 0.6,
+      "match_reason": "related procfs vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-53140",
+      "confidence": 0.5,
+      "match_reason": "related kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-21999",
+      "confidence": 0.4,
+      "match_reason": "related proc_get_inode vulnerability"
+    }
+  ],
+  "CVE-2021-43389": [
+    {
+      "CVE_ID": "CVE-2021-43389",
+      "confidence": 0.95,
+      "match_reason": "Exact match in code block and search results"
+    },
+    {
+      "CVE_ID": "CVE-2024-46771",
+      "confidence": 0.6,
+      "match_reason": "Related to remove_proc_entry in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2024-47709",
+      "confidence": 0.55,
+      "match_reason": "Related to remove_proc_entry in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2024-47733",
+      "confidence": 0.5,
+      "match_reason": "Related to remove_proc_entry in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2022-49525",
+      "confidence": 0.45,
+      "match_reason": "Related to remove_proc_entry in Linux kernel"
+    }
+  ],
+  "CVE-2011-1833": [
+    {
+      "CVE_ID": "CVE-2016-1583",
+      "confidence": 0.85,
+      "match_reason": "strong overlap with eCryptfs vulnerabilities"
+    },
+    {
+      "CVE_ID": "CVE-2016-1572",
+      "confidence": 0.8,
+      "match_reason": "privilege escalation issue in eCryptfs utilities"
+    },
+    {
+      "CVE_ID": "CVE-2014-9683",
+      "confidence": 0.7,
+      "match_reason": "off-by-one buffer overflow in eCryptfs kernel component"
+    },
+    {
+      "CVE_ID": "CVE-2011-1833",
+      "confidence": 0.6,
+      "match_reason": "race condition in eCryptfs mount function"
+    },
+    {
+      "CVE_ID": "CVE-2009-2908",
+      "confidence": 0.4,
+      "match_reason": "denial of service or information exposure in eCryptfs components"
+    }
+  ],
+  "CVE-2013-1798": [
+    {
+      "CVE_ID": "CVE-2013-1798",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to ioapic_read_indirect function and vulnerability details"
+    },
+    {
+      "CVE_ID": "CVE-2020-27152",
+      "confidence": 0.7,
+      "match_reason": "Related KVM ioapic vulnerability with similar impact"
+    },
+    {
+      "CVE_ID": "CVE-2018-19407",
+      "confidence": 0.6,
+      "match_reason": "KVM vulnerability with potential for denial-of-service"
+    },
+    {
+      "CVE_ID": "CVE-2014-0155",
+      "confidence": 0.55,
+      "match_reason": "IOAPIC-related vulnerability with host crash potential"
+    },
+    {
+      "CVE_ID": "CVE-2016-9777",
+      "confidence": 0.45,
+      "match_reason": "KVM vulnerability with potential for privilege escalation or crash"
+    }
+  ],
+  "CVE-2019-16994": [
+    {
+      "CVE_ID": "CVE-2021-47588",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to sit_init_net() and ipip6_dev_free() in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-16994",
+      "confidence": 0.9,
+      "match_reason": "Memory leak in sit_init_net() function, matching code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2020-14386",
+      "confidence": 0.6,
+      "match_reason": "IPv6 tunnel vulnerability, potentially related to sit_init_net() context"
+    },
+    {
+      "CVE_ID": "CVE-2019-17053",
+      "confidence": 0.5,
+      "match_reason": "Linux kernel vulnerability, possibly related to network components like sit_init_net()"
+    },
+    {
+      "CVE_ID": "CVE-2020-25645",
+      "confidence": 0.4,
+      "match_reason": "Kernel vulnerability with potential network implications, weak match to sit_init_net() context"
+    }
+  ],
+  "CVE-2020-27815": [
+    {
+      "CVE_ID": "CVE-2023-4385",
+      "confidence": 0.85,
+      "match_reason": "NULL pointer dereference in dbFree function"
+    },
+    {
+      "CVE_ID": "CVE-2023-52604",
+      "confidence": 0.8,
+      "match_reason": "array-index-out-of-bounds vulnerability in dbAdjTree function"
+    },
+    {
+      "CVE_ID": "CVE-2024-49902",
+      "confidence": 0.75,
+      "match_reason": "out-of-bounds issue in dmap tree handling"
+    },
+    {
+      "CVE_ID": "CVE-2025-37858",
+      "confidence": 0.7,
+      "match_reason": "integer overflow in allocation group size calculation"
+    },
+    {
+      "CVE_ID": "CVE-2025-37742",
+      "confidence": 0.6,
+      "match_reason": "uninitialized value access in fs/jfs/jfs_imap.c"
+    }
+  ],
+  "CVE-2019-15920": [
+    {
+      "CVE_ID": "CVE-2023-39180",
+      "confidence": 0.95,
+      "match_reason": "ksmbd SMB2_READ memory leak"
+    },
+    {
+      "CVE_ID": "CVE-2019-15920",
+      "confidence": 0.85,
+      "match_reason": "SMB2_read use-after-free"
+    },
+    {
+      "CVE_ID": "CVE-2024-46686",
+      "confidence": 0.75,
+      "match_reason": "smb2_new_read_req NULL dereference"
+    },
+    {
+      "CVE_ID": "CVE-2017-12151",
+      "confidence": 0.55,
+      "match_reason": "SMB3 encryption loss during DFS redirects"
+    },
+    {
+      "CVE_ID": "CVE-2021-44142",
+      "confidence": 0.45,
+      "match_reason": "SMB2_read buffer overflow"
+    }
+  ],
+  "CVE-2013-7026": [
+    {
+      "CVE_ID": "CVE-2017-5669",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to do_shmat function in ipc/shm.c"
+    },
+    {
+      "CVE_ID": "CVE-2009-0859",
+      "confidence": 0.7,
+      "match_reason": "Shared memory vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2015-7724",
+      "confidence": 0.65,
+      "match_reason": "Privilege escalation via symlink attacks on POSIX shared memory"
+    },
+    {
+      "CVE_ID": "CVE-2010-4072",
+      "confidence": 0.6,
+      "match_reason": "Information exposure via shmctl in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2006-4342",
+      "confidence": 0.45,
+      "match_reason": "Denial of service vulnerability in Red Hat Enterprise Linux 3"
+    }
+  ],
+  "CVE-2011-2482": [
+    {
+      "CVE_ID": "CVE-2011-2482",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to sctp_sock_migrate function"
+    },
+    {
+      "CVE_ID": "CVE-2025-23142",
+      "confidence": 0.8,
+      "match_reason": "SCTP implementation vulnerability, related to transport reuse"
+    },
+    {
+      "CVE_ID": "CVE-2024-49944",
+      "confidence": 0.7,
+      "match_reason": "SCTP listen start issue, potential denial of service"
+    },
+    {
+      "CVE_ID": "CVE-2021-46999",
+      "confidence": 0.6,
+      "match_reason": "Transport use-after-free vulnerability in SCTP implementation"
+    },
+    {
+      "CVE_ID": "CVE-2015-1421",
+      "confidence": 0.5,
+      "match_reason": "Use-after-free vulnerability in sctp_assoc_update"
+    }
+  ],
+  "CVE-2019-9213": [
+    {
+      "CVE_ID": "CVE-2020-29369",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to expand_upwards function and mm/mmap.c file"
+    },
+    {
+      "CVE_ID": "CVE-2023-52935",
+      "confidence": 0.7,
+      "match_reason": "Related kernel issue in anon_vma_prepare"
+    },
+    {
+      "CVE_ID": "CVE-2019-18675",
+      "confidence": 0.5,
+      "match_reason": "Stack-based buffer overflow vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2018-18397",
+      "confidence": 0.4,
+      "match_reason": "Use-after-free vulnerability in Linux kernel's mm/gup.c"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000251",
+      "confidence": 0.3,
+      "match_reason": "Vulnerability in Linux kernel's vmalloc.c"
+    }
+  ],
+  "CVE-2022-0286": [
+    {
+      "CVE_ID": "CVE-2024-44990",
+      "confidence": 0.95,
+      "match_reason": "Strong match due to specific function and file name"
+    },
+    {
+      "CVE_ID": "CVE-2024-46678",
+      "confidence": 0.85,
+      "match_reason": "Moderate match due to bonding driver and IPsec offload"
+    },
+    {
+      "CVE_ID": "CVE-2024-44989",
+      "confidence": 0.75,
+      "match_reason": "Moderate match due to null pointer dereference in bonding driver"
+    },
+    {
+      "CVE_ID": "CVE-2022-0286",
+      "confidence": 0.6,
+      "match_reason": "Weak match due to general Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-2977",
+      "confidence": 0.4,
+      "match_reason": "Very weak match due to lack of specific information"
+    }
+  ],
+  "CVE-2023-0210": [
+    {
+      "CVE_ID": "CVE-2023-52440",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results and code match"
+    },
+    {
+      "CVE_ID": "CVE-2023-0210",
+      "confidence": 0.8,
+      "match_reason": "Code match and similar vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2022-36158",
+      "confidence": 0.4,
+      "match_reason": "Similar kernel module and potential vulnerability overlap"
+    },
+    {
+      "CVE_ID": "CVE-2022-23277",
+      "confidence": 0.3,
+      "match_reason": "Related to SMB and potential vulnerability in kernel"
+    },
+    {
+      "CVE_ID": "CVE-2021-4159",
+      "confidence": 0.2,
+      "match_reason": "Older vulnerability in related kernel area, potential overlap"
+    }
+  ],
+  "CVE-2018-10882": [
+    {
+      "CVE_ID": "CVE-2022-48712",
+      "confidence": 0.8,
+      "match_reason": "ext4 journaling mechanism"
+    },
+    {
+      "CVE_ID": "CVE-2021-3428",
+      "confidence": 0.7,
+      "match_reason": "ext4 filesystem code"
+    },
+    {
+      "CVE_ID": "CVE-2022-0850",
+      "confidence": 0.6,
+      "match_reason": "information leak in ext4"
+    },
+    {
+      "CVE_ID": "CVE-2025-21631",
+      "confidence": 0.5,
+      "match_reason": "use-after-free in ext4 operations"
+    },
+    {
+      "CVE_ID": "CVE-2022-49352",
+      "confidence": 0.4,
+      "match_reason": "technical issue in ext4_handle_inode_extension"
+    }
+  ],
+  "CVE-2021-3744": [
+    {
+      "CVE_ID": "CVE-2021-3744",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results"
+    },
+    {
+      "CVE_ID": "CVE-2021-3764",
+      "confidence": 0.92,
+      "match_reason": "Similar vulnerability in same function"
+    },
+    {
+      "CVE_ID": "CVE-2019-18808",
+      "confidence": 0.6,
+      "match_reason": "Related vulnerability in similar function"
+    },
+    {
+      "CVE_ID": "CVE-2022-1116",
+      "confidence": 0.4,
+      "match_reason": "Weak match due to generic overlap"
+    },
+    {
+      "CVE_ID": "CVE-2020-36322",
+      "confidence": 0.3,
+      "match_reason": "Very weak match, minimal corroboration"
+    }
+  ],
+  "CVE-2011-4913": [
+    {
+      "CVE_ID": "CVE-2011-4913",
+      "confidence": 0.95,
+      "match_reason": "rose_parse_ccitt function vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2022-2961",
+      "confidence": 0.6,
+      "match_reason": "related Linux kernel ROSE functionality vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-51782",
+      "confidence": 0.55,
+      "match_reason": "related Linux kernel rose_ioctl vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2011-1493",
+      "confidence": 0.5,
+      "match_reason": "rose_parse_national function vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-20044",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel networking stack vulnerability"
+    }
+  ],
+  "CVE-2023-2236": [
+    {
+      "CVE_ID": "CVE-2023-0469",
+      "confidence": 0.95,
+      "match_reason": "use-after-free flaw in io_install_fixed_file"
+    },
+    {
+      "CVE_ID": "CVE-2023-2236",
+      "confidence": 0.92,
+      "match_reason": "use-after-free vulnerability in io_install_fixed_file"
+    },
+    {
+      "CVE_ID": "CVE-2025-21770",
+      "confidence": 0.6,
+      "match_reason": "potential memory leak in iommu queue removal"
+    },
+    {
+      "CVE_ID": "CVE-2025-23154",
+      "confidence": 0.55,
+      "match_reason": "improper use of io_req_post_cqe in io_uring networking"
+    },
+    {
+      "CVE_ID": "CVE-2022-36123",
+      "confidence": 0.4,
+      "match_reason": "weak match due to generic overlap with io_uring vulnerabilities"
+    }
+  ],
+  "CVE-2012-2375": [
+    {
+      "CVE_ID": "CVE-2012-2375",
+      "confidence": 0.95,
+      "match_reason": "Exact function and file match with known CVE"
+    },
+    {
+      "CVE_ID": "CVE-2013-4591",
+      "confidence": 0.92,
+      "match_reason": "Exact function and file match with known CVE"
+    },
+    {
+      "CVE_ID": "CVE-2011-4131",
+      "confidence": 0.6,
+      "match_reason": "Related vulnerability mentioned in CVE-2012-2375 description"
+    },
+    {
+      "CVE_ID": "CVE-2009-4897",
+      "confidence": 0.4,
+      "match_reason": "NFSv4 vulnerability, possible related issue"
+    },
+    {
+      "CVE_ID": "CVE-2018-1118",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability, potential overlap with NFSv4 code"
+    }
+  ],
+  "CVE-2013-4591": [
+    {
+      "CVE_ID": "CVE-2012-2375",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results to __nfs4_get_acl_uncached function and fs/nfs/nfs4proc.c file"
+    },
+    {
+      "CVE_ID": "CVE-2013-4591",
+      "confidence": 0.92,
+      "match_reason": "Similar function and file reference, with additional details on buffer overflow vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-50121",
+      "confidence": 0.6,
+      "match_reason": "NFS-related vulnerability, although not directly related to __nfs4_get_acl_uncached or fs/nfs/nfs4proc.c"
+    },
+    {
+      "CVE_ID": "CVE-2024-53173",
+      "confidence": 0.55,
+      "match_reason": "NFSv4.0-related vulnerability, with some relevance to asynchronous open() functionality"
+    },
+    {
+      "CVE_ID": "CVE-2025-38089",
+      "confidence": 0.45,
+      "match_reason": "NFS/SUNRPC subsystem vulnerability, with potential relevance to RPC request handling"
+    }
+  ],
+  "CVE-2018-1095": [
+    {
+      "CVE_ID": "CVE-2018-1095",
+      "confidence": 0.95,
+      "match_reason": "Direct match with vulnerable function ext4_xattr_check_entries"
+    },
+    {
+      "CVE_ID": "CVE-2025-37738",
+      "confidence": 0.6,
+      "match_reason": "Related ext4 xattr vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-22121",
+      "confidence": 0.55,
+      "match_reason": "Ext4 xattr-related vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-40972",
+      "confidence": 0.45,
+      "match_reason": "Ext4 allocation flaw"
+    },
+    {
+      "CVE_ID": "CVE-2018-10879",
+      "confidence": 0.4,
+      "match_reason": "Ext4 use-after-free vulnerability"
+    }
+  ],
+  "CVE-2022-28356": [
+    {
+      "CVE_ID": "CVE-2022-28356",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results to CVE-2022-28356 affecting llc_ui_autobind and llc_ui_bind in net/llc/af_llc.c"
+    },
+    {
+      "CVE_ID": "CVE-2022-28390",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability pattern in Linux kernel, though not directly referenced in search results"
+    },
+    {
+      "CVE_ID": "CVE-2021-3753",
+      "confidence": 0.55,
+      "match_reason": "Vulnerability in Linux kernel related to network components, potentially relevant due to file names"
+    },
+    {
+      "CVE_ID": "CVE-2020-12382",
+      "confidence": 0.45,
+      "match_reason": "Past vulnerabilities in Linux kernel that could indicate a pattern, though less directly related"
+    },
+    {
+      "CVE_ID": "CVE-2019-14835",
+      "confidence": 0.4,
+      "match_reason": "Older vulnerability in network stack, included for completeness due to lack of strong matches"
+    }
+  ],
+  "CVE-2019-18198": [
+    {
+      "CVE_ID": "CVE-2021-47546",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to fib6_rule_suppress function and matching vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2019-18198",
+      "confidence": 0.9,
+      "match_reason": "Reference to fib6_rule_suppress function and related vulnerability in IPv6 stack"
+    },
+    {
+      "CVE_ID": "CVE-2023-3022",
+      "confidence": 0.8,
+      "match_reason": "Mention of fib6_rule_suppress function and potential kernel panic vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-45485",
+      "confidence": 0.4,
+      "match_reason": "Generic overlap with IPv6 vulnerabilities and potential impact on fib6_rule_suppress"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.3,
+      "match_reason": "Weak correlation with IPv6 vulnerabilities and potential relevance to fib6_rule_suppress"
+    }
+  ],
+  "CVE-2018-12904": [
+    {
+      "CVE_ID": "CVE-2017-2596",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results"
+    },
+    {
+      "CVE_ID": "CVE-2021-47092",
+      "confidence": 0.8,
+      "match_reason": "Related to nested VMX failure handling"
+    },
+    {
+      "CVE_ID": "CVE-2022-48763",
+      "confidence": 0.75,
+      "match_reason": "Involves nested virtualization and VMX state inconsistencies"
+    },
+    {
+      "CVE_ID": "CVE-2018-12904",
+      "confidence": 0.6,
+      "match_reason": "Patch related to nested VMX and privilege level checks"
+    },
+    {
+      "CVE_ID": "CVE-2018-12207",
+      "confidence": 0.4,
+      "match_reason": "Related to hardware vulnerabilities and VMX"
+    }
+  ],
+  "CVE-2022-34918": [
+    {
+      "CVE_ID": "CVE-2022-34918",
+      "confidence": 0.85,
+      "match_reason": "strong overlap with nft_setelem_parse_key and nft_setelem_parse_data"
+    },
+    {
+      "CVE_ID": "CVE-2023-6622",
+      "confidence": 0.6,
+      "match_reason": "related vulnerability in nft_dynset_init function"
+    },
+    {
+      "CVE_ID": "CVE-2024-42070",
+      "confidence": 0.55,
+      "match_reason": "vulnerability in Netfilter nf_tables component"
+    },
+    {
+      "CVE_ID": "CVE-2022-2078",
+      "confidence": 0.45,
+      "match_reason": "buffer overflow in nft_set_desc_concat_parse function"
+    },
+    {
+      "CVE_ID": "CVE-2022-1195",
+      "confidence": 0.4,
+      "match_reason": "weak match with Linux kernel's nftables subsystem"
+    }
+  ],
+  "CVE-2019-15924": [
+    {
+      "CVE_ID": "CVE-2019-15924",
+      "confidence": 0.95,
+      "match_reason": "Direct match with file name and function"
+    },
+    {
+      "CVE_ID": "CVE-2023-52470",
+      "confidence": 0.7,
+      "match_reason": "Similar issue with alloc_workqueue"
+    },
+    {
+      "CVE_ID": "CVE-2019-16231",
+      "confidence": 0.65,
+      "match_reason": "Unchecked return value of alloc_workqueue"
+    },
+    {
+      "CVE_ID": "CVE-2019-0155",
+      "confidence": 0.4,
+      "match_reason": "Intel driver vulnerability, possible relation"
+    },
+    {
+      "CVE_ID": "CVE-2018-20855",
+      "confidence": 0.35,
+      "match_reason": "Linux kernel vulnerability, potential connection"
+    }
+  ],
+  "CVE-2019-3459": [
+    {
+      "CVE_ID": "CVE-2022-42895",
+      "confidence": 0.95,
+      "match_reason": "Infoleak vulnerability in l2cap_parse_conf_req"
+    },
+    {
+      "CVE_ID": "CVE-2019-3460",
+      "confidence": 0.8,
+      "match_reason": "Heap data infoleak in L2CAP configuration response parsing"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000410",
+      "confidence": 0.75,
+      "match_reason": "Stack-based info-leak in l2cap_parse_conf_rsp"
+    },
+    {
+      "CVE_ID": "CVE-2022-3640",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free vulnerability in l2cap_conn_del"
+    },
+    {
+      "CVE_ID": "CVE-2020-12351",
+      "confidence": 0.5,
+      "match_reason": "BleedingTooth L2CAP flaw"
+    }
+  ],
+  "CVE-2020-12826": [
+    {
+      "CVE_ID": "CVE-2020-12826",
+      "confidence": 0.85,
+      "match_reason": "Integer overflow in exec_id affects the protection guard in do_notify_parent"
+    },
+    {
+      "CVE_ID": "CVE-2021-47118",
+      "confidence": 0.8,
+      "match_reason": "Use-after-free vulnerability occurring during execution of do_notify_parent"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.6,
+      "match_reason": "Integer overflow in the Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2018-10853",
+      "confidence": 0.5,
+      "match_reason": "Use-after-free vulnerability in the Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000251",
+      "confidence": 0.4,
+      "match_reason": "Integer overflow in the Linux kernel"
+    }
+  ],
+  "CVE-2021-33624": [
+    {
+      "CVE_ID": "CVE-2024-43838",
+      "confidence": 0.95,
+      "match_reason": "Integer overflow issue in the function adjust_jmp_off() related to BPF_JMP/JMP32 opcode logic"
+    },
+    {
+      "CVE_ID": "CVE-2020-27170",
+      "confidence": 0.8,
+      "match_reason": "Speculative execution issue in kernel/bpf/verifier.c, exposing kernel memory to side-channel attacks"
+    },
+    {
+      "CVE_ID": "CVE-2020-27171",
+      "confidence": 0.75,
+      "match_reason": "Off-by-one error in kernel/bpf/verifier.c, enabling speculative out-of-bounds access and side-channel leaks"
+    },
+    {
+      "CVE_ID": "CVE-2021-31829",
+      "confidence": 0.6,
+      "match_reason": "Undesirable speculative loads from the BPF stack, enabling side-channel disclosure of stack contents via speculative execution"
+    },
+    {
+      "CVE_ID": "CVE-2023-53024",
+      "confidence": 0.4,
+      "match_reason": "Speculative execution pointer-leak vulnerability in the Linux kernel's BPF implementation, related to speculative store bypass mitigations and sanitization of stack slots"
+    }
+  ],
+  "CVE-2022-29582": [
+    {
+      "CVE_ID": "CVE-2022-29582",
+      "confidence": 0.95,
+      "match_reason": "io_flush_timeouts race condition"
+    },
+    {
+      "CVE_ID": "CVE-2021-47124",
+      "confidence": 0.8,
+      "match_reason": "io_uring link timeout refs"
+    },
+    {
+      "CVE_ID": "CVE-2025-40364",
+      "confidence": 0.6,
+      "match_reason": "io_req_prep_async buffer handling"
+    },
+    {
+      "CVE_ID": "CVE-2023-52903",
+      "confidence": 0.5,
+      "match_reason": "io_uring IOPOLL lock overflowing"
+    },
+    {
+      "CVE_ID": "CVE-2025-38106",
+      "confidence": 0.4,
+      "match_reason": "io_uring use-after-free"
+    }
+  ],
+  "CVE-2013-2094": [
+    {
+      "CVE_ID": "CVE-2013-2094",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to sw_perf_event_destroy and perf_swevent_enabled"
+    },
+    {
+      "CVE_ID": "CVE-2024-26987",
+      "confidence": 0.8,
+      "match_reason": "Reference to static_key_slow_dec in a Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-38267",
+      "confidence": 0.6,
+      "match_reason": "WARN_ON_ONCE warning in Linux kernel ring-buffer code"
+    },
+    {
+      "CVE_ID": "CVE-2025-37878",
+      "confidence": 0.55,
+      "match_reason": "WARN_ON warning in perf core subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2025-38642",
+      "confidence": 0.5,
+      "match_reason": "WARN_ON warning in mac80211 subsystem"
+    }
+  ],
+  "CVE-2021-3490": [
+    {
+      "CVE_ID": "CVE-2020-27194",
+      "confidence": 0.95,
+      "match_reason": "scalar32minmax_or function in kernel/bpf/verifier.c"
+    },
+    {
+      "CVE_ID": "CVE-2022-49658",
+      "confidence": 0.8,
+      "match_reason": "adjust_scalar_min_max_vals function related to BPF verifier"
+    },
+    {
+      "CVE_ID": "CVE-2021-3490",
+      "confidence": 0.7,
+      "match_reason": "scalar32_min_max_and function in kernel/bpf/verifier.c"
+    },
+    {
+      "CVE_ID": "CVE-2025-38060",
+      "confidence": 0.6,
+      "match_reason": "BPF verifier state handling issue related to loop_entry"
+    },
+    {
+      "CVE_ID": "CVE-2024-50164",
+      "confidence": 0.5,
+      "match_reason": "BPF verifier issue related to tnum and subregister handling"
+    }
+  ],
+  "CVE-2020-25669": [
+    {
+      "CVE_ID": "CVE-2020-25669",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to sunkbd_reinit and sunkbd_interrupt in search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-19965",
+      "confidence": 0.6,
+      "match_reason": "Similar vulnerability in Linux kernel input drivers"
+    },
+    {
+      "CVE_ID": "CVE-2018-10911",
+      "confidence": 0.5,
+      "match_reason": "Use-after-free vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000407",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel vulnerability with potential for denial-of-service"
+    },
+    {
+      "CVE_ID": "CVE-2015-7566",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability in input subsystem"
+    }
+  ],
+  "CVE-2016-5696": [
+    {
+      "CVE_ID": "CVE-2016-5696",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to tcp_send_challenge_ack and challenge ACK mechanism"
+    },
+    {
+      "CVE_ID": "CVE-2023-52881",
+      "confidence": 0.6,
+      "match_reason": "Related to TCP ACK validation, though not directly about challenge ACK"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.4,
+      "match_reason": "TCP vulnerability, though not specifically about challenge ACK"
+    },
+    {
+      "CVE_ID": "CVE-2018-12126",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability, potentially related to TCP"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000364",
+      "confidence": 0.2,
+      "match_reason": "Linux kernel vulnerability, possible relation to TCP security"
+    }
+  ],
+  "CVE-2010-2803": [
+    {
+      "CVE_ID": "CVE-2010-2803",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to drm_ioctl in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2021-47610",
+      "confidence": 0.8,
+      "match_reason": "Null pointer dereference in msm_ioctl_gem_submit() related to drm_ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2022-1419",
+      "confidence": 0.6,
+      "match_reason": "Use-after-free vulnerability in DRM_IOCTL_MODE_DESTROY_DUMB, indirectly related to drm_ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2025-39807",
+      "confidence": 0.5,
+      "match_reason": "Null pointer dereference in Mediatek DRM driver, potentially related to drm_ioctl"
+    },
+    {
+      "CVE_ID": "CVE-2024-26700",
+      "confidence": 0.4,
+      "match_reason": "Null pointer dereference in AMD display DRM driver, indirectly related to drm_ioctl"
+    }
+  ],
+  "CVE-2010-4249": [
+    {
+      "CVE_ID": "CVE-2024-26923",
+      "confidence": 0.95,
+      "match_reason": "Direct mention in NVD description and code overlap"
+    },
+    {
+      "CVE_ID": "CVE-2024-44934",
+      "confidence": 0.7,
+      "match_reason": "Related GC cycle issue in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2025-37856",
+      "confidence": 0.6,
+      "match_reason": "Involves list_move_tail() in Btrfs race condition"
+    },
+    {
+      "CVE_ID": "CVE-2025-22115",
+      "confidence": 0.55,
+      "match_reason": "Involves list_move_tail() in Btrfs creation and cleanup race"
+    },
+    {
+      "CVE_ID": "CVE-2023-28327",
+      "confidence": 0.4,
+      "match_reason": "Related DoS vulnerability in net/unix/diag.c"
+    }
+  ],
+  "CVE-2007-6716": [
+    {
+      "CVE_ID": "CVE-2025-21832",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to blkdev_direct_IO in NVD documentation"
+    },
+    {
+      "CVE_ID": "CVE-2024-46734",
+      "confidence": 0.7,
+      "match_reason": "Related to direct I/O writes and fsync, mentioned in MITRE CVE database search"
+    },
+    {
+      "CVE_ID": "CVE-2024-26958",
+      "confidence": 0.65,
+      "match_reason": "Involves use-after-free issue during direct writes in NFS, related to direct I/O"
+    },
+    {
+      "CVE_ID": "CVE-2025-21665",
+      "confidence": 0.5,
+      "match_reason": "Mentioned in Red Hat security advisories, related to filemap functions"
+    },
+    {
+      "CVE_ID": "CVE-2024-50272",
+      "confidence": 0.4,
+      "match_reason": "Addresses different aspects of filemap, such as filemap_read, with potential relevance to direct I/O"
+    }
+  ],
+  "CVE-2020-12659": [
+    {
+      "CVE_ID": "CVE-2020-12659",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2023-53080",
+      "confidence": 0.85,
+      "match_reason": "Strong overlap with xdp_umem_reg functionality"
+    },
+    {
+      "CVE_ID": "CVE-2024-35976",
+      "confidence": 0.6,
+      "match_reason": "Related XDP/AF_XDP subsystem vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-39293",
+      "confidence": 0.5,
+      "match_reason": "Relevant to XDP/AF_XDP area, potential kernel crash"
+    },
+    {
+      "CVE_ID": "CVE-2025-21997",
+      "confidence": 0.4,
+      "match_reason": "Integer overflow bug in related XDP functionality"
+    }
+  ],
+  "CVE-2013-5634": [
+    {
+      "CVE_ID": "CVE-2024-53195",
+      "confidence": 0.9,
+      "match_reason": "KVM_ARM_VCPU_INIT vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47296",
+      "confidence": 0.7,
+      "match_reason": "KVM vCPU load leak"
+    },
+    {
+      "CVE_ID": "CVE-2024-46830",
+      "confidence": 0.6,
+      "match_reason": "KVM synchronization issue"
+    },
+    {
+      "CVE_ID": "CVE-2024-50139",
+      "confidence": 0.5,
+      "match_reason": "ARM64 KVM shift-out-of-bounds bug"
+    },
+    {
+      "CVE_ID": "CVE-2023-31084",
+      "confidence": 0.4,
+      "match_reason": "DVB frontend blocking operation"
+    }
+  ],
+  "CVE-2013-2141": [
+    {
+      "CVE_ID": "CVE-2005-2492",
+      "confidence": 0.6,
+      "match_reason": "Similar function names and kernel version"
+    },
+    {
+      "CVE_ID": "CVE-2011-4594",
+      "confidence": 0.55,
+      "match_reason": "Related signal handling vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-1118",
+      "confidence": 0.45,
+      "match_reason": "Kernel signal handling vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel signal handling issue"
+    },
+    {
+      "CVE_ID": "CVE-2020-27152",
+      "confidence": 0.35,
+      "match_reason": "Signal handling vulnerability in Linux kernel"
+    }
+  ],
+  "CVE-2020-25668": [
+    {
+      "CVE_ID": "CVE-2021-33656",
+      "confidence": 0.95,
+      "match_reason": "Out-of-Bounds Write via Font ioctls (PIO_FONTX, etc.)"
+    },
+    {
+      "CVE_ID": "CVE-2021-3753",
+      "confidence": 0.8,
+      "match_reason": "Race Condition in vt_k_ioctl (KDSETMDE)"
+    },
+    {
+      "CVE_ID": "CVE-2022-48804",
+      "confidence": 0.75,
+      "match_reason": "Integer Underflow in vt_ioctl (vt_setactivate)"
+    },
+    {
+      "CVE_ID": "CVE-2024-26798",
+      "confidence": 0.5,
+      "match_reason": "Framebuffer console font-data restoration issue"
+    },
+    {
+      "CVE_ID": "CVE-2024-50048",
+      "confidence": 0.4,
+      "match_reason": "NULL pointer dereference in fbcon_putcs"
+    }
+  ],
+  "CVE-2013-4163": [
+    {
+      "CVE_ID": "CVE-2017-9242",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to ip6_append_data function in vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2024-26752",
+      "confidence": 0.9,
+      "match_reason": "Related to ip6_append_data through l2tp_ip6_sendmsg code path"
+    },
+    {
+      "CVE_ID": "CVE-2023-52527",
+      "confidence": 0.85,
+      "match_reason": "Involves __ip{,6}_append_data() with incorrect transhdrlen handling"
+    },
+    {
+      "CVE_ID": "CVE-2022-49728",
+      "confidence": 0.6,
+      "match_reason": "Integer overflow in __ip6_append_data, indirectly related"
+    },
+    {
+      "CVE_ID": "CVE-2018-9389",
+      "confidence": 0.5,
+      "match_reason": "Heap buffer overflow in ip6_append_data, less direct but still relevant"
+    }
+  ],
+  "CVE-2013-2237": [
+    {
+      "CVE_ID": "CVE-2013-2237",
+      "confidence": 0.95,
+      "match_reason": "key_notify_policy_flush function in af_key.c"
+    },
+    {
+      "CVE_ID": "CVE-2013-2234",
+      "confidence": 0.8,
+      "match_reason": "related vulnerability in af_key.c"
+    },
+    {
+      "CVE_ID": "CVE-2023-52919",
+      "confidence": 0.6,
+      "match_reason": "alloc_skb failure in NFC NCI driver"
+    },
+    {
+      "CVE_ID": "CVE-2025-21758",
+      "confidence": 0.5,
+      "match_reason": "IPv6 multicast code update with alloc_skb"
+    },
+    {
+      "CVE_ID": "CVE-2025-21759",
+      "confidence": 0.45,
+      "match_reason": "IPv6 multicast vulnerability with alloc_skb"
+    }
+  ],
+  "CVE-2012-0028": [
+    {
+      "CVE_ID": "CVE-2010-4258",
+      "confidence": 0.85,
+      "match_reason": "do_exit function vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-52609",
+      "confidence": 0.7,
+      "match_reason": "race condition between mmput and do_exit"
+    },
+    {
+      "CVE_ID": "CVE-2024-53105",
+      "confidence": 0.6,
+      "match_reason": "incorrect mlocked flag clearance"
+    },
+    {
+      "CVE_ID": "CVE-2022-48983",
+      "confidence": 0.4,
+      "match_reason": "null-pointer dereference in io_tctx_exit_cb"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000251",
+      "confidence": 0.3,
+      "match_reason": "buffer overflow vulnerability"
+    }
+  ],
+  "CVE-2013-4563": [
+    {
+      "CVE_ID": "CVE-2011-4326",
+      "confidence": 0.95,
+      "match_reason": "Direct match with udp6_ufo_fragment function and file path"
+    },
+    {
+      "CVE_ID": "CVE-2013-4563",
+      "confidence": 0.92,
+      "match_reason": "Strong overlap with udp6_ufo_fragment function and vulnerability description"
+    },
+    {
+      "CVE_ID": "CVE-2012-6635",
+      "confidence": 0.6,
+      "match_reason": "Moderate match with IPv6 UDP packet handling and potential denial-of-service vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2014-3144",
+      "confidence": 0.5,
+      "match_reason": "Weak match with Linux kernel vulnerability and potential impact on network protocols"
+    },
+    {
+      "CVE_ID": "CVE-2015-1805",
+      "confidence": 0.4,
+      "match_reason": "Very weak match with Linux kernel vulnerability and potential network protocol implications"
+    }
+  ],
+  "CVE-2013-4348": [
+    {
+      "CVE_ID": "CVE-2013-4348",
+      "confidence": 0.95,
+      "match_reason": "Direct reference in search results"
+    },
+    {
+      "CVE_ID": "CVE-2017-13715",
+      "confidence": 0.9,
+      "match_reason": "Strong overlap with code block"
+    },
+    {
+      "CVE_ID": "CVE-2024-26804",
+      "confidence": 0.85,
+      "match_reason": "Recent vulnerability with similar function"
+    },
+    {
+      "CVE_ID": "CVE-2024-42321",
+      "confidence": 0.6,
+      "match_reason": "Moderate match with flow_dissector"
+    },
+    {
+      "CVE_ID": "CVE-2013-4348",
+      "confidence": 0.4,
+      "match_reason": "Weak match due to duplicate reference"
+    }
+  ],
+  "CVE-2013-6368": [
+    {
+      "CVE_ID": "CVE-2021-47255",
+      "confidence": 0.85,
+      "match_reason": "KVM LAPIC implementation vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-21779",
+      "confidence": 0.8,
+      "match_reason": "Hyper-V enlightenments and local APIC emulation"
+    },
+    {
+      "CVE_ID": "CVE-2018-19406",
+      "confidence": 0.7,
+      "match_reason": "NULL pointer dereference in kvm_pv_send_ipi"
+    },
+    {
+      "CVE_ID": "CVE-2016-4440",
+      "confidence": 0.6,
+      "match_reason": "Mishandling of APICv on/off state"
+    },
+    {
+      "CVE_ID": "CVE-2015-4692",
+      "confidence": 0.5,
+      "match_reason": "NULL pointer dereference in kvm_apic_has_events"
+    }
+  ],
+  "CVE-2017-16939": [
+    {
+      "CVE_ID": "CVE-2017-16939",
+      "confidence": 0.95,
+      "match_reason": "Use-after-free vulnerability in xfrm_user.c"
+    },
+    {
+      "CVE_ID": "CVE-2017-7184",
+      "confidence": 0.85,
+      "match_reason": "Heap out-of-bounds access in xfrm_replay_verify_len"
+    },
+    {
+      "CVE_ID": "CVE-2019-15666",
+      "confidence": 0.75,
+      "match_reason": "Out-of-bounds array access in verify_newpolicy_info"
+    },
+    {
+      "CVE_ID": "CVE-2013-1826",
+      "confidence": 0.65,
+      "match_reason": "NULL pointer dereference in xfrm_state_netlink"
+    },
+    {
+      "CVE_ID": "CVE-2005-2456",
+      "confidence": 0.55,
+      "match_reason": "Array index overflow in xfrm_sk_policy_insert"
+    }
+  ],
+  "CVE-2010-4648": [
+    {
+      "CVE_ID": "CVE-2010-4648",
+      "confidence": 0.95,
+      "match_reason": "Direct match with orinoco_ioctl_set_auth function and TKIP countermeasure logic flaw"
+    },
+    {
+      "CVE_ID": "CVE-2009-0748",
+      "confidence": 0.6,
+      "match_reason": "Similar wireless driver vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2011-0497",
+      "confidence": 0.55,
+      "match_reason": "Linux kernel wireless driver vulnerability with potential for remote code execution"
+    },
+    {
+      "CVE_ID": "CVE-2012-3556",
+      "confidence": 0.45,
+      "match_reason": "Linux kernel vulnerability in wireless networking component"
+    },
+    {
+      "CVE_ID": "CVE-2013-0216",
+      "confidence": 0.4,
+      "match_reason": "Linux kernel vulnerability in networking component with potential for denial of service"
+    }
+  ],
+  "CVE-2013-2058": [
+    {
+      "CVE_ID": "CVE-2013-2058",
+      "confidence": 0.95,
+      "match_reason": "host_start function in drivers/usb/chipidea/host.c"
+    },
+    {
+      "CVE_ID": "CVE-2022-49713",
+      "confidence": 0.8,
+      "match_reason": "usb_create_hcd memory leak in Linux kernel's USB stack"
+    },
+    {
+      "CVE_ID": "CVE-2015-8558",
+      "confidence": 0.6,
+      "match_reason": "ehci_hcd vulnerability in QEMU"
+    },
+    {
+      "CVE_ID": "CVE-2016-4037",
+      "confidence": 0.55,
+      "match_reason": "ehci_hcd vulnerability in QEMU"
+    },
+    {
+      "CVE_ID": "CVE-2024-41035",
+      "confidence": 0.4,
+      "match_reason": "USB parsing bug due to reserved bits in endpoint descriptors"
+    }
+  ],
+  "CVE-2012-2127": [
+    {
+      "CVE_ID": "CVE-2024-26686",
+      "confidence": 0.8,
+      "match_reason": "fs/proc/root.c and proc_fs_type context match"
+    },
+    {
+      "CVE_ID": "CVE-2024-26935",
+      "confidence": 0.7,
+      "match_reason": "procfs and kernel patching context similarity"
+    },
+    {
+      "CVE_ID": "CVE-2023-53140",
+      "confidence": 0.65,
+      "match_reason": "procfs and namespace handling relevance"
+    },
+    {
+      "CVE_ID": "CVE-2023-52613",
+      "confidence": 0.55,
+      "match_reason": "PTR_ERR and kernel error handling connection"
+    },
+    {
+      "CVE_ID": "CVE-2024-49986",
+      "confidence": 0.5,
+      "match_reason": "PTR_ERR and use-after-free vulnerability relation"
+    }
+  ],
+  "CVE-2018-18955": [
+    {
+      "CVE_ID": "CVE-2018-18955",
+      "confidence": 0.95,
+      "match_reason": "Direct match with map_write() function and kernel/user_namespace.c file"
+    },
+    {
+      "CVE_ID": "CVE-2023-0386",
+      "confidence": 0.6,
+      "match_reason": "Related to UID mapping issue in OverlayFS"
+    },
+    {
+      "CVE_ID": "CVE-2024-56433",
+      "confidence": 0.5,
+      "match_reason": "Involves subordinate ID configuration and potential UID mapping issues"
+    },
+    {
+      "CVE_ID": "CVE-2015-8709",
+      "confidence": 0.4,
+      "match_reason": "Disputed vulnerability related to UID/GID mapping via ptrace"
+    },
+    {
+      "CVE_ID": "CVE-2019-14284",
+      "confidence": 0.3,
+      "match_reason": "Weak match with kernel/user_namespace.c file and potential privilege escalation"
+    }
+  ],
+  "CVE-2011-2496": [
+    {
+      "CVE_ID": "CVE-2011-2496",
+      "confidence": 0.95,
+      "match_reason": "Integer overflow in vma_to_resize function"
+    },
+    {
+      "CVE_ID": "CVE-2023-1476",
+      "confidence": 0.8,
+      "match_reason": "Race condition in mm/mremap"
+    },
+    {
+      "CVE_ID": "CVE-2003-0985",
+      "confidence": 0.7,
+      "match_reason": "Bounds check flaw in do_mremap"
+    },
+    {
+      "CVE_ID": "CVE-2004-0077",
+      "confidence": 0.65,
+      "match_reason": "Improper return value handling in do_mremap"
+    },
+    {
+      "CVE_ID": "CVE-2024-53111",
+      "confidence": 0.6,
+      "match_reason": "Address wraparound in mm/mremap calculation"
+    }
+  ],
+  "CVE-2022-41674": [
+    {
+      "CVE_ID": "CVE-2022-41674",
+      "confidence": 0.95,
+      "match_reason": "Strong match due to direct reference in code and search results"
+    },
+    {
+      "CVE_ID": "CVE-2021-3753",
+      "confidence": 0.6,
+      "match_reason": "Moderate match due to similar vulnerability type in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2020-12354",
+      "confidence": 0.5,
+      "match_reason": "Weak match due to related kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2019-8912",
+      "confidence": 0.45,
+      "match_reason": "Weak match due to historical kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2018-10940",
+      "confidence": 0.4,
+      "match_reason": "Very weak match due to older kernel vulnerability"
+    }
+  ],
+  "CVE-2020-28097": [
+    {
+      "CVE_ID": "CVE-2025-38213",
+      "confidence": 0.95,
+      "match_reason": "Direct mention in search results with strong relevance to vgacon_scroll"
+    },
+    {
+      "CVE_ID": "CVE-2020-28097",
+      "confidence": 0.8,
+      "match_reason": "Related to vgacon_scrolldelta with similar vulnerability context"
+    },
+    {
+      "CVE_ID": "CVE-2020-14331",
+      "confidence": 0.75,
+      "match_reason": "Historical vulnerability in vgacon subsystem with related impact"
+    },
+    {
+      "CVE_ID": "CVE-2020-8649",
+      "confidence": 0.6,
+      "match_reason": "VGA console vulnerability with potential for privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2016-3710",
+      "confidence": 0.4,
+      "match_reason": "Out-of-bounds read/write in VGA emulation, less directly related but still relevant"
+    }
+  ],
+  "CVE-2022-36123": [
+    {
+      "CVE_ID": "CVE-2024-53241",
+      "confidence": 0.9,
+      "match_reason": "Xen hypercall page vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-46864",
+      "confidence": 0.8,
+      "match_reason": "Linux kernel vulnerability in x86/hyperv"
+    },
+    {
+      "CVE_ID": "CVE-2023-52482",
+      "confidence": 0.7,
+      "match_reason": "Linux kernel vulnerability in x86/srso"
+    },
+    {
+      "CVE_ID": "CVE-2024-35803",
+      "confidence": 0.6,
+      "match_reason": "Linux kernel vulnerability in x86/efistub"
+    },
+    {
+      "CVE_ID": "CVE-2016-9386",
+      "confidence": 0.5,
+      "match_reason": "Xen x86 emulator vulnerability"
+    }
+  ],
+  "CVE-2013-4511": [
+    {
+      "CVE_ID": "CVE-2013-4511",
+      "confidence": 0.85,
+      "match_reason": "Integer overflow vulnerability in au1100fb_fb_mmap"
+    },
+    {
+      "CVE_ID": "CVE-2023-4412",
+      "confidence": 0.6,
+      "match_reason": "Potential vulnerability in ioctl handling"
+    },
+    {
+      "CVE_ID": "CVE-2024-38540",
+      "confidence": 0.4,
+      "match_reason": "Possible vulnerability in framebuffer driver"
+    },
+    {
+      "CVE_ID": "CVE-2013-4515",
+      "confidence": 0.4,
+      "match_reason": "Information exposure vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2013-7263",
+      "confidence": 0.2,
+      "match_reason": "Weak match due to lack of specific information"
+    }
+  ],
+  "CVE-2021-38300": [
+    {
+      "CVE_ID": "CVE-2021-38300",
+      "confidence": 0.85,
+      "match_reason": "MIPS architecture and BPF JIT compiler"
+    },
+    {
+      "CVE_ID": "CVE-2014-2889",
+      "confidence": 0.6,
+      "match_reason": "BPF JIT compiler vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2015-4700",
+      "confidence": 0.55,
+      "match_reason": "BPF JIT compiler vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2025-38280",
+      "confidence": 0.45,
+      "match_reason": "BPF JIT compiler vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-52621",
+      "confidence": 0.4,
+      "match_reason": "BPF interpreter mode vulnerability"
+    }
+  ],
+  "CVE-2022-0185": [
+    {
+      "CVE_ID": "CVE-2022-0185",
+      "confidence": 0.95,
+      "match_reason": "Direct match with vulnerable code block and search results"
+    },
+    {
+      "CVE_ID": "CVE-2022-49180",
+      "confidence": 0.7,
+      "match_reason": "Partial match with vulnerable code block and search results"
+    },
+    {
+      "CVE_ID": "CVE-2019-11477",
+      "confidence": 0.4,
+      "match_reason": "Weak match with file name and general vulnerability type"
+    },
+    {
+      "CVE_ID": "CVE-2018-11412",
+      "confidence": 0.3,
+      "match_reason": "Very weak match with file name and general vulnerability type"
+    },
+    {
+      "CVE_ID": "CVE-2017-1000112",
+      "confidence": 0.2,
+      "match_reason": "Very weak match with general vulnerability type and kernel version"
+    }
+  ],
+  "CVE-2022-3303": [
+    {
+      "CVE_ID": "CVE-2022-49733",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to snd_pcm_oss_sync() in NVD and MITRE databases"
+    },
+    {
+      "CVE_ID": "CVE-2022-3303",
+      "confidence": 0.8,
+      "match_reason": "Similar race condition in snd_pcm_oss_sync() reported in Red Hat Bugzilla"
+    },
+    {
+      "CVE_ID": "CVE-2019-17351",
+      "confidence": 0.5,
+      "match_reason": "Unrelated but potentially relevant vulnerability in Linux kernel ALSA subsystem"
+    },
+    {
+      "CVE_ID": "CVE-2020-27777",
+      "confidence": 0.4,
+      "match_reason": "Vulnerability in Linux kernel related to NULL pointer dereference, potentially similar to snd_pcm_oss_sync() issue"
+    },
+    {
+      "CVE_ID": "CVE-2018-1000004",
+      "confidence": 0.3,
+      "match_reason": "Older vulnerability in Linux kernel related to race condition, potentially similar to snd_pcm_oss_sync() issue"
+    }
+  ],
+  "CVE-2023-4921": [
+    {
+      "CVE_ID": "CVE-2023-4921",
+      "confidence": 0.95,
+      "match_reason": "Direct reference to qfq_dequeue() and sch_plug.c in the search results"
+    },
+    {
+      "CVE_ID": "CVE-2023-3611",
+      "confidence": 0.8,
+      "match_reason": "Mention of qfq_change_agg() in sch_qfq.c, related to out-of-bounds write vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2023-31436",
+      "confidence": 0.75,
+      "match_reason": "Reference to qfq_change_class() in sch_qfq.c, concerning out-of-bounds write issue"
+    },
+    {
+      "CVE_ID": "CVE-2025-38477",
+      "confidence": 0.6,
+      "match_reason": "Race condition in qfq_aggregate, though less directly related to provided code blocks"
+    },
+    {
+      "CVE_ID": "CVE-2024-0724",
+      "confidence": 0.4,
+      "match_reason": "Indirect reference through Red Hat advisory related to CVE-2023-4921, but less confidence due to lack of direct code correlation"
+    }
+  ],
+  "CVE-2011-2493": [
+    {
+      "CVE_ID": "CVE-2009-0748",
+      "confidence": 0.95,
+      "match_reason": "NULL pointer dereference in ext4_fill_super"
+    },
+    {
+      "CVE_ID": "CVE-2016-10208",
+      "confidence": 0.85,
+      "match_reason": "Out-of-bounds read in meta block groups"
+    },
+    {
+      "CVE_ID": "CVE-2018-1094",
+      "confidence": 0.75,
+      "match_reason": "NULL pointer dereference in xattr handling"
+    },
+    {
+      "CVE_ID": "CVE-2021-47119",
+      "confidence": 0.65,
+      "match_reason": "Memory leak in ext4_fill_super"
+    },
+    {
+      "CVE_ID": "CVE-2024-40998",
+      "confidence": 0.55,
+      "match_reason": "Uninitialized lock access in __ext4_fill_super"
+    }
+  ],
+  "CVE-2021-38208": [
+    {
+      "CVE_ID": "CVE-2021-47068",
+      "confidence": 0.95,
+      "match_reason": "use-after-free in llcp_sock_bind/connect"
+    },
+    {
+      "CVE_ID": "CVE-2020-25670",
+      "confidence": 0.9,
+      "match_reason": "refcount leak in llcp_sock_bind"
+    },
+    {
+      "CVE_ID": "CVE-2024-36915",
+      "confidence": 0.7,
+      "match_reason": "unsafe memory access in nfc_llcp_setsockopt"
+    },
+    {
+      "CVE_ID": "CVE-2023-52502",
+      "confidence": 0.6,
+      "match_reason": "race condition in nfc_llcp_sock_get"
+    },
+    {
+      "CVE_ID": "CVE-2021-38208",
+      "confidence": 0.5,
+      "match_reason": "NULL pointer dereference in llcp getsockname"
+    }
+  ],
+  "CVE-2013-1767": [
+    {
+      "CVE_ID": "CVE-2013-1767",
+      "confidence": 0.95,
+      "match_reason": "Exact function name match in Linux kernel vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2024-50228",
+      "confidence": 0.6,
+      "match_reason": "Related shmem subsystem vulnerability in Linux kernel"
+    },
+    {
+      "CVE_ID": "CVE-2024-39497",
+      "confidence": 0.4,
+      "match_reason": "Shmem-related vulnerability in Linux kernel, though not exact function match"
+    },
+    {
+      "CVE_ID": "CVE-2013-1798",
+      "confidence": 0.3,
+      "match_reason": "Linux kernel vulnerability with potential for local privilege escalation"
+    },
+    {
+      "CVE_ID": "CVE-2013-1829",
+      "confidence": 0.2,
+      "match_reason": "Linux kernel vulnerability, though less directly related to shmem_remount_fs"
+    }
+  ],
+  "CVE-2014-5471": [
+    {
+      "CVE_ID": "CVE-2016-4913",
+      "confidence": 0.85,
+      "match_reason": "get_rock_ridge_filename vulnerability"
+    },
+    {
+      "CVE_ID": "CVE-2021-47478",
+      "confidence": 0.8,
+      "match_reason": "isofs_read_inode out-of-bounds read"
+    },
+    {
+      "CVE_ID": "CVE-2014-5472",
+      "confidence": 0.75,
+      "match_reason": "parse_rock_ridge_inode_internal denial-of-service"
+    },
+    {
+      "CVE_ID": "CVE-2014-9584",
+      "confidence": 0.6,
+      "match_reason": "parse_rock_ridge_inode_internal kernel memory disclosure"
+    },
+    {
+      "CVE_ID": "CVE-2024-56534",
+      "confidence": 0.5,
+      "match_reason": "isofs_parse_param memory leak"
+    }
+  ]
+}

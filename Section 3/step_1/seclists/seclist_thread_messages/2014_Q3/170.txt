@@ -1,0 +1,16 @@
+CVE-2014-4943 is a flaw in the Linux kernel allowing an unprivileged user
+to escalate to kernel privilege when CONFIG_PPPOL2TP is enabled. If built
+as a module, a work-around to limit this to just the root user would be
+to add this to /etc/modprobe.conf:
+
+alias pppox-proto-1 off
+blacklist l2tp_ppp
+
+Upstream commit:
+https://git.kernel.org/linus/3cf521f7dc87c031617fd47e4b7aa2593c2f3daf
+
+-Kees
+
+-- 
+Kees Cook                                            @outflux.net
+

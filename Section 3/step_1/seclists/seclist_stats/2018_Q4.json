@@ -1,0 +1,186 @@
+{
+    "9": {
+        "title": "CVE-2018-14656: Linux kernel: arbitrary kernel memory dump into the dmesg log",
+        "CVE_id": "CVE-2018-14656",
+        "no_subthreads": 0,
+        "date": ": Thu, 4 Oct 2018 05:14:42 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q4/9.txt",
+        "subthreads": []
+    },
+    "69": {
+        "title": "Linux kernel: BPF verifier bug leads to out-of-bounds access (CVE-2018-18445; 4.14.9-4.14.74; 4.15-4.18.12)",
+        "CVE_id": "CVE-2018-18445",
+        "no_subthreads": 0,
+        "date": ": Wed, 17 Oct 2018 20:36:24 +0200",
+        "author": ": Jann Horn <jannh () google com>",
+        "File_path": "seclist_thread_messages/2018_Q4/69.txt",
+        "subthreads": []
+    },
+    "108": {
+        "title": "Linux kernel: TLB flush happens too late on mremap (CVE-2018-18281; fixed in 4.9.135, 4.14.78, 4.18.16, 4.19)",
+        "CVE_id": "CVE-2018-18281",
+        "no_subthreads": 0,
+        "date": ": Mon, 29 Oct 2018 16:11:34 +0100",
+        "author": ": Jann Horn <jannh () google com>",
+        "File_path": "seclist_thread_messages/2018_Q4/108.txt",
+        "subthreads": []
+    },
+    "110": {
+        "title": "Re: Linux kernel: CVE-2017-18344: arbitrary-read vulnerability in the timer subsystem",
+        "CVE_id": "CVE-2017-18344",
+        "no_subthreads": 0,
+        "date": ": Tue, 30 Oct 2018 16:24:54 +0100",
+        "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+        "File_path": "seclist_thread_messages/2018_Q4/110.txt",
+        "subthreads": []
+    },
+    "150": {
+        "title": "Linux kernel: broken uid/gid mapping for nested user namespaces with >5 ranges (CVE-2018-18955; since 4.15; fixed in 4.18.19 and 4.19.2)",
+        "CVE_id": "CVE-2018-18955",
+        "no_subthreads": 0,
+        "date": ": Fri, 16 Nov 2018 00:38:18 +0100",
+        "author": ": Jann Horn <jannh () google com>",
+        "File_path": "seclist_thread_messages/2018_Q4/150.txt",
+        "subthreads": []
+    },
+    "169": {
+        "title": "CVE-2018-16862: Linux kernel: cleancache: deleted files infoleak",
+        "CVE_id": "CVE-2018-16862",
+        "no_subthreads": 0,
+        "date": ": Fri, 23 Nov 2018 10:20:49 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q4/169.txt",
+        "subthreads": []
+    },
+    "219": {
+        "title": "Linux kernel: userfaultfd bypasses tmpfs file permissions (CVE-2018-18397; since 4.11; fixed in 4.14.87 and 4.19.7)",
+        "CVE_id": "CVE-2018-18397",
+        "no_subthreads": 10,
+        "date": ": Wed, 12 Dec 2018 01:27:13 +0100",
+        "author": ": Jann Horn <jannh () google com>",
+        "File_path": "seclist_thread_messages/2018_Q4/219.txt",
+        "subthreads": [
+            {
+                "id": "221",
+                "no_subthreads": 9,
+                "date": ": Wed, 12 Dec 2018 15:24:15 +0100",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2018_Q4/221.txt",
+                "subthreads": [
+                    {
+                        "id": "239",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 13 Dec 2018 14:59:43 +0100",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2018_Q4/239.txt",
+                        "subthreads": [
+                            {
+                                "id": "252",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 14 Dec 2018 18:45:09 +0100",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q4/252.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "243",
+                        "no_subthreads": 4,
+                        "date": ": Thu, 13 Dec 2018 21:02:12 +0100",
+                        "author": ": Yves-Alexis Perez <corsac () debian org>",
+                        "File_path": "seclist_thread_messages/2018_Q4/243.txt",
+                        "subthreads": [
+                            {
+                                "id": "246",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 14 Dec 2018 14:07:55 +0100",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q4/246.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "247",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 14 Dec 2018 14:15:42 +0100",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q4/247.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "248",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 14 Dec 2018 08:27:24 -0500",
+                                "author": ": Brad Spengler <spender () grsecurity net>",
+                                "File_path": "seclist_thread_messages/2018_Q4/248.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "250",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 14 Dec 2018 16:21:25 +0100",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q4/250.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "249",
+                        "no_subthreads": 1,
+                        "date": ": Fri, 14 Dec 2018 15:14:54 +0100",
+                        "author": ": Jann Horn <jannhorn () googlemail com>",
+                        "File_path": "seclist_thread_messages/2018_Q4/249.txt",
+                        "subthreads": [
+                            {
+                                "id": "251",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 14 Dec 2018 17:45:18 +0100",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2018_Q4/251.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "261": {
+        "title": "CVE-2018-16882 Kernel: KVM: nVMX: use after free in posted interrupt processing",
+        "CVE_id": "CVE-2018-16882",
+        "no_subthreads": 2,
+        "date": ": Wed, 19 Dec 2018 00:45:34 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q4/261.txt",
+        "subthreads": [
+            {
+                "id": "262",
+                "no_subthreads": 1,
+                "date": ": Tue, 18 Dec 2018 14:24:08 -0500",
+                "author": ": Alex Gaynor <alex.gaynor () gmail com>",
+                "File_path": "seclist_thread_messages/2018_Q4/262.txt",
+                "subthreads": [
+                    {
+                        "id": "263",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 19 Dec 2018 10:55:55 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2018_Q4/263.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "267": {
+        "title": "CVE-2018-16884: Linux kernel: nfs: use-after-free in svc_process_common()",
+        "CVE_id": "CVE-2018-16884",
+        "no_subthreads": 0,
+        "date": ": Wed, 19 Dec 2018 05:08:07 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q4/267.txt",
+        "subthreads": []
+    }
+}

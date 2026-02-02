@@ -1,0 +1,16 @@
+Hi,
+
+I'd like to get a CVE assigned for this information leak issue:
+https://lkml.org/lkml/2011/2/7/368
+
+Pre-opened file descriptors in /proc/$pid/ can bypass DAC allowing
+visibility into setuid process state, especially leaking ASLR offset.
+
+Thanks,
+
+-Kees
+
+-- 
+Kees Cook
+Ubuntu Security Team
+

@@ -1,0 +1,137 @@
+{
+    "14": {
+        "title": "CVE Request -- kernel: compat: SIOCGSTAMP/SIOCGSTAMPNS incorrect order of arguments to compat_put_time[val|spec]",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 4 Oct 2012 00:08:56 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q4/14.txt",
+        "subthreads": [
+            {
+                "id": "16",
+                "no_subthreads": 0,
+                "date": ": Wed, 03 Oct 2012 20:10:25 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q4/16.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "115": {
+        "title": "CVE Request -- kernel stack disclosure in binfmt_script load_script()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 19 Oct 2012 17:58:12 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q4/115.txt",
+        "subthreads": [
+            {
+                "id": "116",
+                "no_subthreads": 1,
+                "date": ": Fri, 19 Oct 2012 10:47:07 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q4/116.txt",
+                "subthreads": [
+                    {
+                        "id": "119",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 21 Oct 2012 01:28:30 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2012_Q4/119.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "137": {
+        "title": "CVE-2012-4508 -- kernel: ext4: AIO vs fallocate stale data exposure",
+        "CVE_id": "CVE-2012-4508",
+        "no_subthreads": 0,
+        "date": ": Thu, 25 Oct 2012 08:41:41 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q4/137.txt",
+        "subthreads": []
+    },
+    "141": {
+        "title": "Xen Security Advisory 25 (CVE-2012-4544) - Xen domain builder Out-of-memory due to malicious kernel/ramdisk",
+        "CVE_id": "CVE-2012-4544",
+        "no_subthreads": 0,
+        "date": ": Fri, 26 Oct 2012 11:01:47 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2012_Q4/141.txt",
+        "subthreads": []
+    },
+    "185": {
+        "title": "CVE Request -- kernel: net: divide by zero in tcp algorithm illinois",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 31 Oct 2012 15:31:20 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q4/185.txt",
+        "subthreads": [
+            {
+                "id": "186",
+                "no_subthreads": 0,
+                "date": ": Wed, 31 Oct 2012 09:19:37 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q4/186.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "228": {
+        "title": "CVE-2012-4461 -- kernel: kvm: invalid opcode oops on SET_SREGS with OSXSAVE bit set",
+        "CVE_id": "CVE-2012-4461",
+        "no_subthreads": 0,
+        "date": ": Tue, 6 Nov 2012 19:30:40 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q4/228.txt",
+        "subthreads": []
+    },
+    "259": {
+        "title": "CVE request -- Linux kernel: mm/hotplug: failure in propagating hot-added memory to other nodes",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Sat, 10 Nov 2012 22:36:59 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q4/259.txt",
+        "subthreads": [
+            {
+                "id": "263",
+                "no_subthreads": 2,
+                "date": ": Sun, 11 Nov 2012 00:19:13 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q4/263.txt",
+                "subthreads": [
+                    {
+                        "id": "279",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 13 Nov 2012 16:21:19 +0100",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2012_Q4/279.txt",
+                        "subthreads": [
+                            {
+                                "id": "280",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 13 Nov 2012 16:36:23 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2012_Q4/280.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "274": {
+        "title": "Xen Security Advisory 25 (CVE-2012-4544,CVE-2012-2625) - Xen domain builder Out-of-memory due to malicious kernel/ramdisk",
+        "CVE_id": "CVE-2012-4544",
+        "no_subthreads": 0,
+        "date": ": Tue, 13 Nov 2012 12:56:23 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2012_Q4/274.txt",
+        "subthreads": []
+    }
+}

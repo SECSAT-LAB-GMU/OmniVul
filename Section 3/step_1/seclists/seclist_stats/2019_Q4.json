@@ -1,0 +1,83 @@
+{
+    "4": {
+        "title": "Re: CVE-2019-14835: QEMU-KVM Guest to Host Kernel Escape Vulnerability: vhost/vhost_net kernel buffer overflow",
+        "CVE_id": "CVE-2019-14835",
+        "no_subthreads": 2,
+        "date": ": Thu, 3 Oct 2019 11:09:59 -0500",
+        "author": ": Tina Li <tli () digitalocean com>",
+        "File_path": "seclist_thread_messages/2019_Q4/4.txt",
+        "subthreads": [
+            {
+                "id": "11",
+                "no_subthreads": 1,
+                "date": ": Wed, 9 Oct 2019 10:56:15 +0800",
+                "author": ": bo Zhang <zhangbo5891001 () gmail com>",
+                "File_path": "seclist_thread_messages/2019_Q4/11.txt",
+                "subthreads": [
+                    {
+                        "id": "15",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 9 Oct 2019 13:04:30 -0500",
+                        "author": ": Tina Li <tli () digitalocean com>",
+                        "File_path": "seclist_thread_messages/2019_Q4/15.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "103": {
+        "title": "CVE-2019-18660: Linux kernel: powerpc: missing Spectre-RSB mitigation",
+        "CVE_id": "CVE-2019-18660",
+        "no_subthreads": 0,
+        "date": ": Thu, 28 Nov 2019 07:37:42 +1100",
+        "author": ": Michael Ellerman <mpe () ellerman id au>",
+        "File_path": "seclist_thread_messages/2019_Q4/103.txt",
+        "subthreads": []
+    },
+    "143": {
+        "title": "CVE-2019-19338 Kernel: KVM: export MSR_IA32_TSX_CTRL to guest - incomplete fix for TAA (CVE-2019-11135)",
+        "CVE_id": "CVE-2019-19338",
+        "no_subthreads": 2,
+        "date": ": Tue, 10 Dec 2019 17:10:40 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q4/143.txt",
+        "subthreads": [
+            {
+                "id": "144",
+                "no_subthreads": 1,
+                "date": ": Tue, 10 Dec 2019 12:09:22 -0600",
+                "author": ": Tyler Hicks <tyhicks () canonical com>",
+                "File_path": "seclist_thread_messages/2019_Q4/144.txt",
+                "subthreads": [
+                    {
+                        "id": "145",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 11 Dec 2019 11:54:35 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2019_Q4/145.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "159": {
+        "title": "CVE-2019-19332 Kernel: kvm: OOB memory write via kvm_dev_ioctl_get_cpuid",
+        "CVE_id": "CVE-2019-19332",
+        "no_subthreads": 0,
+        "date": ": Mon, 16 Dec 2019 11:33:02 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q4/159.txt",
+        "subthreads": []
+    },
+    "173": {
+        "title": "CVE-2019-19947: Linux kernel can: kvaser_usb: kvaser_usb_leaf: some info-leaks vulnerabilities",
+        "CVE_id": "CVE-2019-19947",
+        "no_subthreads": 0,
+        "date": ": Tue, 24 Dec 2019 10:49:49 +0800",
+        "author": ": butt3rflyh4ck <butterflyhuangxx () gmail com>",
+        "File_path": "seclist_thread_messages/2019_Q4/173.txt",
+        "subthreads": []
+    }
+}

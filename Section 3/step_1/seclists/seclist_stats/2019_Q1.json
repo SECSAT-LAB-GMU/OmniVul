@@ -1,0 +1,65 @@
+{
+    "58": {
+        "title": "Linux kernel: Bluetooth: two remote infoleaks (CVE-2019-3459, CVE-2019-3460)",
+        "CVE_id": "CVE-2019-3459",
+        "no_subthreads": 1,
+        "date": ": Fri, 11 Jan 2019 15:06:45 +0100",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2019_Q1/58.txt",
+        "subthreads": [
+            {
+                "id": "64",
+                "no_subthreads": 0,
+                "date": ": Mon, 14 Jan 2019 10:50:53 +1100",
+                "author": ": Michael Ellerman <mpe () ellerman id au>",
+                "File_path": "seclist_thread_messages/2019_Q1/64.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "94": {
+        "title": "CVE-2018-16880 Linux kernel: oob-write in drivers/vhost/net.c:get_rx_bufs()",
+        "CVE_id": "CVE-2018-16880",
+        "no_subthreads": 0,
+        "date": ": Fri, 25 Jan 2019 10:46:58 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2019_Q1/94.txt",
+        "subthreads": []
+    },
+    "106": {
+        "title": "Linux kernel: BPF spectre v1 mitigation bypass (CVE-2019-7308, fixed in 4.19.19 and 4.20.6)",
+        "CVE_id": "CVE-2019-7308",
+        "no_subthreads": 0,
+        "date": ": Fri, 1 Feb 2019 23:20:26 +0100",
+        "author": ": Jann Horn <jannhorn () googlemail com>",
+        "File_path": "seclist_thread_messages/2019_Q1/106.txt",
+        "subthreads": []
+    },
+    "139": {
+        "title": "Linux kernel: three KVM bugs (CVE-2019-6974, CVE-2019-7221, CVE-2019-7222)",
+        "CVE_id": "CVE-2019-6974",
+        "no_subthreads": 0,
+        "date": ": Mon, 18 Feb 2019 16:53:06 +0100",
+        "author": ": Jann Horn <jannhorn () googlemail com>",
+        "File_path": "seclist_thread_messages/2019_Q1/139.txt",
+        "subthreads": []
+    },
+    "166": {
+        "title": "Linux kernel: OOB R/W in SNMP NAT module (CVE-2019-9162); virtual address 0 mappable (CVE-2019-9213)",
+        "CVE_id": "CVE-2019-9162",
+        "no_subthreads": 1,
+        "date": ": Tue, 5 Mar 2019 22:02:49 +0100",
+        "author": ": Jann Horn <jannhorn () googlemail com>",
+        "File_path": "seclist_thread_messages/2019_Q1/166.txt",
+        "subthreads": [
+            {
+                "id": "172",
+                "no_subthreads": 0,
+                "date": ": Sun, 10 Mar 2019 19:14:20 +0100",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2019_Q1/172.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,200 @@
+{
+    "2": {
+        "title": "CVE-2024-6387: RCE in OpenSSH's server, on glibc-based Linux systems",
+        "CVE_id": "CVE-2024-6387",
+        "no_subthreads": 17,
+        "date": ": Mon, 1 Jul 2024 08:40:06 +0000",
+        "author": ": Qualys Security Advisory <qsa () qualys com>",
+        "File_path": "seclist_thread_messages/2024_Q3/2.txt",
+        "subthreads": [
+            {
+                "id": "11",
+                "no_subthreads": 1,
+                "date": ": Mon, 1 Jul 2024 17:36:48 +0200",
+                "author": ": jvoisin <julien.voisin () dustri org>",
+                "File_path": "seclist_thread_messages/2024_Q3/11.txt",
+                "subthreads": [
+                    {
+                        "id": "12",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 1 Jul 2024 22:46:41 +0200",
+                        "author": ": Mathias Krause <minipli () grsecurity net>",
+                        "File_path": "seclist_thread_messages/2024_Q3/12.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "15",
+                "no_subthreads": 4,
+                "date": ": Tue, 02 Jul 2024 21:01:48 -0500",
+                "author": ": Jacob Bachmeyer <jcb62281 () gmail com>",
+                "File_path": "seclist_thread_messages/2024_Q3/15.txt",
+                "subthreads": [
+                    {
+                        "id": "16",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 3 Jul 2024 02:54:28 -0400",
+                        "author": ": Jeffrey Walton <noloader () gmail com>",
+                        "File_path": "seclist_thread_messages/2024_Q3/16.txt",
+                        "subthreads": [
+                            {
+                                "id": "27",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 03 Jul 2024 19:58:25 -0500",
+                                "author": ": Jacob Bachmeyer <jcb62281 () gmail com>",
+                                "File_path": "seclist_thread_messages/2024_Q3/27.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "17",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 3 Jul 2024 09:50:55 +0200",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2024_Q3/17.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "18",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 3 Jul 2024 10:56:59 +0000",
+                        "author": ": Qualys Security Advisory <qsa () qualys com>",
+                        "File_path": "seclist_thread_messages/2024_Q3/18.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "19",
+                "no_subthreads": 1,
+                "date": ": Wed, 3 Jul 2024 11:26:54 +0000",
+                "author": ": Qualys Security Advisory <qsa () qualys com>",
+                "File_path": "seclist_thread_messages/2024_Q3/19.txt",
+                "subthreads": [
+                    {
+                        "id": "119",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 28 Jul 2024 20:22:25 +0200",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2024_Q3/119.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "25",
+                "no_subthreads": 1,
+                "date": ": Wed, 03 Jul 2024 22:54:30 +0200",
+                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                "File_path": "seclist_thread_messages/2024_Q3/25.txt",
+                "subthreads": [
+                    {
+                        "id": "26",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 4 Jul 2024 01:32:32 +0000",
+                        "author": ": Qualys Security Advisory <qsa () qualys com>",
+                        "File_path": "seclist_thread_messages/2024_Q3/26.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "30",
+                "no_subthreads": 5,
+                "date": ": Mon, 8 Jul 2024 18:21:06 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2024_Q3/30.txt",
+                "subthreads": [
+                    {
+                        "id": "38",
+                        "no_subthreads": 4,
+                        "date": ": Tue, 9 Jul 2024 09:52:58 +1000 (AEST)",
+                        "author": ": Damien Miller <djm () mindrot org>",
+                        "File_path": "seclist_thread_messages/2024_Q3/38.txt",
+                        "subthreads": [
+                            {
+                                "id": "41",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 10 Jul 2024 00:49:23 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2024_Q3/41.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "42",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 10 Jul 2024 08:48:33 -0600",
+                                "author": ": Nick Tait <ntait () redhat com>",
+                                "File_path": "seclist_thread_messages/2024_Q3/42.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "43",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 10 Jul 2024 11:06:05 -0400",
+                                "author": ": Pete Allor <pallor () redhat com>",
+                                "File_path": "seclist_thread_messages/2024_Q3/43.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "50",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 10 Jul 2024 18:14:34 -0700",
+                                "author": ": Alan Coopersmith <alan.coopersmith () oracle com>",
+                                "File_path": "seclist_thread_messages/2024_Q3/50.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "254": {
+        "title": "CVE-2024-45751: CHAP authentication bypass in user-space Linux target framework (tgt) up to v1.0.92",
+        "CVE_id": "CVE-2024-45751",
+        "no_subthreads": 0,
+        "date": ": Sat, 7 Sep 2024 12:54:44 +0200",
+        "author": ": David Gstir <david () sigma-star at>",
+        "File_path": "seclist_thread_messages/2024_Q3/254.txt",
+        "subthreads": []
+    },
+    "267": {
+        "title": "CVE-2024-42154: Linux kernel: tcp_metrics: validate source addr length",
+        "CVE_id": "CVE-2024-42154",
+        "no_subthreads": 2,
+        "date": ": Tue, 24 Sep 2024 09:12:46 +0000",
+        "author": ": Joel GUITTET <jguittet () witekio com>",
+        "File_path": "seclist_thread_messages/2024_Q3/267.txt",
+        "subthreads": [
+            {
+                "id": "268",
+                "no_subthreads": 1,
+                "date": ": Tue, 24 Sep 2024 17:36:52 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2024_Q3/268.txt",
+                "subthreads": [
+                    {
+                        "id": "271",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 25 Sep 2024 14:31:19 +0530",
+                        "author": ": Sandipan Roy <saroy () redhat com>",
+                        "File_path": "seclist_thread_messages/2024_Q3/271.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "290": {
+        "title": "Re: List linux CVEs for a given stable release?",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Fri, 27 Sep 2024 10:21:29 +0200",
+        "author": ": Greg Kroah-Hartman <gregkh () linuxfoundation org>",
+        "File_path": "seclist_thread_messages/2024_Q3/290.txt",
+        "subthreads": []
+    }
+}

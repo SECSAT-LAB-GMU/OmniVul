@@ -1,0 +1,16 @@
+Both are reported by Dan Rosenberg. Description of the issues can be 
+
+found in the following links:-
+
+
+
+irda: validate peer name and attribute lengths
+http://marc.info/?l=linux-netdev&m=130067113628164&w=2
+
+DECnet: need to validate user data and access data?
+http://marc.info/?l=linux-netdev&m=130075091711143&w=2
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

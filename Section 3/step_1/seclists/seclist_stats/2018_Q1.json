@@ -1,0 +1,83 @@
+{
+    "7": {
+        "title": "CVE-2017-15129: Linux kernel: net: double-free and memory corruption in get_net_ns_by_id()",
+        "CVE_id": "CVE-2017-15129",
+        "no_subthreads": 0,
+        "date": ": Fri, 5 Jan 2018 07:52:32 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/7.txt",
+        "subthreads": []
+    },
+    "191": {
+        "title": "CVE-2018-7492: Linux kernel: Null pointer dereference in net/rds/rdma.c:__rds_rdma_map()",
+        "CVE_id": "CVE-2018-7492",
+        "no_subthreads": 0,
+        "date": ": Tue, 27 Feb 2018 06:55:29 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/191.txt",
+        "subthreads": []
+    },
+    "212": {
+        "title": "Linux kernel: CVE-2018-1065 - netfilter rule insertion may panic system.",
+        "CVE_id": "CVE-2018-1065",
+        "no_subthreads": 0,
+        "date": ": Mon, 05 Mar 2018 05:15:13 +0000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/212.txt",
+        "subthreads": []
+    },
+    "214": {
+        "title": "CVE-2018-1066 : kernel - CIFS - Null pointer dereference in ntlmv2 response client crash.",
+        "CVE_id": "CVE-2018-1066",
+        "no_subthreads": 0,
+        "date": ": Tue, 6 Mar 2018 14:07:43 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/214.txt",
+        "subthreads": []
+    },
+    "219": {
+        "title": "util-linux: CVE-2018-7738: code execution in bash-completion for umount",
+        "CVE_id": "CVE-2018-7738",
+        "no_subthreads": 0,
+        "date": ": Wed, 7 Mar 2018 06:49:33 +0100",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2018_Q1/219.txt",
+        "subthreads": []
+    },
+    "228": {
+        "title": "CVE-2018-7550 Qemu: i386: multiboot OOB access while loading kernel image",
+        "CVE_id": "CVE-2018-7550",
+        "no_subthreads": 0,
+        "date": ": Thu, 8 Mar 2018 23:52:33 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/228.txt",
+        "subthreads": []
+    },
+    "240": {
+        "title": "CVE-2018-1068: Linux kernel: netfilter: ebtables: CONFIG_COMPAT: don't trust userland offsets",
+        "CVE_id": "CVE-2018-1068",
+        "no_subthreads": 0,
+        "date": ": Fri, 16 Mar 2018 05:30:50 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/240.txt",
+        "subthreads": []
+    },
+    "282": {
+        "title": "CVE-2018-1091: Linux kernel: a KVM guest kernel crash during core dump on POWER9 host",
+        "CVE_id": "CVE-2018-1091",
+        "no_subthreads": 0,
+        "date": ": Tue, 27 Mar 2018 13:37:39 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/282.txt",
+        "subthreads": []
+    },
+    "284": {
+        "title": "a number of CVEs for issues in the filesystem's code in the Linux kernel",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Thu, 29 Mar 2018 03:56:09 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2018_Q1/284.txt",
+        "subthreads": []
+    }
+}

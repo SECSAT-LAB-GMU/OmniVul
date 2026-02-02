@@ -1,0 +1,319 @@
+{
+    "6": {
+        "title": "CVE Request -- kernel: epoll: can leak file descriptors when returning -ELOOP",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 4 Jul 2012 09:19:50 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/6.txt",
+        "subthreads": [
+            {
+                "id": "7",
+                "no_subthreads": 0,
+                "date": ": Wed, 04 Jul 2012 10:31:45 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/7.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "118": {
+        "title": "CVE Request -- kernel: recv{from,msg}() on an rds socket can leak kernel memory",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 26 Jul 2012 17:25:12 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/118.txt",
+        "subthreads": [
+            {
+                "id": "120",
+                "no_subthreads": 0,
+                "date": ": Thu, 26 Jul 2012 10:54:10 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/120.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "150": {
+        "title": "CVE Request: NVidia Linux driver",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 9,
+        "date": ": Wed, 01 Aug 2012 08:58:16 -0400",
+        "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+        "File_path": "seclist_thread_messages/2012_Q3/150.txt",
+        "subthreads": [
+            {
+                "id": "151",
+                "no_subthreads": 1,
+                "date": ": Wed, 1 Aug 2012 15:13:46 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/151.txt",
+                "subthreads": [
+                    {
+                        "id": "153",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 01 Aug 2012 09:25:11 -0400",
+                        "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+                        "File_path": "seclist_thread_messages/2012_Q3/153.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "152",
+                "no_subthreads": 3,
+                "date": ": Wed, 1 Aug 2012 15:12:00 +0200",
+                "author": ": Tavis Ormandy <taviso () cmpxchg8b com>",
+                "File_path": "seclist_thread_messages/2012_Q3/152.txt",
+                "subthreads": [
+                    {
+                        "id": "154",
+                        "no_subthreads": 2,
+                        "date": ": Wed, 01 Aug 2012 09:32:44 -0400",
+                        "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+                        "File_path": "seclist_thread_messages/2012_Q3/154.txt",
+                        "subthreads": [
+                            {
+                                "id": "155",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 1 Aug 2012 15:39:32 +0200",
+                                "author": ": Marcus Meissner <meissner () suse de>",
+                                "File_path": "seclist_thread_messages/2012_Q3/155.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "158",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 1 Aug 2012 20:27:04 +0200",
+                                "author": ": Tavis Ormandy <taviso () cmpxchg8b com>",
+                                "File_path": "seclist_thread_messages/2012_Q3/158.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "156",
+                "no_subthreads": 2,
+                "date": ": Wed, 01 Aug 2012 11:00:15 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/156.txt",
+                "subthreads": [
+                    {
+                        "id": "157",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 01 Aug 2012 14:18:49 -0400",
+                        "author": ": Marc Deslauriers <marc.deslauriers () canonical com>",
+                        "File_path": "seclist_thread_messages/2012_Q3/157.txt",
+                        "subthreads": [
+                            {
+                                "id": "196",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 8 Aug 2012 18:46:34 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2012_Q3/196.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "171": {
+        "title": "Remote DoS in Linux sfc driver through TCP MSS option (CVE-2012-3412)",
+        "CVE_id": "CVE-2012-3412",
+        "no_subthreads": 0,
+        "date": ": Fri, 3 Aug 2012 17:07:02 +0100",
+        "author": ": Ben Hutchings <bhutchings () solarflare com>",
+        "File_path": "seclist_thread_messages/2012_Q3/171.txt",
+        "subthreads": []
+    },
+    "185": {
+        "title": "CVE Request: Linux kernel net/rds max socket length checking",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 6 Aug 2012 09:48:50 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2012_Q3/185.txt",
+        "subthreads": [
+            {
+                "id": "186",
+                "no_subthreads": 0,
+                "date": ": Mon, 6 Aug 2012 10:07:41 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/186.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "255": {
+        "title": "CVE Request -- kernel: taskstats: use-after-free in xacct_add_tsk()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Mon, 20 Aug 2012 19:25:11 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/255.txt",
+        "subthreads": [
+            {
+                "id": "257",
+                "no_subthreads": 0,
+                "date": ": Mon, 20 Aug 2012 12:27:21 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/257.txt",
+                "subthreads": []
+            },
+            {
+                "id": "262",
+                "no_subthreads": 1,
+                "date": ": Tue, 21 Aug 2012 05:53:55 -0700",
+                "author": ": akuster <akuster () mvista com>",
+                "File_path": "seclist_thread_messages/2012_Q3/262.txt",
+                "subthreads": [
+                    {
+                        "id": "263",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 21 Aug 2012 14:58:48 +0200",
+                        "author": ": Petr Matousek <pmatouse () redhat com>",
+                        "File_path": "seclist_thread_messages/2012_Q3/263.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "256": {
+        "title": "CVE Request -- kernel: mm: use-after-free in madvise_remove()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 20 Aug 2012 20:07:04 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/256.txt",
+        "subthreads": [
+            {
+                "id": "258",
+                "no_subthreads": 0,
+                "date": ": Mon, 20 Aug 2012 12:27:34 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/258.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "271": {
+        "title": "CVE-2012-3520 kernel: af_netlink: invalid handling of SCM_CREDENTIALS passing",
+        "CVE_id": "CVE-2012-3520",
+        "no_subthreads": 0,
+        "date": ": Wed, 22 Aug 2012 09:20:26 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/271.txt",
+        "subthreads": []
+    },
+    "344": {
+        "title": "CVE Request -- kernel: net: slab corruption due to improper synchronization around inet->opt",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Fri, 31 Aug 2012 18:11:53 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/344.txt",
+        "subthreads": [
+            {
+                "id": "347",
+                "no_subthreads": 0,
+                "date": ": Fri, 31 Aug 2012 11:49:44 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/347.txt",
+                "subthreads": []
+            },
+            {
+                "id": "353",
+                "no_subthreads": 1,
+                "date": ": Fri, 31 Aug 2012 12:37:58 -0700",
+                "author": ": akuster <akuster () mvista com>",
+                "File_path": "seclist_thread_messages/2012_Q3/353.txt",
+                "subthreads": [
+                    {
+                        "id": "402",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 7 Sep 2012 11:36:56 +0200",
+                        "author": ": Petr Matousek <pmatouse () redhat com>",
+                        "File_path": "seclist_thread_messages/2012_Q3/402.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "348": {
+        "title": "CVE Request -- kernel: request_module() OOM local DoS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 31 Aug 2012 18:40:28 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/348.txt",
+        "subthreads": [
+            {
+                "id": "364",
+                "no_subthreads": 0,
+                "date": ": Sun, 02 Sep 2012 11:35:55 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/364.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "391": {
+        "title": "CVE-2010 Request -- blender: Insecure temporary file use by creating file string in undo save quit Blender kernel routine (re-occurrence of CVE-2008-1103)",
+        "CVE_id": "CVE-2008-1103",
+        "no_subthreads": 5,
+        "date": ": Thu, 6 Sep 2012 12:43:21 -0400 (EDT)",
+        "author": ": Jan Lieskovsky <jlieskov () redhat com>",
+        "File_path": "seclist_thread_messages/2012_Q3/391.txt",
+        "subthreads": [
+            {
+                "id": "393",
+                "no_subthreads": 4,
+                "date": ": Thu, 06 Sep 2012 11:56:13 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2012_Q3/393.txt",
+                "subthreads": [
+                    {
+                        "id": "398",
+                        "no_subthreads": 3,
+                        "date": ": Thu, 6 Sep 2012 18:46:55 -0400",
+                        "author": ": Eitan Adler <lists () eitanadler com>",
+                        "File_path": "seclist_thread_messages/2012_Q3/398.txt",
+                        "subthreads": [
+                            {
+                                "id": "399",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 06 Sep 2012 18:43:21 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2012_Q3/399.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "411",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 07 Sep 2012 11:25:05 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2012_Q3/411.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "412",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 7 Sep 2012 13:27:32 -0400",
+                                "author": ": Eitan Adler <lists () eitanadler com>",
+                                "File_path": "seclist_thread_messages/2012_Q3/412.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+Hello all,
+A use-after-free vulnerability was found in ALSA pcm layer, which allows local users to cause a denial of service, 
+memory corruption or possibly other unspecified impact. 
+
+Reference:
+------------------
+  --> https://patchwork.kernel.org/patch/8752621/
+
+Fixed in upstream:
+--------------------
+  --> https://github.com/torvalds/linux/commit/3aa02cb664c5fb1042958c8d1aa8c35055a2ebc4
+
+Could you please assign a CVE for this vulnerability? 
+
+Thank you.
+

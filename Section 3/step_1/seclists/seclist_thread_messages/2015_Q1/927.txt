@@ -1,0 +1,10 @@
+* Daniel Micay:
+
+
+Is there actually a way for a Windows user to obtain it securely?
+
+
+
+I believe there are ideological objections to using an Authenticode
+signature (same as with Tor).
+

@@ -1,0 +1,10 @@
+CVE-2014-8160 has been assigned to this issue in net/netfilter/nf_conntrack_proto_generic.c
+that can allow protocols that do not have a protocol handler kernel module loaded
+through the iptables firewall even if explicitly denied by rule.
+
+For more detail see:
+
+http://www.spinics.net/lists/netfilter-devel/msg33430.html
+
+Wade Mealing -- Red Hat -- Product Security
+

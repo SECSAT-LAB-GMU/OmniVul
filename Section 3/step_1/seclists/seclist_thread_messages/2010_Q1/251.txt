@@ -1,0 +1,19 @@
+When creating a high number of Bluetooth sockets (L2CAP, SCO and RFCOMM) 
+
+it is possible to scribble repeatedly on arbitrary pages of memory. 
+
+Ensure that the content of these sysfs files is always less than one 
+
+page. Even if this means truncating. The files in question are scheduled 
+
+to be moved over to debugfs in the future anyway.
+
+
+
+Upstream patch:
+http://git.kernel.org/linus/101545f6fef4a0a3ea8daf0b5b880df2c6a92a69
+
+https://bugzilla.redhat.com/show_bug.cgi?id=576018
+
+Thanks, Eugene
+

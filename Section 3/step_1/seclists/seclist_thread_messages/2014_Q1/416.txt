@@ -1,0 +1,14 @@
++-- On Thu, 20 Feb 2014, cve-assign () mitre org wrote --+
+| > https://git.kernel.org/linus/8d7f6690cedb83456edd41c9bd583783f0703bf0
+| Use CVE-2014-2039.
+
+  Thank you.
+
+May I request you to please remove my email when replying 'oss-sec' list? I 
+get each mail twice.
+
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Security Response Team
+

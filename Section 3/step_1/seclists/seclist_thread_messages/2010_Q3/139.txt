@@ -1,0 +1,17 @@
+
+On 08/03/2010 04:29 AM, akuster wrote:
+
+
+Eugene,
+
+So would it mean git commit 6103335de8afa5d780dcd512abe85c696af7b040
+introduced the problem?
+
+
+
+Yes. 2.6.25-rc1 onwards.
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

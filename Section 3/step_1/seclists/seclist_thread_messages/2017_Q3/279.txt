@@ -1,0 +1,34 @@
+Hi,
+
+Syzkaller found a race condition in PF_PACKET sockets with setting
+socket option PACKET_RESERVE. The bug is analogous to a previous one
+with PACKET_VERSION reported as CVE-2016-8655. The same analysis
+applies.
+
+The bug requires CAP_NET_RAW to open a packet socket. This is a
+privileged operation, unless unprivileged user namespaces are enabled.
+
+The fix has been submitted to netdev as
+
+  packet: fix tp_reserve race in packet_set_ring
+
+  Updates to tp_reserve can race with reads of the field in
+  packet_set_ring. Avoid this by holding the socket lock during
+  updates in setsockopt PACKET_RESERVE.
+
+  This bug was discovered by syzkaller.
+
+  Fixes: 8913336a7e8d ("packet: add PACKET_RESERVE sockopt")
+  Reported-by: Andrey Konovalov <andreyknvl () google com>
+  Signed-off-by: Willem de Bruijn <willemb () google com>
+
+  c27927e372f0785f3303e8fad94b85945e2c97b7
+  http://patchwork.ozlabs.org/patch/800274/
+
+Timeline:
+
+2017.08.03 - Bug reported to security () kernel org
+2017.08.04 - Bug reported to linux-distros@
+2017.08.10 - Patch submitted to netdev
+2017.08.10 - Announcement on oss-security@
+

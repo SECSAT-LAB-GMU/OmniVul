@@ -1,0 +1,21 @@
+Hello,
+
+Josh Bressers has assigned a CVE id CVE-2011-0714 to the following bug:
+
+"It was found that lockd did not properly handle data packets that contained
+invalid data. This could be possibly exploited by remote user to crash the
+server (DoS)."
+
+Please note that this issue only affects Red Hat Enterprise Linux 6 as a
+result of an incomplete upstream commit backport.
+
+References:
+https://bugzilla.redhat.com/show_bug.cgi?id=678144
+
+Credits:
+Adam Prince
+
+Thanks,
+--
+Petr Matousek / Red Hat Security Response Team
+

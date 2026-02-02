@@ -1,0 +1,11 @@
++-- On Tue, 9 Apr 2013, Dan Carpenter wrote --+
+| I don't know which arches are affected by this information leak or
+| even if there are any.
+
+  Yep, same here.
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Security Response Team
+DB7A 84C5 D3F9 7CD1 B5EB  C939 D048 7860 3655 602B
+

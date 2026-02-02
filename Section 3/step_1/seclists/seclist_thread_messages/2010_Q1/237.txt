@@ -1,0 +1,15 @@
+Telesys Software reported a flaw was found in the sctp_rcv_ootb() 
+
+function in the Linux kernel Stream Control Transmission Protocol (SCTP) 
+
+implementation. A remote attacker could send a specially-crafted SCTP 
+
+packet to a target system, resulting in a denial of service.
+
+
+
+https://bugzilla.redhat.com/CVE-2010-0008
+http://git.kernel.org/linus/ece25dfa0991f65c4e1d26beb1c3c45bda4239b8
+
+Thanks, Eugene
+

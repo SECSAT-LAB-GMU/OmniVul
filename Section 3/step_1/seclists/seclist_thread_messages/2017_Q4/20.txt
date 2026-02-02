@@ -1,0 +1,23 @@
+On Wed, 2017-09-27 at 17:09 +0200, Solar Designer wrote:
+
+However, if Debian and any
+other distros doing similar have the resources, I'd appreciate it if
+they bring in here info on vulnerabilities in Open Source software that
+they're tracking / are about to patch / have already patched / have even
+issued advisories on, but that haven't been mentioned in here before.
+
+
+
+When working on an advisory and update for Debian, I usually scheme through
+oss-sec in order to see if the vulnerability has already been discussed here,
+or if the package I'm working on has been discussed recently.
+
+I'll try to send a brief summary mail to this list if it happens that the
+package and/or vulnerability is not on the oss-sec radar. Something along the
+line of “We've just fixed / We're currently in the process of fixing
+$vulnerability in $package (CVE-XXXX).
+
+Regards,
+-- 
+Yves-Alexis
+signature.asc

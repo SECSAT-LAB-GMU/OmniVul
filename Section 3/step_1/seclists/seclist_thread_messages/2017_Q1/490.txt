@@ -1,0 +1,16 @@
+Hello,
+
+as I have discovered the issue, I can confirm that su of util-linux as
+well as shadow are affected.
+
+I have supplied patches to both maintainers and the shadow patch has
+been pushed now, too.
+
+The code shares a common origin but differs slightly, which in fact made
+the patch for shadow a bit trickier.
+
+But as the code bases are so close to each other, I don't think that it
+takes another CVE-ID for this one.
+
+
+signature.asc

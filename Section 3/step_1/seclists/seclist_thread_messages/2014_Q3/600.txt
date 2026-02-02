@@ -1,0 +1,11 @@
+This was fixed by a guy from Suse.
+
+Upstream commit:
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c03aa9f6e1f938618e6db2e23afef0574efeeb65
+
+
+
+-- 
+This message is strictly personal and the opinions expressed do not
+represent those of my employers, either past or present.
+

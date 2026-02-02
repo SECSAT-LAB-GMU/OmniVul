@@ -1,0 +1,24 @@
+
+  Hello,
+
+
+Linux kernel built with the KVM virtualization(CONFIG_KVM) support for the 
+
+Intel processor family(CONFIG_KVM_INTEL), is vulnerable to a DoS issue. It 
+
+could occur if a guest was to flood the I/O port 0x80 with write requests.
+
+
+
+A guest user could use this flaw to crash the host kernel resulting in DoS.
+
+Upstream patch
+--------------
+  -> https://www.spinics.net/lists/kvm/msg159809.html
+
+
+Thank you.
+--
+Prasad J Pandit / Red Hat Product Security Team
+47AF CE69 3A90 54AA 9045 1053 DD13 3D32 FE5B 041F
+

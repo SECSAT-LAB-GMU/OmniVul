@@ -1,0 +1,23 @@
+
+
+----- "Dan Rosenberg" <dan.j.rosenberg () gmail com> wrote:
+
+
+A remote (or local) attacker communicating over X.25 could cause a
+kernel panic by attempting to negotiate malformed facilities.  This
+is
+a separate issue from CVE-2010-3873, which affects the same code
+path.
+
+Reference:
+http://marc.info/?l=linux-netdev&m=128951543005554&w=2
+
+
+
+Please use CVE-2010-4164
+
+Thanks.
+
+-- 
+    JB
+

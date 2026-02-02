@@ -1,0 +1,15 @@
+
+
+On Wed, 10 Dec 2008, Eugene Teo wrote:
+
+
+Steve, here's another one that needs a CVE name. Thanks!
+
+http://bugzilla.kernel.org/show_bug.cgi?id=11399
+
+
+
+Similar to the other issue, is this IOCTL reachable by anyone malicious?
+
+- Steve
+

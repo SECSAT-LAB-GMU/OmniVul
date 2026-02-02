@@ -1,0 +1,1272 @@
+{
+    "96": {
+        "title": "Xen Security Advisory 40 (CVE-2013-0190) - Linux stack corruption in xen_failsafe_callback for 32bit PVOPS guests.",
+        "CVE_id": "CVE-2013-0190",
+        "no_subthreads": 0,
+        "date": ": Wed, 16 Jan 2013 14:50:11 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2013_Q1/96.txt",
+        "subthreads": []
+    },
+    "230": {
+        "title": "Xen Security Advisory 39 (CVE-2013-0216,CVE-2013-0217) - Linux netback DoS via malicious guest ring.",
+        "CVE_id": "CVE-2013-0216",
+        "no_subthreads": 1,
+        "date": ": Tue, 05 Feb 2013 13:15:12 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2013_Q1/230.txt",
+        "subthreads": [
+            {
+                "id": "234",
+                "no_subthreads": 0,
+                "date": ": Tue, 05 Feb 2013 13:18:33 +0000",
+                "author": ": Xen.org security team <security () xen org>",
+                "File_path": "seclist_thread_messages/2013_Q1/234.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "231": {
+        "title": "Xen Security Advisory 43 (CVE-2013-0231) - Linux pciback DoS via not rate limited log messages.",
+        "CVE_id": "CVE-2013-0231",
+        "no_subthreads": 1,
+        "date": ": Tue, 05 Feb 2013 13:15:17 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2013_Q1/231.txt",
+        "subthreads": [
+            {
+                "id": "233",
+                "no_subthreads": 0,
+                "date": ": Tue, 05 Feb 2013 13:18:10 +0000",
+                "author": ": Xen.org security team <security () xen org>",
+                "File_path": "seclist_thread_messages/2013_Q1/233.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "262": {
+        "title": "CVE request -- Linux kernel: x86/msr: /dev/cpu/*/msr local privilege escalation",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 7 Feb 2013 11:55:19 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/262.txt",
+        "subthreads": [
+            {
+                "id": "265",
+                "no_subthreads": 0,
+                "date": ": Thu, 07 Feb 2013 11:23:51 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/265.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "302": {
+        "title": "Xen Security Advisory 42 (CVE-2013-0228) - Linux kernel hits general protection if %ds is corrupt for 32-bit PVOPS.",
+        "CVE_id": "CVE-2013-0228",
+        "no_subthreads": 0,
+        "date": ": Wed, 13 Feb 2013 16:50:41 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2013_Q1/302.txt",
+        "subthreads": []
+    },
+    "310": {
+        "title": "CVE Request: kernel -- local DOS (endless loop with interrupts disabled)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 14 Feb 2013 19:39:23 +0100",
+        "author": ": Mathias Krause <minipli () googlemail com>",
+        "File_path": "seclist_thread_messages/2013_Q1/310.txt",
+        "subthreads": [
+            {
+                "id": "312",
+                "no_subthreads": 0,
+                "date": ": Thu, 14 Feb 2013 22:06:51 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/312.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "326": {
+        "title": "Linux kernel race condition with PTRACE_SETREGS (CVE-2013-0871)",
+        "CVE_id": "CVE-2013-0871",
+        "no_subthreads": 6,
+        "date": ": Fri, 15 Feb 2013 12:24:18 -0800",
+        "author": ": Julien Tinnes <julien () cr0 org>",
+        "File_path": "seclist_thread_messages/2013_Q1/326.txt",
+        "subthreads": [
+            {
+                "id": "334",
+                "no_subthreads": 5,
+                "date": ": Sat, 16 Feb 2013 14:49:22 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2013_Q1/334.txt",
+                "subthreads": [
+                    {
+                        "id": "341",
+                        "no_subthreads": 4,
+                        "date": ": Tue, 19 Feb 2013 12:40:50 -0800",
+                        "author": ": Julien Tinnes <julien () cr0 org>",
+                        "File_path": "seclist_thread_messages/2013_Q1/341.txt",
+                        "subthreads": [
+                            {
+                                "id": "342",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 20 Feb 2013 01:01:25 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/342.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "675",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 16 Mar 2013 07:38:28 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/675.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "349",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 19 Feb 2013 17:47:23 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/349.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "350",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 19 Feb 2013 18:50:39 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/350.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "343": {
+        "title": "CVE request -- Linux kernel: mm: thp: pmd_present and PROT_NONE local DoS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 20 Feb 2013 01:40:18 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/343.txt",
+        "subthreads": [
+            {
+                "id": "346",
+                "no_subthreads": 0,
+                "date": ": Tue, 19 Feb 2013 17:44:25 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/346.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "344": {
+        "title": "CVE request -- Linux kernel: net: CIPSO_V4_TAG_LOCAL tag NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 20 Feb 2013 01:41:09 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/344.txt",
+        "subthreads": [
+            {
+                "id": "347",
+                "no_subthreads": 0,
+                "date": ": Tue, 19 Feb 2013 17:44:36 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/347.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "345": {
+        "title": "CVE request -- Linux kernel: vhost: fix length for cross region descriptor",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 20 Feb 2013 01:41:59 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/345.txt",
+        "subthreads": [
+            {
+                "id": "348",
+                "no_subthreads": 0,
+                "date": ": Tue, 19 Feb 2013 17:44:49 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/348.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "357": {
+        "title": "CVE request - Linux kernel: evm: NULL pointer de-reference flaw",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 21 Feb 2013 00:39:10 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/357.txt",
+        "subthreads": [
+            {
+                "id": "358",
+                "no_subthreads": 1,
+                "date": ": Wed, 20 Feb 2013 12:17:21 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/358.txt",
+                "subthreads": [
+                    {
+                        "id": "367",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 21 Feb 2013 11:58:51 +0530 (IST)",
+                        "author": ": P J P <ppandit () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q1/367.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "400": {
+        "title": "CVE request: Linux kernel: Bluetooth HIDP information disclosure",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 22 Feb 2013 15:35:20 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/400.txt",
+        "subthreads": [
+            {
+                "id": "412",
+                "no_subthreads": 0,
+                "date": ": Fri, 22 Feb 2013 22:46:37 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/412.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "420": {
+        "title": "CVE Request: kernel - sock_diag: Fix out-of-bounds access to sock_diag_handlers[]",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 15,
+        "date": ": Sun, 24 Feb 2013 10:10:45 +0100",
+        "author": ": Mathias Krause <minipli () googlemail com>",
+        "File_path": "seclist_thread_messages/2013_Q1/420.txt",
+        "subthreads": [
+            {
+                "id": "421",
+                "no_subthreads": 0,
+                "date": ": Sun, 24 Feb 2013 14:49:31 +0100",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/421.txt",
+                "subthreads": []
+            },
+            {
+                "id": "426",
+                "no_subthreads": 13,
+                "date": ": Mon, 25 Feb 2013 14:13:49 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2013_Q1/426.txt",
+                "subthreads": [
+                    {
+                        "id": "427",
+                        "no_subthreads": 10,
+                        "date": ": Mon, 25 Feb 2013 11:41:33 +0100",
+                        "author": ": Mathias Krause <minipli () googlemail com>",
+                        "File_path": "seclist_thread_messages/2013_Q1/427.txt",
+                        "subthreads": [
+                            {
+                                "id": "429",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 11:46:52 +0100",
+                                "author": ": Mathias Krause <minipli () googlemail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/429.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "431",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 20:12:08 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/431.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "432",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 19:45:01 +0100",
+                                "author": ": Mathias Krause <minipli () googlemail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/432.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "433",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 13:53:16 -0500",
+                                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/433.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "434",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 19:59:01 +0100",
+                                "author": ": Mathias Krause <minipli () googlemail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/434.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "435",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 14:07:42 -0500",
+                                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/435.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "436",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 20:18:42 +0100",
+                                "author": ": Mathias Krause <minipli () googlemail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/436.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "437",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 20:21:17 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/437.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "438",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Feb 2013 14:21:46 -0500",
+                                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/438.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "441",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 00:10:23 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/441.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "428",
+                        "no_subthreads": 1,
+                        "date": ": Mon, 25 Feb 2013 11:43:57 +0100",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2013_Q1/428.txt",
+                        "subthreads": [
+                            {
+                                "id": "442",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 00:28:55 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/442.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "452": {
+        "title": "CVE request -- Linux kernel: call_console_drivers() Function Log Prefix Stripping buffer overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 26 Feb 2013 12:39:05 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/452.txt",
+        "subthreads": [
+            {
+                "id": "458",
+                "no_subthreads": 0,
+                "date": ": Tue, 26 Feb 2013 13:32:28 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/458.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "453": {
+        "title": "Archlinux/x86-64 3.1.x-3.7.x x86-64 CVE-2013-1763 sock_diag_handlers[] warez",
+        "CVE_id": "CVE-2013-1763",
+        "no_subthreads": 0,
+        "date": ": Tue, 26 Feb 2013 15:56:04 +0100",
+        "author": ": sd <sd () fucksheep org>",
+        "File_path": "seclist_thread_messages/2013_Q1/453.txt",
+        "subthreads": []
+    },
+    "454": {
+        "title": "CVE request - Linux kernel: VFAT slab-based buffer overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 67,
+        "date": ": Tue, 26 Feb 2013 11:56:02 -0600",
+        "author": ": \"Joshua J. Drake\" <oss-sec-vfat () qoop org>",
+        "File_path": "seclist_thread_messages/2013_Q1/454.txt",
+        "subthreads": [
+            {
+                "id": "455",
+                "no_subthreads": 66,
+                "date": ": Tue, 26 Feb 2013 10:16:54 -0800",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2013_Q1/455.txt",
+                "subthreads": [
+                    {
+                        "id": "457",
+                        "no_subthreads": 65,
+                        "date": ": Tue, 26 Feb 2013 13:31:59 -0700",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2013_Q1/457.txt",
+                        "subthreads": [
+                            {
+                                "id": "461",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 22:42:41 +0200",
+                                "author": ": Henri Salo <henri () nerv fi>",
+                                "File_path": "seclist_thread_messages/2013_Q1/461.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "462",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 14:05:35 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/462.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "463",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 22:38:46 +0100",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/463.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "474",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 23:29:10 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/474.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "476",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 07:32:43 +0100",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/476.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "466",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 00:05:33 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/466.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "470",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 23:41:53 -0500",
+                                "author": ": Michael Gilbert <mgilbert () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/470.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "471",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 21:03:46 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/471.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "475",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 07:31:30 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/475.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "481",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 06:48:34 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/481.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "482",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 19:08:58 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/482.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "485",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 08:15:47 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/485.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "491",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 18:06:08 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/491.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "483",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 14:59:17 +0000",
+                                "author": ": Benji <me () b3nji com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/483.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "486",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 08:17:26 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/486.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "487",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 16:21:04 +0000",
+                                "author": ": Benji <me () b3nji com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/487.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "488",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 16:22:48 +0000",
+                                "author": ": Benji <me () b3nji com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/488.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "493",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 18:46:30 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/493.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "494",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 10:02:48 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/494.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "502",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 20:06:18 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/502.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "504",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 11:17:05 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/504.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "484",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 17:13:06 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/484.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "499",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 10:05:20 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/499.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "500",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 19:14:55 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/500.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "509",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 12:07:23 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/509.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "535",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 1 Mar 2013 11:26:34 +0800",
+                                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                                "File_path": "seclist_thread_messages/2013_Q1/535.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "501",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 19:26:39 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/501.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "510",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 12:08:13 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/510.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "565",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 4 Mar 2013 05:44:38 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/565.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "566",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 4 Mar 2013 10:12:53 +0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/566.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "568",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 4 Mar 2013 06:57:23 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/568.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "571",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 4 Mar 2013 11:52:54 +0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/571.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "569",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 3 Mar 2013 22:39:30 -0500",
+                                "author": ": Michael Gilbert <mgilbert () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/569.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "570",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 4 Mar 2013 11:48:58 +0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/570.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "576",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 04 Mar 2013 22:12:56 +0100",
+                                "author": ": Eric Lacombe <goretux () gmail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/576.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "577",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 5 Mar 2013 09:20:49 +0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/577.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "578",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 04 Mar 2013 20:10:22 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/578.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "579",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 5 Mar 2013 07:50:13 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/579.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "590",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 06 Mar 2013 08:48:57 +1000",
+                                "author": ": Noel Butler <noel.butler () ausics net>",
+                                "File_path": "seclist_thread_messages/2013_Q1/590.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "591",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 6 Mar 2013 03:27:39 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/591.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "592",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 5 Mar 2013 21:38:40 -0600",
+                                "author": ": Alton Moore <alton.moore () newcomlink com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/592.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "582",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 05 Mar 2013 10:26:22 +0100",
+                                "author": ": Eric Lacombe <goretux () gmail com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/582.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "581",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 05 Mar 2013 08:11:21 +0100",
+                                "author": ": Andreas Ericsson <ae () op5 se>",
+                                "File_path": "seclist_thread_messages/2013_Q1/581.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "511",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 22:26:16 +0100",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/511.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "512",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 13:44:00 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/512.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "514",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 00:00:27 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/514.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "515",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 15:07:32 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/515.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "517",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 00:24:09 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/517.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "523",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 18:46:51 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/523.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "519",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 00:28:48 +0100 (CET)",
+                                "author": ": Jiri Kosina <jikos () jikos cz>",
+                                "File_path": "seclist_thread_messages/2013_Q1/519.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "516",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 15:17:46 -0800",
+                                "author": ": Daniel Kahn Gillmor <dkg () fifthhorseman net>",
+                                "File_path": "seclist_thread_messages/2013_Q1/516.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "518",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 00:27:09 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/518.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "538",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 01 Mar 2013 15:18:23 +0100",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/538.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "492",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 18:43:24 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/492.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "495",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 10:03:28 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/495.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "503",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 11:36:32 -0800",
+                                "author": ": Tim <tim-security () sentinelchicken org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/503.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "505",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 11:17:50 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/505.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "520",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 00:33:00 +0100 (CET)",
+                                "author": ": Jiri Kosina <jikos () jikos cz>",
+                                "File_path": "seclist_thread_messages/2013_Q1/520.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "521",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 15:57:57 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/521.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "522",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 01:31:56 +0100 (CET)",
+                                "author": ": Jiri Kosina <jikos () jikos cz>",
+                                "File_path": "seclist_thread_messages/2013_Q1/522.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "527",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 07:57:30 +0100",
+                                "author": ": Yves-Alexis Perez <corsac () debian org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/527.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "530",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 28 Feb 2013 09:31:40 +0100 (CET)",
+                                "author": ": Jiri Kosina <jikos () jikos cz>",
+                                "File_path": "seclist_thread_messages/2013_Q1/530.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "506",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 20:26:47 +0100",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/506.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "508",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Feb 2013 11:46:01 -0800",
+                                "author": ": Daniel Kahn Gillmor <dkg () fifthhorseman net>",
+                                "File_path": "seclist_thread_messages/2013_Q1/508.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "472",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 26 Feb 2013 23:25:05 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/472.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "480": {
+        "title": "CVE request: Linux kernel: USB: io_ti: NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 27 Feb 2013 19:39:50 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/480.txt",
+        "subthreads": [
+            {
+                "id": "496",
+                "no_subthreads": 0,
+                "date": ": Wed, 27 Feb 2013 11:04:00 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/496.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "585": {
+        "title": "CVE request: Linux kernel: xfs: _xfs_buf_find NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 5 Mar 2013 15:38:49 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/585.txt",
+        "subthreads": [
+            {
+                "id": "586",
+                "no_subthreads": 0,
+                "date": ": Tue, 05 Mar 2013 03:36:29 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/586.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "589": {
+        "title": "CVE Requests (maybe): Linux kernel: various info leaks, some NULL ptr derefs",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 11,
+        "date": ": Tue, 5 Mar 2013 21:52:30 +0100",
+        "author": ": Mathias Krause <minipli () googlemail com>",
+        "File_path": "seclist_thread_messages/2013_Q1/589.txt",
+        "subthreads": [
+            {
+                "id": "593",
+                "no_subthreads": 1,
+                "date": ": Wed, 06 Mar 2013 01:46:49 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/593.txt",
+                "subthreads": [
+                    {
+                        "id": "594",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 6 Mar 2013 10:14:46 +0100",
+                        "author": ": Mathias Krause <minipli () googlemail com>",
+                        "File_path": "seclist_thread_messages/2013_Q1/594.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "598",
+                "no_subthreads": 8,
+                "date": ": Thu, 07 Mar 2013 02:13:37 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/598.txt",
+                "subthreads": [
+                    {
+                        "id": "599",
+                        "no_subthreads": 6,
+                        "date": ": Thu, 7 Mar 2013 13:19:05 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2013_Q1/599.txt",
+                        "subthreads": [
+                            {
+                                "id": "600",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 07 Mar 2013 02:30:36 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/600.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "602",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 7 Mar 2013 18:09:52 +0000",
+                                "author": ": \"Christey, Steven M.\" <coley () mitre org>",
+                                "File_path": "seclist_thread_messages/2013_Q1/602.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "603",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 7 Mar 2013 23:48:16 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/603.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "607",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 8 Mar 2013 05:55:44 +0100",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/607.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "608",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 07 Mar 2013 22:07:44 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/608.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "610",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 08 Mar 2013 16:23:44 +0100",
+                                "author": ": Thomas Biege <thomas () suse de>",
+                                "File_path": "seclist_thread_messages/2013_Q1/610.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "665",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 14 Mar 2013 14:15:29 -0400 (EDT)",
+                        "author": ": cve-assign () mitre org",
+                        "File_path": "seclist_thread_messages/2013_Q1/665.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "597": {
+        "title": "CVE-2013-1792 Linux kernel: KEYS: race with concurrent install_user_keyrings()",
+        "CVE_id": "CVE-2013-1792",
+        "no_subthreads": 0,
+        "date": ": Thu, 7 Mar 2013 13:05:37 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/597.txt",
+        "subthreads": []
+    },
+    "604": {
+        "title": "CVE Request -- Linux kernel: sctp: SCTP_GET_ASSOC_STATS stack overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 8 Mar 2013 04:23:49 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/604.txt",
+        "subthreads": [
+            {
+                "id": "605",
+                "no_subthreads": 0,
+                "date": ": Thu, 07 Mar 2013 20:32:03 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/605.txt",
+                "subthreads": []
+            },
+            {
+                "id": "606",
+                "no_subthreads": 0,
+                "date": ": Fri, 8 Mar 2013 04:47:44 +0100",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/606.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "609": {
+        "title": "CVE abstraction choices and the Linux kernel",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 8 Mar 2013 09:57:00 -0500 (EST)",
+        "author": ": \"Steven M. Christey\" <coley () mitre org>",
+        "File_path": "seclist_thread_messages/2013_Q1/609.txt",
+        "subthreads": [
+            {
+                "id": "663",
+                "no_subthreads": 0,
+                "date": ": Thu, 14 Mar 2013 18:51:58 +0100",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/663.txt",
+                "subthreads": []
+            },
+            {
+                "id": "668",
+                "no_subthreads": 0,
+                "date": ": Thu, 14 Mar 2013 21:18:45 -0400",
+                "author": ": Michael Gilbert <mgilbert () debian org>",
+                "File_path": "seclist_thread_messages/2013_Q1/668.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "621": {
+        "title": "CVE-2013-0913 Linux kernel i915 integer overflow",
+        "CVE_id": "CVE-2013-0913",
+        "no_subthreads": 2,
+        "date": ": Mon, 11 Mar 2013 13:18:29 -0700",
+        "author": ": Kees Cook <keescook () chromium org>",
+        "File_path": "seclist_thread_messages/2013_Q1/621.txt",
+        "subthreads": [
+            {
+                "id": "640",
+                "no_subthreads": 1,
+                "date": ": Wed, 13 Mar 2013 22:04:59 +0600",
+                "author": ": \"Alexander E. Patrakov\" <patrakov () gmail com>",
+                "File_path": "seclist_thread_messages/2013_Q1/640.txt",
+                "subthreads": [
+                    {
+                        "id": "666",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 14 Mar 2013 14:56:50 -0700",
+                        "author": ": Xin Li <delphij () delphij net>",
+                        "File_path": "seclist_thread_messages/2013_Q1/666.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "623": {
+        "title": "CVE-2013-0914 Linux kernel sa_restorer information leak",
+        "CVE_id": "CVE-2013-0914",
+        "no_subthreads": 0,
+        "date": ": Mon, 11 Mar 2013 13:25:57 -0700",
+        "author": ": Kees Cook <keescook () chromium org>",
+        "File_path": "seclist_thread_messages/2013_Q1/623.txt",
+        "subthreads": []
+    },
+    "656": {
+        "title": "CVE Request/Guidance: Linux kernel cdc-wdm buffer overflow\ttriggered by device",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 5,
+        "date": ": Thu, 14 Mar 2013 14:43:41 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2013_Q1/656.txt",
+        "subthreads": [
+            {
+                "id": "657",
+                "no_subthreads": 2,
+                "date": ": Thu, 14 Mar 2013 21:51:29 +0800",
+                "author": ": Eugene Teo <eugeneteo () kernel sg>",
+                "File_path": "seclist_thread_messages/2013_Q1/657.txt",
+                "subthreads": [
+                    {
+                        "id": "661",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 14 Mar 2013 17:36:26 +0000",
+                        "author": ": \"Christey, Steven M.\" <coley () mitre org>",
+                        "File_path": "seclist_thread_messages/2013_Q1/661.txt",
+                        "subthreads": [
+                            {
+                                "id": "664",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 14 Mar 2013 12:01:26 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2013_Q1/664.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "660",
+                "no_subthreads": 0,
+                "date": ": Thu, 14 Mar 2013 17:19:24 +0100",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/660.txt",
+                "subthreads": []
+            },
+            {
+                "id": "670",
+                "no_subthreads": 0,
+                "date": ": Thu, 14 Mar 2013 23:08:39 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2013_Q1/670.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "682": {
+        "title": "Re: CVE Request -- kernel: net: slab corruption due to improper synchronization around inet->opt",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Tue, 19 Mar 2013 10:16:25 +0400",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2013_Q1/682.txt",
+        "subthreads": []
+    },
+    "701": {
+        "title": "CVE-2013-1848 -- Linux kernel: ext3: format string issues",
+        "CVE_id": "CVE-2013-1848",
+        "no_subthreads": 0,
+        "date": ": Wed, 20 Mar 2013 10:51:32 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/701.txt",
+        "subthreads": []
+    },
+    "702": {
+        "title": "linux kernel: kvm: CVE-2013-179[6..8]",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Wed, 20 Mar 2013 12:09:53 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2013_Q1/702.txt",
+        "subthreads": []
+    }
+}

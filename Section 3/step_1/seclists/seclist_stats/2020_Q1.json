@@ -1,0 +1,11 @@
+{
+    "127": {
+        "title": "CVE-2020-8835: Linux kernel bpf incorrect verifier vulnerability",
+        "CVE_id": "CVE-2020-8835",
+        "no_subthreads": 0,
+        "date": ": Mon, 30 Mar 2020 09:36:24 -0700",
+        "author": ": Steve Beattie <steve () nxnw org>",
+        "File_path": "seclist_thread_messages/2020_Q1/127.txt",
+        "subthreads": []
+    }
+}

@@ -1,0 +1,537 @@
+{
+    "19": {
+        "title": "Fwd: CVE Request: Linux: usbnet: memory corruption triggered by invalid USB descriptor",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Wed, 6 Apr 2016 18:38:42 +0300",
+        "author": ": Andrey Konovalov <andreyknvl () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/19.txt",
+        "subthreads": []
+    },
+    "64": {
+        "title": "CVE Request: Linux kernel: incorrect restoration of machine specific registers from signal handler.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 13 Apr 2016 21:18:16 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/64.txt",
+        "subthreads": [
+            {
+                "id": "68",
+                "no_subthreads": 0,
+                "date": ": Wed, 13 Apr 2016 11:05:30 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/68.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "73": {
+        "title": "Xen Security Advisory 174 (CVE-2016-3961) - hugetlbfs use may crash PV Linux guests",
+        "CVE_id": "CVE-2016-3961",
+        "no_subthreads": 0,
+        "date": ": Thu, 14 Apr 2016 13:03:47 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2016_Q2/73.txt",
+        "subthreads": []
+    },
+    "88": {
+        "title": "CVE request - samsumg android phone msm_sensor_config function write some range kernel address with any value",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 18 Apr 2016 01:23:12 +0800",
+        "author": ": Berry <throber3 () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/88.txt",
+        "subthreads": [
+            {
+                "id": "96",
+                "no_subthreads": 0,
+                "date": ": Mon, 18 Apr 2016 12:12:41 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/96.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "101": {
+        "title": "CVE Request: Linux kernel: remote buffer overflow in usbip",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 19 Apr 2016 10:06:43 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2016_Q2/101.txt",
+        "subthreads": [
+            {
+                "id": "102",
+                "no_subthreads": 0,
+                "date": ": Tue, 19 Apr 2016 16:33:16 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2016_Q2/102.txt",
+                "subthreads": []
+            },
+            {
+                "id": "105",
+                "no_subthreads": 1,
+                "date": ": Tue, 19 Apr 2016 17:35:12 +0900",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2016_Q2/105.txt",
+                "subthreads": [
+                    {
+                        "id": "106",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 19 Apr 2016 10:09:32 +0100",
+                        "author": ": Ignat Korchagin <ignat.korchagin () gmail com>",
+                        "File_path": "seclist_thread_messages/2016_Q2/106.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "146": {
+        "title": "CVE-2016-0723: Linux kernel: Kernel memory disclosure.",
+        "CVE_id": "CVE-2016-0723",
+        "no_subthreads": 0,
+        "date": ": Wed, 27 Apr 2016 12:30:57 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/146.txt",
+        "subthreads": []
+    },
+    "209": {
+        "title": "CVE Request: information leak in devio of Linux kernel",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 3 May 2016 20:52:55 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/209.txt",
+        "subthreads": [
+            {
+                "id": "213",
+                "no_subthreads": 0,
+                "date": ": Wed,  4 May 2016 01:28:40 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/213.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "225": {
+        "title": "CVE Request: information leak in wilc1000 module of Linux kernel",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 4 May 2016 09:12:52 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/225.txt",
+        "subthreads": [
+            {
+                "id": "226",
+                "no_subthreads": 0,
+                "date": ": Wed, 4 May 2016 06:21:52 -0700",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2016_Q2/226.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "233": {
+        "title": "CVE Request: kernel information leak vulnerability in llc module",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 4 May 2016 16:43:36 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/233.txt",
+        "subthreads": [
+            {
+                "id": "236",
+                "no_subthreads": 0,
+                "date": ": Wed,  4 May 2016 21:50:09 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/236.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "234": {
+        "title": "CVE Request: kernel information leak vulnerability in rtnetlink",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 4 May 2016 16:47:53 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/234.txt",
+        "subthreads": [
+            {
+                "id": "237",
+                "no_subthreads": 0,
+                "date": ": Wed,  4 May 2016 21:52:56 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/237.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "263": {
+        "title": "CVE Requests: Linux: BPF flaws (one use-after-free / local root privilege escalation)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 6 May 2016 15:14:55 +0200",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2016_Q2/263.txt",
+        "subthreads": [
+            {
+                "id": "266",
+                "no_subthreads": 1,
+                "date": ": Fri,  6 May 2016 11:40:21 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/266.txt",
+                "subthreads": [
+                    {
+                        "id": "287",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 9 May 2016 10:53:39 -0700",
+                        "author": ": Jann Horn <jannh () google com>",
+                        "File_path": "seclist_thread_messages/2016_Q2/287.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "269": {
+        "title": "CVE Request: Linux: IB/security: Restrict use of the write() interface'",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Sat, 7 May 2016 06:22:32 +0200",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2016_Q2/269.txt",
+        "subthreads": [
+            {
+                "id": "274",
+                "no_subthreads": 0,
+                "date": ": Sat,  7 May 2016 11:19:35 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/274.txt",
+                "subthreads": []
+            },
+            {
+                "id": "290",
+                "no_subthreads": 3,
+                "date": ": Mon, 09 May 2016 21:10:41 +0200",
+                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                "File_path": "seclist_thread_messages/2016_Q2/290.txt",
+                "subthreads": [
+                    {
+                        "id": "290",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 09 May 2016 21:10:41 +0200",
+                        "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                        "File_path": "seclist_thread_messages/2016_Q2/290.txt",
+                        "subthreads": [
+                            {
+                                "id": "290",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 09 May 2016 21:10:41 +0200",
+                                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                                "File_path": "seclist_thread_messages/2016_Q2/290.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "292",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 9 May 2016 21:39:55 +0200",
+                                "author": ": Jann Horn <jann () thejh net>",
+                                "File_path": "seclist_thread_messages/2016_Q2/292.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "293",
+                "no_subthreads": 1,
+                "date": ": Mon, 09 May 2016 21:48:59 +0200",
+                "author": ": Yann Droneaud <ydroneaud () opteya com>",
+                "File_path": "seclist_thread_messages/2016_Q2/293.txt",
+                "subthreads": [
+                    {
+                        "id": "330",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 11 May 2016 20:12:32 -0400",
+                        "author": ": \"ira.weiny\" <ira.weiny () intel com>",
+                        "File_path": "seclist_thread_messages/2016_Q2/330.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "272": {
+        "title": "CVE Request: Linux: [media] videobuf2-v4l2: Verify planes array in buffer dequeueing",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 7 May 2016 16:14:09 +0200",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2016_Q2/272.txt",
+        "subthreads": [
+            {
+                "id": "273",
+                "no_subthreads": 0,
+                "date": ": Sat,  7 May 2016 11:17:34 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/273.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "279": {
+        "title": "CVE Request: kernel information leak vulnerability in Linux sound module",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Sun, 8 May 2016 18:16:50 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/279.txt",
+        "subthreads": [
+            {
+                "id": "296",
+                "no_subthreads": 1,
+                "date": ": Mon,  9 May 2016 19:29:09 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/296.txt",
+                "subthreads": [
+                    {
+                        "id": "310",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 10 May 2016 12:14:35 -0700",
+                        "author": ": Steve Beattie <steve.beattie () canonical com>",
+                        "File_path": "seclist_thread_messages/2016_Q2/310.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "305": {
+        "title": "CVE Request: alsa: kernel information leak vulnerability in Linux sound/core/timer",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Tue, 10 May 2016 15:27:58 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/305.txt",
+        "subthreads": [
+            {
+                "id": "315",
+                "no_subthreads": 2,
+                "date": ": Wed, 11 May 2016 08:52:16 +0200",
+                "author": ": Takashi Iwai <tiwai () suse de>",
+                "File_path": "seclist_thread_messages/2016_Q2/315.txt",
+                "subthreads": [
+                    {
+                        "id": "316",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 11 May 2016 10:26:55 -0400 (EDT)",
+                        "author": ": cve-assign () mitre org",
+                        "File_path": "seclist_thread_messages/2016_Q2/316.txt",
+                        "subthreads": [
+                            {
+                                "id": "317",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 11 May 2016 16:34:31 +0200",
+                                "author": ": Takashi Iwai <tiwai () suse de>",
+                                "File_path": "seclist_thread_messages/2016_Q2/317.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "320",
+                "no_subthreads": 0,
+                "date": ": Wed, 11 May 2016 11:41:41 -0400",
+                "author": ": Kangjie Lu <kangjielu () gmail com>",
+                "File_path": "seclist_thread_messages/2016_Q2/320.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "308": {
+        "title": "CVE Request: x25: a kernel infoleak in x25_negotiate_facilities()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Tue, 10 May 2016 15:35:09 -0400",
+        "author": ": Kangjie Lu <kangjielu () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/308.txt",
+        "subthreads": []
+    },
+    "319": {
+        "title": "CVE Requests: Linux: use-after-free issue for ppp channel",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 11 May 2016 23:37:58 +0800",
+        "author": ": Baozeng Ding <sploving1 () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/319.txt",
+        "subthreads": [
+            {
+                "id": "345",
+                "no_subthreads": 1,
+                "date": ": Sun, 15 May 2016 19:05:54 +0800",
+                "author": ": Baozeng Ding <sploving1 () gmail com>",
+                "File_path": "seclist_thread_messages/2016_Q2/345.txt",
+                "subthreads": [
+                    {
+                        "id": "346",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 15 May 2016 10:20:22 -0400 (EDT)",
+                        "author": ": cve-assign () mitre org",
+                        "File_path": "seclist_thread_messages/2016_Q2/346.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "335": {
+        "title": "CVE-2016-0758 - Linux kernel - Flaw in ASN.1 DER decoder for x509 certificate DER files.",
+        "CVE_id": "CVE-2016-0758",
+        "no_subthreads": 0,
+        "date": ": Fri, 13 May 2016 00:01:56 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/335.txt",
+        "subthreads": []
+    },
+    "348": {
+        "title": "CVE-2016-3713 Linux kernel: kvm: OOB r/w access issue with MSR 0x2F8",
+        "CVE_id": "CVE-2016-3713",
+        "no_subthreads": 0,
+        "date": ": Mon, 16 May 2016 17:30:16 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/348.txt",
+        "subthreads": []
+    },
+    "349": {
+        "title": "CVE-2016-3707 : kernel-rt - Sending SysRq command via ICMP echo request",
+        "CVE_id": "CVE-2016-3707",
+        "no_subthreads": 0,
+        "date": ": Tue, 17 May 2016 11:01:17 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/349.txt",
+        "subthreads": []
+    },
+    "363": {
+        "title": "CVE Request: Linux: information leak in Rock Ridge Extensions to iso9660 -- fs/isofs/rock.c",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 18 May 2016 10:28:37 +0200",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2016_Q2/363.txt",
+        "subthreads": [
+            {
+                "id": "365",
+                "no_subthreads": 0,
+                "date": ": Wed, 18 May 2016 11:34:35 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/365.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "380": {
+        "title": "CVE-2016-4440 Kernel: kvm: vmx: incorrect state update leading to MSR access",
+        "CVE_id": "CVE-2016-4440",
+        "no_subthreads": 0,
+        "date": ": Fri, 20 May 2016 12:15:55 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/380.txt",
+        "subthreads": []
+    },
+    "385": {
+        "title": "CVE request: -- Linux kernel: Null pointer dereference in tipc_nl_publ_dump",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 21 May 2016 19:21:56 +0800",
+        "author": ": Baozeng Ding <sploving1 () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q2/385.txt",
+        "subthreads": [
+            {
+                "id": "386",
+                "no_subthreads": 0,
+                "date": ": Sat, 21 May 2016 09:59:21 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/386.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "479": {
+        "title": "Re: CVE Request: Linux: aio write triggers integer overflow in some network protocols",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Sun, 5 Jun 2016 19:05:11 +0300",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2016_Q2/479.txt",
+        "subthreads": []
+    },
+    "553": {
+        "title": "CVE-2016-4470: Linux kernel Uninitialized variable in request_key handling user controlled kfree().",
+        "CVE_id": "CVE-2016-4470",
+        "no_subthreads": 0,
+        "date": ": Wed, 15 Jun 2016 16:29:50 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q2/553.txt",
+        "subthreads": []
+    },
+    "595": {
+        "title": "CVE Request: Linux: powerpc/tm: Always reclaim in start_thread() for exec() class syscalls",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 24 Jun 2016 17:23:43 +1000",
+        "author": ": Michael Ellerman <mpe () ellerman id au>",
+        "File_path": "seclist_thread_messages/2016_Q2/595.txt",
+        "subthreads": [
+            {
+                "id": "607",
+                "no_subthreads": 0,
+                "date": ": Sat, 25 Jun 2016 12:25:17 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/607.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "599": {
+        "title": "Linux CVE-2016-4997 (local privilege escalation) and CVE-2016-4998 (out of bounds memory access)",
+        "CVE_id": "CVE-2016-4997",
+        "no_subthreads": 0,
+        "date": ": Fri, 24 Jun 2016 18:53:53 +0000",
+        "author": ": Jesse Hertz <Jesse.Hertz@nccgroup.trust>",
+        "File_path": "seclist_thread_messages/2016_Q2/599.txt",
+        "subthreads": []
+    },
+    "602": {
+        "title": "Linux CVE-2016-1237: nfsd: any user can set a file's ACL over NFS and grant access to it",
+        "CVE_id": "CVE-2016-1237",
+        "no_subthreads": 0,
+        "date": ": Sat, 25 Jun 2016 07:12:39 +0200",
+        "author": ": Salvatore Bonaccorso <carnil () debian org>",
+        "File_path": "seclist_thread_messages/2016_Q2/602.txt",
+        "subthreads": []
+    },
+    "608": {
+        "title": "CVE Request: Linux kernel HID: hiddev buffer overflows",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 25 Jun 2016 23:01:40 -0600",
+        "author": ": Scotty <sbauer () plzdonthack me>",
+        "File_path": "seclist_thread_messages/2016_Q2/608.txt",
+        "subthreads": [
+            {
+                "id": "609",
+                "no_subthreads": 0,
+                "date": ": Sun, 26 Jun 2016 05:43:57 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q2/609.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

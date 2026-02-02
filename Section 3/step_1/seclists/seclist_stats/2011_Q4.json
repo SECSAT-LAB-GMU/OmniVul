@@ -1,0 +1,555 @@
+{
+    "82": {
+        "title": "CVE request: kernel/AppArmor local denial of service",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 17 Oct 2011 14:32:43 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2011_Q4/82.txt",
+        "subthreads": [
+            {
+                "id": "83",
+                "no_subthreads": 0,
+                "date": ": Mon, 17 Oct 2011 15:14:30 +0200",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/83.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "129": {
+        "title": "CVE Request -- kernel: ext4: ext4_ext_insert_extent() kernel oops",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 21 Oct 2011 15:24:30 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/129.txt",
+        "subthreads": [
+            {
+                "id": "134",
+                "no_subthreads": 0,
+                "date": ": Mon, 24 Oct 2011 15:56:44 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/134.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "148": {
+        "title": "CVE Request -- kernel: xfs: potential buffer overflow in xfs_readlink()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 26 Oct 2011 13:05:37 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/148.txt",
+        "subthreads": [
+            {
+                "id": "150",
+                "no_subthreads": 0,
+                "date": ": Wed, 26 Oct 2011 08:20:31 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/150.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "155": {
+        "title": "CVE Request -- kernel: sysctl: restrict write access to dmesg_restrict",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 12,
+        "date": ": Wed, 26 Oct 2011 17:16:12 +0200",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/155.txt",
+        "subthreads": [
+            {
+                "id": "157",
+                "no_subthreads": 7,
+                "date": ": Wed, 26 Oct 2011 09:26:36 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/157.txt",
+                "subthreads": [
+                    {
+                        "id": "158",
+                        "no_subthreads": 6,
+                        "date": ": Wed, 26 Oct 2011 19:53:10 +0400",
+                        "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/158.txt",
+                        "subthreads": [
+                            {
+                                "id": "160",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 26 Oct 2011 10:11:12 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/160.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "162",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 26 Oct 2011 20:40:22 +0400",
+                                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/162.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "168",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 27 Oct 2011 21:35:47 +0200",
+                                "author": ": Petr Matousek <pmatouse () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/168.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "172",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 27 Oct 2011 16:04:53 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/172.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "173",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 27 Oct 2011 23:38:47 -0400 (EDT)",
+                                "author": ": \"Steven M. Christey\" <coley () rcf-smtp mitre org>",
+                                "File_path": "seclist_thread_messages/2011_Q4/173.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "235",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 4 Nov 2011 21:04:06 +0400",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/235.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "161",
+                "no_subthreads": 0,
+                "date": ": Wed, 26 Oct 2011 20:14:08 +0400",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2011_Q4/161.txt",
+                "subthreads": []
+            },
+            {
+                "id": "163",
+                "no_subthreads": 2,
+                "date": ": Wed, 26 Oct 2011 13:43:16 -0400",
+                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                "File_path": "seclist_thread_messages/2011_Q4/163.txt",
+                "subthreads": [
+                    {
+                        "id": "169",
+                        "no_subthreads": 1,
+                        "date": ": Thu, 27 Oct 2011 21:40:04 +0200",
+                        "author": ": Petr Matousek <pmatouse () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/169.txt",
+                        "subthreads": [
+                            {
+                                "id": "170",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 27 Oct 2011 16:58:18 -0400",
+                                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/170.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "164": {
+        "title": "CVE request: kernel: crypto: ghash: null pointer deref if no key is set",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 27 Oct 2011 17:10:07 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/164.txt",
+        "subthreads": [
+            {
+                "id": "165",
+                "no_subthreads": 0,
+                "date": ": Thu, 27 Oct 2011 15:00:24 +0530",
+                "author": ": Huzaifa Sidhpurwala <huzaifas () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/165.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "177": {
+        "title": "CVE Request: Multiple remote denial of service in Linux bridge networking code 2.6.37-3.0",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 28 Oct 2011 10:06:42 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2011_Q4/177.txt",
+        "subthreads": [
+            {
+                "id": "186",
+                "no_subthreads": 0,
+                "date": ": Fri, 28 Oct 2011 09:23:37 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/186.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "203": {
+        "title": "CVE request: kernel: oom: fix integer overflow of points in oom_badness",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 01 Nov 2011 08:09:13 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/203.txt",
+        "subthreads": [
+            {
+                "id": "204",
+                "no_subthreads": 0,
+                "date": ": Mon, 31 Oct 2011 19:05:13 -0600",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/204.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "263": {
+        "title": "CVE request: kernel: multiple flaws allowing to sniff keystrokes timings",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Tue, 8 Nov 2011 16:14:12 +0400",
+        "author": ": Vasiliy Kulikov <segoon () openwall com>",
+        "File_path": "seclist_thread_messages/2011_Q4/263.txt",
+        "subthreads": [
+            {
+                "id": "267",
+                "no_subthreads": 1,
+                "date": ": Tue, 08 Nov 2011 21:20:42 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/267.txt",
+                "subthreads": [
+                    {
+                        "id": "274",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 09 Nov 2011 12:55:48 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/274.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "287": {
+        "title": "CVE Request -- kernel: nfs4_getfacl decoding kernel oops",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Fri, 11 Nov 2011 17:48:24 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/287.txt",
+        "subthreads": [
+            {
+                "id": "290",
+                "no_subthreads": 1,
+                "date": ": Fri, 11 Nov 2011 21:36:20 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/290.txt",
+                "subthreads": [
+                    {
+                        "id": "294",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 13 Nov 2011 08:54:15 -0700",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/294.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "291",
+                "no_subthreads": 0,
+                "date": ": Fri, 11 Nov 2011 21:36:44 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/291.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "289": {
+        "title": "CVE Request -- kernel: jbd/jbd2: invalid value of first log block leads to oops",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 11 Nov 2011 23:50:02 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/289.txt",
+        "subthreads": [
+            {
+                "id": "295",
+                "no_subthreads": 0,
+                "date": ": Sun, 13 Nov 2011 08:55:00 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/295.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "299": {
+        "title": "Did this ArchLinux/shaman thing ever get a CVE?",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 14 Nov 2011 09:15:03 -0700",
+        "author": ": Kurt Seifried <kseifried () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/299.txt",
+        "subthreads": [
+            {
+                "id": "376",
+                "no_subthreads": 0,
+                "date": ": Mon, 21 Nov 2011 18:33:07 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/376.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "346": {
+        "title": "CVE-2011-4112 kernel: null ptr deref at dev_queue_xmit+0x35/0x4d0",
+        "CVE_id": "CVE-2011-4112",
+        "no_subthreads": 0,
+        "date": ": Mon, 21 Nov 2011 11:32:45 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/346.txt",
+        "subthreads": []
+    },
+    "351": {
+        "title": "CVE Request -- kernel: wrong headroom check in udp6_ufo_fragment()",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 21 Nov 2011 16:54:56 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/351.txt",
+        "subthreads": [
+            {
+                "id": "352",
+                "no_subthreads": 0,
+                "date": ": Mon, 21 Nov 2011 09:07:49 -0700",
+                "author": ": Kurt Seifried <kurt () seifried org>",
+                "File_path": "seclist_thread_messages/2011_Q4/352.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "361": {
+        "title": "CVE-2011-4110 kernel: keys: NULL pointer deref in the user-defined key type",
+        "CVE_id": "CVE-2011-4110",
+        "no_subthreads": 3,
+        "date": ": Mon, 21 Nov 2011 18:51:19 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/361.txt",
+        "subthreads": [
+            {
+                "id": "365",
+                "no_subthreads": 2,
+                "date": ": Mon, 21 Nov 2011 14:26:29 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/365.txt",
+                "subthreads": [
+                    {
+                        "id": "377",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 22 Nov 2011 10:49:16 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/377.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "378",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 21 Nov 2011 21:08:14 -0700",
+                        "author": ": Kurt Seifried <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/378.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "394": {
+        "title": "CVE-2011-4324 kernel: nfsv4: mknod(2) DoS",
+        "CVE_id": "CVE-2011-4324",
+        "no_subthreads": 0,
+        "date": ": Thu, 24 Nov 2011 09:40:42 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/394.txt",
+        "subthreads": []
+    },
+    "399": {
+        "title": "CVE request -- kernel: kvm: device assignment DoS",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 24 Nov 2011 18:49:36 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/399.txt",
+        "subthreads": [
+            {
+                "id": "400",
+                "no_subthreads": 0,
+                "date": ": Thu, 24 Nov 2011 10:57:44 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/400.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "479": {
+        "title": "CVE Request -- kernel: send(m)msg: user pointer dereferences",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 8 Dec 2011 20:15:48 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/479.txt",
+        "subthreads": [
+            {
+                "id": "480",
+                "no_subthreads": 0,
+                "date": ": Thu, 08 Dec 2011 12:19:29 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/480.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "503": {
+        "title": "CVE request - kernel: perf, powerpc: Handle events that raise an exception without overflowing",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 15 Dec 2011 17:03:30 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/503.txt",
+        "subthreads": [
+            {
+                "id": "504",
+                "no_subthreads": 0,
+                "date": ": Thu, 15 Dec 2011 09:16:42 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/504.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "527": {
+        "title": "CVE Request -- kernel: tight loop and no preemption can cause system stall",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 21 Dec 2011 23:10:42 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/527.txt",
+        "subthreads": [
+            {
+                "id": "530",
+                "no_subthreads": 0,
+                "date": ": Wed, 21 Dec 2011 15:20:12 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/530.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "535": {
+        "title": "Status of two Linux kernel issues w/o CVE assignments",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 8,
+        "date": ": Thu, 22 Dec 2011 17:44:47 +0100",
+        "author": ": Moritz Muehlenhoff <jmm () debian org>",
+        "File_path": "seclist_thread_messages/2011_Q4/535.txt",
+        "subthreads": [
+            {
+                "id": "542",
+                "no_subthreads": 7,
+                "date": ": Fri, 23 Dec 2011 13:52:24 -0700",
+                "author": ": Kurt Seifried <kseifried () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q4/542.txt",
+                "subthreads": [
+                    {
+                        "id": "543",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 23 Dec 2011 16:10:38 -0500",
+                        "author": ": Michael Gilbert <michael.s.gilbert () gmail com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/543.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "544",
+                        "no_subthreads": 0,
+                        "date": ": Sat, 24 Dec 2011 01:12:18 +0400",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/544.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "550",
+                        "no_subthreads": 3,
+                        "date": ": Sun, 25 Dec 2011 05:53:26 +0800",
+                        "author": ": Eugene Teo <eteo () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/550.txt",
+                        "subthreads": [
+                            {
+                                "id": "566",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 27 Dec 2011 21:26:04 +0400",
+                                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/566.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "570",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 27 Dec 2011 22:36:41 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/570.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "571",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 27 Dec 2011 22:45:55 -0700",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q4/571.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "551",
+                        "no_subthreads": 0,
+                        "date": ": Sun, 25 Dec 2011 06:08:29 +0800",
+                        "author": ": Eugene Teo <eteo () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q4/551.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "536": {
+        "title": "CVE-2011-4127 kernel: possible privilege escalation via SG_IO ioctl",
+        "CVE_id": "CVE-2011-4127",
+        "no_subthreads": 0,
+        "date": ": Thu, 22 Dec 2011 18:06:47 +0100",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/536.txt",
+        "subthreads": []
+    },
+    "569": {
+        "title": "Re: CVE request: kernel: multiple issues in ROSE",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Tue, 27 Dec 2011 22:17:39 -0700",
+        "author": ": Kurt Seifried <kseifried () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q4/569.txt",
+        "subthreads": []
+    }
+}

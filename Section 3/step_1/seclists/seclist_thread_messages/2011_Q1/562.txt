@@ -1,0 +1,12 @@
+When providing an invalid IrDA nickname for an IrNET peer, a local
+attacker can cause a kernel panic due to an underflow in a memcpy()
+size calculation or cause a controllable heap overflow that may lead
+to privilege escalation.  Write access to the /dev/irnet device file
+is required to trigger the vulnerability.
+
+Reference:
+http://marc.info/?l=linux-netdev&m=130060169116047&w=2
+
+Regards,
+Dan
+

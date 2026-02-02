@@ -1,0 +1,425 @@
+{
+    "1": {
+        "title": "CVE-2022-1204: Linux kernel: UAF caused by binding operation when ax25 device is detaching",
+        "CVE_id": "CVE-2022-1204",
+        "no_subthreads": 0,
+        "date": ": Sat, 2 Apr 2022 14:53:10 +0800 (GMT+08:00)",
+        "author": ": \u5468\u591a\u660e <duoming () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/1.txt",
+        "subthreads": []
+    },
+    "2": {
+        "title": "CVE-2022-1198 kernel: use-after-free in drivers/net/hamradio/6pack.c",
+        "CVE_id": "CVE-2022-1198",
+        "no_subthreads": 0,
+        "date": ": Sat, 2 Apr 2022 15:50:56 +0800 (GMT+08:00)",
+        "author": ": \u5468\u591a\u660e <duoming () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/2.txt",
+        "subthreads": []
+    },
+    "3": {
+        "title": "CVE-2022-1205 kernel: Null pointer dereference and use-after-free in net/ax25/ax25_timer.c",
+        "CVE_id": "CVE-2022-1205",
+        "no_subthreads": 0,
+        "date": ": Sat, 2 Apr 2022 16:14:37 +0800 (GMT+08:00)",
+        "author": ": \u5468\u591a\u660e <duoming () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/3.txt",
+        "subthreads": []
+    },
+    "4": {
+        "title": "CVE-2022-1199 kernel: Null pointer dereference and use-after-free in ax25_release()",
+        "CVE_id": "CVE-2022-1199",
+        "no_subthreads": 0,
+        "date": ": Sat, 2 Apr 2022 16:45:07 +0800 (GMT+08:00)",
+        "author": ": \u5468\u591a\u660e <duoming () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/4.txt",
+        "subthreads": []
+    },
+    "9": {
+        "title": "CVE-2022-28356: Linux kernel: refcount leak in llc_ui_bind and llc_ui_autobind",
+        "CVE_id": "CVE-2022-28356",
+        "no_subthreads": 0,
+        "date": ": Wed, 6 Apr 2022 14:22:04 +0200",
+        "author": ": Gianluca Gabrielli <ggabrielli () suse de>",
+        "File_path": "seclist_thread_messages/2022_Q2/9.txt",
+        "subthreads": []
+    },
+    "22": {
+        "title": "CVE-2022-1158: Linux Kernel v5.2+: x86/kvm: cmpxchg_gpte can write to pfns outside the userspace region",
+        "CVE_id": "CVE-2022-1158",
+        "no_subthreads": 0,
+        "date": ": Fri, 8 Apr 2022 10:24:48 +0800",
+        "author": ": Qiuhao Li <qiuhao () sysec org>",
+        "File_path": "seclist_thread_messages/2022_Q2/22.txt",
+        "subthreads": []
+    },
+    "29": {
+        "title": "CVE-2022-28893: Linux kernel: Use after free in SUNRPC subsystem",
+        "CVE_id": "CVE-2022-28893",
+        "no_subthreads": 2,
+        "date": ": Mon, 11 Apr 2022 16:20:56 +0800",
+        "author": ": Felix Fu <foyjog () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/29.txt",
+        "subthreads": [
+            {
+                "id": "30",
+                "no_subthreads": 1,
+                "date": ": Mon, 11 Apr 2022 13:33:23 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2022_Q2/30.txt",
+                "subthreads": [
+                    {
+                        "id": "31",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 11 Apr 2022 12:39:44 -0400",
+                        "author": ": \"Mike O'Connor\" <mjo () dojo mi org>",
+                        "File_path": "seclist_thread_messages/2022_Q2/31.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "49": {
+        "title": "CVE-2022-1419: Linux kernel: A concurrency use-after-free in vgem_gem_dumb_create",
+        "CVE_id": "CVE-2022-1419",
+        "no_subthreads": 3,
+        "date": ": Thu, 21 Apr 2022 23:44:54 +0800",
+        "author": ": Minh Yuan <yuanmingbuaa () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/49.txt",
+        "subthreads": [
+            {
+                "id": "50",
+                "no_subthreads": 2,
+                "date": ": Thu, 21 Apr 2022 19:35:46 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2022_Q2/50.txt",
+                "subthreads": [
+                    {
+                        "id": "51",
+                        "no_subthreads": 1,
+                        "date": ": Fri, 22 Apr 2022 09:05:50 +0200",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2022_Q2/51.txt",
+                        "subthreads": [
+                            {
+                                "id": "52",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 22 Apr 2022 10:28:20 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/52.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "118": {
+        "title": "CVE-2022-29581: Linux kernel cls_u32 UAF",
+        "CVE_id": "CVE-2022-29581",
+        "no_subthreads": 0,
+        "date": ": Wed, 18 May 2022 12:39:52 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/118.txt",
+        "subthreads": []
+    },
+    "122": {
+        "title": "CVE-2022-1729: race condition in Linux perf subsystem leads to local privilege escalation",
+        "CVE_id": "CVE-2022-1729",
+        "no_subthreads": 11,
+        "date": ": Fri, 20 May 2022 22:14:36 +0200",
+        "author": ": Norbert Slusarek <nslusarek () gmx net>",
+        "File_path": "seclist_thread_messages/2022_Q2/122.txt",
+        "subthreads": [
+            {
+                "id": "123",
+                "no_subthreads": 10,
+                "date": ": Sat, 21 May 2022 17:47:59 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2022_Q2/123.txt",
+                "subthreads": [
+                    {
+                        "id": "141",
+                        "no_subthreads": 9,
+                        "date": ": Wed, 25 May 2022 00:20:44 +0200",
+                        "author": ": Norbert Slusarek <nslusarek () gmx net>",
+                        "File_path": "seclist_thread_messages/2022_Q2/141.txt",
+                        "subthreads": [
+                            {
+                                "id": "142",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 25 May 2022 01:21:55 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/142.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "150",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 26 May 2022 18:44:38 +0200",
+                                "author": ": Norbert Slusarek <nslusarek () gmx net>",
+                                "File_path": "seclist_thread_messages/2022_Q2/150.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "151",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 26 May 2022 17:04:32 +0000",
+                                "author": ": Jeremy Stanley <fungi () yuggoth org>",
+                                "File_path": "seclist_thread_messages/2022_Q2/151.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "152",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 26 May 2022 19:35:46 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/152.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "217",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 30 Jun 2022 11:12:10 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/217.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "219",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 30 Jun 2022 22:12:46 +0200",
+                                "author": ": Norbert Slusarek <nslusarek () gmx net>",
+                                "File_path": "seclist_thread_messages/2022_Q2/219.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "153",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 26 May 2022 11:17:52 -0700",
+                                "author": ": Philip Pettersson <philip.pettersson () gmail com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/153.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "154",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 27 May 2022 07:26:50 -0400",
+                                "author": ": \"Mike O'Connor\" <mjo () dojo mi org>",
+                                "File_path": "seclist_thread_messages/2022_Q2/154.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "157",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 28 May 2022 22:04:26 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/157.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "134": {
+        "title": "CVE-2022-1786: Linux Kernel invalid-free in io_uring",
+        "CVE_id": "CVE-2022-1786",
+        "no_subthreads": 3,
+        "date": ": Tue, 24 May 2022 09:10:37 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/134.txt",
+        "subthreads": [
+            {
+                "id": "135",
+                "no_subthreads": 2,
+                "date": ": Tue, 24 May 2022 18:22:10 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2022_Q2/135.txt",
+                "subthreads": [
+                    {
+                        "id": "138",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 24 May 2022 09:28:29 -0700",
+                        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+                        "File_path": "seclist_thread_messages/2022_Q2/138.txt",
+                        "subthreads": [
+                            {
+                                "id": "156",
+                                "no_subthreads": 0,
+                                "date": ": Sat, 28 May 2022 01:26:27 -0700",
+                                "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+                                "File_path": "seclist_thread_messages/2022_Q2/156.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "144": {
+        "title": "CVE-2022-1789: Linux Kernel: x86/kvm: NULL pointer dereference in kvm_mmu_invpcid_gva",
+        "CVE_id": "CVE-2022-1789",
+        "no_subthreads": 0,
+        "date": ": Wed, 25 May 2022 19:41:57 +0800 (GMT+08:00)",
+        "author": ": kangel <kangel () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/144.txt",
+        "subthreads": []
+    },
+    "155": {
+        "title": "CVE-2022-1462: Linux kernel: A race condition vulnerability in drivers/tty/tty_buffers.c",
+        "CVE_id": "CVE-2022-1462",
+        "no_subthreads": 0,
+        "date": ": Fri, 27 May 2022 22:47:05 +0800",
+        "author": ": \u4e00\u53ea\u72d7 <chennbnbnb () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/155.txt",
+        "subthreads": []
+    },
+    "159": {
+        "title": "Linux Kernel use-after-free write in netfilter",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 31 May 2022 10:00:32 +0100",
+        "author": ": EDG EDG <edg.bugs () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/159.txt",
+        "subthreads": [
+            {
+                "id": "165",
+                "no_subthreads": 2,
+                "date": ": Fri, 3 Jun 2022 08:31:41 +0200",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2022_Q2/165.txt",
+                "subthreads": [
+                    {
+                        "id": "166",
+                        "no_subthreads": 0,
+                        "date": ": Sat, 4 Jun 2022 22:03:32 +0200",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2022_Q2/166.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "202",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 20 Jun 2022 16:25:28 +0200",
+                        "author": ": Moritz M\u00fchlenhoff <jmm () inutil org>",
+                        "File_path": "seclist_thread_messages/2022_Q2/202.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "161": {
+        "title": "CVE-2022-1852: Linux Kernel: x86/kvm: NULL pointer dereference in x86_emulate_insn",
+        "CVE_id": "CVE-2022-1852",
+        "no_subthreads": 0,
+        "date": ": Wed, 1 Jun 2022 00:03:25 +0800 (GMT+08:00)",
+        "author": ": kangel <kangel () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/161.txt",
+        "subthreads": []
+    },
+    "163": {
+        "title": "Re: CVE-2021-4204: Linux Kernel eBPF Improper Input Validation Vulnerability",
+        "CVE_id": "CVE-2021-4204",
+        "no_subthreads": 2,
+        "date": ": Wed, 1 Jun 2022 14:55:13 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2022_Q2/163.txt",
+        "subthreads": [
+            {
+                "id": "167",
+                "no_subthreads": 1,
+                "date": ": Sat, 4 Jun 2022 22:22:19 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2022_Q2/167.txt",
+                "subthreads": [
+                    {
+                        "id": "175",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 7 Jun 2022 18:14:32 +0800",
+                        "author": ": tr3e wang <tr3e.wang () gmail com>",
+                        "File_path": "seclist_thread_messages/2022_Q2/175.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "164": {
+        "title": "CVE-2022-1972: out-of-bound write in Linux netfilter subsystem leads to local privilege escalation",
+        "CVE_id": "CVE-2022-1972",
+        "no_subthreads": 0,
+        "date": ": Thu, 02 Jun 2022 10:21:36 +0800",
+        "author": ": \"\u5f20\u5b50\u660e(\u660e\u7a0b)\" <zhangziming.zzm () antgroup com>",
+        "File_path": "seclist_thread_messages/2022_Q2/164.txt",
+        "subthreads": []
+    },
+    "170": {
+        "title": "CVE-2022-1974: Linux kernel: use-after-free caused by improper check device_is_registered() in nfc netlink related functions",
+        "CVE_id": "CVE-2022-1974",
+        "no_subthreads": 0,
+        "date": ": Sun, 5 Jun 2022 09:20:35 +0800 (GMT+08:00)",
+        "author": ": duoming () zju edu cn",
+        "File_path": "seclist_thread_messages/2022_Q2/170.txt",
+        "subthreads": []
+    },
+    "171": {
+        "title": "CVE-2022-1975: Linux kernel: sleep in atomic context bug when nfc firmware download timeout",
+        "CVE_id": "CVE-2022-1975",
+        "no_subthreads": 0,
+        "date": ": Sun, 5 Jun 2022 10:51:54 +0800 (GMT+08:00)",
+        "author": ": duoming () zju edu cn",
+        "File_path": "seclist_thread_messages/2022_Q2/171.txt",
+        "subthreads": []
+    },
+    "179": {
+        "title": "CVE-2022-1973: Linux Kernel: fs/ntfs3: invalid free in log_replay",
+        "CVE_id": "CVE-2022-1973",
+        "no_subthreads": 0,
+        "date": ": Wed, 8 Jun 2022 10:17:36 +0800",
+        "author": ": Gerald Lee <sundaywind2004 () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/179.txt",
+        "subthreads": []
+    },
+    "195": {
+        "title": "CVE-2022-1976: Linux Kernel: A use-after-free in __lock_acquire",
+        "CVE_id": "CVE-2022-1976",
+        "no_subthreads": 0,
+        "date": ": Tue, 14 Jun 2022 09:07:55 +0800",
+        "author": ": Gerald Lee <sundaywind2004 () gmail com>",
+        "File_path": "seclist_thread_messages/2022_Q2/195.txt",
+        "subthreads": []
+    },
+    "196": {
+        "title": "CVE-2022-32981: Linux kernel for powerpc 32-bit, buffer overflow in ptrace PEEKUSER/POKEUSER",
+        "CVE_id": "CVE-2022-32981",
+        "no_subthreads": 0,
+        "date": ": Tue, 14 Jun 2022 13:05:08 +1000",
+        "author": ": Michael Ellerman <mpe () ellerman id au>",
+        "File_path": "seclist_thread_messages/2022_Q2/196.txt",
+        "subthreads": []
+    },
+    "201": {
+        "title": "Linux kernel: CVE-2022-1516: NULL pointer dereference in Linux kernel`s X.25 network protocol",
+        "CVE_id": "CVE-2022-1516",
+        "no_subthreads": 0,
+        "date": ": Sun, 19 Jun 2022 22:48:04 +0800 (GMT+08:00)",
+        "author": ": duoming () zju edu cn",
+        "File_path": "seclist_thread_messages/2022_Q2/201.txt",
+        "subthreads": []
+    },
+    "205": {
+        "title": "CVE-2022-2153: Linux Kernel: x86/kvm: NULL pointer dereference in kvm_irq_delivery_to_apic_fast",
+        "CVE_id": "CVE-2022-2153",
+        "no_subthreads": 0,
+        "date": ": Wed, 22 Jun 2022 12:11:00 +0800 (GMT+08:00)",
+        "author": ": kangel <22021034 () zju edu cn>",
+        "File_path": "seclist_thread_messages/2022_Q2/205.txt",
+        "subthreads": []
+    }
+}

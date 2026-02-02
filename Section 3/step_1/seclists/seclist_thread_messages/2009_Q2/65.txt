@@ -1,0 +1,15 @@
+
+
+On Thu, 16 Apr 2009, Eugene Teo wrote:
+
+
+http://lwn.net/Articles/259217/
+https://bugzilla.redhat.com/show_bug.cgi?id=496031
+http://git.kernel.org/linus/d25141a818383b3c3b09f065698c544a7a0ec6e7
+
+
+
+Use CVE-2009-1338
+
+- Steve
+

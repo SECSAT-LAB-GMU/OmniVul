@@ -1,0 +1,16 @@
+Hi,
+
+We've found an issue in the handling of Transactional Memory on powerpc
+systems. An unprivileged local user can crash the kernel by starting a
+transaction, suspending it, and then calling any of the exec() class system
+calls.
+
+More info:
+ https://patchwork.ozlabs.org/patch/636776/
+ https://patchwork.ozlabs.org/patch/636774/ (test case)
+
+Could you please allocate a CVE for this?
+
+cheers
+
+signature.asc

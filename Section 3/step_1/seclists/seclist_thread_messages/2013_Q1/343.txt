@@ -1,0 +1,17 @@
+Most VM places are using pmd_none but a few are still using pmd_present.
+The meaning is about the same for the pmd. However pmd_present would
+return the wrong value on PROT_NONE ranges. When the code using
+pmd_present gets a false negative, the kernel will crash.
+
+An unprivileged local user could use this flaw to crash the system.
+
+Upstream fix:
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git;a=commit;h=027ef6c8
+
+References:
+https://bugzilla.redhat.com/show_bug.cgi?id=912898
+
+Thanks,
+-- 
+Petr Matousek / Red Hat Security Response Team
+

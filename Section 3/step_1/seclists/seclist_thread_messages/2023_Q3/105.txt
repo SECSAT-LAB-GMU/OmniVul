@@ -1,0 +1,18 @@
+On Thu, Aug 10, 2023 at 10:13:54AM +0800, Lin Ma wrote:
+
+Hello there, we found a NPD bug in Linux kernel XFRM submodule.
+
+
+
+
+[fix status]:
+to ipsec tree now but not yet upstream, see https://kernel.googlesource.com/pub/scm/linux/kernel/git/klassert/ipsec/
+
+
+
+More specifically, 
+https://kernel.googlesource.com/pub/scm/linux/kernel/git/klassert/ipsec/+/00374d9b6d9f932802b55181be9831aa948e5b7c%5E%21/#F0
+
+Thanks
+
+signature.asc

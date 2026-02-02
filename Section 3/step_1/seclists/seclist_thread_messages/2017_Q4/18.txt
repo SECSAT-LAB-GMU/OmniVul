@@ -1,0 +1,34 @@
+Because I messed up the git pull request to submit it.
+
+On Tue, Oct 3, 2017 at 11:05 AM, Jan Schaumann <jschauma () netmeister org>
+wrote:
+
+
+Qualys Security Advisory <qsa () qualys com> wrote:
+
+
+
+Qualys Security Advisory
+
+Linux PIE/stack corruption (CVE-2017-1000253)
+
+
+
+How come this CVE does not yet show up on cve.mitre.org?
+
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000253
+
+It's been a week since the publication.
+
+-Jan
+
+
+
+
+
+
+-- 
+
+Kurt Seifried -- Red Hat -- Product Security -- Cloud
+PGP A90B F995 7350 148F 66BF 7554 160D 4553 5E26 7993
+Red Hat Product Security contact: secalert () redhat com

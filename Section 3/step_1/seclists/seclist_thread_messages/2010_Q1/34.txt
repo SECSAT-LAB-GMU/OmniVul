@@ -1,0 +1,14 @@
+There's a pile of upstream commits that fixed issues that can lead to 
+
+user-triggerable panics on supported boxes: 
+
+http://groups.google.com/group/linux.kernel/msg/895f20870532241e.
+
+
+
+http://groups.google.co.jp/group/fa.linux.kernel/browse_thread/thread/8bf22336b1082090
+
+Thanks, Eugene
+--
+Eugene Teo / Red Hat Security Response Team
+

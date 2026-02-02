@@ -1,0 +1,19 @@
+On Thu, Feb 23, 2017 at 05:08:48PM +0100, Hanno Böck wrote:
+
+Anyone have a good idea who is using shadow vs. util-linux su? Do they
+have specific advantages/disadvantages, would it be reasonable to try
+to get all distros to use them same one?
+
+
+
+Debian uses shadow, but is discussing a switch to util-linux:
+https://packages.debian.org/sid/login
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=833256
+
+GuixSD is using shadow:
+https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/system.scm#n579
+
+I'm also interested to learn the pros and cons of the two
+implementations.
+
+signature.asc

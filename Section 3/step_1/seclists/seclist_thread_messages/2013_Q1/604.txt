@@ -1,0 +1,22 @@
+A local user could use the missing size check in
+sctp_getsockopt_assoc_stats() function to escalate their privileges. On
+x86 this might be mitigated by destination object size check as the
+destination size is known at compile time.
+
+Upstream fix:
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=726bc6b0
+
+Introduced by:
+http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=196d6759
+
+Introduced in:
+v3.8-rc1
+
+References:
+https://twitter.com/grsecurity/status/309805924749541376
+http://grsecurity.net/~spender/sctp.c
+
+Thanks,
+-- 
+Petr Matousek / Red Hat Security Response Team
+

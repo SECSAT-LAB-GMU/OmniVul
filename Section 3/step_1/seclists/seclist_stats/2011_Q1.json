@@ -1,0 +1,1059 @@
+{
+    "1": {
+        "title": "Re: CVE request: kernel: irda: prevent integer underflow in IRLMP_ENUMDEVICES",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Mon, 03 Jan 2011 10:56:35 +0530",
+        "author": ": Huzaifa Sidhpurwala <huzaifas () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/1.txt",
+        "subthreads": []
+    },
+    "15": {
+        "title": "CVE-2010-4526 kernel: sctp: a race between ICMP protocol unreachable and connect()",
+        "CVE_id": "CVE-2010-4526",
+        "no_subthreads": 1,
+        "date": ": Tue, 04 Jan 2011 14:33:04 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/15.txt",
+        "subthreads": [
+            {
+                "id": "25",
+                "no_subthreads": 0,
+                "date": ": Tue, 4 Jan 2011 15:31:31 -0800",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2011_Q1/25.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "16": {
+        "title": "Re: CVE request: kernel: Multiple DoS issues in block layer",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Tue, 04 Jan 2011 17:55:58 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/16.txt",
+        "subthreads": []
+    },
+    "39": {
+        "title": "CVE-NONE kernel: PHONET signedness issue",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 5,
+        "date": ": Thu, 06 Jan 2011 13:20:49 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/39.txt",
+        "subthreads": [
+            {
+                "id": "46",
+                "no_subthreads": 4,
+                "date": ": Thu, 6 Jan 2011 12:54:22 -0500",
+                "author": ": Michael Gilbert <michael.s.gilbert () gmail com>",
+                "File_path": "seclist_thread_messages/2011_Q1/46.txt",
+                "subthreads": [
+                    {
+                        "id": "47",
+                        "no_subthreads": 2,
+                        "date": ": Thu, 6 Jan 2011 13:08:59 -0500",
+                        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/47.txt",
+                        "subthreads": [
+                            {
+                                "id": "48",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 6 Jan 2011 13:29:34 -0500",
+                                "author": ": Michael Gilbert <michael.s.gilbert () gmail com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/48.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "49",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 6 Jan 2011 13:31:47 -0500",
+                                "author": ": Nelson Elhage <nelhage () ksplice com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/49.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "59",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 6 Jan 2011 21:26:26 -0500 (EST)",
+                        "author": ": \"Steven M. Christey\" <coley () rcf-smtp mitre org>",
+                        "File_path": "seclist_thread_messages/2011_Q1/59.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "45": {
+        "title": "CVE Request: kernel [Re: Security review of 2.6.32.28]",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 6 Jan 2011 09:18:11 -0700",
+        "author": ": dann frazier <dannf () dannf org>",
+        "File_path": "seclist_thread_messages/2011_Q1/45.txt",
+        "subthreads": [
+            {
+                "id": "55",
+                "no_subthreads": 0,
+                "date": ": Thu, 6 Jan 2011 14:13:16 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/55.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "117": {
+        "title": "CVE request: linux kernel heap issues",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Mon, 24 Jan 2011 13:46:24 -0800",
+        "author": ": Kees Cook <kees () ubuntu com>",
+        "File_path": "seclist_thread_messages/2011_Q1/117.txt",
+        "subthreads": [
+            {
+                "id": "121",
+                "no_subthreads": 0,
+                "date": ": Mon, 24 Jan 2011 20:09:57 -0700",
+                "author": ": Kurt Seifried <kurt () seifried org>",
+                "File_path": "seclist_thread_messages/2011_Q1/121.txt",
+                "subthreads": []
+            },
+            {
+                "id": "122",
+                "no_subthreads": 2,
+                "date": ": Tue, 25 Jan 2011 11:48:29 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/122.txt",
+                "subthreads": [
+                    {
+                        "id": "123",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 25 Jan 2011 13:08:11 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/123.txt",
+                        "subthreads": [
+                            {
+                                "id": "141",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 28 Jan 2011 09:44:19 +0800",
+                                "author": ": Eugene Teo <eugene () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/141.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "178": {
+        "title": "CVE request: kernel: btrfs heap overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 9,
+        "date": ": Wed, 9 Feb 2011 09:27:32 -0500",
+        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+        "File_path": "seclist_thread_messages/2011_Q1/178.txt",
+        "subthreads": [
+            {
+                "id": "179",
+                "no_subthreads": 7,
+                "date": ": Wed, 09 Feb 2011 23:20:36 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/179.txt",
+                "subthreads": [
+                    {
+                        "id": "181",
+                        "no_subthreads": 6,
+                        "date": ": Wed, 9 Feb 2011 10:49:35 -0500",
+                        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/181.txt",
+                        "subthreads": [
+                            {
+                                "id": "183",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 10 Feb 2011 00:01:39 +0800",
+                                "author": ": Eugene Teo <eugene () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/183.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "184",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 10 Feb 2011 00:03:26 +0800",
+                                "author": ": Eugene Teo <eugene () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/184.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "191",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 10 Feb 2011 10:13:57 -0500 (EST)",
+                                "author": ": \"Steven M. Christey\" <coley () rcf-smtp mitre org>",
+                                "File_path": "seclist_thread_messages/2011_Q1/191.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "186",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 9 Feb 2011 11:27:13 -0500",
+                                "author": ": St\u00e9phane Gaudreault <stephane () archlinux org>",
+                                "File_path": "seclist_thread_messages/2011_Q1/186.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "187",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 9 Feb 2011 18:25:06 +0100",
+                                "author": ": Moritz Muehlenhoff <jmm () debian org>",
+                                "File_path": "seclist_thread_messages/2011_Q1/187.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "188",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 9 Feb 2011 09:24:39 -0800",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/188.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "227",
+                "no_subthreads": 0,
+                "date": ": Tue, 22 Feb 2011 11:04:56 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/227.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "195": {
+        "title": "CVE request - kernel: bridge br_multicast NULL pointer dereference",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 16 Feb 2011 16:31:29 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/195.txt",
+        "subthreads": [
+            {
+                "id": "202",
+                "no_subthreads": 1,
+                "date": ": Wed, 16 Feb 2011 08:44:08 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/202.txt",
+                "subthreads": [
+                    {
+                        "id": "208",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 16 Feb 2011 19:37:42 +0100",
+                        "author": ": Moritz Muehlenhoff <jmm () debian org>",
+                        "File_path": "seclist_thread_messages/2011_Q1/208.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "197": {
+        "title": "CVE request - kernel: s390 task_show_regs infoleak",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 16 Feb 2011 16:38:20 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/197.txt",
+        "subthreads": [
+            {
+                "id": "203",
+                "no_subthreads": 0,
+                "date": ": Wed, 16 Feb 2011 08:45:16 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/203.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "198": {
+        "title": "CVE request - kernel: xfs infoleak",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Wed, 16 Feb 2011 16:41:30 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/198.txt",
+        "subthreads": [
+            {
+                "id": "204",
+                "no_subthreads": 0,
+                "date": ": Wed, 16 Feb 2011 08:46:22 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/204.txt",
+                "subthreads": []
+            },
+            {
+                "id": "324",
+                "no_subthreads": 0,
+                "date": ": Tue, 01 Mar 2011 17:07:43 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/324.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "209": {
+        "title": "CVE request -- kernel: deficiency in processing igmp host membership reports in br_multicast",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 16 Feb 2011 19:09:32 -0500 (EST)",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/209.txt",
+        "subthreads": [
+            {
+                "id": "210",
+                "no_subthreads": 0,
+                "date": ": Thu, 17 Feb 2011 10:12:03 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/210.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "211": {
+        "title": "CVE request - kernel: thp: prevent hugepages during args/env copying into the user stack",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 17 Feb 2011 15:13:49 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/211.txt",
+        "subthreads": [
+            {
+                "id": "214",
+                "no_subthreads": 0,
+                "date": ": Thu, 17 Feb 2011 15:34:55 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/214.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "223": {
+        "title": "CVE requests: freebsd kernel/tesseract/xinha/proftpd",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Mon, 21 Feb 2011 19:39:52 +0100",
+        "author": ": Moritz Muehlenhoff <jmm () debian org>",
+        "File_path": "seclist_thread_messages/2011_Q1/223.txt",
+        "subthreads": [
+            {
+                "id": "268",
+                "no_subthreads": 0,
+                "date": ": Wed, 23 Feb 2011 16:10:09 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/268.txt",
+                "subthreads": []
+            },
+            {
+                "id": "341",
+                "no_subthreads": 0,
+                "date": ": Wed, 2 Mar 2011 18:05:45 -0500 (EST)",
+                "author": ": \"Steven M. Christey\" <coley () rcf-smtp mitre org>",
+                "File_path": "seclist_thread_messages/2011_Q1/341.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "228": {
+        "title": "CVE request: kernel: fs/partitions: validate map_count in mac partition tables",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 22 Feb 2011 14:49:51 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/228.txt",
+        "subthreads": [
+            {
+                "id": "235",
+                "no_subthreads": 2,
+                "date": ": Tue, 22 Feb 2011 15:44:29 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/235.txt",
+                "subthreads": [
+                    {
+                        "id": "236",
+                        "no_subthreads": 1,
+                        "date": ": Tue, 22 Feb 2011 12:47:12 -0800",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/236.txt",
+                        "subthreads": [
+                            {
+                                "id": "240",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 22 Feb 2011 16:27:36 -0500 (EST)",
+                                "author": ": Josh Bressers <bressers () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/240.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "229": {
+        "title": "CVE request: kernel: a collection of world-writable debugfs bugs",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 7,
+        "date": ": Tue, 22 Feb 2011 16:03:27 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/229.txt",
+        "subthreads": [
+            {
+                "id": "230",
+                "no_subthreads": 6,
+                "date": ": Tue, 22 Feb 2011 08:01:55 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/230.txt",
+                "subthreads": [
+                    {
+                        "id": "245",
+                        "no_subthreads": 5,
+                        "date": ": Wed, 23 Feb 2011 11:26:18 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/245.txt",
+                        "subthreads": [
+                            {
+                                "id": "256",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 23 Feb 2011 13:24:08 +0300",
+                                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/256.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "270",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 23 Feb 2011 16:23:53 -0500 (EST)",
+                                "author": ": Josh Bressers <bressers () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/270.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "561",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 20 Mar 2011 16:43:40 +0300",
+                                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/561.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "564",
+                                "no_subthreads": 0,
+                                "date": ": Sun, 20 Mar 2011 15:45:25 -0400",
+                                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/564.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "569",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 21 Mar 2011 12:21:26 +0300",
+                                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/569.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "246": {
+        "title": "CVE request: kernel: Corrupted LDM partition table issues",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 23 Feb 2011 11:37:00 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/246.txt",
+        "subthreads": [
+            {
+                "id": "263",
+                "no_subthreads": 0,
+                "date": ": Wed, 23 Feb 2011 13:52:58 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/263.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "258": {
+        "title": "CVE request: kernel: fs/partitions: Kernel heap overflow via corrupted LDM partition tables",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Wed, 23 Feb 2011 13:45:33 +0100",
+        "author": ": Timo Warns <warns () pre-sense de>",
+        "File_path": "seclist_thread_messages/2011_Q1/258.txt",
+        "subthreads": [
+            {
+                "id": "266",
+                "no_subthreads": 3,
+                "date": ": Wed, 23 Feb 2011 14:59:59 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/266.txt",
+                "subthreads": [
+                    {
+                        "id": "272",
+                        "no_subthreads": 2,
+                        "date": ": Thu, 24 Feb 2011 09:25:19 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/272.txt",
+                        "subthreads": [
+                            {
+                                "id": "274",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 23 Feb 2011 21:46:29 -0500",
+                                "author": ": Jon Oberheide <jon () oberheide org>",
+                                "File_path": "seclist_thread_messages/2011_Q1/274.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "284",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 24 Feb 2011 15:22:32 -0500 (EST)",
+                                "author": ": Josh Bressers <bressers () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/284.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "273": {
+        "title": "CVE request: kernel: drm/radeon/kms: check AA resolve registers on r300",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 24 Feb 2011 11:43:46 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/273.txt",
+        "subthreads": [
+            {
+                "id": "281",
+                "no_subthreads": 0,
+                "date": ": Thu, 24 Feb 2011 13:50:20 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/281.txt",
+                "subthreads": []
+            },
+            {
+                "id": "292",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Feb 2011 09:03:21 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/292.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "287": {
+        "title": "CVE request: kernel: CAP_SYS_MODULE bypass via CAP_NET_ADMIN",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Thu, 24 Feb 2011 15:54:30 -0800",
+        "author": ": Kees Cook <kees () ubuntu com>",
+        "File_path": "seclist_thread_messages/2011_Q1/287.txt",
+        "subthreads": [
+            {
+                "id": "289",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Feb 2011 08:14:53 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/289.txt",
+                "subthreads": []
+            },
+            {
+                "id": "458",
+                "no_subthreads": 0,
+                "date": ": Fri, 11 Mar 2011 17:36:51 +0300",
+                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                "File_path": "seclist_thread_messages/2011_Q1/458.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "288": {
+        "title": "CVE request: kernel: /proc/$pid/ leaks contents across setuid exec",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 24 Feb 2011 15:57:06 -0800",
+        "author": ": Kees Cook <kees () ubuntu com>",
+        "File_path": "seclist_thread_messages/2011_Q1/288.txt",
+        "subthreads": [
+            {
+                "id": "290",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Feb 2011 08:15:04 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/290.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "291": {
+        "title": "CVE request: kernel: /sys/kernel/debug/acpi/custom_method can bypass module restrictions",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Thu, 24 Feb 2011 16:32:25 -0800",
+        "author": ": Kees Cook <kees () ubuntu com>",
+        "File_path": "seclist_thread_messages/2011_Q1/291.txt",
+        "subthreads": [
+            {
+                "id": "293",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Feb 2011 09:03:49 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/293.txt",
+                "subthreads": []
+            },
+            {
+                "id": "298",
+                "no_subthreads": 1,
+                "date": ": Fri, 25 Feb 2011 15:10:10 +0300",
+                "author": ": Vasiliy Kulikov <segoon () openwall com>",
+                "File_path": "seclist_thread_messages/2011_Q1/298.txt",
+                "subthreads": [
+                    {
+                        "id": "304",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 25 Feb 2011 23:30:38 -0800",
+                        "author": ": Kees Cook <kees () ubuntu com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/304.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "309": {
+        "title": "CVE request: kernel: two bluetooth and one ebtables infoleaks/DoSes",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 28 Feb 2011 22:48:36 +0300",
+        "author": ": Vasiliy Kulikov <segoon () openwall com>",
+        "File_path": "seclist_thread_messages/2011_Q1/309.txt",
+        "subthreads": [
+            {
+                "id": "331",
+                "no_subthreads": 0,
+                "date": ": Tue, 1 Mar 2011 10:46:12 -0500 (EST)",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/331.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "312": {
+        "title": "CVE request: kernel: OOM-killer via argv expansion",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 4,
+        "date": ": Mon, 28 Feb 2011 12:32:55 -0800",
+        "author": ": Kees Cook <kees () ubuntu com>",
+        "File_path": "seclist_thread_messages/2011_Q1/312.txt",
+        "subthreads": [
+            {
+                "id": "318",
+                "no_subthreads": 3,
+                "date": ": Mon, 28 Feb 2011 13:02:02 -0800",
+                "author": ": Kees Cook <kees () ubuntu com>",
+                "File_path": "seclist_thread_messages/2011_Q1/318.txt",
+                "subthreads": [
+                    {
+                        "id": "321",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 28 Feb 2011 15:28:47 -0800",
+                        "author": ": Kees Cook <kees () ubuntu com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/321.txt",
+                        "subthreads": [
+                            {
+                                "id": "322",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 28 Feb 2011 19:13:48 -0500",
+                                "author": ": Nelson Elhage <nelhage () ksplice com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/322.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "323",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 01 Mar 2011 08:30:23 +0800",
+                                "author": ": Eugene Teo <eugene () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/323.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "337": {
+        "title": "CVE request: kernel: Multiple DoS issues in epoll",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 1 Mar 2011 20:56:46 -0500",
+        "author": ": Nelson Elhage <nelhage () ksplice com>",
+        "File_path": "seclist_thread_messages/2011_Q1/337.txt",
+        "subthreads": [
+            {
+                "id": "338",
+                "no_subthreads": 0,
+                "date": ": Wed, 2 Mar 2011 08:57:27 -0500 (EST)",
+                "author": ": Petr Matousek <pmatouse () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/338.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "343": {
+        "title": "CVE-2011-1023 kernel: rds: prevent BUG_ON triggering on congestion map updates",
+        "CVE_id": "CVE-2011-1023",
+        "no_subthreads": 0,
+        "date": ": Thu, 03 Mar 2011 22:47:44 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/343.txt",
+        "subthreads": []
+    },
+    "372": {
+        "title": "CVE-2011-1076 kernel: DNS: Fix a NULL pointer deref when trying to read an error key",
+        "CVE_id": "CVE-2011-1076",
+        "no_subthreads": 0,
+        "date": ": Fri, 04 Mar 2011 14:45:08 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/372.txt",
+        "subthreads": []
+    },
+    "410": {
+        "title": "CVE request - kernel: nfs4: Ensure that ACL pages sent over NFS were not allocated from the slab",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Mon, 07 Mar 2011 13:47:50 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/410.txt",
+        "subthreads": [
+            {
+                "id": "420",
+                "no_subthreads": 0,
+                "date": ": Mon, 7 Mar 2011 15:51:03 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/420.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "425": {
+        "title": "CVE request: kernel: dccp: fix oops on Reset after close",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 08 Mar 2011 15:50:36 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/425.txt",
+        "subthreads": [
+            {
+                "id": "440",
+                "no_subthreads": 0,
+                "date": ": Tue, 8 Mar 2011 15:50:04 -0500 (EST)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/440.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "438": {
+        "title": "CVE-2011-0714 kernel: deficiency in handling of invalid data packets in lockd",
+        "CVE_id": "CVE-2011-0714",
+        "no_subthreads": 1,
+        "date": ": Tue, 8 Mar 2011 14:41:25 -0500 (EST)",
+        "author": ": Petr Matousek <pmatouse () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/438.txt",
+        "subthreads": [
+            {
+                "id": "445",
+                "no_subthreads": 0,
+                "date": ": Wed, 09 Mar 2011 08:57:18 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/445.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "455": {
+        "title": "CVE-2011-0695 kernel: panic in ib_cm:cm_work_handler",
+        "CVE_id": "CVE-2011-0695",
+        "no_subthreads": 0,
+        "date": ": Fri, 11 Mar 2011 14:09:17 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/455.txt",
+        "subthreads": []
+    },
+    "478": {
+        "title": "CVE requests - kernel: tpm infoleaks",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Mon, 14 Mar 2011 16:22:02 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/478.txt",
+        "subthreads": [
+            {
+                "id": "499",
+                "no_subthreads": 1,
+                "date": ": Mon, 14 Mar 2011 16:53:11 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/499.txt",
+                "subthreads": [
+                    {
+                        "id": "505",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 15 Mar 2011 10:06:14 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/505.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "517",
+                "no_subthreads": 0,
+                "date": ": Tue, 15 Mar 2011 16:46:51 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/517.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "513": {
+        "title": "CVE Request: kernel: fs/partitions: Corrupted OSF partition table can cause information disclosure",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 15 Mar 2011 09:31:44 +0100",
+        "author": ": Timo Warns <warns () pre-sense de>",
+        "File_path": "seclist_thread_messages/2011_Q1/513.txt",
+        "subthreads": [
+            {
+                "id": "518",
+                "no_subthreads": 0,
+                "date": ": Tue, 15 Mar 2011 16:58:35 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/518.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "540": {
+        "title": "CVE request: kernel: AudioScience HPI driver",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 18 Mar 2011 07:18:30 -0400",
+        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+        "File_path": "seclist_thread_messages/2011_Q1/540.txt",
+        "subthreads": [
+            {
+                "id": "541",
+                "no_subthreads": 0,
+                "date": ": Fri, 18 Mar 2011 19:58:37 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/541.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "554": {
+        "title": "CVE request: kernel: netfilter & econet infoleaks",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 18 Mar 2011 20:10:41 +0300",
+        "author": ": Vasiliy Kulikov <segoon () openwall com>",
+        "File_path": "seclist_thread_messages/2011_Q1/554.txt",
+        "subthreads": [
+            {
+                "id": "565",
+                "no_subthreads": 1,
+                "date": ": Mon, 21 Mar 2011 12:35:20 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/565.txt",
+                "subthreads": [
+                    {
+                        "id": "568",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 21 Mar 2011 15:32:58 +0800",
+                        "author": ": Eugene Teo <eugene () redhat com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/568.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "562": {
+        "title": "CVE request: kernel: heap corruption in IrDA",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Sun, 20 Mar 2011 15:26:53 -0400",
+        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+        "File_path": "seclist_thread_messages/2011_Q1/562.txt",
+        "subthreads": [
+            {
+                "id": "567",
+                "no_subthreads": 2,
+                "date": ": Mon, 21 Mar 2011 12:59:53 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/567.txt",
+                "subthreads": [
+                    {
+                        "id": "580",
+                        "no_subthreads": 1,
+                        "date": ": Mon, 21 Mar 2011 19:18:58 -0400",
+                        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/580.txt",
+                        "subthreads": [
+                            {
+                                "id": "582",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 22 Mar 2011 15:24:23 +0800",
+                                "author": ": Eugene Teo <eugene () redhat com>",
+                                "File_path": "seclist_thread_messages/2011_Q1/582.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "563": {
+        "title": "CVE request: kernel: multiple issues in ROSE",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Sun, 20 Mar 2011 15:40:27 -0400",
+        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+        "File_path": "seclist_thread_messages/2011_Q1/563.txt",
+        "subthreads": [
+            {
+                "id": "566",
+                "no_subthreads": 1,
+                "date": ": Mon, 21 Mar 2011 12:47:40 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/566.txt",
+                "subthreads": [
+                    {
+                        "id": "629",
+                        "no_subthreads": 0,
+                        "date": ": Wed, 30 Mar 2011 13:26:43 -0400",
+                        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/629.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "573": {
+        "title": "Re: CVE request: kernel: a collection ofworld-writable debugfs bugs",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Mon, 21 Mar 2011 16:18:35 +0000",
+        "author": ": dan.j.rosenberg () gmail com",
+        "File_path": "seclist_thread_messages/2011_Q1/573.txt",
+        "subthreads": []
+    },
+    "583": {
+        "title": "CVE requests - kernel: irda/decnet issues",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Tue, 22 Mar 2011 15:27:24 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/583.txt",
+        "subthreads": [
+            {
+                "id": "585",
+                "no_subthreads": 0,
+                "date": ": Tue, 22 Mar 2011 06:55:48 -0400",
+                "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                "File_path": "seclist_thread_messages/2011_Q1/585.txt",
+                "subthreads": []
+            },
+            {
+                "id": "591",
+                "no_subthreads": 1,
+                "date": ": Tue, 22 Mar 2011 16:03:35 -0400 (EDT)",
+                "author": ": Josh Bressers <bressers () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/591.txt",
+                "subthreads": [
+                    {
+                        "id": "592",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 22 Mar 2011 16:29:10 -0400",
+                        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+                        "File_path": "seclist_thread_messages/2011_Q1/592.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "593": {
+        "title": "Linux kernel signal spoofing vulnerability (CVE request)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Tue, 22 Mar 2011 15:56:40 -0700",
+        "author": ": Julien Tinnes <jt () cr0 org>",
+        "File_path": "seclist_thread_messages/2011_Q1/593.txt",
+        "subthreads": [
+            {
+                "id": "595",
+                "no_subthreads": 0,
+                "date": ": Wed, 23 Mar 2011 08:42:29 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/595.txt",
+                "subthreads": []
+            },
+            {
+                "id": "625",
+                "no_subthreads": 0,
+                "date": ": Tue, 29 Mar 2011 15:32:55 -0700",
+                "author": ": Julien Tinnes <jt () cr0 org>",
+                "File_path": "seclist_thread_messages/2011_Q1/625.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "603": {
+        "title": "CVE request: kernel: two OSS fixes",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 23 Mar 2011 11:56:05 -0400",
+        "author": ": Dan Rosenberg <dan.j.rosenberg () gmail com>",
+        "File_path": "seclist_thread_messages/2011_Q1/603.txt",
+        "subthreads": [
+            {
+                "id": "612",
+                "no_subthreads": 0,
+                "date": ": Fri, 25 Mar 2011 14:07:29 +0800",
+                "author": ": Eugene Teo <eugene () redhat com>",
+                "File_path": "seclist_thread_messages/2011_Q1/612.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "615": {
+        "title": "CVE-2011-1478 kernel: gro: reset dev and skb_iff on skb reuse",
+        "CVE_id": "CVE-2011-1478",
+        "no_subthreads": 0,
+        "date": ": Mon, 28 Mar 2011 10:46:33 +0800",
+        "author": ": Eugene Teo <eugene () redhat com>",
+        "File_path": "seclist_thread_messages/2011_Q1/615.txt",
+        "subthreads": []
+    }
+}

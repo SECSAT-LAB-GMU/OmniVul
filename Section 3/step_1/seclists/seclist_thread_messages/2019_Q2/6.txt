@@ -1,0 +1,18 @@
+Heololo,
+
+A flaw was found in the Linux kernel's vfio interface implementation that permits
+violation of the user's locked memory limit. If a device is bound to a vfio driver,
+such as vfio-pci, and the local attacker is administratively granted ownership of
+the device, it may cause a system memory exhaustion and thus a denial of service (DoS).
+
+CVE-2019-3882 was allocated for this flaw.
+
+References:
+
+https://lore.kernel.org/lkml/155414977872.12780.13728555131525362206.stgit () gimli home/T/#u
+
+https://bugzilla.redhat.com/show_bug.cgi?id=1689426
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security | Senior Software Engineer
+

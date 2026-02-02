@@ -1,0 +1,503 @@
+{
+    "38": {
+        "title": "CVE request: sunxi-debug (root privilege escalation in Allwinner kernel)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Wed, 5 Oct 2016 13:45:02 -0400",
+        "author": ": David Manouchehri <david.manouchehri () riseup net>",
+        "File_path": "seclist_thread_messages/2016_Q4/38.txt",
+        "subthreads": []
+    },
+    "78": {
+        "title": "CVE-2016-5425 - Apache Tomcat packaging on RedHat-based distros - Root Privilege Escalation (affecting CentOS, Fedora, OracleLinux, RedHat etc.)",
+        "CVE_id": "CVE-2016-5425",
+        "no_subthreads": 0,
+        "date": ": Mon, 10 Oct 2016 04:32:57 -0300",
+        "author": ": Dawid Golunski <dawid () legalhackers com>",
+        "File_path": "seclist_thread_messages/2016_Q4/78.txt",
+        "subthreads": []
+    },
+    "91": {
+        "title": "CVE-2016-7039 Kernel: net: unbounded recursion in the vlan GRO processing",
+        "CVE_id": "CVE-2016-7039",
+        "no_subthreads": 1,
+        "date": ": Mon, 10 Oct 2016 23:25:55 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/91.txt",
+        "subthreads": [
+            {
+                "id": "99",
+                "no_subthreads": 0,
+                "date": ": Tue, 11 Oct 2016 22:47:00 +0530 (IST)",
+                "author": ": P J P <ppandit () redhat com>",
+                "File_path": "seclist_thread_messages/2016_Q4/99.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "118": {
+        "title": "CVE request: kernel - local DoS due to a page lock order bug in the XFS seek hole/data implementation",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 13 Oct 2016 10:07:08 -0400 (EDT)",
+        "author": ": CAI Qian <caiqian () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/118.txt",
+        "subthreads": [
+            {
+                "id": "122",
+                "no_subthreads": 0,
+                "date": ": Thu, 13 Oct 2016 12:12:27 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q4/122.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "204": {
+        "title": "CVE-2016-5195 \"Dirty COW\" Linux kernel privilege escalation vulnerability",
+        "CVE_id": "CVE-2016-5195",
+        "no_subthreads": 2,
+        "date": ": Fri, 21 Oct 2016 02:31:04 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2016_Q4/204.txt",
+        "subthreads": [
+            {
+                "id": "246",
+                "no_subthreads": 1,
+                "date": ": Wed, 26 Oct 2016 21:13:57 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2016_Q4/246.txt",
+                "subthreads": [
+                    {
+                        "id": "325",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 3 Nov 2016 15:26:54 +0000",
+                        "author": ": Steve Grubb <sgrubb () redhat com>",
+                        "File_path": "seclist_thread_messages/2016_Q4/325.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "230": {
+        "title": "Re: CVE-2016-7545 -- SELinux sandbox escape",
+        "CVE_id": "CVE-2016-7545",
+        "no_subthreads": 4,
+        "date": ": Tue, 25 Oct 2016 09:29:02 +0200",
+        "author": ": Yves-Alexis Perez <corsac () debian org>",
+        "File_path": "seclist_thread_messages/2016_Q4/230.txt",
+        "subthreads": [
+            {
+                "id": "235",
+                "no_subthreads": 0,
+                "date": ": Tue, 25 Oct 2016 11:28:09 -0400",
+                "author": ": netblue30 <netblue30 () yahoo com>",
+                "File_path": "seclist_thread_messages/2016_Q4/235.txt",
+                "subthreads": []
+            },
+            {
+                "id": "236",
+                "no_subthreads": 1,
+                "date": ": Tue, 25 Oct 2016 12:51:08 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q4/236.txt",
+                "subthreads": [
+                    {
+                        "id": "239",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 25 Oct 2016 21:18:55 +0200",
+                        "author": ": Yves-Alexis Perez <corsac () debian org>",
+                        "File_path": "seclist_thread_messages/2016_Q4/239.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "237",
+                "no_subthreads": 0,
+                "date": ": Tue, 25 Oct 2016 17:51:11 +0200",
+                "author": ": up201407890 () alunos dcc fc up pt",
+                "File_path": "seclist_thread_messages/2016_Q4/237.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "324": {
+        "title": "CVE request -- linux kernel: crypto: GPF in lrw_crypt caused by null-deref",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 3 Nov 2016 11:15:49 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/324.txt",
+        "subthreads": [
+            {
+                "id": "330",
+                "no_subthreads": 0,
+                "date": ": Fri, 4 Nov 2016 03:06:52 -0400",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/330.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "340": {
+        "title": "CVE request: linux kernel - local DoS with cgroup offline code",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 4 Nov 2016 14:17:29 -0400 (EDT)",
+        "author": ": CAI Qian <caiqian () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/340.txt",
+        "subthreads": [
+            {
+                "id": "346",
+                "no_subthreads": 0,
+                "date": ": Sat, 5 Nov 2016 11:59:56 -0400",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/346.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "347": {
+        "title": "Re: [engineering.redhat.com #426293] CVE Request - firewire driver RCE - linux 4.8",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 0,
+        "date": ": Sun, 6 Nov 2016 21:50:35 +0200",
+        "author": ": Eyal Itkin <eyal.itkin () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q4/347.txt",
+        "subthreads": []
+    },
+    "359": {
+        "title": "CVE-2016-8632 -- Linux kernel: tipc_msg_build() doesn't validate MTU that can trigger heap overflow",
+        "CVE_id": "CVE-2016-8632",
+        "no_subthreads": 1,
+        "date": ": Tue, 8 Nov 2016 13:07:43 +0800",
+        "author": ": \"tyrande000 () gmail com\" <tyrande000 () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q4/359.txt",
+        "subthreads": [
+            {
+                "id": "395",
+                "no_subthreads": 0,
+                "date": ": Fri, 11 Nov 2016 10:49:23 +0800",
+                "author": ": \"Qian Zhang\" <tyrande000 () gmail com>",
+                "File_path": "seclist_thread_messages/2016_Q4/395.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "397": {
+        "title": "CVE-2016-8645: linux kernel: net: a BUG() statement can be hit in net/ipv4/tcp_input.c",
+        "CVE_id": "CVE-2016-8645",
+        "no_subthreads": 3,
+        "date": ": Fri, 11 Nov 2016 07:51:26 -0500 (EST)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/397.txt",
+        "subthreads": [
+            {
+                "id": "399",
+                "no_subthreads": 2,
+                "date": ": Fri, 11 Nov 2016 08:24:33 -0500 (EST)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2016_Q4/399.txt",
+                "subthreads": [
+                    {
+                        "id": "435",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 16 Nov 2016 03:32:14 -0500 (EST)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2016_Q4/435.txt",
+                        "subthreads": [
+                            {
+                                "id": "546",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 30 Nov 2016 11:50:44 -0500 (EST)",
+                                "author": ": Vladis Dronov <vdronov () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q4/546.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "429": {
+        "title": "CVE-2016-8646: linux kernel - oops in shash_async_export()",
+        "CVE_id": "CVE-2016-8646",
+        "no_subthreads": 0,
+        "date": ": Tue, 15 Nov 2016 12:25:35 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/429.txt",
+        "subthreads": []
+    },
+    "489": {
+        "title": "CVE-2016-8630 kernel: kvm: x86: NULL pointer dereference duringinstruction decode",
+        "CVE_id": "CVE-2016-8630",
+        "no_subthreads": 0,
+        "date": ": Tue, 22 Nov 2016 13:16:46 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/489.txt",
+        "subthreads": []
+    },
+    "504": {
+        "title": "CVE Request: Linux: net/sctp: slab-out-of-bounds in sctp_sf_ootb",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 22 Nov 2016 10:52:44 +0100",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2016_Q4/504.txt",
+        "subthreads": [
+            {
+                "id": "509",
+                "no_subthreads": 0,
+                "date": ": Tue, 22 Nov 2016 16:59:43 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/509.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "515": {
+        "title": "Security issue in LXC (CVE-2016-8649) with additional Linux kernel implications",
+        "CVE_id": "CVE-2016-8649",
+        "no_subthreads": 0,
+        "date": ": Wed, 23 Nov 2016 10:53:20 -0600",
+        "author": ": Tyler Hicks <tyhicks () canonical com>",
+        "File_path": "seclist_thread_messages/2016_Q4/515.txt",
+        "subthreads": []
+    },
+    "523": {
+        "title": "Linux kernel: CVE-2016-8650 : Local denial of service with in key subsystem",
+        "CVE_id": "CVE-2016-8650",
+        "no_subthreads": 0,
+        "date": ": Fri, 25 Nov 2016 10:25:20 +1100",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/523.txt",
+        "subthreads": []
+    },
+    "544": {
+        "title": "cve-request: linux kernel - memory leak in xfs attribute mechanism.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 30 Nov 2016 19:10:43 +1100",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/544.txt",
+        "subthreads": [
+            {
+                "id": "545",
+                "no_subthreads": 0,
+                "date": ": Wed, 30 Nov 2016 03:32:02 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/545.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "547": {
+        "title": "CVE request: Kernel: kvm: stack memory information leakage",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 1 Dec 2016 15:48:05 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/547.txt",
+        "subthreads": [
+            {
+                "id": "559",
+                "no_subthreads": 0,
+                "date": ": Thu, 1 Dec 2016 14:13:14 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/559.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "556": {
+        "title": "CVE Request: Linux: net: out-of-bounds due do a signedness issue when defragging ipv6",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 1 Dec 2016 17:23:31 +0100",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2016_Q4/556.txt",
+        "subthreads": [
+            {
+                "id": "560",
+                "no_subthreads": 0,
+                "date": ": Thu, 1 Dec 2016 14:15:46 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/560.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "562": {
+        "title": "CVE request: Kernel: kvm: out of bounds memory access via vcpu_id",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Fri, 2 Dec 2016 12:13:14 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/562.txt",
+        "subthreads": [
+            {
+                "id": "567",
+                "no_subthreads": 0,
+                "date": ": Fri, 2 Dec 2016 13:01:32 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/567.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "573": {
+        "title": "CVE Request: Linux: signed overflows for SO_{SND|RCV}BUFFORCE",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 3 Dec 2016 00:29:12 +0100",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2016_Q4/573.txt",
+        "subthreads": [
+            {
+                "id": "574",
+                "no_subthreads": 0,
+                "date": ": Fri, 2 Dec 2016 19:24:09 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/574.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "575": {
+        "title": "CVE request: -- Linux kernel: ALSA: use-after-free in,kill_fasync",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 3 Dec 2016 09:20:09 +0800",
+        "author": ": Baozeng Ding <sploving1 () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q4/575.txt",
+        "subthreads": [
+            {
+                "id": "576",
+                "no_subthreads": 0,
+                "date": ": Fri, 2 Dec 2016 22:20:08 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/576.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "577": {
+        "title": "CVE Request: -- Linux kernel: double free in netlink_dump",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sat, 3 Dec 2016 12:22:43 +0800",
+        "author": ": Baozeng Ding <sploving1 () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q4/577.txt",
+        "subthreads": [
+            {
+                "id": "580",
+                "no_subthreads": 0,
+                "date": ": Sun, 4 Dec 2016 14:45:58 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/580.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "607": {
+        "title": "CVE-2016-8655 Linux af_packet.c race condition (local root)",
+        "CVE_id": "CVE-2016-8655",
+        "no_subthreads": 4,
+        "date": ": Tue, 6 Dec 2016 11:50:57 +0900",
+        "author": ": Philip Pettersson <philip.pettersson () gmail com>",
+        "File_path": "seclist_thread_messages/2016_Q4/607.txt",
+        "subthreads": [
+            {
+                "id": "621",
+                "no_subthreads": 3,
+                "date": ": Wed, 7 Dec 2016 15:03:29 +0900",
+                "author": ": Philip Pettersson <philip.pettersson () gmail com>",
+                "File_path": "seclist_thread_messages/2016_Q4/621.txt",
+                "subthreads": [
+                    {
+                        "id": "623",
+                        "no_subthreads": 2,
+                        "date": ": Wed, 7 Dec 2016 14:15:15 +0100",
+                        "author": ": Hanno B\u00f6ck <hanno () hboeck de>",
+                        "File_path": "seclist_thread_messages/2016_Q4/623.txt",
+                        "subthreads": [
+                            {
+                                "id": "624",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 7 Dec 2016 14:37:58 +0100",
+                                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                                "File_path": "seclist_thread_messages/2016_Q4/624.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "625",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 7 Dec 2016 08:48:35 -0500",
+                                "author": ": Brad Spengler <spender () grsecurity net>",
+                                "File_path": "seclist_thread_messages/2016_Q4/625.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "640": {
+        "title": "CVE request: Linux panic on fragemented IPv6 traffic (icmp6_send)",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Thu, 8 Dec 2016 16:21:26 +0100",
+        "author": ": Florian Pritz <bluewind () xinu at>",
+        "File_path": "seclist_thread_messages/2016_Q4/640.txt",
+        "subthreads": [
+            {
+                "id": "641",
+                "no_subthreads": 0,
+                "date": ": Thu, 8 Dec 2016 12:19:17 -0500",
+                "author": ": <cve-assign () mitre org>",
+                "File_path": "seclist_thread_messages/2016_Q4/641.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "644": {
+        "title": "Linux Kernel use-after-free in SCSI generic device interface",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 2,
+        "date": ": Fri, 9 Dec 2016 00:14:15 +0100",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2016_Q4/644.txt",
+        "subthreads": [
+            {
+                "id": "779",
+                "no_subthreads": 1,
+                "date": ": Fri, 30 Dec 2016 14:46:00 +0100",
+                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                "File_path": "seclist_thread_messages/2016_Q4/779.txt",
+                "subthreads": [
+                    {
+                        "id": "781",
+                        "no_subthreads": 0,
+                        "date": ": Fri, 30 Dec 2016 12:57:19 -0500",
+                        "author": ": <cve-assign () mitre org>",
+                        "File_path": "seclist_thread_messages/2016_Q4/781.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "684": {
+        "title": "CVE-2016-9588 Kernel: kvm: nVMX: uncaught software exceptions in L1 guest lead to DoS",
+        "CVE_id": "CVE-2016-9588",
+        "no_subthreads": 0,
+        "date": ": Thu, 15 Dec 2016 12:27:19 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q4/684.txt",
+        "subthreads": []
+    }
+}

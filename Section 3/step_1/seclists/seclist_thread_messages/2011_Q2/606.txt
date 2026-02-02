@@ -1,0 +1,7 @@
+Hi,
+please assign CVE IDs for 
+http://permalink.gmane.org/gmane.linux.kernel/1153884
+
+Cheers,
+        Moritz
+

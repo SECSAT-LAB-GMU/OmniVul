@@ -1,0 +1,21 @@
+
+On 02/25/2011 07:54 AM, Kees Cook wrote:
+
+
+Hi,
+
+While not as bad as CVE-2010-4661 (unprivileged module loading)
+I'd like to get a CVE assigned for this issue for tracking purposes:
+https://lkml.org/lkml/2011/2/24/203
+
+Basically "ifconfig $module" will load any module as long as the process
+has CAP_NET_ADMIN (ignoring CAP_SYS_MODULE).
+
+
+
+Please use CVE-2011-1019.
+
+Eugene
+--
+Eugene Teo / Red Hat Security Response Team
+

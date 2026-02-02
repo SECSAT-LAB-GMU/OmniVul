@@ -1,0 +1,14 @@
+
+On 04/21/2011 04:52 AM, Josh Bressers wrote:
+
+
+Please use CVE-2011-1598
+
+
+
+Updated patch: http://permalink.gmane.org/gmane.linux.network/192974
+
+Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

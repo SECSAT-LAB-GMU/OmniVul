@@ -1,0 +1,10 @@
+
+A missing socket check in can/bcm release
+
+Proposed patch: http://permalink.gmane.org/gmane.linux.network/192898
+https://bugzilla.redhat.com/show_bug.cgi?id=698057
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

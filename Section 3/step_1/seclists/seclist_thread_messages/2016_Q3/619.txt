@@ -1,0 +1,13 @@
+On 26/09/16 17:54, Jakub Wilk wrote:
+
+Are there any use cases for TIOCSTI other than producing exploits?
+
+
+
+Yes.  Admitedly a long time ago, but I used to use it to run commands in
+a nominated shell (window).   In some ways it was a pre-cursor to what
+now tends to be done by dbus, but TIOCSTI does occasionally have uses
+other than producing exploits.
+
+jch
+

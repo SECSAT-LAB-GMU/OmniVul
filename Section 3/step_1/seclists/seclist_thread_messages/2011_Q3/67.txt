@@ -1,0 +1,12 @@
+tc_fill_qdisc() should not be called for builtin qdisc, or it
+dereference a NULL pointer to get device ifindex.
+
+References:
+http://kerneltrap.org/mailarchive/linux-netdev/2010/5/21/6277805
+https://bugzilla.redhat.com/CVE-2011-2525
+
+Upstream commit:
+http://git.kernel.org/linus/53b0f08042f04813cd1a7473dacd3edfacb28eb3
+
+Thanks, Eugene
+

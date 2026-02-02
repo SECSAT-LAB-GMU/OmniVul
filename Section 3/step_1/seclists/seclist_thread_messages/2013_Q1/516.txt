@@ -1,0 +1,19 @@
+On 02/27/2013 03:00 PM, Jason A. Donenfeld wrote:
+
+it takes your brain less than a single cycle to realize this or
+that memory corruption can lead to priv escalation. 
+
+
+
+Even if this were true, it takes much more than a single cycle to write
+up a decent security report that can be understood by other people.
+Communication takes time and effort.  Good communication takes even more
+time and effort.
+
+I want this work to happen as much as you do, but it doesn't help to
+trivialize the work you are asking others to do.
+
+        --dkg
+
+
+signature.asc

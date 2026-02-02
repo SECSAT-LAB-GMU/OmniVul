@@ -1,0 +1,12 @@
+A flaw was found in the way segmentation was performed on skbs
+originated from vhost-net when zerocopy feature was enabled.
+
+This flaw could be potentially used to leak kernel memory.
+
+Upstream patch submission:
+http://marc.info/?l=linux-netdev&m=139446896921968&w=2
+
+-- 
+Petr Matousek / Red Hat Security Response Team
+PGP: 0xC44977CA 8107 AF16 A416 F9AF 18F3  D874 3E78 6F42 C449 77CA
+

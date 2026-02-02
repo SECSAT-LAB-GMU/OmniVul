@@ -1,0 +1,9 @@
+Hello,
+
+A patch was developed by Eric Dumazet and accepted in the upstream:
+
+https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ac6e780070e30e4c35bd395acfe9191e6268bdd3
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

@@ -1,0 +1,12 @@
+Hi,
+
+Eric Dumazet recently fixed a local DOS in commit 77c1090 "net: fix
+infinite loop in __skb_recv_datagram()"? An unprivileged local user
+can easily trigger this bug and lock-up the system.
+
+A reproducer is attached.
+
+Thanks,
+Mathias
+
+sock_lock.c

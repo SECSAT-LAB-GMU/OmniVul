@@ -1,0 +1,28 @@
+
+On 04/21/2011 07:45 AM, Eugene Teo wrote:
+
+
+On 04/21/2011 04:52 AM, Josh Bressers wrote:
+
+
+Please use CVE-2011-1598
+
+
+
+Updated patch: http://permalink.gmane.org/gmane.linux.network/192974
+
+
+
+
+Correction: s/Updated patch//. This patch is for a similar issue but for 
+
+can/raw release. I rather group these two patches with CVE-2011-1598 
+
+than to have another name assigned for it. But I'm fine either way.
+
+
+
+Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

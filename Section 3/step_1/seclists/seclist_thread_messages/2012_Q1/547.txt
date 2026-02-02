@@ -1,0 +1,9 @@
+A partner reported that frames with priority tags only (VID=0 in the
+frame), could cause a panic on some drivers. It affects the Linux kernel
+as shipped with Red Hat Enterprise Linux 6 due to incorrect backporting
+of upstream patches. It does not affect the upstream kernel.
+
+https://bugzilla.redhat.com/CVE-2011-3593
+
+Thanks, Eugene
+

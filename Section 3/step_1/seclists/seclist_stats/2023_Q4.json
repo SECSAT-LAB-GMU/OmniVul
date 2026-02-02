@@ -1,0 +1,65 @@
+{
+    "14": {
+        "title": "[CVE-2023-42754] null pointer dereference in Linux kernel ipv4 stack",
+        "CVE_id": "CVE-2023-42754",
+        "no_subthreads": 2,
+        "date": ": Mon, 2 Oct 2023 12:53:20 -0700",
+        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q4/14.txt",
+        "subthreads": [
+            {
+                "id": "15",
+                "no_subthreads": 1,
+                "date": ": Mon, 2 Oct 2023 22:21:06 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2023_Q4/15.txt",
+                "subthreads": [
+                    {
+                        "id": "16",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 2 Oct 2023 13:27:51 -0700",
+                        "author": ": Kyle Zeng <zengyhkyle () gmail com>",
+                        "File_path": "seclist_thread_messages/2023_Q4/16.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "71": {
+        "title": "Xen Security Advisory 441 v4 (CVE-2023-34324) - Possible deadlock in Linux kernel event handling",
+        "CVE_id": "CVE-2023-34324",
+        "no_subthreads": 0,
+        "date": ": Tue, 10 Oct 2023 12:06:01 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2023_Q4/71.txt",
+        "subthreads": []
+    },
+    "106": {
+        "title": "CVE-2023-5178: Linux NVMe-oF/TCP Driver - UAF in `nvmet_tcp_free_crypto`",
+        "CVE_id": "CVE-2023-5178",
+        "no_subthreads": 0,
+        "date": ": Sun, 15 Oct 2023 18:42:40 +0300",
+        "author": ": Alon Zahavi <zahavi.alon () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q4/106.txt",
+        "subthreads": []
+    },
+    "316": {
+        "title": "CVE-2023-6817: Linux kernel: use-after-free in nf_tables",
+        "CVE_id": "CVE-2023-6817",
+        "no_subthreads": 1,
+        "date": ": Fri, 22 Dec 2023 10:16:24 +0800",
+        "author": ": Xingyuan Mo <hdthky0 () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q4/316.txt",
+        "subthreads": [
+            {
+                "id": "323",
+                "no_subthreads": 0,
+                "date": ": Sat, 23 Dec 2023 06:44:25 +0900",
+                "author": ": Dominique Martinet <asmadeus () codewreck org>",
+                "File_path": "seclist_thread_messages/2023_Q4/323.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

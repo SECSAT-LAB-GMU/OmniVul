@@ -1,0 +1,19 @@
+Hello Team,
+
+A flaw was found in the Linux kernel. A denial of service problem is
+identified if an extent tree is corrupted in a crafted ext4 filesystem in
+fs/ext4/extents.c in ext4_es_cache_extent. Fabricating an integer overflow,
+A local attacker with a special user privilege may cause a system crash
+problem which can lead to an availability threat.
+
+'CVE-2021-3428' was assigned by Red Hat.
+
+References:
+https://bugzilla.suse.com/show_bug.cgi?id=1173485
+
+Regards,
+..
+Rohit Keshri / Red Hat Product Security Team
+PGP: OX01BC 858A 07B7 15C8 EF33 BFE2 2EEB 0CBC 84A4 4C2D
+
+secalert () redhat com for urgent response

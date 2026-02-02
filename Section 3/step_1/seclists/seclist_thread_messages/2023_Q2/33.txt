@@ -1,0 +1,18 @@
+
+* Steffen Nurpmeso <steffen () sdaoden eu>, 2023-04-16 22:57:
+
+
+have you verified that they do not use isatty(3)
+
+
+
+
+I'm pretty sure they do. But isatty(3) is implemented using the TCGETS 
+
+ioctl, so that doesn't help.
+
+
+
+--
+Jakub Wilk
+

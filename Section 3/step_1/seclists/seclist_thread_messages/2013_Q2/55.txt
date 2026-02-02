@@ -1,0 +1,11 @@
++-- On Mon, 8 Apr 2013, Dan Carpenter wrote --+
+| Oh, you're saying that access_ok() can't fail.  That's true on some
+| arches, and not on others.
+
+  Yep. I see.
+
+Thanks for confirming.
+--
+Prasad J Pandit / Red Hat Security Response Team
+DB7A 84C5 D3F9 7CD1 B5EB  C939 D048 7860 3655 602B
+

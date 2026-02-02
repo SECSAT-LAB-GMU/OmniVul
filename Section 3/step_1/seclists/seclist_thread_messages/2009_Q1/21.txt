@@ -1,0 +1,10 @@
+There is a fcntl/close race in the Linux kernel that can be abused by
+a local, unprivileged user to cause a denial of service.
+
+The issue was fixed in upstream commit c4d7c402b788b73dc24f1e54a57f89d3dc5eb7bc.
+
+More details can be found at:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-4307
+
+Thanks, Eugene
+

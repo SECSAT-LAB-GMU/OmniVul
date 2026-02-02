@@ -1,0 +1,27 @@
+So we know what is holding the pid namespace reference.
+
+Additional thoughts.
+
+Does echo 3 > /proc/sys/vm/drop_caches clear up the issue?
+
+
+
+No.
+
+
+Is there a corresponding task_struct leak?
+
+
+
+Yes.
+
+
+I don't have much of a clue or much concern as this seems fixed in later kernels but I am happy to suggest things to 
+look for to help narrow this down.
+
+
+
+I'm helping to provide more information.
+
+Thanks, Eugene
+

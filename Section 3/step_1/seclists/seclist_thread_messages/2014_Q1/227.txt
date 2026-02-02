@@ -1,0 +1,19 @@
+On Mon, 03 Feb 2014 03:45:27 +0000 "Solar Designer" wrote:
+
+
+Rather than post via Gmane's NNTP gateway, can you please reply
+to this message with the files MIME-attached, or include the files
+in message body with some sort of delimiters (e.g. Phrack-style)?
+
+Thanks,
+
+Alexander
+
+
+
+Hushmail screws up replies so this will likely not show up in the
+right hierarchy. Nonetheless, files promised attached.
+
+--mancha
+Makefile
+nox32recvmmsg.c

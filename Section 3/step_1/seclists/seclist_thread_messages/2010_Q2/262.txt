@@ -1,0 +1,13 @@
+Using the EXT4_IOC_MOVE_EXT ioctl, it is possible to overwrite the 
+
+contents of an append-only donor file.
+
+
+
+http://git.kernel.org/linus/1f5a81e41f8b1a782c68d3843e9ec1bfaadf7d72
+https://bugzilla.redhat.com/show_bug.cgi?id=601006
+
+Thanks, Eugene
+--
+main(i) { putchar(182623909 >> (i-1) * 5&31|!!(i<7)<<6) && main(++i); }
+

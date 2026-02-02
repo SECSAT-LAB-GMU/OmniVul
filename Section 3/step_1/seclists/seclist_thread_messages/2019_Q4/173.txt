@@ -1,0 +1,15 @@
+Hi, there some info-leaks vulnerabilities in Linux kernel USB drivers that
+can be triggered by an external malicious USB device.
+
+Description:
+
+In the Linux kernel through 5.4.6, there are some information leaks of
+uninitialized memory to a USB device in the
+drivers/net/can/usb/kvaser_usb/kvaser_usb_leaf.c driver.
+
+More details in
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19947 .
+
+Credit:
+
+This issue was discovered by the ADLab of venustech.

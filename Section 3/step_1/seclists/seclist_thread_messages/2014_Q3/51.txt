@@ -1,0 +1,10 @@
+On Sat, Jul 05, 2014 at 09:58:15PM +0200, Yves-Alexis Perez wrote:
+
+And the system is usable after that.
+
+
+
+Yet both are vulnerable, with privilege escalation likely possible.
+
+Alexander
+

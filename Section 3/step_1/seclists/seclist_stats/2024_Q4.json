@@ -1,0 +1,55 @@
+{
+    "42": {
+        "title": "CVE-2024-36905: Linux kernel: Divide-by-zero on shutdown of TCP_SYN_RECV sockets",
+        "CVE_id": "CVE-2024-36905",
+        "no_subthreads": 4,
+        "date": ": Tue, 29 Oct 2024 13:03:43 +0000",
+        "author": ": Joel GUITTET <jguittet.opensource () witekio com>",
+        "File_path": "seclist_thread_messages/2024_Q4/42.txt",
+        "subthreads": [
+            {
+                "id": "44",
+                "no_subthreads": 3,
+                "date": ": Tue, 29 Oct 2024 21:09:01 -0500",
+                "author": ": Jacob Bachmeyer <jcb62281 () gmail com>",
+                "File_path": "seclist_thread_messages/2024_Q4/44.txt",
+                "subthreads": [
+                    {
+                        "id": "83",
+                        "no_subthreads": 2,
+                        "date": ": Tue, 12 Nov 2024 15:58:53 +0100",
+                        "author": ": Solar Designer <solar () openwall com>",
+                        "File_path": "seclist_thread_messages/2024_Q4/83.txt",
+                        "subthreads": [
+                            {
+                                "id": "84",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 12 Nov 2024 16:12:18 +0100",
+                                "author": ": Clemens Lang <cllang () redhat com>",
+                                "File_path": "seclist_thread_messages/2024_Q4/84.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "85",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 12 Nov 2024 16:45:35 +0000",
+                                "author": ": Joel GUITTET <jguittet.opensource () witekio com>",
+                                "File_path": "seclist_thread_messages/2024_Q4/85.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "154": {
+        "title": "Xen Security Advisory 465 v3 (CVE-2024-53240) - Backend can crash Linux netfront",
+        "CVE_id": "CVE-2024-53240",
+        "no_subthreads": 0,
+        "date": ": Tue, 17 Dec 2024 12:18:42 +0000",
+        "author": ": Xen.org security team <security () xen org>",
+        "File_path": "seclist_thread_messages/2024_Q4/154.txt",
+        "subthreads": []
+    }
+}

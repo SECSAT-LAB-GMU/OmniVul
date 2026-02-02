@@ -1,0 +1,14 @@
+Hello.
+
+Do anyone try this PoC? On my side it's not working on 5.4, 5.10 and 5.15 with KASAN on. KASAN is quiet.  Any ideas?
+
+27.10.2022, 21:05, "Thadeu Lima de Souza Cascardo" <cascardo () canonical com>:
+
+On Tue, Oct 18, 2022 at 01:59:51PM -0300, Thadeu Lima de Souza Cascardo wrote:
+
+    Sorry about posting this late, but here it is.
+    poc.c
+    Cascardo.
+
+
+

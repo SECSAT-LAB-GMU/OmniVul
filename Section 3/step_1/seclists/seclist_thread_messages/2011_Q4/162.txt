@@ -1,0 +1,28 @@
+On Wed, Oct 26, 2011 at 10:11 -0600, Kurt Seifried wrote:
+
+Please use CVE-2011-4080 for this issue.
+
+
+
+Why does it worth CVE?  
+
+
+
+This allows an attacker to bypass a security boundary. The root user is
+able to gain privileges they shouldn't have.
+
+
+
+You have much bigger problems if you rely on the security boundaries
+defined by LXC.  As I've already showed, LXC root may execute arbitrary
+code as the full root in the root namespaces.
+
+(I assume we're talking about the mainline kernel, not OpenVZ or any
+other kernel fork/patchset/etc.)
+
+Thanks,
+
+-- 
+Vasiliy Kulikov
+http://www.openwall.com - bringing security into open computing environments
+

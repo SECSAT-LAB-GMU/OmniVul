@@ -1,0 +1,14 @@
+
+re: http://seclists.org/fulldisclosure/2011/Jan/39
+
+
+Just in case someone tries to request a CVE name for this, I'm not 
+
+requesting for one because if you need CAP_SYS_ADMIN capability to 
+
+exploit this, you are already privileged.
+
+
+
+Thanks, Eugene
+

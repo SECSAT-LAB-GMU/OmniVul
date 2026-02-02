@@ -1,0 +1,15 @@
+On Thu, Mar 19, 2009 at 1:41 AM, Michael K. Johnson <johnsonm () rpath com> wrote:
+
+On Tue, Mar 17, 2009 at 08:39:33PM -0400, Steven M. Christey wrote:
+
+[...]
+
+In the 2.6.27.y stable releases, this affects 2.6.27.13 and earlier.
+In the 2.6.28.y stable releases, this affects 2.6.28.2 and earlier.
+
+
+
+The problem occurs between upstream commits 16dbc6c96163 and 3632dee2f8b8.
+
+Thanks, Eugene
+

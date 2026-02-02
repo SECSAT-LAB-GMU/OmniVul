@@ -1,0 +1,15 @@
+Hello,
+
+It appeared that there is another reproducer for CVE-2018-1092 ("kernel:
+NULL pointer dereference in ext4/mballoc.c:ext4_process_freed_data() when
+mounting crafted ext4 image") which possibly affects a wider range of
+systems (than a previous one):
+
+https://bugzilla.kernel.org/show_bug.cgi?id=199275
+
+It was verified that a crash caused by this reproducer (88.img) is fixed
+by the same upstream commit 8e4b5eae5decd.
+
+Best regards,
+Vladis Dronov | Red Hat, Inc. | Product Security Engineer
+

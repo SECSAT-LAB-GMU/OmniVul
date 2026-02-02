@@ -1,0 +1,19 @@
+Credit: Matt McCutchen. The kernel allows processes to access the 
+
+internal ".reiserfs_priv" directory at the top of a reiserfs filesystem 
+
+which is used to store xattrs. Permissions are not enforced in that 
+
+tree, so unprivileged users can view and potentially modify the xattrs 
+
+on arbitrary files.
+
+
+
+CERT/CC (http://www.cert.org/), report ID VRF#G7I2H94M
+
+https://bugzilla.redhat.com/show_bug.cgi?id=568041
+http://marc.info/?l=linux-kernel&m=127076012022155&w=2
+
+Thanks, Eugene
+

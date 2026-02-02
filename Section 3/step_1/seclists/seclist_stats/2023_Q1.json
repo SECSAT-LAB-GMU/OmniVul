@@ -1,0 +1,206 @@
+{
+    "16": {
+        "title": "CVE-2023-0122: Linux kernel: Pre-Auth Remote DoS in NVMe",
+        "CVE_id": "CVE-2023-0122",
+        "no_subthreads": 4,
+        "date": ": Thu, 12 Jan 2023 16:12:30 +0200",
+        "author": ": Tal Lossos <tallossos () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q1/16.txt",
+        "subthreads": [
+            {
+                "id": "17",
+                "no_subthreads": 3,
+                "date": ": Thu, 12 Jan 2023 18:10:23 +0100",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2023_Q1/17.txt",
+                "subthreads": [
+                    {
+                        "id": "18",
+                        "no_subthreads": 2,
+                        "date": ": Thu, 12 Jan 2023 13:24:38 -0600",
+                        "author": ": John Helmert III <ajak () gentoo org>",
+                        "File_path": "seclist_thread_messages/2023_Q1/18.txt",
+                        "subthreads": [
+                            {
+                                "id": "19",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 13 Jan 2023 11:17:00 +0100",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2023_Q1/19.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "38",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 18 Jan 2023 09:00:20 +0100",
+                                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                                "File_path": "seclist_thread_messages/2023_Q1/38.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "20": {
+        "title": "CVE-2023-0179: Linux kernel stack buffer overflow in nftables: PoC and writeup",
+        "CVE_id": "CVE-2023-0179",
+        "no_subthreads": 2,
+        "date": ": Fri, 13 Jan 2023 16:22:47 +0100",
+        "author": ": Davide Ornaghi <d.ornaghi97 () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q1/20.txt",
+        "subthreads": [
+            {
+                "id": "22",
+                "no_subthreads": 0,
+                "date": ": Fri, 13 Jan 2023 18:30:16 +0100",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2023_Q1/22.txt",
+                "subthreads": []
+            },
+            {
+                "id": "111",
+                "no_subthreads": 0,
+                "date": ": Thu, 23 Feb 2023 16:01:45 +0800",
+                "author": ": butt3rflyh4ck <butterflyhuangxx () gmail com>",
+                "File_path": "seclist_thread_messages/2023_Q1/111.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "81": {
+        "title": "CVE-2023-0045: Linux Kernel: Bypassing Spectre-BTI User Space Mitigations",
+        "CVE_id": "CVE-2023-0045",
+        "no_subthreads": 2,
+        "date": ": Fri, 3 Feb 2023 13:11:01 -0500",
+        "author": ": Rafael Correa De Ysasi <rcorreadeysasi () chromium org>",
+        "File_path": "seclist_thread_messages/2023_Q1/81.txt",
+        "subthreads": [
+            {
+                "id": "82",
+                "no_subthreads": 1,
+                "date": ": Fri, 3 Feb 2023 10:59:43 -0800",
+                "author": ": Rodrigo Branco <rodrigo () kernelhacking com>",
+                "File_path": "seclist_thread_messages/2023_Q1/82.txt",
+                "subthreads": [
+                    {
+                        "id": "88",
+                        "no_subthreads": 0,
+                        "date": ": Sat, 4 Feb 2023 14:51:30 -0600",
+                        "author": ": Rodrigo Branco <rodrigo () kernelhacking com>",
+                        "File_path": "seclist_thread_messages/2023_Q1/88.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "123": {
+        "title": "CVE-2023-1079: Linux Kernel: Use-After-Free in asus_kbd_backlight_set()",
+        "CVE_id": "CVE-2023-1079",
+        "no_subthreads": 0,
+        "date": ": Wed, 1 Mar 2023 16:06:03 +0100",
+        "author": ": Pietro Borrello <borrello () diag uniroma1 it>",
+        "File_path": "seclist_thread_messages/2023_Q1/123.txt",
+        "subthreads": []
+    },
+    "124": {
+        "title": "CVE-2023-1076: Linux Kernel: Type Confusion hardcodes tuntap socket UID to root",
+        "CVE_id": "CVE-2023-1076",
+        "no_subthreads": 0,
+        "date": ": Wed, 1 Mar 2023 16:13:11 +0100",
+        "author": ": Pietro Borrello <borrello () diag uniroma1 it>",
+        "File_path": "seclist_thread_messages/2023_Q1/124.txt",
+        "subthreads": []
+    },
+    "125": {
+        "title": "CVE-2023-1075 - Linux Kernel: Type Confusion in tls_is_tx_ready()",
+        "CVE_id": "CVE-2023-1075",
+        "no_subthreads": 0,
+        "date": ": Wed, 1 Mar 2023 16:23:54 +0100",
+        "author": ": Pietro Borrello <borrello () diag uniroma1 it>",
+        "File_path": "seclist_thread_messages/2023_Q1/125.txt",
+        "subthreads": []
+    },
+    "126": {
+        "title": "CVE-2023-1077: Linux kernel: Type confusion in pick_next_rt_entity()",
+        "CVE_id": "CVE-2023-1077",
+        "no_subthreads": 0,
+        "date": ": Wed, 1 Mar 2023 16:32:42 +0100",
+        "author": ": Pietro Borrello <borrello () diag uniroma1 it>",
+        "File_path": "seclist_thread_messages/2023_Q1/126.txt",
+        "subthreads": []
+    },
+    "128": {
+        "title": "Linux kernel: CVE-2023-1118: UAF vulnerabilities in \"drivers/media/rc\" directory",
+        "CVE_id": "CVE-2023-1118",
+        "no_subthreads": 0,
+        "date": ": Thu, 2 Mar 2023 08:56:46 +0800 (GMT+08:00)",
+        "author": ": duoming () zju edu cn",
+        "File_path": "seclist_thread_messages/2023_Q1/128.txt",
+        "subthreads": []
+    },
+    "140": {
+        "title": "CVE-2023-1032 - Linux kernel io_uring IORING_OP_SOCKET double free",
+        "CVE_id": "CVE-2023-1032",
+        "no_subthreads": 0,
+        "date": ": Mon, 13 Mar 2023 17:06:10 -0300",
+        "author": ": Thadeu Lima de Souza Cascardo <cascardo () canonical com>",
+        "File_path": "seclist_thread_messages/2023_Q1/140.txt",
+        "subthreads": []
+    },
+    "162": {
+        "title": "flatpak: CVE-2023-28100: TIOCLINUX can send commands outside sandbox if running on a virtual console",
+        "CVE_id": "CVE-2023-28100",
+        "no_subthreads": 0,
+        "date": ": Fri, 17 Mar 2023 09:56:55 +0000",
+        "author": ": Simon McVittie <smcv () debian org>",
+        "File_path": "seclist_thread_messages/2023_Q1/162.txt",
+        "subthreads": []
+    },
+    "200": {
+        "title": "CVE-2023-28464: Linux: Bluetooth: hci_conn_cleanup function has double free",
+        "CVE_id": "CVE-2023-28464",
+        "no_subthreads": 4,
+        "date": ": Tue, 28 Mar 2023 08:00:00 +0800",
+        "author": ": Zhenghan Wang <wzhmmmmm () gmail com>",
+        "File_path": "seclist_thread_messages/2023_Q1/200.txt",
+        "subthreads": [
+            {
+                "id": "201",
+                "no_subthreads": 3,
+                "date": ": Tue, 28 Mar 2023 16:00:22 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2023_Q1/201.txt",
+                "subthreads": [
+                    {
+                        "id": "203",
+                        "no_subthreads": 2,
+                        "date": ": Tue, 28 Mar 2023 20:22:30 +0000",
+                        "author": ": Seth Arnold <seth.arnold () canonical com>",
+                        "File_path": "seclist_thread_messages/2023_Q1/203.txt",
+                        "subthreads": [
+                            {
+                                "id": "204",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 28 Mar 2023 22:41:49 +0200",
+                                "author": ": Solar Designer <solar () openwall com>",
+                                "File_path": "seclist_thread_messages/2023_Q1/204.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "205",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 28 Mar 2023 21:08:46 +0000",
+                                "author": ": Seth Arnold <seth.arnold () canonical com>",
+                                "File_path": "seclist_thread_messages/2023_Q1/205.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

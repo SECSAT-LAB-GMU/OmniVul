@@ -1,0 +1,18 @@
+On 2022-05-26 18:44:38 +0200 (+0200), Norbert Slusarek wrote:
+[...]
+
+Overall, as a researcher I would prefer having a way just to
+inform distros of a bug, *without* being subject to these
+requirements.
+
+
+
+Problem is, at least some of the distribution representatives don't
+want to be privy to indefinitely secret information like exploits,
+as that's also a liability for them. They're willing to tolerate it
+for a brief period, but don't wish to be responsible for keeping
+your secret forever.
+-- 
+Jeremy Stanley
+
+signature.asc

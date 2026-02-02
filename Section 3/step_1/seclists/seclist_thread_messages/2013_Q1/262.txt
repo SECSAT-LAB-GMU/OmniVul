@@ -1,0 +1,15 @@
+Access to /dev/cpu/*/msr was protected only using filesystem checks. A
+local uid 0 (root) user with all capabilities dropped could use this
+flaw to execute arbitrary code in kernel mode.
+
+Upstream commit:
+http://git.kernel.org/?p=linux/kernel/git/torvalds/linux.git;a=commitdiff;h=c903f0456bc69176912dee6dd25c6a66ee1aed00
+
+References:
+https://bugzilla.redhat.com/show_bug.cgi?id=908693
+http://grsecurity.net/~spender/msr32.c
+
+Thanks,
+-- 
+Petr Matousek / Red Hat Security Response Team
+

@@ -1,0 +1,21 @@
+On Sun, Nov 05, 2017 at 01:58:33PM +0100, up201407890 () alunos dcc fc up pt wrote:
+
+Here's a video
+
+
+
+This is a mailing list.
+
+
+I may write a more detailed write-up if people seem interested. :)
+
+
+
+A write-up included (at least) in the message itself would have been far
+more appropriate for oss-security.
+
+I appreciate you having included a summary, yet I feel we need to
+actively discourage video-mostly postings - hence this follow-up.
+
+Alexander
+

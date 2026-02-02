@@ -1,0 +1,22 @@
+
+
+Does affected code have to be in the main K.O repo or can it be in any
+of the other git kernel repos to get a CVE #?
+
+We have least one product possible affected in
+arch/arm/mach-omap2/debobs.c but this file does not exist in K.O, maybe
+somewhere else (our paper trail on this is coming up cold so I don't
+know where is came from).
+
+- Armin
+
+On 02/22/2011 03:01 AM, Josh Bressers wrote:
+
+Do we know the affected versions? This probably won't be 20 IDs,
+but I suspect it won't be one either.
+
+Thanks.
+
+
+
+

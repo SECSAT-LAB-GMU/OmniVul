@@ -1,0 +1,13 @@
+Hi all,
+
+Since a working exploit has been published already
+(https://github.com/c0d3z3r0/sudo-CVE-2017-1000367), please find our
+Sudoer-to-root exploit (Linux_sudo_CVE-2017-1000367.c) attached to this
+mail. Thank you very much!
+
+With best regards,
+
+-- 
+the Qualys Security Advisory team
+
+Linux_sudo_CVE-2017-1000367.c

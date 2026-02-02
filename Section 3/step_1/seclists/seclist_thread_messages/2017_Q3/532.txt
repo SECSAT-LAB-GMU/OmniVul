@@ -1,0 +1,10 @@
+This certainly does not answer to the original question, but upstream should 
+consider to do something like ffmpeg does here:
+https://www.ffmpeg.org/security.html
+
+I guess this would be benefit for all.
+
+-- 
+Agostino Sarubbo
+Gentoo Linux Developer
+

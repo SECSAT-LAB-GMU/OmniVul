@@ -1,0 +1,670 @@
+{
+    "36": {
+        "title": "CVE-2016-5011: util-linux: Extended partition loop in MBR partition table leads to DoS",
+        "CVE_id": "CVE-2016-5011",
+        "no_subthreads": 4,
+        "date": ": Mon, 11 Jul 2016 12:11:43 +0200",
+        "author": ": Cedric Buissart <cbuissar () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/36.txt",
+        "subthreads": [
+            {
+                "id": "37",
+                "no_subthreads": 3,
+                "date": ": Mon, 11 Jul 2016 12:51:57 +0200",
+                "author": ": Hanno B\u00f6ck <hanno () hboeck de>",
+                "File_path": "seclist_thread_messages/2016_Q3/37.txt",
+                "subthreads": [
+                    {
+                        "id": "38",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 11 Jul 2016 13:32:18 +0200",
+                        "author": ": Cedric Buissart <cbuissar () redhat com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/38.txt",
+                        "subthreads": [
+                            {
+                                "id": "40",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 11 Jul 2016 17:19:23 +0200",
+                                "author": ": Florian Weimer <fweimer () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/40.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "49",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 12 Jul 2016 17:20:57 +0200",
+                                "author": ": Cedric Buissart <cbuissar () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/49.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "44": {
+        "title": "CVE-2016-5389: linux kernel - challange ack information leak.",
+        "CVE_id": "CVE-2016-5389",
+        "no_subthreads": 12,
+        "date": ": Tue, 12 Jul 2016 14:33:54 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/44.txt",
+        "subthreads": [
+            {
+                "id": "45",
+                "no_subthreads": 0,
+                "date": ": Tue, 12 Jul 2016 18:20:18 +1000",
+                "author": ": Wade Mealing <wmealing () redhat com>",
+                "File_path": "seclist_thread_messages/2016_Q3/45.txt",
+                "subthreads": []
+            },
+            {
+                "id": "278",
+                "no_subthreads": 10,
+                "date": ": Sun, 14 Aug 2016 21:36:39 +0200",
+                "author": ": Sona Sarmadi <sona.sarmadi () enea com>",
+                "File_path": "seclist_thread_messages/2016_Q3/278.txt",
+                "subthreads": [
+                    {
+                        "id": "279",
+                        "no_subthreads": 9,
+                        "date": ": Sun, 14 Aug 2016 21:51:58 +0200",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/279.txt",
+                        "subthreads": [
+                            {
+                                "id": "281",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 15 Aug 2016 06:23:04 +0000",
+                                "author": ": Sona Sarmadi <sona.sarmadi () enea com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/281.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "282",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 15 Aug 2016 09:53:01 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/282.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "293",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 16 Aug 2016 20:15:49 +0200",
+                                "author": ": Sona Sarmadi <sona.sarmadi () enea com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/293.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "294",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 16 Aug 2016 22:19:08 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/294.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "295",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 17 Aug 2016 11:54:56 +0000",
+                                "author": ": Sona Sarmadi <sona.sarmadi () enea com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/295.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "296",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 17 Aug 2016 14:16:21 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/296.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "297",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 17 Aug 2016 17:01:45 +0200",
+                                "author": ": Gsunde Orangen <gsunde.orangen () gmail com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/297.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "298",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 17 Aug 2016 17:17:10 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/298.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "299",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 17 Aug 2016 17:21:27 +0200",
+                                "author": ": Salvatore Bonaccorso <carnil () debian org>",
+                                "File_path": "seclist_thread_messages/2016_Q3/299.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "56": {
+        "title": "cve request: local DoS by overflowing kernel mount table using shared bind mount",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 6,
+        "date": ": Wed, 13 Jul 2016 10:52:44 -0400 (EDT)",
+        "author": ": CAI Qian <caiqian () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/56.txt",
+        "subthreads": [
+            {
+                "id": "58",
+                "no_subthreads": 5,
+                "date": ": Wed, 13 Jul 2016 12:59:40 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q3/58.txt",
+                "subthreads": [
+                    {
+                        "id": "63",
+                        "no_subthreads": 4,
+                        "date": ": Thu, 14 Jul 2016 07:45:00 +0900",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/63.txt",
+                        "subthreads": [
+                            {
+                                "id": "65",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 14 Jul 2016 12:15:02 -0400 (EDT)",
+                                "author": ": CAI Qian <caiqian () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/65.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "72",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 14 Jul 2016 12:26:42 -0400",
+                                "author": ": Jessica Frazelle <me () jessfraz com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/72.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "75",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 15 Jul 2016 10:35:56 -0400 (EDT)",
+                                "author": ": CAI Qian <caiqian () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/75.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "76",
+                                "no_subthreads": 0,
+                                "date": ": Fri, 15 Jul 2016 15:00:38 +0000",
+                                "author": ": Jesse Hertz <Jesse.Hertz@nccgroup.trust>",
+                                "File_path": "seclist_thread_messages/2016_Q3/76.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "138": {
+        "title": "CVE-2016-5400 - linux kernel: denial of service in airspy USB driver.",
+        "CVE_id": "CVE-2016-5400",
+        "no_subthreads": 5,
+        "date": ": Mon, 25 Jul 2016 10:50:30 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/138.txt",
+        "subthreads": [
+            {
+                "id": "139",
+                "no_subthreads": 4,
+                "date": ": Mon, 25 Jul 2016 10:51:16 +1000",
+                "author": ": Wade Mealing <wmealing () redhat com>",
+                "File_path": "seclist_thread_messages/2016_Q3/139.txt",
+                "subthreads": [
+                    {
+                        "id": "140",
+                        "no_subthreads": 1,
+                        "date": ": Sun, 24 Jul 2016 18:13:19 -0700",
+                        "author": ": Greg KH <greg () kroah com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/140.txt",
+                        "subthreads": [
+                            {
+                                "id": "141",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 25 Jul 2016 12:16:54 +1000",
+                                "author": ": Wade Mealing <wmealing () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/141.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "178",
+                        "no_subthreads": 1,
+                        "date": ": Wed, 27 Jul 2016 23:31:03 +0100",
+                        "author": ": Luis Henriques <henrix () camandro org>",
+                        "File_path": "seclist_thread_messages/2016_Q3/178.txt",
+                        "subthreads": [
+                            {
+                                "id": "179",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 27 Jul 2016 16:27:58 -0700",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/179.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "157": {
+        "title": "CVE Request: Any User Can Panic Kernel Through Sysctl on OpenBSD",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Tue, 26 Jul 2016 14:32:03 -0400",
+        "author": ": Jesse Hertz <jesse.hertz@nccgroup.trust>",
+        "File_path": "seclist_thread_messages/2016_Q3/157.txt",
+        "subthreads": [
+            {
+                "id": "159",
+                "no_subthreads": 0,
+                "date": ": Tue, 26 Jul 2016 15:22:45 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q3/159.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "181": {
+        "title": "CVE-2016-5412 Kernel: powerpc: kvm: Infinite loop via H_CEDE hypercall when running under hypervisor-mode",
+        "CVE_id": "CVE-2016-5412",
+        "no_subthreads": 0,
+        "date": ": Thu, 28 Jul 2016 17:00:39 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/181.txt",
+        "subthreads": []
+    },
+    "213": {
+        "title": "CVE Request: Linux >= 4.5 double fetch leading to heap overflow",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Sun, 31 Jul 2016 15:25:20 -0600",
+        "author": ": Scott Bauer <sbauer () plzdonthack me>",
+        "File_path": "seclist_thread_messages/2016_Q3/213.txt",
+        "subthreads": [
+            {
+                "id": "220",
+                "no_subthreads": 0,
+                "date": ": Mon,  1 Aug 2016 19:49:02 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q3/220.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "319": {
+        "title": "CVE Request: Linux kernel crash of OHCI when plugging in malicious USB devices",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 16,
+        "date": ": Thu, 18 Aug 2016 16:22:16 +0200",
+        "author": ": Marcus Meissner <meissner () suse de>",
+        "File_path": "seclist_thread_messages/2016_Q3/319.txt",
+        "subthreads": [
+            {
+                "id": "320",
+                "no_subthreads": 15,
+                "date": ": Thu, 18 Aug 2016 16:30:14 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2016_Q3/320.txt",
+                "subthreads": [
+                    {
+                        "id": "321",
+                        "no_subthreads": 14,
+                        "date": ": Thu, 18 Aug 2016 16:39:57 +0200",
+                        "author": ": Marcus Meissner <meissner () suse de>",
+                        "File_path": "seclist_thread_messages/2016_Q3/321.txt",
+                        "subthreads": [
+                            {
+                                "id": "322",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 18 Aug 2016 16:57:24 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/322.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "323",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 18 Aug 2016 17:16:54 +0200",
+                                "author": ": Marcus Meissner <meissner () suse de>",
+                                "File_path": "seclist_thread_messages/2016_Q3/323.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "325",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 18 Aug 2016 17:43:50 +0100",
+                                "author": ": Ben Hutchings <ben () decadent org uk>",
+                                "File_path": "seclist_thread_messages/2016_Q3/325.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "327",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 18 Aug 2016 20:16:27 +0200",
+                                "author": ": Adam Maris <amaris () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/327.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "329",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 18 Aug 2016 21:50:24 +0200",
+                                "author": ": Willy Tarreau <w () 1wt eu>",
+                                "File_path": "seclist_thread_messages/2016_Q3/329.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "357",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 22 Aug 2016 17:24:49 +0200",
+                                "author": ": Marcus Meissner <meissner () suse de>",
+                                "File_path": "seclist_thread_messages/2016_Q3/357.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "358",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 22 Aug 2016 14:37:17 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2016_Q3/358.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "360",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 22 Aug 2016 16:55:42 -0400",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/360.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "362",
+                                "no_subthreads": 0,
+                                "date": ": Mon, 22 Aug 2016 18:57:53 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2016_Q3/362.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "365",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 23 Aug 2016 06:48:55 -0400",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/365.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "369",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 23 Aug 2016 15:32:08 -0400 (EDT)",
+                                "author": ": cve-assign () mitre org",
+                                "File_path": "seclist_thread_messages/2016_Q3/369.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "364",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 23 Aug 2016 07:38:42 +0200",
+                                "author": ": Willy Tarreau <w () 1wt eu>",
+                                "File_path": "seclist_thread_messages/2016_Q3/364.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "366",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 23 Aug 2016 08:21:25 -0600",
+                                "author": ": Kurt Seifried <kseifried () redhat com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/366.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "367",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 23 Aug 2016 15:01:07 +0000",
+                                "author": ": \"Radzykewycz, T (Radzy)\" <radzy () windriver com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/367.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "334": {
+        "title": "CVE-2016-6327 | Linux kernel crash in infiniband subsystem.",
+        "CVE_id": "CVE-2016-6327",
+        "no_subthreads": 1,
+        "date": ": Fri, 19 Aug 2016 17:10:30 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/334.txt",
+        "subthreads": [
+            {
+                "id": "335",
+                "no_subthreads": 0,
+                "date": ": Fri, 19 Aug 2016 09:31:54 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2016_Q3/335.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "346": {
+        "title": "CVE request: Linux kernel mbcache lock contention denial of service.",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Mon, 22 Aug 2016 15:28:51 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/346.txt",
+        "subthreads": [
+            {
+                "id": "378",
+                "no_subthreads": 0,
+                "date": ": Thu, 25 Aug 2016 13:50:49 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q3/378.txt",
+                "subthreads": []
+            },
+            {
+                "id": "414",
+                "no_subthreads": 1,
+                "date": ": Mon, 5 Sep 2016 15:57:48 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2016_Q3/414.txt",
+                "subthreads": [
+                    {
+                        "id": "424",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 6 Sep 2016 11:47:52 +0200",
+                        "author": ": Andreas Stieger <astieger () suse com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/424.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "380": {
+        "title": "CVE request -- linux kernel: Setting a POSIX ACL via setxattr doesn't clear the setgid bit",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 3,
+        "date": ": Fri, 26 Aug 2016 05:05:11 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2016_Q3/380.txt",
+        "subthreads": [
+            {
+                "id": "382",
+                "no_subthreads": 0,
+                "date": ": Fri, 26 Aug 2016 15:32:07 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q3/382.txt",
+                "subthreads": []
+            },
+            {
+                "id": "389",
+                "no_subthreads": 1,
+                "date": ": Mon, 29 Aug 2016 04:33:39 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2016_Q3/389.txt",
+                "subthreads": [
+                    {
+                        "id": "389",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 29 Aug 2016 04:33:39 -0400 (EDT)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/389.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "395": {
+        "title": "CVE request: Kernel Oops when issuing fcntl on an AUFS directory",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 1,
+        "date": ": Wed, 31 Aug 2016 01:34:24 +0100",
+        "author": ": Ben Hutchings <ben () decadent org uk>",
+        "File_path": "seclist_thread_messages/2016_Q3/395.txt",
+        "subthreads": [
+            {
+                "id": "397",
+                "no_subthreads": 0,
+                "date": ": Wed, 31 Aug 2016 08:23:56 -0400 (EDT)",
+                "author": ": cve-assign () mitre org",
+                "File_path": "seclist_thread_messages/2016_Q3/397.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "606": {
+        "title": "CVE-2016-7545 -- SELinux sandbox escape",
+        "CVE_id": "CVE-2016-7545",
+        "no_subthreads": 6,
+        "date": ": Sun, 25 Sep 2016 13:49:11 +0200",
+        "author": ": up201407890 () alunos dcc fc up pt",
+        "File_path": "seclist_thread_messages/2016_Q3/606.txt",
+        "subthreads": [
+            {
+                "id": "618",
+                "no_subthreads": 5,
+                "date": ": Mon, 26 Sep 2016 18:54:09 +0200",
+                "author": ": Jakub Wilk <jwilk () jwilk net>",
+                "File_path": "seclist_thread_messages/2016_Q3/618.txt",
+                "subthreads": [
+                    {
+                        "id": "619",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 26 Sep 2016 17:59:57 +0100",
+                        "author": ": John Haxby <john.haxby () oracle com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/619.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "621",
+                        "no_subthreads": 0,
+                        "date": ": Mon, 26 Sep 2016 19:24:44 +0200",
+                        "author": ": up201407890 () alunos dcc fc up pt",
+                        "File_path": "seclist_thread_messages/2016_Q3/621.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "622",
+                        "no_subthreads": 2,
+                        "date": ": Mon, 26 Sep 2016 13:53:02 -0400",
+                        "author": ": christos () zoulas com (Christos Zoulas)",
+                        "File_path": "seclist_thread_messages/2016_Q3/622.txt",
+                        "subthreads": [
+                            {
+                                "id": "652",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 29 Sep 2016 12:32:10 +0200",
+                                "author": ": Jakub Wilk <jwilk () jwilk net>",
+                                "File_path": "seclist_thread_messages/2016_Q3/652.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "655",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 29 Sep 2016 08:27:47 -0400",
+                                "author": ": christos () zoulas com (Christos Zoulas)",
+                                "File_path": "seclist_thread_messages/2016_Q3/655.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "656": {
+        "title": "CVE request - Linux kernel through 4.6.2 allows escalade privileges via IP6T_SO_SET_REPLACE compat setsockopt call",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 5,
+        "date": ": Thu, 29 Sep 2016 07:43:35 +0000",
+        "author": ": \u5f20\u8c26 <zhangqian-c () 360 cn>",
+        "File_path": "seclist_thread_messages/2016_Q3/656.txt",
+        "subthreads": [
+            {
+                "id": "658",
+                "no_subthreads": 3,
+                "date": ": Thu, 29 Sep 2016 15:45:26 +0200",
+                "author": ": Greg KH <greg () kroah com>",
+                "File_path": "seclist_thread_messages/2016_Q3/658.txt",
+                "subthreads": [
+                    {
+                        "id": "661",
+                        "no_subthreads": 0,
+                        "date": ": Thu, 29 Sep 2016 13:54:53 +0000",
+                        "author": ": Mario Pirker <mpirker () linux com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/661.txt",
+                        "subthreads": []
+                    },
+                    {
+                        "id": "662",
+                        "no_subthreads": 1,
+                        "date": ": Fri, 30 Sep 2016 00:14:04 +1000",
+                        "author": ": Vitaly Nikolenko <vnik5287 () gmail com>",
+                        "File_path": "seclist_thread_messages/2016_Q3/662.txt",
+                        "subthreads": [
+                            {
+                                "id": "664",
+                                "no_subthreads": 0,
+                                "date": ": Thu, 29 Sep 2016 16:23:57 +0200",
+                                "author": ": Greg KH <greg () kroah com>",
+                                "File_path": "seclist_thread_messages/2016_Q3/664.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "660",
+                "no_subthreads": 0,
+                "date": ": Thu, 29 Sep 2016 15:54:30 +0200",
+                "author": ": Quentin Casasnovas <quentin.casasnovas () oracle com>",
+                "File_path": "seclist_thread_messages/2016_Q3/660.txt",
+                "subthreads": []
+            }
+        ]
+    }
+}

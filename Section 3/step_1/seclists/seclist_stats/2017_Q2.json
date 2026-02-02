@@ -1,0 +1,267 @@
+{
+    "3": {
+        "title": "Re: CVE-2017-7184: kernel: Local privilege escalation in XFRM framework",
+        "CVE_id": "CVE-2017-7184",
+        "no_subthreads": 2,
+        "date": ": Sat, 1 Apr 2017 20:27:36 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2017_Q2/3.txt",
+        "subthreads": [
+            {
+                "id": "4",
+                "no_subthreads": 1,
+                "date": ": Sat, 1 Apr 2017 22:33:15 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2017_Q2/4.txt",
+                "subthreads": [
+                    {
+                        "id": "11",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 4 Apr 2017 08:05:19 -0400 (EDT)",
+                        "author": ": Vladis Dronov <vdronov () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q2/11.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "5": {
+        "title": "Re: CVE-2017-7308: Linux kernel: integer overflow in packet_set_ring",
+        "CVE_id": "CVE-2017-7308",
+        "no_subthreads": 2,
+        "date": ": Sat, 1 Apr 2017 22:44:57 +0200",
+        "author": ": Solar Designer <solar () openwall com>",
+        "File_path": "seclist_thread_messages/2017_Q2/5.txt",
+        "subthreads": [
+            {
+                "id": "6",
+                "no_subthreads": 0,
+                "date": ": Mon, 03 Apr 2017 10:01:22 +0200",
+                "author": ": Martin Prpic <mprpic () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q2/6.txt",
+                "subthreads": []
+            },
+            {
+                "id": "245",
+                "no_subthreads": 0,
+                "date": ": Wed, 10 May 2017 18:37:42 +0200",
+                "author": ": Andrey Konovalov <andreyknvl () google com>",
+                "File_path": "seclist_thread_messages/2017_Q2/245.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "98": {
+        "title": "CVE-2017-7979: Linux kernel: local DoS via packet action API",
+        "CVE_id": "CVE-2017-7979",
+        "no_subthreads": 0,
+        "date": ": Thu, 20 Apr 2017 10:01:00 +0200",
+        "author": ": Fabian Gr\u00fcnbichler <f.gruenbichler () proxmox com>",
+        "File_path": "seclist_thread_messages/2017_Q2/98.txt",
+        "subthreads": []
+    },
+    "112": {
+        "title": "CVE request: remote heap overflow in linux networking stack",
+        "CVE_id": "No CVE found",
+        "no_subthreads": 6,
+        "date": ": Mon, 24 Apr 2017 20:00:10 +0200",
+        "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+        "File_path": "seclist_thread_messages/2017_Q2/112.txt",
+        "subthreads": [
+            {
+                "id": "113",
+                "no_subthreads": 5,
+                "date": ": Mon, 24 Apr 2017 20:17:56 +0200",
+                "author": ": Solar Designer <solar () openwall com>",
+                "File_path": "seclist_thread_messages/2017_Q2/113.txt",
+                "subthreads": [
+                    {
+                        "id": "121",
+                        "no_subthreads": 3,
+                        "date": ": Tue, 25 Apr 2017 15:52:28 +0200",
+                        "author": ": Andrej Nemec <anemec () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q2/121.txt",
+                        "subthreads": [
+                            {
+                                "id": "123",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 25 Apr 2017 15:53:54 +0200",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2017_Q2/123.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "124",
+                                "no_subthreads": 0,
+                                "date": ": Tue, 25 Apr 2017 17:25:35 +0200",
+                                "author": ": Andrej Nemec <anemec () redhat com>",
+                                "File_path": "seclist_thread_messages/2017_Q2/124.txt",
+                                "subthreads": []
+                            },
+                            {
+                                "id": "133",
+                                "no_subthreads": 0,
+                                "date": ": Wed, 26 Apr 2017 22:27:12 +0200",
+                                "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                                "File_path": "seclist_thread_messages/2017_Q2/133.txt",
+                                "subthreads": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "122",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 25 Apr 2017 14:32:40 +0200",
+                        "author": ": \"Jason A. Donenfeld\" <Jason () zx2c4 com>",
+                        "File_path": "seclist_thread_messages/2017_Q2/122.txt",
+                        "subthreads": []
+                    }
+                ]
+            }
+        ]
+    },
+    "119": {
+        "title": "CVE-2017-7477 kernel: net: Heap overflow in skb_to_sgvec in macsec.c",
+        "CVE_id": "CVE-2017-7477",
+        "no_subthreads": 0,
+        "date": ": Tue, 25 Apr 2017 11:20:12 +0200",
+        "author": ": Andrej Nemec <anemec () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q2/119.txt",
+        "subthreads": []
+    },
+    "195": {
+        "title": "CVE-2017-7645 Linux kernel: nfsd: remote DoS",
+        "CVE_id": "CVE-2017-7645",
+        "no_subthreads": 0,
+        "date": ": Tue, 2 May 2017 12:58:22 +0000",
+        "author": ": Ari Kauppi <Ari.Kauppi () synopsys com>",
+        "File_path": "seclist_thread_messages/2017_Q2/195.txt",
+        "subthreads": []
+    },
+    "196": {
+        "title": "CVE-2017-7895 Linux kernel: nfsd: Remote arbitrary memory read",
+        "CVE_id": "CVE-2017-7895",
+        "no_subthreads": 0,
+        "date": ": Tue, 2 May 2017 13:08:43 +0000",
+        "author": ": Ari Kauppi <Ari.Kauppi () synopsys com>",
+        "File_path": "seclist_thread_messages/2017_Q2/196.txt",
+        "subthreads": []
+    },
+    "246": {
+        "title": "CVE-2017-7472 Linux kernel: KEYS: fix keyctl_set_reqkey_keyring() to not leak thread keyrings",
+        "CVE_id": "CVE-2017-7472",
+        "no_subthreads": 1,
+        "date": ": Thu, 11 May 2017 12:21:53 -0400 (EDT)",
+        "author": ": Vladis Dronov <vdronov () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q2/246.txt",
+        "subthreads": [
+            {
+                "id": "251",
+                "no_subthreads": 0,
+                "date": ": Fri, 12 May 2017 09:24:56 -0400 (EDT)",
+                "author": ": Vladis Dronov <vdronov () redhat com>",
+                "File_path": "seclist_thread_messages/2017_Q2/251.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "259": {
+        "title": "CVE-2017-7495 kernel : information leak on ext4 when hardware reset.",
+        "CVE_id": "CVE-2017-7495",
+        "no_subthreads": 0,
+        "date": ": Mon, 15 May 2017 15:40:39 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q2/259.txt",
+        "subthreads": []
+    },
+    "335": {
+        "title": "Linux lp.c Out-of-Bounds Write via Kernel Command-line (CVE-2017-1000363)",
+        "CVE_id": "CVE-2017-1000363",
+        "no_subthreads": 0,
+        "date": ": Tue, 23 May 2017 18:46:45 +0000",
+        "author": ": Roee Hay <roeehay () gmail com>",
+        "File_path": "seclist_thread_messages/2017_Q2/335.txt",
+        "subthreads": []
+    },
+    "358": {
+        "title": "Qualys Security Advisory - CVE-2017-1000367 in Sudo's get_process_ttyname() for Linux",
+        "CVE_id": "CVE-2017-1000367",
+        "no_subthreads": 3,
+        "date": ": Tue, 30 May 2017 08:16:29 -0700",
+        "author": ": Qualys Security Advisory <qsa () qualys com>",
+        "File_path": "seclist_thread_messages/2017_Q2/358.txt",
+        "subthreads": [
+            {
+                "id": "360",
+                "no_subthreads": 1,
+                "date": ": Tue, 30 May 2017 17:25:11 +0200",
+                "author": ": Hanno B\u00f6ck <hanno () hboeck de>",
+                "File_path": "seclist_thread_messages/2017_Q2/360.txt",
+                "subthreads": [
+                    {
+                        "id": "361",
+                        "no_subthreads": 0,
+                        "date": ": Tue, 30 May 2017 09:29:08 -0600",
+                        "author": ": \"kseifried () redhat com\" <kseifried () redhat com>",
+                        "File_path": "seclist_thread_messages/2017_Q2/361.txt",
+                        "subthreads": []
+                    }
+                ]
+            },
+            {
+                "id": "470",
+                "no_subthreads": 0,
+                "date": ": Wed, 14 Jun 2017 09:59:26 -0700",
+                "author": ": Qualys Security Advisory <qsa () qualys com>",
+                "File_path": "seclist_thread_messages/2017_Q2/470.txt",
+                "subthreads": []
+            }
+        ]
+    },
+    "367": {
+        "title": "Linux kernel: CVE-2017-9242: out-of-bounds write in __ip6_append_data",
+        "CVE_id": "CVE-2017-9242",
+        "no_subthreads": 0,
+        "date": ": Tue, 30 May 2017 21:12:40 +0200",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2017_Q2/367.txt",
+        "subthreads": []
+    },
+    "368": {
+        "title": "Linux kernel: CVE-2017-9074: out-of-bounds read in ip6_fragment",
+        "CVE_id": "CVE-2017-9074",
+        "no_subthreads": 0,
+        "date": ": Tue, 30 May 2017 21:12:52 +0200",
+        "author": ": Andrey Konovalov <andreyknvl () google com>",
+        "File_path": "seclist_thread_messages/2017_Q2/368.txt",
+        "subthreads": []
+    },
+    "574": {
+        "title": "CVE-2017-7518 Kernel: KVM: debug exception via syscall emulation",
+        "CVE_id": "CVE-2017-7518",
+        "no_subthreads": 0,
+        "date": ": Fri, 23 Jun 2017 19:48:13 +0530 (IST)",
+        "author": ": P J P <ppandit () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q2/574.txt",
+        "subthreads": []
+    },
+    "602": {
+        "title": "CVE-2017-7482 Linux kernel: krb5 ticket decode len check.",
+        "CVE_id": "CVE-2017-7482",
+        "no_subthreads": 0,
+        "date": ": Mon, 26 Jun 2017 18:07:59 +1000",
+        "author": ": Wade Mealing <wmealing () redhat com>",
+        "File_path": "seclist_thread_messages/2017_Q2/602.txt",
+        "subthreads": []
+    },
+    "615": {
+        "title": "CVE-2017-8797 Linux kernel: nfsd: remote DoS",
+        "CVE_id": "CVE-2017-8797",
+        "no_subthreads": 0,
+        "date": ": Tue, 27 Jun 2017 11:33:20 +0000",
+        "author": ": Ari Kauppi <Ari.Kauppi () synopsys com>",
+        "File_path": "seclist_thread_messages/2017_Q2/615.txt",
+        "subthreads": []
+    }
+}

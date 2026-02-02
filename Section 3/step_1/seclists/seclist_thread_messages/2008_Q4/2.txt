@@ -1,0 +1,33 @@
+Michael Simms reported that it is possible for an unprivileged user to
+crash the machine by running gdb on a running process with pid 1.
+
+This affects the version of utrace as shipped with Fedora 8 and 9. This
+is addressed in kernel-2.6.26.5-28 for Fedora 8, and kernel-2.6.26.5-45
+for Fedora 9. This issue is specific to Fedora, and does not affect
+upstream or any of the Red Hat Enterprise Linux kernels.
+
+References:
+http://kerneloops.org/oops.php?number=56705
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-3832
+
+Thanks, Eugene
+-- 
+Eugene Teo / Red Hat Security Response Team
+
+Index: linux-2.6-utrace.patch
+===================================================================
+RCS file: /cvs/pkgs/rpms/kernel/F-9/linux-2.6-utrace.patch,v
+retrieving revision 1.78
+retrieving revision 1.79
+diff -u -b -p -r1.78 -r1.79
+--- linux-2.6-utrace.patch      4 Aug 2008 22:20:04 -0000       1.78
++++ linux-2.6-utrace.patch      15 Sep 2008 23:50:37 -0000      1.79
+@@ -1994,7 +1994,7 @@ index ef66127..dcf30f5 100644  
+ +      if (IS_ERR(engine))
+ +              return engine;
+ +      if (likely(!ptrace_update_utrace(child, engine)))
+-+              return 0;
+++              return engine;
+ +      ptrace_detach_utrace(child, engine);
+ +      return ERR_PTR(-ESRCH);
+ +}
