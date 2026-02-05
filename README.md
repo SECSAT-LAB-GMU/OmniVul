@@ -1,4 +1,4 @@
-# rag_llm_vuln
+# OmniVul
 
 
 This repository contains artifacts for KDD26 submission# 91.
