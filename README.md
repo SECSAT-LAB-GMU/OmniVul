@@ -7,6 +7,12 @@ Paper title: **OmniVul: A Holistic, Multi-Turn Conversational Benchmark for LLM-
 
 We propose a benchmark dataset for evaluation and fine-tuning of vulnerability analysis using LLMs.
 
+Abstract:
+
+With more than 20,000 Common Vulnerabilities and Exposures (CVEs) reported annually, software vulnerabilities represent a critical cybersecurity challenge. This volume has intensified the demand for automated detection and analysis, motivating the integration of large language models (LLMs) for such tasks. However, existing vulnerability benchmarks are not suitable for LLMs, as most of them 1) rely on narrow data sources, 2) lack deep context, and 3) focus on single-turn Q&A rather than realistic, multi-turn analyst workflows. To address this gap, we introduce OmniVul, a comprehensive multi-turn benchmark for LLM-based vulnerability assessment. OmniVul comprises 2,000 CVEs with question–answer pairs spanning 23 attributes, including detection, code localization, root cause analysis, and patch suggestion. We employ an automated workflow to aggregate multi-source data via retrieval-augmented generation (RAG), ensuring quality through LLM-as-a-Judge filtering and conformal prediction calibrated by human expert annotations. An evaluation of five state-of-the-art LLMs on OmniVul reveals distinct performance gaps, with top-1 accuracy remaining below 60\% for vulnerable code detection and CVE identification. Our evaluation also demonstrates that current models lack critical reasoning capabilities for reliable vulnerability assessment. These results highlight the importance of OmniVul for advancing research in evaluating and fine-tuning LLMs for vulnerability assessment.
+
+
+
 Each section of the paper are presented as their respective folder name.
 
 Section 3 consists of three key steps:
@@ -17,3 +23,6 @@ Section 3 consists of three key steps:
 Section 4 consists the links for data we collected and the results we got
 
 Section 5 contains the evaluation that we performed using SOTA LLMs.
+
+
+To start the execution please install the required packages listed in `requirements.txt` file. 
