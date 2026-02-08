@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniVul | Project Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .quick-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .quick-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-left: 4px solid var(--primary-color);
+            border-radius: 4px;
+            padding: 1rem;
+            box-shadow: var(--shadow);
+        }
+
+        .quick-card h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--secondary-color);
+            font-size: 1rem;
+            font-family: "Courier New", monospace;
+        }
+
+        .quick-card p {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .asset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .asset-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-left: 4px solid var(--secondary-color);
+            border-radius: 4px;
+            padding: 1.25rem;
+            box-shadow: var(--shadow);
+        }
+
+        .asset-card h4 {
+            margin: 0 0 0.6rem 0;
+            color: var(--secondary-color);
+            font-size: 1rem;
+            font-family: "Courier New", monospace;
+        }
+
+        .asset-card p {
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        .asset-card a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .asset-card a:hover {
+            text-decoration: underline;
+        }
+
+        .pdf-frame {
+            width: 100%;
+            height: 420px;
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            background: #fff;
+            margin-top: 1rem;
+        }
+
+        .file-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.5rem;
+        }
+
+        .file-box {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .file-box-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.8rem 1rem;
+            border-bottom: 2px solid var(--border-color);
+            background: var(--bg-darker);
+        }
+
+        .file-box-title {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--secondary-color);
+            font-family: "Courier New", monospace;
+            word-break: break-all;
+        }
+
+        .file-box-header a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 700;
+            white-space: nowrap;
+            font-size: 0.9rem;
+        }
+
+        .file-box-header a:hover {
+            text-decoration: underline;
+        }
+
+        .json-preview {
+            margin: 0;
+            padding: 1rem;
+            max-height: 420px;
+            overflow: auto;
+            background: var(--text-color);
+            color: #f5f3f0;
+            font-size: 0.82rem;
+            line-height: 1.5;
+            font-family: "Courier New", monospace;
+        }
+
+        .cmd-block {
+            background: var(--text-color);
+            color: #f5f3f0;
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            padding: 1rem;
+            overflow-x: auto;
+            font-family: "Courier New", monospace;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        .links-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .links-list a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .file-box-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pdf-frame {
+                height: 320px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-links">
+                <a href="#abstract">Abstract</a>
+                <a href="#pipeline">Pipeline</a>
+                <a href="#artifacts">Artifacts</a>
+                <a href="#sample-cve">Sample CVE</a>
+                <a href="#downloads">Downloads</a>
+                <a href="#bibtex">BibTeX</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="title">OmniVul: A Holistic, Multi-Turn Conversational Benchmark for LLM-Based Vulnerability Assessment</h1>
+            <p class="authors">Anonymous Authors | KDD 2026 Submission #91</p>
+        </div>
+    </header>
+
+    <section id="abstract" class="section">
+        <div class="container">
+            <h2>Abstract</h2>
+            <div class="abstract-placeholder">
+                <p>
+                    With more than 20,000 Common Vulnerabilities and Exposures (CVEs) reported annually, software vulnerabilities represent a critical cybersecurity challenge.
+                    Existing benchmarks are often narrow, context-light, and single-turn, making them less suitable for realistic LLM-based analyst workflows.
+                    OmniVul addresses this by providing a comprehensive multi-turn benchmark with 2,000 CVEs and question-answer pairs across 23 attributes,
+                    covering detection, code localization, root cause analysis, and patch suggestion.
+                </p>
+                <p>
+                    The repository includes an end-to-end workflow for data collection, portfolio construction, QA generation using RAG, and quality filtering using
+                    LLM-as-a-Judge with conformal prediction calibration.
+                </p>
+            </div>
+
+            <div class="quick-grid">
+                <div class="quick-card">
+                    <h4>Scale</h4>
+                    <p>2,000 CVEs collected and curated for benchmark construction.</p>
+                </div>
+                <div class="quick-card">
+                    <h4>Attribute Coverage</h4>
+                    <p>23 vulnerability attributes for richer analysis than single-turn QA.</p>
+                </div>
+                <div class="quick-card">
+                    <h4>Repository Sections</h4>
+                    <p>Section 3 (pipeline), Section 4 (data/results), Section 5 (SOTA LLM evaluation).</p>
+                </div>
+                <div class="quick-card">
+                    <h4>Evaluation Focus</h4>
+                    <p>Vulnerability detection, CVE identification, and attribute QA correctness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pipeline" class="section bg-light">
+        <div class="container">
+            <h2>Pipeline Overview</h2>
+            <div class="survey-section">
+                <h3>Section 3 Workflow</h3>
+                <ul>
+                    <li><strong>Step 1:</strong> Collect vulnerability data from NVD and other sources, then build CVE portfolios (`Section 3/step_1`).</li>
+                    <li><strong>Step 2:</strong> Generate QA pairs from portfolios using a RAG pipeline (`Section 3/step_2/gen_qa_cves.py`).</li>
+                    <li><strong>Step 3:</strong> Evaluate with LLM-as-a-Judge and conformal prediction calibration (`Section 3/step_3`).</li>
+                </ul>
+
+                <p>Execution requires installing dependencies from <code>requirements.txt</code>. Step 2 and Step 3 require setting an OpenAI API key in project constants.</p>
+                <pre class="cmd-block"><code>pip install -r requirements.txt
+python "Section 3/step_1/portfolio_construction.py"
+python "Section 3/step_2/gen_qa_cves.py"
+python "Section 3/step_3/evaluate_rag.py"</code></pre>
+            </div>
+
+            <div class="survey-section">
+                <h3>Section READMEs</h3>
+                <ul class="links-list">
+                    <li><a href="README.md">Root README</a></li>
+                    <li><a href="Section%203/README.md">Section 3 README</a></li>
+                    <li><a href="Section%203/step_1/README.md">Section 3 Step 1 README</a></li>
+                    <li><a href="Section%203/step_2/README.md">Section 3 Step 2 README</a></li>
+                    <li><a href="Section%203/step_3/README.md">Section 3 Step 3 README</a></li>
+                    <li><a href="Section%203/step_1/git-git_kernel/README.md">git-kernel Submodule README</a></li>
+                    <li><a href="Section%205/README.md">Section 5 README</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="artifacts" class="section">
+        <div class="container">
+            <h2>Artifacts</h2>
+            <p>These files in <code>assets/</code> are included directly on this page and can be opened/downloaded for inspection.</p>
+
+            <div class="asset-grid">
+                <div class="asset-card">
+                    <h4>System Overview</h4>
+                    <p>Pipeline and architecture overview diagram.</p>
+                    <a href="assets/final_overview.drawio_soft.pdf" target="_blank" rel="noopener">Open PDF</a>
+                </div>
+                <div class="asset-card">
+                    <h4>Portfolio Snapshot</h4>
+                    <p>Flattened representation of sample portfolio data.</p>
+                    <a href="assets/portfolio_flat.pdf" target="_blank" rel="noopener">Open PDF</a>
+                </div>
+                <div class="asset-card">
+                    <h4>QA Chat Example</h4>
+                    <p>Sample conversational QA sequence generated by the pipeline.</p>
+                    <a href="assets/qa_chat.pdf" target="_blank" rel="noopener">Open PDF</a>
+                </div>
+                <div class="asset-card">
+                    <h4>Evaluation Screenshot</h4>
+                    <p>Screenshot from evaluation flow and scoring setup.</p>
+                    <a href="assets/eval_screenshot.pdf" target="_blank" rel="noopener">Open PDF</a>
+                </div>
+                <div class="asset-card">
+                    <h4>Attribute List</h4>
+                    <p>Spreadsheet listing the benchmark attribute set.</p>
+                    <a href="assets/attribute_list.ods" target="_blank" rel="noopener">Open ODS</a>
+                </div>
+            </div>
+
+            <iframe class="pdf-frame" src="assets/final_overview.drawio_soft.pdf" title="OmniVul Overview PDF"></iframe>
+        </div>
+    </section>
+
+    <section id="sample-cve" class="section bg-light">
+        <div class="container">
+            <h2>Sample CVE File Boxes</h2>
+            <p>
+                The following file boxes render previews from repository assets. They are intended for quick browsing of representative benchmark records.
+            </p>
+
+            <div class="file-grid">
+                <div class="file-box">
+                    <div class="file-box-header">
+                        <p class="file-box-title">assets/sample_CVE.json</p>
+                        <a href="assets/sample_CVE.json" target="_blank" rel="noopener">Open Full File</a>
+                    </div>
+                    <pre id="preview-sample-cve" class="json-preview">Loading preview...</pre>
+                </div>
+
+                <div class="file-box">
+                    <div class="file-box-header">
+                        <p class="file-box-title">assets/sample_NVD_links.json</p>
+                        <a href="assets/sample_NVD_links.json" target="_blank" rel="noopener">Open Full File</a>
+                    </div>
+                    <pre id="preview-nvd-links" class="json-preview">Loading preview...</pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="downloads" class="section">
+        <div class="container">
+            <h2>Data &amp; Downloads</h2>
+            <div class="survey-section">
+                <h3>Benchmark Download</h3>
+                <p>
+                    Full portfolios and QA pairs are available on Figshare:
+                    <a href="https://figshare.com/s/e7de88e735094f82a668" target="_blank" rel="noopener">https://figshare.com/s/e7de88e735094f82a668</a>
+                </p>
+            </div>
+
+            <div class="survey-section">
+                <h3>Repository Data Files</h3>
+                <ul class="links-list">
+                    <li><a href="Section%204/sample_portfolios.json" target="_blank" rel="noopener">Section 4 sample portfolios</a></li>
+                    <li><a href="Section%205/final_sota_qa_pairs.json" target="_blank" rel="noopener">Section 5 final SOTA QA pairs</a></li>
+                    <li><a href="Section%205/portfolio_cves.json" target="_blank" rel="noopener">Section 5 portfolio CVEs</a></li>
+                    <li><a href="Section%205/extracted_patched_cves.json" target="_blank" rel="noopener">Section 5 extracted patched CVEs</a></li>
+                    <li><a href="flow_diagram.pdf" target="_blank" rel="noopener">Flow diagram PDF</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="bibtex" class="section bg-light">
+        <div class="container">
+            <h2>BibTeX Citation</h2>
+            <p>If this benchmark is useful in your work, please cite:</p>
+            <div class="bibtex-container">
+                <pre id="bibtex-code"><code>@article{omnivul2026,
+  title={OmniVul: A Holistic, Multi-Turn Conversational Benchmark for LLM-Based Vulnerability Assessment},
+  author={Anonymous Authors},
+  journal={KDD 2026 Submission},
+  year={2026}
+}</code></pre>
+                <button class="copy-btn" onclick="copyBibtex()">Copy to Clipboard</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 OmniVul Project</p>
+            <p>Repository companion page for benchmark artifacts and reproducibility resources.</p>
+        </div>
+    </footer>
+
+    <script>
+        function copyBibtex() {
+            var text = document.getElementById("bibtex-code").innerText;
+            navigator.clipboard.writeText(text).then(function () {
+                var btn = document.querySelector(".copy-btn");
+                var old = btn.textContent;
+                btn.textContent = "Copied";
+                setTimeout(function () {
+                    btn.textContent = old;
+                }, 1200);
+            });
+        }
+
+        async function loadPreview(elementId, filePath, maxLines) {
+            var target = document.getElementById(elementId);
+            try {
+                var response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error("Unable to load " + filePath);
+                }
+                var text = await response.text();
+                var lines = text.split("\n");
+                var preview = lines.slice(0, maxLines).join("\n");
+                if (lines.length > maxLines) {
+                    preview += "\n\n... (preview truncated)";
+                }
+                target.textContent = preview;
+            } catch (error) {
+                target.textContent = "Preview unavailable. Open the full file using the link above.";
+            }
+        }
+
+        loadPreview("preview-sample-cve", "assets/sample_CVE.json", 140);
+        loadPreview("preview-nvd-links", "assets/sample_NVD_links.json", 120);
+    </script>
+</body>
+</html>
