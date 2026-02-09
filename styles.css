@@ -26,7 +26,8 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.7;
+    line-height: 1.65;
+    font-weight: 500;
     color: var(--text-color);
     background-color: var(--bg-dark);
     background-image:
@@ -37,6 +38,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    font-size: 15px;
 }
 
 .container {
@@ -126,7 +128,7 @@ html {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     font-weight: 900;
     margin-bottom: 2rem;
     line-height: 1.2;
@@ -145,7 +147,7 @@ html {
 }
 
 .authors {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.95);
     font-weight: 500;
     font-family: 'Courier New', monospace;
@@ -168,7 +170,7 @@ html {
 }
 
 .section h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 3rem;
     color: var(--text-color);
@@ -186,12 +188,12 @@ html {
 }
 
 .section h3 {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 700;
     margin: 2.5rem 0 1.5rem 0;
     color: var(--secondary-color);
     letter-spacing: -0.01em;
-    font-family: 'Courier New', monospace;
+    font-family: inherit;
 }
 
 .section h3::before {
@@ -203,8 +205,8 @@ html {
 .section p {
     margin-bottom: 1.25rem;
     color: var(--text-secondary);
-    font-size: 1.05rem;
-    line-height: 1.8;
+    font-size: 0.98rem;
+    line-height: 1.7;
 }
 
 .section ul {
@@ -214,7 +216,7 @@ html {
 
 .section li {
     margin-bottom: 1rem;
-    font-size: 1.05rem;
+    font-size: 0.98rem;
     line-height: 1.7;
 }
 
@@ -233,8 +235,8 @@ html {
 .abstract-placeholder p {
     margin-bottom: 1.25rem;
     color: var(--text-secondary);
-    font-size: 1.05rem;
-    line-height: 1.8;
+    font-size: 0.98rem;
+    line-height: 1.7;
 }
 
 /* Architecture Content Layout */
@@ -424,9 +426,9 @@ tbody tr:last-child td {
 
 .logs-section p {
     color: var(--text-muted);
-    font-style: italic;
+    font-style: normal;
     font-size: 0.9rem;
-    font-family: 'Courier New', monospace;
+    font-family: inherit;
 }
 
 /* Survey Section */
@@ -456,9 +458,9 @@ tbody tr:last-child td {
 
 .survey-section p {
     color: var(--text-muted);
-    font-style: italic;
+    font-style: normal;
     font-size: 0.9rem;
-    font-family: 'Courier New', monospace;
+    font-family: inherit;
 }
 
 /* BibTeX Section */

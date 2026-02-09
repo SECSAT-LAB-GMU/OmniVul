@@ -1,0 +1,175 @@
+window.SAMPLE_CVE = 
+{
+    "CVE_intrinsic_attributes": {
+        "description": {
+            "nvd": "kernel/ucount.c in the Linux kernel 5.14 through 5.16.4, when unprivileged user namespaces are enabled, allows a use-after-free and privilege escalation because a ucounts object can outlive its namespace.",
+            "redhat": "A use-after-free vulnerability was found in the Linux kernel\u2019s alloc_ucounts in the kernel/ucount.c function. This flaw allows a local attacker with unprivileged user namespaces to cause a privilege escalation problem."
+        },
+        "CWE": [
+            {
+                "source": "nvd@nist.gov",
+                "type": "Primary",
+                "description": [
+                    {
+                        "lang": "en",
+                        "value": "CWE-416"
+                    }
+                ]
+            }
+        ],
+        "developer_discussion": {}
+    },
+    "Patch Set": {
+        "f9d87929d451d3e649699d0f1d74f71f77ad38f5": {
+            "cve_id": "CVE-2022-24122",
+            "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=f9d87929d451d3e649699d0f1d74f71f77ad38f5",
+            "commit_hashes": [
+                "f9d87929d451d3e649699d0f1d74f71f77ad38f5"
+            ],
+            "commit_msg": "When the ucount code was refactored to create get_ucount it was missed\nthat some of the contexts in which a rlimit is kept elevated can be\nthe only reference to the user/ucount in the system.\nOrdinary ucount references exist in places that also have a reference\nto the user namspace, but in POSIX message queues, the SysV shm code,\nand the SIGPENDING code there is no independent user namespace\nreference.\nInspection of the the user_namespace show no instance of circular\nreferences between struct ucounts and the user_namespace.  So\nhold a reference from struct ucount to i's user_namespace to\nresolve this problem.",
+            "mod_files": {
+                "kernel/ucount.c": "// SPDX-License-Identifier: GPL-2.0-only\n\n#include <linux/stat.h>\n#include <linux/sysctl.h>\n#include <linux/slab.h>\n#include <linux/cred.h>\n#include <linux/hash.h>\n#include <linux/kmemleak.h>\n#include <linux/user_namespace.h>\n\nstruct ucounts init_ucounts = {\n\t.ns    = &init_user_ns,\n\t.uid   = GLOBAL_ROOT_UID,\n\t.count = ATOMIC_INIT(1),\n};\n\n#define UCOUNTS_HASHTABLE_BITS 10\nstatic struct hlist_head ucounts_hashtable[(1 << UCOUNTS_HASHTABLE_BITS)];\nstatic DEFINE_SPINLOCK(ucounts_lock);\n\n#define ucounts_hashfn(ns, uid)\t\t\t\t\t\t\\\n\thash_long((unsigned long)__kuid_val(uid) + (unsigned long)(ns), \\\n\t\t  UCOUNTS_HASHTABLE_BITS)\n#define ucounts_hashentry(ns, uid)\t\\\n\t(ucounts_hashtable + ucounts_hashfn(ns, uid))\n\n\n#ifdef CONFIG_SYSCTL\nstatic struct ctl_table_set *\nset_lookup(struct ctl_table_root *root)\n{\n\treturn &current_user_ns()->set;\n}\n\nstatic int set_is_seen(struct ctl_table_set *set)\n{\n\treturn &current_user_ns()->set == set;\n}\n\nstatic int set_permissions(struct ctl_table_header *head,\n\t\t\t\t  struct ctl_table *table)\n{\n\tstruct user_namespace *user_ns =\n\t\tcontainer_of(head->set, struct user_namespace, set);\n\tint mode;\n\n\t/* Allow users with CAP_SYS_RESOURCE unrestrained access */\n\tif (ns_capable(user_ns, CAP_SYS_RESOURCE))\n\t\tmode = (table->mode & S_IRWXU) >> 6;\n\telse\n\t/* Allow all others at most read-only access */\n\t\tmode = table->mode & S_IROTH;\n\treturn (mode << 6) | (mode << 3) | mode;\n}\n\nstatic struct ctl_table_root set_root = {\n\t.lookup = set_lookup,\n\t.permissions = set_permissions,\n};\n\nstatic long ue_zero = 0;\nstatic long ue_int_max = INT_MAX;\n\n#define UCOUNT_ENTRY(name)\t\t\t\t\t\\\n\t{\t\t\t\t\t\t\t\\\n\t\t.procname\t= name,\t\t\t\t\\\n\t\t.maxlen\t\t= sizeof(long),\t\t\t\\\n\t\t.mode\t\t= 0644,\t\t\t\t\\\n\t\t.proc_handler\t= proc_doulongvec_minmax,\t\\\n\t\t.extra1\t\t= &ue_zero,\t\t\t\\\n\t\t.extra2\t\t= &ue_int_max,\t\t\t\\\n\t}\nstatic struct ctl_table user_table[] = {\n\tUCOUNT_ENTRY(\"max_user_namespaces\"),\n\tUCOUNT_ENTRY(\"max_pid_namespaces\"),\n\tUCOUNT_ENTRY(\"max_uts_namespaces\"),\n\tUCOUNT_ENTRY(\"max_ipc_namespaces\"),\n\tUCOUNT_ENTRY(\"max_net_namespaces\"),\n\tUCOUNT_ENTRY(\"max_mnt_namespaces\"),\n\tUCOUNT_ENTRY(\"max_cgroup_namespaces\"),\n\tUCOUNT_ENTRY(\"max_time_namespaces\"),\n#ifdef CONFIG_INOTIFY_USER\n\tUCOUNT_ENTRY(\"max_inotify_instances\"),\n\tUCOUNT_ENTRY(\"max_inotify_watches\"),\n#endif\n#ifdef CONFIG_FANOTIFY\n\tUCOUNT_ENTRY(\"max_fanotify_groups\"),\n\tUCOUNT_ENTRY(\"max_fanotify_marks\"),\n#endif\n\t{ },\n\t{ },\n\t{ },\n\t{ },\n\t{ }\n};\n#endif /* CONFIG_SYSCTL */\n\nbool setup_userns_sysctls(struct user_namespace *ns)\n{\n#ifdef CONFIG_SYSCTL\n\tstruct ctl_table *tbl;\n\n\tBUILD_BUG_ON(ARRAY_SIZE(user_table) != UCOUNT_COUNTS + 1);\n\tsetup_sysctl_set(&ns->set, &set_root, set_is_seen);\n\ttbl = kmemdup(user_table, sizeof(user_table), GFP_KERNEL);\n\tif (tbl) {\n\t\tint i;\n\t\tfor (i = 0; i < UCOUNT_COUNTS; i++) {\n\t\t\ttbl[i].data = &ns->ucount_max[i];\n\t\t}\n\t\tns->sysctls = __register_sysctl_table(&ns->set, \"user\", tbl);\n\t}\n\tif (!ns->sysctls) {\n\t\tkfree(tbl);\n\t\tretire_sysctl_set(&ns->set);\n\t\treturn false;\n\t}\n#endif\n\treturn true;\n}\n\nvoid retire_userns_sysctls(struct user_namespace *ns)\n{\n#ifdef CONFIG_SYSCTL\n\tstruct ctl_table *tbl;\n\n\ttbl = ns->sysctls->ctl_table_arg;\n\tunregister_sysctl_table(ns->sysctls);\n\tretire_sysctl_set(&ns->set);\n\tkfree(tbl);\n#endif\n}\n\nstatic struct ucounts *find_ucounts(struct user_namespace *ns, kuid_t uid, struct hlist_head *hashent)\n{\n\tstruct ucounts *ucounts;\n\n\thlist_for_each_entry(ucounts, hashent, node) {\n\t\tif (uid_eq(ucounts->uid, uid) && (ucounts->ns == ns))\n\t\t\treturn ucounts;\n\t}\n\treturn NULL;\n}\n\nstatic void hlist_add_ucounts(struct ucounts *ucounts)\n{\n\tstruct hlist_head *hashent = ucounts_hashentry(ucounts->ns, ucounts->uid);\n\tspin_lock_irq(&ucounts_lock);\n\thlist_add_head(&ucounts->node, hashent);\n\tspin_unlock_irq(&ucounts_lock);\n}\n\nstatic inline bool get_ucounts_or_wrap(struct ucounts *ucounts)\n{\n\t/* Returns true on a successful get, false if the count wraps. */\n\treturn !atomic_add_negative(1, &ucounts->count);\n}\n\nstruct ucounts *get_ucounts(struct ucounts *ucounts)\n{\n\tif (!get_ucounts_or_wrap(ucounts)) {\n\t\tput_ucounts(ucounts);\n\t\tucounts = NULL;\n\t}\n\treturn ucounts;\n}\n\nstruct ucounts *alloc_ucounts(struct user_namespace *ns, kuid_t uid)\n{\n\tstruct hlist_head *hashent = ucounts_hashentry(ns, uid);\n\tstruct ucounts *ucounts, *new;\n\tbool wrapped;\n\n\tspin_lock_irq(&ucounts_lock);\n\tucounts = find_ucounts(ns, uid, hashent);\n\tif (!ucounts) {\n\t\tspin_unlock_irq(&ucounts_lock);\n\n\t\tnew = kzalloc(sizeof(*new), GFP_KERNEL);\n\t\tif (!new)\n\t\t\treturn NULL;\n\n\t\tnew->ns = ns;\n\t\tnew->uid = uid;\n\t\tatomic_set(&new->count, 1);\n\n\t\tspin_lock_irq(&ucounts_lock);\n\t\tucounts = find_ucounts(ns, uid, hashent);\n\t\tif (ucounts) {\n\t\t\tkfree(new);\n\t\t} else {\n\t\t\thlist_add_head(&new->node, hashent);\n\t\t\tget_user_ns(new->ns);\n\t\t\tspin_unlock_irq(&ucounts_lock);\n\t\t\treturn new;\n\t\t}\n\t}\n\twrapped = !get_ucounts_or_wrap(ucounts);\n\tspin_unlock_irq(&ucounts_lock);\n\tif (wrapped) {\n\t\tput_ucounts(ucounts);\n\t\treturn NULL;\n\t}\n\treturn ucounts;\n}\n\nvoid put_ucounts(struct ucounts *ucounts)\n{\n\tunsigned long flags;\n\n\tif (atomic_dec_and_lock_irqsave(&ucounts->count, &ucounts_lock, flags)) {\n\t\thlist_del_init(&ucounts->node);\n\t\tspin_unlock_irqrestore(&ucounts_lock, flags);\n\t\tput_user_ns(ucounts->ns);\n\t\tkfree(ucounts);\n\t}\n}\n\nstatic inline bool atomic_long_inc_below(atomic_long_t *v, int u)\n{\n\tlong c, old;\n\tc = atomic_long_read(v);\n\tfor (;;) {\n\t\tif (unlikely(c >= u))\n\t\t\treturn false;\n\t\told = atomic_long_cmpxchg(v, c, c+1);\n\t\tif (likely(old == c))\n\t\t\treturn true;\n\t\tc = old;\n\t}\n}\n\nstruct ucounts *inc_ucount(struct user_namespace *ns, kuid_t uid,\n\t\t\t   enum ucount_type type)\n{\n\tstruct ucounts *ucounts, *iter, *bad;\n\tstruct user_namespace *tns;\n\tucounts = alloc_ucounts(ns, uid);\n\tfor (iter = ucounts; iter; iter = tns->ucounts) {\n\t\tlong max;\n\t\ttns = iter->ns;\n\t\tmax = READ_ONCE(tns->ucount_max[type]);\n\t\tif (!atomic_long_inc_below(&iter->ucount[type], max))\n\t\t\tgoto fail;\n\t}\n\treturn ucounts;\nfail:\n\tbad = iter;\n\tfor (iter = ucounts; iter != bad; iter = iter->ns->ucounts)\n\t\tatomic_long_dec(&iter->ucount[type]);\n\n\tput_ucounts(ucounts);\n\treturn NULL;\n}\n\nvoid dec_ucount(struct ucounts *ucounts, enum ucount_type type)\n{\n\tstruct ucounts *iter;\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong dec = atomic_long_dec_if_positive(&iter->ucount[type]);\n\t\tWARN_ON_ONCE(dec < 0);\n\t}\n\tput_ucounts(ucounts);\n}\n\nlong inc_rlimit_ucounts(struct ucounts *ucounts, enum ucount_type type, long v)\n{\n\tstruct ucounts *iter;\n\tlong max = LONG_MAX;\n\tlong ret = 0;\n\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong new = atomic_long_add_return(v, &iter->ucount[type]);\n\t\tif (new < 0 || new > max)\n\t\t\tret = LONG_MAX;\n\t\telse if (iter == ucounts)\n\t\t\tret = new;\n\t\tmax = READ_ONCE(iter->ns->ucount_max[type]);\n\t}\n\treturn ret;\n}\n\nbool dec_rlimit_ucounts(struct ucounts *ucounts, enum ucount_type type, long v)\n{\n\tstruct ucounts *iter;\n\tlong new = -1; /* Silence compiler warning */\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong dec = atomic_long_sub_return(v, &iter->ucount[type]);\n\t\tWARN_ON_ONCE(dec < 0);\n\t\tif (iter == ucounts)\n\t\t\tnew = dec;\n\t}\n\treturn (new == 0);\n}\n\nstatic void do_dec_rlimit_put_ucounts(struct ucounts *ucounts,\n\t\t\t\tstruct ucounts *last, enum ucount_type type)\n{\n\tstruct ucounts *iter, *next;\n\tfor (iter = ucounts; iter != last; iter = next) {\n\t\tlong dec = atomic_long_sub_return(1, &iter->ucount[type]);\n\t\tWARN_ON_ONCE(dec < 0);\n\t\tnext = iter->ns->ucounts;\n\t\tif (dec == 0)\n\t\t\tput_ucounts(iter);\n\t}\n}\n\nvoid dec_rlimit_put_ucounts(struct ucounts *ucounts, enum ucount_type type)\n{\n\tdo_dec_rlimit_put_ucounts(ucounts, NULL, type);\n}\n\nlong inc_rlimit_get_ucounts(struct ucounts *ucounts, enum ucount_type type)\n{\n\t/* Caller must hold a reference to ucounts */\n\tstruct ucounts *iter;\n\tlong max = LONG_MAX;\n\tlong dec, ret = 0;\n\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong new = atomic_long_add_return(1, &iter->ucount[type]);\n\t\tif (new < 0 || new > max)\n\t\t\tgoto unwind;\n\t\tif (iter == ucounts)\n\t\t\tret = new;\n\t\tmax = READ_ONCE(iter->ns->ucount_max[type]);\n\t\t/*\n\t\t * Grab an extra ucount reference for the caller when\n\t\t * the rlimit count was previously 0.\n\t\t */\n\t\tif (new != 1)\n\t\t\tcontinue;\n\t\tif (!get_ucounts(iter))\n\t\t\tgoto dec_unwind;\n\t}\n\treturn ret;\ndec_unwind:\n\tdec = atomic_long_sub_return(1, &iter->ucount[type]);\n\tWARN_ON_ONCE(dec < 0);\nunwind:\n\tdo_dec_rlimit_put_ucounts(ucounts, iter, type);\n\treturn 0;\n}\n\nbool is_ucounts_overlimit(struct ucounts *ucounts, enum ucount_type type, unsigned long rlimit)\n{\n\tstruct ucounts *iter;\n\tlong max = rlimit;\n\tif (rlimit > LONG_MAX)\n\t\tmax = LONG_MAX;\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tif (get_ucounts_value(iter, type) > max)\n\t\t\treturn true;\n\t\tmax = READ_ONCE(iter->ns->ucount_max[type]);\n\t}\n\treturn false;\n}\n\nstatic __init int user_namespace_sysctl_init(void)\n{\n#ifdef CONFIG_SYSCTL\n\tstatic struct ctl_table_header *user_header;\n\tstatic struct ctl_table empty[1];\n\t/*\n\t * It is necessary to register the user directory in the\n\t * default set so that registrations in the child sets work\n\t * properly.\n\t */\n\tuser_header = register_sysctl(\"user\", empty);\n\tkmemleak_ignore(user_header);\n\tBUG_ON(!user_header);\n\tBUG_ON(!setup_userns_sysctls(&init_user_ns));\n#endif\n\thlist_add_ucounts(&init_ucounts);\n\tinc_rlimit_ucounts(&init_ucounts, UCOUNT_RLIMIT_NPROC, 1);\n\treturn 0;\n}\nsubsys_initcall(user_namespace_sysctl_init);\n"
+            },
+            "code_doff": "diff --git a/kernel/ucount.c b/kernel/ucount.c\nindex 7b32c356ebc5..65b597431c86 100644\n--- a/kernel/ucount.c\n+++ b/kernel/ucount.c\n@@ -188,10 +188,11 @@ struct ucounts *alloc_ucounts(struct user_namespace *ns, kuid_t uid)\n \t\tucounts = find_ucounts(ns, uid, hashent);\n \t\tif (ucounts) {\n \t\t\tkfree(new);\n \t\t} else {\n \t\t\thlist_add_head(&new->node, hashent);\n+\t\t\tget_user_ns(new->ns);\n \t\t\tspin_unlock_irq(&ucounts_lock);\n \t\t\treturn new;\n \t\t}\n \t}\n \twrapped = !get_ucounts_or_wrap(ucounts);\n@@ -208,10 +209,11 @@ void put_ucounts(struct ucounts *ucounts)\n \tunsigned long flags;\n \n \tif (atomic_dec_and_lock_irqsave(&ucounts->count, &ucounts_lock, flags)) {\n \t\thlist_del_init(&ucounts->node);\n \t\tspin_unlock_irqrestore(&ucounts_lock, flags);\n+\t\tput_user_ns(ucounts->ns);\n \t\tkfree(ucounts);\n \t}\n }\n \n static inline bool atomic_long_inc_below(atomic_long_t *v, int u)\n",
+            "Before fix": {
+                "kernel/ucount.c": "// SPDX-License-Identifier: GPL-2.0-only\n\n#include <linux/stat.h>\n#include <linux/sysctl.h>\n#include <linux/slab.h>\n#include <linux/cred.h>\n#include <linux/hash.h>\n#include <linux/kmemleak.h>\n#include <linux/user_namespace.h>\n\nstruct ucounts init_ucounts = {\n\t.ns    = &init_user_ns,\n\t.uid   = GLOBAL_ROOT_UID,\n\t.count = ATOMIC_INIT(1),\n};\n\n#define UCOUNTS_HASHTABLE_BITS 10\nstatic struct hlist_head ucounts_hashtable[(1 << UCOUNTS_HASHTABLE_BITS)];\nstatic DEFINE_SPINLOCK(ucounts_lock);\n\n#define ucounts_hashfn(ns, uid)\t\t\t\t\t\t\\\n\thash_long((unsigned long)__kuid_val(uid) + (unsigned long)(ns), \\\n\t\t  UCOUNTS_HASHTABLE_BITS)\n#define ucounts_hashentry(ns, uid)\t\\\n\t(ucounts_hashtable + ucounts_hashfn(ns, uid))\n\n\n#ifdef CONFIG_SYSCTL\nstatic struct ctl_table_set *\nset_lookup(struct ctl_table_root *root)\n{\n\treturn &current_user_ns()->set;\n}\n\nstatic int set_is_seen(struct ctl_table_set *set)\n{\n\treturn &current_user_ns()->set == set;\n}\n\nstatic int set_permissions(struct ctl_table_header *head,\n\t\t\t\t  struct ctl_table *table)\n{\n\tstruct user_namespace *user_ns =\n\t\tcontainer_of(head->set, struct user_namespace, set);\n\tint mode;\n\n\t/* Allow users with CAP_SYS_RESOURCE unrestrained access */\n\tif (ns_capable(user_ns, CAP_SYS_RESOURCE))\n\t\tmode = (table->mode & S_IRWXU) >> 6;\n\telse\n\t/* Allow all others at most read-only access */\n\t\tmode = table->mode & S_IROTH;\n\treturn (mode << 6) | (mode << 3) | mode;\n}\n\nstatic struct ctl_table_root set_root = {\n\t.lookup = set_lookup,\n\t.permissions = set_permissions,\n};\n\nstatic long ue_zero = 0;\nstatic long ue_int_max = INT_MAX;\n\n#define UCOUNT_ENTRY(name)\t\t\t\t\t\\\n\t{\t\t\t\t\t\t\t\\\n\t\t.procname\t= name,\t\t\t\t\\\n\t\t.maxlen\t\t= sizeof(long),\t\t\t\\\n\t\t.mode\t\t= 0644,\t\t\t\t\\\n\t\t.proc_handler\t= proc_doulongvec_minmax,\t\\\n\t\t.extra1\t\t= &ue_zero,\t\t\t\\\n\t\t.extra2\t\t= &ue_int_max,\t\t\t\\\n\t}\nstatic struct ctl_table user_table[] = {\n\tUCOUNT_ENTRY(\"max_user_namespaces\"),\n\tUCOUNT_ENTRY(\"max_pid_namespaces\"),\n\tUCOUNT_ENTRY(\"max_uts_namespaces\"),\n\tUCOUNT_ENTRY(\"max_ipc_namespaces\"),\n\tUCOUNT_ENTRY(\"max_net_namespaces\"),\n\tUCOUNT_ENTRY(\"max_mnt_namespaces\"),\n\tUCOUNT_ENTRY(\"max_cgroup_namespaces\"),\n\tUCOUNT_ENTRY(\"max_time_namespaces\"),\n#ifdef CONFIG_INOTIFY_USER\n\tUCOUNT_ENTRY(\"max_inotify_instances\"),\n\tUCOUNT_ENTRY(\"max_inotify_watches\"),\n#endif\n#ifdef CONFIG_FANOTIFY\n\tUCOUNT_ENTRY(\"max_fanotify_groups\"),\n\tUCOUNT_ENTRY(\"max_fanotify_marks\"),\n#endif\n\t{ },\n\t{ },\n\t{ },\n\t{ },\n\t{ }\n};\n#endif /* CONFIG_SYSCTL */\n\nbool setup_userns_sysctls(struct user_namespace *ns)\n{\n#ifdef CONFIG_SYSCTL\n\tstruct ctl_table *tbl;\n\n\tBUILD_BUG_ON(ARRAY_SIZE(user_table) != UCOUNT_COUNTS + 1);\n\tsetup_sysctl_set(&ns->set, &set_root, set_is_seen);\n\ttbl = kmemdup(user_table, sizeof(user_table), GFP_KERNEL);\n\tif (tbl) {\n\t\tint i;\n\t\tfor (i = 0; i < UCOUNT_COUNTS; i++) {\n\t\t\ttbl[i].data = &ns->ucount_max[i];\n\t\t}\n\t\tns->sysctls = __register_sysctl_table(&ns->set, \"user\", tbl);\n\t}\n\tif (!ns->sysctls) {\n\t\tkfree(tbl);\n\t\tretire_sysctl_set(&ns->set);\n\t\treturn false;\n\t}\n#endif\n\treturn true;\n}\n\nvoid retire_userns_sysctls(struct user_namespace *ns)\n{\n#ifdef CONFIG_SYSCTL\n\tstruct ctl_table *tbl;\n\n\ttbl = ns->sysctls->ctl_table_arg;\n\tunregister_sysctl_table(ns->sysctls);\n\tretire_sysctl_set(&ns->set);\n\tkfree(tbl);\n#endif\n}\n\nstatic struct ucounts *find_ucounts(struct user_namespace *ns, kuid_t uid, struct hlist_head *hashent)\n{\n\tstruct ucounts *ucounts;\n\n\thlist_for_each_entry(ucounts, hashent, node) {\n\t\tif (uid_eq(ucounts->uid, uid) && (ucounts->ns == ns))\n\t\t\treturn ucounts;\n\t}\n\treturn NULL;\n}\n\nstatic void hlist_add_ucounts(struct ucounts *ucounts)\n{\n\tstruct hlist_head *hashent = ucounts_hashentry(ucounts->ns, ucounts->uid);\n\tspin_lock_irq(&ucounts_lock);\n\thlist_add_head(&ucounts->node, hashent);\n\tspin_unlock_irq(&ucounts_lock);\n}\n\nstatic inline bool get_ucounts_or_wrap(struct ucounts *ucounts)\n{\n\t/* Returns true on a successful get, false if the count wraps. */\n\treturn !atomic_add_negative(1, &ucounts->count);\n}\n\nstruct ucounts *get_ucounts(struct ucounts *ucounts)\n{\n\tif (!get_ucounts_or_wrap(ucounts)) {\n\t\tput_ucounts(ucounts);\n\t\tucounts = NULL;\n\t}\n\treturn ucounts;\n}\n\nstruct ucounts *alloc_ucounts(struct user_namespace *ns, kuid_t uid)\n{\n\tstruct hlist_head *hashent = ucounts_hashentry(ns, uid);\n\tstruct ucounts *ucounts, *new;\n\tbool wrapped;\n\n\tspin_lock_irq(&ucounts_lock);\n\tucounts = find_ucounts(ns, uid, hashent);\n\tif (!ucounts) {\n\t\tspin_unlock_irq(&ucounts_lock);\n\n\t\tnew = kzalloc(sizeof(*new), GFP_KERNEL);\n\t\tif (!new)\n\t\t\treturn NULL;\n\n\t\tnew->ns = ns;\n\t\tnew->uid = uid;\n\t\tatomic_set(&new->count, 1);\n\n\t\tspin_lock_irq(&ucounts_lock);\n\t\tucounts = find_ucounts(ns, uid, hashent);\n\t\tif (ucounts) {\n\t\t\tkfree(new);\n\t\t} else {\n\t\t\thlist_add_head(&new->node, hashent);\n\t\t\tspin_unlock_irq(&ucounts_lock);\n\t\t\treturn new;\n\t\t}\n\t}\n\twrapped = !get_ucounts_or_wrap(ucounts);\n\tspin_unlock_irq(&ucounts_lock);\n\tif (wrapped) {\n\t\tput_ucounts(ucounts);\n\t\treturn NULL;\n\t}\n\treturn ucounts;\n}\n\nvoid put_ucounts(struct ucounts *ucounts)\n{\n\tunsigned long flags;\n\n\tif (atomic_dec_and_lock_irqsave(&ucounts->count, &ucounts_lock, flags)) {\n\t\thlist_del_init(&ucounts->node);\n\t\tspin_unlock_irqrestore(&ucounts_lock, flags);\n\t\tkfree(ucounts);\n\t}\n}\n\nstatic inline bool atomic_long_inc_below(atomic_long_t *v, int u)\n{\n\tlong c, old;\n\tc = atomic_long_read(v);\n\tfor (;;) {\n\t\tif (unlikely(c >= u))\n\t\t\treturn false;\n\t\told = atomic_long_cmpxchg(v, c, c+1);\n\t\tif (likely(old == c))\n\t\t\treturn true;\n\t\tc = old;\n\t}\n}\n\nstruct ucounts *inc_ucount(struct user_namespace *ns, kuid_t uid,\n\t\t\t   enum ucount_type type)\n{\n\tstruct ucounts *ucounts, *iter, *bad;\n\tstruct user_namespace *tns;\n\tucounts = alloc_ucounts(ns, uid);\n\tfor (iter = ucounts; iter; iter = tns->ucounts) {\n\t\tlong max;\n\t\ttns = iter->ns;\n\t\tmax = READ_ONCE(tns->ucount_max[type]);\n\t\tif (!atomic_long_inc_below(&iter->ucount[type], max))\n\t\t\tgoto fail;\n\t}\n\treturn ucounts;\nfail:\n\tbad = iter;\n\tfor (iter = ucounts; iter != bad; iter = iter->ns->ucounts)\n\t\tatomic_long_dec(&iter->ucount[type]);\n\n\tput_ucounts(ucounts);\n\treturn NULL;\n}\n\nvoid dec_ucount(struct ucounts *ucounts, enum ucount_type type)\n{\n\tstruct ucounts *iter;\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong dec = atomic_long_dec_if_positive(&iter->ucount[type]);\n\t\tWARN_ON_ONCE(dec < 0);\n\t}\n\tput_ucounts(ucounts);\n}\n\nlong inc_rlimit_ucounts(struct ucounts *ucounts, enum ucount_type type, long v)\n{\n\tstruct ucounts *iter;\n\tlong max = LONG_MAX;\n\tlong ret = 0;\n\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong new = atomic_long_add_return(v, &iter->ucount[type]);\n\t\tif (new < 0 || new > max)\n\t\t\tret = LONG_MAX;\n\t\telse if (iter == ucounts)\n\t\t\tret = new;\n\t\tmax = READ_ONCE(iter->ns->ucount_max[type]);\n\t}\n\treturn ret;\n}\n\nbool dec_rlimit_ucounts(struct ucounts *ucounts, enum ucount_type type, long v)\n{\n\tstruct ucounts *iter;\n\tlong new = -1; /* Silence compiler warning */\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong dec = atomic_long_sub_return(v, &iter->ucount[type]);\n\t\tWARN_ON_ONCE(dec < 0);\n\t\tif (iter == ucounts)\n\t\t\tnew = dec;\n\t}\n\treturn (new == 0);\n}\n\nstatic void do_dec_rlimit_put_ucounts(struct ucounts *ucounts,\n\t\t\t\tstruct ucounts *last, enum ucount_type type)\n{\n\tstruct ucounts *iter, *next;\n\tfor (iter = ucounts; iter != last; iter = next) {\n\t\tlong dec = atomic_long_sub_return(1, &iter->ucount[type]);\n\t\tWARN_ON_ONCE(dec < 0);\n\t\tnext = iter->ns->ucounts;\n\t\tif (dec == 0)\n\t\t\tput_ucounts(iter);\n\t}\n}\n\nvoid dec_rlimit_put_ucounts(struct ucounts *ucounts, enum ucount_type type)\n{\n\tdo_dec_rlimit_put_ucounts(ucounts, NULL, type);\n}\n\nlong inc_rlimit_get_ucounts(struct ucounts *ucounts, enum ucount_type type)\n{\n\t/* Caller must hold a reference to ucounts */\n\tstruct ucounts *iter;\n\tlong max = LONG_MAX;\n\tlong dec, ret = 0;\n\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tlong new = atomic_long_add_return(1, &iter->ucount[type]);\n\t\tif (new < 0 || new > max)\n\t\t\tgoto unwind;\n\t\tif (iter == ucounts)\n\t\t\tret = new;\n\t\tmax = READ_ONCE(iter->ns->ucount_max[type]);\n\t\t/*\n\t\t * Grab an extra ucount reference for the caller when\n\t\t * the rlimit count was previously 0.\n\t\t */\n\t\tif (new != 1)\n\t\t\tcontinue;\n\t\tif (!get_ucounts(iter))\n\t\t\tgoto dec_unwind;\n\t}\n\treturn ret;\ndec_unwind:\n\tdec = atomic_long_sub_return(1, &iter->ucount[type]);\n\tWARN_ON_ONCE(dec < 0);\nunwind:\n\tdo_dec_rlimit_put_ucounts(ucounts, iter, type);\n\treturn 0;\n}\n\nbool is_ucounts_overlimit(struct ucounts *ucounts, enum ucount_type type, unsigned long rlimit)\n{\n\tstruct ucounts *iter;\n\tlong max = rlimit;\n\tif (rlimit > LONG_MAX)\n\t\tmax = LONG_MAX;\n\tfor (iter = ucounts; iter; iter = iter->ns->ucounts) {\n\t\tif (get_ucounts_value(iter, type) > max)\n\t\t\treturn true;\n\t\tmax = READ_ONCE(iter->ns->ucount_max[type]);\n\t}\n\treturn false;\n}\n\nstatic __init int user_namespace_sysctl_init(void)\n{\n#ifdef CONFIG_SYSCTL\n\tstatic struct ctl_table_header *user_header;\n\tstatic struct ctl_table empty[1];\n\t/*\n\t * It is necessary to register the user directory in the\n\t * default set so that registrations in the child sets work\n\t * properly.\n\t */\n\tuser_header = register_sysctl(\"user\", empty);\n\tkmemleak_ignore(user_header);\n\tBUG_ON(!user_header);\n\tBUG_ON(!setup_userns_sysctls(&init_user_ns));\n#endif\n\thlist_add_ucounts(&init_ucounts);\n\tinc_rlimit_ucounts(&init_ucounts, UCOUNT_RLIMIT_NPROC, 1);\n\treturn 0;\n}\nsubsys_initcall(user_namespace_sysctl_init);\n"
+            }
+        }
+    },
+    "CVE_impact": {
+        "CVSS": {
+            "nvd": {
+                "cvssMetricV31": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "cvssData": {
+                            "version": "3.1",
+                            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                            "baseScore": 7.8,
+                            "baseSeverity": "HIGH",
+                            "attackVector": "LOCAL",
+                            "attackComplexity": "LOW",
+                            "privilegesRequired": "LOW",
+                            "userInteraction": "NONE",
+                            "scope": "UNCHANGED",
+                            "confidentialityImpact": "HIGH",
+                            "integrityImpact": "HIGH",
+                            "availabilityImpact": "HIGH"
+                        },
+                        "exploitabilityScore": 1.8,
+                        "impactScore": 5.9
+                    }
+                ],
+                "cvssMetricV2": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "cvssData": {
+                            "version": "2.0",
+                            "vectorString": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+                            "baseScore": 6.9,
+                            "accessVector": "LOCAL",
+                            "accessComplexity": "MEDIUM",
+                            "authentication": "NONE",
+                            "confidentialityImpact": "COMPLETE",
+                            "integrityImpact": "COMPLETE",
+                            "availabilityImpact": "COMPLETE"
+                        },
+                        "baseSeverity": "MEDIUM",
+                        "exploitabilityScore": 3.4,
+                        "impactScore": 10.0,
+                        "acInsufInfo": false,
+                        "obtainAllPrivilege": false,
+                        "obtainUserPrivilege": false,
+                        "obtainOtherPrivilege": false,
+                        "userInteractionRequired": false
+                    }
+                ]
+            },
+            "redhat": {
+                "cvss_score": "7.8",
+                "cvss_severity": "Important"
+            }
+        },
+        "CPE": {
+            "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "linux",
+                "product": "linux_kernel",
+                "product_version": "*"
+            },
+            "cpe:2.3:o:netapp:h410c_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h410c_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h410c_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h300s_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h300s_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h300s_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h500s_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h500s_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h500s_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h700s_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h700s_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h700s_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h300e_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h300e_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h300e_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h500e_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h500e_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h500e_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h700e_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h700e_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h700e_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:netapp:h410s_firmware:-:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:netapp:h410s_firmware:-:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "netapp",
+                "product": "h410s_firmware",
+                "product_version": "-"
+            },
+            "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:fedoraproject:fedora:34:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "fedoraproject",
+                "product": "fedora",
+                "product_version": "34"
+            },
+            "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*": {
+                "cpe": "cpe:2.3:o:fedoraproject:fedora:35:*:*:*:*:*:*:*",
+                "version": "cpe2.3",
+                "vendor": "fedoraproject",
+                "product": "fedora",
+                "product_version": "35"
+            }
+        }
+    }
+};

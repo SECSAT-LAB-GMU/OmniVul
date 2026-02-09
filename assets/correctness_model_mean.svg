@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490" y="32" text-anchor="middle" font-family="Arial" font-size="20" fill="#222">Mean Correctness Score by Model</text>
+<line x1="70" y1="450.00" x2="950" y2="450.00" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="454.00" text-anchor="end" font-family="Arial" font-size="12" fill="#444">1</text>
+<line x1="70" y1="352.50" x2="950" y2="352.50" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="356.50" text-anchor="end" font-family="Arial" font-size="12" fill="#444">2</text>
+<line x1="70" y1="255.00" x2="950" y2="255.00" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="259.00" text-anchor="end" font-family="Arial" font-size="12" fill="#444">3</text>
+<line x1="70" y1="157.50" x2="950" y2="157.50" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="161.50" text-anchor="end" font-family="Arial" font-size="12" fill="#444">4</text>
+<line x1="70" y1="60.00" x2="950" y2="60.00" stroke="#e6e6e6" stroke-width="1"/>
+<text x="60" y="64.00" text-anchor="end" font-family="Arial" font-size="12" fill="#444">5</text>
+<line x1="70" y1="60" x2="70" y2="450" stroke="#222" stroke-width="1.5"/>
+<line x1="70" y1="450" x2="950" y2="450" stroke="#222" stroke-width="1.5"/>
+<rect x="90.00" y="229.60" width="152.00" height="220.40" fill="#00798c" rx="4"/>
+<text x="166.00" y="221.60" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">3.26</text>
+<text x="166.00" y="472.00" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">Claude</text>
+<rect x="262.00" y="231.37" width="152.00" height="218.63" fill="#2a9d8f" rx="4"/>
+<text x="338.00" y="223.37" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">3.24</text>
+<text x="338.00" y="472.00" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">Gemini</text>
+<rect x="434.00" y="241.01" width="152.00" height="208.99" fill="#edae49" rx="4"/>
+<text x="510.00" y="233.01" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">3.14</text>
+<text x="510.00" y="472.00" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">Llama</text>
+<rect x="606.00" y="241.30" width="152.00" height="208.70" fill="#d1495b" rx="4"/>
+<text x="682.00" y="233.30" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">3.14</text>
+<text x="682.00" y="472.00" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">GPT</text>
+<rect x="778.00" y="250.40" width="152.00" height="199.60" fill="#6a4c93" rx="4"/>
+<text x="854.00" y="242.40" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">3.05</text>
+<text x="854.00" y="472.00" text-anchor="middle" font-family="Arial" font-size="13" fill="#222">Qwen</text>
+<text x="25" y="52" font-family="Arial" font-size="12" fill="#333">Score</text>
+</svg>

@@ -26,7 +26,7 @@
             margin: 0 0 0.5rem 0;
             color: var(--secondary-color);
             font-size: 1rem;
-            font-family: "Courier New", monospace;
+            font-family: inherit;
         }
 
         .quick-card p {
@@ -55,7 +55,7 @@
             margin: 0 0 0.6rem 0;
             color: var(--secondary-color);
             font-size: 1rem;
-            font-family: "Courier New", monospace;
+            font-family: inherit;
         }
 
         .asset-card p {
@@ -111,7 +111,7 @@
             margin: 0;
             font-size: 0.95rem;
             color: var(--secondary-color);
-            font-family: "Courier New", monospace;
+            font-family: inherit;
             word-break: break-all;
         }
 
@@ -129,14 +129,17 @@
 
         .json-preview {
             margin: 0;
-            padding: 1rem;
-            max-height: 420px;
+            display: block;
+            width: 100%;
+            height: 300px;
+            border: 2px solid var(--border-color);
+            background: #ffffff;
             overflow: auto;
-            background: var(--text-color);
-            color: #f5f3f0;
-            font-size: 0.82rem;
-            line-height: 1.5;
+            padding: 1rem;
             font-family: "Courier New", monospace;
+            font-size: 0.82rem;
+            line-height: 1.35;
+            white-space: pre;
         }
 
         .cmd-block {
@@ -161,6 +164,90 @@
             text-decoration: underline;
         }
 
+        .flow-frame {
+            height: 520px;
+        }
+
+        .portfolio-frame {
+            height: 460px;
+        }
+
+        .qa-chat-image {
+            width: 100%;
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            background: #ffffff;
+            margin-top: 1rem;
+        }
+
+        .qa-chat-preview {
+            max-width: 620px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .conformal-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .conformal-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            padding: 0.75rem;
+            box-shadow: var(--shadow);
+        }
+
+        .conformal-card h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--secondary-color);
+            font-size: 0.95rem;
+            font-family: inherit;
+        }
+
+        .conformal-frame {
+            height: 360px;
+            margin-top: 0;
+        }
+
+        .graph-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .graph-card {
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            box-shadow: var(--shadow);
+            padding: 0.75rem;
+        }
+
+        .graph-card h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--secondary-color);
+            font-size: 0.95rem;
+            font-family: inherit;
+        }
+
+        .graph-image {
+            width: 100%;
+            display: block;
+            border: 1px solid #ddd;
+            background: #fff;
+        }
+
+        .attribute-columns {
+            columns: 3;
+            column-gap: 2rem;
+            margin-top: 0.75rem;
+        }
+
         @media (max-width: 768px) {
             .file-box-header {
                 flex-direction: column;
@@ -170,6 +257,30 @@
             .pdf-frame {
                 height: 320px;
             }
+
+            .flow-frame {
+                height: 380px;
+            }
+
+            .portfolio-frame {
+                height: 340px;
+            }
+
+            .json-preview {
+                height: 240px;
+            }
+
+            .conformal-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .conformal-frame {
+                height: 300px;
+            }
+
+            .attribute-columns {
+                columns: 1;
+            }
         }
     </style>
 </head>
@@ -178,10 +289,10 @@
         <div class="container">
             <div class="nav-links">
                 <a href="#abstract">Abstract</a>
-                <a href="#pipeline">Pipeline</a>
-                <a href="#artifacts">Artifacts</a>
-                <a href="#sample-cve">Sample CVE</a>
-                <a href="#downloads">Downloads</a>
+                <a href="#flow-diagram">Flow</a>
+                <a href="#pipeline">Data Curation Pipeline</a>
+                <a href="#section4">OmniVul Dataset</a>
+                <a href="#sota">SOTA LLM Evaluation</a>
                 <a href="#bibtex">BibTeX</a>
             </div>
         </div>
@@ -190,7 +301,7 @@
     <header class="header">
         <div class="container">
             <h1 class="title">OmniVul: A Holistic, Multi-Turn Conversational Benchmark for LLM-Based Vulnerability Assessment</h1>
-            <p class="authors">Anonymous Authors | KDD 2026 Submission #91</p>
+            <p class="authors"> KDD 2026 Submission #91 </p>
         </div>
     </header>
 
@@ -199,14 +310,7 @@
             <h2>Abstract</h2>
             <div class="abstract-placeholder">
                 <p>
-                    With more than 20,000 Common Vulnerabilities and Exposures (CVEs) reported annually, software vulnerabilities represent a critical cybersecurity challenge.
-                    Existing benchmarks are often narrow, context-light, and single-turn, making them less suitable for realistic LLM-based analyst workflows.
-                    OmniVul addresses this by providing a comprehensive multi-turn benchmark with 2,000 CVEs and question-answer pairs across 23 attributes,
-                    covering detection, code localization, root cause analysis, and patch suggestion.
-                </p>
-                <p>
-                    The repository includes an end-to-end workflow for data collection, portfolio construction, QA generation using RAG, and quality filtering using
-                    LLM-as-a-Judge with conformal prediction calibration.
+                    With more than 20,000 Common Vulnerabilities and Exposures (CVEs) reported annually, software vulnerabilities represent a critical cybersecurity challenge. This volume has intensified the demand for automated detection and analysis, motivating the integration of large language models (LLMs) for such tasks. However, existing vulnerability benchmarks are not suitable for LLMs, as most of them 1) rely on narrow data sources, 2) lack deep context, and 3) focus on single-turn Q&A rather than realistic, multi-turn analyst workflows. To address this gap, we introduce OmniVul, a comprehensive multi-turn benchmark for LLM-based vulnerability assessment. OmniVul comprises 2,000 CVEs with question-answer pairs spanning 23 attributes, including detection, code localization, root cause analysis, and patch suggestion. We employ an automated workflow to aggregate multi-source data via retrieval-augmented generation (RAG), ensuring quality through LLM-as-a-Judge filtering and conformal prediction calibrated by human expert annotations. An evaluation of five state-of-the-art LLMs on OmniVul reveals distinct performance gaps, with top-1 accuracy remaining below 60% for vulnerable code detection and CVE identification. Our evaluation also demonstrates that current models lack critical reasoning capabilities for reliable vulnerability assessment. These results highlight the importance of OmniVul for advancing research in evaluating and fine-tuning LLMs for vulnerability assessment.
                 </p>
             </div>
 
@@ -221,7 +325,7 @@
                 </div>
                 <div class="quick-card">
                     <h4>Repository Sections</h4>
-                    <p>Section 3 (pipeline), Section 4 (data/results), Section 5 (SOTA LLM evaluation).</p>
+                    <p>Section 3 (Data curation and validation pipeline), Section 4 (OmniVul Dataset), Section 5 (SOTA LLM Evaluation).</p>
                 </div>
                 <div class="quick-card">
                     <h4>Evaluation Focus</h4>
@@ -231,123 +335,212 @@
         </div>
     </section>
 
+    <section id="flow-diagram" class="section bg-light">
+        <div class="container">
+            <h2>Project Flow Diagram</h2>
+            <div class="survey-section">
+                <p>
+                    This diagram captures the end-to-end OmniVul workflow, from multi-source CVE collection through portfolio construction,
+                    QA generation, and evaluation.
+                </p>
+                <iframe class="pdf-frame flow-frame" src="flow_diagram.pdf" title="OmniVul Flow Diagram"></iframe>
+            </div>
+        </div>
+    </section>
+
     <section id="pipeline" class="section bg-light">
         <div class="container">
-            <h2>Pipeline Overview</h2>
+            <h2>Section 3: Data Curation and Validation Pipeline</h2>
             <div class="survey-section">
-                <h3>Section 3 Workflow</h3>
-                <ul>
-                    <li><strong>Step 1:</strong> Collect vulnerability data from NVD and other sources, then build CVE portfolios (`Section 3/step_1`).</li>
-                    <li><strong>Step 2:</strong> Generate QA pairs from portfolios using a RAG pipeline (`Section 3/step_2/gen_qa_cves.py`).</li>
-                    <li><strong>Step 3:</strong> Evaluate with LLM-as-a-Judge and conformal prediction calibration (`Section 3/step_3`).</li>
-                </ul>
-
-                <p>Execution requires installing dependencies from <code>requirements.txt</code>. Step 2 and Step 3 require setting an OpenAI API key in project constants.</p>
-                <pre class="cmd-block"><code>pip install -r requirements.txt
-python "Section 3/step_1/portfolio_construction.py"
-python "Section 3/step_2/gen_qa_cves.py"
-python "Section 3/step_3/evaluate_rag.py"</code></pre>
-            </div>
-
-            <div class="survey-section">
-                <h3>Section READMEs</h3>
-                <ul class="links-list">
-                    <li><a href="README.md">Root README</a></li>
-                    <li><a href="Section%203/README.md">Section 3 README</a></li>
-                    <li><a href="Section%203/step_1/README.md">Section 3 Step 1 README</a></li>
-                    <li><a href="Section%203/step_2/README.md">Section 3 Step 2 README</a></li>
-                    <li><a href="Section%203/step_3/README.md">Section 3 Step 3 README</a></li>
-                    <li><a href="Section%203/step_1/git-git_kernel/README.md">git-kernel Submodule README</a></li>
-                    <li><a href="Section%205/README.md">Section 5 README</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="artifacts" class="section">
-        <div class="container">
-            <h2>Artifacts</h2>
-            <p>These files in <code>assets/</code> are included directly on this page and can be opened/downloaded for inspection.</p>
-
-            <div class="asset-grid">
-                <div class="asset-card">
-                    <h4>System Overview</h4>
-                    <p>Pipeline and architecture overview diagram.</p>
-                    <a href="assets/final_overview.drawio_soft.pdf" target="_blank" rel="noopener">Open PDF</a>
-                </div>
-                <div class="asset-card">
-                    <h4>Portfolio Snapshot</h4>
-                    <p>Flattened representation of sample portfolio data.</p>
-                    <a href="assets/portfolio_flat.pdf" target="_blank" rel="noopener">Open PDF</a>
-                </div>
-                <div class="asset-card">
-                    <h4>QA Chat Example</h4>
-                    <p>Sample conversational QA sequence generated by the pipeline.</p>
-                    <a href="assets/qa_chat.pdf" target="_blank" rel="noopener">Open PDF</a>
-                </div>
-                <div class="asset-card">
-                    <h4>Evaluation Screenshot</h4>
-                    <p>Screenshot from evaluation flow and scoring setup.</p>
-                    <a href="assets/eval_screenshot.pdf" target="_blank" rel="noopener">Open PDF</a>
-                </div>
-                <div class="asset-card">
-                    <h4>Attribute List</h4>
-                    <p>Spreadsheet listing the benchmark attribute set.</p>
-                    <a href="assets/attribute_list.ods" target="_blank" rel="noopener">Open ODS</a>
-                </div>
-            </div>
-
-            <iframe class="pdf-frame" src="assets/final_overview.drawio_soft.pdf" title="OmniVul Overview PDF"></iframe>
-        </div>
-    </section>
-
-    <section id="sample-cve" class="section bg-light">
-        <div class="container">
-            <h2>Sample CVE File Boxes</h2>
-            <p>
-                The following file boxes render previews from repository assets. They are intended for quick browsing of representative benchmark records.
-            </p>
-
-            <div class="file-grid">
-                <div class="file-box">
-                    <div class="file-box-header">
-                        <p class="file-box-title">assets/sample_CVE.json</p>
-                        <a href="assets/sample_CVE.json" target="_blank" rel="noopener">Open Full File</a>
-                    </div>
-                    <pre id="preview-sample-cve" class="json-preview">Loading preview...</pre>
-                </div>
-
-                <div class="file-box">
-                    <div class="file-box-header">
-                        <p class="file-box-title">assets/sample_NVD_links.json</p>
-                        <a href="assets/sample_NVD_links.json" target="_blank" rel="noopener">Open Full File</a>
-                    </div>
-                    <pre id="preview-nvd-links" class="json-preview">Loading preview...</pre>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="downloads" class="section">
-        <div class="container">
-            <h2>Data &amp; Downloads</h2>
-            <div class="survey-section">
-                <h3>Benchmark Download</h3>
+                <h3>Pipeline Overview</h3>
                 <p>
-                    Full portfolios and QA pairs are available on Figshare:
-                    <a href="https://figshare.com/s/e7de88e735094f82a668" target="_blank" rel="noopener">https://figshare.com/s/e7de88e735094f82a668</a>
+                    Section 3 details the end-to-end curation and validation workflow that transforms raw CVE sources into grounded portfolios,
+                    multi-turn QA, and quality-calibrated outputs.
+                </p>
+                <ul>
+                    <li><strong>Step 1:</strong> Collect vulnerability data from NVD and other sources, then build CVE portfolios (<code>Section 3/step_1</code>).</li>
+                    <li><strong>Step 2:</strong> Generate QA pairs from portfolios using a RAG pipeline (<code>Section 3/step_2</code>).</li>
+                    <li><strong>Step 3:</strong> Validate with LLM-as-a-Judge and conformal prediction calibration (<code>Section 3/step_3</code>).</li>
+                </ul>
+                <p>
+                    Portfolio construction begins with NVD CVEs and enriches entries across seclists, packetstorm, exploitDB, Ubuntu,
+                    redhat-cve-details, and git-kernel commit history, including commit messages for code-level grounding.
+                </p>
+                <p>
+                    Conformal validation computes nonconformity scores and calibrated thresholds for faithfulness, correctness, and completeness
+                    to support confidence-aware QA quality checks.
+                </p>
+                <p>
+                    Execution requires dependencies from <code>requirements.txt</code>. Model-backed stages require API key configuration in project constants.
                 </p>
             </div>
 
             <div class="survey-section">
-                <h3>Repository Data Files</h3>
-                <ul class="links-list">
-                    <li><a href="Section%204/sample_portfolios.json" target="_blank" rel="noopener">Section 4 sample portfolios</a></li>
-                    <li><a href="Section%205/final_sota_qa_pairs.json" target="_blank" rel="noopener">Section 5 final SOTA QA pairs</a></li>
-                    <li><a href="Section%205/portfolio_cves.json" target="_blank" rel="noopener">Section 5 portfolio CVEs</a></li>
-                    <li><a href="Section%205/extracted_patched_cves.json" target="_blank" rel="noopener">Section 5 extracted patched CVEs</a></li>
-                    <li><a href="flow_diagram.pdf" target="_blank" rel="noopener">Flow diagram PDF</a></li>
+                <h3>Portfolio Construction Snapshot (Section 3)</h3>
+                <p>
+                    The portfolio diagram below illustrates the portfolio representation produced from Step 1 and used downstream by the QA-generation and evaluation stages.
+                </p>
+                <iframe class="pdf-frame portfolio-frame" src="assets/portfolio_flat.pdf" title="Portfolio Diagram from Section 3"></iframe>
+            </div>
+
+            <div class="survey-section">
+                <h3>Sample CVE portfolio</h3>
+                <p>
+                    A sample CVE portfolio entry is shown directly below.
+                </p>
+                <div class="file-grid">
+                    <div class="file-box">
+                        <div class="file-box-header">
+                            <p class="file-box-title">Sample portfolio entry</p>
+                        </div>
+                        <pre class="json-preview" id="sample-portfolio-json" aria-label="Sample CVE portfolio JSON">Loading sample portfolio...</pre>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section4" class="section">
+        <div class="container">
+            <h2>Section 4: OmniVul Dataset</h2>
+            <div class="survey-section">
+                <h3>Official Download Link</h3>
+                <p>
+                    The complete portfolios and QA pairs are published at:
+                    <a href="https://figshare.com/s/e7de88e735094f82a668" target="_blank" rel="noopener">https://figshare.com/s/e7de88e735094f82a668</a>
+                </p>
+                <p>
+                    OmniVul releases 2,000 CVE portfolios with multi-turn QA coverage across 23 attributes, pairing rich vulnerability context
+                    with structured analyst-style questioning for downstream evaluation and benchmarking.
+                </p>
+            </div>
+
+            <div class="survey-section">
+                <h3>OmniVul Attribute Names</h3>
+                <p>OmniVul defines 23 attribute names used for CVE analysis and QA generation:</p>
+                <ol class="attribute-columns">
+                    <li>Funciton name</li>
+                    <li>File name</li>
+                    <li>Vulnerable OS component</li>
+                    <li>Weakness type</li>
+                    <li>Root cause</li>
+                    <li>secure coding violation</li>
+                    <li>Mitigation</li>
+                    <li>CIA impact</li>
+                    <li>Exploit Explanation</li>
+                    <li>exploit code</li>
+                    <li>Abusable interfaces</li>
+                    <li>Exploit steps</li>
+                    <li>Privileges required</li>
+                    <li>Privileges acquired</li>
+                    <li>Crash dump or stack trace</li>
+                    <li>Exploited versions</li>
+                    <li>Remote exploitability</li>
+                    <li>Patch explanation</li>
+                    <li>Patch date</li>
+                    <li>Patch version</li>
+                    <li>Code difference</li>
+                    <li>Patch code</li>
+                    <li>Score explanation</li>
+                </ol>
+            </div>
+
+            <div class="survey-section">
+                <h3>Conformal Prediction Outputs</h3>
+                <img class="qa-chat-image" src="assets/Conformal prediction scores.png" alt="Conformal prediction scores for faithfulness, correctness, and completeness">
+                <p>
+                    Conformal-calibrated scores of RAG-generated CVE attributes. Average LLM-judged (a) Faithfulness, (b) Correctness, and (c) Completeness scores for 23 CVE attributes are illustrated as markers, with 90% conformal confidence intervals shown as bars. Square markers (&#9632;) indicate perfect agreement (zero non-conformity) with human scores, while triangles (&#9650;) mark attributes with LLM-human deviations. The figure highlights that the RAG-generated attributes not only achieve high evaluation scores, but most also exhibit strong LLM-human score agreement under 90% conformal prediction confidence.
+                </p>
+            </div>
+
+            <div class="survey-section">
+                <h3>QA Chat Example</h3>
+                <p>
+                    This example illustrates a representative QA chat output produced by the project pipeline.
+                </p>
+                <img class="qa-chat-image qa-chat-preview" src="assets/qa_chat_preview.png" alt="QA Chat Example preview">
+            </div>
+        </div>
+    </section>
+
+    <section id="sota" class="section bg-light">
+        <div class="container">
+            <h2>Section 5: SOTA LLM Evaluation</h2>
+
+            <div class="survey-section">
+                <h3>Three Evaluation Steps</h3>
+                <ul>
+                    <li><strong>Step 1:</strong> Vulnerability Detection (weighted precision/recall/F1 via <code>evaluate_round1.py</code>).</li>
+                    <li><strong>Step 2:</strong> CVE Identification (top-1/top-5 accuracy via <code>evaluate_round2.py</code>).</li>
+                    <li><strong>Step 3:</strong> CVE Attribute QA correctness (via <code>evaluate_round3.py</code> and <code>gather_scores.py</code>).</li>
                 </ul>
+                <p>
+                    Section 5 evaluates 200 CVEs with RAG-generated QA pairs in <code>final_sota_qa_pairs.json</code>, with raw portfolios in <code>portfolio_cves.json</code> and 83 patched versions in <code>extracted_patched_cves.json</code>.
+                </p>
+            </div>
+        
+            <div class="survey-section">
+                <h3>Per-Model Outputs</h3>
+                <div class="asset-grid">
+                    <div class="asset-card">
+                        <h4>GPT</h4>
+                        <p>
+                            <a href="Section%205/gpt_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="Section%205/gpt_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="Section%205/gpt_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                        </p>
+                    </div>
+                    <div class="asset-card">
+                        <h4>Claude</h4>
+                        <p>
+                            <a href="Section%205/claude_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="Section%205/claude_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="Section%205/claude_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                        </p>
+                    </div>
+                    <div class="asset-card">
+                        <h4>Llama</h4>
+                        <p>
+                            <a href="Section%205/llama_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="Section%205/llama_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="Section%205/llama_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                        </p>
+                    </div>
+                    <div class="asset-card">
+                        <h4>Gemini</h4>
+                        <p>
+                            <a href="Section%205/gemini_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="Section%205/gemini_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="Section%205/gemini_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                        </p>
+                    </div>
+                    <div class="asset-card">
+                        <h4>Qwen</h4>
+                        <p>
+                            <a href="Section%205/qwen_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="Section%205/qwen_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="Section%205/qwen_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="survey-section">
+                <h3>Correctness Score Graphs</h3>
+                <p>
+                    CVE-level correctness scores are visualized below using the model outputs from Section 5 correctness CSVs.
+                </p>
+                <div class="graph-grid">
+                    <div class="graph-card">
+                        <h4>Per-CVE Correctness Distribution (Sorted)</h4>
+                        <img class="graph-image" src="assets/correctness_cve_sorted.svg" alt="Sorted per-CVE mean correctness curves for GPT, Claude, Llama, Gemini, and Qwen">
+                    </div>
+                    <div class="graph-card">
+                        <h4>Mean Correctness by Model</h4>
+                        <img class="graph-image" src="assets/correctness_model_mean.svg" alt="Bar chart of mean correctness scores by model">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -375,7 +568,44 @@ python "Section 3/step_3/evaluate_rag.py"</code></pre>
         </div>
     </footer>
 
+    <script src="assets/sample_CVE.js"></script>
     <script>
+        function formatValue(value, indent) {
+            var pad = "  ".repeat(indent);
+            var nextPad = "  ".repeat(indent + 1);
+
+            if (value === null) return "null";
+            if (typeof value === "number" || typeof value === "boolean") return String(value);
+            if (typeof value === "string") {
+                return "\"" + value.replace(/"/g, "\\\"") + "\"";
+            }
+
+            if (Array.isArray(value)) {
+                if (value.length === 0) return "[]";
+                var items = value.map(function (item) {
+                    return nextPad + formatValue(item, indent + 1);
+                });
+                return "[\n" + items.join(",\n") + "\n" + pad + "]";
+            }
+
+            var keys = Object.keys(value);
+            if (keys.length === 0) return "{}";
+            var parts = keys.map(function (key) {
+                return nextPad + JSON.stringify(key) + ": " + formatValue(value[key], indent + 1);
+            });
+            return "{\n" + parts.join(",\n") + "\n" + pad + "}";
+        }
+
+        function loadSamplePortfolio() {
+            var target = document.getElementById("sample-portfolio-json");
+            if (!target) return;
+            if (typeof window.SAMPLE_CVE === "undefined") {
+                target.textContent = "Could not load sample portfolio JSON.";
+                return;
+            }
+            target.textContent = formatValue(window.SAMPLE_CVE, 0);
+        }
+
         function copyBibtex() {
             var text = document.getElementById("bibtex-code").innerText;
             navigator.clipboard.writeText(text).then(function () {
@@ -388,27 +618,7 @@ python "Section 3/step_3/evaluate_rag.py"</code></pre>
             });
         }
 
-        async function loadPreview(elementId, filePath, maxLines) {
-            var target = document.getElementById(elementId);
-            try {
-                var response = await fetch(filePath);
-                if (!response.ok) {
-                    throw new Error("Unable to load " + filePath);
-                }
-                var text = await response.text();
-                var lines = text.split("\n");
-                var preview = lines.slice(0, maxLines).join("\n");
-                if (lines.length > maxLines) {
-                    preview += "\n\n... (preview truncated)";
-                }
-                target.textContent = preview;
-            } catch (error) {
-                target.textContent = "Preview unavailable. Open the full file using the link above.";
-            }
-        }
-
-        loadPreview("preview-sample-cve", "assets/sample_CVE.json", 140);
-        loadPreview("preview-nvd-links", "assets/sample_NVD_links.json", 120);
+        loadSamplePortfolio();
     </script>
 </body>
 </html>

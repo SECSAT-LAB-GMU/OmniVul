@@ -1,7 +1,7 @@
 This folder contains the data, scripts and results for SOTA LLM Evaluation on 3 steps: (1) Vulnerability Detection, (2) CVE Identification, (3) CVE Attribute QA.
 
 ### Data
-The 200 CVEs with RAG-generated ground truth are recorded in `final_sota_qa_pairs.json`.
+The 200 CVEs with RAG-generated QA pairs are recorded in `final_sota_qa_pairs.json`.
 
 The raw portfolio for these CVEs are available in `portfolio_cves.json`, and the 83 patched versions of these CVEs are in `extracted_patched_cves.json`.
 
