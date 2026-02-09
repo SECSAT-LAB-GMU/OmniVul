@@ -215,7 +215,7 @@
 
         .graph-grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: 1rem;
             margin-top: 1rem;
         }
@@ -246,6 +246,51 @@
             columns: 3;
             column-gap: 2rem;
             margin-top: 0.75rem;
+        }
+
+        .source-table-wrap {
+            margin-top: 1rem;
+            overflow-x: auto;
+            border: 2px solid var(--border-color);
+            border-radius: 4px;
+            background: #fff;
+        }
+
+        .source-table {
+            width: 100%;
+            min-width: 980px;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        .source-table th,
+        .source-table td {
+            border-bottom: 1px solid #e5e7eb;
+            padding: 0.6rem 0.7rem;
+            text-align: center;
+            vertical-align: top;
+            color: var(--text-secondary);
+        }
+
+        .source-table thead th {
+            background: var(--bg-darker);
+            color: var(--secondary-color);
+            font-weight: 700;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .source-table td.num {
+            text-align: center;
+            white-space: nowrap;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .source-table td.source {
+            font-weight: 700;
+            color: var(--text-color);
+            white-space: nowrap;
         }
 
         @media (max-width: 768px) {
@@ -280,6 +325,10 @@
 
             .attribute-columns {
                 columns: 1;
+            }
+
+            .graph-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -376,6 +425,116 @@
                 <p>
                     Execution requires dependencies from <code>requirements.txt</code>. Model-backed stages require API key configuration in constants.py.
                 </p>
+                <h3>Information Sources Table</h3>
+                <p>
+                    Data sources used in Section_3 and the associated category/attribute coverage are summarized below.
+                </p>
+                <div class="source-table-wrap" role="region" aria-label="Table 3: Different information sources and their type">
+                    <table class="source-table">
+                        <thead>
+                            <tr>
+                                <th>Source</th>
+                                <th># Download</th>
+                                <th># CVEs</th>
+                                <th>Category</th>
+                                <th>Attribute</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="source">NVD</td>
+                                <td class="num">14170</td>
+                                <td class="num">9379</td>
+                                <td>All Linux CVEs</td>
+                                <td>Description, References</td>
+                            </tr>
+                            <tr>
+                                <td class="source">GitHub</td>
+                                <td class="num">1300</td>
+                                <td class="num">987</td>
+                                <td>Reference links</td>
+                                <td>Git diff msgs</td>
+                            </tr>
+                            <tr>
+                                <td class="source">git.kernel.org</td>
+                                <td class="num">24233</td>
+                                <td class="num">6325</td>
+                                <td>Commit msgs</td>
+                                <td>Commit msgs and Patch details</td>
+                            </tr>
+                            <tr>
+                                <td class="source">Seclists</td>
+                                <td class="num">2789</td>
+                                <td class="num">344</td>
+                                <td>Entire website</td>
+                                <td>Developer discussions</td>
+                            </tr>
+                            <tr>
+                                <td class="source">Red-hat</td>
+                                <td class="num">6967</td>
+                                <td class="num">6958</td>
+                                <td>CVE specific</td>
+                                <td>Impact and Description</td>
+                            </tr>
+                            <tr>
+                                <td class="source">OpenWall</td>
+                                <td class="num">573</td>
+                                <td class="num">386</td>
+                                <td>Reference links</td>
+                                <td>Developer discussions</td>
+                            </tr>
+                            <tr>
+                                <td class="source">Exploit-DB</td>
+                                <td class="num">3095</td>
+                                <td class="num">2183</td>
+                                <td>All Linux exploits</td>
+                                <td>Exploit code</td>
+                            </tr>
+                            <tr>
+                                <td class="source">bugzilla.kernel.org</td>
+                                <td class="num">586</td>
+                                <td class="num">544</td>
+                                <td>Reference links</td>
+                                <td>Vulnerability details</td>
+                            </tr>
+                            <tr>
+                                <td class="source">bugzilla.redhat.com</td>
+                                <td class="num">5743</td>
+                                <td class="num">5743</td>
+                                <td>CVE specific</td>
+                                <td>Description</td>
+                            </tr>
+                            <tr>
+                                <td class="source">Lkml</td>
+                                <td class="num">154</td>
+                                <td class="num">118</td>
+                                <td>Reference links</td>
+                                <td>Developer discussions</td>
+                            </tr>
+                            <tr>
+                                <td class="source">Packetstormsecurity</td>
+                                <td class="num">83</td>
+                                <td class="num">63</td>
+                                <td>Reference links</td>
+                                <td>Exploit description and Code</td>
+                            </tr>
+                            <tr>
+                                <td class="source">lwn</td>
+                                <td class="num">324</td>
+                                <td class="num">154</td>
+                                <td>Complete website</td>
+                                <td>Vulnerability description</td>
+                            </tr>
+                            <tr>
+                                <td class="source">Ubuntu</td>
+                                <td class="num">8106</td>
+                                <td class="num">8106</td>
+                                <td>CVE specific</td>
+                                <td>CVE metrics and Description</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
             <div class="survey-section">
@@ -462,7 +621,9 @@
                 <p>
                     This example illustrates a representative QA chat output produced by the project pipeline.
                 </p>
-                <img class="qa-chat-image qa-chat-preview" src="./assets/qa_chat_preview.png" alt="QA Chat Example preview">
+                <center>
+                    <img class="qa-chat-image qa-chat-preview" src="./assets/qa_chat_preview.png" alt="QA Chat Example preview">
+                </center>
             </div>
         </div>
     </section>
@@ -532,17 +693,21 @@
             <div class="survey-section">
                 <h3>Correctness Score Graphs</h3>
                 <p>
-                    CVE-level correctness scores are visualized below using the model outputs from Section 5 correctness CSVs.
+                    Model performance is visualized below for vulnerability detection and CVE identification.
                 </p>
                 <div class="graph-grid">
                     <div class="graph-card">
-                        <h4>Per-CVE Correctness Distribution (Sorted)</h4>
-                        <img class="graph-image" src="./assets/correctness_cve_sorted.svg" alt="Sorted per-CVE mean correctness curves for GPT, Claude, Llama, Gemini, and Qwen">
+                        <h4>Vulnerability Detection Effectiveness</h4>
+                        <img class="graph-image" src="./assets/correctness_cve_sorted.svg" alt="Bar chart of vulnerability detection weighted precision, weighted recall, and weighted F1 by model">
                     </div>
                     <div class="graph-card">
-                        <h4>Mean Correctness by Model</h4>
-                        <img class="graph-image" src="./assets/correctness_model_mean.svg" alt="Bar chart of mean correctness scores by model">
+                        <h4>CVE Identification Effectiveness</h4>
+                        <img class="graph-image" src="./assets/correctness_model_mean.svg" alt="Grouped bar chart of CVE identification top-1 and top-5 accuracy with and without web search by model">
                     </div>
+                </div>
+                <div class="graph-card" style="margin-top:1rem;">
+                    <h4>CVE Attribute Question-Answering Effectiveness (Table 6)</h4>
+                    <img class="graph-image" src="./assets/correctness_attribute_table.svg" alt="Table of per-attribute QA correctness scores for GPT-4o, Claude 4, Gemini 2.5, Qwen 3, and Llama 3.3">
                 </div>
             </div>
         </div>
