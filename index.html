@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OmniVul | Project Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <style>
         .quick-grid {
             display: grid;
@@ -343,7 +343,7 @@
                     This diagram captures the end-to-end OmniVul workflow, from multi-source CVE collection through portfolio construction,
                     QA generation, and evaluation.
                 </p>
-                <iframe class="pdf-frame flow-frame" src="flow_diagram.pdf" title="OmniVul Flow Diagram"></iframe>
+                <iframe class="pdf-frame flow-frame" src="./flow_diagram.pdf" title="OmniVul Flow Diagram"></iframe>
             </div>
         </div>
     </section>
@@ -371,7 +371,7 @@
                     to support confidence-aware QA quality checks.
                 </p>
                 <p>
-                    Execution requires dependencies from <code>requirements.txt</code>. Model-backed stages require API key configuration in project constants.
+                    Execution requires dependencies from <code>requirements.txt</code>. Model-backed stages require API key configuration in constants.py.
                 </p>
             </div>
 
@@ -380,7 +380,7 @@
                 <p>
                     The portfolio diagram below illustrates the portfolio representation produced from Step 1 and used downstream by the QA-generation and evaluation stages.
                 </p>
-                <iframe class="pdf-frame portfolio-frame" src="assets/portfolio_flat.pdf" title="Portfolio Diagram from Section 3"></iframe>
+                <iframe class="pdf-frame portfolio-frame" src="./assets/portfolio_flat.pdf" title="Portfolio Diagram from Section 3"></iframe>
             </div>
 
             <div class="survey-section">
@@ -448,7 +448,7 @@
 
             <div class="survey-section">
                 <h3>Conformal Prediction Outputs</h3>
-                <img class="qa-chat-image" src="assets/Conformal prediction scores.png" alt="Conformal prediction scores for faithfulness, correctness, and completeness">
+                <img class="qa-chat-image" src="./assets/conformal_prediction_scores.png" alt="Conformal prediction scores for faithfulness, correctness, and completeness">
                 <p>
                     Conformal-calibrated scores of RAG-generated CVE attributes. Average LLM-judged (a) Faithfulness, (b) Correctness, and (c) Completeness scores for 23 CVE attributes are illustrated as markers, with 90% conformal confidence intervals shown as bars. Square markers (&#9632;) indicate perfect agreement (zero non-conformity) with human scores, while triangles (&#9650;) mark attributes with LLM-human deviations. The figure highlights that the RAG-generated attributes not only achieve high evaluation scores, but most also exhibit strong LLM-human score agreement under 90% conformal prediction confidence.
                 </p>
@@ -459,7 +459,7 @@
                 <p>
                     This example illustrates a representative QA chat output produced by the project pipeline.
                 </p>
-                <img class="qa-chat-image qa-chat-preview" src="assets/qa_chat_preview.png" alt="QA Chat Example preview">
+                <img class="qa-chat-image qa-chat-preview" src="./assets/qa_chat_preview.png" alt="QA Chat Example preview">
             </div>
         </div>
     </section>
@@ -486,41 +486,41 @@
                     <div class="asset-card">
                         <h4>GPT</h4>
                         <p>
-                            <a href="Section%205/gpt_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
-                            <a href="Section%205/gpt_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
-                            <a href="Section%205/gpt_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                            <a href="./Section%205/gpt_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="./Section%205/gpt_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="./Section%205/gpt_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
                         </p>
                     </div>
                     <div class="asset-card">
                         <h4>Claude</h4>
                         <p>
-                            <a href="Section%205/claude_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
-                            <a href="Section%205/claude_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
-                            <a href="Section%205/claude_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                            <a href="./Section%205/claude_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="./Section%205/claude_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="./Section%205/claude_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
                         </p>
                     </div>
                     <div class="asset-card">
                         <h4>Llama</h4>
                         <p>
-                            <a href="Section%205/llama_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
-                            <a href="Section%205/llama_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
-                            <a href="Section%205/llama_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                            <a href="./Section%205/llama_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="./Section%205/llama_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="./Section%205/llama_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
                         </p>
                     </div>
                     <div class="asset-card">
                         <h4>Gemini</h4>
                         <p>
-                            <a href="Section%205/gemini_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
-                            <a href="Section%205/gemini_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
-                            <a href="Section%205/gemini_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                            <a href="./Section%205/gemini_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="./Section%205/gemini_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="./Section%205/gemini_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
                         </p>
                     </div>
                     <div class="asset-card">
                         <h4>Qwen</h4>
                         <p>
-                            <a href="Section%205/qwen_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
-                            <a href="Section%205/qwen_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
-                            <a href="Section%205/qwen_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
+                            <a href="./Section%205/qwen_complete_detection_result.json" target="_blank" rel="noopener">Detection</a> |
+                            <a href="./Section%205/qwen_complete_cve_result.json" target="_blank" rel="noopener">CVE ID</a> |
+                            <a href="./Section%205/qwen_complete_QA_result.json" target="_blank" rel="noopener">QA</a>
                         </p>
                     </div>
                 </div>
@@ -534,11 +534,11 @@
                 <div class="graph-grid">
                     <div class="graph-card">
                         <h4>Per-CVE Correctness Distribution (Sorted)</h4>
-                        <img class="graph-image" src="assets/correctness_cve_sorted.svg" alt="Sorted per-CVE mean correctness curves for GPT, Claude, Llama, Gemini, and Qwen">
+                        <img class="graph-image" src="./assets/correctness_cve_sorted.svg" alt="Sorted per-CVE mean correctness curves for GPT, Claude, Llama, Gemini, and Qwen">
                     </div>
                     <div class="graph-card">
                         <h4>Mean Correctness by Model</h4>
-                        <img class="graph-image" src="assets/correctness_model_mean.svg" alt="Bar chart of mean correctness scores by model">
+                        <img class="graph-image" src="./assets/correctness_model_mean.svg" alt="Bar chart of mean correctness scores by model">
                     </div>
                 </div>
             </div>
@@ -568,8 +568,63 @@
         </div>
     </footer>
 
-    <script src="assets/sample_CVE.js"></script>
+    <script src="./assets/sample_CVE.js"></script>
     <script>
+        function isLocalPath(url) {
+            return !!url &&
+                !url.startsWith("#") &&
+                !url.startsWith("http://") &&
+                !url.startsWith("https://") &&
+                !url.startsWith("mailto:") &&
+                !url.startsWith("tel:") &&
+                !url.startsWith("javascript:");
+        }
+
+        function normalizeLocalPath(url) {
+            if (!isLocalPath(url)) return url;
+            var parts = url.split("#");
+            var pathWithQuery = parts[0];
+            var hash = parts[1] ? "#" + parts[1] : "";
+            var queryParts = pathWithQuery.split("?");
+            var rawPath = queryParts[0];
+            var query = queryParts[1] ? "?" + queryParts[1] : "";
+            var decoded;
+            try {
+                decoded = decodeURIComponent(rawPath);
+            } catch (err) {
+                decoded = rawPath;
+            }
+            var normalized = decoded.split("/").map(function (segment) {
+                return encodeURIComponent(segment);
+            }).join("/");
+            return normalized + query + hash;
+        }
+
+        function hardenLocalUrls() {
+            document.querySelectorAll("a[href], img[src], script[src], iframe[src], link[href]").forEach(function (el) {
+                var attr = el.hasAttribute("src") ? "src" : "href";
+                var current = el.getAttribute(attr);
+                if (!isLocalPath(current)) return;
+                el.setAttribute(attr, normalizeLocalPath(current));
+            });
+        }
+
+        function installImageFallbacks() {
+            var fallbackMap = {
+                "./assets/conformal_prediction_scores.png": "./assets/Conformal%20prediction%20scores.png"
+            };
+            document.querySelectorAll("img[src]").forEach(function (img) {
+                img.addEventListener("error", function () {
+                    var current = img.getAttribute("src");
+                    if (fallbackMap[current]) {
+                        img.setAttribute("src", fallbackMap[current]);
+                        return;
+                    }
+                    img.alt = "Image unavailable: " + current;
+                }, { once: true });
+            });
+        }
+
         function formatValue(value, indent) {
             var pad = "  ".repeat(indent);
             var nextPad = "  ".repeat(indent + 1);
@@ -618,6 +673,8 @@
             });
         }
 
+        hardenLocalUrls();
+        installImageFallbacks();
         loadSamplePortfolio();
     </script>
 </body>
