@@ -1,0 +1,712 @@
+{
+  "https://github.com/parisneo/lollms/commit/f4424cfc3d6dfb3ad5ac17dd46801efe784933e9": {
+    "cve": "CVE-2024-3429",
+    "api": "https://api.github.com/repos/parisneo/lollms/commits/f4424cfc3d6dfb3ad5ac17dd46801efe784933e9",
+    "status": 422
+  },
+  "https://github.com/parisneo/lollms/commit/95ad36eeffc6a6be3e3f35ed35a384d768f0ecf6": {
+    "cve": "CVE-2024-4881",
+    "api": "https://api.github.com/repos/parisneo/lollms/commits/95ad36eeffc6a6be3e3f35ed35a384d768f0ecf6",
+    "status": 422
+  },
+  "https://github.com/j4k0xb/webcrack/commit/4bc5c6f353012ee7edc2cb39d01a728ab7426999": {
+    "cve": "CVE-2024-43373",
+    "api": "https://api.github.com/repos/j4k0xb/webcrack/commits/4bc5c6f353012ee7edc2cb39d01a728ab7426999",
+    "status": 403
+  },
+  "https://github.com/j4k0xb/webcrack/security/advisories/GHSA-ccqh-278p-xq6w": {
+    "cve": "CVE-2024-43373",
+    "api": "https://api.github.com/repos/j4k0xb/webcrack/security-advisories/GHSA-ccqh-278p-xq6w",
+    "status": 403
+  },
+  "https://github.com/JPressProjects/jpress/issues/188": {
+    "cve": "CVE-2024-43033",
+    "api": "https://api.github.com/repos/JPressProjects/jpress/issues/188",
+    "status": 403
+  },
+  "https://github.com/yeti-platform/yeti/commit/f1f0082e7c165f148ae95f4deeb2786404797a39": {
+    "cve": "CVE-2024-45412",
+    "api": "https://api.github.com/repos/yeti-platform/yeti/commits/f1f0082e7c165f148ae95f4deeb2786404797a39",
+    "status": 403
+  },
+  "https://github.com/php/php-src/security/advisories/GHSA-p99j-rfp4-xqvq": {
+    "cve": "CVE-2024-8926",
+    "api": "https://api.github.com/repos/php/php-src/security-advisories/GHSA-p99j-rfp4-xqvq",
+    "status": 403
+  },
+  "https://github.com/pallets/werkzeug/commit/2767bcb10a7dd1c297d812cc5e6d11a474c1f092": {
+    "cve": "CVE-2024-49766",
+    "api": "https://api.github.com/repos/pallets/werkzeug/commits/2767bcb10a7dd1c297d812cc5e6d11a474c1f092",
+    "status": 403
+  },
+  "https://github.com/usebruno/bruno/pull/3122": {
+    "cve": "CVE-2024-48463",
+    "api": "https://api.github.com/repos/usebruno/bruno/pulls/3122",
+    "status": 403
+  },
+  "https://github.com/bytecodealliance/cap-std/pull/371": {
+    "cve": "CVE-2024-51745",
+    "api": "https://api.github.com/repos/bytecodealliance/cap-std/pulls/371",
+    "status": 403
+  },
+  "https://github.com/google/nearby/pull/2892": {
+    "cve": "CVE-2024-10668",
+    "api": "https://api.github.com/repos/google/nearby/pulls/2892",
+    "status": 403
+  },
+  "https://github.com/netty/netty/commit/fbf7a704a82e7449b48bd0bbb679f5661c6d61a3": {
+    "cve": "CVE-2024-47535",
+    "api": "https://api.github.com/repos/netty/netty/commits/fbf7a704a82e7449b48bd0bbb679f5661c6d61a3",
+    "status": 403
+  },
+  "https://github.com/netty/netty/security/advisories/GHSA-xq3w-v528-46rv": {
+    "cve": "CVE-2024-47535",
+    "api": "https://api.github.com/repos/netty/netty/security-advisories/GHSA-xq3w-v528-46rv",
+    "status": 403
+  },
+  "https://github.com/laurent22/joplin/security/advisories/GHSA-pc5v-xp44-5mgv": {
+    "cve": "CVE-2024-53268",
+    "api": "https://api.github.com/repos/laurent22/joplin/security-advisories/GHSA-pc5v-xp44-5mgv",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-4chj-3c28-gvmp": {
+    "cve": "CVE-2024-49360",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/security-advisories/GHSA-4chj-3c28-gvmp",
+    "status": 403
+  },
+  "https://github.com/vim/vim/commit/c9a1e257f1630a0866447e53a564f7ff96a80ead": {
+    "cve": "CVE-2025-22134",
+    "api": "https://api.github.com/repos/vim/vim/commits/c9a1e257f1630a0866447e53a564f7ff96a80ead",
+    "status": 403
+  },
+  "https://github.com/gradio-app/gradio/security/advisories/GHSA-j2jg-fq62-7c3h": {
+    "cve": "CVE-2025-23042",
+    "api": "https://api.github.com/repos/gradio-app/gradio/security-advisories/GHSA-j2jg-fq62-7c3h",
+    "status": 403
+  },
+  "https://github.com/snowflakedb/snowflake-jdbc/commit/4f01bb8f9b708c71e7a2111c87371dbfc1d53dd6": {
+    "cve": "CVE-2025-24789",
+    "api": "https://api.github.com/repos/snowflakedb/snowflake-jdbc/commits/4f01bb8f9b708c71e7a2111c87371dbfc1d53dd6",
+    "status": 403
+  },
+  "https://github.com/wazuh/wazuh/security/advisories/GHSA-pmr2-2r83-h3cv": {
+    "cve": "CVE-2024-35177",
+    "api": "https://api.github.com/repos/wazuh/wazuh/security-advisories/GHSA-pmr2-2r83-h3cv",
+    "status": 403
+  },
+  "https://github.com/netty/netty/commit/d1fbda62d3a47835d3fb35db8bd42ecc205a5386": {
+    "cve": "CVE-2025-25193",
+    "api": "https://api.github.com/repos/netty/netty/commits/d1fbda62d3a47835d3fb35db8bd42ecc205a5386",
+    "status": 403
+  },
+  "https://github.com/localsend/localsend/commit/e8635204ec782ded45bc7d698deb60f3c4105687": {
+    "cve": "CVE-2025-27142",
+    "api": "https://api.github.com/repos/localsend/localsend/commits/e8635204ec782ded45bc7d698deb60f3c4105687",
+    "status": 403
+  },
+  "https://github.com/perl-Crypt-OpenPGP/Crypt-Random/commit/1f8b29e9e89d8d083fd025152e76ec918136cc05": {
+    "cve": "CVE-2025-1828",
+    "api": "https://api.github.com/repos/perl-Crypt-OpenPGP/Crypt-Random/commits/1f8b29e9e89d8d083fd025152e76ec918136cc05",
+    "status": 403
+  },
+  "https://github.com/perl-Crypt-OpenPGP/Crypt-Random/pull/1": {
+    "cve": "CVE-2025-1828",
+    "api": "https://api.github.com/repos/perl-Crypt-OpenPGP/Crypt-Random/pulls/1",
+    "status": 403
+  },
+  "https://github.com/lightning-ai/pytorch-lightning/commit/330af381de88cff17515418a341cbc1f9f127f9a": {
+    "cve": "CVE-2024-8019",
+    "api": "https://api.github.com/repos/lightning-ai/pytorch-lightning/commits/330af381de88cff17515418a341cbc1f9f127f9a",
+    "status": 403
+  },
+  "https://github.com/mintplex-labs/anything-llm/commit/9bfe477f10b188bfe3508ac29105df80d4522ece": {
+    "cve": "CVE-2024-8196",
+    "api": "https://api.github.com/repos/mintplex-labs/anything-llm/commits/9bfe477f10b188bfe3508ac29105df80d4522ece",
+    "status": 403
+  },
+  "https://github.com/cwjchoi01/CVE-2024-57394": {
+    "cve": "CVE-2024-57394",
+    "api": "https://api.github.com/repos/cwjchoi01/CVE-2024-57394",
+    "status": 403
+  },
+  "https://github.com/MobSF/Mobile-Security-Framework-MobSF/commit/6987a946485a795f4fd38cebdb4860b368a1995d": {
+    "cve": "CVE-2025-46335",
+    "api": "https://api.github.com/repos/MobSF/Mobile-Security-Framework-MobSF/commits/6987a946485a795f4fd38cebdb4860b368a1995d",
+    "status": 403
+  },
+  "https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-mwfg-948f-2cc5": {
+    "cve": "CVE-2025-46335",
+    "api": "https://api.github.com/repos/MobSF/Mobile-Security-Framework-MobSF/security-advisories/GHSA-mwfg-948f-2cc5",
+    "status": 403
+  },
+  "https://github.com/conda-forge/openssl-feedstock/commit/066e83c5226bafe90a9c0575b077ce30cd5f5921": {
+    "cve": "CVE-2025-35471",
+    "api": "https://api.github.com/repos/conda-forge/openssl-feedstock/commits/066e83c5226bafe90a9c0575b077ce30cd5f5921",
+    "status": 403
+  },
+  "https://github.com/conda-forge/openssl-feedstock/issues/201": {
+    "cve": "CVE-2025-35471",
+    "api": "https://api.github.com/repos/conda-forge/openssl-feedstock/issues/201",
+    "status": 403
+  },
+  "https://github.com/bytecodealliance/wasm-micro-runtime/commit/28702edaf739cdeee54e81efe5868bf00724c33c": {
+    "cve": "CVE-2025-43853",
+    "api": "https://api.github.com/repos/bytecodealliance/wasm-micro-runtime/commits/28702edaf739cdeee54e81efe5868bf00724c33c",
+    "status": 403
+  },
+  "https://github.com/bytecodealliance/wasm-micro-runtime/security/advisories/GHSA-8fc8-4g25-c8m7": {
+    "cve": "CVE-2025-43853",
+    "api": "https://api.github.com/repos/bytecodealliance/wasm-micro-runtime/security-advisories/GHSA-8fc8-4g25-c8m7",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-5g85-6p6v-r479": {
+    "cve": "CVE-2025-46713",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/security-advisories/GHSA-5g85-6p6v-r479",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-c5h5-54gp-xh4q": {
+    "cve": "CVE-2025-46714",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/security-advisories/GHSA-c5h5-54gp-xh4q",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-67p9-6h73-ff7x": {
+    "cve": "CVE-2025-46715",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/security-advisories/GHSA-67p9-6h73-ff7x",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-3984-r877-q7xp": {
+    "cve": "CVE-2025-46716",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/security-advisories/GHSA-3984-r877-q7xp",
+    "status": 403
+  },
+  "https://github.com/wazuh/wazuh/security/advisories/GHSA-3crh-39qv-fxj7": {
+    "cve": "CVE-2024-1243",
+    "api": "https://api.github.com/repos/wazuh/wazuh/security-advisories/GHSA-3crh-39qv-fxj7",
+    "status": 403
+  },
+  "https://github.com/yt-dlp/yt-dlp/commit/959ac99e98c3215437e573c22d64be42d361e863": {
+    "cve": "CVE-2025-54072",
+    "api": "https://api.github.com/repos/yt-dlp/yt-dlp/commits/959ac99e98c3215437e573c22d64be42d361e863",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/commit/d107d5743880da28e782c1771b5246b2a512989a": {
+    "cve": "CVE-2025-54422",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/commits/d107d5743880da28e782c1771b5246b2a512989a",
+    "status": 403
+  },
+  "https://github.com/ZiaLib/Zmsr": {
+    "cve": "CVE-2025-51060",
+    "api": "https://api.github.com/repos/ZiaLib/Zmsr",
+    "status": 403
+  },
+  "https://github.com/shinyColumn/CVE-2025-56803": {
+    "cve": "CVE-2025-56803",
+    "api": "https://api.github.com/repos/shinyColumn/CVE-2025-56803",
+    "status": 403
+  },
+  "https://github.com/greenshot/greenshot/commit/f5a29a2ed3b0eb49231c0f4618300f488cf1b04d": {
+    "cve": "CVE-2025-59050",
+    "api": "https://api.github.com/repos/greenshot/greenshot/commits/f5a29a2ed3b0eb49231c0f4618300f488cf1b04d",
+    "status": 403
+  },
+  "https://github.com/greenshot/greenshot/security/advisories/GHSA-8f7f-x7ww-xx5w": {
+    "cve": "CVE-2025-59050",
+    "api": "https://api.github.com/repos/greenshot/greenshot/security-advisories/GHSA-8f7f-x7ww-xx5w",
+    "status": 403
+  },
+  "https://github.com/LizardByte/Sunshine/commit/f22b00d6981f756d3531fba0028723d4a5065824": {
+    "cve": "CVE-2025-54081",
+    "api": "https://api.github.com/repos/LizardByte/Sunshine/commits/f22b00d6981f756d3531fba0028723d4a5065824",
+    "status": 403
+  },
+  "https://github.com/LizardByte/Sunshine/security/advisories/GHSA-6p7j-5v8v-w45h": {
+    "cve": "CVE-2025-54081",
+    "api": "https://api.github.com/repos/LizardByte/Sunshine/security-advisories/GHSA-6p7j-5v8v-w45h",
+    "status": 403
+  },
+  "https://github.com/wazuh/wazuh/security/advisories/GHSA-vw3r-mjg3-9hh2": {
+    "cve": "CVE-2025-59938",
+    "api": "https://api.github.com/repos/wazuh/wazuh/security-advisories/GHSA-vw3r-mjg3-9hh2",
+    "status": 403
+  },
+  "https://github.com/ankitects/anki/pull/4041": {
+    "cve": "CVE-2025-62187",
+    "api": "https://api.github.com/repos/ankitects/anki/pulls/4041",
+    "status": 403
+  },
+  "https://github.com/ankitects/anki/pull/4041/commits/51476e05b281737a0c2924342bccdb6e5be52ea9": {
+    "cve": "CVE-2025-62187",
+    "api": "https://api.github.com/repos/ankitects/anki/pulls/4041",
+    "status": 403
+  },
+  "https://github.com/denoland/deno/commit/8a0990ccd37bafd8768176ca64b906ba2da2d822": {
+    "cve": "CVE-2025-61787",
+    "api": "https://api.github.com/repos/denoland/deno/commits/8a0990ccd37bafd8768176ca64b906ba2da2d822",
+    "status": 403
+  },
+  "https://github.com/denoland/deno/pull/30818": {
+    "cve": "CVE-2025-61787",
+    "api": "https://api.github.com/repos/denoland/deno/pulls/30818",
+    "status": 403
+  },
+  "https://github.com/denoland/deno/security/advisories/GHSA-m2gf-x3f6-8hq3": {
+    "cve": "CVE-2025-61787",
+    "api": "https://api.github.com/repos/denoland/deno/security-advisories/GHSA-m2gf-x3f6-8hq3",
+    "status": 403
+  },
+  "https://github.com/jlowin/fastmcp/security/advisories/GHSA-rj5c-58rq-j5g5": {
+    "cve": "CVE-2025-62801",
+    "api": "https://api.github.com/repos/jlowin/fastmcp/security-advisories/GHSA-rj5c-58rq-j5g5",
+    "status": 403
+  },
+  "https://github.com/react-native-community/cli/commit/15089907d1f1301b22c72d7f68846a2ef20df547": {
+    "cve": "CVE-2025-11953",
+    "api": "https://api.github.com/repos/react-native-community/cli/commits/15089907d1f1301b22c72d7f68846a2ef20df547",
+    "status": 403
+  },
+  "https://github.com/PrivateBin/PrivateBin/commit/f9550e513381208b36595ee2404e968144bba78b": {
+    "cve": "CVE-2025-64711",
+    "api": "https://api.github.com/repos/PrivateBin/PrivateBin/commits/f9550e513381208b36595ee2404e968144bba78b",
+    "status": 403
+  },
+  "https://github.com/PrivateBin/PrivateBin/security/advisories/GHSA-r9x7-7ggj-fx9f": {
+    "cve": "CVE-2025-64711",
+    "api": "https://api.github.com/repos/PrivateBin/PrivateBin/security-advisories/GHSA-r9x7-7ggj-fx9f",
+    "status": 403
+  },
+  "https://github.com/PotatoHamm/Nero-Productline-Vulnerability": {
+    "cve": "CVE-2025-63680",
+    "api": "https://api.github.com/repos/PotatoHamm/Nero-Productline-Vulnerability",
+    "status": 403
+  },
+  "https://github.com/pallets/werkzeug/commit/4b833376a45c323a189cd11d2362bcffdb1c0c13": {
+    "cve": "CVE-2025-66221",
+    "api": "https://api.github.com/repos/pallets/werkzeug/commits/4b833376a45c323a189cd11d2362bcffdb1c0c13",
+    "status": 403
+  },
+  "https://github.com/vim/vim/commit/083ec6d9a3b7b09006e0ce69ac802597d25": {
+    "cve": "CVE-2025-66476",
+    "api": "https://api.github.com/repos/vim/vim/commits/083ec6d9a3b7b09006e0ce69ac802597d25",
+    "status": 403
+  },
+  "https://github.com/vim/vim/security/advisories/GHSA-g77q-xrww-p834": {
+    "cve": "CVE-2025-66476",
+    "api": "https://api.github.com/repos/vim/vim/security-advisories/GHSA-g77q-xrww-p834",
+    "status": 403
+  },
+  "https://github.com/umbraco/Umbraco-CMS/commit/7505efd433189037f46547932d4a8b603fd4a615": {
+    "cve": "CVE-2025-66625",
+    "api": "https://api.github.com/repos/umbraco/Umbraco-CMS/commits/7505efd433189037f46547932d4a8b603fd4a615",
+    "status": 403
+  },
+  "https://github.com/umbraco/Umbraco-CMS/security/advisories/GHSA-hfv2-pf68-m33x": {
+    "cve": "CVE-2025-66625",
+    "api": "https://api.github.com/repos/umbraco/Umbraco-CMS/security-advisories/GHSA-hfv2-pf68-m33x",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/commit/000492f8c411d24292f1b977a107994347bc7dfa": {
+    "cve": "CVE-2025-64721",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/commits/000492f8c411d24292f1b977a107994347bc7dfa",
+    "status": 403
+  },
+  "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-w476-j57g-96vp": {
+    "cve": "CVE-2025-64721",
+    "api": "https://api.github.com/repos/sandboxie-plus/Sandboxie/security-advisories/GHSA-w476-j57g-96vp",
+    "status": 403
+  },
+  "https://github.com/bbaboha/CVE-2025-65318-and-CVE-2025-65319": {
+    "cve": "CVE-2025-65319",
+    "api": "https://api.github.com/repos/bbaboha/CVE-2025-65318-and-CVE-2025-65319",
+    "status": 403
+  },
+  "https://github.com/tox-dev/filelock/commit/4724d7f8c3393ec1f048c93933e6e3e6ec321f0e": {
+    "cve": "CVE-2025-68146",
+    "api": "https://api.github.com/repos/tox-dev/filelock/commits/4724d7f8c3393ec1f048c93933e6e3e6ec321f0e",
+    "status": 403
+  },
+  "https://github.com/tox-dev/filelock/pull/461": {
+    "cve": "CVE-2025-68146",
+    "api": "https://api.github.com/repos/tox-dev/filelock/pulls/461",
+    "status": 403
+  },
+  "https://github.com/tox-dev/filelock/security/advisories/GHSA-w853-jp5j-5j7f": {
+    "cve": "CVE-2025-68146",
+    "api": "https://api.github.com/repos/tox-dev/filelock/security-advisories/GHSA-w853-jp5j-5j7f",
+    "status": 403
+  },
+  "https://github.com/sebhildebrandt/systeminformation/commit/c52f9fd07fef42d2d8e8c66f75b42178da701c68": {
+    "cve": "CVE-2025-68154",
+    "api": "https://api.github.com/repos/sebhildebrandt/systeminformation/commits/c52f9fd07fef42d2d8e8c66f75b42178da701c68",
+    "status": 403
+  },
+  "https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-wphj-fx3q-84ch": {
+    "cve": "CVE-2025-68154",
+    "api": "https://api.github.com/repos/sebhildebrandt/systeminformation/security-advisories/GHSA-wphj-fx3q-84ch",
+    "status": 403
+  },
+  "https://github.com/FreeRDP/FreeRDP/commit/a0b21f992a9de1de2468fc9e600aa2b7a4066307": {
+    "cve": "CVE-2025-68118",
+    "api": "https://api.github.com/repos/FreeRDP/FreeRDP/commits/a0b21f992a9de1de2468fc9e600aa2b7a4066307",
+    "status": 403
+  },
+  "https://github.com/GuillaumePetit84/CVE-2020-35488": {
+    "cve": "CVE-2020-35488",
+    "api": "https://api.github.com/repos/GuillaumePetit84/CVE-2020-35488",
+    "status": 403
+  },
+  "https://github.com/git-lfs/git-lfs/commit/fc664697ed2c2081ee9633010de0a7f9debea72a": {
+    "cve": "CVE-2021-21237",
+    "api": "https://api.github.com/repos/git-lfs/git-lfs/commits/fc664697ed2c2081ee9633010de0a7f9debea72a",
+    "status": 403
+  },
+  "https://github.com/traccar/traccar/commit/cc69a9907ac9878db3750aa14ffedb28626455da": {
+    "cve": "CVE-2021-21292",
+    "api": "https://api.github.com/repos/traccar/traccar/commits/cc69a9907ac9878db3750aa14ffedb28626455da",
+    "status": 403
+  },
+  "https://github.com/autovance/ftp-srv/commit/457b859450a37cba10ff3c431eb4aa67771122e3": {
+    "cve": "CVE-2020-26299",
+    "api": "https://api.github.com/repos/autovance/ftp-srv/commits/457b859450a37cba10ff3c431eb4aa67771122e3",
+    "status": 403
+  },
+  "https://github.com/autovance/ftp-srv/issues/167": {
+    "cve": "CVE-2020-26299",
+    "api": "https://api.github.com/repos/autovance/ftp-srv/issues/167",
+    "status": 403
+  },
+  "https://github.com/autovance/ftp-srv/pull/224": {
+    "cve": "CVE-2020-26299",
+    "api": "https://api.github.com/repos/autovance/ftp-srv/pulls/224",
+    "status": 403
+  },
+  "https://github.com/autovance/ftp-srv/issues/225": {
+    "cve": "CVE-2020-26299",
+    "api": "https://api.github.com/repos/autovance/ftp-srv/issues/225",
+    "status": 403
+  },
+  "https://github.com/autovance/ftp-srv/security/advisories/GHSA-pmw4-jgxx-pcq9": {
+    "cve": "CVE-2020-26299",
+    "api": "https://api.github.com/repos/autovance/ftp-srv/security-advisories/GHSA-pmw4-jgxx-pcq9",
+    "status": 403
+  },
+  "https://github.com/brave/brave-browser/issues/13527": {
+    "cve": "CVE-2021-21323",
+    "api": "https://api.github.com/repos/brave/brave-browser/issues/13527",
+    "status": 403
+  },
+  "https://github.com/brave/brave-core/commit/12fe321eaad8acc1cbd1d70b4128f687777bcf15": {
+    "cve": "CVE-2021-21323",
+    "api": "https://api.github.com/repos/brave/brave-core/commits/12fe321eaad8acc1cbd1d70b4128f687777bcf15",
+    "status": 403
+  },
+  "https://github.com/brave/brave-core/pull/7769": {
+    "cve": "CVE-2021-21323",
+    "api": "https://api.github.com/repos/brave/brave-core/pulls/7769",
+    "status": 403
+  },
+  "https://github.com/git/git/commit/684dd4c2b414bcf648505e74498a608f28de4592": {
+    "cve": "CVE-2021-21300",
+    "api": "https://api.github.com/repos/git/git/commits/684dd4c2b414bcf648505e74498a608f28de4592",
+    "status": 403
+  },
+  "https://github.com/jellyfin/jellyfin/commit/0183ef8e89195f420c48d2600bc0b72f6d3a7fd7": {
+    "cve": "CVE-2021-21402",
+    "api": "https://api.github.com/repos/jellyfin/jellyfin/commits/0183ef8e89195f420c48d2600bc0b72f6d3a7fd7",
+    "status": 403
+  },
+  "https://github.com/gradle/gradle/pull/15240": {
+    "cve": "CVE-2021-29428",
+    "api": "https://api.github.com/repos/gradle/gradle/pulls/15240",
+    "status": 403
+  },
+  "https://github.com/gradle/gradle/pull/15654": {
+    "cve": "CVE-2021-29428",
+    "api": "https://api.github.com/repos/gradle/gradle/pulls/15654",
+    "status": 403
+  },
+  "https://github.com/gradle/gradle/security/advisories/GHSA-89qm-pxvm-p336": {
+    "cve": "CVE-2021-29428",
+    "api": "https://api.github.com/repos/gradle/gradle/security-advisories/GHSA-89qm-pxvm-p336",
+    "status": 403
+  },
+  "https://github.com/yoshuawuyts/vmd/issues/137": {
+    "cve": "CVE-2021-33041",
+    "api": "https://api.github.com/repos/yoshuawuyts/vmd/issues/137",
+    "status": 403
+  },
+  "https://github.com/mmiszczyk/cve-2021-33879": {
+    "cve": "CVE-2021-33879",
+    "api": "https://api.github.com/repos/mmiszczyk/cve-2021-33879",
+    "status": 403
+  },
+  "https://github.com/SCADA-LTS/Scada-LTS/pull/2174": {
+    "cve": "CVE-2021-26828",
+    "api": "https://api.github.com/repos/SCADA-LTS/Scada-LTS/pulls/2174",
+    "status": 403
+  },
+  "https://github.com/dandavison/delta/commit/f01846bd443aaf92fdd5ac20f461beac3f6ee3fd": {
+    "cve": "CVE-2021-36376",
+    "api": "https://api.github.com/repos/dandavison/delta/commits/f01846bd443aaf92fdd5ac20f461beac3f6ee3fd",
+    "status": 403
+  },
+  "https://github.com/FreeRDP/FreeRDP/commit/0d79670a28c0ab049af08613621aa0c267f977e9": {
+    "cve": "CVE-2021-37595",
+    "api": "https://api.github.com/repos/FreeRDP/FreeRDP/commits/0d79670a28c0ab049af08613621aa0c267f977e9",
+    "status": 403
+  },
+  "https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p": {
+    "cve": "CVE-2021-37712",
+    "api": "https://api.github.com/repos/npm/node-tar/security-advisories/GHSA-qq89-hq3f-393p",
+    "status": 403
+  },
+  "https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh": {
+    "cve": "CVE-2021-37713",
+    "api": "https://api.github.com/repos/npm/node-tar/security-advisories/GHSA-5955-9wpr-37jh",
+    "status": 403
+  },
+  "https://github.com/mscdex/ssh2/commit/f763271f41320e71d5cbee02ea5bc6a2ded3ca21": {
+    "cve": "CVE-2020-26301",
+    "api": "https://api.github.com/repos/mscdex/ssh2/commits/f763271f41320e71d5cbee02ea5bc6a2ded3ca21",
+    "status": 403
+  },
+  "https://github.com/canonical/multipass/pull/2150": {
+    "cve": "CVE-2021-3626",
+    "api": "https://api.github.com/repos/canonical/multipass/pulls/2150",
+    "status": 403
+  },
+  "https://github.com/composer/composer/commit/ca5e2f8d505fd3bfac6f7c85b82f2740becbc0aa": {
+    "cve": "CVE-2021-41116",
+    "api": "https://api.github.com/repos/composer/composer/commits/ca5e2f8d505fd3bfac6f7c85b82f2740becbc0aa",
+    "status": 403
+  },
+  "https://github.com/substack/node-shell-quote/commit/5799416ed454aa4ec9afafc895b4e31760ea1abe": {
+    "cve": "CVE-2021-42740",
+    "api": "https://api.github.com/repos/substack/node-shell-quote/commits/5799416ed454aa4ec9afafc895b4e31760ea1abe",
+    "status": 403
+  },
+  "https://github.com/qutebrowser/qutebrowser/commit/8f46ba3f6dc7b18375f7aa63c48a1fe461190430": {
+    "cve": "CVE-2021-41146",
+    "api": "https://api.github.com/repos/qutebrowser/qutebrowser/commits/8f46ba3f6dc7b18375f7aa63c48a1fe461190430",
+    "status": 403
+  },
+  "https://github.com/Requarks/wiki/commit/414033de9dff66a327e3f3243234852f468a9d85": {
+    "cve": "CVE-2021-43800",
+    "api": "https://api.github.com/repos/Requarks/wiki/commits/414033de9dff66a327e3f3243234852f468a9d85",
+    "status": 403
+  },
+  "https://github.com/Requarks/wiki/security/advisories/GHSA-r363-73gj-6j25": {
+    "cve": "CVE-2021-43800",
+    "api": "https://api.github.com/repos/Requarks/wiki/security-advisories/GHSA-r363-73gj-6j25",
+    "status": 403
+  },
+  "https://github.com/cifsd-team/ksmbd/pull/551": {
+    "cve": "CVE-2021-45100",
+    "api": "https://api.github.com/repos/cifsd-team/ksmbd/pulls/551",
+    "status": 403
+  },
+  "https://github.com/libguestfs/hivex/commit/771728218dac2fbf6997a7e53225e75a4c6b7255": {
+    "cve": "CVE-2021-3622",
+    "api": "https://api.github.com/repos/libguestfs/hivex/commits/771728218dac2fbf6997a7e53225e75a4c6b7255",
+    "status": 403
+  },
+  "https://github.com/0xADY/git_rce": {
+    "cve": "CVE-2021-46101",
+    "api": "https://api.github.com/repos/0xADY/git_rce",
+    "status": 403
+  },
+  "https://github.com/bildsben/iTunesRPC-Remastered/commit/1eb1e5428f0926b2829a0bbbb65b0d946e608593": {
+    "cve": "CVE-2022-23609",
+    "api": "https://api.github.com/repos/bildsben/iTunesRPC-Remastered/commits/1eb1e5428f0926b2829a0bbbb65b0d946e608593",
+    "status": 403
+  },
+  "https://github.com/bildsben/iTunesRPC-Remastered/commit/cdcd48bbc44009ddcbd07a809b87376dc9ce37f4": {
+    "cve": "CVE-2022-23611",
+    "api": "https://api.github.com/repos/bildsben/iTunesRPC-Remastered/commits/cdcd48bbc44009ddcbd07a809b87376dc9ce37f4",
+    "status": 403
+  },
+  "https://github.com/pritunl/pritunl-client-electron/commit/e16d47437f8ef62546aa00edb0d64be2a7d2205b": {
+    "cve": "CVE-2022-25372",
+    "api": "https://api.github.com/repos/pritunl/pritunl-client-electron/commits/e16d47437f8ef62546aa00edb0d64be2a7d2205b",
+    "status": 403
+  },
+  "https://github.com/containerd/containerd/commit/10f428dac7cec44c864e1b830a4623af27a9fc70": {
+    "cve": "CVE-2022-23648",
+    "api": "https://api.github.com/repos/containerd/containerd/commits/10f428dac7cec44c864e1b830a4623af27a9fc70",
+    "status": 403
+  },
+  "https://github.com/containerd/containerd/releases/tag/v1.4.13": {
+    "cve": "CVE-2022-23648",
+    "api": "https://api.github.com/repos/containerd/containerd/releases/tags/v1.4.13",
+    "status": 403
+  },
+  "https://github.com/Dreamacro/clash/issues/910": {
+    "cve": "CVE-2020-24772",
+    "api": "https://api.github.com/repos/Dreamacro/clash/issues/910",
+    "status": 404
+  },
+  "https://github.com/Fndroid/clash_for_windows_pkg/issues/2710": {
+    "cve": "CVE-2022-26255",
+    "api": "https://api.github.com/repos/Fndroid/clash_for_windows_pkg/issues/2710",
+    "status": 404
+  },
+  "https://github.com/Fndroid/clash_for_windows_pkg/issues/3405": {
+    "cve": "CVE-2022-40126",
+    "api": "https://api.github.com/repos/Fndroid/clash_for_windows_pkg/issues/3405",
+    "status": 404
+  },
+  "https://github.com/Fndroid/clash_for_windows_pkg/issues/3891": {
+    "cve": "CVE-2023-24205",
+    "api": "https://api.github.com/repos/Fndroid/clash_for_windows_pkg/issues/3891",
+    "status": 404
+  },
+  "https://github.com/marktext/marktext/issues/3575": {
+    "cve": "CVE-2023-1004",
+    "api": "https://api.github.com/repos/marktext/marktext/issues/3575",
+    "status": 403
+  },
+  "https://github.com/typora/typora-issues/issues/5623": {
+    "cve": "CVE-2023-1003",
+    "api": "https://api.github.com/repos/typora/typora-issues/issues/5623",
+    "status": 403
+  },
+  "https://github.com/minio/minio/commit/8d6558b23649f613414c8527b58973fbdfa4d1b8": {
+    "cve": "CVE-2023-28433",
+    "api": "https://api.github.com/repos/minio/minio/commits/8d6558b23649f613414c8527b58973fbdfa4d1b8",
+    "status": 403
+  },
+  "https://github.com/minio/minio/commit/b3c54ec81e0a06392abfb3a1ffcdc80c6fbf6ebc": {
+    "cve": "CVE-2023-28433",
+    "api": "https://api.github.com/repos/minio/minio/commits/b3c54ec81e0a06392abfb3a1ffcdc80c6fbf6ebc",
+    "status": 403
+  },
+  "https://github.com/liong007/Wondershare/issues/8": {
+    "cve": "CVE-2023-27759",
+    "api": "https://api.github.com/repos/liong007/Wondershare/issues/8",
+    "status": 403
+  },
+  "https://github.com/LucaBarile/CVE-2022-38604": {
+    "cve": "CVE-2022-38604",
+    "api": "https://api.github.com/repos/LucaBarile/CVE-2022-38604",
+    "status": 403
+  },
+  "https://github.com/LucaBarile/CVE-2022-43293": {
+    "cve": "CVE-2022-43293",
+    "api": "https://api.github.com/repos/LucaBarile/CVE-2022-43293",
+    "status": 403
+  },
+  "https://github.com/msys2/MINGW-packages/pull/10461": {
+    "cve": "CVE-2023-25815",
+    "api": "https://api.github.com/repos/msys2/MINGW-packages/pulls/10461",
+    "status": 403
+  },
+  "https://github.com/Ombi-app/Ombi/commit/b8a8f029d80454d582bc4a2a05175106809335d0": {
+    "cve": "CVE-2023-32322",
+    "api": "https://api.github.com/repos/Ombi-app/Ombi/commits/b8a8f029d80454d582bc4a2a05175106809335d0",
+    "status": 403
+  },
+  "https://github.com/Ombi-app/Ombi/security/advisories/GHSA-28j3-84m7-gpjp": {
+    "cve": "CVE-2023-32322",
+    "api": "https://api.github.com/repos/Ombi-app/Ombi/security-advisories/GHSA-28j3-84m7-gpjp",
+    "status": 403
+  },
+  "https://github.com/tgstation/tgstation-server/pull/1526": {
+    "cve": "CVE-2023-34243",
+    "api": "https://api.github.com/repos/tgstation/tgstation-server/pulls/1526",
+    "status": 403
+  },
+  "https://github.com/google/guava/issues/2575": {
+    "cve": "CVE-2023-2976",
+    "api": "https://api.github.com/repos/google/guava/issues/2575",
+    "status": 403
+  },
+  "https://github.com/livebook-dev/livebook/commit/2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1": {
+    "cve": "CVE-2023-35174",
+    "api": "https://api.github.com/repos/livebook-dev/livebook/commits/2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1",
+    "status": 403
+  },
+  "https://github.com/livebook-dev/livebook/commit/beb10daaadcc765f0380e436bd7cd5f74cf086c8": {
+    "cve": "CVE-2023-35174",
+    "api": "https://api.github.com/repos/livebook-dev/livebook/commits/beb10daaadcc765f0380e436bd7cd5f74cf086c8",
+    "status": 403
+  },
+  "https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565/": {
+    "cve": "CVE-2023-26563",
+    "api": "https://api.github.com/repos/RupturaInfoSec/CVE-2023-26563-26564-26565",
+    "status": 403
+  },
+  "https://github.com/marktext/marktext/issues/3618": {
+    "cve": "CVE-2023-2318",
+    "api": "https://api.github.com/repos/marktext/marktext/issues/3618",
+    "status": 403
+  },
+  "https://github.com/ericcornelissen/shescape/commit/0b976dab645abf45ffd85e74a8c6e51ee2f42d63": {
+    "cve": "CVE-2023-40185",
+    "api": "https://api.github.com/repos/ericcornelissen/shescape/commits/0b976dab645abf45ffd85e74a8c6e51ee2f42d63",
+    "status": 403
+  },
+  "https://github.com/ericcornelissen/shescape/pull/1142": {
+    "cve": "CVE-2023-40185",
+    "api": "https://api.github.com/repos/ericcornelissen/shescape/pulls/1142",
+    "status": 403
+  },
+  "https://github.com/ericcornelissen/shescape/security/advisories/GHSA-j55r-787p-m549": {
+    "cve": "CVE-2023-40185",
+    "api": "https://api.github.com/repos/ericcornelissen/shescape/security-advisories/GHSA-j55r-787p-m549",
+    "status": 403
+  },
+  "https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-wfm5-v35h-vwf4": {
+    "cve": "CVE-2023-40590",
+    "api": "https://api.github.com/repos/gitpython-developers/GitPython/security-advisories/GHSA-wfm5-v35h-vwf4",
+    "status": 403
+  },
+  "https://github.com/Cacti/cacti/security/advisories/GHSA-rf5w-pq3f-9876": {
+    "cve": "CVE-2023-31132",
+    "api": "https://api.github.com/repos/Cacti/cacti/security-advisories/GHSA-rf5w-pq3f-9876",
+    "status": 403
+  },
+  "https://github.com/eclipse-rap/org.eclipse.rap/pull/141": {
+    "cve": "CVE-2023-4760",
+    "api": "https://api.github.com/repos/eclipse-rap/org.eclipse.rap/pulls/141",
+    "status": 403
+  },
+  "https://github.com/yt-dlp/yt-dlp/security/advisories/GHSA-42h4-v29r-42qg": {
+    "cve": "CVE-2023-40581",
+    "api": "https://api.github.com/repos/yt-dlp/yt-dlp/security-advisories/GHSA-42h4-v29r-42qg",
+    "status": 403
+  },
+  "https://github.com/ShokoAnime/ShokoServer/security/advisories/GHSA-mwcv-ghjq-8f2g": {
+    "cve": "CVE-2023-43662",
+    "api": "https://api.github.com/repos/ShokoAnime/ShokoServer/security-advisories/GHSA-mwcv-ghjq-8f2g",
+    "status": 403
+  },
+  "https://github.com/WhiteHSBG/JNDIExploit/issues/10": {
+    "cve": "CVE-2023-5257",
+    "api": "https://api.github.com/repos/WhiteHSBG/JNDIExploit/issues/10",
+    "status": 403
+  },
+  "https://github.com/kubernetes/kubernetes/issues/119339": {
+    "cve": "CVE-2023-3676",
+    "api": "https://api.github.com/repos/kubernetes/kubernetes/issues/119339",
+    "status": 403
+  },
+  "https://github.com/kubernetes/kubernetes/issues/119595": {
+    "cve": "CVE-2023-3955",
+    "api": "https://api.github.com/repos/kubernetes/kubernetes/issues/119595",
+    "status": 403
+  },
+  "https://github.com/kubernetes/kubernetes/issues/121879": {
+    "cve": "CVE-2023-5528",
+    "api": "https://api.github.com/repos/kubernetes/kubernetes/issues/121879",
+    "status": 403
+  },
+  "https://github.com/chamilo/chamilo-lms/commit/dc7bfce429fbd843a95a57c184b6992c4d709549": {
+    "cve": "CVE-2023-3545",
+    "api": "https://api.github.com/repos/chamilo/chamilo-lms/commits/dc7bfce429fbd843a95a57c184b6992c4d709549",
+    "status": 403
+  },
+  "https://github.com/mullvad/mullvadvpn-app/pull/5398": {
+    "cve": "CVE-2023-50446",
+    "api": "https://api.github.com/repos/mullvad/mullvadvpn-app/pulls/5398",
+    "status": 403
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "https://www.ibm.com/support/pages/node/7105501": {
+    "cve": "CVE-2023-45193",
+    "role": "patch",
+    "node_id": "7105501",
+    "html": "7105501.html"
+  },
+  "https://www.ibm.com/support/pages/node/7105505": {
+    "cve": "CVE-2023-47746",
+    "role": "patch",
+    "node_id": "7105505",
+    "html": "7105505.html"
+  },
+  "https://www.ibm.com/support/pages/node/7105506": {
+    "cve": "CVE-2023-50308",
+    "role": "patch",
+    "node_id": "7105506",
+    "html": "7105506.html"
+  },
+  "https://www.ibm.com/support/pages/node/7105605": {
+    "cve": "CVE-2023-47152",
+    "role": "patch",
+    "node_id": "7105605",
+    "html": "7105605.html"
+  },
+  "https://www.ibm.com/support/pages/node/7105496": {
+    "cve": "CVE-2023-47158",
+    "role": "patch",
+    "node_id": "7105496",
+    "html": "7105496.html"
+  },
+  "https://www.ibm.com/support/pages/node/7105502": {
+    "cve": "CVE-2023-47747",
+    "role": "patch",
+    "node_id": "7105502",
+    "html": "7105502.html"
+  },
+  "https://www.ibm.com/support/pages/node/7105497": {
+    "cve": "CVE-2023-47141",
+    "role": "patch",
+    "node_id": "7105497",
+    "html": "7105497.html"
+  },
+  "https://www.ibm.com/support/pages/node/6464081": {
+    "cve": "CVE-2021-20488",
+    "role": "patch",
+    "node_id": "6464081",
+    "html": "6464081.html"
+  },
+  "https://www.ibm.com/support/pages/node/6463985": {
+    "cve": "CVE-2021-29702",
+    "role": "patch",
+    "node_id": "6463985",
+    "html": "6463985.html"
+  },
+  "https://www.ibm.com/support/pages/node/6466363": {
+    "cve": "CVE-2020-4885",
+    "role": "patch",
+    "node_id": "6466363",
+    "html": "6466363.html"
+  },
+  "https://www.ibm.com/support/pages/node/6466367": {
+    "cve": "CVE-2020-4945",
+    "role": "patch",
+    "node_id": "6466367",
+    "html": "6466367.html"
+  },
+  "https://www.ibm.com/support/pages/node/6466369": {
+    "cve": "CVE-2021-20579",
+    "role": "patch",
+    "node_id": "6466369",
+    "html": "6466369.html"
+  },
+  "https://www.ibm.com/support/pages/node/6466371": {
+    "cve": "CVE-2021-29703",
+    "role": "patch",
+    "node_id": "6466371",
+    "html": "6466371.html"
+  },
+  "https://www.ibm.com/support/pages/node/6466373": {
+    "cve": "CVE-2021-29777",
+    "role": "patch",
+    "node_id": "6466373",
+    "html": "6466373.html"
+  },
+  "https://www.ibm.com/support/pages/node/6540668": {
+    "cve": "CVE-2021-39032",
+    "role": "patch",
+    "node_id": "6540668",
+    "html": "6540668.html"
+  },
+  "https://www.ibm.com/support/pages/node/6618779": {
+    "cve": "CVE-2022-22483",
+    "role": "patch",
+    "node_id": "6618779",
+    "html": "6618779.html"
+  },
+  "https://www.ibm.com/support/pages/node/6618775": {
+    "cve": "CVE-2022-35637",
+    "role": "patch",
+    "node_id": "6618775",
+    "html": "6618775.html"
+  },
+  "https://www.ibm.com/support/pages/node/6953759": {
+    "cve": "CVE-2022-43927",
+    "role": "patch",
+    "node_id": "6953759",
+    "html": "6953759.html"
+  },
+  "https://www.ibm.com/support/pages/node/6953763": {
+    "cve": "CVE-2022-43929",
+    "role": "patch",
+    "node_id": "6953763",
+    "html": "6953763.html"
+  },
+  "https://www.ibm.com/support/pages/node/6953755": {
+    "cve": "CVE-2022-43930",
+    "role": "patch",
+    "node_id": "6953755",
+    "html": "6953755.html"
+  },
+  "https://www.ibm.com/support/pages/node/6985691": {
+    "cve": "CVE-2023-29257",
+    "role": "patch",
+    "node_id": "6985691",
+    "html": "6985691.html"
+  },
+  "https://www.ibm.com/support/pages/node/6985687": {
+    "cve": "CVE-2023-29255",
+    "role": "patch",
+    "node_id": "6985687",
+    "html": "6985687.html"
+  },
+  "https://www.ibm.com/support/pages/node/6985683": {
+    "cve": "CVE-2023-27555",
+    "role": "patch",
+    "node_id": "6985683",
+    "html": "6985683.html"
+  },
+  "https://www.ibm.com/support/pages/node/6985681": {
+    "cve": "CVE-2023-26021",
+    "role": "patch",
+    "node_id": "6985681",
+    "html": "6985681.html"
+  },
+  "https://www.ibm.com/support/pages/node/6985669": {
+    "cve": "CVE-2023-26022",
+    "role": "patch",
+    "node_id": "6985669",
+    "html": "6985669.html"
+  },
+  "https://www.ibm.com/support/pages/node/7010567": {
+    "cve": "CVE-2023-23487",
+    "role": "patch",
+    "node_id": "7010567",
+    "html": "7010567.html"
+  },
+  "https://www.ibm.com/support/pages/node/7010571": {
+    "cve": "CVE-2023-27558",
+    "role": "patch",
+    "node_id": "7010571",
+    "html": "7010571.html"
+  },
+  "https://www.ibm.com/support/pages/node/7010029": {
+    "cve": "CVE-2023-27867",
+    "role": "patch",
+    "node_id": "7010029",
+    "html": "7010029.html"
+  },
+  "https://www.ibm.com/support/pages/node/7010565": {
+    "cve": "CVE-2023-30431",
+    "role": "patch",
+    "node_id": "7010565",
+    "html": "7010565.html"
+  },
+  "https://www.ibm.com/support/pages/node/7010561": {
+    "cve": "CVE-2023-30442",
+    "role": "patch",
+    "node_id": "7010561",
+    "html": "7010561.html"
+  },
+  "https://www.ibm.com/support/pages/node/7010557": {
+    "cve": "CVE-2023-30445",
+    "role": "patch",
+    "node_id": "7010557",
+    "html": "7010557.html"
+  },
+  "https://www.ibm.com/support/pages/node/7051448": {
+    "cve": "CVE-2023-45176",
+    "role": "patch",
+    "node_id": "7051448",
+    "html": "7051448.html"
+  },
+  "https://www.ibm.com/support/pages/node/7047560": {
+    "cve": "CVE-2023-30987",
+    "role": "patch",
+    "node_id": "7047560",
+    "html": "7047560.html"
+  },
+  "https://www.ibm.com/support/pages/node/7047489": {
+    "cve": "CVE-2023-38720",
+    "role": "patch",
+    "node_id": "7047489",
+    "html": "7047489.html"
+  },
+  "https://www.ibm.com/support/pages/node/7047478": {
+    "cve": "CVE-2023-38728",
+    "role": "patch",
+    "node_id": "7047478",
+    "html": "7047478.html"
+  },
+  "https://www.ibm.com/support/pages/node/7047554": {
+    "cve": "CVE-2023-38740",
+    "role": "patch",
+    "node_id": "7047554",
+    "html": "7047554.html"
+  },
+  "https://www.ibm.com/support/pages/node/7047499": {
+    "cve": "CVE-2023-30991",
+    "role": "patch",
+    "node_id": "7047499",
+    "html": "7047499.html"
+  },
+  "https://www.ibm.com/support/pages/node/7047261": {
+    "cve": "CVE-2023-40374",
+    "role": "patch",
+    "node_id": "7047261",
+    "html": "7047261.html"
+  },
+  "https://www.ibm.com/support/pages/node/7087207": {
+    "cve": "CVE-2023-45178",
+    "role": "patch",
+    "node_id": "7087207",
+    "html": "7087207.html"
+  },
+  "https://www.ibm.com/support/pages/node/7087157": {
+    "cve": "CVE-2023-40692",
+    "role": "patch",
+    "node_id": "7087157",
+    "html": "7087157.html"
+  },
+  "https://www.ibm.com/support/pages/node/7078681": {
+    "cve": "CVE-2023-38003",
+    "role": "patch",
+    "node_id": "7078681",
+    "html": "7078681.html"
+  },
+  "https://www.ibm.com/support/pages/node/7099314": {
+    "cve": "CVE-2023-45172",
+    "role": "patch",
+    "node_id": "7099314",
+    "html": "7099314.html"
+  }
+}

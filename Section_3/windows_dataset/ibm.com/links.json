@@ -1,0 +1,290 @@
+{
+  "CVE-2023-45193": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105501"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-47746": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105505"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-50308": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105506"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-47152": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105605"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-47158": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105496"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-47747": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105502"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-47141": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7105497"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-20488": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6464081"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-29702": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6463985"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-4885": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6466363"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-4945": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6466367"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-20579": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6466369"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-29703": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6466371"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-29777": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6466373"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-39032": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6540668"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22483": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6618779"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35637": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6618775"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-43927": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6953759"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-43929": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6953763"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-43930": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6953755"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29257": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6985691"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29255": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6985687"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-27555": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6985683"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-26021": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6985681"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-26022": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/6985669"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23487": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010567"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-27558": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010571"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-27867": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010029"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-27868": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010029"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-27869": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010029"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30431": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010565"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30442": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010561"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30445": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010557"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30446": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010557"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30447": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010557"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30448": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010557"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30449": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7010557"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-45176": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7051448"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30987": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7047560"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38720": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7047489"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38728": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7047478"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38740": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7047554"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-30991": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7047499"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-40374": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7047261"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-45178": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7087207"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-40692": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7087157"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38003": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7078681"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-45172": {
+    "patch_urls": [
+      "https://www.ibm.com/support/pages/node/7099314"
+    ],
+    "exploit_urls": []
+  }
+}

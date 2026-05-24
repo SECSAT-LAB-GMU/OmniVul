@@ -1,0 +1,362 @@
+{
+  "https://git.kernel.org/stable/c/09a3c1e46142199adcee372a420b024b4fc61051": {
+    "cve": "CVE-2024-26745",
+    "role": "patch",
+    "sha": "09a3c1e46142199adcee372a420b024b4fc61051",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=09a3c1e46142199adcee372a420b024b4fc61051",
+    "html": "CVE-2024-26745__09a3c1e46142199adcee372a420b024b4fc61051.html",
+    "patch": "CVE-2024-26745__09a3c1e46142199adcee372a420b024b4fc61051.patch"
+  },
+  "https://git.kernel.org/stable/c/5da6d306f315344af1ca2eff4bd9b10b130f0c28": {
+    "cve": "CVE-2024-26745",
+    "role": "patch",
+    "sha": "5da6d306f315344af1ca2eff4bd9b10b130f0c28",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=5da6d306f315344af1ca2eff4bd9b10b130f0c28",
+    "html": "CVE-2024-26745__5da6d306f315344af1ca2eff4bd9b10b130f0c28.html",
+    "patch": "CVE-2024-26745__5da6d306f315344af1ca2eff4bd9b10b130f0c28.patch"
+  },
+  "https://git.kernel.org/stable/c/7eb95e0af5c9c2e6fad50356eaf32d216d0e7bc3": {
+    "cve": "CVE-2024-26745",
+    "role": "patch",
+    "sha": "7eb95e0af5c9c2e6fad50356eaf32d216d0e7bc3",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=7eb95e0af5c9c2e6fad50356eaf32d216d0e7bc3",
+    "html": "CVE-2024-26745__7eb95e0af5c9c2e6fad50356eaf32d216d0e7bc3.html",
+    "patch": "CVE-2024-26745__7eb95e0af5c9c2e6fad50356eaf32d216d0e7bc3.patch"
+  },
+  "https://git.kernel.org/stable/c/d4d1e4b1513d975961de7bb4f75e450a92d65ebf": {
+    "cve": "CVE-2024-26745",
+    "role": "patch",
+    "sha": "d4d1e4b1513d975961de7bb4f75e450a92d65ebf",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d4d1e4b1513d975961de7bb4f75e450a92d65ebf",
+    "html": "CVE-2024-26745__d4d1e4b1513d975961de7bb4f75e450a92d65ebf.html",
+    "patch": "CVE-2024-26745__d4d1e4b1513d975961de7bb4f75e450a92d65ebf.patch"
+  },
+  "https://git.kernel.org/stable/c/059285e04ebb273d32323fbad5431c5b94f77e48": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "059285e04ebb273d32323fbad5431c5b94f77e48",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=059285e04ebb273d32323fbad5431c5b94f77e48",
+    "html": "CVE-2024-27405__059285e04ebb273d32323fbad5431c5b94f77e48.html",
+    "patch": "CVE-2024-27405__059285e04ebb273d32323fbad5431c5b94f77e48.patch"
+  },
+  "https://git.kernel.org/stable/c/2b7ec68869d50ea998908af43b643bca7e54577e": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "2b7ec68869d50ea998908af43b643bca7e54577e",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=2b7ec68869d50ea998908af43b643bca7e54577e",
+    "html": "CVE-2024-27405__2b7ec68869d50ea998908af43b643bca7e54577e.html",
+    "patch": "CVE-2024-27405__2b7ec68869d50ea998908af43b643bca7e54577e.patch"
+  },
+  "https://git.kernel.org/stable/c/2cb66b62a5d64ccf09b0591ab86fb085fa491fc5": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "2cb66b62a5d64ccf09b0591ab86fb085fa491fc5",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=2cb66b62a5d64ccf09b0591ab86fb085fa491fc5",
+    "html": "CVE-2024-27405__2cb66b62a5d64ccf09b0591ab86fb085fa491fc5.html",
+    "patch": "CVE-2024-27405__2cb66b62a5d64ccf09b0591ab86fb085fa491fc5.patch"
+  },
+  "https://git.kernel.org/stable/c/35b604a37ec70d68b19dafd10bbacf1db505c9ca": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "35b604a37ec70d68b19dafd10bbacf1db505c9ca",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=35b604a37ec70d68b19dafd10bbacf1db505c9ca",
+    "html": "CVE-2024-27405__35b604a37ec70d68b19dafd10bbacf1db505c9ca.html",
+    "patch": "CVE-2024-27405__35b604a37ec70d68b19dafd10bbacf1db505c9ca.patch"
+  },
+  "https://git.kernel.org/stable/c/57ca0e16f393bb21d69734e536e383a3a4c665fd": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "57ca0e16f393bb21d69734e536e383a3a4c665fd",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=57ca0e16f393bb21d69734e536e383a3a4c665fd",
+    "html": "CVE-2024-27405__57ca0e16f393bb21d69734e536e383a3a4c665fd.html",
+    "patch": "CVE-2024-27405__57ca0e16f393bb21d69734e536e383a3a4c665fd.patch"
+  },
+  "https://git.kernel.org/stable/c/76c51146820c5dac629f21deafab0a7039bc3ccd": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "76c51146820c5dac629f21deafab0a7039bc3ccd",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=76c51146820c5dac629f21deafab0a7039bc3ccd",
+    "html": "CVE-2024-27405__76c51146820c5dac629f21deafab0a7039bc3ccd.html",
+    "patch": "CVE-2024-27405__76c51146820c5dac629f21deafab0a7039bc3ccd.patch"
+  },
+  "https://git.kernel.org/stable/c/a31cf46d108dabce3df80b3e5c07661e24912151": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "a31cf46d108dabce3df80b3e5c07661e24912151",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=a31cf46d108dabce3df80b3e5c07661e24912151",
+    "html": "CVE-2024-27405__a31cf46d108dabce3df80b3e5c07661e24912151.html",
+    "patch": "CVE-2024-27405__a31cf46d108dabce3df80b3e5c07661e24912151.patch"
+  },
+  "https://git.kernel.org/stable/c/c7f43900bc723203d7554d299a2ce844054fab8e": {
+    "cve": "CVE-2024-27405",
+    "role": "patch",
+    "sha": "c7f43900bc723203d7554d299a2ce844054fab8e",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=c7f43900bc723203d7554d299a2ce844054fab8e",
+    "html": "CVE-2024-27405__c7f43900bc723203d7554d299a2ce844054fab8e.html",
+    "patch": "CVE-2024-27405__c7f43900bc723203d7554d299a2ce844054fab8e.patch"
+  },
+  "https://git.kernel.org/stable/c/5c86919455c1edec99ebd3338ad213b59271a71b": {
+    "cve": "CVE-2023-52751",
+    "role": "patch",
+    "sha": "5c86919455c1edec99ebd3338ad213b59271a71b",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=5c86919455c1edec99ebd3338ad213b59271a71b",
+    "html": "CVE-2023-52751__5c86919455c1edec99ebd3338ad213b59271a71b.html",
+    "patch": "CVE-2023-52751__5c86919455c1edec99ebd3338ad213b59271a71b.patch"
+  },
+  "https://git.kernel.org/stable/c/6db94d08359c43f2c8fe372811cdee04564a41b9": {
+    "cve": "CVE-2023-52751",
+    "role": "patch",
+    "sha": "6db94d08359c43f2c8fe372811cdee04564a41b9",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6db94d08359c43f2c8fe372811cdee04564a41b9",
+    "html": "CVE-2023-52751__6db94d08359c43f2c8fe372811cdee04564a41b9.html",
+    "patch": "CVE-2023-52751__6db94d08359c43f2c8fe372811cdee04564a41b9.patch"
+  },
+  "https://git.kernel.org/stable/c/93877b9afc2994c89362007aac480a7b150f386f": {
+    "cve": "CVE-2023-52751",
+    "role": "patch",
+    "sha": "93877b9afc2994c89362007aac480a7b150f386f",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=93877b9afc2994c89362007aac480a7b150f386f",
+    "html": "CVE-2023-52751__93877b9afc2994c89362007aac480a7b150f386f.html",
+    "patch": "CVE-2023-52751__93877b9afc2994c89362007aac480a7b150f386f.patch"
+  },
+  "https://git.kernel.org/stable/c/3c6b4bcf37845c9359aed926324bed66bdd2448d": {
+    "cve": "CVE-2024-46787",
+    "role": "patch",
+    "sha": "3c6b4bcf37845c9359aed926324bed66bdd2448d",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=3c6b4bcf37845c9359aed926324bed66bdd2448d",
+    "html": "CVE-2024-46787__3c6b4bcf37845c9359aed926324bed66bdd2448d.html",
+    "patch": "CVE-2024-46787__3c6b4bcf37845c9359aed926324bed66bdd2448d.patch"
+  },
+  "https://git.kernel.org/stable/c/71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8": {
+    "cve": "CVE-2024-46787",
+    "role": "patch",
+    "sha": "71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8",
+    "html": "CVE-2024-46787__71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8.html",
+    "patch": "CVE-2024-46787__71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8.patch"
+  },
+  "https://git.kernel.org/stable/c/98cc18b1b71e23fe81a5194ed432b20c2d81a01a": {
+    "cve": "CVE-2024-46787",
+    "role": "patch",
+    "sha": "98cc18b1b71e23fe81a5194ed432b20c2d81a01a",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=98cc18b1b71e23fe81a5194ed432b20c2d81a01a",
+    "html": "CVE-2024-46787__98cc18b1b71e23fe81a5194ed432b20c2d81a01a.html",
+    "patch": "CVE-2024-46787__98cc18b1b71e23fe81a5194ed432b20c2d81a01a.patch"
+  },
+  "https://git.kernel.org/stable/c/5a72d1edb0843e4c927a4096f81e631031c25c28": {
+    "cve": "CVE-2024-46796",
+    "role": "patch",
+    "sha": "5a72d1edb0843e4c927a4096f81e631031c25c28",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=5a72d1edb0843e4c927a4096f81e631031c25c28",
+    "html": "CVE-2024-46796__5a72d1edb0843e4c927a4096f81e631031c25c28.html",
+    "patch": "CVE-2024-46796__5a72d1edb0843e4c927a4096f81e631031c25c28.patch"
+  },
+  "https://git.kernel.org/stable/c/762099898309218b4a7954f3d49e985dc4dfd638": {
+    "cve": "CVE-2024-46796",
+    "role": "patch",
+    "sha": "762099898309218b4a7954f3d49e985dc4dfd638",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=762099898309218b4a7954f3d49e985dc4dfd638",
+    "html": "CVE-2024-46796__762099898309218b4a7954f3d49e985dc4dfd638.html",
+    "patch": "CVE-2024-46796__762099898309218b4a7954f3d49e985dc4dfd638.patch"
+  },
+  "https://git.kernel.org/stable/c/f9c169b51b6ce20394594ef674d6b10efba31220": {
+    "cve": "CVE-2024-46796",
+    "role": "patch",
+    "sha": "f9c169b51b6ce20394594ef674d6b10efba31220",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=f9c169b51b6ce20394594ef674d6b10efba31220",
+    "html": "CVE-2024-46796__f9c169b51b6ce20394594ef674d6b10efba31220.html",
+    "patch": "CVE-2024-46796__f9c169b51b6ce20394594ef674d6b10efba31220.patch"
+  },
+  "https://git.kernel.org/stable/c/9502dd5c7029902f4a425bf959917a5a9e7c0e50": {
+    "cve": "CVE-2025-37750",
+    "role": "patch",
+    "sha": "9502dd5c7029902f4a425bf959917a5a9e7c0e50",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=9502dd5c7029902f4a425bf959917a5a9e7c0e50",
+    "html": "CVE-2025-37750__9502dd5c7029902f4a425bf959917a5a9e7c0e50.html",
+    "patch": "CVE-2025-37750__9502dd5c7029902f4a425bf959917a5a9e7c0e50.patch"
+  },
+  "https://git.kernel.org/stable/c/950557922c1298464749c216d8763e97faf5d0a6": {
+    "cve": "CVE-2025-37750",
+    "role": "patch",
+    "sha": "950557922c1298464749c216d8763e97faf5d0a6",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=950557922c1298464749c216d8763e97faf5d0a6",
+    "html": "CVE-2025-37750__950557922c1298464749c216d8763e97faf5d0a6.html",
+    "patch": "CVE-2025-37750__950557922c1298464749c216d8763e97faf5d0a6.patch"
+  },
+  "https://git.kernel.org/stable/c/aa5a1e4b882964eb79d5b5d1d1e8a1a5efbb1d15": {
+    "cve": "CVE-2025-37750",
+    "role": "patch",
+    "sha": "aa5a1e4b882964eb79d5b5d1d1e8a1a5efbb1d15",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=aa5a1e4b882964eb79d5b5d1d1e8a1a5efbb1d15",
+    "html": "CVE-2025-37750__aa5a1e4b882964eb79d5b5d1d1e8a1a5efbb1d15.html",
+    "patch": "CVE-2025-37750__aa5a1e4b882964eb79d5b5d1d1e8a1a5efbb1d15.patch"
+  },
+  "https://git.kernel.org/stable/c/e859b216d94668bc66330e61be201234f4413d1a": {
+    "cve": "CVE-2025-37750",
+    "role": "patch",
+    "sha": "e859b216d94668bc66330e61be201234f4413d1a",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=e859b216d94668bc66330e61be201234f4413d1a",
+    "html": "CVE-2025-37750__e859b216d94668bc66330e61be201234f4413d1a.html",
+    "patch": "CVE-2025-37750__e859b216d94668bc66330e61be201234f4413d1a.patch"
+  },
+  "https://git.kernel.org/stable/c/8d905254162965c8e6be697d82c7dbf5d08f574d": {
+    "cve": "CVE-2022-49963",
+    "role": "patch",
+    "sha": "8d905254162965c8e6be697d82c7dbf5d08f574d",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=8d905254162965c8e6be697d82c7dbf5d08f574d",
+    "html": "CVE-2022-49963__8d905254162965c8e6be697d82c7dbf5d08f574d.html",
+    "patch": "CVE-2022-49963__8d905254162965c8e6be697d82c7dbf5d08f574d.patch"
+  },
+  "https://git.kernel.org/stable/c/97434cb55bd884bd268626ec41489f79b261b2d4": {
+    "cve": "CVE-2022-49963",
+    "role": "patch",
+    "sha": "97434cb55bd884bd268626ec41489f79b261b2d4",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=97434cb55bd884bd268626ec41489f79b261b2d4",
+    "html": "CVE-2022-49963__97434cb55bd884bd268626ec41489f79b261b2d4.html",
+    "patch": "CVE-2022-49963__97434cb55bd884bd268626ec41489f79b261b2d4.patch"
+  },
+  "https://git.kernel.org/stable/c/2986c51540ed50ac654ffb5a772e546c02628c91": {
+    "cve": "CVE-2022-49976",
+    "role": "patch",
+    "sha": "2986c51540ed50ac654ffb5a772e546c02628c91",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=2986c51540ed50ac654ffb5a772e546c02628c91",
+    "html": "CVE-2022-49976__2986c51540ed50ac654ffb5a772e546c02628c91.html",
+    "patch": "CVE-2022-49976__2986c51540ed50ac654ffb5a772e546c02628c91.patch"
+  },
+  "https://git.kernel.org/stable/c/c77b724cddfb8ac1291a60e3e68937e62cbfc5e0": {
+    "cve": "CVE-2022-49976",
+    "role": "patch",
+    "sha": "c77b724cddfb8ac1291a60e3e68937e62cbfc5e0",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=c77b724cddfb8ac1291a60e3e68937e62cbfc5e0",
+    "html": "CVE-2022-49976__c77b724cddfb8ac1291a60e3e68937e62cbfc5e0.html",
+    "patch": "CVE-2022-49976__c77b724cddfb8ac1291a60e3e68937e62cbfc5e0.patch"
+  },
+  "https://git.kernel.org/stable/c/38682edbbad272b5f8c7bf55128b42cd10626f73": {
+    "cve": "CVE-2025-38597",
+    "role": "patch",
+    "sha": "38682edbbad272b5f8c7bf55128b42cd10626f73",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=38682edbbad272b5f8c7bf55128b42cd10626f73",
+    "html": "CVE-2025-38597__38682edbbad272b5f8c7bf55128b42cd10626f73.html",
+    "patch": "CVE-2025-38597__38682edbbad272b5f8c7bf55128b42cd10626f73.patch"
+  },
+  "https://git.kernel.org/stable/c/e1eef239399927b368f70a716044fb10085627c8": {
+    "cve": "CVE-2025-38597",
+    "role": "patch",
+    "sha": "e1eef239399927b368f70a716044fb10085627c8",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=e1eef239399927b368f70a716044fb10085627c8",
+    "html": "CVE-2025-38597__e1eef239399927b368f70a716044fb10085627c8.html",
+    "patch": "CVE-2025-38597__e1eef239399927b368f70a716044fb10085627c8.patch"
+  },
+  "https://git.kernel.org/stable/c/f9f68bf1d0efeadb6c427c9dbb30f307a7def19b": {
+    "cve": "CVE-2025-38597",
+    "role": "patch",
+    "sha": "f9f68bf1d0efeadb6c427c9dbb30f307a7def19b",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=f9f68bf1d0efeadb6c427c9dbb30f307a7def19b",
+    "html": "CVE-2025-38597__f9f68bf1d0efeadb6c427c9dbb30f307a7def19b.html",
+    "patch": "CVE-2025-38597__f9f68bf1d0efeadb6c427c9dbb30f307a7def19b.patch"
+  },
+  "https://git.kernel.org/stable/c/0991028cd49567d7016d1b224fe0117c35059f86": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "0991028cd49567d7016d1b224fe0117c35059f86",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=0991028cd49567d7016d1b224fe0117c35059f86",
+    "html": "CVE-2022-50257__0991028cd49567d7016d1b224fe0117c35059f86.html",
+    "patch": "CVE-2022-50257__0991028cd49567d7016d1b224fe0117c35059f86.patch"
+  },
+  "https://git.kernel.org/stable/c/0bccddd9b8f03ad57bb738f0d3da8845d4e1e579": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "0bccddd9b8f03ad57bb738f0d3da8845d4e1e579",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=0bccddd9b8f03ad57bb738f0d3da8845d4e1e579",
+    "html": "CVE-2022-50257__0bccddd9b8f03ad57bb738f0d3da8845d4e1e579.html",
+    "patch": "CVE-2022-50257__0bccddd9b8f03ad57bb738f0d3da8845d4e1e579.patch"
+  },
+  "https://git.kernel.org/stable/c/1cb73704cb4778299609634a790a80daba582f7d": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "1cb73704cb4778299609634a790a80daba582f7d",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=1cb73704cb4778299609634a790a80daba582f7d",
+    "html": "CVE-2022-50257__1cb73704cb4778299609634a790a80daba582f7d.html",
+    "patch": "CVE-2022-50257__1cb73704cb4778299609634a790a80daba582f7d.patch"
+  },
+  "https://git.kernel.org/stable/c/273f6a4f71be12e2ec80a4919837d6e4fa933a04": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "273f6a4f71be12e2ec80a4919837d6e4fa933a04",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=273f6a4f71be12e2ec80a4919837d6e4fa933a04",
+    "html": "CVE-2022-50257__273f6a4f71be12e2ec80a4919837d6e4fa933a04.html",
+    "patch": "CVE-2022-50257__273f6a4f71be12e2ec80a4919837d6e4fa933a04.patch"
+  },
+  "https://git.kernel.org/stable/c/3d056d81b93a787613eda44aeb21fc14c3392b34": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "3d056d81b93a787613eda44aeb21fc14c3392b34",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=3d056d81b93a787613eda44aeb21fc14c3392b34",
+    "html": "CVE-2022-50257__3d056d81b93a787613eda44aeb21fc14c3392b34.html",
+    "patch": "CVE-2022-50257__3d056d81b93a787613eda44aeb21fc14c3392b34.patch"
+  },
+  "https://git.kernel.org/stable/c/49bb053b1ec367b6883030eb2cca696e91435679": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "49bb053b1ec367b6883030eb2cca696e91435679",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=49bb053b1ec367b6883030eb2cca696e91435679",
+    "html": "CVE-2022-50257__49bb053b1ec367b6883030eb2cca696e91435679.html",
+    "patch": "CVE-2022-50257__49bb053b1ec367b6883030eb2cca696e91435679.patch"
+  },
+  "https://git.kernel.org/stable/c/49db6cb81400ba863e1a85e55fcdf1031807c23f": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "49db6cb81400ba863e1a85e55fcdf1031807c23f",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=49db6cb81400ba863e1a85e55fcdf1031807c23f",
+    "html": "CVE-2022-50257__49db6cb81400ba863e1a85e55fcdf1031807c23f.html",
+    "patch": "CVE-2022-50257__49db6cb81400ba863e1a85e55fcdf1031807c23f.patch"
+  },
+  "https://git.kernel.org/stable/c/b043f2cab100bed3e0a999dcf38cc05b1e4a7e41": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "b043f2cab100bed3e0a999dcf38cc05b1e4a7e41",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=b043f2cab100bed3e0a999dcf38cc05b1e4a7e41",
+    "html": "CVE-2022-50257__b043f2cab100bed3e0a999dcf38cc05b1e4a7e41.html",
+    "patch": "CVE-2022-50257__b043f2cab100bed3e0a999dcf38cc05b1e4a7e41.patch"
+  },
+  "https://git.kernel.org/stable/c/cb1ccfe7655380f77a58b340072f5f40bc285902": {
+    "cve": "CVE-2022-50257",
+    "role": "patch",
+    "sha": "cb1ccfe7655380f77a58b340072f5f40bc285902",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=cb1ccfe7655380f77a58b340072f5f40bc285902",
+    "html": "CVE-2022-50257__cb1ccfe7655380f77a58b340072f5f40bc285902.html",
+    "patch": "CVE-2022-50257__cb1ccfe7655380f77a58b340072f5f40bc285902.patch"
+  },
+  "https://git.kernel.org/stable/c/64f09d45e94547fbf219f36d1d02ac42742c028c": {
+    "cve": "CVE-2023-53647",
+    "role": "patch",
+    "sha": "64f09d45e94547fbf219f36d1d02ac42742c028c",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=64f09d45e94547fbf219f36d1d02ac42742c028c",
+    "html": "CVE-2023-53647__64f09d45e94547fbf219f36d1d02ac42742c028c.html",
+    "patch": "CVE-2023-53647__64f09d45e94547fbf219f36d1d02ac42742c028c.patch"
+  },
+  "https://git.kernel.org/stable/c/78e04bbff849b51b56f5925b1945db2c6e128b61": {
+    "cve": "CVE-2023-53647",
+    "role": "patch",
+    "sha": "78e04bbff849b51b56f5925b1945db2c6e128b61",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=78e04bbff849b51b56f5925b1945db2c6e128b61",
+    "html": "CVE-2023-53647__78e04bbff849b51b56f5925b1945db2c6e128b61.html",
+    "patch": "CVE-2023-53647__78e04bbff849b51b56f5925b1945db2c6e128b61.patch"
+  },
+  "https://git.kernel.org/stable/c/96db43aced395844a7abc9a0a5cc702513e3534a": {
+    "cve": "CVE-2023-53647",
+    "role": "patch",
+    "sha": "96db43aced395844a7abc9a0a5cc702513e3534a",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=96db43aced395844a7abc9a0a5cc702513e3534a",
+    "html": "CVE-2023-53647__96db43aced395844a7abc9a0a5cc702513e3534a.html",
+    "patch": "CVE-2023-53647__96db43aced395844a7abc9a0a5cc702513e3534a.patch"
+  },
+  "https://git.kernel.org/stable/c/9fc162c59edc841032a3553eb2334320abab0784": {
+    "cve": "CVE-2023-53647",
+    "role": "patch",
+    "sha": "9fc162c59edc841032a3553eb2334320abab0784",
+    "canonical_url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=9fc162c59edc841032a3553eb2334320abab0784",
+    "html": "CVE-2023-53647__9fc162c59edc841032a3553eb2334320abab0784.html",
+    "patch": "CVE-2023-53647__9fc162c59edc841032a3553eb2334320abab0784.patch"
+  }
+}

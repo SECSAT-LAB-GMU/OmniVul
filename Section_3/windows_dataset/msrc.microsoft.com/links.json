@@ -1,0 +1,4880 @@
+{
+  "CVE-2024-20652": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20652"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20657": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20657"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20662": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20662"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20663": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20663"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20674": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20674"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20677": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20677"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20680": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20680"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20681": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20681"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20682": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20682"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20690": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20690"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20691": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20691"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20694": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20694"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20696": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20696"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20697": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20697"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20698": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20698"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20699": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20699"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20700": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20700"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21309": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21309"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21310": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21310"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21311": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21311"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21313": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21313"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21316": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21316"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21320": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21320"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-20684": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-20684"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21338": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21338"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21339": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21339"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21340": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21340"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21341": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21341"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21342": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21342"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21343": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21343"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21344": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21344"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21345": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21345"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21351": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21351"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21356": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21356"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21357": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21357"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21362": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21362"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21371": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21371"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21372": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21372"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21377": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21377"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21406": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21406"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21407": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21407"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21408": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21408"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21427": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21427"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21429": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21429"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21430": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21430"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21432": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21432"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21433": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21433"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-26169": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26169"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-29052": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29052"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-29056": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29056"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-29997": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29997"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-29998": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29998"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-29999": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29999"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30000": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30000"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30001": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30001"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30002": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30002"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30003": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30003"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30004": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30004"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30005": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30005"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30040": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30040"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30051": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30051"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30062": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30062"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30063": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30063"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30064": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30064"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30065": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30065"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30068": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30068"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30069": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30069"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30074": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30074"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30075": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30075"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30076": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30076"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30077": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30077"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30078": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30078"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30083": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30083"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30084": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30084"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30085": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30085"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30086": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30086"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30088": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30088"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30093": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30093"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30094": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30094"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30095": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30095"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30096": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30096"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30099": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30099"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-35250": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35250"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-35265": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35265"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30013": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30013"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30071": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30071"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30079": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30079"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30081": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30081"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30098": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30098"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-35270": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35270"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38013": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38013"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38015": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38015"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38019": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38019"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38022": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38022"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38025": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38025"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38027": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38027"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38028": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38028"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38030": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38030"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38031": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38031"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38034": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38034"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38041": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38041"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38048": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38048"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38049": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38049"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38050": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38050"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38051": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38051"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38053": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38053"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38055": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38055"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38056": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38056"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38060": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38060"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38062": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38062"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38064": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38064"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38066": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38066"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38067": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38067"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38068": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38068"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38069": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38069"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38070": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38070"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38071": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38071"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38072": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38072"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38073": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38073"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38074": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38074"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38076": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38076"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38077": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38077"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38079": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38079"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38080": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38080"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38085": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38085"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38099": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38099"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38100": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38100"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38101": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38101"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38102": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38102"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38104": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38104"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38105": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38105"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38112": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38112"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21302": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21302"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38202": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38202"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-29995": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-29995"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37968": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37968"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38063": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38063"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38106": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38106"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38107": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38107"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38114": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38114"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38115": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38115"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38116": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38116"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38120": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38120"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38121": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38121"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38123": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38123"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38126": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38126"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38127": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38127"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38128": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38128"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38130": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38130"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38132": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38132"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38133": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38133"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38135": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38135"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38136": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38136"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38137": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38137"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38138": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38138"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38140": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38140"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38141": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38141"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38142": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38142"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38143": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38143"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38145": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38145"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38146": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38146"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38148": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38148"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38150": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38150"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38151": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38151"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38152": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38152"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38153": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38153"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38154": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38154"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38159": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38159"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38160": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38160"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38161": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38161"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38165": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38165"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38177": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38177"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38180": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38180"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38184": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38184"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38185": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38185"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38186": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38186"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38187": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38187"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38193": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38193"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38196": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38196"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38198": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38198"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38199": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38199"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38213": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38213"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38214": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38214"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38215": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38215"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38223": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38223"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-21416": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-21416"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-30073": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30073"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38014": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38014"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38045": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38045"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38119": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38119"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38217": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38217"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38230": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38230"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38231": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38231"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38232": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38232"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38233": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38233"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38234": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38234"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38235": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38235"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38239": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38239"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38240": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38240"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38247": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38247"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38248": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38248"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38249": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38249"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38250": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38250"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38252": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38252"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38253": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38253"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38254": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38254"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38256": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38256"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38258": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38258"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38260": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38260"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38263": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38263"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43454": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43454"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43455": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43455"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43457": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43457"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43458": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43458"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43461": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43461"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43467": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43467"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43475": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43475"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43487": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43487"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43491": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43491"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43495": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43495"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37985": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37985"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37976": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37976"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37979": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37979"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37982": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37982"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37983": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-37983"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38029": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38029"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38124": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38124"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38129": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38129"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38212": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38212"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38261": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38261"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38262": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38262"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38265": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38265"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43453": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43453"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43456": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43456"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43500": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43500"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43501": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43501"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43502": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43502"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43508": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43508"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43509": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43509"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43511": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43511"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43512": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43512"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43514": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43514"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43516": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43516"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43518": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43518"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43520": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43520"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43521": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43521"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43522": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43522"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43523": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43523"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43524": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43524"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43525": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43525"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43526": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43526"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43527": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43527"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43528": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43528"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43529": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43529"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43534": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43534"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43535": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43535"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43536": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43536"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43537": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43537"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43538": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43538"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43540": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43540"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43542": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43542"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43543": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43543"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43545": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43545"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43546": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43546"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43547": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43547"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43549": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43549"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43550": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43550"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43551": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43551"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43552": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43552"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43554": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43554"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43555": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43555"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43556": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43556"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43557": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43557"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43558": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43558"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43559": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43559"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43560": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43560"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43561": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43561"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43562": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43562"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43563": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43563"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43564": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43564"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43565": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43565"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43567": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43567"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43570": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43570"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43571": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43571"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43573": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43573"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43575": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43575"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43581": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43581"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43584": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43584"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43589": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43589"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43592": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43592"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43593": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43593"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43607": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43607"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43608": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43608"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43611": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43611"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43615": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43615"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-38203": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38203"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43447": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43447"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43449": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43449"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43450": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43450"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43452": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43452"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43530": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43530"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43620": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43620"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43621": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43621"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43622": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43622"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43623": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43623"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43624": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43624"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43625": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43625"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43626": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43626"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43627": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43627"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43628": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43628"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43629": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43629"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43630": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43630"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43631": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43631"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43633": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43633"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43634": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43634"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43635": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43635"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43637": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43637"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43638": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43638"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43639": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43639"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43640": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43640"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43641": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43641"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43642": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43642"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43643": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43643"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43644": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43644"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43645": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43645"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43646": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43646"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-49039": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49039"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-49046": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49046"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-49138": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-49138"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21202": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21202"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21207": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21207"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21210": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21210"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21214": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21214"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21217": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21217"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21218": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21218"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21223": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21223"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21224": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21224"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21225": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21225"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21226": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21226"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21227": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21227"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21228": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21228"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21229": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21229"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21232": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21232"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21233": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21233"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21234": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21234"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21235": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21235"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21236": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21236"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21237": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21237"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21238": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21238"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21239": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21239"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21240": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21240"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21241": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21241"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21242": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21242"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21243": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21243"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21244": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21244"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21245": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21245"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21246": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21246"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21248": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21248"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21249": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21249"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21250": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21250"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21252": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21252"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21255": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21255"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21256": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21256"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21257": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21257"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21258": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21258"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21260": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21260"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21261": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21261"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21263": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21263"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21265": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21265"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21266": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21266"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21269": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21269"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21271": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21271"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21272": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21272"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21273": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21273"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21274": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21274"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21275": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21275"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21276": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21276"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21278": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21278"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21280": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21280"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21281": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21281"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21282": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21282"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21284": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21284"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21286": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21286"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21287": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21287"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21288": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21288"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21291": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21291"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21292": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21292"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21297": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21297"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21298": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21298"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21299": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21299"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21300": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21300"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21301": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21301"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21302": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21302"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21303": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21303"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21305": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21305"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21306": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21306"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21307": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21307"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21308": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21308"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21309": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21309"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21310": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21310"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21311": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21311"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21312": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21312"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21314": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21314"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21316": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21316"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21317": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21317"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21318": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21318"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21319": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21319"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21320": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21320"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21321": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21321"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21323": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21323"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21324": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21324"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21327": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21327"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21330": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21330"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21331": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21331"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21333": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21333"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21334": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21334"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21335": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21335"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21336": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21336"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21339": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21339"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21340": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21340"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21341": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21341"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21343": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21343"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21370": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21370"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21374": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21374"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21378": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21378"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21382": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21382"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21389": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21389"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21409": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21409"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21411": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21411"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21413": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21413"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21417": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21417"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21182": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21182"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21183": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21183"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21184": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21184"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21190": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21190"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21200": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21200"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21201": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21201"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21208": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21208"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21337": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21337"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21347": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21347"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21349": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21349"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21350": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21350"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21351": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21351"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21358": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21358"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21359": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21359"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21367": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21367"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21371": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21371"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21373": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21373"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21376": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21376"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21391": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21391"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21406": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21406"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21407": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21407"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21410": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21410"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21414": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21414"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21418": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21418"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21419": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21419"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-21420": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21420"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-24983": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24983"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-24984": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24984"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-24985": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24985"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-21919": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21919"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-21971": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21971"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-21999": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21999"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22718": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22718"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-24521": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24521"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26904": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-26904"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26925": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-26925"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-32230": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-32230"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22034": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22034"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22047": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22047"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-34713": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-34713"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37969": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37969"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38028": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-38028"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41033": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41033"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37966": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37966"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37967": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37967"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41049": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41049"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41073": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41073"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41091": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41091"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41098": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41098"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41125": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41125"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41128": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41128"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-44698": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44698"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21674": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21674"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21739": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21739"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21694": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21694"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21697": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21697"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21699": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21699"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21700": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21700"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21702": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21702"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21800": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21800"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21802": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21802"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21803": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21803"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21804": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21804"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21805": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21805"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21811": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21811"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21812": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21812"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21813": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21813"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21816": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21816"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21817": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21817"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21818": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21818"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21819": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21819"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21820": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21820"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21822": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21822"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23376": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23376"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21823": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21823"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23385": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23385"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23388": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23388"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23393": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23393"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23400": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23400"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23401": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23401"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23402": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23402"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23404": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23404"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23407": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23407"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23410": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23410"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23411": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23411"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23412": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23412"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23414": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23414"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23416": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23416"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23417": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23417"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23418": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23418"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23419": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23419"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23420": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23420"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23421": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23421"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23422": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23422"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-23423": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23423"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24859": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24859"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24861": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24861"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24862": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24862"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24871": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24871"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24880": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24880"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24910": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24910"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24912": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24912"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24931": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24931"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28216": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28216"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28217": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28217"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28218": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28218"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28221": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28221"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28222": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28222"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28223": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28223"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28224": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28224"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28225": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28225"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28226": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28226"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28227": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28227"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28228": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28228"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28229": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28229"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28232": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28232"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28233": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28233"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28234": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28234"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28235": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28235"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28236": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28236"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28237": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28237"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28238": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28238"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28240": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28240"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28241": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28241"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28244": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28244"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28246": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28246"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28247": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28247"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28248": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28248"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28249": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28249"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28250": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28250"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28252": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28252"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28253": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28253"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28254": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28254"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28255": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28255"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28256": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28256"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28266": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28266"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28269": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28269"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28270": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28270"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28271": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28271"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28272": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28272"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28273": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28273"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28274": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28274"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28276": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28276"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28277": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28277"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28278": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28278"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28293": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28293"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28297": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28297"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28298": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28298"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28305": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28305"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28306": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28306"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28307": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28307"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28308": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28308"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21712": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21712"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24898": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24898"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24899": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24899"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24900": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24900"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24901": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24901"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24903": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24903"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24904": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24904"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24940": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24940"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24941": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24941"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24943": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24943"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24944": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24944"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24945": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24945"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24946": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24946"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24947": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24947"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24948": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24948"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24949": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24949"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28251": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28251"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-28283": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28283"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29324": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29324"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29325": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29325"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29343": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29343"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35743": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35743"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35744": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35744"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35745": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35745"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35746": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35746"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35747": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35747"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35749": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35749"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35751": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35751"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35752": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35752"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35753": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35753"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35755": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35755"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35756": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35756"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35757": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35757"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35758": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35758"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35759": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-35759"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24938": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24938"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29351": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29351"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29353": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29353"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29358": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29358"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29361": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29361"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29363": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29363"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29364": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29364"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29365": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29365"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29366": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29366"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29368": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29368"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29370": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29370"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29371": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29371"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32008": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32008"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32009": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32009"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32010": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32010"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32011": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32011"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32012": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32012"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32013": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32013"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32014": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32014"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32015": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32015"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32016": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32016"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32018": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32018"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32019": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32019"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32020": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32020"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32021": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32021"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32022": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32022"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24937": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24937"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21526": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21526"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21756": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21756"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29347": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29347"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32037": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32037"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32041": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32041"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32043": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32043"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32046": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32046"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32049": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32049"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32050": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32050"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32053": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32053"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-32056": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-32056"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-33154": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-33154"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-33155": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-33155"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-33163": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-33163"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-33174": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-33174"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35297": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35297"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35299": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35299"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35304": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35304"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35305": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35305"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35308": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35308"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35310": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35310"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35313": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35313"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35315": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35315"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35317": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35317"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35321": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35321"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35322": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35322"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35323": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35323"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35325": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35325"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35326": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35326"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35328": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35328"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35329": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35329"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35330": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35330"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35331": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35331"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35332": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35332"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35336": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35336"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35338": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35338"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35339": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35339"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35340": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35340"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35342": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35342"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35343": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35343"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35344": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35344"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35345": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35345"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35346": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35346"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35350": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35350"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35351": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35351"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35352": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35352"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35356": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35356"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35357": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35357"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35358": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35358"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35360": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35360"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35361": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35361"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35362": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35362"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35363": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35363"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35364": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35364"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35365": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35365"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35366": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35366"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35367": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35367"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36868": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36868"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36874": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36874"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36884": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36884"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35359": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35359"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35378": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35378"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35380": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35380"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35381": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35381"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35382": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35382"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35384": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35384"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35386": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35386"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35387": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35387"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36889": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36889"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36898": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36898"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36900": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36900"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36903": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36903"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36904": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36904"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36905": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36905"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36906": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36906"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36907": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36907"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36908": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36908"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36914": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36914"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38154": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38154"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38175": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38175"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38184": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38184"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38186": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38186"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35355": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35355"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36803": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36803"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36804": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36804"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36805": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36805"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38139": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38139"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38140": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38140"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38141": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38141"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38142": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38142"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38143": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38143"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38144": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38144"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38146": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38146"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38147": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38147"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38149": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38149"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38150": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38150"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38160": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38160"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38161": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38161"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38163": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38163"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-29348": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29348"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36434": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36434"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36436": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36436"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36438": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36438"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36564": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36564"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36567": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36567"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36576": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36576"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36584": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36584"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36585": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36585"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36594": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36594"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36602": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36602"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36603": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36603"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36605": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36605"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36698": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36698"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36704": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36704"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36706": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36706"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36707": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36707"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36710": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36710"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36711": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36711"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36712": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36712"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36713": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36713"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36717": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36717"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36720": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36720"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36721": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36721"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36723": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36723"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36724": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36724"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36725": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36725"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36726": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36726"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36790": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36790"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36902": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36902"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-38159": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-38159"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-41766": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-41766"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36017": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36017"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36025": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36025"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36033": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36033"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36036": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36036"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36046": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36046"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36047": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36047"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36393": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36393"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36394": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36394"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36395": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36395"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36396": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36396"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36397": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36397"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36398": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36398"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36399": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36399"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36400": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36400"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36403": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36403"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36404": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36404"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36405": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36405"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36406": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36406"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36407": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36407"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36408": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36408"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36422": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36422"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36424": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36424"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36425": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36425"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36427": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36427"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36705": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36705"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-21740": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21740"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35622": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35622"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35628": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35628"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35632": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35632"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35633": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35633"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35634": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35634"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35635": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35635"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35644": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35644"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36004": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36004"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36005": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36005"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-36696": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36696"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-44684": {
+    "patch_urls": [
+      "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-44684"
+    ],
+    "exploit_urls": []
+  }
+}

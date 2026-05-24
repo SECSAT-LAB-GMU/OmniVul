@@ -1,0 +1,102 @@
+{
+  "CVE-2024-26745": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/09a3c1e46142199adcee372a420b024b4fc61051",
+      "https://git.kernel.org/stable/c/5da6d306f315344af1ca2eff4bd9b10b130f0c28",
+      "https://git.kernel.org/stable/c/7eb95e0af5c9c2e6fad50356eaf32d216d0e7bc3",
+      "https://git.kernel.org/stable/c/d4d1e4b1513d975961de7bb4f75e450a92d65ebf"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-27405": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/059285e04ebb273d32323fbad5431c5b94f77e48",
+      "https://git.kernel.org/stable/c/2b7ec68869d50ea998908af43b643bca7e54577e",
+      "https://git.kernel.org/stable/c/2cb66b62a5d64ccf09b0591ab86fb085fa491fc5",
+      "https://git.kernel.org/stable/c/35b604a37ec70d68b19dafd10bbacf1db505c9ca",
+      "https://git.kernel.org/stable/c/57ca0e16f393bb21d69734e536e383a3a4c665fd",
+      "https://git.kernel.org/stable/c/76c51146820c5dac629f21deafab0a7039bc3ccd",
+      "https://git.kernel.org/stable/c/a31cf46d108dabce3df80b3e5c07661e24912151",
+      "https://git.kernel.org/stable/c/c7f43900bc723203d7554d299a2ce844054fab8e"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-52751": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/5c86919455c1edec99ebd3338ad213b59271a71b",
+      "https://git.kernel.org/stable/c/6db94d08359c43f2c8fe372811cdee04564a41b9",
+      "https://git.kernel.org/stable/c/93877b9afc2994c89362007aac480a7b150f386f"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-46787": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/3c6b4bcf37845c9359aed926324bed66bdd2448d",
+      "https://git.kernel.org/stable/c/71c186efc1b2cf1aeabfeff3b9bd5ac4c5ac14d8",
+      "https://git.kernel.org/stable/c/98cc18b1b71e23fe81a5194ed432b20c2d81a01a"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-46796": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/5a72d1edb0843e4c927a4096f81e631031c25c28",
+      "https://git.kernel.org/stable/c/762099898309218b4a7954f3d49e985dc4dfd638",
+      "https://git.kernel.org/stable/c/f9c169b51b6ce20394594ef674d6b10efba31220"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-37750": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/9502dd5c7029902f4a425bf959917a5a9e7c0e50",
+      "https://git.kernel.org/stable/c/950557922c1298464749c216d8763e97faf5d0a6",
+      "https://git.kernel.org/stable/c/aa5a1e4b882964eb79d5b5d1d1e8a1a5efbb1d15",
+      "https://git.kernel.org/stable/c/e859b216d94668bc66330e61be201234f4413d1a"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-49963": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/8d905254162965c8e6be697d82c7dbf5d08f574d",
+      "https://git.kernel.org/stable/c/97434cb55bd884bd268626ec41489f79b261b2d4"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-49976": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/2986c51540ed50ac654ffb5a772e546c02628c91",
+      "https://git.kernel.org/stable/c/c77b724cddfb8ac1291a60e3e68937e62cbfc5e0"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-38597": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/38682edbbad272b5f8c7bf55128b42cd10626f73",
+      "https://git.kernel.org/stable/c/e1eef239399927b368f70a716044fb10085627c8",
+      "https://git.kernel.org/stable/c/f9f68bf1d0efeadb6c427c9dbb30f307a7def19b"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-50257": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/0991028cd49567d7016d1b224fe0117c35059f86",
+      "https://git.kernel.org/stable/c/0bccddd9b8f03ad57bb738f0d3da8845d4e1e579",
+      "https://git.kernel.org/stable/c/1cb73704cb4778299609634a790a80daba582f7d",
+      "https://git.kernel.org/stable/c/273f6a4f71be12e2ec80a4919837d6e4fa933a04",
+      "https://git.kernel.org/stable/c/3d056d81b93a787613eda44aeb21fc14c3392b34",
+      "https://git.kernel.org/stable/c/49bb053b1ec367b6883030eb2cca696e91435679",
+      "https://git.kernel.org/stable/c/49db6cb81400ba863e1a85e55fcdf1031807c23f",
+      "https://git.kernel.org/stable/c/b043f2cab100bed3e0a999dcf38cc05b1e4a7e41",
+      "https://git.kernel.org/stable/c/cb1ccfe7655380f77a58b340072f5f40bc285902"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-53647": {
+    "patch_urls": [
+      "https://git.kernel.org/stable/c/64f09d45e94547fbf219f36d1d02ac42742c028c",
+      "https://git.kernel.org/stable/c/78e04bbff849b51b56f5925b1945db2c6e128b61",
+      "https://git.kernel.org/stable/c/96db43aced395844a7abc9a0a5cc702513e3534a",
+      "https://git.kernel.org/stable/c/9fc162c59edc841032a3553eb2334320abab0784"
+    ],
+    "exploit_urls": []
+  }
+}

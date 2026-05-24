@@ -1,0 +1,766 @@
+{
+  "CVE-2023-45193": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105501",
+      "role": "patch",
+      "node_id": "7105501",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service when a specially crafted cursor is used. (CVE-2023-45193)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service when a specially crafted cursor is used.",
+      "vulnerability_details": "CVEID:\nCVE-2023-45193\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) federated server is vulnerable to a denial of service when a specially crafted cursor is used.\nCVSS Base score: 5.9\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/268759\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT238103\nDb2 V11.5.0 is not vulnerable.\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-45193"
+      ]
+    }
+  ],
+  "CVE-2023-47746": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105505",
+      "role": "patch",
+      "node_id": "7105505",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service when a specially crafted query is used (CVE-2023-47746)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service when a specially crafted query is used",
+      "vulnerability_details": "CVEID:\nCVE-2023-47746\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow an authenticated user with CONNECT privileges to cause a denial of service using a specially crafted query.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/272644\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.x\nServer\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT246499\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT246499\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT246499\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-47746"
+      ]
+    }
+  ],
+  "CVE-2023-50308": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105506",
+      "role": "patch",
+      "node_id": "7105506",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service when a statement is run on columnar tables under specific conditions (CVE-2023-50308)",
+      "summary": "IBM® Db2®  under certain circumstances could allow an authenticated user to the database to cause a denial of service when a statement is run on columnar tables.",
+      "vulnerability_details": "CVEID:\nCVE-2023-50308\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) under certain circumstances could allow an authenticated user to the database to cause a denial of service when a statement is run on columnar tables.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/273393\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT246563\nDT134109\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-50308"
+      ]
+    }
+  ],
+  "CVE-2023-47152": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105605",
+      "role": "patch",
+      "node_id": "7105605",
+      "title": "Security Bulletin:  IBM® Db2® is vulnerable to an insecure cryptographic algorithm and to information disclosure in stack trace  under exceptional conditions. (CVE-2023-47152)",
+      "summary": "IBM® Db2®  is vulnerable to an insecure cryptographic algorithm and to information disclosure in stack trace  under exceptional conditions.",
+      "vulnerability_details": "CVEID:\nCVE-2023-47152\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to an insecure cryptographic algorithm and to information disclosure in stack trace under exceptional conditions.\nCVSS Base score: 5.9\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/270730\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.x\nClient\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT255114\nPlease contact Db2 support to obtain db2jcc4.jar.\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-47152"
+      ]
+    }
+  ],
+  "CVE-2023-47158": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105496",
+      "role": "patch",
+      "node_id": "7105496",
+      "title": "Security Bulletin:  IBM® Db2® is vulnerable to denial of service with a specially crafted query (CVE-2023-47158)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service with a specially crafted query.",
+      "vulnerability_details": "CVEID:\nCVE-2023-47158\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow an authenticated user with CONNECT privileges to cause a denial of service using a specially crafted query.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/270750\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.x\nServer\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT148274\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT148274\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT148274\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-47158"
+      ]
+    }
+  ],
+  "CVE-2023-47747": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105502",
+      "role": "patch",
+      "node_id": "7105502",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service when using a specially crafted query (CVE-2023-47747)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service when using a specially crafted query.",
+      "vulnerability_details": "CVEID:\nCVE-2023-47747\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow an authenticated user with CONNECT privileges to cause a denial of service using a specially crafted query.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/272646\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.x\nServer\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT221786\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT221786\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT221786\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-47747"
+      ]
+    }
+  ],
+  "CVE-2023-47141": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7105497",
+      "role": "patch",
+      "node_id": "7105497",
+      "title": "Security Bulletin:  IBM® Db2® is vulnerable to denial of service with a specially crafted query (CVE-2023-47141)",
+      "summary": "IBM® Db2® is vulnerable to denial of service with a specially crafted query",
+      "vulnerability_details": "CVEID:\nCVE-2023-47141\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow an authenticated user with CONNECT privileges to cause a denial of service using a specially crafted query.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/270264\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT244409\nDb2 V11.5.0 is not affected.\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.9:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-47141"
+      ]
+    }
+  ],
+  "CVE-2021-20488": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6464081",
+      "role": "patch",
+      "node_id": "6464081",
+      "title": "Security Bulletin: IBM Security Identity Manager Password Synchronization Plug-in for Windows AD affected by multiple vulnerabilities (CVE-2021-20483, CVE-2021-20488)",
+      "summary": "IBM has announced a release for IBM Security Identity Manager Password Synchronization Plug-in for Windows AD to address several security vulnerabilities. The vulnerabilities concern server side request forgery and account take over.",
+      "vulnerability_details": "CVEID:\nCVE-2021-20483\nDESCRIPTION:\nIBM Security Identity Manager 6.0.2 is vulnerable to server-side request forgery (SSRF). By sending a specially crafted request, a remote authenticated attacker could exploit this vulnerability to obtain sensitive data. IBM X-Force ID: 197591.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/197591\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N)\nCVEID:\nCVE-2021-20488\nDESCRIPTION:\nIBM Security Identity Manager 6.0.2 could allow an authenticated malicious user to change the passwords of other users in the Windows AD environment when IBM Security Identity Manager Windows Password Synch Plug-in is deployed and configured. IBM X-Force ID: 197789.\nCVSS Base score: 7.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/197789\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nISIM\n6.0.2\nISIM\n6.0.0",
+      "remediation": "Affected Product / Version\nFix availability\nIBM Security Identity Manager 6.0.2\n6.0.2-ISS-SIM-IF0003\nIBM Security Identity Manager 6.0.0\n6.0.0-ISS-SIM-FP0026",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2021-20483",
+        "CVE-2021-20488"
+      ]
+    }
+  ],
+  "CVE-2021-29702": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6463985",
+      "role": "patch",
+      "node_id": "6463985",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service as the server terminates abnormally when executing a specifically crafted select statement. (CVE-2021-29702)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service as the server terminates abnormally when executing a specifically crafted select statement.",
+      "vulnerability_details": "CVEID:\nCVE-2021-29702\nDESCRIPTION:\nDb2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server terminates abnormally  when executing a specially crafted SELECT statement.\nCVSS Base score: 7.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/200658\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2 V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.1 and V11.5 can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.1 FP5, and V11.5.5. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\n11.1.4FP6\nIT34755\nhttps://www.ibm.com/support/pages/node/6427871\nV11.5\n11.5.5FP1\nIT34862\nhttps://www.ibm.com/support/pages/node/6438025",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2021-29702"
+      ]
+    }
+  ],
+  "CVE-2020-4885": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6466363",
+      "role": "patch",
+      "node_id": "6466363",
+      "title": "Security Bulletin:  IBM® Db2®  could allow a local user to access and change the configuration of DB2 due to a race condition via a  symbolic link. (CVE-2020-4885)",
+      "summary": "IBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) could allow a local user to access and change the configuration of DB2 due to a race condition via a symbolic link.",
+      "vulnerability_details": "CVEID:\nCVE-2020-4885\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes DB2 Connect Server) could allow a local user to access and change the configuration of DB2 due to a race condition of a symbolic link,.\nCVSS Base score: 6.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/190909\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N)",
+      "affected_products": "All fix pack levels of IBM Db2 V11.5 edition on Linux and Unix platforms are affected.  Windows is not impacted.\nAll other versions are not impacted.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5 can download the special build containing the interim fix for this issue from Fix Central. This special build is available based on the most recent fixpack level for the impacted release: V11.5.5 FP1. This can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\n11.5.6\nIT34966\nhttps://www.ibm.com/support/pages/node/6465915",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2020-4885"
+      ]
+    }
+  ],
+  "CVE-2020-4945": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6466367",
+      "role": "patch",
+      "node_id": "6466367",
+      "title": "Security Bulletin:  IBM® Db2®  could allow an authenticated user to overwrite arbitrary files due to improper group permissions. (CVE-2020-4945)",
+      "summary": "IBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) could allow an authenticated user to overwrite arbirary files due to improper group permissions.",
+      "vulnerability_details": "CVEID:\nCVE-2020-4945\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes DB2 Connect Server) could allow an authenticated user to overwrite arbirary files due to improper group permissions.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/191945\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N)",
+      "affected_products": "All fix pack levels of IBM Db2 V11.5 edition on Linux and Unix platforms are affected.  Windows is not impacted.\nAll other versions are not impacted.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5, can download the build containing the fix for this issue from Fix Central. This special build is available based on the most recent fixpack level for the impacted release: V11.5.5 FP1. This can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\n11.5.6\nIT34964\nhttps://www.ibm.com/support/pages/node/6465915",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2020-4945"
+      ]
+    }
+  ],
+  "CVE-2021-20579": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6466369",
+      "role": "patch",
+      "node_id": "6466369",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to an information disclosure (CVE-2021-20579)",
+      "summary": "IBM® Db2®  is vulnerable to  an information disclosure as it could allow a user who can create a view or inline SQL function to obtain sensitive information when AUTO_REVAL is set to DEFFERED_FORCE.",
+      "vulnerability_details": "CVEID:\nCVE-2021-20579\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes DB2 Connect Server) could allow a user who can create a view or inline SQL function to obtain sensitive information when AUTO_REVAL is set to DEFFERED_FORCE.\nCVSS Base score: 5.9\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/199283\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N)",
+      "affected_products": "All fix pack levels of IBM Db2 V9.7, V10.1, V10.5, V11.1, and V11.5 editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V9.7, V10.1, V10.5, V11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V9.7 FP11, V10.1 FP6, V10.5 FP11, V11.1 FP6, and V11.5.5. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV9.7\nTBD\nIT36720\nSpecial Build for V9.7 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV10.1\nTBD\nIT36719\nSpecial Build for V10.1 FP6:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV10.5\nTBD\nIT36718\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nIT36717\nSpecial Build for V11.1 FP6:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nV11.5.6\nIT36475\nhttps://www.ibm.com/support/pages/node/6465915",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2021-20579"
+      ]
+    }
+  ],
+  "CVE-2021-29703": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6466371",
+      "role": "patch",
+      "node_id": "6466371",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to  a denial of service as the server terminates abnormally when executing a specially crafted SELECT statement. (CVE-2021-29703)",
+      "summary": "IBM® Db2®  is vulnerable to  a denial of service as the server terminates abnormally when executing a specially crafted SELECT statement.",
+      "vulnerability_details": "CVEID:\nCVE-2021-29703\nDESCRIPTION:\nDb2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server terminates abnormally  when executing a specially crafted SELECT statement.\nCVSS Base score: 7.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/200659\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2  V10.1, V10.5, V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.1, V10.5, V11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.1 FP6, V10.5 FP11, V11.1.4 FP6, and V11.5.5. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.1\nTBD\nIT36601\nSpecial Build for V10.1 FP6:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV10.5\nTBD\nIT36600\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nIT36599\nSpecial Build for V11.1 FP6:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nv11.5.5FP1\nv11.5.6\nIT34950\nhttps://www.ibm.com/support/pages/node/6438025\nhttps://www.ibm.com/support/pages/node/6465915",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2021-29703"
+      ]
+    }
+  ],
+  "CVE-2021-29777": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6466373",
+      "role": "patch",
+      "node_id": "6466373",
+      "title": "Security Bulletin: Under special circumstances, Db2 is vulnerable to a denial of service during drop table (CVE-2021-29777)",
+      "summary": "Under special circumstances, when a table is dropped while being accessed in another session, IBM® Db2® could allow an authenticated user to cause a denial of service",
+      "vulnerability_details": "CVEID:\nCVE-2021-29777\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server), under specific circumstance of a table being dropped while being accessed in another session, could allow an authenticated user to cause a denial of srevice\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/203031\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2 V9.7, V10.1, V10.5, V11.1, and V11.5 editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V9.7, V10.1, V10.5, V11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V9.7 FP11, V10.1 FP6, V10.5 FP11, V11.1.4 FP6, and V11.5.5 FP1. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV9.7\nTBD\nIT36941\nSpecial Build for V9.7 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV10.1\nTBD\nIT36940\nSpecial Build for V10.1 FP6:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV10.5\nTBD\nIT36939\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nIT36938\nSpecial Build for V11.1 FP6:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\n11.5.6\nIT36026\nhttps://www.ibm.com/support/pages/node/6465915",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2021-29777"
+      ]
+    }
+  ],
+  "CVE-2021-39032": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6540668",
+      "role": "patch",
+      "node_id": "6540668",
+      "title": "Security Bulletin: Sensitive information in logs vulnerability affects IBM Sterling Gentran:Server for Windows (CVE-2021-39032)",
+      "summary": "IBM Sterling Gentran:Server for Windows has addressed a potential vulnerability where sensitive information could be stored in log files.",
+      "vulnerability_details": "CVEID:\nCVE-2021-39032\nDESCRIPTION:\nIBM Sterling Gentran:Server for Windows stores potentially sensitive information in log files that could be read by a local user.\nCVSS Base score: 4\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/213962\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nIBM Sterling Gentran:Server for Windows\n5.3.1",
+      "remediation": "Product\nVRMF\nRemediation\nIBM Sterling Gentran:Server for Windows\n5.3.1\n5.3.1.11",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2021-39032"
+      ]
+    }
+  ],
+  "CVE-2022-22483": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6618779",
+      "role": "patch",
+      "node_id": "6618779",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to an information disclosure in some scenarios due to unauthorized access caused by improper privilege management when CREATE OR REPLACE command is used. (CVE-2022-22483)",
+      "summary": "IBM® Db2®  is vulnerable to an information disclosure in some scenarios due to unauthorized access caused by improper privilege management when CREATE OR REPLACE command is used.",
+      "vulnerability_details": "CVEID:\nCVE-2022-22483\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows 9.7, 10.1, 10.5, 11.1, and 11.5 is vulnerable to an information disclosure in some scenarios due to unauthorized access caused by improper privilege management when CREATE OR REPLACE command is used.  IBM X-Force ID:  225979.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/225979\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N)",
+      "affected_products": "All fix pack levels of IBM Db2 V9.7, V10.1, V10.5, V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V9.7, V10.1, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V9.7 FP11, V10.1 FP6, V10.5 FP11, V11.1.4 FP7, and V11.5.7. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV9.7\nTBD\nIT40893\nSpecial Build for V9.7 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nPlease note: new Security fixes for V9.7 will no longer be provided after December 31, 2022 as it has reached end of support.\nV10.1\nTBD\nIT40892\nSpecial Build for V10.1 FP6:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nPlease note: new Security fixes for V10.1 will no longer be provided after December 31, 2022 as it has reached end of support.\nV10.5\nTBD\nIT40880\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nIT40781\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\n11.5.8\nIT40879\nhttps://www.ibm.com/support/pages/node/6830623\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2022-22483"
+      ]
+    }
+  ],
+  "CVE-2022-35637": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6618775",
+      "role": "patch",
+      "node_id": "6618775",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service after entering a specially crafted malformed SQL statement into the db2expln tool. (CVE-2022-35637)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service after entering a specially crafted malformed SQL statement into the db2expln tool.",
+      "vulnerability_details": "CVEID:\nCVE-2022-35637\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows 9.7, 10.1, 10.5, 11.1, and 11.5 is vulnerable to a denial of service after entering a malformed SQL statement into the Db2expln tool.  IBM X-Force ID:  230823.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/230823\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2 V10.5, V11.1, and V11.5 server editions on all platforms are affected.\nIBM Db2 versions 9.7 and 10.1 are not affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, and V11.5.7. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nIT41339\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nIT41338\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\n11.5.8\nIT41312\nhttps://www.ibm.com/support/pages/node/6830623\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2022-35637"
+      ]
+    }
+  ],
+  "CVE-2022-43927": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6953759",
+      "role": "patch",
+      "node_id": "6953759",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to an information disclosure vulnerabilitiy due to improper privilege management when a specially crafted table access is used.  (CVE-2022-43927)",
+      "summary": "IBM® Db2®  is vulnerable to an information disclosure vulnerability due to improper privilege management when a specially crafted table access is used.",
+      "vulnerability_details": "CVEID:\nCVE-2022-43927\nDESCRIPTION:\nIBM Db2 is vulnerable to information Disclosure due to improper privilege management when a specially crafted table access is used.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/241671\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N)",
+      "affected_products": "All fix pack levels of IBM Db2  V10.5, V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT173489\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nDT173489\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT173489\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2022-43927"
+      ]
+    }
+  ],
+  "CVE-2022-43929": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6953763",
+      "role": "patch",
+      "node_id": "6953763",
+      "title": "Security Bulletin:  IBM® Db2®  may be vulnerable to a denial of service when executing a specially crafted 'Load' command. (CVE-2022-43929)",
+      "summary": "IBM® Db2®  may be vulnerable to a denial of service when executing a specially crafted 'Load' command.",
+      "vulnerability_details": "CVEID:\nCVE-2022-43929\nDESCRIPTION:\nIBM Db2 may be vulnerable to a Denial of Service when executing a specially crafted 'Load' command.\nCVSS Base score: 6.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/241676\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2  V11.1, and V11.5 server editions on all platforms are affected.\nIBM Db2 V10.5 is not affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\nTBD\nDT173007\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT173007\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2022-43929"
+      ]
+    }
+  ],
+  "CVE-2022-43930": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6953755",
+      "role": "patch",
+      "node_id": "6953755",
+      "title": "Security Bulletin:  IBM® Db2®   is vulnerable to an information disclosure vulnerability as sensitive information may be included in a log file. (CVE-2022-43930)",
+      "summary": "IBM® Db2®  is vulnerable to an information disclosure vulnerability as sensitive information may be included in a log file.",
+      "vulnerability_details": "CVEID:\nCVE-2022-43930\nDESCRIPTION:\nIBM Db2 is vulernable to an Information Disclosure as sensitive information may be included in a log file.\nCVSS Base score: 6.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/241677\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N)",
+      "affected_products": "All fix pack levels of IBM Db2  V10.5, V11.1, and V11.5  editions on Windows are affected.  Linux, and Unix are not impacted.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT174059\nSpecial Build for V10.5 FP11:\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT174059\nSpecial Build for V11.1.4 FP7:\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT174059\nSpecial Build for V11.5.8:\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2022-43930"
+      ]
+    }
+  ],
+  "CVE-2023-29257": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6985691",
+      "role": "patch",
+      "node_id": "6985691",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to remote code execution as a database administrator of one database may execute code or read/write files from another database within the same instance. (CVE-2023-29257)",
+      "summary": "IBM® Db2®  is vulnerable to remote code execution as a database administrator of one database may execute code or read/write files from another database within the same instance.",
+      "vulnerability_details": "CVEID:\nCVE-2023-29257\nDESCRIPTION:\nIBM Db2 is vulnerable to remote code execution as a database administrator of one database may execute code or read/write files from another database within the same instance.\nCVSS Base score: 7.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/252011\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2  V10.5, V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, v11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT208180\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nDT208180\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT208180\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-29257"
+      ]
+    }
+  ],
+  "CVE-2023-29255": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6985687",
+      "role": "patch",
+      "node_id": "6985687",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service as as it may trap when compiling a variation of an anonymous block. (CVE-2023-29255)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service as as it may trap when compiling a variation of an anonymous block.",
+      "vulnerability_details": "CVEID:\nCVE-2023-29255\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as it may trap when compiling a variation of an anonymous block.\nCVSS Base score: 7.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/251991\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2  V10.5, V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, v11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT178597\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nDT178597\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT178597\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-29255"
+      ]
+    }
+  ],
+  "CVE-2023-27555": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6985683",
+      "role": "patch",
+      "node_id": "6985683",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service as the server may crash when when attempting to use ACR client affinity for unfenced DRDA federation wrappers. (CVE-2023-27555)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service as the server may crash when when attempting to use ACR client affinity for unfenced DRDA federation wrappers.",
+      "vulnerability_details": "CVEID:\nCVE-2023-27555\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) is vulnerable to a denial of service when attempting to use ACR client affinity for unfenced DRDA federation wrappers.\nCVSS Base score: 5.1\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/249187\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2 V11.5 server editions on all platforms are affected.\nIBM Db2 V11.1 and 10.5 are not affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  v11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT188887\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "Remove the unsupported options from the db2dsdriver.cfg configuration for the federated data source. If the configuration cannot be changed because it shared with other applications then provide a separate configuration for the federated data source.",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-27555"
+      ]
+    }
+  ],
+  "CVE-2023-26021": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6985681",
+      "role": "patch",
+      "node_id": "6985681",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service as the server may crash when compiling a specially crafted SQL query using a LIMIT clause.  (CVE-2023-26021)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service as the server may crash when using a specially crafted SQL query using a LIMIT clause.",
+      "vulnerability_details": "CVEID:\nCVE-2023-26021\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server may crash when compiling a specially crafted SQL query using a LIMIT clause.\nCVSS Base score: 7.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/247864\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2  V11.1, and V11.5 server editions on all platforms are affected.\nIBM Db2 V10.5 is not affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V11.1.4 FP7, v11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\nTBD\nDT160619\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT160619\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-26021"
+      ]
+    }
+  ],
+  "CVE-2023-26022": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/6985669",
+      "role": "patch",
+      "node_id": "6985669",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service as the server may crash when an Out of Memory occurs. (CVE-2023-26022)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service as the server may crash when an Out of Memory occurs.",
+      "vulnerability_details": "CVEID:\nCVE-2023-26022\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server may crash when an Out of Memory occurs using the DBMS_OUTPUT module.\nCVSS Base score: 5.9\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/247868\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "All fix pack levels of IBM Db2  V10.5, V11.1, and V11.5 server editions on all platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, v11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT188693\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nInspur\nV11.1\nTBD\nDT188693\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT188693\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-26022"
+      ]
+    }
+  ],
+  "CVE-2023-23487": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7010567",
+      "role": "patch",
+      "node_id": "7010567",
+      "title": "Security Bulletin:  IBM® Db2®   is vulnerable to insufficient audit logging. (CVE-2023-23487)",
+      "summary": "IBM® Db2®   is vulnerable to insufficient audit logging.",
+      "vulnerability_details": "CVEID:\nCVE-2023-23487\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to insufficient audit logging.\nCVSS Base score: 4.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/245918\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.1.4.7\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V11.1.4 FP7, V11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\nTBD\nDT173476\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT173476\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-23487"
+      ]
+    }
+  ],
+  "CVE-2023-27558": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7010571",
+      "role": "patch",
+      "node_id": "7010571",
+      "title": "Security Bulletin:  IBM® Db2®  on Windows is vulnerable to privilege escalation. (CVE-2023-27558)",
+      "summary": "IBM® Db2® on Windows is vulnerable to privilege escalation caused by at least one installed service using an unquoted service path. A local attacker could exploit this vulnerability to gain elevated privileges by inserting an executable file in the path of the affected service..",
+      "vulnerability_details": "CVEID:\nCVE-2023-27558\nDESCRIPTION:\nIBM Db2 on Windows may be vulnerable to a privilege escalation caused by at least one installed service using an unquoted service path.   A local attacker could exploit this vulnerability to gain elevated privileges by inserting an executable file in the path of the affected service.\nCVSS Base score: 8.4\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/249194\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.11\nServer\nIBM® Db2®\n11.1.4.7\nServer\nIBM® Db2®\n11.5.x\nServer\nWindows platform is affected.  Linux/Unix platforms are not affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT197671\nSpecial Build for V10.5 FP11:\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT197671\nSpecial Build for V11.1.4 FP7:\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT197671\nSpecial Build for V11.5.7:\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-27558"
+      ]
+    }
+  ],
+  "CVE-2023-27867": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7010029",
+      "role": "patch",
+      "node_id": "7010029",
+      "title": "Security Bulletin:  IBM® Db2® JDBC driver is vulnerable to remote code execution. (CVE-2023-27869, CVE-2023-27867, CVE-2023-27868)",
+      "summary": "IBM® Db2® JDBC driver is vulnerable to multiple remote code execution issues. These vulnerabilties are addressed.",
+      "vulnerability_details": "CVEID:\nCVE-2023-27869\nDESCRIPTION:\nIBM Db2 JDBC Driver could allow a remote authenticated attacker to execute arbitrary code on the system, caused by an unchecked logger injection. By sending a specially crafted request using the named traceFile property, an attacker could exploit this vulnerability to execute arbitrary code on the system.\nCVSS Base score: 6.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/249517\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L)\nCVEID:\nCVE-2023-27867\nDESCRIPTION:\nIBM Db2 JDBC Driver could allow a remote authenticated attacker to execute arbitrary code via JNDI Injection. By sending a specially crafted request using the property clientRerouteServerListJNDIName, an attacker could exploit this vulnerability to execute arbitrary code on the system.\nCVSS Base score: 6.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/249514\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L)\nCVEID:\nCVE-2023-27868\nDESCRIPTION:\nIBM Db2 JDBC Driver could allow a remote authenticated attacker to execute arbitrary code on the system, caused by an unchecked class instantiation when providing plugin classes. By sending a specially crafted request using the named pluginClassName class, an attacker could exploit this vulnerability to execute arbitrary code on the system.\nCVSS Base score: 6.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/249516\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.11\nClient and Server\nIBM® Db2®\n11.1.4.7\nClient and Server\nIBM® Db2®\n11.5.x\nClient and Server\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, V11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT211379\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT211379\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT211379\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "For the applications that are calling the JDBC driver ensure all passed values, classes, etc. are properly set, sanitized, and contain valid values.",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-27867",
+        "CVE-2023-27868",
+        "CVE-2023-27869"
+      ]
+    }
+  ],
+  "CVE-2023-30431": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7010565",
+      "role": "patch",
+      "node_id": "7010565",
+      "title": "Security Bulletin:  IBM® Db2® db2set is vulnerable to arbitrary code execution. (CVE-2023-30431)",
+      "summary": "IBM® Db2® db2set  is vulnerable to arbitrary code execution.",
+      "vulnerability_details": "CVEID:\nCVE-2023-30431\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) db2set is vulnerable to a buffer overflow, caused by improper bounds checking.  An attacker could overflow the buffer and execute arbitrary code.\nCVSS Base score: 8.4\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/252184\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.11\nServer\nIBM® Db2®\n11.1.4.7\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT198274\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT198274\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT198274\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-30431"
+      ]
+    }
+  ],
+  "CVE-2023-30442": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7010561",
+      "role": "patch",
+      "node_id": "7010561",
+      "title": "Security Bulletin:  IBM® Db2®  federated server is vulnerable to a denial of service when using a specially crafted wrapper using certain options. (CVE-2023-30442)",
+      "summary": "IBM® Db2®  federated server is vulnerable to a denial of service as the server may crash when using a specially crafted wrapper using certain options.",
+      "vulnerability_details": "CVEID:\nCVE-2023-30442\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) federated server is vulnerable to a denial of service as the server may crash when using a specially crafted wrapper using certain options.\nCVSS Base score: 5.9\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253202\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.1.4.7\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\nTBD\nDT187940\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT187940\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-30442"
+      ]
+    }
+  ],
+  "CVE-2023-30445": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7010557",
+      "role": "patch",
+      "node_id": "7010557",
+      "title": "Security Bulletin:  IBM® Db2®  has multiple denial of service  vulnerabilities  with a specially crafted query",
+      "summary": "IBM® Db2®  has multiple denial of service  vulnerabilities  with a specially crafted query",
+      "vulnerability_details": "CVEID:\nCVE-2023-30447\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query on certain tables.  IBM X-Force ID:  253436.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253436\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)\nCVEID:\nCVE-2023-30446\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query on certain tables.  IBM X-Force ID:  253436.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253361\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)\nCVEID:\nCVE-2023-30443\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query.  IBM X-Force ID:  253205.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253205\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)\nCVEID:\nCVE-2023-30448\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query on certain tables.  IBM X-Force ID:  253437.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253437\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)\nCVEID:\nCVE-2023-30445\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query on certain tables.  IBM X-Force ID:  253357.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253357\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)\nCVEID:\nCVE-2023-30449\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query.  IBM X-Force ID:  253439.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253439\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.11\nServer\nIBM® Db2®\n11.1.4.7\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V10.5, V11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V10.5 FP11, V11.1.4 FP7, V11.5.7 and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT173255\nDT173447\nDT174584\nDT188352\nDT203400\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT173255\nDT173447\nDT174584\nDT188352\nDT203400\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT173255\nDT173447\nDT173793\nDT174584\nDT188352\nDT203400\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-30443",
+        "CVE-2023-30445",
+        "CVE-2023-30446",
+        "CVE-2023-30447",
+        "CVE-2023-30448",
+        "CVE-2023-30449"
+      ]
+    }
+  ],
+  "CVE-2023-45176": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7051448",
+      "role": "patch",
+      "node_id": "7051448",
+      "title": "Security Bulletin: IBM App Connect Enterprise and IBM Integration Bus are vulnerable to a denial of service",
+      "summary": "IBM App Connect Enterprise and IBM Integration Bus are vulnerable to a denial of service for integration nodes on Windows (CVE-2023-45176)",
+      "vulnerability_details": "CVEID:\nCVE-2023-45176\nDESCRIPTION:\nIBM App Connect Enterprise and IBM Integration Bus are vulnerable to a denial of service for integration nodes on Windows.\nCVSS Base score: 6.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/267998\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nIBM App Connect Enterprise\n12.0.1.0 - 12.0.10.0\nIBM App Connect Enterprise\n11.0.0.1 - 11.0.0.23\nIBM Integration Bus\n10.1 - 10.1.0.1",
+      "remediation": "IBM strongly recommends addressing the vulnerability/vulnerabilities now by applying the appropriate fix to\nIBM Integration Bus\nProduct(s)\nVersion(s)\nAPAR\nRemediation / Fix\nIBM App Connect Enterprise\n12.0.1.0 - 12.0.10.0\nPH57096\nInterim fix for APAR (PH57096) is available to apply to\n12.0.10.0\nfrom Fix Central\nIBM App Connect Enterprise\n11.0.0.1 - 11.0.0.23\nPH57096\nInterim fix for APAR (PH57096) is available to apply to\n11.0.0.22\nand\n11.0.0.23\nfrom Fix Central\nIBM Integration Bus\n10.1 - 10.1.0.1\nPH57096\nInterim fix for APAR (PH57096) is available to apply to\n10.1.0.1\nfrom Fix Central",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-45176"
+      ]
+    }
+  ],
+  "CVE-2023-30987": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7047560",
+      "role": "patch",
+      "node_id": "7047560",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to denial of service via a specially crafted query on certain databases. (CVE-2023-30987)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service via a specially crafted query on certain databases.",
+      "vulnerability_details": "CVEID:\nCVE-2023-30987\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) 10.5, 11.1, and 11.5 is vulnerable to denial of service with a specially crafted query on certain databases.  IBM X-Force ID:  253440.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/253440\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.x\nServer\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT188141\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT188141\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT188141\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-30987"
+      ]
+    }
+  ],
+  "CVE-2023-38720": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7047489",
+      "role": "patch",
+      "node_id": "7047489",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to denial of service with a specially crafted ALTER TABLE statement (CVE-2023-38720)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service with a specially crafted ALTER TABLE statement.",
+      "vulnerability_details": "CVEID:\nCVE-2023-38720\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to denial of service with a specially crafted ALTER TABLE statement.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/261616\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\nTBD\nDT215667\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT215667\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-38720"
+      ]
+    }
+  ],
+  "CVE-2023-38728": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7047478",
+      "role": "patch",
+      "node_id": "7047478",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to denial of service with a specially crafted XML query statement (CVE-2023-38728)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service with a specially crafted XML query statement.",
+      "vulnerability_details": "CVEID:\nCVE-2023-38728\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to denial of service with a specially crafted XML query statement.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/262258\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.x\nServer\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT207549\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT207549\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT207549\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-38728"
+      ]
+    }
+  ],
+  "CVE-2023-38740": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7047554",
+      "role": "patch",
+      "node_id": "7047554",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service with a specially crafted SQL statement (CVE-2023-38740)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service with a specially crafted SQL statement.",
+      "vulnerability_details": "CVEID:\nCVE-2023-38740\nDESCRIPTION:\nIBM Db2 for Linux, UNIX, and Windows (includes Db2 Connect Server) is vulnerable to a denial of service with a specially crafted SQL statement.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/262613\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program,  V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release:  V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT224814\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-38740"
+      ]
+    }
+  ],
+  "CVE-2023-30991": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7047499",
+      "role": "patch",
+      "node_id": "7047499",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to denial of service with a specially crafted query (CVE-2023-30991)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service with a specially crafted query.",
+      "vulnerability_details": "CVEID:\nCVE-2023-30991\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to denial of service with a specially crafted query.\nCVSS Base score: 7.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/254037\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.1\nTBD\nDT208544\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT208544\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-30991"
+      ]
+    }
+  ],
+  "CVE-2023-40374": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7047261",
+      "role": "patch",
+      "node_id": "7047261",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to denial of service with a specially crafted query statement. (CVE-2023-40374)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service with a specially crafted query statement.",
+      "vulnerability_details": "CVEID:\nCVE-2023-40374\nDESCRIPTION:\nIBM DB2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to denial of service with a specially crafted query statement.\nCVSS Base score: 5.3\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/263575\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT174494\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-40374"
+      ]
+    }
+  ],
+  "CVE-2023-45178": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7087207",
+      "role": "patch",
+      "node_id": "7087207",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to a denial of service when a specially crafted request is used via CLI. (CVE-2023-45178)",
+      "summary": "IBM® Db2®  is vulnerable to a denial of service when a specially crafted request is used via CLI.",
+      "vulnerability_details": "CVEID:\nCVE-2023-45178\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) CLI is vulnerable to a denial of service when a specially crafted request is used.\nCVSS Base score: 6.5\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/268073\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n11.5.8 - 11.5.9\nClient\nWindows platform is affected.  Linux and Unix are not affected.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V11.5.8 and V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV11.5\nTBD\nDT239599,\nDT259752\nSpecial Build #42458 or later for V11.5.8 available at this link:\nhttps://www.ibm.com/support/pages/node/6856211\nSpecial Build #42449 or later for V11.5.9 available at this link:\nhttps://www.ibm.com/support/pages/node/7087189\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-45178"
+      ]
+    }
+  ],
+  "CVE-2023-40692": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7087157",
+      "role": "patch",
+      "node_id": "7087157",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to denial of service under extreme stress conditions. (CVE-2023-40692)",
+      "summary": "IBM® Db2®  is vulnerable to denial of service under extreme stress conditions.",
+      "vulnerability_details": "CVEID:\nCVE-2023-40692\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to denial of service under extreme stress conditions.\nCVSS Base score: 5.9\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/264807\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.11\nServer\nIBM® Db2®\n11.1.4.7\nServer\nIBM® Db2®\n11.5.x\nServer\nLinux, Unix, Windows platforms are affected. HP-UX and Solaris platforms are not affected. Also 32-bit platforms are not affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.9. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT209167\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 64-bit, x86\nV11.1\nTBD\nDT209167\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 64-bit, x86\nV11.5\nTBD\nDT209167\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 64-bit, x86\nV11.5.9:\nhttps://www.ibm.com/support/pages/node/7071342\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-40692"
+      ]
+    }
+  ],
+  "CVE-2023-38003": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7078681",
+      "role": "patch",
+      "node_id": "7078681",
+      "title": "Security Bulletin:  IBM® Db2®  is vulnerable to privilege escalation with DATAACCESS. (CVE-2023-38003)",
+      "summary": "IBM® Db2®  could allow a user with DATAACCESS privileges to execute routines that they should not have access to.",
+      "vulnerability_details": "CVEID:\nCVE-2023-38003\nDESCRIPTION:\nIBM Db2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow a user with DATAACCESS privileges to execute routines that they should not have access to.\nCVSS Base score: 7.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/260214\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nApplicable Editions\nIBM® Db2®\n10.5.0.x\nServer\nIBM® Db2®\n11.1.4.x\nServer\nIBM® Db2®\n11.5.x\nServer\nAll platforms are affected.\nEarlier releases (10.1, 9.7 etc.) may also be affected, but they are no longer supported.",
+      "remediation": "Customers running any vulnerable fixpack level of an affected Program, V10.5, v11.1 and V11.5, can download the special build containing the interim fix for this issue from Fix Central. These special builds are available based on the most recent fixpack level for each impacted release: V10.5 FP11, V11.1.4 FP7, and V11.5.8. They can be applied to any affected fixpack level of the appropriate release to remediate this vulnerability.\nRelease\nFixed in fix pack\nAPAR\nDownload URL\nV10.5\nTBD\nDT224740\nSpecial Build for V10.5 FP11:\nAIX 64-bit\nHP-UX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ big endian\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nSolaris 64-bit, x86-64\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.1\nTBD\nDT224740\nSpecial Build for V11.1.4 FP7:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nSolaris 64-bit, SPARC\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5\nTBD\nDT224740\nSpecial Build for V11.5.0:\nAIX 64-bit (for OS7.1)\nSpecial Build for V11.5.8:\nAIX 64-bit\nLinux 32-bit, x86-32\nLinux 64-bit, x86-64\nLinux 64-bit, POWER™ little endian\nLinux 64-bit, System z®, System z9® or zSeries®\nWindows 32-bit, x86\nWindows 64-bit, x86\nV11.5.9:\nhttps://www.ibm.com/support/pages/node/7071342\nIBM does not disclose key Db2 functionality nor replication steps for a vulnerability to avoid providing too much information to any potential malicious attacker. IBM does not want to enable a malicious attacker with sufficient knowledge to craft an exploit of the vulnerability.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-38003"
+      ]
+    }
+  ],
+  "CVE-2023-45172": [
+    {
+      "source": "ibm.com",
+      "url": "https://www.ibm.com/support/pages/node/7099314",
+      "role": "patch",
+      "node_id": "7099314",
+      "title": "Security Bulletin: AIX is vulnerable to denial of service due to AIXWindows (CVE-2023-45172)",
+      "summary": "A vulnerability in AIXwindows could allow a non-privileged local user to cause a denial of service (CVE-2023-45172).",
+      "vulnerability_details": "CVEID:\nCVE-2023-45172\nDESCRIPTION:\nIBM AIX could allow a non-privileged local user to exploit a vulnerability in AIXwindows to cause a denial of service.\nCVSS Base score: 6.2\nCVSS Temporal Score: See:\nhttps://exchange.xforce.ibmcloud.com/vulnerabilities/267970\nfor the current score.\nCVSS Vector: (CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)",
+      "affected_products": "Affected Product(s)\nVersion(s)\nAIX\n7.2\nAIX\n7.3\nVIOS\n3.1\nThe vulnerabilities in the following filesets are being addressed:\nFileset\nLower Level\nUpper Level\nX11.base.smt\n7.2.3.0\n7.2.3.15\nX11.base.smt\n7.3.0.0\n7.3.0.0\nX11.base.smt\n7.3.1.0\n7.3.1.0\nTo find out whether the affected filesets are installed on your systems, refer to the lslpp command found in AIX user's guide.\nExample:  lslpp -L | grep -i X11.base.smt",
+      "remediation": "A. APARS\nIBM has assigned the following APARs to this problem:\nAIX Level\nAPAR\nSP\n7.2.5\nIJ48252\nSP07\n7.3.0\nIJ48758\nN/A\n7.3.1\nIJ48540\nSP03\nVIOS Level\nAPAR\nFP\n3.1.3\nIJ48252\nN/A\n3.1.4\nIJ48252\n3.1.4.30\nSubscribe to the APARs here:\nhttps://www.ibm.com/support/pages/apar/[APAR\nNumber]\nBy subscribing, you will receive periodic email alerting you to the status of the APAR, and a link to download the fix once it becomes available.\nB. FIXES\nIBM strongly recommends addressing the vulnerability now.\nAIX and VIOS fixes are available.\nThe AIX and VIOS fixes can be downloaded via https from:\nhttps://aix.software.ibm.com/aix/efixes/security/aixwindows_fix.tar\nThe link above is to a tar file containing this signed advisory, fix packages, and OpenSSL signatures for each package. The fixes below include prerequisite checking. This will enforce the correct mapping between the fixes and AIX Technology Levels.\nAIX Level\nInterim Fix\n7.2.5.5\nIJ48252s6a.230928.epkg.Z\n7.2.5.6\nIJ48252s6a.230928.epkg.Z\n7.3.0.2\nIJ48758s4a.230928.epkg.Z\n7.3.0.3\nIJ48758s4a.230928.epkg.Z\n7.3.0.4\nIJ48758s4a.230928.epkg.Z\n7.3.1.1\nIJ48540s2a.230928.epkg.Z\n7.3.1.2\nIJ48540s2a.230928.epkg.Z\nPlease note that the above table refers to AIX TL/SP level as opposed to fileset level, i.e., 7.2.5.6 is AIX 7200-05-06.\nVIOS Level\nInterim Fix\n3.1.3.21\nIJ48252s6a.230928.epkg.Z\n3.1.3.30\nIJ48252s6a.230928.epkg.Z\n3.1.3.40\nIJ48252s6a.230928.epkg.Z\n3.1.4.10\nIJ48252s6a.230928.epkg.Z\n3.1.4.21\nIJ48252s6a.230928.epkg.Z\nTo extract the fixes from the tar file:\ntar xvf aixwindows_fix.tar\ncd aixwindows_fix\nVerify you have retrieved the fixes intact:\nThe checksums below were generated using the \"openssl dgst -sha256 [filename]\" command as the following:\nopenssl dgst -sha256\nfilename\na0fb7c8612d2b38f8b7def05c7d2e1cb465d5f17b8a1f35364968455fa2a8981\nIJ48252s6a.230928.epkg.Z\n3ce8160e19d373a29c00740574c0276eb5d8ed3f32388acb810955038d868fb6\nIJ48540s2a.230928.epkg.Z\n2a54567e10b4cc0464489421c78b56cf4f449da3bc85c590b3413cc34fc21f33\nIJ48758s4a.230928.epkg.Z\nThese sums should match exactly. The OpenSSL signatures in the tar file and on this advisory can also be used to verify the integrity of the fixes.  If the sums or signatures cannot be confirmed, contact IBM Support at\nhttp://ibm.com/support/\nand describe the discrepancy.\nopenssl dgst -sha256 -verify [pubkey_file] -signature [advisory_file].sig [advisory_file]\nopenssl dgst -sha256 -verify [pubkey_file] -signature [ifix_file].sig [ifix_file]\nPublished advisory OpenSSL signature file location:\nhttps://aix.software.ibm.com/aix/efixes/security/aixwindows_advisory.asc.sig\nC. FIX AND INTERIM FIX INSTALLATION\nIf possible, it is recommended that a mksysb backup of the system be created. Verify it is both bootable and readable before proceeding.\nTo preview a fix installation:\ninstallp -a -d fix_name -p all  # where fix_name is the name of the\n# fix package being previewed.\nTo install a fix package:\ninstallp -a -d fix_name -X all  # where fix_name is the name of the\n# fix package being installed.\nInterim fixes have had limited functional and regression testing but not the full regression testing that takes place for Service Packs; however, IBM does fully support them.\nInterim fix management documentation can be found at:\nhttps://www.ibm.com/support/pages/managing-interim-fixes-aix\nTo preview an interim fix installation:\nemgr -e ipkg_name -p         # where ipkg_name is the name of the\n# interim fix package being previewed.\nTo install an interim fix package:\nemgr -e ipkg_name -X         # where ipkg_name is the name of the\n# interim fix package being installed.",
+      "workarounds": "None",
+      "references": [],
+      "related_cves": [
+        "CVE-2023-45172"
+      ]
+    }
+  ]
+}

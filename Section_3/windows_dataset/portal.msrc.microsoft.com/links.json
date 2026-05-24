@@ -1,0 +1,2978 @@
+{
+  "CVE-2020-17162": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-17162"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1698": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1698"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1722": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1722"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1727": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1727"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1732": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1732"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1734": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1734"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24074": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24074"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24075": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24075"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24076": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24076"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24077": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24077"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24078": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24078"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24079": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24079"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24080": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24080"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24081": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24081"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24083": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24083"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24084": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24084"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24086": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24086"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24088": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24088"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24091": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24091"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24093": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24093"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24094": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24094"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24096": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24096"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24098": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24098"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24102": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24102"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24103": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24103"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24106": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24106"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-25195": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-25195"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1640": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1640"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1729": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1729"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24090": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24090"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-24107": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-24107"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26860": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26860"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26861": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26861"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26862": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26862"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26863": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26863"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26864": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26864"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26865": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26865"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26866": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26866"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26867": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26867"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26868": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26868"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26869": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26869"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26870": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26870"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26871": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26871"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26872": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26872"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26873": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26873"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26874": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26874"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26875": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26875"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26877": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26877"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26878": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26878"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26879": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26879"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26881": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26881"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26884": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26884"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26885": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26885"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26887": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26887"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26889": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26889"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26891": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26891"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26892": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26892"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26893": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26893"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26894": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26894"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26895": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26895"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26896": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26896"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26897": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26897"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26898": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26898"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26899": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26899"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26900": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26900"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26901": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26901"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27063": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27063"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27066": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27066"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27070": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27070"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27077": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27077"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26413": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26413"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26415": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26415"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26416": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26416"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26417": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26417"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27079": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27079"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27086": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27086"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27088": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27088"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27090": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27090"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27093": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27093"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27094": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27094"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-27095": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-27095"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28309": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28309"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28311": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28311"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28312": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28312"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28314": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28314"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28315": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28315"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28316": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28316"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28317": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28317"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28318": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28318"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28319": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28319"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28320": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28320"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28323": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28323"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28324": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28324"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28325": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28325"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28326": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28326"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28328": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28328"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28347": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28347"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28348": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28348"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28349": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28349"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28350": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28350"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28351": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28351"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28435": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28435"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28436": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28436"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28437": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28437"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28438": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28438"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28439": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28439"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28440": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28440"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28441": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28441"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28442": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28442"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28443": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28443"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28444": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28444"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28445": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28445"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28446": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28446"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28447": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28447"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28476": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28476"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28479": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-28479"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31165": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31165"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31167": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31167"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31168": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31168"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31169": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31169"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31170": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31170"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31184": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31184"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31185": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31185"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31186": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31186"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31187": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31187"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31188": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31188"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31190": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31190"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31191": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31191"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31192": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31192"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31193": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31193"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31205": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31205"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31208": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31208"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-1675": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-1675"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26414": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26414"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31951": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31951"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31952": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31952"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31953": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31953"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31954": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31954"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31955": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31955"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31956": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31956"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31958": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31958"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31960": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31960"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31968": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31968"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31969": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31969"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31970": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31970"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31971": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31971"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31972": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31972"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31973": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31973"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31977": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31977"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33742": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33742"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34527": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34527"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31183": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31183"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31961": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31961"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-31979": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-31979"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33740": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33740"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33743": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33743"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33744": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33744"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33745": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33745"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33746": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33746"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33749": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33749"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33750": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33750"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33752": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33752"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33754": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33754"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33755": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33755"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33756": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33756"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33757": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33757"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33758": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33758"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33759": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33759"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33761": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33761"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33763": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33763"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33764": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33764"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33765": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33765"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33771": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33771"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33772": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33772"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33773": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33773"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33774": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33774"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33779": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33779"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33780": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33780"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33782": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33782"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33783": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33783"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33784": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33784"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33785": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33785"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33786": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33786"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-33788": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-33788"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34488": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34488"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34490": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34490"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34492": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34492"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34493": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34493"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34494": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34494"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34496": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34496"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34497": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34497"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34498": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34498"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34499": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34499"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34500": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34500"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34503": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34503"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34504": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34504"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34507": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34507"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34508": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34508"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34511": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34511"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34514": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34514"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34525": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34525"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34438": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34438"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34439": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34439"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34441": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34441"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34442": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34442"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34444": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34444"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34445": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34445"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34446": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34446"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34447": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34447"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34450": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34450"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34454": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34454"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34455": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34455"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34456": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34456"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34457": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34457"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34458": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34458"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34459": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34459"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34461": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34461"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34462": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34462"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34466": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34466"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34481": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34481"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26424": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26424"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26425": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26425"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26426": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26426"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26431": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26431"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26432": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26432"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26433": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26433"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34471": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34471"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34483": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34483"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34484": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34484"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34486": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34486"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34487": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34487"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34530": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34530"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34533": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34533"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34534": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34534"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-34537": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-34537"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36926": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36926"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36927": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36927"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36932": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36932"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36933": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36933"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36936": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36936"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36937": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36937"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36938": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36938"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36942": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36942"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36945": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36945"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36947": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36947"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36948": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36948"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36958": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36958"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26435": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26435"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36954": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36954"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36955": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36955"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36959": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36959"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36960": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36960"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36961": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36961"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36962": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36962"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36963": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36963"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36964": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36964"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36965": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36965"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36966": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36966"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36967": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36967"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36968": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36968"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36969": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36969"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36972": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36972"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36973": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36973"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36974": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36974"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38624": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38624"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38625": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38625"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38626": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38626"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38628": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38628"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38629": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38629"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38630": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38630"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38633": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38633"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38634": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38634"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38635": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38635"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38636": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38636"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38637": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38637"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38638": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38638"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38667": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38667"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38671": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38671"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40444": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40444"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40447": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40447"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-26442": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-26442"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36953": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36953"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36970": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36970"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38662": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38662"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38663": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38663"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38672": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38672"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40443": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40443"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40455": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40455"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40456": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40456"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40460": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40460"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40461": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40461"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40462": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40462"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40463": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40463"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40464": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40464"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40465": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40465"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40466": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40466"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40467": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40467"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40468": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40468"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40469": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40469"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40475": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40475"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40476": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40476"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40477": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40477"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41330": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41330"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41331": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41331"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41332": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41332"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41334": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41334"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41335": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41335"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41336": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41336"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41338": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41338"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41340": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41340"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41342": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41342"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41343": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41343"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41347": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41347"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36957": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-36957"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-38631": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-38631"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41356": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41356"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41371": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41371"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41377": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41377"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41378": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41378"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41379": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41379"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42274": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42274"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42275": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42275"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42276": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42276"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42280": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42280"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42284": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42284"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42285": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42285"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42286": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42286"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42288": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42288"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42297": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-42297"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43211": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43211"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-40441": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-40441"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41333": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-41333"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43207": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43207"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43217": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43217"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43223": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43223"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43224": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43224"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43226": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43226"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43229": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43229"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43230": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43230"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43231": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43231"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43232": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43232"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43234": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43234"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43237": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43237"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43238": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43238"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43239": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43239"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43244": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43244"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43245": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43245"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43246": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43246"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43247": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43247"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43248": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43248"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43880": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43880"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43883": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43883"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43890": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43890"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43893": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2021-43893"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-24767": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-24767"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-21972": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-21972"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22011": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22011"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22012": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22012"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22013": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22013"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22014": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22014"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22015": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22015"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22016": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22016"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22713": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22713"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-23270": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-23270"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-23279": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-23279"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-24466": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-24466"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26913": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26913"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26925": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26925"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26926": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26926"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26927": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26927"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26930": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26930"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26931": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26931"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26933": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26933"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26934": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26934"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26935": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26935"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26936": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26936"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26937": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-26937"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29102": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29102"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29103": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29103"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29104": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29104"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29105": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29105"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29106": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29106"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29112": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29112"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29113": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29113"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29114": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29114"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29115": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29115"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29116": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29116"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29120": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29120"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29121": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29121"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29122": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29122"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29123": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29123"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29125": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29125"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29126": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29126"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29128": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29128"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29129": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29129"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29130": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29130"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29131": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29131"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29132": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29132"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29133": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29133"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29134": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29134"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29135": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29135"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29137": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29137"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29138": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29138"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29139": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29139"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29140": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29140"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29141": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29141"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29142": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29142"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29150": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29150"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-29151": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-29151"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30138": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30138"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30131": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30131"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30132": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30132"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30135": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30135"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30136": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30136"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30139": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30139"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30140": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30140"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30141": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30141"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30142": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30142"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30143": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30143"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30145": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30145"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30146": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30146"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30147": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30147"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30148": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30148"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30149": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30149"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30150": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30150"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30151": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30151"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30152": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30152"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30153": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30153"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30155": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30155"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30160": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30160"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30161": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30161"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30162": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30162"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30163": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30163"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30165": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30165"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30189": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30189"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-22035": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-22035"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-24504": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-24504"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-30198": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-30198"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-33634": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-33634"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-33635": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-33635"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-33645": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-33645"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-34689": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-34689"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-35770": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-35770"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37965": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37965"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37970": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37970"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37971": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37971"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37973": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37973"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37974": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37974"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37975": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37975"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37978": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37978"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37979": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37979"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37980": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37980"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37981": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37981"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37984": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37984"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37985": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37985"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37986": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37986"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37987": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37987"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37988": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37988"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37989": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37989"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37990": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37990"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37991": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37991"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37993": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37993"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37994": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37994"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37995": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37995"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37996": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37996"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37997": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37997"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37998": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37998"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-37999": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-37999"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38000": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38000"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38003": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38003"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38016": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38016"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38022": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38022"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38025": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38025"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38026": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38026"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38027": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38027"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38028": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38028"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38029": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38029"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38030": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38030"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38032": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38032"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38033": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38033"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38034": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38034"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38037": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38037"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38038": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38038"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38039": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38039"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38041": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38041"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38043": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38043"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38044": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38044"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38045": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38045"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38047": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38047"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-38051": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-38051"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41033": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41033"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41081": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41081"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41121": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-41121"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-44689": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-44689"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-44702": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-44702"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-44704": {
+    "patch_urls": [
+      "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2022-44704"
+    ],
+    "exploit_urls": []
+  }
+}

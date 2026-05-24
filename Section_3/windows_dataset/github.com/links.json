@@ -1,0 +1,1301 @@
+{
+  "CVE-2024-22190": {
+    "patch_urls": [
+      "https://github.com/gitpython-developers/GitPython/commit/ef3192cc414f2fd9978908454f6fd95243784c7f",
+      "https://github.com/gitpython-developers/GitPython/pull/1792"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-23331": {
+    "patch_urls": [
+      "https://github.com/vitejs/vite/commit/91641c4da0a011d4c5352e88fc68389d4e1289a5"
+    ],
+    "exploit_urls": [
+      "https://github.com/vitejs/vite/security/advisories/GHSA-c24v-8rfc-w8vw"
+    ]
+  },
+  "CVE-2024-23826": {
+    "patch_urls": [
+      "https://github.com/spbu-se/spbu_se_site/commit/5ad623eb0405260763046343c5785bc588d8a57d"
+    ],
+    "exploit_urls": [
+      "https://github.com/spbu-se/spbu_se_site/security/advisories/GHSA-5vfc-v7hg-pvwm"
+    ]
+  },
+  "CVE-2024-24482": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/iBotPeaches/Apktool/security/advisories/GHSA-vgwr-4w3p-xmjv"
+    ]
+  },
+  "CVE-2024-25140": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/rustdesk/rustdesk/discussions/6444"
+    ]
+  },
+  "CVE-2024-24806": {
+    "patch_urls": [
+      "https://github.com/libuv/libuv/commit/0f2d7e784a256b54b2385043438848047bc2a629",
+      "https://github.com/libuv/libuv/commit/3530bcc30350d4a6ccf35d2f7b33e23292b9de70",
+      "https://github.com/libuv/libuv/commit/c858a147643de38a09dd4164758ae5b685f2b488",
+      "https://github.com/libuv/libuv/commit/e0327e1d508b8207c9150b6e582f0adf26213c39"
+    ],
+    "exploit_urls": [
+      "https://github.com/libuv/libuv/security/advisories/GHSA-f74f-cvh7-c6q6"
+    ]
+  },
+  "CVE-2024-22532": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/pwndorei/CVE-2024-22532"
+    ]
+  },
+  "CVE-2024-27303": {
+    "patch_urls": [
+      "https://github.com/electron-userland/electron-builder/commit/8f4acff3c2d45c1cb07779bb3fe79644408ee387"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-27308": {
+    "patch_urls": [
+      "https://github.com/tokio-rs/mio/commit/90d4fe00df870acd3d38f3dc4face9aacab8fbb9"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-28183": {
+    "patch_urls": [
+      "https://github.com/espressif/esp-idf/commit/3305cb4d235182067936f8e940e6db174e25b4b2",
+      "https://github.com/espressif/esp-idf/commit/4c95aa445d4e84f01f86b6f3a552aa299276abf3",
+      "https://github.com/espressif/esp-idf/commit/534e3ad1fa68526a5f989fb2163856d6b7cd2c87",
+      "https://github.com/espressif/esp-idf/commit/7003f1ef0dffc73c34eb153d1b0710babb078149",
+      "https://github.com/espressif/esp-idf/commit/b2cdc0678965790f49afeb6e6b0737cd24433a05",
+      "https://github.com/espressif/esp-idf/commit/c33b9e1426121ce8cccf1a94241740be9cff68de",
+      "https://github.com/espressif/esp-idf/commit/f327ddf6adab0c28d395975785727b2feef57803"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-31215": {
+    "patch_urls": [
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/commit/43bb71d115d78c03faa82d75445dd908e9b32716",
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/pull/2373"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-22423": {
+    "patch_urls": [
+      "https://github.com/yt-dlp/yt-dlp/commit/de015e930747165dbb8fcd360f8775fd973b7d6e",
+      "https://github.com/yt-dlp/yt-dlp/commit/ff07792676f404ffff6ee61b5638c9dc1a33a37a"
+    ],
+    "exploit_urls": [
+      "https://github.com/yt-dlp/yt-dlp/security/advisories/GHSA-hjq6-52gw-2g7p"
+    ]
+  },
+  "CVE-2024-22014": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/mansk1es/CVE_360TS"
+    ]
+  },
+  "CVE-2024-28240": {
+    "patch_urls": [
+      "https://github.com/glpi-project/glpi-agent/commit/41bbb1169e899bd15350a9e2fdbf9269a3b7a14f"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-1874": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7"
+    ]
+  },
+  "CVE-2024-31226": {
+    "patch_urls": [
+      "https://github.com/LizardByte/Sunshine/commit/93e622342c4f3e9b34f5f265039b6775b8e33a7a",
+      "https://github.com/LizardByte/Sunshine/pull/2379"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-35236": {
+    "patch_urls": [
+      "https://github.com/advplyr/audiobookshelf/commit/ce7f891b9b2cb57c6644aaf96f89a8bda6307664"
+    ],
+    "exploit_urls": [
+      "https://github.com/advplyr/audiobookshelf/assets/36849099/46f6dfe0-9860-4ec0-a987-b3a553f7e45d",
+      "https://github.com/advplyr/audiobookshelf/security/advisories/GHSA-7j99-76cj-q9pg"
+    ]
+  },
+  "CVE-2024-35178": {
+    "patch_urls": [
+      "https://github.com/jupyter-server/jupyter_server/commit/79fbf801c5908f4d1d9bc90004b74cfaaeeed2df"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-2548": {
+    "patch_urls": [
+      "https://github.com/parisneo/lollms-webui/commit/49b0332e98d42dd5204dda53dee410b160106265"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-3429": {
+    "patch_urls": [
+      "https://github.com/parisneo/lollms/commit/f4424cfc3d6dfb3ad5ac17dd46801efe784933e9"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-4881": {
+    "patch_urls": [
+      "https://github.com/parisneo/lollms/commit/95ad36eeffc6a6be3e3f35ed35a384d768f0ecf6"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-37385": {
+    "patch_urls": [
+      "https://github.com/roundcube/roundcubemail/commit/5ea9f37ce39374b6124586c0590fec7015d35d7f"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-5732": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/GTA12138/vul/blob/main/clash%20for%20windows.md"
+    ]
+  },
+  "CVE-2024-5585": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/php/php-src/security/advisories/GHSA-9fcc-425m-g385"
+    ]
+  },
+  "CVE-2024-2408": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/php/php-src/security/advisories/GHSA-hh26-4ppw-5864"
+    ]
+  },
+  "CVE-2024-4577": {
+    "patch_urls": [
+      "https://github.com/rapid7/metasploit-framework/pull/19247"
+    ],
+    "exploit_urls": [
+      "https://github.com/11whoami99/CVE-2024-4577",
+      "https://github.com/php/php-src/security/advisories/GHSA-3qgc-jrrr-25jv",
+      "https://github.com/rapid7/metasploit-framework/pull/19247",
+      "https://github.com/watchtowrlabs/CVE-2024-4577",
+      "https://github.com/xcanwin/CVE-2024-4577-PHP-RCE"
+    ]
+  },
+  "CVE-2024-38272": {
+    "patch_urls": [
+      "https://github.com/google/nearby/pull/2402",
+      "https://github.com/google/nearby/pull/2589"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-24749": {
+    "patch_urls": [
+      "https://github.com/GeoWebCache/geowebcache/commit/c7f76bd8a1d67c3b986146e7a5e0b14dd64a8fef",
+      "https://github.com/geoserver/geoserver/security/advisories/GHSA-jhqx-5v5g-mpf3"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-39698": {
+    "patch_urls": [
+      "https://github.com/electron-userland/electron-builder/commit/ac2e6a25aa491c1ef5167a552c19fc2085cd427f",
+      "https://github.com/electron-userland/electron-builder/pull/8295"
+    ],
+    "exploit_urls": [
+      "https://github.com/electron-userland/electron-builder/security/advisories/GHSA-9jxc-qjr9-vjxq"
+    ]
+  },
+  "CVE-2024-6746": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/NaiboWang/EasySpider/issues/466"
+    ]
+  },
+  "CVE-2024-37391": {
+    "patch_urls": [
+      "https://github.com/ProtonVPN/win-app/commit/2e4e25036842aaf48838c6a59f14671b86c20aa7",
+      "https://github.com/ProtonVPN/win-app/compare/3.2.9...3.2.10"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-41955": {
+    "patch_urls": [
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/commit/fdaad81314f393d324c1ede79627e9d47986c8c8"
+    ],
+    "exploit_urls": [
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-8m9j-2f32-2vx4"
+    ]
+  },
+  "CVE-2024-42474": {
+    "patch_urls": [
+      "https://github.com/streamlit/streamlit/commit/3a639859cfdfba2187c81897d44a3e33825eb0a3"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-43373": {
+    "patch_urls": [
+      "https://github.com/j4k0xb/webcrack/commit/4bc5c6f353012ee7edc2cb39d01a728ab7426999"
+    ],
+    "exploit_urls": [
+      "https://github.com/j4k0xb/webcrack/security/advisories/GHSA-ccqh-278p-xq6w"
+    ]
+  },
+  "CVE-2024-43033": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/JPressProjects/jpress/issues/188",
+      "https://github.com/lazy-forever/CVE-Reference/tree/main/2024/43033"
+    ]
+  },
+  "CVE-2024-45412": {
+    "patch_urls": [
+      "https://github.com/yeti-platform/yeti/commit/f1f0082e7c165f148ae95f4deeb2786404797a39"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-8926": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/php/php-src/security/advisories/GHSA-p99j-rfp4-xqvq"
+    ]
+  },
+  "CVE-2024-49766": {
+    "patch_urls": [
+      "https://github.com/pallets/werkzeug/commit/2767bcb10a7dd1c297d812cc5e6d11a474c1f092"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-48463": {
+    "patch_urls": [
+      "https://github.com/usebruno/bruno/pull/3122"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-51745": {
+    "patch_urls": [
+      "https://github.com/bytecodealliance/cap-std/pull/371"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-10668": {
+    "patch_urls": [
+      "https://github.com/google/nearby/pull/2892"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-47535": {
+    "patch_urls": [
+      "https://github.com/netty/netty/commit/fbf7a704a82e7449b48bd0bbb679f5661c6d61a3"
+    ],
+    "exploit_urls": [
+      "https://github.com/netty/netty/security/advisories/GHSA-xq3w-v528-46rv"
+    ]
+  },
+  "CVE-2024-50919": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/microvorld/CVE-2024/blob/main/jpress.md"
+    ]
+  },
+  "CVE-2024-53268": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/laurent22/joplin/security/advisories/GHSA-pc5v-xp44-5mgv"
+    ]
+  },
+  "CVE-2024-49360": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-4chj-3c28-gvmp"
+    ]
+  },
+  "CVE-2025-22134": {
+    "patch_urls": [
+      "https://github.com/vim/vim/commit/c9a1e257f1630a0866447e53a564f7ff96a80ead"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-23042": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/gradio-app/gradio/security/advisories/GHSA-j2jg-fq62-7c3h"
+    ]
+  },
+  "CVE-2025-24789": {
+    "patch_urls": [
+      "https://github.com/snowflakedb/snowflake-jdbc/commit/4f01bb8f9b708c71e7a2111c87371dbfc1d53dd6"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-35177": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/wazuh/wazuh/security/advisories/GHSA-pmr2-2r83-h3cv"
+    ]
+  },
+  "CVE-2025-25193": {
+    "patch_urls": [
+      "https://github.com/netty/netty/commit/d1fbda62d3a47835d3fb35db8bd42ecc205a5386"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-27142": {
+    "patch_urls": [
+      "https://github.com/localsend/localsend/commit/e8635204ec782ded45bc7d698deb60f3c4105687"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-1828": {
+    "patch_urls": [
+      "https://github.com/perl-Crypt-OpenPGP/Crypt-Random/commit/1f8b29e9e89d8d083fd025152e76ec918136cc05",
+      "https://github.com/perl-Crypt-OpenPGP/Crypt-Random/pull/1"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-8019": {
+    "patch_urls": [
+      "https://github.com/lightning-ai/pytorch-lightning/commit/330af381de88cff17515418a341cbc1f9f127f9a"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-8196": {
+    "patch_urls": [
+      "https://github.com/mintplex-labs/anything-llm/commit/9bfe477f10b188bfe3508ac29105df80d4522ece"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2024-57394": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/cwjchoi01/CVE-2024-57394"
+    ]
+  },
+  "CVE-2025-4178": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250418-02.md"
+    ]
+  },
+  "CVE-2025-46335": {
+    "patch_urls": [
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/commit/6987a946485a795f4fd38cebdb4860b368a1995d"
+    ],
+    "exploit_urls": [
+      "https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-mwfg-948f-2cc5"
+    ]
+  },
+  "CVE-2025-35471": {
+    "patch_urls": [
+      "https://github.com/conda-forge/openssl-feedstock/commit/066e83c5226bafe90a9c0575b077ce30cd5f5921"
+    ],
+    "exploit_urls": [
+      "https://github.com/conda-forge/openssl-feedstock/issues/201"
+    ]
+  },
+  "CVE-2025-43853": {
+    "patch_urls": [
+      "https://github.com/bytecodealliance/wasm-micro-runtime/commit/28702edaf739cdeee54e81efe5868bf00724c33c"
+    ],
+    "exploit_urls": [
+      "https://github.com/bytecodealliance/wasm-micro-runtime/security/advisories/GHSA-8fc8-4g25-c8m7"
+    ]
+  },
+  "CVE-2025-46713": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-5g85-6p6v-r479"
+    ]
+  },
+  "CVE-2025-46714": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-c5h5-54gp-xh4q"
+    ]
+  },
+  "CVE-2025-46715": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-67p9-6h73-ff7x"
+    ]
+  },
+  "CVE-2025-46716": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-3984-r877-q7xp"
+    ]
+  },
+  "CVE-2024-1243": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/wazuh/wazuh/security/advisories/GHSA-3crh-39qv-fxj7"
+    ]
+  },
+  "CVE-2025-54072": {
+    "patch_urls": [
+      "https://github.com/yt-dlp/yt-dlp/commit/959ac99e98c3215437e573c22d64be42d361e863"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-54422": {
+    "patch_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/commit/d107d5743880da28e782c1771b5246b2a512989a"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-51060": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/ZiaLib/Zmsr"
+    ]
+  },
+  "CVE-2025-56803": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/shinyColumn/CVE-2025-56803"
+    ]
+  },
+  "CVE-2025-59050": {
+    "patch_urls": [
+      "https://github.com/greenshot/greenshot/commit/f5a29a2ed3b0eb49231c0f4618300f488cf1b04d"
+    ],
+    "exploit_urls": [
+      "https://github.com/greenshot/greenshot/security/advisories/GHSA-8f7f-x7ww-xx5w"
+    ]
+  },
+  "CVE-2025-54081": {
+    "patch_urls": [
+      "https://github.com/LizardByte/Sunshine/commit/f22b00d6981f756d3531fba0028723d4a5065824"
+    ],
+    "exploit_urls": [
+      "https://github.com/LizardByte/Sunshine/security/advisories/GHSA-6p7j-5v8v-w45h"
+    ]
+  },
+  "CVE-2025-59938": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/wazuh/wazuh/security/advisories/GHSA-vw3r-mjg3-9hh2"
+    ]
+  },
+  "CVE-2025-62187": {
+    "patch_urls": [
+      "https://github.com/ankitects/anki/pull/4041",
+      "https://github.com/ankitects/anki/pull/4041/commits/51476e05b281737a0c2924342bccdb6e5be52ea9"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-61787": {
+    "patch_urls": [
+      "https://github.com/denoland/deno/commit/8a0990ccd37bafd8768176ca64b906ba2da2d822",
+      "https://github.com/denoland/deno/pull/30818"
+    ],
+    "exploit_urls": [
+      "https://github.com/denoland/deno/security/advisories/GHSA-m2gf-x3f6-8hq3"
+    ]
+  },
+  "CVE-2025-32919": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sbaresearch/advisories/tree/public/2025/SBA-ADV-20250724-01_Checkmk_Agent_Privilege_Escalation_via_Insecure_Temporary_Files"
+    ]
+  },
+  "CVE-2025-62801": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/jlowin/fastmcp/security/advisories/GHSA-rj5c-58rq-j5g5"
+    ]
+  },
+  "CVE-2025-11953": {
+    "patch_urls": [
+      "https://github.com/react-native-community/cli/commit/15089907d1f1301b22c72d7f68846a2ef20df547"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-64711": {
+    "patch_urls": [
+      "https://github.com/PrivateBin/PrivateBin/commit/f9550e513381208b36595ee2404e968144bba78b"
+    ],
+    "exploit_urls": [
+      "https://github.com/PrivateBin/PrivateBin/security/advisories/GHSA-r9x7-7ggj-fx9f"
+    ]
+  },
+  "CVE-2025-63680": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/PotatoHamm/Nero-Productline-Vulnerability"
+    ]
+  },
+  "CVE-2025-66221": {
+    "patch_urls": [
+      "https://github.com/pallets/werkzeug/commit/4b833376a45c323a189cd11d2362bcffdb1c0c13"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-66476": {
+    "patch_urls": [
+      "https://github.com/vim/vim/commit/083ec6d9a3b7b09006e0ce69ac802597d25",
+      "https://github.com/vim/vim/security/advisories/GHSA-g77q-xrww-p834"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-66625": {
+    "patch_urls": [
+      "https://github.com/umbraco/Umbraco-CMS/commit/7505efd433189037f46547932d4a8b603fd4a615",
+      "https://github.com/umbraco/Umbraco-CMS/security/advisories/GHSA-hfv2-pf68-m33x"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2025-64721": {
+    "patch_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/commit/000492f8c411d24292f1b977a107994347bc7dfa"
+    ],
+    "exploit_urls": [
+      "https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-w476-j57g-96vp"
+    ]
+  },
+  "CVE-2025-65318": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/bbaboha/CVE-2025-65318-and-CVE-2025-65319"
+    ]
+  },
+  "CVE-2025-65319": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/bbaboha/CVE-2025-65318-and-CVE-2025-65319"
+    ]
+  },
+  "CVE-2025-68146": {
+    "patch_urls": [
+      "https://github.com/tox-dev/filelock/commit/4724d7f8c3393ec1f048c93933e6e3e6ec321f0e",
+      "https://github.com/tox-dev/filelock/pull/461"
+    ],
+    "exploit_urls": [
+      "https://github.com/tox-dev/filelock/security/advisories/GHSA-w853-jp5j-5j7f"
+    ]
+  },
+  "CVE-2025-68154": {
+    "patch_urls": [
+      "https://github.com/sebhildebrandt/systeminformation/commit/c52f9fd07fef42d2d8e8c66f75b42178da701c68"
+    ],
+    "exploit_urls": [
+      "https://github.com/sebhildebrandt/systeminformation/security/advisories/GHSA-wphj-fx3q-84ch"
+    ]
+  },
+  "CVE-2025-68118": {
+    "patch_urls": [
+      "https://github.com/FreeRDP/FreeRDP/commit/a0b21f992a9de1de2468fc9e600aa2b7a4066307"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-35488": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/GuillaumePetit84/CVE-2020-35488"
+    ]
+  },
+  "CVE-2021-21237": {
+    "patch_urls": [
+      "https://github.com/git-lfs/git-lfs/commit/fc664697ed2c2081ee9633010de0a7f9debea72a"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-21292": {
+    "patch_urls": [
+      "https://github.com/traccar/traccar/commit/cc69a9907ac9878db3750aa14ffedb28626455da"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-26299": {
+    "patch_urls": [
+      "https://github.com/autovance/ftp-srv/commit/457b859450a37cba10ff3c431eb4aa67771122e3",
+      "https://github.com/autovance/ftp-srv/issues/167",
+      "https://github.com/autovance/ftp-srv/pull/224"
+    ],
+    "exploit_urls": [
+      "https://github.com/autovance/ftp-srv/issues/167",
+      "https://github.com/autovance/ftp-srv/issues/225",
+      "https://github.com/autovance/ftp-srv/security/advisories/GHSA-pmw4-jgxx-pcq9"
+    ]
+  },
+  "CVE-2021-21323": {
+    "patch_urls": [
+      "https://github.com/brave/brave-browser/issues/13527",
+      "https://github.com/brave/brave-core/commit/12fe321eaad8acc1cbd1d70b4128f687777bcf15",
+      "https://github.com/brave/brave-core/pull/7769"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-21300": {
+    "patch_urls": [
+      "https://github.com/git/git/commit/684dd4c2b414bcf648505e74498a608f28de4592"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-21402": {
+    "patch_urls": [
+      "https://github.com/jellyfin/jellyfin/commit/0183ef8e89195f420c48d2600bc0b72f6d3a7fd7"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-28927": {
+    "patch_urls": [
+      "https://github.com/libretro/RetroArch/blob/d3dc3ee989ec6a4903c689907ffc47027f71f776/frontend/drivers/platform_win32.c"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-29428": {
+    "patch_urls": [
+      "https://github.com/gradle/gradle/pull/15240",
+      "https://github.com/gradle/gradle/pull/15654"
+    ],
+    "exploit_urls": [
+      "https://github.com/gradle/gradle/security/advisories/GHSA-89qm-pxvm-p336"
+    ]
+  },
+  "CVE-2021-33041": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/yoshuawuyts/vmd/issues/137"
+    ]
+  },
+  "CVE-2021-33500": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/ssh-mitm/ssh-mitm-plugins/blob/main/ssh_mitm_plugins/ssh/putty_dos.py"
+    ]
+  },
+  "CVE-2021-33879": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/mmiszczyk/cve-2021-33879"
+    ]
+  },
+  "CVE-2021-26828": {
+    "patch_urls": [
+      "https://github.com/SCADA-LTS/Scada-LTS/pull/2174"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-3013": {
+    "patch_urls": [
+      "https://github.com/BurntSushi/ripgrep/blob/master/CHANGELOG.md"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-36376": {
+    "patch_urls": [
+      "https://github.com/dandavison/delta/commit/f01846bd443aaf92fdd5ac20f461beac3f6ee3fd"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-18169": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/GitHubAssessments/CVE_Assessment_04_2019/blob/master/Snagit_Report.pdf"
+    ]
+  },
+  "CVE-2021-37594": {
+    "patch_urls": [
+      "https://github.com/FreeRDP/FreeRDP/commit/0d79670a28c0ab049af08613621aa0c267f977e9"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-37595": {
+    "patch_urls": [
+      "https://github.com/FreeRDP/FreeRDP/commit/0d79670a28c0ab049af08613621aa0c267f977e9"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-37712": {
+    "patch_urls": [
+      "https://github.com/npm/node-tar/security/advisories/GHSA-qq89-hq3f-393p"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-37713": {
+    "patch_urls": [
+      "https://github.com/npm/node-tar/security/advisories/GHSA-5955-9wpr-37jh"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-26301": {
+    "patch_urls": [
+      "https://github.com/mscdex/ssh2/commit/f763271f41320e71d5cbee02ea5bc6a2ded3ca21"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-3626": {
+    "patch_urls": [
+      "https://github.com/canonical/multipass/pull/2150"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41116": {
+    "patch_urls": [
+      "https://github.com/composer/composer/commit/ca5e2f8d505fd3bfac6f7c85b82f2740becbc0aa"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42740": {
+    "patch_urls": [
+      "https://github.com/substack/node-shell-quote/commit/5799416ed454aa4ec9afafc895b4e31760ea1abe"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-41146": {
+    "patch_urls": [
+      "https://github.com/qutebrowser/qutebrowser/commit/8f46ba3f6dc7b18375f7aa63c48a1fe461190430"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-43800": {
+    "patch_urls": [
+      "https://github.com/Requarks/wiki/commit/414033de9dff66a327e3f3243234852f468a9d85",
+      "https://github.com/Requarks/wiki/security/advisories/GHSA-r363-73gj-6j25"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-45100": {
+    "patch_urls": [
+      "https://github.com/cifsd-team/ksmbd/pull/551"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-3622": {
+    "patch_urls": [
+      "https://github.com/libguestfs/hivex/commit/771728218dac2fbf6997a7e53225e75a4c6b7255"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-46101": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/0xADY/git_rce"
+    ]
+  },
+  "CVE-2022-23609": {
+    "patch_urls": [
+      "https://github.com/bildsben/iTunesRPC-Remastered/commit/1eb1e5428f0926b2829a0bbbb65b0d946e608593"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-23611": {
+    "patch_urls": [
+      "https://github.com/bildsben/iTunesRPC-Remastered/commit/cdcd48bbc44009ddcbd07a809b87376dc9ce37f4"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2019-16864": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/RhinoSecurityLabs/CVEs/tree/master/CVE-2019-16864"
+    ]
+  },
+  "CVE-2022-25372": {
+    "patch_urls": [
+      "https://github.com/pritunl/pritunl-client-electron/commit/e16d47437f8ef62546aa00edb0d64be2a7d2205b"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-23648": {
+    "patch_urls": [
+      "https://github.com/containerd/containerd/commit/10f428dac7cec44c864e1b830a4623af27a9fc70",
+      "https://github.com/containerd/containerd/releases/tag/v1.4.13",
+      "https://github.com/containerd/containerd/releases/tag/v1.5.10",
+      "https://github.com/containerd/containerd/releases/tag/v1.6.1"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-25943": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/HadiMed/KINGSOFT-WPS-Office-LPE"
+    ]
+  },
+  "CVE-2022-24753": {
+    "patch_urls": [
+      "https://github.com/stripe/stripe-cli/commit/be38da5c0191adb77f661f769ffff2fbc7ddf6cd"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-24644": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/gerr-re/cve-2022-24644/blob/main/cve-2022-24644_public-advisory.pdf"
+    ]
+  },
+  "CVE-2022-24760": {
+    "patch_urls": [
+      "https://github.com/parse-community/parse-server/commit/886bfd7cac69496e3f73d4bb536f0eec3cba0e4d"
+    ],
+    "exploit_urls": [
+      "https://github.com/parse-community/parse-server/security/advisories/GHSA-p6h4-93qp-jhcm"
+    ]
+  },
+  "CVE-2022-21221": {
+    "patch_urls": [
+      "https://github.com/valyala/fasthttp/commit/15262ecf3c602364639d465daba1e7f3604d00e8",
+      "https://github.com/valyala/fasthttp/commit/6b5bc7bb304975147b4af68df54ac214ed2554c1",
+      "https://github.com/valyala/fasthttp/issues/1226"
+    ],
+    "exploit_urls": [
+      "https://github.com/valyala/fasthttp/issues/1226"
+    ]
+  },
+  "CVE-2020-24772": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/Dreamacro/clash/issues/910"
+    ]
+  },
+  "CVE-2022-26183": {
+    "patch_urls": [
+      "https://github.com/pnpm/pnpm/commit/04b7f60861ddee8331e50d70e193d1e701abeefb"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26184": {
+    "patch_urls": [
+      "https://github.com/python-poetry/poetry-core/pull/205/commits/fa9cb6f358ae840885c700f954317f34838caba7"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-26255": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/Fndroid/clash_for_windows_pkg/issues/2710"
+    ]
+  },
+  "CVE-2022-27050": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/ycdxsb/Vuln/tree/main/BitComet-Unquoted-Service-Path"
+    ]
+  },
+  "CVE-2022-29072": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/kagancapar/CVE-2022-29072"
+    ]
+  },
+  "CVE-2022-29583": {
+    "patch_urls": [
+      "https://github.com/kardianos/service/pull/290"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-4225": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/pang0lin/CVEproject/blob/main/wordpress_SP-Project_fileupload.md"
+    ]
+  },
+  "CVE-2022-24823": {
+    "patch_urls": [
+      "https://github.com/netty/netty/commit/185f8b2756a36aaa4f973f1a2a025e7d981823f1"
+    ],
+    "exploit_urls": [
+      "https://github.com/netty/netty/security/advisories/GHSA-269q-hmxg-m83q",
+      "https://github.com/netty/netty/security/advisories/GHSA-5mcr-gq6c-3hq2"
+    ]
+  },
+  "CVE-2022-30334": {
+    "patch_urls": [
+      "https://github.com/brave/brave-core/pull/10760"
+    ],
+    "exploit_urls": [
+      "https://github.com/brave/brave-core/pull/10760"
+    ]
+  },
+  "CVE-2022-28944": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/gerr-re/cve-2022-28944/blob/main/cve-2022-28944_public-advisory.pdf"
+    ]
+  },
+  "CVE-2022-29376": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/ycdxsb/Vuln/blob/main/Xampp-Install-Dir-Incorrect-Default-Permission/Xampp-Install-Dir-Incorrect-Default-Permission.md"
+    ]
+  },
+  "CVE-2022-29256": {
+    "patch_urls": [
+      "https://github.com/lovell/sharp/commit/a6aeef612be50f5868a77481848b1de674216f0c",
+      "https://github.com/lovell/sharp/security/advisories/GHSA-gp95-ppv5-3jc5"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-32230": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/zeroSteiner/metasploit-framework/blob/feat/mod/cve-2022-32230/modules/auxiliary/dos/smb/smb_filenormalizednameinformation.rb"
+    ]
+  },
+  "CVE-2022-33127": {
+    "patch_urls": [
+      "https://github.com/samg/diffy/commit/478f392082b66d38f54a02b4bb9c41be32fd6593"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2021-42056": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056"
+    ]
+  },
+  "CVE-2022-31179": {
+    "patch_urls": [
+      "https://github.com/ericcornelissen/shescape/pull/332",
+      "https://github.com/ericcornelissen/shescape/security/advisories/GHSA-jjc5-fp7p-6f8w"
+    ],
+    "exploit_urls": [
+      "https://github.com/ericcornelissen/shescape/security/advisories/GHSA-jjc5-fp7p-6f8w"
+    ]
+  },
+  "CVE-2022-36088": {
+    "patch_urls": [
+      "https://github.com/gocd/gocd/commit/96add9605096ab50c5cd4c229be1d503aff506a6"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-40126": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/Fndroid/clash_for_windows_pkg/issues/3405"
+    ]
+  },
+  "CVE-2022-39327": {
+    "patch_urls": [
+      "https://github.com/Azure/azure-cli/pull/23514",
+      "https://github.com/Azure/azure-cli/pull/24015"
+    ],
+    "exploit_urls": [
+      "https://github.com/Azure/azure-cli/pull/23514",
+      "https://github.com/Azure/azure-cli/security/advisories/GHSA-47xc-9rr2-q7p4"
+    ]
+  },
+  "CVE-2022-41874": {
+    "patch_urls": [
+      "https://github.com/tauri-apps/tauri/security/advisories/GHSA-q9wv-22m9-vhqh"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41882": {
+    "patch_urls": [
+      "https://github.com/nextcloud/desktop/pull/5039",
+      "https://github.com/nextcloud/server/pull/34559"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-36565": {
+    "patch_urls": [
+      "https://github.com/labstack/echo/commit/4422e3b66b9fd498ed1ae1d0242d660d0ed3faaa",
+      "https://github.com/labstack/echo/pull/1718"
+    ],
+    "exploit_urls": [
+      "https://github.com/labstack/echo/pull/1718"
+    ]
+  },
+  "CVE-2022-23511": {
+    "patch_urls": [
+      "https://github.com/aws/amazon-cloudwatch-agent/commit/6119858864c317ff26f41f576c169148d1250837#diff-76ed074a9305c04054cdebb9e9aad2d818052b07091de1f20cad0bbac34ffb52",
+      "https://github.com/aws/amazon-cloudwatch-agent/security/advisories/GHSA-j8x2-2m5w-j939"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-3996": {
+    "patch_urls": [
+      "https://github.com/openssl/openssl/commit/7725e7bfe6f2ce8146b6552b44e0d226be7638e7"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-46330": {
+    "patch_urls": [
+      "https://github.com/Squirrel/Squirrel.Windows/pull/1807"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2020-15679": {
+    "patch_urls": [
+      "https://github.com/mozilla-mobile/guardian-vpn-android/commit/981c840276ef3aee98cf5d42993d484ee99b28d9",
+      "https://github.com/mozilla-mobile/guardian-vpn-ios/commit/4309f5c9bd2c15cdfd39ac173665fad3f2598b54",
+      "https://github.com/mozilla-services/guardian-vpn-windows/commit/ac6f562973a83f6758cd7ab7aa313e863047d41b"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-47934": {
+    "patch_urls": [
+      "https://github.com/brave/brave-core/commit/82d8e39043e691e0492519126437275511ee87e8",
+      "https://github.com/brave/brave-core/pull/14313"
+    ],
+    "exploit_urls": [
+      "https://github.com/brave/brave-browser/issues/24211"
+    ]
+  },
+  "CVE-2020-36639": {
+    "patch_urls": [
+      "https://github.com/alliedmodders/amxmodx/commit/a5f2b5539f6d61050b68df8b22ebb343a2862681",
+      "https://github.com/alliedmodders/amxmodx/pull/823"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-22466": {
+    "patch_urls": [
+      "https://github.com/tokio-rs/tokio/pull/5336"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-22472": {
+    "patch_urls": [
+      "https://github.com/nextcloud/desktop/pull/5106"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2022-41953": {
+    "patch_urls": [
+      "https://github.com/git-for-windows/git/commit/7360767e8dfc1895a932324079f7d45d7791d39f",
+      "https://github.com/git-for-windows/git/pull/4219",
+      "https://github.com/git-for-windows/git/security/advisories/GHSA-v4px-mx59-w99c"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24815": {
+    "patch_urls": [
+      "https://github.com/vert-x3/vertx-web/commit/9e3a783b1d1a731055e9049078b1b1494ece9c15"
+    ],
+    "exploit_urls": [
+      "https://github.com/vert-x3/vertx-web/security/advisories/GHSA-53jx-vvf9-4x38"
+    ]
+  },
+  "CVE-2022-43550": {
+    "patch_urls": [
+      "https://github.com/jitsi/jitsi/commit/8aa7be58522f4264078d54752aae5483bfd854b2"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24816": {
+    "patch_urls": [
+      "https://github.com/ipython/ipython/commit/385d69325319a5972ee9b5983638e3617f21cb1f"
+    ],
+    "exploit_urls": [
+      "https://github.com/ipython/ipython/security/advisories/GHSA-29gw-9793-fvw7"
+    ]
+  },
+  "CVE-2023-23618": {
+    "patch_urls": [
+      "https://github.com/git-for-windows/git/commit/49a8ec9dac3cec6602f05fed1b3f80a549c8c05c"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-24205": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/Fndroid/clash_for_windows_pkg/issues/3891"
+    ]
+  },
+  "CVE-2023-1004": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/marktext/marktext/issues/3575"
+    ]
+  },
+  "CVE-2022-44875": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/olnor18/writeup/tree/master/CVE/CVE-2022-44875"
+    ]
+  },
+  "CVE-2023-1003": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/typora/typora-issues/issues/5623"
+    ]
+  },
+  "CVE-2023-28433": {
+    "patch_urls": [
+      "https://github.com/minio/minio/commit/8d6558b23649f613414c8527b58973fbdfa4d1b8",
+      "https://github.com/minio/minio/commit/b3c54ec81e0a06392abfb3a1ffcdc80c6fbf6ebc"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-27759": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/liong007/Wondershare/issues/8"
+    ]
+  },
+  "CVE-2022-38604": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/LucaBarile/CVE-2022-38604"
+    ]
+  },
+  "CVE-2022-43293": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/LucaBarile/CVE-2022-43293"
+    ]
+  },
+  "CVE-2023-25815": {
+    "patch_urls": [
+      "https://github.com/msys2/MINGW-packages/pull/10461"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-31702": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/sahiloj/CVE-2023-31702/blob/main/README.md"
+    ]
+  },
+  "CVE-2023-32322": {
+    "patch_urls": [
+      "https://github.com/Ombi-app/Ombi/commit/b8a8f029d80454d582bc4a2a05175106809335d0"
+    ],
+    "exploit_urls": [
+      "https://github.com/Ombi-app/Ombi/security/advisories/GHSA-28j3-84m7-gpjp"
+    ]
+  },
+  "CVE-2023-34243": {
+    "patch_urls": [
+      "https://github.com/tgstation/tgstation-server/pull/1526"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-2976": {
+    "patch_urls": [
+      "https://github.com/google/guava/issues/2575"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-35174": {
+    "patch_urls": [
+      "https://github.com/livebook-dev/livebook/commit/2e11b59f677c6ed3b6aa82dad412a8b3406ffdf1",
+      "https://github.com/livebook-dev/livebook/commit/beb10daaadcc765f0380e436bd7cd5f74cf086c8"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-26563": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/RupturaInfoSec/CVE-2023-26563-26564-26565/"
+    ]
+  },
+  "CVE-2023-26078": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/mandiant/Vulnerability-Disclosures/blob/master/2023/MNDT-2023-0009.md"
+    ]
+  },
+  "CVE-2023-2318": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/marktext/marktext/issues/3618"
+    ]
+  },
+  "CVE-2023-40185": {
+    "patch_urls": [
+      "https://github.com/ericcornelissen/shescape/commit/0b976dab645abf45ffd85e74a8c6e51ee2f42d63",
+      "https://github.com/ericcornelissen/shescape/pull/1142",
+      "https://github.com/ericcornelissen/shescape/security/advisories/GHSA-j55r-787p-m549"
+    ],
+    "exploit_urls": [
+      "https://github.com/ericcornelissen/shescape/security/advisories/GHSA-j55r-787p-m549"
+    ]
+  },
+  "CVE-2023-40590": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-wfm5-v35h-vwf4"
+    ]
+  },
+  "CVE-2023-31132": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/Cacti/cacti/security/advisories/GHSA-rf5w-pq3f-9876"
+    ]
+  },
+  "CVE-2023-4760": {
+    "patch_urls": [
+      "https://github.com/eclipse-rap/org.eclipse.rap/pull/141"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-40581": {
+    "patch_urls": [
+      "https://github.com/yt-dlp/yt-dlp/commit/de015e930747165dbb8fcd360f8775fd973b7d6e",
+      "https://github.com/yt-dlp/yt-dlp/security/advisories/GHSA-42h4-v29r-42qg"
+    ],
+    "exploit_urls": [
+      "https://github.com/yt-dlp/yt-dlp/security/advisories/GHSA-42h4-v29r-42qg"
+    ]
+  },
+  "CVE-2023-43662": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/ShokoAnime/ShokoServer/security/advisories/GHSA-mwcv-ghjq-8f2g"
+    ]
+  },
+  "CVE-2023-5257": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/WhiteHSBG/JNDIExploit/issues/10"
+    ]
+  },
+  "CVE-2023-3676": {
+    "patch_urls": [
+      "https://github.com/kubernetes/kubernetes/issues/119339"
+    ],
+    "exploit_urls": [
+      "https://github.com/kubernetes/kubernetes/issues/119339"
+    ]
+  },
+  "CVE-2023-3955": {
+    "patch_urls": [
+      "https://github.com/kubernetes/kubernetes/issues/119595"
+    ],
+    "exploit_urls": [
+      "https://github.com/kubernetes/kubernetes/issues/119595"
+    ]
+  },
+  "CVE-2023-5528": {
+    "patch_urls": [
+      "https://github.com/kubernetes/kubernetes/issues/121879"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-3545": {
+    "patch_urls": [
+      "https://github.com/chamilo/chamilo-lms/commit/dc7bfce429fbd843a95a57c184b6992c4d709549"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-6352": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/qwell/disorder-in-the-court/blob/main/README-TylerTechnologies.md"
+    ]
+  },
+  "CVE-2023-47454": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/xieqiang11/poc-3/tree/main"
+    ]
+  },
+  "CVE-2023-50446": {
+    "patch_urls": [
+      "https://github.com/mullvad/mullvadvpn-app/pull/5398"
+    ],
+    "exploit_urls": []
+  },
+  "CVE-2023-52174": {
+    "patch_urls": [],
+    "exploit_urls": [
+      "https://github.com/seyit-sigirci/Vulnerability-Disclosures/blob/main/XNView-Crash-Reports/BOF%5B0x1C94%5D%2B4%7B%2B0~4%231b99%7D%20128.ecf%20%40%20xnview.exe%2B0x3125D6.html"
+    ]
+  }
+}
