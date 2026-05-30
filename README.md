@@ -33,8 +33,7 @@ You can cite this paper using
 kandalam2026omnivul,
 title={OmniVul: A Holistic, Multi-Turn Conversational Benchmark for {LLM}-Based Vulnerability Assessment},
 author={Vishnu Teja Kandalam and Viet Quoc Duong and Xiaochang Li and Minghui Yin and Vamsi Shankar Simhadri and Hung Pham and Huajie Shao and Xiaokuan Zhang and Yue Xiao},
-booktitle={KDD 2026 Datasets and Benchmarks Track (Cycle 2)},
-year={2026},
-url={https://openreview.net/forum?id=P8nzBpsqxE}
+booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '26)},
+year={2026}
 }
 ```
